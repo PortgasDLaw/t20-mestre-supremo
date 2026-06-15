@@ -34,10 +34,21 @@ const allItems: Equipamento[] = [
   ...equipamentosData.pocoesEPergaminhos,
 ] as unknown as Equipamento[]
 
+const categoriaBadge: Record<string, string> = {
+  arma: 'arma', armadura: 'armadura', escudo: 'escudo',
+  itemGeral: 'item', municao: 'munição', pocaoOuPergaminho: 'poção/perg.',
+}
+
 function getBadgeVariant(cat: string): 'gold' | 'blood' | 'gray' | 'green' | 'blue' | 'purple' {
   if (cat === 'arma') return 'blood'
   if (cat === 'armadura' || cat === 'escudo') return 'blue'
   if (cat === 'pocaoOuPergaminho') return 'purple'
+  return 'gray'
+}
+
+function getProfBadgeVariant(prof: string): 'gold' | 'blood' | 'gray' {
+  if (prof === 'marcial') return 'blood'
+  if (prof === 'exótica') return 'gold'
   return 'gray'
 }
 
@@ -92,106 +103,107 @@ export default function Equipamentos() {
 
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-        {filtrados.map(item => (
-          <Card key={item.id} onClick={() => setSelecionado(item)} glow>
-            <div className="flex items-start justify-between mb-2">
-              <h3 className="font-cinzel font-semibold text-parchment text-sm">{item.nome}</h3>
-              <Badge variant={getBadgeVariant(item.categoria)}>{item.categoria}</Badge>
-            </div>
-            <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs mb-2">
-              <span className="text-parchment-muted">Preço: <span className="text-gold">{item.preco}</span></span>
-              <span className="text-parchment-muted">Peso: <span className="text-parchment">{item.peso}</span></span>
-              {(item as any).dano && <span className="text-parchment-muted">Dano: <span className="text-blood-light">{(item as any).dano}</span></span>}
-              {(item as any).critico && <span className="text-parchment-muted">Crítico: <span className="text-parchment">{(item as any).critico}</span></span>}
-              {(item as any).bonus && <span className="text-parchment-muted">Bônus: <span className="text-blue-400">{(item as any).bonus}</span></span>}
-              {(item as any).penalidade && <span className="text-parchment-muted">Penalid.: <span className="text-red-400">{(item as any).penalidade}</span></span>}
-            </div>
-            {(item as any).propriedades?.length > 0 && (
-              <div className="flex flex-wrap gap-1 mb-2">
-                {(item as any).propriedades.map((p: string) => <Badge key={p} variant="gray">{p}</Badge>)}
+        {filtrados.map(item => {
+          const i = item as any
+          return (
+            <Card key={item.id} onClick={() => setSelecionado(item)} glow>
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="font-cinzel font-semibold text-parchment text-sm leading-tight pr-2">{item.nome}</h3>
+                <Badge variant={getBadgeVariant(item.categoria)}>{categoriaBadge[item.categoria] ?? item.categoria}</Badge>
               </div>
-            )}
-            <p className="text-parchment-muted font-crimson text-xs line-clamp-2">{item.descricao}</p>
-          </Card>
-        ))}
+              <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs mb-3">
+                <span className="text-parchment-muted">Preço: <span className="text-gold font-semibold">{item.preco}</span></span>
+                <span className="text-parchment-muted">Espaços: <span className="text-parchment">{i.espacos ?? '—'}</span></span>
+                {i.dano && <span className="text-parchment-muted">Dano: <span className="text-blood-light font-semibold">{i.dano}</span></span>}
+                {i.critico && <span className="text-parchment-muted">Crítico: <span className="text-parchment">{i.critico}</span></span>}
+                {i.defesa && <span className="text-parchment-muted">Defesa: <span className="text-blue-400 font-semibold">{i.defesa}</span></span>}
+                {i.penalidade && i.penalidade !== '0' && <span className="text-parchment-muted">Penalid.: <span className="text-red-400">{i.penalidade}</span></span>}
+              </div>
+              <div className="flex flex-wrap gap-1">
+                {i.proficiencia && <Badge variant={getProfBadgeVariant(i.proficiencia)}>{i.proficiencia}</Badge>}
+                {i.tipoDano && <Badge variant="gray">{i.tipoDano}</Badge>}
+                {i.empunhadura && <Badge variant="gray">{i.empunhadura}</Badge>}
+                {i.tipo && item.categoria !== 'arma' && item.categoria !== 'armadura' && item.categoria !== 'escudo' && (
+                  <Badge variant="gray">{i.tipo}</Badge>
+                )}
+              </div>
+            </Card>
+          )
+        })}
       </div>
 
       {/* Modal de detalhes */}
-      {selecionado && (
-        <Modal open={!!selecionado} onClose={() => setSelecionado(null)} title={selecionado.nome} size="lg">
-          <div className="space-y-4">
-            <div className="flex gap-2">
-              <Badge variant={getBadgeVariant(selecionado.categoria)}>{selecionado.categoria}</Badge>
-              {(selecionado as any).tipo && <Badge variant="gray">{(selecionado as any).tipo}</Badge>}
-              {(selecionado as any).escola && <Badge variant="purple">{(selecionado as any).escola}</Badge>}
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-parchment-dark text-xs">Preço</p>
-                <p className="text-gold font-cinzel font-semibold">{selecionado.preco}</p>
+      {selecionado && (() => {
+        const s = selecionado as any
+        return (
+          <Modal open={!!selecionado} onClose={() => setSelecionado(null)} title={selecionado.nome} size="lg">
+            <div className="space-y-4">
+              {/* Badges de categoria e tipo */}
+              <div className="flex flex-wrap gap-2">
+                <Badge variant={getBadgeVariant(selecionado.categoria)}>{categoriaBadge[selecionado.categoria] ?? selecionado.categoria}</Badge>
+                {s.proficiencia && <Badge variant={getProfBadgeVariant(s.proficiencia)}>{s.proficiencia}</Badge>}
+                {s.tipo && <Badge variant="gray">{s.tipo}</Badge>}
+                {s.empunhadura && <Badge variant="gray">{s.empunhadura}</Badge>}
               </div>
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-parchment-dark text-xs">Peso</p>
-                <p className="text-parchment font-crimson">{selecionado.peso}</p>
+
+              {/* Grid de stats */}
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <div className="bg-grimoire-800 rounded p-2">
+                  <p className="text-parchment-dark text-xs">Preço</p>
+                  <p className="text-gold font-cinzel font-semibold">{selecionado.preco}</p>
+                </div>
+                <div className="bg-grimoire-800 rounded p-2">
+                  <p className="text-parchment-dark text-xs">Espaços</p>
+                  <p className="text-parchment font-crimson">{s.espacos ?? '—'}</p>
+                </div>
+                {s.dano && (
+                  <div className="bg-grimoire-800 rounded p-2">
+                    <p className="text-parchment-dark text-xs">Dano</p>
+                    <p className="text-blood-light font-cinzel font-semibold">{s.dano}</p>
+                  </div>
+                )}
+                {s.critico && (
+                  <div className="bg-grimoire-800 rounded p-2">
+                    <p className="text-parchment-dark text-xs">Crítico</p>
+                    <p className="text-parchment font-crimson">{s.critico}</p>
+                  </div>
+                )}
+                {s.tipoDano && (
+                  <div className="bg-grimoire-800 rounded p-2">
+                    <p className="text-parchment-dark text-xs">Tipo de Dano</p>
+                    <p className="text-parchment font-crimson">{s.tipoDano}</p>
+                  </div>
+                )}
+                {s.alcance && s.alcance !== '-' && (
+                  <div className="bg-grimoire-800 rounded p-2">
+                    <p className="text-parchment-dark text-xs">Alcance</p>
+                    <p className="text-parchment font-crimson">{s.alcance}</p>
+                  </div>
+                )}
+                {s.defesa && (
+                  <div className="bg-grimoire-800 rounded p-2">
+                    <p className="text-parchment-dark text-xs">Bônus de Defesa</p>
+                    <p className="text-blue-400 font-cinzel font-semibold">{s.defesa}</p>
+                  </div>
+                )}
+                {s.penalidade && s.penalidade !== '0' && (
+                  <div className="bg-grimoire-800 rounded p-2">
+                    <p className="text-parchment-dark text-xs">Penalidade</p>
+                    <p className="text-red-400 font-crimson">{s.penalidade}</p>
+                  </div>
+                )}
               </div>
-              {(selecionado as any).dano && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Dano</p>
-                  <p className="text-blood-light font-cinzel font-semibold">{(selecionado as any).dano}</p>
-                </div>
-              )}
-              {(selecionado as any).critico && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Crítico</p>
-                  <p className="text-parchment font-crimson">{(selecionado as any).critico}</p>
-                </div>
-              )}
-              {(selecionado as any).alcance && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Alcance</p>
-                  <p className="text-parchment font-crimson text-xs">{(selecionado as any).alcance}</p>
-                </div>
-              )}
-              {(selecionado as any).tipoDano && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Tipo de Dano</p>
-                  <p className="text-parchment font-crimson">{(selecionado as any).tipoDano}</p>
-                </div>
-              )}
-              {(selecionado as any).bonus && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Bônus CA</p>
-                  <p className="text-blue-400 font-cinzel font-semibold">{(selecionado as any).bonus}</p>
-                </div>
-              )}
-              {(selecionado as any).maxDes && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Máx. Des</p>
-                  <p className="text-parchment font-crimson">{(selecionado as any).maxDes}</p>
-                </div>
-              )}
-              {(selecionado as any).penalidade && (
-                <div className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">Penalidade</p>
-                  <p className="text-red-400 font-crimson">{(selecionado as any).penalidade}</p>
+
+              {s.descricao && (
+                <div>
+                  <h4 className="font-cinzel text-gold text-xs mb-1">Descrição</h4>
+                  <p className="font-crimson text-parchment text-sm">{s.descricao}</p>
                 </div>
               )}
             </div>
-            {(selecionado as any).propriedades?.length > 0 && (
-              <div>
-                <h4 className="font-cinzel text-gold text-xs mb-1">Propriedades</h4>
-                <div className="flex flex-wrap gap-1">
-                  {(selecionado as any).propriedades.map((p: string) => <Badge key={p} variant="gold">{p}</Badge>)}
-                </div>
-              </div>
-            )}
-            <div>
-              <h4 className="font-cinzel text-gold text-xs mb-1">Descrição</h4>
-              <p className="font-crimson text-parchment text-sm">{selecionado.descricao}</p>
-            </div>
-          </div>
-        </Modal>
-      )}
+          </Modal>
+        )
+      })()}
     </div>
   )
 }
