@@ -5,7 +5,9 @@
       "PowerShell(pip install pymupdf 2>&1)",
       "PowerShell(cd \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; $job = Start-Job { Set-Location \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; npm run dev }; Start-Sleep 5; Receive-Job $job 2>&1)",
       "PowerShell(cd \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'C:\\\\VS.Projetos\\\\t20-mestre-supremo'; npm run dev\")",
-      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:5173\" -UseBasicParsing -TimeoutSec 5)"
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:5173\" -UseBasicParsing -TimeoutSec 5)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(npx tsc *)"
     ]
   }
 }
