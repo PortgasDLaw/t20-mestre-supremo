@@ -89,6 +89,18 @@ export interface TabelaCampanha {
   nota?: string
 }
 
+export interface Item {
+  id: string
+  nome: string
+  tipo: 'artefato' | 'magico' | 'consumivel' | 'documento' | 'tesouro'
+  raridade: 'comum' | 'incomum' | 'raro' | 'muito-raro' | 'lendario'
+  capitulo: string
+  localizacao: string
+  descricao: string
+  mecanica?: string
+  observacoes?: string
+}
+
 // ============================================================
 // GUIA COMPLETO — PASSO A PASSO
 // ============================================================
@@ -1975,7 +1987,7 @@ export const TABELAS: TabelaCampanha[] = [
       ['Glifos 8 — Escriba', 'Cronista', 'Artefato em biblioteca ou arquivo'],
       ['Glifos 9 — Profeta', 'Visionário', 'Artefato em alto templo ou observatório'],
       ['Glifos Mestre — Arcanista', 'Mestre de Estrelas', '—'],
-      ['Gládios 1 — Vingador', '★ Espírito Leal', 'TOMO DE STRAHD no Mosteiro de São Andral'],
+      ['★ Gládios 1 — Vingador', 'Espírito Leal', 'TOMO DE STRAHD no Mosteiro de São Andral'],
       ['Gládios 2 — Guerreiro', 'Campeão', 'Artefato guardado por lutador ou guerreiro'],
       ['Gládios 3 — Mercenário', 'Contratado', 'Artefato com alguém motivado por ganho pessoal'],
       ['Gládios 4 — Monge', 'Asceta', 'Artefato em mosteiro ou templo isolado'],
@@ -2007,4 +2019,258 @@ export const TABELAS: TabelaCampanha[] = [
       ['Moedas Mestre — Destino', 'Fio do Destino', '—']
     ]
   }
+]
+
+// ============================================================
+// ITENS DA CAMPANHA
+// ============================================================
+
+export const ITENS: Item[] = [
+  // ── ARTEFATOS LENDÁRIOS ───────────────────────────────────
+  {
+    id: 'espada-solar',
+    nome: 'Espada Solar',
+    tipo: 'artefato',
+    raridade: 'lendario',
+    capitulo: 'Templo de Âmbar',
+    localizacao: 'Câmara central do Templo de Âmbar — pedestal de âmbar translúcido',
+    descricao: 'Espada Longa +3 que contém o espírito de Sergei Von Zarovich, irmão de Strahd. A lâmina emite luz solar genuína e é a única arma capaz de ferir Strahd em sua forma verdadeira. Quando empunhada pela primeira vez, o espírito de Sergei fala e revela a localização do caixão de Strahd no Castelo Ravenloft.',
+    mecanica: '+3 para ataque e dano. Emite luz solar em 6m de raio. +2d8 dano sagrado/radiante contra mortos-vivos. Suprime regeneração de vampiros enquanto estiverem na área de luz. Vampiros na luz não conseguem usar habilidades mágicas.',
+    observacoes: 'O guardião da câmara (Lich Menor, ND 8, 120 PV) é derrotado automaticamente quando a espada é pega. Ao empunhá-la: Misticismo CD 12 para receber visão da localização exata do caixão de Strahd.',
+  },
+  {
+    id: 'simbolo-sagrado',
+    nome: 'Símbolo Sagrado de Ravenkind',
+    tipo: 'artefato',
+    raridade: 'lendario',
+    capitulo: 'Torre de Van Richten',
+    localizacao: 'Cofre de veludo vermelho no 5º andar (topo) da Torre de Van Richten',
+    descricao: 'Um prato de prata do tamanho de uma mão com o sol entalhado no centro irradiando raios. Van Richten o escondeu no topo da torre antes de partir. Quando segurado, está quente — como aquecido por um sol que não existe em Barovia. Emana uma presença divina genuína, rara nesta terra amaldiçoada.',
+    mecanica: '+2 em testes de Religião. 1x/combate: causar +1d6 dano sagrado adicional num ataque declarado. Misticismo CD 10: sentir presença divina que empurra ativamente contra a escuridão baroviana.',
+    observacoes: 'Um dos três artefatos da profecia de Madame Eva. Carta: Cinco de Glifos — Druida. O cofre abre sozinho quando tocado por mãos com intenção honesta contra Strahd.',
+  },
+  {
+    id: 'tomo-de-strahd',
+    nome: 'Tomo de Strahd',
+    tipo: 'artefato',
+    raridade: 'lendario',
+    capitulo: 'Valaki — Mosteiro de São Andral',
+    localizacao: 'Mosteiro de São Andral, Valaki — em posse de Ireena Kolyana (ela não sabe o que é)',
+    descricao: 'Os pensamentos mais sombrios de Strahd escritos em sua própria mão — um diário filosófico de séculos. Contém confissões sobre seu pacto com os Vestígios do Templo de Âmbar, reflexões sobre a maldição de Barovia, e a tragédia de Tatyana. Ireena o carrega como herança da família adotiva sem conhecer seu conteúdo.',
+    mecanica: 'Leitura do tomo (1 sessão): vantagem em testes de Misticismo sobre vampiros por 1 semana. Revela fraquezas específicas de Strahd que não constam em nenhum outro texto. Pode ser lido multiple vezes — cada leitura revela uma camada mais profunda.',
+    observacoes: 'Um dos três artefatos da profecia. Carta: Um de Gládios — Vingador. A leitura é emocionalmente pesada — Strahd escreve com lucidez sobre seus próprios crimes. Personagens empáticos podem ganhar perspectiva sobre como tentar redimi-lo em vez de apenas destruí-lo.',
+  },
+  // ── ITENS MÁGICOS ─────────────────────────────────────────
+  {
+    id: 'espada-curta-durst',
+    nome: 'Espada Curta +1 (Família Durst)',
+    tipo: 'magico',
+    raridade: 'incomum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 16 — Ático, baú escondido atrás da pilha de móveis (Investigação CD 12)',
+    descricao: 'Espada curta com lâmina ligeiramente encurvada e cabo decorado. "Família Durst" está gravado na lâmina. Pertencia a Rose Durst — seu pai a guardou no ático para quando ela crescesse. Ela nunca cresceu. Se Rose estiver presente quando encontrada, ela reconhece a espada com melancolia.',
+    mecanica: '+1 para ataque e dano. Conta como arma mágica — eficaz contra criaturas imunes a armas não-mágicas como a Sombra na câmara ritual.',
+    observacoes: 'O baú também contém 100 PO e uma Poção de Cura (2d4+4 PV). Cena especial se Rose estiver presente: "Papai disse que eu teria isso quando crescesse. Nunca cresci."',
+  },
+  {
+    id: 'faca-cerimonial',
+    nome: 'Faca Cerimonial dos Durst',
+    tipo: 'magico',
+    raridade: 'incomum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 25 — Câmara do Relicário, terceiro pedestal',
+    descricao: 'Uma faca de cabo ornamentado com símbolos que combinam com as runas do altar de sacrifício. A lâmina tem um fio excelente para sua idade. Usada nos rituais do culto Durst por décadas para oferecer sangue a Strahd. Não é amaldiçoada — apenas sinistra.',
+    mecanica: '1d4 dano cortante. Conta como arma mágica contra mortos-vivos. Combinada com Óleo Abençoado: a unção dura 2 rounds adicionais nesta lâmina (total 3 rounds de +1d4 sagrado).',
+    observacoes: 'Item de recompensa da câmara ritual (junto com 300 PO). Lembre os jogadores que a Sombra é vulnerável a armas mágicas — esta faca é uma opção boa se encontrada antes do encontro.',
+  },
+  {
+    id: 'flauta-van-richten',
+    nome: 'Flauta de Van Richten',
+    tipo: 'magico',
+    raridade: 'raro',
+    capitulo: 'Torre de Van Richten',
+    localizacao: 'Campo de Tser Pool — escondida com os Vistani por Van Richten antes de partir',
+    descricao: 'Uma flauta de madeira entalhada com runas de proteção gravadas ao longo do corpo. Van Richten a deixou com os Vistani como seguro caso precisasse de ajuda para entrar na torre. Madame Eva pode revelar sua localização (Diplomacia CD 10 ou doação de 50 PO ao acampamento).',
+    mecanica: 'Tocar na entrada da Torre: desativa completamente o campo de força. Afastar mortos-vivos (ND ≤ 2) em 9m por 1 minuto (1x/dia, Vontade CD 13 para resistir). A música é incomumente melancólica.',
+    observacoes: 'Uma das três formas de entrar na torre. Alternativas: frase "Eu invoco a proteção de Rudolph Van Richten" (gratuita) ou Misticismo CD 20 força bruta (10 minutos, falha em ≤15: 2d8 elétrico em todos em 3m).',
+  },
+  {
+    id: 'anel-signatura-durst',
+    nome: 'Anel de Signatura dos Durst',
+    tipo: 'magico',
+    raridade: 'incomum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 14 — Quarto Principal, caixa de joias na escrivaninha (não nos corpos)',
+    descricao: 'Anel de signatura com as iniciais entalhadas da família Durst. Parece sem efeito mágico — mas é a chave para uma porta secreta no Castelo Ravenloft. Os personagens provavelmente não saberão disso até chegarem ao castelo.',
+    mecanica: 'Abre um mecanismo de porta secreta específico no Castelo Ravenloft quando inserido. Pode ser vendido por 25 PO se os personagens não perceberem a utilidade — seria uma perda significativa mais tarde.',
+    observacoes: 'ATENÇÃO: Tentar remover joias dos corpos mumificados os anima como Zumbis (ND 1 cada). Os itens estão na escrivaninha — seguro de pegar. A caixa também contém Brincos de Rubi (100 PO).',
+  },
+  {
+    id: 'amuleto-corvo',
+    nome: 'Amuleto do Corvo',
+    tipo: 'magico',
+    raridade: 'incomum',
+    capitulo: 'Valaki',
+    localizacao: 'Com a família Martikov (Wereravens) na Taverna do Corvo Azul, Valaki',
+    descricao: 'Amuleto de prata com um corvo em voo gravado, feito pelos Guardiões da Pena. Os Martikov o oferecem apenas a aliados de confiança comprovada que se oponham genuinamente a Strahd. Não está à venda.',
+    mecanica: 'Comunicação com corvos em linha de visão (mensagens simples, sem custo). 1x/dia: enviar corvo mensageiro a um aliado conhecido — chega em ≈10 minutos se em Barovia. Corvos podem fazer scouting, avisar de emboscadas, rastrear alvos.',
+    observacoes: 'Requer ganhar confiança dos Martikov: Diplomacia CD 13 ou demonstrar claramente oposição a Strahd (mencionar os artefatos já muda a postura deles). Os Martikov são Wereravens e parte dos Guardiões da Pena.',
+  },
+  {
+    id: 'osso-sao-andral',
+    nome: 'Osso de São Andral',
+    tipo: 'magico',
+    raridade: 'raro',
+    capitulo: 'Valaki — Mosteiro de São Andral',
+    localizacao: 'Cripta do Mosteiro — roubado por Milivoj (coveiro), entregue ao carpinteiro Henrick',
+    descricao: 'Relíquia sagrada do santo fundador do mosteiro. Enquanto na cripta consagrada, cria um campo de proteção que impede vampiros e seus servos de entrar. Foi roubado a mando de Strahd: Milivoj (coveiro) foi enganado pelo carpinteiro Henrick e não sabia para que serviria.',
+    mecanica: 'Enquanto na cripta do mosteiro: campo sagrado em 30m que impede vampiros e mortos-vivos de entrar. Efeito quebrado se removido do local consagrado. A missão é recuperá-lo antes da noite — os servos de Strahd vêm ao cair da escuridão.',
+    observacoes: 'Confrontar Milivoj com gentileza (Diplomacia CD 13): ele confessa ter vendido para Henrick sem saber o propósito. Confissão via intimidação funciona mas cria ressentimento. O Tomo de Strahd está com Ireena no mosteiro.',
+  },
+  {
+    id: 'cristal-visao',
+    nome: 'Cristal de Visão de Strahd',
+    tipo: 'magico',
+    raridade: 'muito-raro',
+    capitulo: 'Castelo Ravenloft',
+    localizacao: 'Biblioteca nordeste do Castelo Ravenloft',
+    descricao: 'Esfera de cristal perfeita que Strahd usa para monitorar Barovia. Permite visualizar qualquer lugar dentro dos limites da névoa baroviana com claridade total. Contrapartida: Strahd recebe notificação instantânea quando alguém além dele usa o cristal.',
+    mecanica: 'Concentração (1 ação): visualizar qualquer local em Barovia. Sem limite de distância. Cada uso alerta Strahd imediatamente — ele sabe quem está usando e pode ver a cena também.',
+    observacoes: 'Usar no castelo é extremamente arriscado (Strahd provavelmente está perto). Fora do castelo pode ser valioso para scouting tático — mas sempre há o custo de alertar o Conde.',
+  },
+  // ── CONSUMÍVEIS ───────────────────────────────────────────
+  {
+    id: 'pocao-cura-menor',
+    nome: 'Poção de Cura Menor',
+    tipo: 'consumivel',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 9 — Quarto de Hóspedes, baú no pé da cama (destrancado)',
+    descricao: 'Frasco de líquido vermelho alaranjado que brilha levemente. Deixada por um hóspede dos Durst — um dos poucos itens ainda utilizáveis na mansão abandonada.',
+    mecanica: 'Ação: consumir. Cura 2d4+2 PV.',
+    observacoes: 'O baú também contém 12 peças de prata e um Lenço de Seda "G.A." (mistério narrativo).',
+  },
+  {
+    id: 'pocao-cura',
+    nome: 'Poção de Cura',
+    tipo: 'consumivel',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 16 — Ático, baú escondido (mesmo baú da Espada Curta +1)',
+    descricao: 'Frasco maior que a Menor, com líquido carmesim mais intenso. Guardada no baú de Rose no ático — junto à sua espada que nunca chegou às suas mãos.',
+    mecanica: 'Ação: consumir. Cura 2d4+4 PV.',
+    observacoes: 'Investigação CD 12 para encontrar o baú atrás da pilha de móveis velhos.',
+  },
+  {
+    id: 'pocao-cura-maior',
+    nome: 'Poção de Cura Maior',
+    tipo: 'consumivel',
+    raridade: 'incomum',
+    capitulo: 'Vila de Barovia',
+    localizacao: 'Recompensa do Padre Donavich — oferecida se Doru for curado',
+    descricao: 'Poção de qualidade superior que Donavich guardava para emergências. Ele a oferece com profunda gratidão se os personagens conseguirem curar seu filho Doru da semi-transformação vampírica antes que seja tarde demais.',
+    mecanica: 'Ação: consumir. Cura 4d4+4 PV.',
+    observacoes: 'Para receber: ritual de purificação de Doru (3 frascos de água benta + exposição à luz solar por 1 minuto). Misticismo CD 13 para identificar que a transformação ainda é reversível. Donavich também abençoa uma arma (+1d4 sagrado por 1 sessão).',
+  },
+  {
+    id: 'oleo-abencado',
+    nome: 'Óleo Abençoado',
+    tipo: 'consumivel',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 7 — Sala de Serviçais, baú trancado (Ladinagem CD 11 ou Força CD 15)',
+    descricao: 'Frasco de vidro lacrado com cera vermelha, líquido dourado que brilha levemente. Deixado por um serviçal devoto que saiu da casa antes do colapso da família Durst — uma das poucas pessoas que sobreviveu por ter ido embora a tempo.',
+    mecanica: 'Ação: ungir arma. +1d4 dano sagrado por 1 minuto e conta como mágica contra mortos-vivos. Ou arremessar como projétil (ação de ataque): Reflexos CD 10, acerto causa 2d6 sagrado direto em mortos-vivos.',
+    observacoes: 'Excelente recurso para o combate com a Sombra na câmara ritual — onde armas não-mágicas são ineficazes. O baú também contém 10 peças de prata.',
+  },
+  {
+    id: 'agua-benta',
+    nome: 'Água Benta',
+    tipo: 'consumivel',
+    raridade: 'comum',
+    capitulo: 'Múltiplos Locais',
+    localizacao: 'Comprável: Padre Donavich (Vila de Barovia) ou Vistani (Campo de Tser Pool, ≈5 PO/frasco)',
+    descricao: 'Água consagrada por sacerdote devoto. Em Barovia, tem propriedades reais — não apenas simbólicas — devido à presença de forças sombrias genuínas que reagem ao sagrado.',
+    mecanica: 'Ação de ataque (arremesso, alcance 9m): 2d6 dano sagrado contra mortos-vivos (sem teste de resistência). Ritual de cura de Doru: 3 frascos + luz solar por 1 minuto. Consagrar altar (Religião/Misticismo CD 16): destrói todos mortos-vivos na masmorra imediatamente.',
+    observacoes: 'Para curar Doru, os personagens têm 1 frasco da sala de serviçais (Área 7). Os outros dois: Padre Donavich ou Vistani. Total 3 frascos necessários para o ritual.',
+  },
+  // ── DOCUMENTOS ────────────────────────────────────────────
+  {
+    id: 'diario-elisabeth',
+    nome: 'Diário de Elisabeth Durst',
+    tipo: 'documento',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 6 — Escritório, compartimento secreto sob gaveta (Investigação CD 14)',
+    descricao: 'Livro pequeno encadernado em couro preto. Revela a progressão psicológica de Elisabeth — de mãe normal para cúmplice relutante de sacrifícios. As entradas finais revelam o sacrifício do bebê Walter e o horror de Elisabeth com o que a família se tornou.',
+    mecanica: 'Item narrativo. Confirma que Walter foi sacrificado ("o rito exigiu mais"). Revela que o culto Durst servia ativamente a Strahd com oferendas de sangue. Leitura em voz alta é momento dramático poderoso.',
+    observacoes: 'Fragmentos para ler: "Gustav me prometeu que as crianças nunca saberiam..." / "Walter não sobreviveu ao rito. Gustav diz que foi necessário..." / "A culpa foi sua." O compartimento também contém 50 PO.',
+  },
+  {
+    id: 'diario-rose',
+    nome: 'Diário de Rose Durst',
+    tipo: 'documento',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 11 — Quarto de Rose e Thorn, embaixo da cama de Rose (Investigação CD 10)',
+    descricao: 'Diário pequeno com capa de couro cor-de-rosa desbotado. Caligrafia infantil mas aplicada. As últimas entradas documentam os dias em que Rose tentava ser corajosa para Thorn enquanto os pais não voltavam do porão.',
+    mecanica: 'Item narrativo. Máximo impacto emocional se lido em voz alta enquanto Rose e Thorn estão presentes. Pode aprofundar a empatia dos jogadores com os fantasmas das crianças.',
+    observacoes: 'Última entrada: "A casa faz barulhos à noite. Não saímos mais dos quartos." — Depois disso, páginas em branco. Se lido para os fantasmas, Rose fica imóvel e Thorn vai para a janela. Nenhuma das duas fala.',
+  },
+  {
+    id: 'diario-van-richten',
+    nome: 'Diário de Van Richten',
+    tipo: 'documento',
+    raridade: 'incomum',
+    capitulo: 'Torre de Van Richten',
+    localizacao: '3º andar da Torre de Van Richten — baú com tranca de prata',
+    descricao: 'Décadas de pesquisa de Rudolph Van Richten sobre monstros de Barovia, com foco em vampiros. Inclui táticas, fraquezas conhecidas, comportamentos de Strahd especificamente, e notas pessoais sobre tentativas fracassadas de derrotá-lo.',
+    mecanica: '+5 em testes de Misticismo relacionados a mortos-vivos por 1 semana (1 sessão de leitura). Informação chave: "Strahd adapta táticas em tempo real. Nunca repita uma abordagem que falhou — ele aprende."',
+    observacoes: 'Van Richten pode oferecer o diário voluntariamente se os personagens ganharem sua confiança (ele está na torre disfarçado como "Alanik Ray"). Intuição CD 13 para perceber que "Alanik" sabe coisas demais para um vendedor de ervas.',
+  },
+  {
+    id: 'tomo-abissal',
+    nome: 'Tomo Abissal Disfarçado',
+    tipo: 'documento',
+    raridade: 'incomum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 10 — Biblioteca, segunda prateleira (Misticismo CD 15 para detectar aura)',
+    descricao: 'Volume com capa dizendo "Histórias Populares de Barovia", mas as páginas estão escritas em Abissal. Usa magia de dissimulação para esconder o conteúdo. As páginas têm marcas de uso — alguém na casa Durst praticava esses rituais ativamente.',
+    mecanica: 'Contém três rituais de convocação menor (espíritos subservientes, sombras vinculadas, ecos de mortos). Requer leitura em Abissal. Valor de venda: 50-100 PO para mago ou estudioso de ocultismo.',
+    observacoes: 'Misticismo CD 15 para detectar a aura de dissimulação. Prova que os Durst não apenas estudavam magia sombria — a praticavam. Personagens sem Abissal podem levar o tomo e procurar um tradutor em Valaki.',
+  },
+  // ── TESOUROS ──────────────────────────────────────────────
+  {
+    id: 'brincos-rubi',
+    nome: 'Brincos de Rubi',
+    tipo: 'tesouro',
+    raridade: 'incomum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 14 — Quarto Principal, caixa de joias na escrivaninha',
+    descricao: 'Par de brincos de ouro com rubis engastados. Parte da coleção de joias de Elisabeth Durst — de qualidade aristocrática. Guardados na escrivaninha junto ao Anel de Signatura dos Durst.',
+    mecanica: 'Valor: 100 PO o par. Sem efeito mágico.',
+    observacoes: 'Os itens estão na escrivaninha — não nos corpos. Tentar retirar joias dos corpos mumificados os anima como Zumbis (ND 1 cada).',
+  },
+  {
+    id: 'medalhao-walter',
+    nome: 'Medalhão de Walter Durst',
+    tipo: 'tesouro',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 12 — Berçário, escondido sob a manta no berço (Investigação CD 13)',
+    descricao: 'Medalhão de prata em corrente fina. Verso gravado: "Walter — Filho Predileto. Que descanse no amor eterno dos Durst." Data de mais de dois séculos. Pertencia ao bebê Walter — o filho que os Durst sacrificaram no ritual. A preservação mágica do berçário também o conservou.',
+    mecanica: 'Valor: 25 PO. MALDITO: Portador que dorme com o medalhão faz Vontade CD 13. Na falha: pesadelos — acorda sem benefício de descanso longo e com –1 em todos os testes até o próximo descanso.',
+    observacoes: 'Poderoso momento narrativo se Rose e Thorn estiverem presentes e os personagens concluírem em voz alta que Walter foi sacrificado. Rose: "Não sabíamos." A maldição some se o medalhão for descartado ou consagrado com Água Benta.',
+  },
+  {
+    id: 'lenco-seda',
+    nome: 'Lenço de Seda "G.A."',
+    tipo: 'tesouro',
+    raridade: 'comum',
+    capitulo: 'Casa da Morte',
+    localizacao: 'Área 9 — Quarto de Hóspedes, baú no pé da cama',
+    descricao: 'Lenço de seda branca com iniciais bordadas em fio azul: "G.A." Pertencia a um hóspede dos Durst — alguém que visitou a mansão e não voltou para buscá-lo, ou não teve chance de fazê-lo.',
+    mecanica: 'Sem efeito mágico. Valor: 5 PO (seda de qualidade). Mistério narrativo — as iniciais "G.A." não são explicadas na campanha oficial.',
+    observacoes: 'O Mestre pode expandir: um parente que investigou os Durst e desapareceu, um servo que foi embora, ou um aliado de Strahd. Uma subquestão opcional interessante para grupos curiosos.',
+  },
 ]

@@ -1,18 +1,19 @@
 import { useState, useMemo } from 'react'
 import {
-  GUIA_CAMPANHA, BESTIARIO, NPCS, TABELAS,
-  type GuiaSubsecao, type Monstro, type NPC
+  GUIA_CAMPANHA, BESTIARIO, NPCS, TABELAS, ITENS,
+  type GuiaSubsecao, type Monstro, type NPC, type Item
 } from '../data/strahd-data'
 import { Modal } from '../components/ui/Modal'
 import { Badge } from '../components/ui/Badge'
 import { Input } from '../components/ui/Input'
 import {
-  BookOpen, Shield, Users, Table2, Star, Map,
+  BookOpen, Users, Table2, Star, Map,
   ChevronDown, ChevronUp, Search, Skull, MessageSquare,
-  AlertTriangle, Lightbulb, Sword, Eye, Lock
+  AlertTriangle, Lightbulb, Sword, Eye, Lock,
+  Package, Sparkles, FlaskConical, Scroll, Gem
 } from 'lucide-react'
 
-type Aba = 'guia' | 'tabelas' | 'bestiario' | 'npcs' | 'tarokka'
+type Aba = 'guia' | 'tabelas' | 'bestiario' | 'npcs' | 'tarokka' | 'itens'
 
 const TIPO_ICONS: Record<string, React.ReactNode> = {
   narration: <BookOpen className="w-4 h-4 text-gold" />,
@@ -110,6 +111,7 @@ export default function Campanha() {
           { id: 'bestiario', label: 'Bestiário', icon: Skull },
           { id: 'npcs', label: 'NPCs e Diálogos', icon: Users },
           { id: 'tarokka', label: 'Cartas Tarokka', icon: Star },
+          { id: 'itens', label: 'Itens', icon: Package },
         ] as { id: Aba; label: string; icon: React.ElementType }[]).map(({ id, label, icon: Icon }) => (
           <button
             key={id}
@@ -131,6 +133,7 @@ export default function Campanha() {
       {aba === 'bestiario' && <BestiarioTab />}
       {aba === 'npcs' && <NPCsTab />}
       {aba === 'tarokka' && <TarokkaTab />}
+      {aba === 'itens' && <ItensTab />}
     </div>
   )
 }
@@ -742,6 +745,171 @@ function TarokkaTab() {
               </tbody>
             </table>
           </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ─── ITENS TAB ───────────────────────────────────────────────
+const TIPO_ITEM_ICONS: Record<Item['tipo'], React.ReactNode> = {
+  artefato: <Star className="w-4 h-4 text-gold" />,
+  magico: <Sparkles className="w-4 h-4 text-blue-400" />,
+  consumivel: <FlaskConical className="w-4 h-4 text-green-400" />,
+  documento: <Scroll className="w-4 h-4 text-yellow-400" />,
+  tesouro: <Gem className="w-4 h-4 text-purple-400" />,
+}
+
+const TIPO_ITEM_LABEL: Record<Item['tipo'], string> = {
+  artefato: 'Artefato',
+  magico: 'Mágico',
+  consumivel: 'Consumível',
+  documento: 'Documento',
+  tesouro: 'Tesouro',
+}
+
+const RARIDADE_COR: Record<Item['raridade'], string> = {
+  comum: 'text-gray-400 border-gray-600',
+  incomum: 'text-green-400 border-green-700',
+  raro: 'text-blue-400 border-blue-700',
+  'muito-raro': 'text-purple-400 border-purple-700',
+  lendario: 'text-gold border-gold-700',
+}
+
+const RARIDADE_LABEL: Record<Item['raridade'], string> = {
+  comum: 'Comum',
+  incomum: 'Incomum',
+  raro: 'Raro',
+  'muito-raro': 'Muito Raro',
+  lendario: 'Lendário',
+}
+
+function ItensTab() {
+  const [busca, setBusca] = useState('')
+  const [filtroTipo, setFiltroTipo] = useState<Item['tipo'] | 'todos'>('todos')
+  const [selecionado, setSelecionado] = useState<Item | null>(null)
+
+  const filtrados = useMemo(() => ITENS.filter(item => {
+    const buscaOk = !busca || item.nome.toLowerCase().includes(busca.toLowerCase()) || item.localizacao.toLowerCase().includes(busca.toLowerCase()) || item.capitulo.toLowerCase().includes(busca.toLowerCase())
+    const tipoOk = filtroTipo === 'todos' || item.tipo === filtroTipo
+    return buscaOk && tipoOk
+  }), [busca, filtroTipo])
+
+  const tipos: { id: Item['tipo'] | 'todos'; label: string }[] = [
+    { id: 'todos', label: 'Todos' },
+    { id: 'artefato', label: 'Artefatos' },
+    { id: 'magico', label: 'Mágicos' },
+    { id: 'consumivel', label: 'Consumíveis' },
+    { id: 'documento', label: 'Documentos' },
+    { id: 'tesouro', label: 'Tesouros' },
+  ]
+
+  return (
+    <div className="space-y-4">
+      <p className="font-crimson text-parchment-muted text-sm">
+        Todos os itens, artefatos e documentos encontrados durante a campanha de A Maldição de Strahd.
+      </p>
+
+      <div className="flex flex-col sm:flex-row gap-2 flex-wrap">
+        <Input icon={<Search className="w-4 h-4" />} placeholder="Buscar item, local ou capítulo..." value={busca} onChange={e => setBusca(e.target.value)} className="max-w-xs" />
+        <div className="flex gap-1 flex-wrap">
+          {tipos.map(t => (
+            <button
+              key={t.id}
+              onClick={() => setFiltroTipo(t.id)}
+              className={`px-3 py-1 text-xs font-cinzel rounded border transition-all ${
+                filtroTipo === t.id
+                  ? 'border-gold text-gold bg-gold/10'
+                  : 'border-grimoire-600 text-parchment-muted hover:border-grimoire-400 hover:text-parchment'
+              }`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <span className="text-parchment-dark text-xs font-crimson self-center">{filtrados.length} item(s)</span>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+        {filtrados.map(item => (
+          <div
+            key={item.id}
+            onClick={() => setSelecionado(item)}
+            className="bg-abyss-800 border border-grimoire-600 hover:border-gold/50 rounded-xl p-4 cursor-pointer transition-all"
+          >
+            <div className="flex items-start justify-between mb-2">
+              <div className="flex items-center gap-2 min-w-0">
+                {TIPO_ITEM_ICONS[item.tipo]}
+                <h3 className="font-cinzel font-bold text-parchment text-sm truncate">{item.nome}</h3>
+              </div>
+              <span className={`text-xs font-cinzel font-bold border px-1.5 py-0.5 rounded flex-shrink-0 ml-2 ${RARIDADE_COR[item.raridade]}`}>
+                {RARIDADE_LABEL[item.raridade]}
+              </span>
+            </div>
+            <p className="text-parchment-dark text-xs font-crimson mb-1">📍 {item.capitulo}</p>
+            <p className="font-crimson text-parchment-muted text-xs line-clamp-2">{item.descricao}</p>
+            {item.mecanica && (
+              <div className="mt-2 bg-grimoire-700/50 rounded px-2 py-1">
+                <p className="text-gold text-xs font-crimson line-clamp-1">{item.mecanica}</p>
+              </div>
+            )}
+          </div>
+        ))}
+        {filtrados.length === 0 && (
+          <div className="col-span-full text-center py-8 text-parchment-dark font-crimson text-sm">
+            Nenhum item encontrado para os filtros aplicados.
+          </div>
+        )}
+      </div>
+
+      {selecionado && (
+        <Modal open={!!selecionado} onClose={() => setSelecionado(null)} title={selecionado.nome} size="xl">
+          <ItemDetalhe item={selecionado} />
+        </Modal>
+      )}
+    </div>
+  )
+}
+
+function ItemDetalhe({ item }: { item: Item }) {
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center gap-3 flex-wrap">
+        <div className="flex items-center gap-2">
+          {TIPO_ITEM_ICONS[item.tipo]}
+          <span className="text-parchment-muted text-sm font-crimson">{TIPO_ITEM_LABEL[item.tipo]}</span>
+        </div>
+        <span className={`text-xs font-cinzel font-bold border px-2 py-0.5 rounded ${RARIDADE_COR[item.raridade]}`}>
+          {RARIDADE_LABEL[item.raridade]}
+        </span>
+        <span className="text-parchment-dark text-xs font-crimson">📍 {item.capitulo}</span>
+      </div>
+
+      <div className="bg-grimoire-800 rounded-lg p-3">
+        <p className="font-cinzel text-gold text-xs mb-1">Localização</p>
+        <p className="font-crimson text-parchment-muted text-xs">{item.localizacao}</p>
+      </div>
+
+      <div>
+        <p className="font-cinzel text-parchment text-xs mb-1">Descrição</p>
+        <p className="font-crimson text-parchment-muted text-sm leading-relaxed">{item.descricao}</p>
+      </div>
+
+      {item.mecanica && (
+        <div className="bg-gold/5 border border-gold-800 rounded-lg p-3">
+          <p className="font-cinzel text-gold text-xs font-bold mb-1 flex items-center gap-1">
+            <Sword className="w-3 h-3" /> Mecânica de Jogo
+          </p>
+          <p className="font-crimson text-parchment text-sm leading-relaxed">{item.mecanica}</p>
+        </div>
+      )}
+
+      {item.observacoes && (
+        <div className="bg-yellow-950/20 border border-yellow-700/50 rounded-lg p-3">
+          <p className="font-cinzel text-yellow-400 text-xs font-bold mb-1 flex items-center gap-1">
+            <Lightbulb className="w-3 h-3" /> Nota do Mestre
+          </p>
+          <p className="font-crimson text-parchment-muted text-sm leading-relaxed">{item.observacoes}</p>
         </div>
       )}
     </div>
