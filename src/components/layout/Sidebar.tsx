@@ -1,5 +1,5 @@
-import { useStore } from '../../store'
-import { cn } from '../../utils/cn'
+import { useStore } from '@/store'
+import { cn } from '@/utils/cn'
 import {
   LayoutDashboard, Sword, AlertTriangle, Sparkles, Skull, Dices,
   Shield, BookOpen, Users, Map, BookMarked, Wand2, Wrench, Search,

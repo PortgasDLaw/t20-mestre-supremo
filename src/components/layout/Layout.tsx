@@ -1,22 +1,23 @@
-import { useEffect, useRef } from 'react'
+import { lazy, Suspense, useEffect, useRef } from 'react'
 import { Sidebar } from './Sidebar'
-import { useStore } from '../../store'
-import Dashboard from '../../pages/Dashboard'
-import Equipamentos from '../../pages/Equipamentos'
-import Condicoes from '../../pages/Condicoes'
-import Magias from '../../pages/Magias'
-import Ameacas from '../../pages/Ameacas'
-import GeradorEncontros from '../../pages/GeradorEncontros'
-import RastreadorCombate from '../../pages/RastreadorCombate'
-import TabelasMestre from '../../pages/TabelasMestre'
-import NPCs from '../../pages/NPCs'
-import ReinosArton from '../../pages/ReinosArton'
-import Campanha from '../../pages/Campanha'
-import GeradorAventuras from '../../pages/GeradorAventuras'
-import FerramentasRapidas from '../../pages/FerramentasRapidas'
-import BuscaUniversal from '../../pages/BuscaUniversal'
-import Racas from '../../pages/Racas'
-import Classes from '../../pages/Classes'
+import { useStore } from '@/store'
+
+const Dashboard = lazy(() => import('@/features/campanha/Dashboard'))
+const Equipamentos = lazy(() => import('@/features/compendio/Equipamentos'))
+const Condicoes = lazy(() => import('@/features/compendio/Condicoes'))
+const Magias = lazy(() => import('@/features/compendio/Magias'))
+const Ameacas = lazy(() => import('@/features/compendio/Ameacas'))
+const GeradorEncontros = lazy(() => import('@/features/combate/GeradorEncontros'))
+const RastreadorCombate = lazy(() => import('@/features/combate/RastreadorCombate'))
+const TabelasMestre = lazy(() => import('@/features/compendio/TabelasMestre'))
+const NPCs = lazy(() => import('@/features/campanha/NPCs'))
+const ReinosArton = lazy(() => import('@/features/compendio/ReinosArton'))
+const Campanha = lazy(() => import('@/features/campanha/Campanha'))
+const GeradorAventuras = lazy(() => import('@/features/ferramentas/GeradorAventuras'))
+const FerramentasRapidas = lazy(() => import('@/features/ferramentas/FerramentasRapidas'))
+const BuscaUniversal = lazy(() => import('@/features/ferramentas/BuscaUniversal'))
+const Racas = lazy(() => import('@/features/compendio/Racas'))
+const Classes = lazy(() => import('@/features/compendio/Classes'))
 
 const pages: Record<string, React.ReactNode> = {
   dashboard: <Dashboard />,
@@ -55,7 +56,13 @@ export function Layout() {
       <Sidebar />
       <main className="flex-1 overflow-y-auto bg-gothic-pattern">
         <div className="min-h-full p-6 animate-fade-in">
-          {pages[paginaAtual] ?? <Dashboard />}
+          <Suspense fallback={
+            <div className="flex items-center justify-center h-64">
+              <div className="font-cinzel text-gold animate-pulse">Carregando...</div>
+            </div>
+          }>
+            {pages[paginaAtual] ?? <Dashboard />}
+          </Suspense>
         </div>
       </main>
     </div>

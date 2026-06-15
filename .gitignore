@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Logs e temporários
+*.log
+*.local
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
