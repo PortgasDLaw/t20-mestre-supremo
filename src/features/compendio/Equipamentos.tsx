@@ -88,7 +88,7 @@ export default function Equipamentos() {
         </div>
         {categoria === 'arma' && (
           <div className="flex gap-1">
-            {['todos', 'simples', 'marcial', 'exótica'].map(t => (
+            {['todos', 'simples', 'marcial', 'exótica', 'fogo'].map(t => (
               <button key={t} onClick={() => setTipoArma(t)}
                 className={`px-2 py-1 text-xs font-crimson rounded transition-colors ${tipoArma === t ? 'bg-blood text-parchment' : 'text-parchment-muted hover:text-parchment'}`}>
                 {t.charAt(0).toUpperCase() + t.slice(1)}
