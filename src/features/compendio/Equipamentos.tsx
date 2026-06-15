@@ -4,29 +4,40 @@ import { Card } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Badge } from '@/components/ui/Badge'
 import { Modal } from '@/components/ui/Modal'
-import { Search, Sword, Shield } from 'lucide-react'
+import { Search } from 'lucide-react'
 import type { Equipamento } from '@/types'
 
-type Categoria = 'todos' | 'arma' | 'armadura' | 'escudo' | 'itemGeral' | 'pocao' | 'pergaminho' | 'anel' | 'amuleto'
+type Categoria = 'todos' | 'arma' | 'armadura' | 'escudo' | 'itemGeral' | 'municao' | 'pocaoOuPergaminho'
 
 const categoriaLabel: Record<string, string> = {
   todos: 'Todos', arma: 'Armas', armadura: 'Armaduras', escudo: 'Escudos',
-  itemGeral: 'Itens Gerais', pocao: 'Poções', pergaminho: 'Pergaminhos',
-  anel: 'Anéis', amuleto: 'Amuletos',
+  itemGeral: 'Itens Gerais', municao: 'Munições', pocaoOuPergaminho: 'Poções & Pergaminhos',
 }
 
 const allItems: Equipamento[] = [
   ...equipamentosData.armas,
+  ...equipamentosData.municoes,
   ...equipamentosData.armaduras,
   ...equipamentosData.escudos,
-  ...equipamentosData.itensGerais,
-  ...equipamentosData.itensMagicos,
-] as Equipamento[]
+  ...equipamentosData.alimentacao,
+  ...equipamentosData.animais,
+  ...equipamentosData.catalisadoresAlquimicos,
+  ...equipamentosData.equipamentoAnimal,
+  ...equipamentosData.equipamentoDeAventura,
+  ...equipamentosData.itensEsotericos,
+  ...equipamentosData.ferramentas,
+  ...equipamentosData.preparadosAlquimicos,
+  ...equipamentosData.servicos,
+  ...equipamentosData.veiculos,
+  ...equipamentosData.venenosAlquimicos,
+  ...equipamentosData.vestuario,
+  ...equipamentosData.pocoesEPergaminhos,
+] as unknown as Equipamento[]
 
 function getBadgeVariant(cat: string): 'gold' | 'blood' | 'gray' | 'green' | 'blue' | 'purple' {
   if (cat === 'arma') return 'blood'
   if (cat === 'armadura' || cat === 'escudo') return 'blue'
-  if (cat === 'pocao' || cat === 'pergaminho' || cat === 'anel' || cat === 'amuleto') return 'purple'
+  if (cat === 'pocaoOuPergaminho') return 'purple'
   return 'gray'
 }
 

@@ -30,7 +30,7 @@ const tipoLabel: Record<ResultType, string> = {
 
 // Build search index
 const allItems: Resultado[] = [
-  ...[...equipamentosData.armas, ...equipamentosData.armaduras, ...equipamentosData.escudos, ...equipamentosData.itensGerais, ...equipamentosData.itensMagicos].map(e => ({
+  ...[...equipamentosData.armas, ...equipamentosData.municoes, ...equipamentosData.armaduras, ...equipamentosData.escudos, ...equipamentosData.alimentacao, ...equipamentosData.animais, ...equipamentosData.catalisadoresAlquimicos, ...equipamentosData.equipamentoAnimal, ...equipamentosData.equipamentoDeAventura, ...equipamentosData.itensEsotericos, ...equipamentosData.ferramentas, ...equipamentosData.preparadosAlquimicos, ...equipamentosData.servicos, ...equipamentosData.veiculos, ...equipamentosData.venenosAlquimicos, ...equipamentosData.vestuario, ...equipamentosData.pocoesEPergaminhos].map(e => ({
     id: (e as any).id, nome: (e as any).nome, tipo: 'equipamento' as ResultType,
     subtipo: (e as any).tipo || (e as any).categoria, descricao: (e as any).descricao,
     raw: e as Record<string, unknown>,

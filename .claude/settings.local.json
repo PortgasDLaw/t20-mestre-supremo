@@ -7,7 +7,12 @@
       "PowerShell(cd \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'C:\\\\VS.Projetos\\\\t20-mestre-supremo'; npm run dev\")",
       "PowerShell(Invoke-WebRequest -Uri \"http://localhost:5173\" -UseBasicParsing -TimeoutSec 5)",
       "Bash(./node_modules/.bin/tsc --noEmit)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(mkdir -p /workspaces/t20-mestre-supremo/src/lib /workspaces/t20-mestre-supremo/src/features/compendio /workspaces/t20-mestre-supremo/src/features/combate /workspaces/t20-mestre-supremo/src/features/campanha /workspaces/t20-mestre-supremo/src/features/ferramentas)",
+      "Bash(npm install *)"
+    ],
+    "additionalDirectories": [
+      "/workspaces/t20-mestre-supremo/src"
     ]
   }
 }
