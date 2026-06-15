@@ -1,0 +1,440 @@
+[
+  {
+    "id": "arcanjo",
+    "nome": "Arcanjo de Batalha",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Anjos de guerra a serviço de Arsenal. Guerreiros moldados para nunca conhecer a derrota, capazes de criar meios de vitória onde não há nenhum.",
+    "admissao": "Para se tornar um arcanjo de batalha, você deve ser devoto de Arsenal, ter ao menos 10 níveis de personagem e receber a benção pessoal de Arsenal ou de um arcanjo de batalha já existente através de uma cerimônia de sagração em Werra.",
+    "marcaDaDistincao": "Treinado para Vencer: Você recebe +2 em Luta ou Pontaria, rolagens de dano com armas e +1 em testes de resistência.",
+    "poderes": [
+      "Senhor da Guerra — Qualquer arma marcial é a arma favorita de sua divindade. Ao empunhar uma arma mágica, ela causa +1d8 de eletricidade. Para cada dois outros poderes de Arcanjo, esse dano aumenta em +1d8.",
+      "Aura da Guerra — Aliados em alcance curto recebem +1 em testes de ataque e rolagens de dano. No 15° nível, este bônus aumenta para +2.",
+      "Explosão de Arsenal — Uma vez por cena, ao acertar um ataque, você pode gastar 5 PM para causar +5d8 pontos de dano de eletricidade e deixar o alvo atordoado (Fort CD For evita).",
+      "Forma de Arcanjo — Você pode gastar 3 PM para crescer para o tamanho Grande por 1 minuto. Nesta forma, seus ataques causam +1d8 de dano e você recebe +2 na Defesa.",
+      "Imortalidade Bélica — Uma vez por aventura, ao ser reduzido a 0 PV, você retorna com PV igual ao seu nível × 5 e imune a dano por 1 rodada."
+    ]
+  },
+  {
+    "id": "campeao-hermetico",
+    "nome": "Campeão Hermético",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Um aventureiro solitário que alcançou o pico de suas capacidades através do isolamento e da autoexploração, tornando-se campeão hermético de Arton.",
+    "admissao": "Deve ter passado pelo menos 1 mês em isolamento total e completado um desafio pessoal definido pelo mestre, além de ter 8 níveis de personagem.",
+    "marcaDaDistincao": "Autoconhecimento: Você recebe +1 em todos os testes de resistência e um ponto em um atributo a sua escolha.",
+    "poderes": [
+      "Foco Hermético — Você pode gastar 2 PM para ignorar penalidades de condições negativas por 1 rodada.",
+      "Impenetrável — Uma vez por cena, você pode declarar que ignora completamente um dano recebido (PM igual ao dano evitado, mín. 5).",
+      "Olho Espiritual — Você enxerga através de ilusões e invisibilidade e recebe +5 em Percepção e Intuição.",
+      "Refúgio Interior — Durante um descanso, você recupera PM adicionais iguais ao dobro do seu nível.",
+      "Campeão das Eras — Você não envelhece e é imune a efeitos de envelhecimento. Além disso, recebe +2 em todos os atributos (não concede PV ou PM adicionais)."
+    ]
+  },
+  {
+    "id": "cavaleiro-merkava",
+    "nome": "Cavaleiro de Merkava",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ordem dos Cavaleiros da Carruagem Sagrada, fundada em Bielefeld com laços profundos com Khalmyr. Defensores imparáveis que protegem os inocentes e destroem o mal.",
+    "admissao": "Deve ser devoto de Khalmyr, ter 6 níveis de personagem, e comparecer ao Templo de Merkava em Bielefeld onde será testado em combate defensivo e em fé.",
+    "marcaDaDistincao": "Escudo Sagrado: Você recebe +2 na Defesa e em Fortitude enquanto estiver vestindo armadura pesada.",
+    "poderes": [
+      "Carruagem Sagrada — Uma vez por cena, você pode conjurar uma carruagem mística que lhe permite mover até 2 aliados consigo como ação de movimento.",
+      "Muro de Fé — Ao usar um escudo, você pode gastar 2 PM para criar uma barreira que fornece cobertura parcial a todos os aliados em alcance curto até o início do seu próximo turno.",
+      "Destróier do Mal — Seus ataques causam +2d6 pontos de dano de luz contra criaturas do tipo morto-vivo e demônio.",
+      "Absolvição da Carruagem — Uma vez por aventura, ao sofrer dano mortal, você pode gastar 10 PM para sobreviver com 1 PV.",
+      "Cavaleiro Imparável — Você é imune a condições de movimento (enredado, imóvel, caído) enquanto estiver vestindo armadura pesada."
+    ],
+    "itens": [
+      {
+        "nome": "Escudo de Merkava",
+        "descricao": "Escudo pesado com o símbolo da carruagem sagrada. Fornece +1 na Defesa além do normal e permite lançar Escudo Sagrado como magia divina uma vez por dia (CD Sab)."
+      }
+    ]
+  },
+  {
+    "id": "cavaleiro-glorioso",
+    "nome": "Cavaleiro Glorioso",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Cavaleiros agraciados pelas valquírias de Alstra após demonstrarem valor excepcional em combate. Recebem asas e poderes divinos como símbolo de glória.",
+    "admissao": "Deve ter demonstrado valor excepcional em uma batalha testemunhada por ao menos uma valquíria, ter 10 níveis de personagem e ser devoto de uma divindade que canaliza energia positiva.",
+    "marcaDaDistincao": "Asas de Glória: Após a sagração, você recebe asas divinas que concedem deslocamento de voo de 12m.",
+    "poderes": [
+      "Golpe da Glória — Uma vez por rodada, ao acertar um ataque, você pode gastar 3 PM para causar +2d10 de luz e fazer o alvo ficar cego por 1 rodada (Fort CD Car evita).",
+      "Aura da Glória — Aliados em alcance curto recebem +2 em testes de resistência contra efeitos de medo.",
+      "Descida Gloriosa — Ao atacar após mover-se voando, você causa +1d8 de dano extra por 3m de distância percorrida (máx. +5d8).",
+      "Proteção Celestial — Você recebe redução de luz e eletricidade 10 e resistência a magias divinas +2.",
+      "Apoteose Gloriosa — Uma vez por aventura, você pode gastar 15 PM para entrar em um estado de glória total por 1 minuto: +5 em testes de ataque, +3d10 em rolagens de dano e imunidade a condições negativas."
+    ]
+  },
+  {
+    "id": "cavaleiro-negro",
+    "nome": "Cavaleiro Negro",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Cavaleiros das terras profanas de Umbralar que abraçaram as trevas. Mortos-vivos imparáveis que potencializam suas capacidades póstumas.",
+    "admissao": "Deve ter morrido e retornado como morto-vivo, ter 8 níveis de personagem e ter feito um pacto com uma entidade das trevas em Umbralar.",
+    "marcaDaDistincao": "Casca Maligna: Ao sofrer dano de trevas, você recebe redução de dano 4 por 1 rodada. Além disso, recebe imunidade a doenças e efeitos de veneno.",
+    "poderes": [
+      "Aura das Trevas — Criaturas em alcance curto sofrem –2 em testes de ataque e resistência contra você.",
+      "Armadura da Noite — Sua armadura se converte em uma extensão das trevas, recebendo redução de corte, impacto e perfuração 5.",
+      "Cavaleiro Imortal — Quando reduzido a 0 PV, ao invés de morrer, você fica na condição inconsciente por 1d4 rodadas, após isso recupera PV iguais ao seu nível × 2.",
+      "Golpe do Oblívio — Uma vez por rodada ao acertar um ataque, você pode gastar 4 PM para drenar 1d6 PM do alvo e adicionar o dobro ao seu total de PM (máx. seu limite).",
+      "Senhor das Trevas — Você pode gastar uma ação padrão e 5 PM para invocar 1d4+1 esqueletos guerreiros (por 1 cena) que obedecem suas ordens."
+    ]
+  },
+  {
+    "id": "deicida",
+    "nome": "Deicida",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Mortais que se dedicam a matar deuses e usurpar seus poderes. Uma distinção perigosa que atrai a ira dos panteões.",
+    "admissao": "Deve ter derrotado ou auxiliado na derrota de ao menos uma criatura com o subtipo divindade, ter 12 níveis e não possuir qualquer devoção.",
+    "marcaDaDistincao": "Caçador de Deuses: Você recebe +2 em testes de ataque e rolagens de dano contra criaturas com o subtipo divindade, celestiais e cultistas.",
+    "poderes": [
+      "Absorver o Divino — Ao matar uma criatura com subtipo divindade, você pode absorver um de seus poderes concedidos permanentemente.",
+      "Blasfêmia — Uma vez por cena, você pode proferir uma blasfêmia que causa 2d10 de dano de trevas a todos os devotos e cultistas em alcance médio (Vontade CD Car reduz à metade).",
+      "Resistência Divina — Você recebe resistência a magias divinas +5 e imunidade a efeitos de medo de criaturas divinas.",
+      "Golpe Mortal dos Deuses — Uma vez por rodada ao acertar um ataque crítico, você pode gastar 5 PM para multiplicar o dano do crítico por 3 (em vez de 2).",
+      "Ascensão Proibida — Uma vez por aventura, ao matar uma divindade menor, você pode absorver parte de sua essência, recebendo +2 em um atributo e +10 PM permanentemente."
+    ]
+  },
+  {
+    "id": "cacador-sombras",
+    "nome": "Caçador das Sombras",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Guardiões secretos que lutam contra o crepúsculo, revelando-se apenas para enfrentar as maiores ameaças das trevas. Portadores da Estrela da Manhã.",
+    "admissao": "Deve ser convocado pelos Belomont ou encontrar a Estrela da Manhã por conta própria, ter 8 níveis e nunca ter servido a Tenebra ou criaturas das trevas.",
+    "marcaDaDistincao": "Irmão das Sombras: Você recebe visão no escuro e pode gastar 1 PM para se tornar invisível até o fim do turno.",
+    "poderes": [
+      "Estrela da Manhã — Você recebe acesso à Estrela da Manhã (mangual banhado em prata). Ela causa +2d6 de dano sagrado contra mortos-vivos.",
+      "Revelação — Uma vez por cena, você pode gastar 2 PM para revelar todas as criaturas invisíveis em alcance médio por 1 rodada.",
+      "Caçador Implacável — Você ignora todas as reduções de dano de mortos-vivos e demônios.",
+      "Sombra Protetora — Você pode gastar 3 PM para mover-se pela sombra teleportando até 9m para qualquer local sombreado.",
+      "Aniquilar as Trevas — Uma vez por aventura, você pode gastar 10 PM para criar uma explosão de luz sagrada que causa 8d8 de luz a todos os mortos-vivos e demônios em alcance médio."
+    ]
+  },
+  {
+    "id": "explorador-frota",
+    "nome": "Explorador da Frota",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Exploradores de elite das Montanhas Sanguinárias. Recebem equipamentos exclusivos e acesso a armas de expedição únicas para caçar as maiores ameaças.",
+    "admissao": "Deve completar a admissão da Frota (teste de Sobrevivência CD 25 e derrotar uma ameaça de ND igual ao seu nível), ter 6 níveis e ser treinado em Sobrevivência.",
+    "marcaDaDistincao": "Carta de Expedição: Um pergaminho que serve como credencial de Explorador da Frota. Acesso a equipamentos de expedição e armas exclusivas.",
+    "poderes": [
+      "Armas de Expedição — Você recebe proficiência com armas de expedição (Fuziladora Leve, Fuziladora Pesada, Berrante de Exploração, Glaive Entomática, Lâminachado, Lançanhão, Montanchado).",
+      "Rastreador Supremo — Você recebe +5 em Sobrevivência para rastrear e nunca se perde em biomas selvagens.",
+      "Abate Eficiente — Ao derrotar uma ameaça, você pode extrair ingredientes raros avaliados em até T$ 500 × seu nível.",
+      "Explorador Ágil — Seu deslocamento aumenta em +3m em terreno difícil e você ignora penalidades de terreno.",
+      "Veterano das Sanguinárias — Você recebe redução de dano 5 e é imune a efeitos de medo de criaturas do tipo monstro."
+    ],
+    "itens": [
+      {
+        "nome": "Carta de Expedição",
+        "descricao": "Pergaminho que serve de credencial. Permite acesso a lojas e serviços exclusivos da Frota nas Montanhas Sanguinárias."
+      }
+    ]
+  },
+  {
+    "id": "flagelo",
+    "nome": "Flagelo",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Campeões das trevas agraciados por Tenebra. Lutam com o poder das sombras e uma fúria monstruosa e controlada.",
+    "admissao": "Deve ser devoto de Tenebra, ter 10 níveis e sobreviver ao Ritual do Flagelo, que exige ser deixado em Umbralar por 1 semana sem auxílio.",
+    "marcaDaDistincao": "Manto das Sombras: Você recebe redução de trevas 10 e resistência a magias divinas +3.",
+    "poderes": [
+      "Chicote das Trevas — Uma vez por rodada, você pode gastar 2 PM para criar um chicote de energia negra com alcance médio que causa 3d8 de trevas (Ref CD Car evita metade).",
+      "Fúria das Sombras — Você pode gastar 3 PM para entrar em fúria sombria: +3 em testes de ataque e rolagens de dano com trevas por 3 rodadas.",
+      "Dominar Morto-Vivo — Uma vez por cena, você pode gastar 5 PM para tomar controle de um morto-vivo de ND até seu nível −2 por 1 hora.",
+      "Explosão Sombria — Uma vez por aventura, você pode gastar 8 PM para liberar uma explosão de trevas em uma área de 9m de raio causando 6d8 de trevas.",
+      "Avatar de Tenebra — Uma vez por aventura, você pode gastar 15 PM para entrar na forma de avatar de Tenebra por 1 minuto: asas de sombra (voo 12m), imunidade a luz e trevas, +4 em testes de ataque."
+    ]
+  },
+  {
+    "id": "grande-mestre",
+    "nome": "Grande Mestre",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "A epítome do combate marcial. Para grandes mestres, as armas são extensões do corpo, não meros instrumentos de guerra.",
+    "admissao": "Deve ter 15 níveis de personagem, ser treinado em ao menos 4 armas diferentes e vencer um duelo contra um guerreiro de renome reconhecido pelo mestre do jogo.",
+    "marcaDaDistincao": "Mestre das Armas: Se uma arma pode ser empunhada, um Grande Mestre saberá como usá-la. Você é considerado proficiente com todas as armas.",
+    "poderes": [
+      "Golpe Perfeito — Uma vez por rodada, ao acertar um ataque, você pode gastar 3 PM para maximizar o dano (sem rolar dados).",
+      "Defesa do Mestre — Sua Defesa aumenta em +4 e você pode usar qualquer arma como se fosse um escudo para efeitos de habilidades.",
+      "Reflexo do Mestre — Uma vez por rodada, como reação, você pode gastar 2 PM para fazer um contra-ataque contra qualquer criatura que te acerte.",
+      "Lenda Marcial — Ao empunhar qualquer arma, ela é considerada mágica e causa +2d6 de dano extra do tipo da arma.",
+      "Golpe Definitivo — Uma vez por aventura, você pode gastar 10 PM para fazer um ataque irresistível: acerto automático (sem rolar dados) que causa o máximo de dano possível + 5d10 adicionais."
+    ]
+  },
+  {
+    "id": "ilusionista-circense",
+    "nome": "Ilusionista Circense",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Artistas macabros a serviço de Tenebra. Criadores de ilusões perturbadoras que mesclam entretenimento com horror.",
+    "admissao": "Deve ser devoto de Tenebra, ter 8 níveis e ter se apresentado em ao menos 3 cenas como artista enquanto usava suas ilusões para causar efeitos mecânicos.",
+    "marcaDaDistincao": "Show Macabro: Você recebe +2 em Atuação e pode usar Atuação para causar medo em criaturas (Vontade CD Car evita).",
+    "poderes": [
+      "Truques Circenses — Você pode lançar magias simuladas de 1º círculo de ilusão e encantamento sem gastar PM (1× por rodada).",
+      "Ilusão Real — Suas magias de ilusão causam dano real igual a metade do dano que causariam se fossem reais.",
+      "Palco do Terror — Uma vez por cena, você pode criar uma área de ilusão em 9m de raio que causa terror em todos que entram (Vontade CD Car evita).",
+      "Prestidigitação Mortal — Uma vez por rodada, você pode gastar 2 PM para conjurar um objeto ilusório como arma que causa 1d8 + Car de dano de ilusão (não reduzido por RD).",
+      "Grande Espetáculo — Uma vez por aventura, você pode gastar 10 PM para criar uma ilusão tão convincente que afeta a realidade, causando os efeitos de uma magia de até 3° círculo sem custo adicional."
+    ]
+  },
+  {
+    "id": "martir",
+    "nome": "Mártir",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Aqueles que sacrificam tudo em prol de uma causa nobre. Um mártir sabe reconhecer quando um novo candidato está prestes a surgir e os orienta no caminho do sacrifício.",
+    "admissao": "Deve ter sofrido algum sacrifício significativo (perda de PV máximos, atributo ou aliado) em prol de inocentes, ter 8 níveis e ser devoto de uma divindade de alinhamento bom.",
+    "marcaDaDistincao": "Sacrifício Sagrado: Ao ser reduzido a 0 PV, você pode gastar 5 PM para se manter com 1 PV e transferir a cura que receberia para aliados adjacentes.",
+    "poderes": [
+      "Absorver o Dano — Uma vez por rodada, como reação, você pode absorver o dano de um aliado adjacente pagando metade em PM (máx. seu nível em PM).",
+      "Inspiração do Mártir — Aliados que testemunham seu sacrifício recebem +2 em testes de ataque e resistência por 1 cena.",
+      "Ressureição — Uma vez por aventura, ao morrer, você ressurge com PV iguais ao seu nível × 5 após 1d4 rodadas.",
+      "Bênção do Sacrifício — Criaturas que você cura recebem o dobro do efeito normal das curas.",
+      "Sacrifício Final — Uma vez por campanha, você pode se sacrificar completamente para salvar todos os aliados de uma morte certa, estabilizando-os automaticamente."
+    ]
+  },
+  {
+    "id": "mestre-totemico",
+    "nome": "Mestre Totêmico",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "A serviço de Allihanna, um mestre totêmico se torna uma autoridade do espírito, aprendendo a prática dos milagres através dos espíritos animais.",
+    "admissao": "Deve ser devoto de Allihanna, ter 8 níveis, ser treinado em Adestramento e ter sobrevivido em estado selvagem por ao menos 1 mês.",
+    "marcaDaDistincao": "Espírito Animal: Escolha um animal totêmico. Você recebe as habilidades sensoriais desse animal e +2 em perícias associadas a ele.",
+    "poderes": [
+      "Hierofante — Você recebe a habilidade Milagres e pode lançar uma magia divina de 1° círculo por dia gratuitamente.",
+      "Chamado Selvagem — Uma vez por cena, você pode invocar 1d4+1 animais de seu totem para lutar por você por 3 rodadas.",
+      "Forma Totêmica — Você pode gastar 4 PM para assumir parcialmente a forma do seu animal totêmico por 1 minuto, recebendo os ataques naturais e habilidades especiais do animal.",
+      "Comunhão Espiritual — Uma vez por aventura, você pode comunicar-se com o espírito de qualquer animal morto para obter informações.",
+      "Avatar do Totem — Uma vez por aventura, você pode assumir completamente a forma do seu animal totêmico (ampliada para tamanho Grande) por 5 minutos, com todas as habilidades do animal potencializadas."
+    ]
+  },
+  {
+    "id": "novo-rico",
+    "nome": "Novo Rico",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "A elite comercial de Arton. Personagens que acumularam riqueza e influência suficientes para fazer parte do círculo dos mais poderosos comerciantes do continente.",
+    "admissao": "Deve ter ao menos T$ 100.000 em posses, ter 6 níveis e ser reconhecido por ao menos três nobres ou comerciantes importantes.",
+    "marcaDaDistincao": "Riqueza é Poder: Você recebe +5 em Nobreza e Diplomacia com pessoas que saibam de sua fortuna.",
+    "poderes": [
+      "Rede de Contatos — Você pode gastar T$ 1.000 para obter qualquer item não mágico de valor até T$ 5.000 em 1d4 dias.",
+      "Ele é Meu Amigo — Uma vez por cena, você pode estender seus privilégios a um aliado, fazendo-o ser tratado como nobre por 1 cena.",
+      "Investimento — A cada aventura, você recebe T$ 500 × seu nível em renda passiva de seus investimentos.",
+      "Influência Política — Você pode gastar T$ 5.000 para resolver legalmente qualquer conflito com a lei em sua favor.",
+      "Imperador Comercial — Você e seus aliados recebem preços 50% menores em qualquer estabelecimento comercial de Arton."
+    ]
+  },
+  {
+    "id": "profanador",
+    "nome": "Profanador",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Aqueles que descobriram que os corpos das criaturas artonianas podem ser usados para magia sombria. Coletores de almas e corpos para alimentar seus poderes.",
+    "admissao": "Deve ter praticado necromancia ao menos 3 vezes em jogo, ter 8 níveis e receber a aprovação de uma entidade das trevas.",
+    "marcaDaDistincao": "Extração Sombria: Você pode gastar uma ação de movimento para coletar as almas de criaturas mortas próximas, recebendo 1 PM temporário por ND da criatura (máx. seu nível em PM).",
+    "poderes": [
+      "Mácula Crescente — Você aprende uma magia de necromancia e pode lançá-la gastando –1 PM por nível de profanador.",
+      "Manipular Mortos-Vivos — Você pode controlar mortos-vivos sem ser devoto de Tenebra, usando Misticismo como atributo-chave.",
+      "Dreno Vital — Uma vez por rodada, ao acertar um ataque, você pode gastar 2 PM para drenar 1d8 PV do alvo e absorvê-los como PV temporários.",
+      "Corpo Profanado — Seu corpo começa a se transformar em morto-vivo. Você recebe redução de dano mundano 5 e imunidade a venenos.",
+      "Profanação Total — Uma vez por aventura, você pode gastar 10 PM para transformar todos os cadáveres em alcance médio em mortos-vivos sob seu controle."
+    ]
+  },
+  {
+    "id": "virtuoso",
+    "nome": "Virtuoso",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Personagens de virtude excepcional que transcendem os limites normais do bem. Virtuosos sacrificam tudo para servir a uma divindade maior.",
+    "admissao": "Deve ser paladino ou ter ao menos 3 poderes concedidos de uma divindade de alinhamento bom, ter 10 níveis e ter realizado uma ação de sacrifício extremo em prol do bem.",
+    "marcaDaDistincao": "Aura da Virtude: Todos os aliados em alcance curto recebem +1 em testes de resistência e são imunes a efeitos de medo.",
+    "poderes": [
+      "Virtude Exemplar — Você recebe um poder paladinesco adicional de qualquer divindade de alinhamento bom.",
+      "Golpe da Virtude — Uma vez por rodada, ao acertar um ataque, você pode gastar 3 PM para causar +2d8 de luz e deixar o alvo atordoado por 1 rodada (Fort CD Car evita).",
+      "Sacrifício de Virtude — Uma vez por aventura, você pode absorver todo o dano que seria causado a aliados adjacentes em 1 rodada.",
+      "Graça Divina — Você recebe +Car em todos os testes de resistência e é imune a efeitos de encantamento.",
+      "Apoteose Virtuosa — Uma vez por campanha, você pode invocar diretamente o poder de sua divindade para curar todos os aliados a PV máximos e neutralizar todas as condições negativas."
+    ]
+  },
+  {
+    "id": "visir-valquirias",
+    "nome": "Visír das Valquírias",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Guerreiros escolhidos pelas valquírias de Alstra para servir como seus representantes em Arton, recebendo uma Espada Visír como símbolo de seu cargo.",
+    "admissao": "Deve ter impressionado ao menos uma valquíria em combate, ser um guerreiro exemplar com 8 níveis e receber a Espada Visír em cerimônia formal em Alstra.",
+    "marcaDaDistincao": "Espada Visír: Espada cerimonial entregue na admissão. Única forma de obtê-la. Ao obtê-la, recebe +2 em testes de ataque com espadas e +1d8 extra de eletricidade.",
+    "poderes": [
+      "Protetor das Valquírias — Aliados com asas recebem +2 na Defesa enquanto você estiver adjacente a elas.",
+      "Voo Concedido — Você pode gastar 3 PM para ganhar deslocamento de voo de 9m por 1 minuto.",
+      "Golpe Visír — Uma vez por rodada, ao acertar um ataque, você pode gastar 2 PM para deixar o alvo desarmado (Reflexos CD Des evita).",
+      "Honra Inabalável — Você é imune a efeitos de encantamento e charme de qualquer origem.",
+      "Lança da Valquíria — Você se torna proficiente com a Lança Valquíriana e ao empunhá-la recebe +2 em testes de ataque e +1d10 extra de perfuração."
+    ],
+    "itens": [
+      {
+        "nome": "Espada Visír",
+        "descricao": "Espada cerimonial única dada na admissão. Fornece +2 em testes de ataque e +1d8 de eletricidade. Acessório — preço incalculável (única peça)."
+      }
+    ]
+  },
+  {
+    "id": "arquimago",
+    "nome": "Arquimago",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "A epítome da magia arcana. O arquimago se torna insuperável, tornando-se praticamente irresistível para qualquer criatura.",
+    "admissao": "Deve ser um arcanista de 15° nível, ter ao menos 5 magias de 5° círculo e ser reconhecido por um arquimago ou pela Academia Arcana.",
+    "marcaDaDistincao": "Supremacia Arcana: A CD para resistir a suas magias arcanas aumenta em +2 permanentemente.",
+    "poderes": [
+      "Magia Aprimorada — Você pode lançar qualquer magia como se tivesse gasto +3 PM adicionais sem custo extra (1× por cena).",
+      "Resistência Arcana — Você recebe resistência a magias +10 e imunidade a contramágica.",
+      "Domínio da Escola — Escolha uma escola de magia. O custo em PM das suas magias dessa escola diminui em –2.",
+      "Foco Arcano Supremo — Seu atributo-chave arcano aumenta em +2 permanentemente.",
+      "Onisciência Arcana — Uma vez por aventura, você pode lançar qualquer magia do jogo como se a conhecesse, sem PM."
+    ]
+  },
+  {
+    "id": "burgomestre",
+    "nome": "Burgomestre",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Senhores feudais que emergiram das guerras artonianas. Governantes de domínios com tropas e recursos sob seu comando.",
+    "admissao": "Deve ter estabelecido controle sobre ao menos uma cidade ou feudo, ter 8 níveis e ser reconhecido como lorde por ao menos um reino.",
+    "marcaDaDistincao": "Regência: Você possui um domínio. Suas tropas recebem +1 em testes de ataque e resistência.",
+    "poderes": [
+      "Marcha no Progresso — Seu domínio cresce. Você pode controlar até 3 domínios simultaneamente.",
+      "Força Militar — As tropas do seu domínio têm PV e dano aumentados em +10% e +2 respectivamente.",
+      "Tributação — A cada aventura, você recebe T$ 1.000 × nível em impostos do seu domínio.",
+      "Fortaleza — Você pode construir estruturas no seu domínio com custo 25% menor.",
+      "Senhor Absoluto — Uma vez por aventura, você pode mobilizar o exército completo do seu domínio para auxiliar em uma batalha."
+    ]
+  },
+  {
+    "id": "simulacro",
+    "nome": "Simulacro",
+    "tipo": "distinção",
+    "fonte": "Mitos de Arton",
+    "resumo": "Seres que abriram mão de sua identidade pessoal para se tornarem mestres da ilusão e do disfarce, capazes de assumir a forma de qualquer ser.",
+    "admissao": "Deve ter enganado com sucesso ao menos 5 pessoas através de disfarces em jogo, ter 8 níveis e completar um ritual de dissolução de identidade.",
+    "marcaDaDistincao": "Identidade Nula: Você pode gastar uma ação padrão para mudar completamente sua aparência (incluindo voz) por tempo ilimitado.",
+    "poderes": [
+      "Cópia Perfeita — Você pode copiar as perícias treinadas de uma criatura que observe por ao menos 1 minuto por 1 hora.",
+      "Memória Roubada — Uma vez por cena, ao tocar uma criatura, você acessa suas memórias recentes (última semana).",
+      "Duplicata — Você pode criar um simulacro de si mesmo com PV iguais a metade dos seus que persiste por 1 hora.",
+      "Forma Perfeita — Você pode imitar qualquer criatura de tamanho Médio ou Pequeno perfeitamente, incluindo habilidades raciais básicas.",
+      "Mil Faces — Você nunca é reconhecido como o mesmo ser por duas criaturas diferentes a menos que você permita."
+    ]
+  },
+  {
+    "id": "rito-anjo",
+    "nome": "Rito do Anjo",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ao realizar este rito sagrado, você se torna um ser angelical poderoso, como um aggelus potencializado.",
+    "ritual": "Deve passar 1 mês em oração contínua em um templo sagrado, ser devoto de uma divindade de alinhamento bom e ter ao menos 10 níveis.",
+    "poderes": [
+      "Corpo Angelical — Você se torna uma criatura do tipo espírito (mantendo características do tipo original). Recebe asas angelicais (voo 12m), visão no escuro e imunidade a doenças.",
+      "Aura Sagrada — Criaturas do mal em alcance curto sofrem –2 em testes de ataque e resistência.",
+      "Cura Angelical — Uma vez por rodada, você pode curar um aliado adjacente em 2d8+nível PV como ação de movimento.",
+      "Armamento Divino — Seus ataques causam +1d8 de dano de luz contra criaturas do mal."
+    ]
+  },
+  {
+    "id": "rito-altair",
+    "nome": "Rito de Altair",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Presenteado pelo próprio deus menor Altair, concede o poder infinito da jornada ao portador.",
+    "ritual": "Deve encontrar o deus menor Altair e receber sua bênção pessoal, algo que exige uma jornada épica através das estrelas.",
+    "poderes": [
+      "Estrela Guia — Você nunca se perde e pode viajar entre planos usando as estrelas como referência.",
+      "Poder da Jornada — A cada aventura completada, você recebe um bônus cumulativo de +1 em um atributo à sua escolha (máx. +5).",
+      "Bênção das Estrelas — Uma vez por cena, você pode gastar 3 PM para receber inspiração cósmica: +1d6 em qualquer teste.",
+      "Viajante Eterno — Você é imune a efeitos de teleporte indesejado e banimento."
+    ]
+  },
+  {
+    "id": "rito-demonio",
+    "nome": "Rito do Demônio",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ritual profano que transforma o usuário em um ser demoníaco poderoso.",
+    "ritual": "Deve realizar um pacto com uma entidade demoníaca, ter ao menos 12 níveis e sacrificar algo de valor incalculável.",
+    "poderes": [
+      "Constituição Demoníaca — Você recebe imunidade a doenças, efeitos de medo, encantamento, ilusão e veneno. Além disso, recebe redução de fogo e trevas 10.",
+      "Forma Demoníaca — Você pode gastar 5 PM para revelar sua forma demoníaca verdadeira por 1 minuto, recebendo +4 em testes de ataque, +2d8 de dano de trevas e asas (voo 9m).",
+      "Domínio Infernal — Criaturas demoníacas não atacam você a menos que você as ataque primeiro.",
+      "Magia Infernal — Você aprende 2 magias de necromancia ou evocação e pode lançá-las gastando –1 PM."
+    ]
+  },
+  {
+    "id": "rito-dragao",
+    "nome": "Rito do Dragão",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ao realizar este ritual antigo, você se torna um dos monstros mais poderosos de Arton, assumindo características dracônicas permanentes.",
+    "ritual": "Deve consumir o coração de um dragão ancião, ter ao menos 14 níveis e sobreviver a 7 dias de transformação.",
+    "poderes": [
+      "Sangue de Dragão — Você se torna parcialmente dragão. Recebe escamas que fornecem RD 5 e resistência ao elemento do dragão consumido 15.",
+      "Sopro do Dragão — Você pode usar Sopro do Dragão (dano 6d8 do elemento escolhido, cone de 12m, Ref CD Con reduz à metade) uma vez por cena.",
+      "Terrificante — Criaturas de ND menor que seu nível ficam com medo ao te ver (Vontade CD Car evita).",
+      "Longevidade Dracônica — Você envelhece 10× mais lentamente e é imune a efeitos de envelhecimento.",
+      "Forma de Dragão — Uma vez por aventura, você pode assumir a forma de um dragão adulto do seu elemento por 10 minutos."
+    ]
+  },
+  {
+    "id": "rito-estrangeiro",
+    "nome": "Rito do Estrangeiro",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Uma possessão bizarra que transforma o usuário em uma criatura estrangeira caçadora de sombras de outro mundo.",
+    "ritual": "Deve ser possuído por uma entidade alienígena e sobreviver à possessão, ter 10 níveis.",
+    "poderes": [
+      "Percepção Alienígena — Você recebe percepção às cegas (longo) e visão verdadeira.",
+      "Tentáculos Estrangeiros — Você pode manifestar tentáculos que funcionam como armas naturais (1d8, agarrar automático no crítico).",
+      "Mente Alienígena — Você é imune a efeitos de encantamento e ilusão.",
+      "Invocação Estrangeira — Uma vez por aventura, você pode invocar uma criatura do seu mundo de origem para auxiliá-lo."
+    ]
+  },
+  {
+    "id": "rito-lado-demoniacos",
+    "nome": "Rito do Lado Demoníaco",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ritual antigo e profano que permite ao usuário se transformar em um poderoso demônio.",
+    "ritual": "Disponível apenas para Onis ou criaturas com herança demoníaca. Requer ritual de 1 semana e 14 níveis.",
+    "poderes": [
+      "Transformação Demoníaca — Você pode se transformar em um demônio completo por 1 hora por dia, com poder de ND igual ao seu nível.",
+      "Essência do Inferno — Seus ataques causam +1d8 de trevas e você drena PM dos alvos ao acertar.",
+      "Portal Infernal — Uma vez por aventura, você pode abrir um portal para o mundo infernal e convocar reforços demoníacos.",
+      "Imortalidade do Mal — Se morto em sua forma demoníaca, você se reconstrói no plano infernal após 1d10 dias."
+    ]
+  },
+  {
+    "id": "rito-revena",
+    "nome": "Rito do Revenã",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ao completar este ritual, você se torna um revenã — uma criatura que é sua própria armadura.",
+    "ritual": "Deve encontrar um orbe de revenã (criado por um necromante de alto nível) e passar 7 dias em estado de morte aparente.",
+    "poderes": [
+      "Armadura Viva — Você passa a habitar sua armadura. Sua Defesa base aumenta em +4 e você não pode ser desarmado.",
+      "Orbe Vital — Você possui um orbe que funciona como seu coração. Se o orbe for destruído, você é incapacitado mas não morre. O orbe se reconstrói no início da próxima cena.",
+      "Presas — Você recebe uma arma natural de presas (1d10, perfuração). Ao acertar, o alvo fica sangrando.",
+      "Imortalidade do Revenã — Enquanto seu orbe existir, você não pode ser morto por dano normal. Apenas dano ao orbe é letal.",
+      "Forma Completa — Você pode expandir sua armadura para tamanho Grande por 3 PM, recebendo os benefícios de tamanho Grande por 1 minuto."
+    ]
+  }
+]

@@ -14,7 +14,8 @@
     "descricao": "Você dispara lâminas de energia mental que causam dano psíquico. A magia inflige 2d6 pontos de dano mental (não reduzido por RD) na criatura. O dano mental não pode ser curado por meios físicos — apenas por magia de cura.",
     "aprimoramentos": [
       "+1 PM: aumenta o dano em +1d6."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "alarme",
@@ -32,7 +33,8 @@
     "aprimoramentos": [
       "+2 PM: a duração aumenta para 24 horas.",
       "+3 PM: o alarme alerta você mentalmente (sem fazer barulho), independentemente da distância."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "amedrontar",
@@ -50,7 +52,8 @@
     "aprimoramentos": [
       "+2 PM: muda o alvo para criaturas em área de 6m de raio centrada em você.",
       "+5 PM: a criatura fica apavorada (foge na máxima velocidade, não podendo realizar outras ações)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "ampliar-sentidos",
@@ -67,7 +70,8 @@
     "descricao": "Você amplia um de seus sentidos. Escolha visão, audição ou olfato: visão concede visão no escuro 18m; audição concede +10 em Percepção auditiva; olfato permite rastrear pelo cheiro com bônus de +10 em Sobrevivência.",
     "aprimoramentos": [
       "+1 PM: amplia mais um sentido além do escolhido."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "arma-magica",
@@ -86,7 +90,8 @@
       "+1 PM: aumenta o bônus em +1 (máximo +5).",
       "+1 PM: muda o alcance para curto.",
       "+2 PM: a arma causa 1d6 de dano extra de energia (ácido, elétrico, fogo ou frio, à sua escolha)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "armadura-arcana",
@@ -103,7 +108,8 @@
     "descricao": "Uma armadura de força invisível e intangível envolve você, concedendo +4 na Defesa. Esse bônus não se acumula com armaduras físicas. Não funciona se você estiver usando armadura média ou pesada.",
     "aprimoramentos": [
       "+1 PM: aumenta o bônus em +2 (máximo +10)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "bencao-de-voo",
@@ -120,7 +126,8 @@
     "descricao": "Você ganha a capacidade de voar com deslocamento de 12m. Ao contrário do feitiço Voo, esta versão funciona em espaços fechados com teto suficientemente alto.",
     "aprimoramentos": [
       "+2 PM: aumenta o deslocamento de voo para 18m."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "bruma",
@@ -138,7 +145,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o cubo em +3m de lado.",
       "+2 PM: a bruma também dificulta a respiração (Fortitude CD 15 ou fica enjoada)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "camaleon",
@@ -155,7 +163,8 @@
     "descricao": "Sua pele e roupa se adaptam ao ambiente ao redor, como um camaleão. Você recebe +10 em Furtividade e pode se camuflar mesmo sem cobertura.",
     "aprimoramentos": [
       "+1 PM: pode estender o efeito para um aliado adjacente."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "charme-pessoa",
@@ -174,7 +183,8 @@
       "+2 PM: a duração aumenta para 1 dia.",
       "+3 PM: muda o alvo para 1 criatura (qualquer tipo).",
       "+5 PM: muda a duração para permanente."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "choque-eletrico",
@@ -191,7 +201,8 @@
     "descricao": "Você gera uma descarga elétrica ao tocar a criatura. A magia inflige 1d6 pontos de dano elétrico por PM gasto.",
     "aprimoramentos": [
       "+1 PM (rep.): aumenta o dano em 1d6."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "compreensao",
@@ -206,7 +217,8 @@
     "duracao": "Cena",
     "resistencia": "—",
     "descricao": "Você pode ler, escrever, falar e entender qualquer idioma durante a cena, incluindo idiomas de criaturas monstruosas. Não permite usar itens mágicos que exijam treinamento específico.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "conjurar-monstro",
@@ -227,7 +239,8 @@
       "+3 PM: convoca um monstro de ND 3.",
       "+5 PM: convoca um monstro de ND 5.",
       "+1 PM: convoca 1d3 monstros do ND especificado."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-chamas",
@@ -245,7 +258,8 @@
     "aprimoramentos": [
       "+1 PM: pode criar fogo onde não existe (em material inflamável).",
       "+2 PM: pode controlar fogo em área de 9m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "criar-agua",
@@ -262,7 +276,8 @@
     "descricao": "Você cria água pura suficiente para saciar a sede de até 3 criaturas por dia, ou aprox. 8 litros. A água aparece em um recipiente que você designar.",
     "aprimoramentos": [
       "+1 PM: cria água suficiente para +3 criaturas (ou +8 litros)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "dardo-de-forca",
@@ -280,7 +295,8 @@
     "aprimoramentos": [
       "+1 PM: cria mais 1 dardo (cada dardo inflige 1d4+1, podem acertar alvos diferentes).",
       "+2 PM: os dardos causam 2d4+2 de dano cada."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "detectar-magia",
@@ -297,7 +313,8 @@
     "descricao": "Você consegue detectar a presença de magia em objetos e criaturas em alcance curto. Você sente se há magia presente e, com um teste bem-sucedido de Misticismo (CD 20), pode identificar a escola da magia.",
     "aprimoramentos": [
       "+1 PM: detecta magia em alcance médio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "disfarce",
@@ -316,7 +333,8 @@
       "+1 PM: afeta também voz e odor.",
       "+2 PM: muda o alvo para 1 criatura tocada.",
       "+3 PM: você pode assumir aparência de qualquer criatura de tamanho Médio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "dominar-animal",
@@ -334,7 +352,8 @@
     "aprimoramentos": [
       "+2 PM: a duração aumenta para 1 dia.",
       "+5 PM: a duração se torna permanente."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "explosao-de-chamas",
@@ -351,7 +370,8 @@
     "descricao": "Uma explosão de chamas irradia de você em todas as direções. Inflige 1d6 pontos de dano de fogo por PM gasto a todas as criaturas na área. Você não sofre dano.",
     "aprimoramentos": [
       "+1 PM (rep.): aumenta o dano em 1d6."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "flutuacao",
@@ -368,7 +388,8 @@
     "descricao": "A criatura flutua até 1,5m acima do chão. Ela mantém seu deslocamento normal mas não pode escavar. Enquanto flutua, ataques de criatura no chão sofrem penalidade (a menos que tenham alcance).",
     "aprimoramentos": [
       "+1 PM: aumenta a altura de flutuação para 3m."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "forca-fantasmal",
@@ -385,7 +406,8 @@
     "descricao": "Você cria uma ilusão convincente de algo que amedronta a criatura. A criatura que falhar na resistência acredita na ilusão e age como se ela fosse real. Se a criatura 'atacar' a ilusão e notar que não está causando dano, pode tentar nova resistência.",
     "aprimoramentos": [
       "+2 PM: a ilusão causa dano psíquico real (1d6 por round) se a criatura acreditar nela."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "iluminar",
@@ -402,7 +424,8 @@
     "descricao": "O objeto tocado emite luz com intensidade equivalente à luz do dia em um raio de 6m e luz fraca em mais 6m além disso. A luz pode ser ativada ou desativada com ação livre.",
     "aprimoramentos": [
       "+1 PM: a intensidade dobra (12m de luz plena, 12m de luz fraca)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "luz",
@@ -419,7 +442,8 @@
     "descricao": "O objeto toca emite luz suave em 6m de raio e luz ainda mais fraca em mais 6m além. Funciona como a magia Iluminar com menor intensidade. Pode ser lançada na forma de um facho de luz direcional.",
     "aprimoramentos": [
       "+1 PM: a luz fica permanente até ser dispelida."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "maos-magicas",
@@ -438,7 +462,8 @@
       "+1 PM: aumenta o peso máximo para 25kg.",
       "+2 PM: aumenta o peso máximo para 100kg.",
       "+1 PM: pode usar as mãos mágicas em combate (ataque de agarrar com bônus de Sabedoria)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "missil-magico",
@@ -453,7 +478,8 @@
     "duracao": "Instantânea",
     "resistencia": "Nenhuma",
     "descricao": "Você dispara mísseis de energia de força que acertam automaticamente. Você cria 1 míssil por PM gasto (máximo 5). Cada míssil inflige 1d4+1 pontos de dano de força. Você pode distribuir os mísseis entre múltiplos alvos visíveis.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "sono",
@@ -471,7 +497,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o total de DV afetados em +2.",
       "+2 PM: criaturas despertadas pelo dano adormecem novamente ao final do round."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "torcao-corporal",
@@ -488,7 +515,8 @@
     "descricao": "Você torce e deforma o corpo da criatura magicamente. Inflige 2d6 pontos de dano e a criatura fica enjoada por 1 round. Se passar na resistência, sofre apenas o dano.",
     "aprimoramentos": [
       "+1 PM: aumenta o dano em +1d6."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "alterar-tamanho",
@@ -506,7 +534,8 @@
     "aprimoramentos": [
       "+2 PM: muda o alvo para você (não requer resistência).",
       "+4 PM: altera o tamanho em duas categorias."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "amarras-etereas",
@@ -524,7 +553,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta a CD para se libertar em +5.",
       "+2 PM: a criatura fica completamente imobilizada (não pode realizar nenhuma ação)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "enfraquecer",
@@ -541,7 +571,8 @@
     "descricao": "A criatura sofre –4 em Força e Constituição. Se falhar totalmente na resistência (resultado 5 ou mais abaixo da CD), sofre –8 em cada. Criaturas reduzidas a Força 0 ficam indefesas.",
     "aprimoramentos": [
       "+2 PM: muda o alvo para criaturas em área de 6m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "imagem-ilusoria",
@@ -560,7 +591,8 @@
       "+1 PM: a ilusão inclui sons realistas.",
       "+2 PM: a ilusão inclui odores.",
       "+3 PM: a ilusão se torna permanente até ser dispelida."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "indetectavel",
@@ -577,7 +609,8 @@
     "descricao": "Você fica indetectável por magia de adivinhação. Magias como Detectar Magia, Localizar Criatura e similares não podem encontrá-lo ou detectar sua magia.",
     "aprimoramentos": [
       "+2 PM: muda o alvo para 1 criatura tocada."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "invisibilidade",
@@ -595,7 +628,8 @@
     "aprimoramentos": [
       "+2 PM: a invisibilidade não é cancelada por ações ofensivas.",
       "+3 PM: muda o alvo para você e aliados em alcance curto."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "nevoa-mental",
@@ -612,7 +646,8 @@
     "descricao": "A mente da criatura fica nublada e confusa. Ela sofre –5 em todos os testes de perícias baseadas em Inteligência, –5 em Vontade e não pode usar habilidades que exijam concentração.",
     "aprimoramentos": [
       "+2 PM: reduz também a Inteligência em –2."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "paralisar",
@@ -630,7 +665,8 @@
     "aprimoramentos": [
       "+3 PM: muda o alvo para qualquer criatura.",
       "+2 PM: a criatura não pode tentar novas resistências para escapar."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "raio-de-gelo",
@@ -648,7 +684,8 @@
     "aprimoramentos": [
       "+2 PM: aumenta o dano em +2d6.",
       "+2 PM: se falhar na resistência, a criatura fica imobilizada por 1 round em vez de lenta."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "raio-de-luz-solar",
@@ -666,7 +703,8 @@
     "aprimoramentos": [
       "+2 PM: aumenta o dano em +2d6.",
       "+2 PM: criaturas que falharem na resistência ficam cegas por 1 round."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "teia",
@@ -684,7 +722,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta a CD dos testes para escapar em +5.",
       "+2 PM: criaturas que falharem na resistência ficam imobilizadas em vez de enredadas."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "terreno-ilusorio",
@@ -702,7 +741,8 @@
     "aprimoramentos": [
       "+3 PM: a ilusão inclui sons e odores condizentes.",
       "+5 PM: a duração se torna permanente."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "trovao",
@@ -720,7 +760,8 @@
     "aprimoramentos": [
       "+2 PM: aumenta o dano em +2d6.",
       "+1 PM: aumenta o comprimento da linha em +6m."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "ancora-dimensional",
@@ -737,7 +778,8 @@
     "descricao": "Você trava a criatura ao plano material. Ela fica impedida de usar qualquer habilidade de teleporte, viagem planar, deslocamento dimensional ou movimento extradimensional durante a cena.",
     "aprimoramentos": [
       "+3 PM: afeta todas as criaturas em área de 9m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "bola-de-fogo",
@@ -755,7 +797,8 @@
     "aprimoramentos": [
       "+2 PM: aumenta o dano em +2d6.",
       "+1 PM: aumenta o raio em +3m."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "contato-extraplanar",
@@ -772,7 +815,8 @@
     "descricao": "Você faz contato mental com uma inteligência extraplanar poderosa que pode responder perguntas. Você pode fazer 1 pergunta por round. A entidade responde com 'sim', 'não', 'provavelmente', 'improvável' ou 'desconhecido'. Há 10% de chance cumulativa por pergunta de perder 1 ponto de Sabedoria temporariamente (recuperado após 1 dia).",
     "aprimoramentos": [
       "+2 PM: a entidade fornece respostas mais elaboradas (até uma frase)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "persona",
@@ -789,7 +833,8 @@
     "descricao": "Você assume completamente a identidade de outra pessoa, incluindo aparência, voz, maneirismos e odor. Você pode imitar qualquer pessoa que já tenha visto. Testes para perceber que você está disfarçado têm CD 25 em vez de 20.",
     "aprimoramentos": [
       "+2 PM: muda o alvo para 1 criatura tocada."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "portal-arcano",
@@ -806,7 +851,8 @@
     "descricao": "Você cria um portal dimensional entre dois locais que você já visitou. O portal tem 3m de altura e 2m de largura. Qualquer criatura pode atravessá-lo em ambos os sentidos.",
     "aprimoramentos": [
       "+5 PM: o portal pode conectar a locais em outros planos."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "telecinesia",
@@ -825,7 +871,8 @@
       "+2 PM: aumenta o peso máximo para 500kg.",
       "+2 PM: pode usar o objeto como arma de arremesso (dano 2d6, alcance médio).",
       "+3 PM: pode mover múltiplos objetos (total de peso máximo)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "voo",
@@ -844,7 +891,8 @@
       "+2 PM: muda o alvo para você e aliados em alcance curto.",
       "+1 PM: aumenta o deslocamento de voo em +6m.",
       "+2 PM: a manobrabilidade melhora para perfeita."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "alterar-memoria",
@@ -862,7 +910,8 @@
     "aprimoramentos": [
       "+2 PM: pode alterar memórias de até 1 hora de duração.",
       "+5 PM: pode apagar todas as memórias de um dia inteiro."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "conjurar-elemental",
@@ -881,7 +930,8 @@
       "+2 PM: conjura um elemental de tamanho Grande.",
       "+4 PM: conjura um elemental de tamanho Enorme.",
       "+2 PM: conjura 1d3 elementais de tamanho Médio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-gravidade",
@@ -898,7 +948,8 @@
     "descricao": "Você altera a gravidade em uma área. Pode: inverter (criaturas caem em direção ao teto, sofrendo dano de queda); aumentar (criaturas ficam lentas, –6m em deslocamento, –2 em ataques); ou reduzir (criaturas flutam até 1,5m, podem saltar até 9m).",
     "aprimoramentos": [
       "+3 PM: a área aumenta para 18m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "imagem-perfeita",
@@ -915,7 +966,8 @@
     "descricao": "Como Imagem Ilusória, mas a ilusão afeta todos os sentidos: visual, auditivo, olfativo e tátil. É praticamente indistinguível da realidade. Apenas interação física intensa (tentar atravessar uma parede ilusória) revela a ilusão.",
     "aprimoramentos": [
       "+3 PM: a ilusão se torna permanente."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "voragem-dimensional",
@@ -932,7 +984,8 @@
     "descricao": "Uma fissura dimensional se abre e engole a criatura, lançando-a em um espaço entre os planos. A criatura desaparece por 1d6 rounds, depois reaparece no espaço mais próximo disponível ao local original.",
     "aprimoramentos": [
       "+2 PM: você escolhe onde a criatura reaparece (dentro de alcance longo)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "alterar-destino",
@@ -947,7 +1000,8 @@
     "duracao": "Instantânea",
     "resistencia": "—",
     "descricao": "Você intervém no destino de uma criatura. Use como reação após um dado ser rolado mas antes de aplicar o resultado. Pode: fazer um ataque que errou acertar (ou vice-versa); fazer um teste que falhou passar (ou vice-versa); maximizar ou minimizar um dano rolado.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-tempo",
@@ -962,7 +1016,8 @@
     "duracao": "Especial",
     "resistencia": "—",
     "descricao": "Você para o tempo para todas as criaturas e objetos ao seu redor. Durante esse período (1d4+1 rounds), outras criaturas ficam paralisadas, projéteis se imobilizam no ar e você pode agir normalmente. Ao final, o tempo retoma de onde parou.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "xagarashar",
@@ -979,7 +1034,8 @@
     "descricao": "Uma tempestade de energia mágica pura explode no ponto designado. A magia inflige 10d6 pontos de dano de energia (escolha o tipo no momento do lançamento: ácido, elétrico, frio ou fogo) a todas as criaturas na área.",
     "aprimoramentos": [
       "+2 PM: aumenta o dano em +2d6."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "abençoar-alimentos",
@@ -998,7 +1054,8 @@
       "+1 PM: afeta alimentos para +6 pessoas adicionais.",
       "+2 PM: cada porção cura 1d6 PV em vez de 1.",
       "+3 PM: os alimentos também removem as condições envenenado e enfermo de quem os consumir."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "acalmar-animal",
@@ -1018,7 +1075,8 @@
       "+1 PM: muda o alvo para 1 monstro ou espírito com Int –5 ou –4.",
       "+2 PM: aumenta o número de alvos em +1.",
       "+5 PM: muda o alvo para 1 monstro ou espírito. Requer 3º círculo."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "bencao",
@@ -1037,7 +1095,8 @@
       "+1 PM: aumenta o bônus em +1.",
       "+1 PM: aliados também recebem +1d4 de dano nos ataques.",
       "+2 PM: muda o alcance para médio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "castigar",
@@ -1055,7 +1114,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o dano em +1d8.",
       "+2 PM: muda o alcance para curto."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "causar-ferimentos",
@@ -1073,7 +1133,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o dano em +1d8.",
       "+2 PM: muda o alcance para curto."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "consagrar",
@@ -1092,7 +1153,8 @@
       "+2 PM: mortos-vivos sofrem –2 nos testes dentro da área.",
       "+3 PM: a duração aumenta para semana.",
       "+5 PM: a duração aumenta para permanente."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-plantas",
@@ -1110,7 +1172,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta a área em +3m de raio.",
       "+2 PM: pode controlar plantas-criaturas com Int –5 ou –4."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "curar-ferimentos",
@@ -1129,7 +1192,8 @@
       "+1 PM: aumenta a cura em +1d8.",
       "+2 PM: muda o alcance para curto.",
       "+5 PM: muda o alvo para aliados em área de 6m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "detectar-alinhamento",
@@ -1146,7 +1210,8 @@
     "descricao": "Você detecta o alinhamento de criaturas e objetos mágicos em alcance curto. Sente a intensidade do alinhamento (Ordeiro/Neutro/Caótico). Com Misticismo CD 15, pode detectar também Bem/Mal se houver.",
     "aprimoramentos": [
       "+1 PM: detecta especificamente se a criatura é Boa ou Má além do eixo Ordem/Caos."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "domar-animal",
@@ -1163,7 +1228,8 @@
     "descricao": "O animal fica domesticado e obediente a você. Pode ser treinado como um animal doméstico. O animal é leal até a morte mas não age contra sua natureza básica.",
     "aprimoramentos": [
       "+3 PM: pode afetar monstros bestas com Int –4 ou –3."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "orientacao",
@@ -1181,7 +1247,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o bônus em +1.",
       "+2 PM: a criatura pode rolar o teste duas vezes e usar o melhor resultado."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "protecao",
@@ -1199,7 +1266,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o bônus em +2.",
       "+2 PM: muda o alvo para aliados em alcance curto."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "remover-veneno",
@@ -1216,7 +1284,8 @@
     "descricao": "Remove um veneno ou doença natural da criatura. A criatura também é curada de qualquer dano de atributo causado pelo veneno ou doença.",
     "aprimoramentos": [
       "+2 PM: neutraliza também venenos e doenças mágicas."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "sagrar-arma",
@@ -1234,7 +1303,8 @@
     "aprimoramentos": [
       "+1 PM: aumenta o dano extra em +1d6.",
       "+2 PM: a arma também recebe +1 nas jogadas de ataque e dano."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "aliado-animal",
@@ -1251,7 +1321,8 @@
     "descricao": "Um animal se torna seu companheiro leal e permanente. Você ganha um animal companheiro de ND igual à metade do seu nível (mínimo 1). O animal obedece suas ordens e melhora conforme você ganha níveis.",
     "aprimoramentos": [
       "+3 PM: o animal companheiro é de ND igual ao seu nível."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "auxilio",
@@ -1268,7 +1339,8 @@
     "descricao": "A criatura recebe +1 nas jogadas de ataque, em todas as resistências e ganha +1d8 PV temporários (que são removidos ao final da cena).",
     "aprimoramentos": [
       "+1 PM: o bônus aumenta em +1 e os PV temporários aumentam em +1d8."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-fogo",
@@ -1286,7 +1358,8 @@
     "aprimoramentos": [
       "+1 PM: pode criar fogo onde não existe (em material inflamável dentro do alcance).",
       "+2 PM: criaturas que falharem nos Reflexos ao atravessar uma parede de fogo pegam fogo (1d6 dano por round até apagado)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-madeira",
@@ -1303,7 +1376,8 @@
     "descricao": "Você controla madeira na área. Pode dobrar, torcer ou quebrar objetos de madeira, criar barreiras de madeira de até 3m, ou fazer raízes e galhos crescerem para enredar criaturas (Reflexos CD Sab).",
     "aprimoramentos": [
       "+2 PM: pode controlar árvores vivas (como se fossem apenas madeira não-mágica)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "curar-ferimentos-em-massa",
@@ -1320,7 +1394,8 @@
     "descricao": "Todos os aliados na área recuperam 1d8 + seu modificador de atributo de magia PV.",
     "aprimoramentos": [
       "+1 PM: aumenta a cura em +1d8."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "invocar-relampago",
@@ -1338,7 +1413,8 @@
     "aprimoramentos": [
       "+2 PM: o dano aumenta para 5d6 por relâmpago.",
       "+1 PM: você pode chamar 2 relâmpagos por round."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "silencio",
@@ -1355,7 +1431,8 @@
     "descricao": "Nenhum som pode ser criado ou transmitido dentro da área de efeito. Criaturas dentro da área não conseguem lançar magias com componente verbal. Ideal para evitar alarmes e comunicação.",
     "aprimoramentos": [
       "+2 PM: criaturas dentro da área também ficam ensurdecidas mesmo que passem na resistência."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "vitalidade",
@@ -1372,7 +1449,8 @@
     "descricao": "A criatura recupera 1d8 PV e fica energizada: recebe +2 em For e Con durante a cena.",
     "aprimoramentos": [
       "+1 PM: aumenta a cura em +1d8 e o bônus em +1."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-agua",
@@ -1390,7 +1468,8 @@
     "aprimoramentos": [
       "+2 PM: você pode caminhar sobre a superfície da água durante a cena.",
       "+3 PM: a área de controle aumenta para 90m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-terra",
@@ -1408,7 +1487,8 @@
     "aprimoramentos": [
       "+2 PM: pode mover e modelar pedra sólida (criar esculturas, selar portas de pedra, etc.).",
       "+3 PM: cria um tremor de terra que afeta área de 18m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "criar-alimento",
@@ -1426,7 +1506,8 @@
     "aprimoramentos": [
       "+1 PM: alimenta +15 pessoas.",
       "+3 PM: o alimento equivale a uma refeição revitalizante (remove fadiga e exaustão)."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "cura-plena",
@@ -1444,7 +1525,8 @@
     "aprimoramentos": [
       "+2 PM: muda o alcance para curto.",
       "+5 PM: muda o alvo para aliados em área de 6m de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "purificar",
@@ -1461,7 +1543,8 @@
     "descricao": "Remove maldições e estados negativos mágicos. Também limpa venenos, doenças e contaminações sobrenaturais. Maldições mais poderosas podem exigir testes de Misticismo para serem removidas.",
     "aprimoramentos": [
       "+3 PM: remove também maldições lançadas por feiticeiros de 10º nível ou acima."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "ressuscitar-animal",
@@ -1478,7 +1561,8 @@
     "descricao": "Você traz um animal de volta à vida. O animal deve ter morrido há no máximo 1 dia por nível do lançador. Retorna com 1 PV e fica fragilizado por 1 semana (–2 em todos os testes). Requer o corpo intacto.",
     "aprimoramentos": [
       "+2 PM: o prazo máximo aumenta para 1 semana por nível."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "conjurar-mortos-vivos",
@@ -1496,7 +1580,8 @@
     "aprimoramentos": [
       "+2 PM: aumenta o ND total disponível em +2.",
       "+5 PM: os mortos-vivos permanecem por 1 hora."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "controlar-clima",
@@ -1514,7 +1599,8 @@
     "aprimoramentos": [
       "+3 PM: a duração aumenta para 8 horas.",
       "+5 PM: a área aumenta para 5km de raio."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "milagre-menor",
@@ -1529,7 +1615,8 @@
     "duracao": "Especial",
     "resistencia": "Especial",
     "descricao": "Você pede um favor menor à sua divindade. O milagre menor pode: duplicar os efeitos de qualquer magia divina de até 3º círculo; criar um efeito único com poder equivalente (aprovado pelo Mestre); ou conceder um bônus de +4 em qualquer teste para o qual sua divindade é protetora. A divindade pode negar se a relação com o devoto não for boa.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "ressuscitar",
@@ -1547,7 +1634,8 @@
     "aprimoramentos": [
       "+5 PM: o prazo máximo não tem limite.",
       "+3 PM: a criatura retorna sem perder pontos de Constituição."
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "grande-cura",
@@ -1562,7 +1650,8 @@
     "duracao": "Instantânea",
     "resistencia": "—",
     "descricao": "Todos os aliados na área recuperam todos os seus PV e são completamente curados de qualquer condição negativa não permanente (venenos, doenças, maldições de nível inferior ao 5º círculo, etc.).",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "milagre",
@@ -1577,7 +1666,8 @@
     "duracao": "Especial",
     "resistencia": "Especial",
     "descricao": "Você pede a intervenção direta da sua divindade. O milagre pode: duplicar qualquer magia divina sem limite de círculo; restaurar à vida alguém que morreu há qualquer tempo; remover qualquer maldição ou doença, incluindo as permanentes; transformar uma área de até 30m de raio de acordo com a vontade da divindade; ou criar qualquer outro efeito com o poder de um deus (aprovado pelo Mestre). A divindade pode exigir uma missão, sacrifício ou prova de fé em troca.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "praga-divina",
@@ -1592,7 +1682,8 @@
     "duracao": "Permanente",
     "resistencia": "Fortitude anula",
     "descricao": "Você amaldiçoa com uma praga divina. O efeito é determinado pela sua divindade e pode incluir doenças sobrenaturais, maldições, transformações físicas, ou outros efeitos permanentes. A praga só pode ser removida por Milagre ou pela intervenção de um ser divino poderoso.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "ressurreicao-total",
@@ -1607,6 +1698,160 @@
     "duracao": "Instantânea",
     "resistencia": "—",
     "descricao": "Você traz uma criatura de volta à vida sem nenhuma restrição de tempo, mesmo que o corpo esteja destruído (desde que tenha algum fragmento). A criatura retorna com todos os seus PV, sem perda de Constituição e sem penalidades. Pode trazer de volta criaturas que morreram de velhice, recriando o corpo em sua forma jovem adulta.",
-    "aprimoramentos": []
+    "aprimoramentos": [],
+    "fonte": "Tormenta 20"
+  },
+  {
+    "id": "aplicacao-justica-divina",
+    "nome": "Aplicação da Justiça Divina",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 3,
+    "pm": 6,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade reduz à metade",
+    "descricao": "Você lança o julgamento de seu deus sobre o alvo. Ele sofre 4d12 pontos de dano de luz, que aumenta em +2d12 cumulativamente se: for devoto de divindade rival, for devoto de divindade de energia negativa, for desonrado, desonesto ou maligno. Apenas devotos fieis de deuses de energia positiva podem aprender esta magia.",
+    "aprimoramentos": [
+      "+4 PM: muda resistência para Vontade parcial. Se falhar, o alvo também fica atordoado por 1 rodada."
+    ]
+  },
+  {
+    "id": "invocar-capangas",
+    "nome": "Invocar Capangas",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 1,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Área de 6m",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você conjura 1d4+1 capangas (Def 12, PV 10, dano 1d4 de corte ou impacto, Des +1) em espaços desocupados em alcance curto. Os capangas obedecem suas ordens e atuam na sua iniciativa.",
+    "aprimoramentos": [
+      "+2 PM: conjura +1d4 capangas adicionais.",
+      "+3 PM: aumenta a Defesa dos capangas em +1. Requer 2° círculo.",
+      "+5 PM: conjura elementais (dano muda para ácido, eletricidade, fogo ou frio, com deslocamento de voo 6m). Requer 3° círculo.",
+      "+5 PM: conjura monstros (dano muda para d8, PV mudam para 25). Requer 3° círculo."
+    ]
+  },
+  {
+    "id": "cronoestase-aura-weiser",
+    "nome": "Cronoêstase de Aura Weiser",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 5,
+    "pm": 10,
+    "execucao": "1 minuto",
+    "alcance": "Pessoal",
+    "area": "Cubo com 30m de lado",
+    "duracao": "Instantânea (mas veja texto)",
+    "resistencia": "—",
+    "descricao": "Você cria uma área de êstase temporal a partir de você. Para quem estiver fora da área, passa apenas uma fração de segundo. Dentro da área, você e todos os presentes podem agir por até 1 minuto completo. Ao fim, tudo retorna ao estado normal. Criaturas hostis dentro da área sofrem confusão temporal (Vontade CD Int evita).",
+    "aprimoramentos": [
+      "+5 PM: a êstase dura 5 minutos.",
+      "+10 PM: a êstase dura 1 hora."
+    ]
+  },
+  {
+    "id": "dragao-flamejante",
+    "nome": "Dragão Flamejante",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Cone de 6m",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos parcial",
+    "descricao": "Você rodopia liberando chamas em um cone de 6m. Criaturas na área sofrem 3d6 pontos de dano de fogo.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o dano em +1d6.",
+      "+2 PM: você rodopia com mais intensidade e forma um dragão flamejante. O dado de dano muda para d8 e a área para esfera com 6m de raio. Requer 2° círculo."
+    ]
+  },
+  {
+    "id": "furia-vulcanica",
+    "nome": "Fúria Vulcânica",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 4,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Esfera com 6m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos parcial",
+    "descricao": "Você golpeia o chão em sequência, fazendo lava e rochas voarem pela área. Criaturas na área (exceto você) sofrem 4d6 de impacto e 4d6 de fogo, além de ficarem caídas. Passar na resistência evita as condições mas não o dano.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6 de cada tipo.",
+      "+4 PM: área aumenta para esfera com 12m de raio."
+    ]
+  },
+  {
+    "id": "necrose-de-rowena",
+    "nome": "Necrose de Rowena",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 2,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Sustentada",
+    "resistencia": "—",
+    "descricao": "Você corrompe o próprio corpo com aspecto cadavérico. Não pode lançar outras magias enquanto sustenta esta. Recebe +2d10 de trevas em todos os ataques corpo a corpo e recupera PV igual a metade do dano de trevas causado.",
+    "aprimoramentos": [
+      "+2 PM: os dados de dano mudam para d12.",
+      "+4 PM: o bônus de dano aumenta para +3d10."
+    ]
+  },
+  {
+    "id": "entrar-na-sombra",
+    "nome": "Entrar na Sombra",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 3,
+    "pm": 5,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Sustentada",
+    "resistencia": "Reflexos anula",
+    "descricao": "Você mergulha na sombra de uma criatura em alcance curto, habitando-a. Enquanto na sombra, é invisível e imaterial (imune a dano físico). A criatura começa a tomar dano ao início de cada turno igual à metade do seu nível de conjurador.",
+    "aprimoramentos": [
+      "+3 PM: o dano causado à criatura aumenta para total de seu nível.",
+      "+10 PM: a criatura fica paralisada enquanto você está na sombra (Fort CD para evitar, pode repetir no início de cada turno). Requer 5° círculo."
+    ]
+  },
+  {
+    "id": "vislumbre-de-azgher",
+    "nome": "Vislumbre de Azgher",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 5,
+    "pm": 10,
+    "execucao": "1d3+1 rodadas",
+    "alcance": "Pessoal",
+    "area": "Esfera com 18m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos parcial",
+    "descricao": "Você concentra uma partícula de luz que cresce a cada rodada. Ao fim da execução, você libera uma explosão de luz dourada que cega todos os inimigos na área por 1d4 rodadas e causa 8d8 de luz. Passar na resistência reduz o dano à metade e evita a cegueira.",
+    "aprimoramentos": [
+      "+5 PM: a área aumenta para 36m de raio.",
+      "+5 PM: a cegueira dura 1 cena em vez de rodadas."
+    ]
   }
 ]

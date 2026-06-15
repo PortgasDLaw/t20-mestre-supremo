@@ -18,11 +18,15 @@ const FerramentasRapidas = lazy(() => import('@/features/ferramentas/Ferramentas
 const BuscaUniversal = lazy(() => import('@/features/ferramentas/BuscaUniversal'))
 const Racas = lazy(() => import('@/features/compendio/Racas'))
 const Classes = lazy(() => import('@/features/compendio/Classes'))
+const Distincoes = lazy(() => import('@/features/compendio/Distincoes'))
+const DeusesMenores = lazy(() => import('@/features/compendio/DeusesMenores'))
 
 const pages: Record<string, React.ReactNode> = {
   dashboard: <Dashboard />,
   racas: <Racas />,
   classes: <Classes />,
+  distincoes: <Distincoes />,
+  deuses: <DeusesMenores />,
   equipamentos: <Equipamentos />,
   condicoes: <Condicoes />,
   magias: <Magias />,

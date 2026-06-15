@@ -18,7 +18,8 @@
     ],
     "deus": "Valkaria",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "anao",
@@ -47,7 +48,8 @@
     ],
     "deus": "Khalmyr (Heredrimm)",
     "tamanho": "Médio",
-    "deslocamento": "6m"
+    "deslocamento": "6m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "dahllan",
@@ -72,7 +74,8 @@
     ],
     "deus": "Allihanna",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "elfo",
@@ -97,7 +100,8 @@
     ],
     "deus": "Qualquer (Glórienn caiu)",
     "tamanho": "Médio",
-    "deslocamento": "12m"
+    "deslocamento": "12m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "goblin",
@@ -126,7 +130,8 @@
     ],
     "deus": "Graolak",
     "tamanho": "Pequeno",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "lefou",
@@ -147,7 +152,8 @@
     ],
     "deus": "Qualquer",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "minotauro",
@@ -176,7 +182,8 @@
     ],
     "deus": "Tauron (morto)",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "qareen",
@@ -201,7 +208,8 @@
     ],
     "deus": "Wynna",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "golem",
@@ -230,7 +238,8 @@
     ],
     "deus": "Qualquer",
     "tamanho": "Médio",
-    "deslocamento": "6m"
+    "deslocamento": "6m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "hynne",
@@ -255,7 +264,8 @@
     ],
     "deus": "Qualquer",
     "tamanho": "Pequeno",
-    "deslocamento": "6m"
+    "deslocamento": "6m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "kliren",
@@ -284,7 +294,8 @@
     ],
     "deus": "Qualquer",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "medusa",
@@ -309,7 +320,8 @@
     ],
     "deus": "Megalokk",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "osteon",
@@ -338,7 +350,8 @@
     ],
     "deus": "Qualquer (Ragnar caiu)",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "sereia-tritao",
@@ -363,7 +376,8 @@
     ],
     "deus": "Oceano",
     "tamanho": "Médio",
-    "deslocamento": "9m / Natação 12m"
+    "deslocamento": "9m / Natação 12m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "silfide",
@@ -388,7 +402,8 @@
     ],
     "deus": "Allihanna",
     "tamanho": "Minúsculo",
-    "deslocamento": "9m (Voo 12m com PM)"
+    "deslocamento": "9m (Voo 12m com PM)",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "suraggel",
@@ -413,7 +428,8 @@
     ],
     "deus": "Vários (Aggelus: deuses do bem; Sulfure: deuses das trevas)",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
   },
   {
     "id": "trog",
@@ -442,6 +458,374 @@
     ],
     "deus": "Megalokk",
     "tamanho": "Médio",
-    "deslocamento": "9m"
+    "deslocamento": "9m",
+    "fonte": "Tormenta 20"
+  },
+  {
+    "id": "amalgamo",
+    "nome": "Amálgamo",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Carisma –2",
+    "descricao": "A junção de diversos seres distintos em um único corpo, criando um ser híbrido de diversas espécies. Não são mortos-vivos comuns, pois se sustentam por mecanismos internos e órgãos ainda vivos operados por forças místicas distintas. Surgem quando um cientista decide criar vida sem se preocupar com forma ou beleza.",
+    "habilidades": [
+      {
+        "nome": "Carisma –2",
+        "descricao": "A aparência macabra e a natureza composta do amálgamo impõe penalidades sociais."
+      },
+      {
+        "nome": "Crise Existencial",
+        "descricao": "Seu corpo é formado por inúmeras partes distintas. Você sofre –5 em testes de Carisma e de perícias baseadas em Carisma. Ao entrar em combate, faça teste de Vontade (CD 15 + nível), se falhar, fica alquebrado pela cena e atordoado por 1 rodada."
+      },
+      {
+        "nome": "Fonte de Vida",
+        "descricao": "Escolha uma fonte: Divina (espírito, visão na penumbra, +1 Int), Mística (morto-vivo, visão no escuro, imunidade a cansaço/veneno), ou Mecânica (construto, não precisa respirar/dormir, recupera PV através de reparos)."
+      }
+    ],
+    "deus": "Megalokk, Nimb, Tanna-Toh, Tenebra",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "x0,7"
+  },
+  {
+    "id": "averiano",
+    "nome": "Averiano",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Sabedoria +1, Inteligência –2",
+    "descricao": "A cruza mística de energia de monstros conhecidos como lagartos-serpes e humanoides devotos de Allihanna. São altos e sobrenaturalmente fortes com capacidades monstruosas inatas, possuindo quatro dedos nas mãos, pernas digitigradas e patas no lugar dos pés.",
+    "habilidades": [
+      {
+        "nome": "Sabedoria +1, Inteligência –2",
+        "descricao": "A herança monstruosa confere instinto aguçado mas reduz capacidade intelectual."
+      },
+      {
+        "nome": "Herança Monstruosa",
+        "descricao": "Você é uma criatura do tipo monstro. Recebe faro, visão no escuro e +2 em Adestramento e Intimidação."
+      },
+      {
+        "nome": "Bênção Selvagem",
+        "descricao": "Escolha dois poderes: Compreensão Selvagem (Sab+1, falar com animais), Empunhadura Poderosa (dano extra em ataques), ou outros poderes inatos de monstro. Uma vez por patamar, pode escolher uma bênção no lugar de um poder de classe."
+      }
+    ],
+    "deus": "Lin-Wu, Megalokk, Tanna-toh, Tenebra",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "x3"
+  },
+  {
+    "id": "dampiro",
+    "nome": "Dampíro",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Carisma +2, +1 em Outro Atributo, Constituição –1",
+    "descricao": "Nascidos da relação entre humanos e vampíros após o surgimento de Aslothia. São belos e altivos como vampíros, carregando sua mácula sinistra, mas a sede de sangue é mais contida. São sempre pálidos ou acizentados, com cabelos prateados e orelhas pontudas.",
+    "habilidades": [
+      {
+        "nome": "Carisma +2, +1 em Outro Atributo, Constituição –1",
+        "descricao": "A herança vampírica confere beleza sobrenatural mas fragilidade física."
+      },
+      {
+        "nome": "Herança Vampírica",
+        "descricao": "Você é uma criatura do tipo humanoide (morto-vivo). Recebe visão no escuro, resistência a trevas 5 e +2 em Enganação e Nobreza."
+      },
+      {
+        "nome": "Sede de Sangue",
+        "descricao": "Uma vez por rodada, ao acertar um ataque corpo a corpo, você pode gastar 2 PM para drenar 1d6 PV do alvo e absolvê-los. Se não drenar ao menos 5 PV por cena de combate, fica fraco até o fim da cena."
+      }
+    ],
+    "deus": "Kallyadranoch, Tenebra, Wynna",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "x5"
+  },
+  {
+    "id": "eirin",
+    "nome": "Eirin",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "+1 em Dois Atributos",
+    "descricao": "Meio-dragões celestes, espíritos nativos de Sora que vieram a Arton para instruir seus habitantes nos princípios da honra. Exalam nobreza e excelência, com o 'terceiro olho' que detecta a desonra no coração mortal.",
+    "habilidades": [
+      {
+        "nome": "+1 em Dois Atributos",
+        "descricao": "Herança celestial equilibrada entre diferentes capacidades."
+      },
+      {
+        "nome": "Herança Celestial",
+        "descricao": "Você é uma criatura do tipo espírito. Recebe visão no escuro e +2 em testes de resistência."
+      },
+      {
+        "nome": "Bênção de Lin-Wu",
+        "descricao": "Escolha dois poderes: Chifres Celestiais (raio 2d8+2 eletricidade), Contra a Corrente (nado 9m, caminhar sobre águas), Corpo de Nuvem (pairar 1,5m), Terceiro Olho (detectar desonra, +2 Intuição). Uma vez por patamar, pode escolher bênção no lugar de poder de classe."
+      }
+    ],
+    "deus": "Azgher, Lin-wu, Tanna-Toh, Wynna",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "x3"
+  },
+  {
+    "id": "entoma",
+    "nome": "Entoma",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "+1 no atributo da família, +1 em Dois Atributos",
+    "descricao": "Criaturas insetoides, frequentemente confundidas com lefeus. Possuem fisionomia de insetos como patas de louva-deus, antenas de formiga e asas de barata. Atualmente quase extintas, vivem escondidas nas Montanhas Sanguinárias.",
+    "habilidades": [
+      {
+        "nome": "Famílias",
+        "descricao": "Escolha uma família: Blattodea (Con+1, carapaça, mente coletiva), Coleoptera (Con+1, chifre, elitras), Mantodea (For+1, garras, profeta marcial), ou Megaloptera (For+1, tamanho Grande, mordida, nadador)."
+      },
+      {
+        "nome": "Criatura Insetoide",
+        "descricao": "Você é uma criatura do tipo monstro e recebe visão na penumbra."
+      }
+    ],
+    "deus": "Allihanna, Megalokk, Sszzaas, Tenebra",
+    "tamanho": "Médio (Família Megaloptera: Grande)",
+    "deslocamento": "9m",
+    "longevidade": "x0,7"
+  },
+  {
+    "id": "envar",
+    "nome": "Envar",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "+1 em Três Atributos",
+    "descricao": "Do continente divino de Alstra. Extremamente parecidos com humanos, possuem porte altivo, cabelos sempre louros e olhos em tons claros, às vezes com orelhas pontudas. Exalam poder divino exuberante e carregam símbolos de divindades exteriores em suas mãos ou face.",
+    "habilidades": [
+      {
+        "nome": "+1 em Três Atributos",
+        "descricao": "Herança divina equilibrada que se manifesta em múltiplas capacidades."
+      },
+      {
+        "nome": "Herança Divina de Alstra",
+        "descricao": "Você recebe +2 em testes de resistência contra magias e efeitos divinos. Além disso, pode detectar a presença de divindades menores em alcance médio."
+      },
+      {
+        "nome": "Marca dos Vanirs",
+        "descricao": "Você possui uma marca natural em sua pele que brilha ao usar poderes concedidos, fornecendo +1 PM em poderes concedidos de divindades maiores."
+      }
+    ],
+    "deus": "Azgher, Khalmyr, Lin-Wu, Thyatis",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "Normal"
+  },
+  {
+    "id": "soberano",
+    "nome": "Soberano",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Especial (veja passos)",
+    "descricao": "Entidades paralelas conhecidas como Imperadores do Fim ou Habitantes Extraterrestres. Vêm de O Fim, mundo acessível através de Sombria. Possuem tecnologia formada por metal, fios, ossos e nervos. São criaturas de muitos nomes, nenhum pronunciável em Valkar.",
+    "habilidades": [
+      {
+        "nome": "Natureza",
+        "descricao": "Você é criatura do tipo espírito com percepção às cegas (médio). Escolha uma função: Arquiteto (+2 resistência mental), Batedor (+2 resistência climática), ou Soldado (redução de dano)."
+      },
+      {
+        "nome": "Longevidade Alquímica",
+        "descricao": "Imune a efeitos de cansaço, metabólicos e venenos. Não pode morrer de velhice. Pré-requisito: 5° nível."
+      },
+      {
+        "nome": "Olhos Internos",
+        "descricao": "A percepção às cegas muda para longo. Pode abrir o crânio para exibir olhos macabros, recebendo os efeitos de Visão Mística por 1 cena."
+      },
+      {
+        "nome": "Opressor da Mente",
+        "descricao": "No início de uma cena de combate, pode gastar 2 PM por inimigo de Int 0 ou menor para receber bônus de +1 em testes de perícia contra eles."
+      }
+    ],
+    "deus": "Especial",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "x3"
+  },
+  {
+    "id": "valquiria-raca",
+    "nome": "Valquíria",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Força +2, Sabedoria +1, Carisma +1",
+    "descricao": "Guardiãs de Vanasi, o templo dos deuses em Alstra. Mulheres de porte viril e altura elevada com maestria na lança e asas metálicas. Após a guerra artoniana, passaram a ser vistas em exércitos e locais estratégicos de Arton.",
+    "habilidades": [
+      {
+        "nome": "Força +2, Sabedoria +1, Carisma +1",
+        "descricao": "Constituição guerreira e presença imponente."
+      },
+      {
+        "nome": "Asas Metálicas",
+        "descricao": "Você possui asas de metal que concedem deslocamento de voo de 9m. As asas podem ser usadas como escudos para habilidades que exijam escudos."
+      },
+      {
+        "nome": "Guerreira de Vanasi",
+        "descricao": "Você é treinada com lanças e armaduras pesadas desde o nascimento. Recebe +2 em testes de ataque com lanças e +1 na Defesa quando veste armadura pesada."
+      },
+      {
+        "nome": "Devoção aos Vanirs",
+        "descricao": "Você recebe +1 PM por nível nos poderes concedidos de divindades de Alstra (Glória, Aegis, etc.)."
+      }
+    ],
+    "deus": "Glória, Aegis, Frier",
+    "tamanho": "Médio",
+    "deslocamento": "9m (Voo: 9m)",
+    "longevidade": "Indefinida"
+  },
+  {
+    "id": "alraune",
+    "nome": "Alraune",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Sabedoria +2, Constituição +1, Inteligência –1",
+    "descricao": "Povo isolado que vive em profundas florestas de Arton. Plantas humanoides que não precisam de nada além de água e luz solar para sobreviver. Podem falar com plantas e rochas livremente.",
+    "habilidades": [
+      {
+        "nome": "Sabedoria +2, Constituição +1, Inteligência –1",
+        "descricao": "Conexão profunda com a natureza."
+      },
+      {
+        "nome": "Bênção da Floresta",
+        "descricao": "Você pode lançar duas magias entre: Arsenal de Allihanna, Caminhos da Natureza, Controlar Plantas e Jato Corrosivo (atributo-chave Sabedoria). Se aprender novamente, –1 PM."
+      },
+      {
+        "nome": "Criatura Natural",
+        "descricao": "Tipo monstro. Recebe natureza vegetal, imunidade a veneno e redução de ácido 5. Não precisa respirar ou dormir. Pode falar com plantas e rochas."
+      },
+      {
+        "nome": "Fotossíntese",
+        "descricao": "Precisa de 8h sob luz solar para descanso normal. Sem ela, sofre os efeitos de Sono."
+      }
+    ],
+    "deus": "Allihanna, Azgher, Oceano, Tenebra",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "Indefinida"
+  },
+  {
+    "id": "dagon",
+    "nome": "Dagon",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Força +2, Sabedoria +1, Destreza –1",
+    "descricao": "A elite do inferno, nascidos em mundos divinos. Raramente vistos em Arton. Guerreiros adaptados que não são reduzidos por equipamentos pesados e que podem retornar da morte caso matem um inimigo digno.",
+    "habilidades": [
+      {
+        "nome": "Força +2, Sabedoria +1, Destreza –1",
+        "descricao": "Força infernal e resistência inata."
+      },
+      {
+        "nome": "Cria Infernal",
+        "descricao": "Tipo espírito. Visão no escuro e redução de fogo e trevas 5."
+      },
+      {
+        "nome": "Guerreiro Adaptado",
+        "descricao": "Seu deslocamento não é reduzido por armaduras pesadas ou excesso de carga."
+      },
+      {
+        "nome": "Revenã",
+        "descricao": "Se morto, permanece vivo por 1d4 rodadas (imune a dano). Se matar ao menos uma criatura solo de ND igual ou maior ao seu nível nesse tempo, volta com 1 PV."
+      }
+    ],
+    "deus": "Arsenal, Kallyadranoch, Khalmyr, Lin-Wu",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "x2"
+  },
+  {
+    "id": "forjado",
+    "nome": "Forjado",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Força +2, Constituição +2, Destreza –1, Carisma –1",
+    "descricao": "Armaduras vivas animadas com almas de cavaleiros caídos que não alcançaram a paz. O corpo desaparece, restando apenas as placas metálicas e a cota de malha habitadas pelo espírito do guerreiro.",
+    "habilidades": [
+      {
+        "nome": "Força +2, Constituição +2, Destreza –1, Carisma –1",
+        "descricao": "Corpo de aço com alma guerreira."
+      },
+      {
+        "nome": "Armadura Viva",
+        "descricao": "Tipo construto. Visão no escuro, imunidade a cansaço, efeitos metabólicos e veneno. Não precisa respirar, alimentar-se ou dormir. Não se beneficia de cura mundana. Precisa de 8h inerte para reparos (equivalente a descanso normal). Cura e Ofício (Armeiro) podem ser usadas."
+      },
+      {
+        "nome": "Corpo Substituível",
+        "descricao": "Proficiente com armaduras pesadas. Seu corpo é uma brunea. Recebe os bônus de armadura pesada sem precisar vesti-la."
+      }
+    ],
+    "deus": "Arsenal, Khalmyr, Lin-Wu",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "Indefinida"
+  },
+  {
+    "id": "jotun",
+    "nome": "Jötun",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Sabedoria +2, Inteligência +1, Destreza –1",
+    "descricao": "Gigantes de sabedoria, com percepção às cegas e olhos de cristal. Compreendem todos os idiomas artonianos e possuem uma conexão especial com magias de adivinhação.",
+    "habilidades": [
+      {
+        "nome": "Sabedoria +2, Inteligência +1, Destreza –1",
+        "descricao": "Sabedoria ancestral de gigante."
+      },
+      {
+        "nome": "Grande Ancião",
+        "descricao": "Tipo humanoide (gigante). Tamanho Grande. Pode gastar 2 PM para usar Sabedoria no lugar de Inteligência em qualquer teste."
+      },
+      {
+        "nome": "Filosofia Jötnar",
+        "descricao": "Compreende todos os idiomas artonianos. Ao lançar magia de adivinhação, recebe +1 PM para gastar em aprimoramentos."
+      },
+      {
+        "nome": "Olhos Cristalinos",
+        "descricao": "Seus olhos são cristais mágicos. Você recebe percepção às cegas, mas é considerado cego além desse alcance."
+      }
+    ],
+    "deus": "Sszzaas, Tanna-Toh, Tenebra, Wynna",
+    "tamanho": "Grande",
+    "deslocamento": "9m",
+    "longevidade": "x3"
+  },
+  {
+    "id": "oni",
+    "nome": "Oni",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Força +2, Constituição +1, Carisma –1",
+    "descricao": "Diz-se que onis surgem da maldade humana através de rituais, mas a maioria dos onis heróicos são aqueles que abandonaram a traição e vieram de outros mundos para auxiliar heróis.",
+    "habilidades": [
+      {
+        "nome": "Força +2, Constituição +1, Carisma –1",
+        "descricao": "Força demoníaca com presença intimidante mas repulsiva."
+      },
+      {
+        "nome": "Aversão à Desonra",
+        "descricao": "Você recebe +2 em testes de resistência contra encantamento e ilusão. Além disso, quando atingido por uma traição de aliado, recebe +2 em testes de ataque contra o traidor até o fim da cena."
+      },
+      {
+        "nome": "Chifres de Demônio",
+        "descricao": "Arma natural de chifres (1d8, impacto). Uma vez por rodada, ao acertar com outra arma, pode gastar 1 PM para atacar com os chifres como ataque livre."
+      }
+    ],
+    "deus": "Qualquer",
+    "tamanho": "Médio",
+    "deslocamento": "9m",
+    "longevidade": "Normal"
   }
 ]

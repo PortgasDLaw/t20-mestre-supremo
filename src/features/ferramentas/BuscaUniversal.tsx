@@ -8,8 +8,10 @@ import magiasData from '@/data/magias.json'
 import condicoesData from '@/data/condicoes.json'
 import ameacasData from '@/data/ameacas.json'
 import reinosData from '@/data/reinos.json'
+import distincoesData from '@/data/distincoes.json'
+import deusesData from '@/data/deuses_menores.json'
 
-type ResultType = 'equipamento' | 'magia' | 'condicao' | 'ameaca' | 'reino'
+type ResultType = 'equipamento' | 'magia' | 'condicao' | 'ameaca' | 'reino' | 'distincao' | 'deus'
 
 interface Resultado {
   id: string
@@ -22,10 +24,12 @@ interface Resultado {
 
 const tipoColor: Record<ResultType, 'gold' | 'blood' | 'gray' | 'green' | 'blue' | 'purple'> = {
   equipamento: 'gold', magia: 'purple', condicao: 'blood', ameaca: 'blood', reino: 'blue',
+  distincao: 'gold', deus: 'gray',
 }
 
 const tipoLabel: Record<ResultType, string> = {
   equipamento: 'Equipamento', magia: 'Magia', condicao: 'Condição', ameaca: 'Ameaça', reino: 'Reino',
+  distincao: 'Distinção/Rito', deus: 'Deus Menor',
 }
 
 // Build search index

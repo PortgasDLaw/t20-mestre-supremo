@@ -1,6 +1,5 @@
 import { useState, useMemo } from 'react'
 import racasData from '@/data/racas.json'
-import { Card } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Badge } from '@/components/ui/Badge'
 import { Modal } from '@/components/ui/Modal'
@@ -15,6 +14,7 @@ interface Raca {
   id: string
   nome: string
   tipo: string
+  fonte?: string
   imagem: string
   atributos: string
   descricao: string
@@ -30,16 +30,18 @@ const racas: Raca[] = (racasData as any).racas || (racasData as any)
 export default function Racas() {
   const [busca, setBusca] = useState('')
   const [filtroTipo, setFiltroTipo] = useState<'todas' | 'comum' | 'rara'>('todas')
+  const [filtroFonte, setFiltroFonte] = useState<'todas' | 'Tormenta 20' | 'Mitos de Arton'>('todas')
   const [selecionada, setSelecionada] = useState<Raca | null>(null)
   const [expandida, setExpandida] = useState<string | null>(null)
 
   const filtradas = useMemo(() =>
     racas.filter(r => {
       const matchTipo = filtroTipo === 'todas' || r.tipo === filtroTipo
+      const matchFonte = filtroFonte === 'todas' || r.fonte === filtroFonte
       const matchBusca = !busca || r.nome.toLowerCase().includes(busca.toLowerCase()) ||
         r.descricao.toLowerCase().includes(busca.toLowerCase())
-      return matchTipo && matchBusca
-    }), [busca, filtroTipo])
+      return matchTipo && matchFonte && matchBusca
+    }), [busca, filtroTipo, filtroFonte])
 
   const comuns = filtradas.filter(r => r.tipo === 'comum')
   const raras = filtradas.filter(r => r.tipo === 'rara')
@@ -79,6 +81,25 @@ export default function Racas() {
               }`}
             >
               {t === 'todas' ? 'Todas' : t.charAt(0).toUpperCase() + t.slice(1) + 's'}
+            </button>
+          ))}
+        </div>
+        <div className="flex gap-1">
+          {(['todas', 'Tormenta 20', 'Mitos de Arton'] as const).map(f => (
+            <button
+              key={f}
+              onClick={() => setFiltroFonte(f)}
+              className={`px-3 py-1.5 text-xs font-cinzel rounded border transition-colors ${
+                filtroFonte === f
+                  ? f === 'Mitos de Arton'
+                    ? 'bg-blue-700 border-blue-600 text-white'
+                    : f === 'Tormenta 20'
+                    ? 'bg-grimoire-600 border-grimoire-500 text-parchment'
+                    : 'bg-grimoire-600 border-grimoire-500 text-parchment'
+                  : 'border-grimoire-600 text-parchment-muted hover:border-gold-700'
+              }`}
+            >
+              {f === 'todas' ? 'Todas as fontes' : f}
             </button>
           ))}
         </div>

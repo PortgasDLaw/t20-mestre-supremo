@@ -3,27 +3,31 @@ import { cn } from '@/utils/cn'
 import {
   LayoutDashboard, Sword, AlertTriangle, Sparkles, Skull, Dices,
   Shield, BookOpen, Users, Map, BookMarked, Wand2, Wrench, Search,
-  ChevronLeft, ChevronRight, Flame, Feather, GraduationCap
+  ChevronLeft, ChevronRight, Flame, Feather, GraduationCap, Star, Crown
 } from 'lucide-react'
 import { useState } from 'react'
 
-const navItems = [
+type NavItem = { id: string; label: string; icon: React.ElementType; group?: string }
+
+const navItems: NavItem[] = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { id: 'racas', label: 'Raças', icon: Feather },
-  { id: 'classes', label: 'Classes', icon: GraduationCap },
-  { id: 'magias', label: 'Magias', icon: Sparkles },
-  { id: 'equipamentos', label: 'Equipamentos', icon: Sword },
-  { id: 'condicoes', label: 'Condições', icon: AlertTriangle },
-  { id: 'ameacas', label: 'Ameaças', icon: Skull },
-  { id: 'encontros', label: 'Gerador de Encontros', icon: Dices },
-  { id: 'combate', label: 'Rastreador de Combate', icon: Shield },
-  { id: 'tabelas', label: 'Tabelas do Mestre', icon: BookOpen },
-  { id: 'npcs', label: 'NPCs', icon: Users },
-  { id: 'reinos', label: 'Reinos de Arton', icon: Map },
-  { id: 'campanha', label: 'Campanha', icon: BookMarked },
-  { id: 'aventuras', label: 'Gerador de Aventuras', icon: Wand2 },
-  { id: 'ferramentas', label: 'Ferramentas Rápidas', icon: Wrench },
-  { id: 'busca', label: 'Busca Universal', icon: Search },
+  { id: 'racas', label: 'Raças', icon: Feather, group: 'Compêndio' },
+  { id: 'classes', label: 'Classes', icon: GraduationCap, group: 'Compêndio' },
+  { id: 'magias', label: 'Magias', icon: Sparkles, group: 'Compêndio' },
+  { id: 'equipamentos', label: 'Equipamentos', icon: Sword, group: 'Compêndio' },
+  { id: 'condicoes', label: 'Condições', icon: AlertTriangle, group: 'Compêndio' },
+  { id: 'ameacas', label: 'Ameaças', icon: Skull, group: 'Compêndio' },
+  { id: 'distincoes', label: 'Distinções & Ritos', icon: Star, group: 'Mitos de Arton' },
+  { id: 'deuses', label: 'Deuses Menores', icon: Crown, group: 'Mitos de Arton' },
+  { id: 'encontros', label: 'Gerador de Encontros', icon: Dices, group: 'Ferramentas' },
+  { id: 'combate', label: 'Rastreador de Combate', icon: Shield, group: 'Ferramentas' },
+  { id: 'tabelas', label: 'Tabelas do Mestre', icon: BookOpen, group: 'Ferramentas' },
+  { id: 'npcs', label: 'NPCs', icon: Users, group: 'Campanha' },
+  { id: 'reinos', label: 'Reinos de Arton', icon: Map, group: 'Campanha' },
+  { id: 'campanha', label: 'Campanha', icon: BookMarked, group: 'Campanha' },
+  { id: 'aventuras', label: 'Gerador de Aventuras', icon: Wand2, group: 'Ferramentas' },
+  { id: 'ferramentas', label: 'Ferramentas Rápidas', icon: Wrench, group: 'Ferramentas' },
+  { id: 'busca', label: 'Busca Universal', icon: Search, group: 'Ferramentas' },
 ]
 
 export function Sidebar() {

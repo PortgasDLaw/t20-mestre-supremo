@@ -1,0 +1,230 @@
+[
+  {
+    "id": "aegis",
+    "nome": "Aegis",
+    "epiteto": "Deus da Abnegação",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendido",
+    "historia": "Representa os Envars de Alstra. Com a ascensão da deusa Glória como conceito, o cargo de divindade menor dos envars ficou vago e passou a ser ocupado pelo mais fiel de sua prole, Aegis Valienhart. Especialista em espadas, Aegis encarna a humildade e a abnegação no combate.",
+    "crencasEObjetivos": "Humildade no combate. Usar a espada como ferramenta de proteção, não de conquista. Nunca subestimar o adversário.",
+    "simboloSagrado": "Uma espada inclinada para baixo",
+    "canalizarEnergia": "Positiva",
+    "armaPreferida": "Espada longa",
+    "devotos": "Envars, cavaleiros, paladinos, guerreiros humildes",
+    "obrigacoesERestricoes": "Um devoto de Aegis nunca deve se gabar de vitórias. Deve sempre oferecer chance de rendição antes de um golpe final. Nunca deve atacar um oponente desarmado ou indefeso.",
+    "poderConcedido": {
+      "nome": "Virtude da Espada",
+      "descricao": "Na primeira rodada de um combate, se estiver empunhando uma espada, você pode gastar uma ação completa e 3 PM para pedir a orientação de Aegis. Até o fim da cena, você soma sua Sabedoria, limitada pelo nível, aos seus testes de ataque com essa arma (conta como bônus de encanto)."
+    }
+  },
+  {
+    "id": "alex",
+    "nome": "Alex",
+    "epiteto": "Deusa dos Metamorfos",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendida",
+    "historia": "Uma das primeiras duplas criadas por Hyninn e também escolhida pelo deus da trapaça para libertar sua amiga de panteão. Alex foi uma libertadora que lutou ao lado de outros heróis épicos. Sua capacidade de transformação e adaptação a tornaram uma divindade dos metamorfos.",
+    "crencasEObjetivos": "Adaptação constante. Nunca permanecer a mesma. Libertar aqueles presos em formas que não escolheram.",
+    "simboloSagrado": "Duas formas fundindo-se em uma",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Adaga",
+    "devotos": "Duplos, homunculi, metamorfos, ladrões, ilusionistas",
+    "obrigacoesERestricoes": "Um devoto de Alex nunca pode recusar ajudar alguém preso em uma forma indesejada. Deve manter ao menos uma identidade secreta.",
+    "poderConcedido": {
+      "nome": "Forma Fluida",
+      "descricao": "Uma vez por cena, você pode gastar 2 PM para mudar sua aparência física (não habilidades) completamente por 1 hora. Se for um metamorfo ou tiver habilidades de transformação, o custo diminui para 1 PM."
+    }
+  },
+  {
+    "id": "arthas",
+    "nome": "Arthas Mal'ach",
+    "epiteto": "Deus dos Carrascos",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 3,
+    "tipo": "mortal ascendido",
+    "historia": "Em uma ramificação histórica de Arton, existiu um libertador chamado Arthas Mal'ach, um morto-vivo amaldiçoado com uma armadura removida do cadáver de um hemófago, entregue pela própria Tenebra. Sua jornada pela masmorra mais difícil do mundo culminou na libertação de Valkaria. Devido à sua grande espada e tradição familiar, recebeu o epíteto de deus dos carrascos.",
+    "crencasEObjetivos": "Executar os culpados sem hesitação. A morte é a única punição verdadeira. Manter a ordem através do medo da espada.",
+    "simboloSagrado": "Uma grande espada de dois gumes com gota de sangue",
+    "canalizarEnergia": "Negativa",
+    "armaPreferida": "Greatsword (espada grande)",
+    "devotos": "Mortos-vivos, cavaleiros negros, inquisidores, executores, hemófagos",
+    "obrigacoesERestricoes": "Um devoto de Arthas não pode oferecer perdão ou misericórdia. Deve sempre incentivar a destruição dos inimigos declarados.",
+    "poderConcedido": {
+      "nome": "Espírito de Vingança",
+      "descricao": "Você pode gastar uma ação de movimento e 2 PM para analisar um alvo em alcance curto, tornando-o seu alvo de vingança até o fim da cena. O alvo tem –2 em todos os testes de perícia contra você. Essa penalidade aumenta em 1 de forma cumulativa para cada 50 pontos de dano que você causar ao alvo em uma rodada (máx. –5)."
+    }
+  },
+  {
+    "id": "banta",
+    "nome": "Banta",
+    "epiteto": "Deus dos Guerreiros Ubaneri",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "espírito ancestral ascendido",
+    "historia": "Espírito ancestral dos ubaneri, Banta dormia em seu mundo divino aguardando o momento de ser necessário. Ao ouvir o chamado do sangue ubaneri, despertou e chegou a Arton para proteger seu povo. Antes considerado um deus pastoril e gentil, hoje é cruel e sanguinário devido ao conflito com seu antigo irmão.",
+    "crencasEObjetivos": "Proteger os descendentes ubaneri. Honrar os ancestrais através da batalha. Vingança contra aqueles que prejudicaram o povo ubaneri.",
+    "simboloSagrado": "Uma lança com plumas vermelhas",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Lança",
+    "devotos": "Ubaneri, hynnes, tribos bárbaras, guerreiros ancestrais",
+    "obrigacoesERestricoes": "Um devoto de Banta deve honrar seus ancestrais antes de qualquer batalha e nunca abandonar um aliado no campo de batalha.",
+    "poderConcedido": {
+      "nome": "Sangue dos Ancestrais",
+      "descricao": "Uma vez por cena, ao ser reduzido abaixo da metade dos seus PV, você pode gastar 3 PM para invocar a fúria de seus ancestrais. Você recebe +2 em testes de ataque e rolagens de dano e seu deslocamento aumenta em +3m até o fim da cena."
+    }
+  },
+  {
+    "id": "dukkaan",
+    "nome": "Dukkaan",
+    "epiteto": "Deus dos Mártires",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 1,
+    "tipo": "mortal ascendido",
+    "historia": "Outrora um usurpador ressentido com as injustiças que Arton lhe fez sofrer, Dukkaan agia principalmente pela paz. Tomava as dores dos outros como suas e se sacrificava para que outros não precisassem sofrer. Seu reconhecimento como deus menor veio quase simultaneamente ao de Frier, quando se reencontraram em Tapista.",
+    "crencasEObjetivos": "O sofrimento pessoal em prol do coletivo é sagrado. Nenhum inocente deve sofrer se você pode impedir. Aceitar a dor com graça e dignidade.",
+    "simboloSagrado": "Uma chama envolta em correntes",
+    "canalizarEnergia": "Positiva",
+    "armaPreferida": "Cajado",
+    "devotos": "Mártires, curandeiros, frades, defensores dos fracos",
+    "obrigacoesERestricoes": "Um devoto de Dukkaan nunca pode recusar socorro a um inocente em perigo. Deve sempre absorver o sofrimento alheio se capaz.",
+    "poderConcedido": {
+      "nome": "Sacrifício Sagrado",
+      "descricao": "Uma vez por cena, como reação ao receber dano, você pode gastar PM iguais ao dano que seria sofrido (mín. 1, máx. seu nível) para transferir esse dano para seus PM em vez de PV. Se não tiver PM suficientes, absorve o restante em PV."
+    }
+  },
+  {
+    "id": "frier",
+    "nome": "Frier",
+    "epiteto": "Deus da Liberdade",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendida",
+    "historia": "Frier lutou em meio a grandes guerras em nome da liberdade de Arton, sempre com rebeldia e ambição. Ao descobrir o Império Trollkyka e a Supremacia Purista, não pôde permitir que tais tiranias dominassem o belo mundo de liberdade dado pelos deuses. Sua ascensão coincidiu com a de Dukkaan ao se reencontrarem em Tapista.",
+    "crencasEObjetivos": "Ser heróico e bondoso com inocentes. Ser impiedoso com inimigos. Rejeitar qualquer forma de ódio, opressão ou corrupção. Ser vitorioso e humilde.",
+    "simboloSagrado": "Uma águia estilizada",
+    "canalizarEnergia": "Positiva",
+    "armaPreferida": "Lança valquíriana",
+    "devotos": "Envars, valquírias, cavaleiros, guerreiros, paladinos",
+    "obrigacoesERestricoes": "Um devoto de Frier jamais deve oferecer rendição ou ter compaixão pelos inimigos. Nunca deve ser o primeiro a recuar em uma batalha justa.",
+    "poderConcedido": {
+      "nome": "Grito de Guerra",
+      "descricao": "Uma vez por cena, você pode gastar uma ação de movimento e 2 PM para proferir um grito de guerra. Aliados em alcance médio recebem +2 em testes de ataque e são imunes a efeitos de medo até o início do seu próximo turno."
+    }
+  },
+  {
+    "id": "gloria",
+    "nome": "Glória",
+    "epiteto": "Deusa da Vitória",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 3,
+    "tipo": "vanir ascendida a conceito",
+    "historia": "A primeira guerreira do antigo mundo das deusas exteriores, portadora da Espada-Mestra. Glória foi a primeira representante de Alstra a se tornar um conceito, ascendendo de divindade menor a algo além. Agora personifica a vitória em todas as suas formas.",
+    "crencasEObjetivos": "A vitória é o objetivo supremo. A derrota é apenas aprendizado. Todo herói merece uma chance de glória.",
+    "simboloSagrado": "Uma espada erguida cercada de raios dourados",
+    "canalizarEnergia": "Positiva",
+    "armaPreferida": "Espada longa",
+    "devotos": "Envars, valquírias, cavaleiros, heróis épicos, guerreiros honoráveis",
+    "obrigacoesERestricoes": "Um devoto de Glória nunca pode se render enquanto puder lutar. Deve sempre defender os mais fracos contra os tiranos.",
+    "poderConcedido": {
+      "nome": "Aura da Vitória",
+      "descricao": "Uma vez por aventura, ao ser reduzido a menos de 25% dos seus PV, você pode gastar 5 PM para invocar a aura da vitória. Até o fim da cena, você recebe +4 em testes de ataque, suas rolagens de dano são maximizadas e você é imune a condições debilitantes."
+    }
+  },
+  {
+    "id": "laurina",
+    "nome": "Laurina",
+    "epiteto": "Deusa das Estrelas",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendida",
+    "historia": "O último e mais famoso ato de Laurina em Arton foi, após a batalha de Tamu-ra, doar seu coração a um bardo que tocou uma balada em sua homenagem. Este coração se tornou um artefato disputado. Guia-se pelas estrelas e sonha alcançá-las.",
+    "crencasEObjetivos": "Reverenciar e estudar as estrelas. Guiar-se pelos pontos cardeais. Explorar o desconhecido do éter e do espaço. Tentar alcançar as estrelas.",
+    "simboloSagrado": "Uma estrela azul",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Maça-estrela",
+    "devotos": "Aggelus, centauros, elfos, exploradores, astrônomos, viajantes",
+    "obrigacoesERestricoes": "Um devoto de Laurina deve sempre guiar outros que estejam perdidos. Nunca pode mentir sobre a localização de algo.",
+    "poderConcedido": {
+      "nome": "Luz das Estrelas",
+      "descricao": "Uma vez por cena, você pode gastar 2 PM para invocar a luz das estrelas. Você recebe +5 em Sobrevivência e Investigação por 10 minutos e pode ver perfeitamente no escuro absoluto. Além disso, pode lançar um raio de luz estelar (1d8+Sab de luz, alcance longo) como ação padrão."
+    }
+  },
+  {
+    "id": "maaka",
+    "nome": "Maaka",
+    "epiteto": "Deus do Espírito Marcial",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendido",
+    "historia": "Maaka Wu-Cheng, uma ryuujin, que junto a Kong Wu-Sun apresentou a arte do cultivo aos tamuranianos. Deus do espírito marcial e da honra, encarna os princípios do cultivo e da força interior.",
+    "crencasEObjetivos": "Vencer pela estratégia. Mente forte e ágil como o vento. Vigor como um dragão. Nunca ser o primeiro a atacar.",
+    "simboloSagrado": "Um dragão em espiral ao redor de um fio de chi",
+    "canalizarEnergia": "Positiva",
+    "armaPreferida": "Katana",
+    "devotos": "Cultivadores, monges, ryuujins, tamuranianos, artistas marciais",
+    "obrigacoesERestricoes": "Um devoto de Maaka nunca deve atacar primeiro. Nunca pode falhar mais de duas vezes em testes de resistência na mesma cena.",
+    "poderConcedido": {
+      "nome": "Palma do Dragão Celeste",
+      "descricao": "Uma vez por rodada, ao realizar um ataque desarmado, você pode gastar 2 PM (ou 1 carga de chi) para canalizar energia espiritual. Aplique seu nível como bônus no teste de ataque, se acertar, causa +1d8 pontos de dano de força e o alvo fica atordoado por 1 rodada (Fort CD Sab evita)."
+    }
+  },
+  {
+    "id": "ryuusei",
+    "nome": "Ryuusei",
+    "epiteto": "Deus da Guerra Ordenada",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendido",
+    "historia": "Filho do pai-mestre de Sora, Ryuusei criou fama ao lutar na guerra artoniana de forma selvagem e primal, ganhando a alcunha D'vorah Kinn. Passou a ser adorado por suas alianças estratégicas. Em Arton, promove a guerra ordenada e tática.",
+    "crencasEObjetivos": "Vencer pela estratégia e coordenação. Não deixar prisioneiros, apenas corpos. Promover a guerra ordenada e tática. Reverenciar o general e obedecer suas ordens.",
+    "simboloSagrado": "Uma árvore com doze galhos e uma coroa de louros",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Lança",
+    "devotos": "Anões, envars, golens, hobgoblins, cavaleiros, guerreiros, nobres",
+    "obrigacoesERestricoes": "Devotos de Ryuusei devem demonstrar aptidão para estratégia ao menos uma vez por dia. Teste de Guerra CD 15 + metade do nível.",
+    "poderConcedido": {
+      "nome": "Mente Tática",
+      "descricao": "Uma vez por cena, você pode gastar uma ação de movimento e 3 PM para analisar o campo de batalha. Por 3 rodadas, você e seus aliados em alcance médio recebem +2 na Iniciativa e nas jogadas de dano, e você pode usar Guerra no lugar de qualquer perícia de combate."
+    }
+  },
+  {
+    "id": "seele",
+    "nome": "Seele",
+    "epiteto": "Deusa da Estratégia",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 2,
+    "tipo": "mortal ascendida",
+    "historia": "Estrategista incomparável que planejava cada detalhe com precisão cirúrgica. Ascendeu ao panteão através de vitórias conquistadas pela mente, não pela força bruta.",
+    "crencasEObjetivos": "Planejar cada detalhe. Não deixar prisioneiros. Ser impiedosa e ter voz firme para comandar.",
+    "simboloSagrado": "Um tabuleiro de xadrez com uma peça de rei dourado",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Arco longo",
+    "devotos": "Estrategistas, generais, mestres de xadrez, espias",
+    "obrigacoesERestricoes": "Devotos de Seele devem sempre ter um plano antes de agir. Nunca podem agir impulsivamente sem ao menos 1 rodada de planejamento.",
+    "poderConcedido": {
+      "nome": "Xeque-Mate",
+      "descricao": "Uma vez por aventura, ao iniciar um combate, você pode declarar uma estratégia. Se sua estratégia for executada com sucesso (a critério do mestre), todos os aliados recebem +5 em testes de ataque e rolagens de dano durante toda a batalha."
+    }
+  },
+  {
+    "id": "yllib",
+    "nome": "Yllib",
+    "epiteto": "Deus das Coisas Perdidas",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 1,
+    "tipo": "espírito ascendido",
+    "historia": "Entidade misteriosa que cuida das coisas perdidas de Arton. Diz-se que qualquer objeto perdido acaba chegando às mãos de Yllib eventualmente.",
+    "crencasEObjetivos": "Encontrar o que foi perdido. Guardar as coisas preciosas. Nunca esquecer onde guarda suas coisas. Dar três pulinhos.",
+    "simboloSagrado": "Um baú",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Adaga",
+    "devotos": "Duendes, elfos, golens, klirens, qareens, sílfides, caçadores, inventores",
+    "obrigacoesERestricoes": "Um devoto de Yllib nunca pode recusar um pedido para encontrar um item perdido. Deve sempre andar com duas unidades de cada item não consumível.",
+    "poderConcedido": {
+      "nome": "Três Pulinhos",
+      "descricao": "Uma vez por rodada, você pode gastar uma ação de movimento dando três pulinhos. Se fizer isso, recebe +3m de deslocamento extra neste turno e pode mover-se através de terreno difícil como se fosse normal."
+    }
+  }
+]

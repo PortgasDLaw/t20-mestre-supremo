@@ -8,7 +8,10 @@
     "pv_inicial": "8 + Constituição",
     "pv_por_nivel": "2 + Constituição",
     "pm_por_nivel": 6,
-    "pericias_obrigatorias": ["Misticismo", "Vontade"],
+    "pericias_obrigatorias": [
+      "Misticismo",
+      "Vontade"
+    ],
     "pericias_opcao": "2 a escolher entre Conhecimento, Diplomacia, Enganação, Guerra, Iniciativa, Intimidação, Intuição, Investigação, Nobreza, Ofício e Percepção",
     "proficiencias": "Nenhuma",
     "habilidades_classe": [
@@ -29,13 +32,34 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Caminho do arcanista, magias (1º círculo)"},
-      {"nivel": 2, "habilidade": "Poder de arcanista"},
-      {"nivel": 5, "habilidade": "Magias (2º círculo), poder de arcanista"},
-      {"nivel": 9, "habilidade": "Magias (3º círculo), poder de arcanista"},
-      {"nivel": 13, "habilidade": "Magias (4º círculo), poder de arcanista"},
-      {"nivel": 17, "habilidade": "Magias (5º círculo), poder de arcanista"},
-      {"nivel": 20, "habilidade": "Alta arcana, poder de arcanista"}
+      {
+        "nivel": 1,
+        "habilidade": "Caminho do arcanista, magias (1º círculo)"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de arcanista"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Magias (2º círculo), poder de arcanista"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Magias (3º círculo), poder de arcanista"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Magias (4º círculo), poder de arcanista"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Magias (5º círculo), poder de arcanista"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Alta arcana, poder de arcanista"
+      }
     ],
     "poderes": [
       "Arcano de Batalha — soma atributo-chave na rolagem de dano ao lançar magia",
@@ -58,10 +82,20 @@
       "Tinta do Mago — cria pergaminhos (Mago, Ofício escriba)"
     ],
     "linhagens": [
-      {"nome": "Dracônica", "descricao": "Um antepassado dragão. Escolhe tipo de dano. Básica: +Car em PV, RD 5 ao tipo. Aprimorada: magias do tipo –1 PM e +1 dano/dado. Superior: imune ao tipo, PM temporários ao matar."},
-      {"nome": "Feérica", "descricao": "Sangue tocado por fadas. Básica: treinado Enganação, 1 magia encantamento/ilusão. Aprimorada: CD +2 e –1 PM em encantamento/ilusão. Superior: +2 Car."},
-      {"nome": "Rubra", "descricao": "Sangue corrompido pela Tormenta. Básica: 1 poder da Tormenta. Aprimorada: 1 magia –1 PM por poder da Tormenta. Superior: +4 PM por poder da Tormenta."}
-    ]
+      {
+        "nome": "Dracônica",
+        "descricao": "Um antepassado dragão. Escolhe tipo de dano. Básica: +Car em PV, RD 5 ao tipo. Aprimorada: magias do tipo –1 PM e +1 dano/dado. Superior: imune ao tipo, PM temporários ao matar."
+      },
+      {
+        "nome": "Feérica",
+        "descricao": "Sangue tocado por fadas. Básica: treinado Enganação, 1 magia encantamento/ilusão. Aprimorada: CD +2 e –1 PM em encantamento/ilusão. Superior: +2 Car."
+      },
+      {
+        "nome": "Rubra",
+        "descricao": "Sangue corrompido pela Tormenta. Básica: 1 poder da Tormenta. Aprimorada: 1 magia –1 PM por poder da Tormenta. Superior: +4 PM por poder da Tormenta."
+      }
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "barbaro",
@@ -72,7 +106,10 @@
     "pv_inicial": "24 + Constituição",
     "pv_por_nivel": "6 + Constituição",
     "pm_por_nivel": 3,
-    "pericias_obrigatorias": ["Fortitude", "Luta"],
+    "pericias_obrigatorias": [
+      "Fortitude",
+      "Luta"
+    ],
     "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Iniciativa, Intimidação, Ofício, Percepção, Pontaria, Sobrevivência e Vontade",
     "proficiencias": "Armas marciais e escudos",
     "habilidades_classe": [
@@ -98,18 +135,54 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Fúria +2"},
-      {"nivel": 3, "habilidade": "Instinto selvagem +1"},
-      {"nivel": 5, "habilidade": "Redução de dano 2"},
-      {"nivel": 6, "habilidade": "Fúria +3"},
-      {"nivel": 8, "habilidade": "Redução de dano 4"},
-      {"nivel": 9, "habilidade": "Instinto selvagem +2"},
-      {"nivel": 11, "habilidade": "Fúria +4, redução de dano 6"},
-      {"nivel": 14, "habilidade": "Redução de dano 8"},
-      {"nivel": 15, "habilidade": "Instinto selvagem +3"},
-      {"nivel": 16, "habilidade": "Fúria +5"},
-      {"nivel": 17, "habilidade": "Redução de dano 10"},
-      {"nivel": 20, "habilidade": "Fúria titânica"}
+      {
+        "nivel": 1,
+        "habilidade": "Fúria +2"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Instinto selvagem +1"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Redução de dano 2"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Fúria +3"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Redução de dano 4"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Instinto selvagem +2"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Fúria +4, redução de dano 6"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Redução de dano 8"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Instinto selvagem +3"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Fúria +5"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Redução de dano 10"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Fúria titânica"
+      }
     ],
     "poderes": [
       "Alma de Bronze — PV temporários = nível + Força ao entrar em Fúria",
@@ -129,7 +202,8 @@
       "Superstição — resistência a magia +5",
       "Totem Espiritual — soma Sabedoria em PM, aprende magia animal totêmica (Sab 1, 4º nível)",
       "Vigor Primal — recupera 1d12 PV por PM gasto (ação movimento, limitado por Con)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "bardo",
@@ -140,7 +214,10 @@
     "pv_inicial": "12 + Constituição",
     "pv_por_nivel": "3 + Constituição",
     "pm_por_nivel": 4,
-    "pericias_obrigatorias": ["Atuação", "Reflexos"],
+    "pericias_obrigatorias": [
+      "Atuação",
+      "Reflexos"
+    ],
     "pericias_opcao": "6 a escolher entre Acrobacia, Cavalgar, Conhecimento, Diplomacia, Enganação, Furtividade, Iniciativa, Intuição, Investigação, Jogatina, Ladinagem, Luta, Misticismo, Nobreza, Percepção, Pontaria e Vontade",
     "proficiencias": "Armas marciais",
     "habilidades_classe": [
@@ -166,16 +243,46 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Inspiração +1, Magias (1º círculo)"},
-      {"nivel": 2, "habilidade": "Eclético, poder de bardo"},
-      {"nivel": 5, "habilidade": "Inspiração +2"},
-      {"nivel": 6, "habilidade": "Magias (2º círculo)"},
-      {"nivel": 9, "habilidade": "Inspiração +3"},
-      {"nivel": 10, "habilidade": "Magias (3º círculo)"},
-      {"nivel": 13, "habilidade": "Inspiração +4"},
-      {"nivel": 14, "habilidade": "Magias (4º círculo)"},
-      {"nivel": 17, "habilidade": "Inspiração +5"},
-      {"nivel": 20, "habilidade": "Artista Completo"}
+      {
+        "nivel": 1,
+        "habilidade": "Inspiração +1, Magias (1º círculo)"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Eclético, poder de bardo"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Inspiração +2"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Magias (2º círculo)"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Inspiração +3"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Magias (3º círculo)"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Inspiração +4"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Magias (4º círculo)"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Inspiração +5"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Artista Completo"
+      }
     ],
     "poderes": [
       "Arte Mágica — CD +2 para resistir a habilidades enquanto sob Inspiração",
@@ -194,7 +301,8 @@
       "Paródia — copia magia lançada por outra criatura (1 PM, teste Atuação)",
       "Prestidigitação — lança magia de ação completa como ação livre durante ação padrão (6º nível)",
       "Dança das Lâminas — ataque corpo a corpo como ação livre ao lançar magia (req. Esgrima Mágica, 10º nível)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "bucaneiro",
@@ -205,7 +313,10 @@
     "pv_inicial": "16 + Constituição",
     "pv_por_nivel": "4 + Constituição",
     "pm_por_nivel": 3,
-    "pericias_obrigatorias": ["Luta ou Pontaria", "Reflexos"],
+    "pericias_obrigatorias": [
+      "Luta ou Pontaria",
+      "Reflexos"
+    ],
     "pericias_opcao": "4 a escolher entre Acrobacia, Atletismo, Atuação, Enganação, Fortitude, Furtividade, Iniciativa, Intimidação, Jogatina, Luta, Ofício, Percepção, Pilotagem e Pontaria",
     "proficiencias": "Armas marciais",
     "habilidades_classe": [
@@ -241,16 +352,46 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Audácia, Insolência"},
-      {"nivel": 2, "habilidade": "Evasão, poder de bucaneiro"},
-      {"nivel": 3, "habilidade": "Esquiva Sagaz +1"},
-      {"nivel": 5, "habilidade": "Panache"},
-      {"nivel": 7, "habilidade": "Esquiva Sagaz +2"},
-      {"nivel": 10, "habilidade": "Evasão Aprimorada"},
-      {"nivel": 11, "habilidade": "Esquiva Sagaz +3"},
-      {"nivel": 15, "habilidade": "Esquiva Sagaz +4"},
-      {"nivel": 19, "habilidade": "Esquiva Sagaz +5"},
-      {"nivel": 20, "habilidade": "Sorte de Nimb"}
+      {
+        "nivel": 1,
+        "habilidade": "Audácia, Insolência"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Evasão, poder de bucaneiro"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Esquiva Sagaz +1"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Panache"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Esquiva Sagaz +2"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Evasão Aprimorada"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Esquiva Sagaz +3"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Esquiva Sagaz +4"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Esquiva Sagaz +5"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Sorte de Nimb"
+      }
     ],
     "poderes": [
       "Aparar — evita ataque com teste oposto de Luta (1 PM, req. Esgrimista)",
@@ -267,7 +408,8 @@
       "Presença Paralisante — soma Car em Iniciativa, ação padrão extra na 1ª rodada (Car 1, 4º nível)",
       "Ripostar — ataque imediato ao aparar com sucesso (+1 PM, req. Aparar, 12º nível)",
       "Touché — dano +1 passo ao se aproximar e atacar com arma leve (req. Esgrimista, +2 PM)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "cacador",
@@ -278,7 +420,10 @@
     "pv_inicial": "16 + Constituição",
     "pv_por_nivel": "4 + Constituição",
     "pm_por_nivel": 4,
-    "pericias_obrigatorias": ["Luta ou Pontaria", "Sobrevivência"],
+    "pericias_obrigatorias": [
+      "Luta ou Pontaria",
+      "Sobrevivência"
+    ],
     "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Cura, Fortitude, Furtividade, Iniciativa, Investigação, Luta, Ofício, Percepção, Pontaria e Reflexos",
     "proficiencias": "Armas marciais e escudos",
     "habilidades_classe": [
@@ -304,17 +449,50 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Marca da Presa +1d4, Rastreador"},
-      {"nivel": 3, "habilidade": "Explorador"},
-      {"nivel": 5, "habilidade": "Caminho do Explorador, Marca da Presa +1d8"},
-      {"nivel": 7, "habilidade": "Explorador"},
-      {"nivel": 9, "habilidade": "Marca da Presa +1d12"},
-      {"nivel": 11, "habilidade": "Explorador"},
-      {"nivel": 13, "habilidade": "Marca da Presa +2d8"},
-      {"nivel": 15, "habilidade": "Explorador"},
-      {"nivel": 17, "habilidade": "Marca da Presa +2d10"},
-      {"nivel": 19, "habilidade": "Explorador"},
-      {"nivel": 20, "habilidade": "Mestre Caçador"}
+      {
+        "nivel": 1,
+        "habilidade": "Marca da Presa +1d4, Rastreador"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Explorador"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Caminho do Explorador, Marca da Presa +1d8"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Explorador"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Marca da Presa +1d12"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Explorador"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Marca da Presa +2d8"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Explorador"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Marca da Presa +2d10"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Explorador"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Mestre Caçador"
+      }
     ],
     "poderes": [
       "Ambidestria — dois ataques com duas armas (Des 2, penalidade –2)",
@@ -332,7 +510,8 @@
       "Inimigo de (tipo) — dobra dados de bônus da Marca contra tipo/raça escolhida",
       "Olho do Falcão — marca presa em alcance longo",
       "Ponto Fraco — margem de ameaça +2 contra presa marcada"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "cavaleiro",
@@ -343,7 +522,10 @@
     "pv_inicial": "20 + Constituição",
     "pv_por_nivel": "5 + Constituição",
     "pm_por_nivel": 3,
-    "pericias_obrigatorias": ["Fortitude", "Luta"],
+    "pericias_obrigatorias": [
+      "Fortitude",
+      "Luta"
+    ],
     "pericias_opcao": "2 a escolher entre Adestramento, Atletismo, Cavalgar, Diplomacia, Guerra, Iniciativa, Intimidação, Nobreza, Percepção e Vontade",
     "proficiencias": "Armas marciais, armaduras pesadas e escudos",
     "habilidades_classe": [
@@ -369,16 +551,46 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Baluarte +2, Código de Honra"},
-      {"nivel": 2, "habilidade": "Duelo, poder de cavaleiro"},
-      {"nivel": 5, "habilidade": "Baluarte +4, Caminho do Cavaleiro"},
-      {"nivel": 7, "habilidade": "Baluarte (aliados adjacentes), Duelo aprimorado"},
-      {"nivel": 9, "habilidade": "Baluarte +6"},
-      {"nivel": 11, "habilidade": "Resoluto"},
-      {"nivel": 13, "habilidade": "Baluarte +8"},
-      {"nivel": 15, "habilidade": "Baluarte (aliados alcance curto)"},
-      {"nivel": 17, "habilidade": "Baluarte +10"},
-      {"nivel": 20, "habilidade": "Bravura Final"}
+      {
+        "nivel": 1,
+        "habilidade": "Baluarte +2, Código de Honra"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Duelo, poder de cavaleiro"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Baluarte +4, Caminho do Cavaleiro"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Baluarte (aliados adjacentes), Duelo aprimorado"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Baluarte +6"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Resoluto"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Baluarte +8"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Baluarte (aliados alcance curto)"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Baluarte +10"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Bravura Final"
+      }
     ],
     "poderes": [
       "Armadura da Honra — PV temporários = nível + Car no início de cena",
@@ -393,7 +605,8 @@
       "Postura: Aríete Implacável — +2 em investidas, +2d8 contra construtos",
       "Postura: Castigo de Ferro — ataca a criatura que atacar aliado (+1 PM)",
       "Postura: Foco de Batalha — +1 PM temporário por ataque recebido"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "clerigo",
@@ -404,7 +617,10 @@
     "pv_inicial": "16 + Constituição",
     "pv_por_nivel": "4 + Constituição",
     "pm_por_nivel": 5,
-    "pericias_obrigatorias": ["Religião", "Vontade"],
+    "pericias_obrigatorias": [
+      "Religião",
+      "Vontade"
+    ],
     "pericias_opcao": "2 a escolher entre Cura, Diplomacia, Fortitude, Guerra, Iniciativa, Intuição, Luta, Misticismo, Nobreza e Percepção",
     "proficiencias": "Armas simples, armaduras pesadas e escudos",
     "habilidades_classe": [
@@ -425,12 +641,30 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Devoto fiel, magias (1º círculo)"},
-      {"nivel": 5, "habilidade": "Magias (2º círculo), poder de clérigo"},
-      {"nivel": 9, "habilidade": "Magias (3º círculo), poder de clérigo"},
-      {"nivel": 13, "habilidade": "Magias (4º círculo), poder de clérigo"},
-      {"nivel": 17, "habilidade": "Magias (5º círculo), poder de clérigo"},
-      {"nivel": 20, "habilidade": "Mão da divindade, poder de clérigo"}
+      {
+        "nivel": 1,
+        "habilidade": "Devoto fiel, magias (1º círculo)"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Magias (2º círculo), poder de clérigo"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Magias (3º círculo), poder de clérigo"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Magias (4º círculo), poder de clérigo"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Magias (5º círculo), poder de clérigo"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Mão da divindade, poder de clérigo"
+      }
     ],
     "poderes": [
       "Arma do Deus — soma Sabedoria em rolagens de dano com arma favorita da divindade",
@@ -447,7 +681,8 @@
       "Missa: Elevação do Espírito — PM temporários = Sab aos participantes",
       "Missa: Escudo Divino — +1 Defesa e testes de resistência",
       "Símbolo Sagrado Energizado — –1 PM em magias divinas enquanto empunha símbolo energizado (1 PM)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "druida",
@@ -458,7 +693,10 @@
     "pv_inicial": "16 + Constituição",
     "pv_por_nivel": "4 + Constituição",
     "pm_por_nivel": 4,
-    "pericias_obrigatorias": ["Sobrevivência", "Vontade"],
+    "pericias_obrigatorias": [
+      "Sobrevivência",
+      "Vontade"
+    ],
     "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Conhecimento, Cura, Fortitude, Iniciativa, Intuição, Luta, Misticismo, Ofício, Percepção e Religião",
     "proficiencias": "Escudos (não de metal)",
     "habilidades_classe": [
@@ -489,12 +727,30 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Devoto fiel, empatia selvagem, magias (1º círculo)"},
-      {"nivel": 2, "habilidade": "Caminho dos ermos, poder de druida"},
-      {"nivel": 6, "habilidade": "Magias (2º círculo)"},
-      {"nivel": 10, "habilidade": "Magias (3º círculo)"},
-      {"nivel": 14, "habilidade": "Magias (4º círculo)"},
-      {"nivel": 20, "habilidade": "Força da Natureza"}
+      {
+        "nivel": 1,
+        "habilidade": "Devoto fiel, empatia selvagem, magias (1º círculo)"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Caminho dos ermos, poder de druida"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Magias (2º círculo)"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Magias (3º círculo)"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Magias (4º círculo)"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Força da Natureza"
+      }
     ],
     "poderes": [
       "Aspecto do Inverno — magia de convocação/evocação + redução frio 5",
@@ -510,7 +766,8 @@
       "Segredos da Natureza — aprende 2 magias das escolas escolhidas (repetível)",
       "Espírito dos Equinócios — rola novamente resultados 1 em qualquer dado (4 PM, req. Aspectos, 10º nível)",
       "Espírito dos Solstícios — maximiza efeitos numéricos de magias (4 PM, req. Aspectos, 10º nível)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "guerreiro",
@@ -521,7 +778,10 @@
     "pv_inicial": "20 + Constituição",
     "pv_por_nivel": "5 + Constituição",
     "pm_por_nivel": 3,
-    "pericias_obrigatorias": ["Luta ou Pontaria", "Fortitude"],
+    "pericias_obrigatorias": [
+      "Luta ou Pontaria",
+      "Fortitude"
+    ],
     "pericias_opcao": "2 a escolher entre Adestramento, Atletismo, Cavalgar, Guerra, Iniciativa, Intimidação, Luta, Ofício, Percepção, Pontaria e Reflexos",
     "proficiencias": "Armas marciais, armaduras pesadas e escudos",
     "habilidades_classe": [
@@ -547,14 +807,38 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Ataque especial +4"},
-      {"nivel": 3, "habilidade": "Durão, poder de guerreiro"},
-      {"nivel": 5, "habilidade": "Ataque especial +8"},
-      {"nivel": 6, "habilidade": "Ataque extra"},
-      {"nivel": 9, "habilidade": "Ataque especial +12"},
-      {"nivel": 13, "habilidade": "Ataque especial +16"},
-      {"nivel": 17, "habilidade": "Ataque especial +20"},
-      {"nivel": 20, "habilidade": "Mestre das Armas"}
+      {
+        "nivel": 1,
+        "habilidade": "Ataque especial +4"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Durão, poder de guerreiro"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Ataque especial +8"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Ataque extra"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Ataque especial +12"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Ataque especial +16"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Ataque especial +20"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Mestre das Armas"
+      }
     ],
     "poderes": [
       "Ambidestria — dois ataques com duas armas (Des 2, penalidade –2)",
@@ -569,7 +853,8 @@
       "Golpe de Raspão — ao errar, causa metade do dano (2 PM, 1x/rodada)",
       "Golpe Pessoal — cria técnica única com efeitos customizados",
       "Rajada — dois ataques à distância; –2 em todos os ataques (Des 1)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "inventor",
@@ -580,7 +865,10 @@
     "pv_inicial": "12 + Constituição",
     "pv_por_nivel": "3 + Constituição",
     "pm_por_nivel": 4,
-    "pericias_obrigatorias": ["Ofício", "Vontade"],
+    "pericias_obrigatorias": [
+      "Ofício",
+      "Vontade"
+    ],
     "pericias_opcao": "4 a escolher entre Conhecimento, Cura, Diplomacia, Fortitude, Iniciativa, Investigação, Luta, Misticismo, Ofício, Pilotagem, Percepção e Pontaria",
     "proficiencias": "Nenhuma",
     "habilidades_classe": [
@@ -606,18 +894,54 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Engenhosidade, Protótipo"},
-      {"nivel": 2, "habilidade": "Fabricar Item Superior (1 melhoria)"},
-      {"nivel": 3, "habilidade": "Comerciante"},
-      {"nivel": 5, "habilidade": "Fabricar Item Superior (2 melhorias)"},
-      {"nivel": 7, "habilidade": "Encontrar Fraqueza"},
-      {"nivel": 8, "habilidade": "Fabricar Item Superior (3 melhorias)"},
-      {"nivel": 9, "habilidade": "Fabricar Item Mágico (menor)"},
-      {"nivel": 10, "habilidade": "Olho do Dragão"},
-      {"nivel": 11, "habilidade": "Fabricar Item Superior (4 melhorias)"},
-      {"nivel": 13, "habilidade": "Fabricar Item Mágico (médio)"},
-      {"nivel": 17, "habilidade": "Fabricar Item Mágico (maior)"},
-      {"nivel": 20, "habilidade": "Obra-Prima"}
+      {
+        "nivel": 1,
+        "habilidade": "Engenhosidade, Protótipo"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Fabricar Item Superior (1 melhoria)"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Comerciante"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Fabricar Item Superior (2 melhorias)"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Encontrar Fraqueza"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Fabricar Item Superior (3 melhorias)"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Fabricar Item Mágico (menor)"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Olho do Dragão"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Fabricar Item Superior (4 melhorias)"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Fabricar Item Mágico (médio)"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Fabricar Item Mágico (maior)"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Obra-Prima"
+      }
     ],
     "poderes": [
       "Agite Antes de Usar — dado extra de dano por PM em itens alquímicos (Ofício alquimista)",
@@ -633,7 +957,8 @@
       "Farmacêutico — dado extra de cura por PM em itens alquímicos (Sab 1, Ofício alquimista)",
       "Granadeiro — arremessa itens alquímicos em alcance médio, usa Int para CD",
       "Homúnculo — criatura Minúscula alquímica com comunicação telepática"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "ladino",
@@ -644,7 +969,10 @@
     "pv_inicial": "12 + Constituição",
     "pv_por_nivel": "3 + Constituição",
     "pm_por_nivel": 4,
-    "pericias_obrigatorias": ["Ladinagem", "Reflexos"],
+    "pericias_obrigatorias": [
+      "Ladinagem",
+      "Reflexos"
+    ],
     "pericias_opcao": "8 a escolher entre Acrobacia, Atletismo, Atuação, Cavalgar, Conhecimento, Diplomacia, Enganação, Furtividade, Iniciativa, Intimidação, Intuição, Investigação, Jogatina, Luta, Ofício, Percepção, Pilotagem e Pontaria",
     "proficiencias": "Nenhuma",
     "habilidades_classe": [
@@ -670,15 +998,42 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Ataque Furtivo +1d6, Especialista"},
-      {"nivel": 2, "habilidade": "Evasão"},
-      {"nivel": 3, "habilidade": "Ataque Furtivo +2d6"},
-      {"nivel": 4, "habilidade": "Esquiva Sobrenatural"},
-      {"nivel": 5, "habilidade": "Ataque Furtivo +3d6"},
-      {"nivel": 8, "habilidade": "Olhos nas Costas"},
-      {"nivel": 10, "habilidade": "Evasão Aprimorada"},
-      {"nivel": 19, "habilidade": "Ataque Furtivo +10d6"},
-      {"nivel": 20, "habilidade": "A Pessoa Certa para o Trabalho"}
+      {
+        "nivel": 1,
+        "habilidade": "Ataque Furtivo +1d6, Especialista"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Evasão"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Ataque Furtivo +2d6"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Esquiva Sobrenatural"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Ataque Furtivo +3d6"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Olhos nas Costas"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Evasão Aprimorada"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Ataque Furtivo +10d6"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "A Pessoa Certa para o Trabalho"
+      }
     ],
     "poderes": [
       "Assassinar — dobra dano furtivo no próximo turno (ação movimento, 3 PM, 5º nível)",
@@ -698,7 +1053,8 @@
       "Sombra — +2 Furtividade e mover-se sem penalidade, –10 nos ataques (Furtividade)",
       "Truque Mágico — aprende magia arcana de 1º círculo (Int 1, repetível)",
       "Veneno Potente — +5 na CD de resistência de venenos aplicados"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "lutador",
@@ -709,7 +1065,10 @@
     "pv_inicial": "20 + Constituição",
     "pv_por_nivel": "5 + Constituição",
     "pm_por_nivel": 3,
-    "pericias_obrigatorias": ["Fortitude", "Luta"],
+    "pericias_obrigatorias": [
+      "Fortitude",
+      "Luta"
+    ],
     "pericias_opcao": "4 a escolher entre Acrobacia, Adestramento, Atletismo, Enganação, Furtividade, Iniciativa, Intimidação, Ofício, Percepção, Pontaria e Reflexos",
     "proficiencias": "Nenhuma",
     "habilidades_classe": [
@@ -735,14 +1094,38 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Briga (1d6), Golpe Relâmpago"},
-      {"nivel": 3, "habilidade": "Casca Grossa"},
-      {"nivel": 5, "habilidade": "Briga (1d8), Golpe Cruel"},
-      {"nivel": 6, "habilidade": "Trocação"},
-      {"nivel": 9, "habilidade": "Briga (1d10), Golpe Violento"},
-      {"nivel": 13, "habilidade": "Briga (2d6)"},
-      {"nivel": 17, "habilidade": "Briga (2d8)"},
-      {"nivel": 20, "habilidade": "Dono da Rua (2d10)"}
+      {
+        "nivel": 1,
+        "habilidade": "Briga (1d6), Golpe Relâmpago"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Casca Grossa"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Briga (1d8), Golpe Cruel"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Trocação"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Briga (1d10), Golpe Violento"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Briga (2d6)"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Briga (2d8)"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Dono da Rua (2d10)"
+      }
     ],
     "poderes": [
       "Arma Improvisada — dano +1 passo com armas improvisadas",
@@ -763,7 +1146,8 @@
       "Trocação Tumultuosa — atinge todos adjacentes com um ataque desarmado (2 PM, req. Trocação, 8º nível)",
       "Valentão — +2 ataque/dano contra caído, desprevenido, flanqueado ou indefeso",
       "Voadora — +1d6 dano por 3m de movimento em investida (2 PM, limitado por nível)"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "nobre",
@@ -774,7 +1158,10 @@
     "pv_inicial": "16 + Constituição",
     "pv_por_nivel": "4 + Constituição",
     "pm_por_nivel": 4,
-    "pericias_obrigatorias": ["Diplomacia ou Intimidação", "Vontade"],
+    "pericias_obrigatorias": [
+      "Diplomacia ou Intimidação",
+      "Vontade"
+    ],
     "pericias_opcao": "4 a escolher entre Adestramento, Atuação, Cavalgar, Conhecimento, Diplomacia, Enganação, Fortitude, Guerra, Iniciativa, Intimidação, Intuição, Investigação, Jogatina, Luta, Nobreza, Ofício, Percepção e Pontaria",
     "proficiencias": "Armas marciais, armaduras pesadas e escudos",
     "habilidades_classe": [
@@ -805,16 +1192,46 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Autoconfiança, Espólio, Orgulho"},
-      {"nivel": 2, "habilidade": "Palavras Afiadas (2d6)"},
-      {"nivel": 3, "habilidade": "Riqueza"},
-      {"nivel": 4, "habilidade": "Gritar Ordens"},
-      {"nivel": 5, "habilidade": "Presença Aristocrática"},
-      {"nivel": 6, "habilidade": "Palavras Afiadas (4d6)"},
-      {"nivel": 10, "habilidade": "Palavras Afiadas (6d6)"},
-      {"nivel": 14, "habilidade": "Palavras Afiadas (8d6)"},
-      {"nivel": 18, "habilidade": "Palavras Afiadas (10d6)"},
-      {"nivel": 20, "habilidade": "Realeza"}
+      {
+        "nivel": 1,
+        "habilidade": "Autoconfiança, Espólio, Orgulho"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Palavras Afiadas (2d6)"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Riqueza"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Gritar Ordens"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Presença Aristocrática"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Palavras Afiadas (4d6)"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Palavras Afiadas (6d6)"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Palavras Afiadas (8d6)"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Palavras Afiadas (10d6)"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Realeza"
+      }
     ],
     "poderes": [
       "Armadura Brilhante — usa Carisma na Defesa com armadura pesada (8º nível)",
@@ -831,7 +1248,8 @@
       "Língua de Prata — +50% do nível em teste de Carisma (2 PM)",
       "Palavras Afiadas como Grito Tirânico — usa d8 em alcance curto (ação completa, 8º nível)",
       "Título — adquire título nobiliárquico, renda 20 TO/nível ou parceiro veterano"
-    ]
+    ],
+    "fonte": "Tormenta 20"
   },
   {
     "id": "paladino",
@@ -842,7 +1260,10 @@
     "pv_inicial": "20 + Constituição",
     "pv_por_nivel": "5 + Constituição",
     "pm_por_nivel": 3,
-    "pericias_obrigatorias": ["Luta", "Vontade"],
+    "pericias_obrigatorias": [
+      "Luta",
+      "Vontade"
+    ],
     "pericias_opcao": "2 a escolher entre Adestramento, Atletismo, Cavalgar, Cura, Diplomacia, Fortitude, Guerra, Iniciativa, Intuição, Nobreza, Percepção e Religião",
     "proficiencias": "Armas marciais, armaduras pesadas e escudos",
     "habilidades_classe": [
@@ -878,14 +1299,38 @@
       }
     ],
     "progressao": [
-      {"nivel": 1, "habilidade": "Abençoado, Código do Herói, Golpe Divino (+1d8)"},
-      {"nivel": 2, "habilidade": "Cura pelas Mãos (1d8+1)"},
-      {"nivel": 3, "habilidade": "Aura Sagrada"},
-      {"nivel": 5, "habilidade": "Bênção da Justiça, Golpe Divino (+2d8)"},
-      {"nivel": 9, "habilidade": "Golpe Divino (+3d8)"},
-      {"nivel": 13, "habilidade": "Golpe Divino (+4d8)"},
-      {"nivel": 17, "habilidade": "Golpe Divino (+5d8)"},
-      {"nivel": 20, "habilidade": "Vingador Sagrado"}
+      {
+        "nivel": 1,
+        "habilidade": "Abençoado, Código do Herói, Golpe Divino (+1d8)"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Cura pelas Mãos (1d8+1)"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Aura Sagrada"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Bênção da Justiça, Golpe Divino (+2d8)"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Golpe Divino (+3d8)"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Golpe Divino (+4d8)"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Golpe Divino (+5d8)"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Vingador Sagrado"
+      }
     ],
     "poderes": [
       "Arma Sagrada — usa d12 no Golpe Divino com arma favorita da divindade",
@@ -908,6 +1353,433 @@
       "Virtude: Caridade — habilidades de paladino custam –1 PM para aliados",
       "Virtude: Castidade — imunidade a encantamentos, +5 Intuição contra blefe",
       "Virtude: Compaixão — Cura pelas Mãos cura 2d6+1 em vez de 1d8+1"
+    ],
+    "fonte": "Tormenta 20"
+  },
+  {
+    "id": "bruxeiro",
+    "nome": "Bruxeiro",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "descricao": "Guerreiros-magos criados desde a infância por escolas misteriosas. São expostos a químicos que alteram sua fisionomia, tornando seus olhos dourados com pupilas de gato. Mestres da espada e de Sinais arcanos, trabalham geralmente sozinhos.",
+    "atributo": "Inteligência",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": [
+      "Luta",
+      "Vontade"
+    ],
+    "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Conhecimento, Cura, Fortitude, Guerra, Iniciativa, Intimidação, Misticismo, Ofício, Percepção, Pontaria, Reflexos e Sobrevivência",
+    "proficiencias": "Armas Marciais",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Escola do Bruxeiro",
+        "descricao": "Escolha uma escola: Lobo (combate ágil e furtivo), Grifo (combate aéreo e à distância), ou Urso (resistência e combate pesado). Cada escola oferece progressões de habilidades únicas."
+      },
+      {
+        "nivel": 1,
+        "nome": "Arma Bruxeira",
+        "descricao": "Escolha uma arma marcial como sua arma bruxeira. Você recebe proficiência e bônus especiais com ela, que aumentam conforme sobe de nível."
+      },
+      {
+        "nivel": 1,
+        "nome": "Sinais",
+        "descricao": "Você conhece 5 sinais (gestos arcanos que emulam magias sem vocalização). Podem ser usados com armadura leve sem testes de Misticismo. Custo: 2 PM para 1° círculo, 4 PM para 2°, etc."
+      },
+      {
+        "nivel": 1,
+        "nome": "Olhos Laranjas",
+        "descricao": "Seus olhos de gato permitem visão na penumbra. Além disso, você pode usar Misticismo no lugar de Percepção e Investigação."
+      },
+      {
+        "nivel": 5,
+        "nome": "Veterano da Escola",
+        "descricao": "Você recebe os benefícios de veterano da sua escola, aprimorando suas habilidades de bruxeiro."
+      }
+    ],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidade": "Escola do bruxeiro, arma bruxeira, sinais, olhos laranjas"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Veterano da escola, poder de bruxeiro"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Mestre da escola, poder de bruxeiro"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Bruxeiro Lendário, poder de bruxeiro"
+      }
+    ],
+    "poderes": [
+      "Afiação — dados de dano da Arma Bruxeira aumentam em uma categoria (11° nível)",
+      "Andarilho — usa Olhos Laranjas em Cura e Sobrevivência",
+      "Apático — resistência a medo +5, pode usar Int em Intimidação",
+      "Arma Alquímica — cria poções e venenos alquímicos com a arma",
+      "Exterminador — ataque especial que causa dano extra ao tipo de monstro escolhido",
+      "Fúria Bruxeira — perde PV para receber bônus em ataque, dano e RD",
+      "Graduação — recebe benefícios de veterano extra (6° nível)",
+      "Sinais Avançados — aprende sinais de 2° e 3° círculo"
+    ]
+  },
+  {
+    "id": "cultivador",
+    "nome": "Cultivador",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "descricao": "Praticantes da arte milenar do cultivo, técnica exclusiva dos espíritos de Sora que se espalhou por Arton através de Kong Wu-Sun e Maaka Wu-Cheng. Fortalecem o corpo e a mente através do chi, seguindo métodos específicos de cultivo.",
+    "atributo": "Sabedoria",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": [
+      "Luta ou Misticismo",
+      "Reflexos ou Vontade"
+    ],
+    "pericias_opcao": "6 a escolher entre Acrobacia, Adestramento, Atuação, Atletismo, Conhecimento, Cura, Diplomacia, Fortitude, Guerra, Iniciativa, Intuição, Investigação, Luta, Misticismo, Nobreza, Ofício, Percepção, Pontaria, Reflexos, Religião e Sobrevivência",
+    "proficiencias": "Armas Marciais",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Método de Cultivo",
+        "descricao": "Escolha um método: Armas (potencia ataques com chi), Corpo (fortalece fisicamente), Meditação (aumenta PM e controle de energia), ou Espírito (poderes espirituais e de cura)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Chi",
+        "descricao": "Você possui cargas de chi iguais ao seu nível. Recarga ao descansar. Chi pode ser gasto no lugar de PM em habilidades de cultivador."
+      },
+      {
+        "nivel": 1,
+        "nome": "Regeneração Meditativa",
+        "descricao": "Uma vez por cena, como ação completa, você pode meditar para recuperar PV iguais a 1d8 + Sab."
+      },
+      {
+        "nivel": 5,
+        "nome": "Meridiano Aberto",
+        "descricao": "Você abre um meridiano, recebendo uma habilidade específica do seu método de cultivo."
+      },
+      {
+        "nivel": 10,
+        "nome": "Fluxo de Chi Perfeito",
+        "descricao": "Seu chi flui perfeitamente. Você pode usar chi no lugar de PM em qualquer habilidade de personagem."
+      }
+    ],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidade": "Método de cultivo, chi, regeneração meditativa"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Meridiano aberto, poder de cultivador"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Fluxo de chi perfeito, poder de cultivador"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Mestre do Cultivo, poder de cultivador"
+      }
+    ],
+    "poderes": [
+      "Arte da Guerra — soma Sabedoria em Guerra, pode usá-la por Diplomacia (1×/cena)",
+      "Canalizar Energia Neutra — onda de chi em cone ou linha de 3m",
+      "Espírito Gentil — Regeneração Meditativa em aliados adjacentes",
+      "Expansão Metodológica — segundo método de cultivo (6° nível)",
+      "Focar o Dantian — soma Sabedoria na cura e dano das habilidades de cultivador",
+      "Jigoku — abre portal infernal de Sora (15 PM, ação completa)",
+      "Selar os Meridianos — efeito de Selo de Mana em criatura adjacente (8° nível)",
+      "Sete Pilares do Céu — cria 7 pilares que armazenam magias (18° nível)"
+    ]
+  },
+  {
+    "id": "hemofago",
+    "nome": "Hemófago",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "descricao": "Praticantes da magia de sangue desenvolvida em Aslothia. Um tipo profano de magia que drena e manipula o sangue alheio. A primeira usuária foi Liandry Lustveil, que retorna a cada eclipse para empregar novos discípulos.",
+    "atributo": "Constituição",
+    "pv_inicial": "24 + Constituição",
+    "pv_por_nivel": "6 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": [
+      "Fortitude",
+      "Misticismo"
+    ],
+    "pericias_opcao": "2 a escolher entre Atuação, Conhecimento, Cura, Iniciativa, Intimidação, Luta, Nobreza, Ofício, Percepção, Religião e Vontade",
+    "proficiencias": "Nenhuma (não usa armadura)",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Hemofagia",
+        "descricao": "Uma vez por rodada, ação padrão e 2 PM: force uma criatura adjacente a sangrar, causando 1d6 de dano de perfuração e deixando-a fraca. A cada 4 níveis, +1d6."
+      },
+      {
+        "nivel": 1,
+        "nome": "Magia de Sangue",
+        "descricao": "Você pode lançar magias arcanas pagando parte do custo em PV em vez de PM (1 PM = 2 PV)."
+      },
+      {
+        "nivel": 5,
+        "nome": "Saciação",
+        "descricao": "Ao drenar sangue suficiente (10+ dano com Hemofagia), você fica saciado, recebendo +2 em testes de ataque e resistência por 1 cena."
+      },
+      {
+        "nivel": 10,
+        "nome": "Ressurreição Sanguínea",
+        "descricao": "Se morrer e restar ao menos uma gota de sangue, você volta à vida em 1d10 dias."
+      }
+    ],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidade": "Hemofagia, magia de sangue"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Saciação, poder de hemófago"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Ressurreição sanguínea, poder de hemófago"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Senhor do Sangue, poder de hemófago"
+      }
+    ],
+    "poderes": [
+      "Adrenalina — perde 10 PV para +1 em perícias e +3m deslocamento por 1 cena (5° nível)",
+      "Aperto da Não-Vida — garra de sangue que puxa criaturas em linha de 6m e causa dano",
+      "Ária de Dor — canto que causa dano de sangue em área",
+      "Grimório das Almas — magia que causa dano vira perda de vida (afeta apenas vivos)",
+      "Interromper Fluxo Sanguíneo — hemofagia deixa alvo lento em vez de fraco (9° nível)",
+      "Lamento da Inocência — drena PM do alvo ao acertar Hemofagia"
+    ]
+  },
+  {
+    "id": "inquisidor",
+    "nome": "Inquisidor",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "descricao": "Agentes da lei oculta que usam métodos proibidos para fazer o trabalho que a lei oficial não faz. Nasceram em Salistick após a morte do último rei. Especialistas em armas de fogo e investigação.",
+    "atributo": "Destreza",
+    "pv_inicial": "12 + Constituição",
+    "pv_por_nivel": "3 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": [
+      "Pontaria",
+      "Investigação"
+    ],
+    "pericias_opcao": "6 a escolher entre Acrobacia, Atletismo, Cura, Fortitude, Furtividade, Intimidação, Intuição, Ladinagem, Luta, Misticismo, Nobreza, Ofício, Percepção, Pilotagem, Reflexos, Religião, Sobrevivência e Vontade",
+    "proficiencias": "Armas de fogo",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Agente da Lei Oculta",
+        "descricao": "Começa com uma pistola e 20 balas. Além disso, pode fabricar 5 seringas curativas por descanso (cura 2d6+nível PV)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Seringueiro",
+        "descricao": "Você pode fabricar e usar seringas especiais. Seringas podem conter poções, venenos ou preparados alquímicos."
+      },
+      {
+        "nivel": 5,
+        "nome": "Justiceiro",
+        "descricao": "Uma vez por rodada, gasta 3 PM para marcar um alvo. Ele sofre +1d6 de dano dos seus ataques (ou +1d8 se desonesto)."
+      },
+      {
+        "nivel": 10,
+        "nome": "Detetive Master",
+        "descricao": "Você nunca pode ser enganado em investigações. Recebe +10 em Investigação e Intuição."
+      }
+    ],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidade": "Agente da lei oculta, seringueiro"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Justiceiro, poder de inquisidor"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Detetive master, poder de inquisidor"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Inquisidor Supremo, poder de inquisidor"
+      }
+    ],
+    "poderes": [
+      "Encostar o Cano — ataque corpo a corpo com arma de fogo sem penalidade, +1 passo de dano",
+      "Entre Facas e Balas — +2 Defesa com arma de fogo + arma leve, ataque livre 1×/rodada",
+      "Vacinação — seringas de cura com dado melhorado e +5 contra doenças/veneno (6° nível)",
+      "Marca Maldita — marca persiste mesmo após a cena",
+      "Maleta de Seringas — +5 no limite de seringas simultâneas"
+    ]
+  },
+  {
+    "id": "mirmidao",
+    "nome": "Mirmidão",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "descricao": "Guerreiros corrompidos pelo Culto da Noite Eterna de Umbralar. Vestem armaduras amaldiçoadas e lutam com o poder das trevas, organizados em batalhões sombrios.",
+    "atributo": "Força",
+    "pv_inicial": "20 + Constituição",
+    "pv_por_nivel": "5 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": [
+      "Fortitude",
+      "Luta"
+    ],
+    "pericias_opcao": "2 a escolher entre Atletismo, Cavalgar, Cura, Guerra, Iniciativa, Intimidação, Intuição, Misticismo, Percepção, Religião e Vontade",
+    "proficiencias": "Armas marciais, armaduras pesadas e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Armadura Maldita",
+        "descricao": "Começa vestindo uma armadura completa com uma melhoria a sua escolha. Nos níveis 4, 7 e 10, pode adicionar mais uma melhoria."
+      },
+      {
+        "nivel": 1,
+        "nome": "Batalhão das Trevas",
+        "descricao": "Escolha um batalhão: das Armas (potencia ataques), das Escamas (resistência dracônica), das Bênçãos (suporte), ou das Sombras (furtividade e trevas)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Obliterar",
+        "descricao": "Uma vez por rodada, ao acertar um ataque, gasta PM para causar dano adicional de trevas."
+      },
+      {
+        "nivel": 5,
+        "nome": "Força do Oblívio",
+        "descricao": "Seus ataques com Obliterar ignoram redução de dano mundana."
+      }
+    ],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidade": "Armadura maldita, batalhão das trevas, obliterar"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Força do oblívio, poder de mirmidão"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Cerimônia da maldição aprimorada, poder de mirmidão"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Senhor das Trevas, poder de mirmidão"
+      }
+    ],
+    "poderes": [
+      "Ameaça das Trevas — ao usar Obliterar, margem de ameaça +2 (req. batalhão das armas)",
+      "Arma da Perdição — ataque com Obliterar pode trocar tipo de dano por trevas",
+      "Arma Profana — Obliterar aumenta dano da arma em um passo",
+      "Liberdade dos Beduínos — Esquiva Sobrenatural e Olho nas Costas (req. batalhão bênçãos)",
+      "União Impossível — troca tipo de dano (frio↔fogo, trevas↔luz) gastando 1 PM",
+      "Vínculo dos Beduínos — soma Int nas rolagens de dano com armas ágeis"
+    ]
+  },
+  {
+    "id": "vaqueiro",
+    "nome": "Vaqueiro",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "descricao": "Aventureiros montados que dominam tanto a sela quanto as armas de fogo. De Smokestone a Valkaria, são encontrados por todo Arton. Não devem ser confundidos com cavaleiros — o vaqueiro tem um estilo único e selvagem de combate montado.",
+    "atributo": "Carisma",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": [
+      "Adestramento",
+      "Cavalgar"
+    ],
+    "pericias_opcao": "4 a escolher entre Acrobacia, Atletismo, Atuação, Enganação, Fortitude, Guerra, Jogatina, Ladinagem, Percepção, Pilotagem, Pontaria, Reflexos e Sobrevivência",
+    "proficiencias": "Armas de fogo e marciais",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Alazão",
+        "descricao": "Começa com um parceiro montaria iniciante (normalmente um cavalo de guerra). A montaria tem um vínculo especial com o vaqueiro."
+      },
+      {
+        "nivel": 1,
+        "nome": "Duelo",
+        "descricao": "Você pode desafiar um oponente para duelo. O alvo tem –2 em testes de ataque contra alvos que não sejam você. Você recebe +2 em testes de ataque contra o alvo do duelo."
+      },
+      {
+        "nivel": 5,
+        "nome": "Bicho Valente",
+        "descricao": "A partir do 11° nível, enquanto montado, sua montaria recebe pontos de valentia iguais a metade do seu Carisma."
+      },
+      {
+        "nivel": 10,
+        "nome": "Gatilho Rápido",
+        "descricao": "Soma Carisma na Iniciativa. No primeiro turno, ao sacar arma de fogo, pode gastar 3 PM para realizar um ataque extra."
+      }
+    ],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidade": "Alazão, duelo"
+      },
+      {
+        "nivel": 2,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 5,
+        "habilidade": "Montaria aprimorada, poder de vaqueiro"
+      },
+      {
+        "nivel": 10,
+        "habilidade": "Gatilho rápido, poder de vaqueiro"
+      },
+      {
+        "nivel": 20,
+        "habilidade": "Lenda do Oeste, poder de vaqueiro"
+      }
+    ],
+    "poderes": [
+      "Lampião — invoca 2d6 jagunços (Def 20, 2d8 perfuração cada) em alcance médio",
+      "Encostar o Cano — ataque corpo a corpo com arma de fogo sem penalidade",
+      "Estragar o Velório — ataque com arma de fogo contra alvo derrubado, sem penalidade",
+      "Gatilho Rápido — Carisma na Iniciativa, ataque extra no primeiro turno",
+      "Corcel — recebe um corcel de Kally com +5 em Adestramento e Cavalgar"
     ]
   }
 ]
