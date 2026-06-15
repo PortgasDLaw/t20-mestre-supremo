@@ -1,66 +1,2203 @@
 {
   "armas": [
-    { "id": "adaga", "nome": "Adaga", "categoria": "arma", "tipo": "simples", "preco": "2 TO", "peso": "0,5 kg", "dano": "1d4", "critico": "19-20/×2", "alcance": "Corpo a corpo ou arremesso (6/24 q)", "tipoDano": "Corte ou Perfuração", "propriedades": ["Leve", "Arremesso"], "descricao": "Uma lâmina curta e pontiaguda versátil o suficiente para cortar ou perfurar. Favorita de ladrões, assassinos e aventureiros que precisam de uma arma de reserva." },
-    { "id": "azagaia", "nome": "Azagaia", "categoria": "arma", "tipo": "simples", "preco": "3 TO", "peso": "0,5 kg", "dano": "1d6", "critico": "×2", "alcance": "Arremesso (6/24 q)", "tipoDano": "Perfuração", "propriedades": ["Arremesso"], "descricao": "Lança curta projetada para ser arremessada. Mais leve que uma lança, perde alcance corpo a corpo." },
-    { "id": "bastao", "nome": "Bastão", "categoria": "arma", "tipo": "simples", "preco": "1 TO", "peso": "1 kg", "dano": "1d6", "critico": "×2", "alcance": "Corpo a corpo", "tipoDano": "Impacto", "propriedades": ["Duas mãos"], "descricao": "Um cajado de madeira sólida. Simples mas eficaz, usado por clérigos, druidas e viajantes." },
-    { "id": "clava", "nome": "Clava", "categoria": "arma", "tipo": "simples", "preco": "1 TO", "peso": "1 kg", "dano": "1d6", "critico": "×2", "alcance": "Corpo a corpo", "tipoDano": "Impacto", "propriedades": [], "descricao": "Um pesado pedaço de madeira reforçado. A arma mais primitiva existente." },
-    { "id": "funda", "nome": "Funda", "categoria": "arma", "tipo": "simples", "preco": "1 TO", "peso": "—", "dano": "1d4", "critico": "×2", "alcance": "Arremesso (10/40 q)", "tipoDano": "Impacto", "propriedades": ["Atirar"], "descricao": "Tira de couro para arremessar pedras. Barata e eficaz em longas distâncias." },
-    { "id": "lanca", "nome": "Lança", "categoria": "arma", "tipo": "simples", "preco": "3 TO", "peso": "2 kg", "dano": "1d8", "critico": "×3", "alcance": "Corpo a corpo", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Haste"], "descricao": "Arma de haste com ponta de metal. Excelente para manter inimigos à distância e receber cargas." },
-    { "id": "maca", "nome": "Maça", "categoria": "arma", "tipo": "simples", "preco": "4 TO", "peso": "3 kg", "dano": "1d8", "critico": "×2", "alcance": "Corpo a corpo", "tipoDano": "Impacto", "propriedades": [], "descricao": "Cabeça de metal pesada em um cabo sólido. Eficaz contra armaduras, favorita de clérigos que evitam armas cortantes." },
-    { "id": "martelo-mao", "nome": "Martelo de Mão", "categoria": "arma", "tipo": "simples", "preco": "3 TO", "peso": "1 kg", "dano": "1d6", "critico": "×3", "alcance": "Corpo a corpo ou arremesso (6/24 q)", "tipoDano": "Impacto", "propriedades": ["Leve", "Arremesso"], "descricao": "Martelo leve usado por artesãos e mineiros, eficaz como arma lançada." },
-    { "id": "arco-curto", "nome": "Arco Curto", "categoria": "arma", "tipo": "marcial", "preco": "6 TO", "peso": "1 kg", "dano": "1d6", "critico": "×3", "alcance": "Atirar (20/80 q)", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Atirar"], "descricao": "Arco mais curto e menos potente que o longo, ideal para cavalaria ou espaços confinados." },
-    { "id": "arco-longo", "nome": "Arco Longo", "categoria": "arma", "tipo": "marcial", "preco": "10 TO", "peso": "2 kg", "dano": "1d8", "critico": "×3", "alcance": "Atirar (30/120 q)", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Atirar"], "descricao": "O arco mais poderoso. Requer treinamento extenso mas tem alcance e poder superiores." },
-    { "id": "besta-leve", "nome": "Besta Leve", "categoria": "arma", "tipo": "marcial", "preco": "8 TO", "peso": "3 kg", "dano": "1d8", "critico": "19-20/×2", "alcance": "Atirar (24/96 q)", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Atirar", "Recarga (livre)"], "descricao": "Mecanismo de disparo de parafusos. Mais fácil de usar que um arco longo, mas requer recarga entre tiros." },
-    { "id": "besta-pesada", "nome": "Besta Pesada", "categoria": "arma", "tipo": "marcial", "preco": "15 TO", "peso": "4 kg", "dano": "1d10", "critico": "19-20/×2", "alcance": "Atirar (36/144 q)", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Atirar", "Recarga (movimento)"], "descricao": "Versão pesada da besta, com poder de penetração superior mas recarga lenta." },
-    { "id": "espada-curta", "nome": "Espada Curta", "categoria": "arma", "tipo": "marcial", "preco": "6 TO", "peso": "1 kg", "dano": "1d6", "critico": "19-20/×2", "alcance": "Corpo a corpo", "tipoDano": "Corte ou Perfuração", "propriedades": ["Leve"], "descricao": "Lâmina de comprimento médio, mais longa que uma adaga. Versátil e balanceada." },
-    { "id": "espada-longa", "nome": "Espada Longa", "categoria": "arma", "tipo": "marcial", "preco": "12 TO", "peso": "1,5 kg", "dano": "1d8", "critico": "19-20/×2", "alcance": "Corpo a corpo", "tipoDano": "Corte", "propriedades": [], "descricao": "A espada padrão de guerreiros e cavaleiros. Equilíbrio perfeito entre dano, alcance e manobrabilidade." },
-    { "id": "espada-grande", "nome": "Espada Grande", "categoria": "arma", "tipo": "marcial", "preco": "20 TO", "peso": "3 kg", "dano": "1d10", "critico": "19-20/×2", "alcance": "Corpo a corpo", "tipoDano": "Corte", "propriedades": ["Duas mãos"], "descricao": "Espada de duas mãos de lâmina larga. Mais poderosa que a espada longa, mas exige espaço para manejar." },
-    { "id": "florete", "nome": "Florete", "categoria": "arma", "tipo": "marcial", "preco": "15 TO", "peso": "1 kg", "dano": "1d6", "critico": "18-20/×2", "alcance": "Corpo a corpo", "tipoDano": "Perfuração", "propriedades": ["Finesse"], "descricao": "Lâmina fina e ágil. Usa Destreza em vez de Força para ataques e dano (com Finesse)." },
-    { "id": "machado-batalha", "nome": "Machado de Batalha", "categoria": "arma", "tipo": "marcial", "preco": "12 TO", "peso": "2 kg", "dano": "1d8", "critico": "×3", "alcance": "Corpo a corpo", "tipoDano": "Corte", "propriedades": [], "descricao": "Machado de combate com lâmina afiada. Críticos devastadores." },
-    { "id": "machado-grande", "nome": "Machado Grande", "categoria": "arma", "tipo": "marcial", "preco": "20 TO", "peso": "4 kg", "dano": "1d12", "critico": "×3", "alcance": "Corpo a corpo", "tipoDano": "Corte", "propriedades": ["Duas mãos"], "descricao": "Machado enorme de duas mãos. A arma preferida dos bárbaros e berserkers." },
-    { "id": "montante", "nome": "Montante", "categoria": "arma", "tipo": "marcial", "preco": "25 TO", "peso": "3 kg", "dano": "2d6", "critico": "19-20/×2", "alcance": "Corpo a corpo", "tipoDano": "Corte", "propriedades": ["Duas mãos", "Haste"], "descricao": "A maior das espadas. Capaz de golpear múltiplos inimigos com seu longo alcance." },
-    { "id": "rapieira", "nome": "Rapieira", "categoria": "arma", "tipo": "marcial", "preco": "15 TO", "peso": "1 kg", "dano": "1d8", "critico": "18-20/×2", "alcance": "Corpo a corpo", "tipoDano": "Perfuração", "propriedades": ["Finesse"], "descricao": "Espada longa e fina de duelo. Ameaça crítico em 18-20 com Finesse." },
-    { "id": "tridente", "nome": "Tridente", "categoria": "arma", "tipo": "marcial", "preco": "12 TO", "peso": "2 kg", "dano": "1d8", "critico": "×2", "alcance": "Corpo a corpo ou arremesso (6/24 q)", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Haste", "Arremesso"], "descricao": "Garfo de três pontas usado por guerreiros marinhos. Pode ser arremessado." },
-    { "id": "mangual", "nome": "Mangual", "categoria": "arma", "tipo": "marcial", "preco": "10 TO", "peso": "1,5 kg", "dano": "1d8", "critico": "×2", "alcance": "Corpo a corpo", "tipoDano": "Impacto", "propriedades": ["Enredo"], "descricao": "Bola de ferro presa a um cabo por corrente. Contorna escudos e pode derrubar inimigos." },
-    { "id": "lanca-cavalaria", "nome": "Lança de Cavalaria", "categoria": "arma", "tipo": "marcial", "preco": "6 TO", "peso": "2,5 kg", "dano": "1d8", "critico": "×3", "alcance": "Corpo a corpo", "tipoDano": "Perfuração", "propriedades": ["Duas mãos", "Montaria"], "descricao": "Lança longa para cargas montadas. Dano dobrado em carga montada bem-sucedida." }
+    {
+      "id": "acoite-fintroll",
+      "nome": "Açoite Fintroll",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "30 T$",
+      "dano": "1d8",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "adaga",
+      "nome": "Adaga",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Leve",
+      "preco": "2 T$",
+      "dano": "1d4",
+      "critico": "19",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "alabarda",
+      "nome": "Alabarda",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "10 T$",
+      "dano": "1d10",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte/Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "alfange",
+      "nome": "Alfange",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "75 T$",
+      "dano": "2d4",
+      "critico": "18",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 2
+    },
+    {
+      "id": "arcabuz",
+      "nome": "Arcabuz",
+      "categoria": "arma",
+      "proficiencia": "fogo",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Duas Mãos",
+      "preco": "800 T$",
+      "dano": "2d10",
+      "critico": "19/x3",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "arco-curto",
+      "nome": "Arco Curto",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Duas Mãos",
+      "preco": "30 T$",
+      "dano": "1d6",
+      "critico": "x3",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "arco-longo",
+      "nome": "Arco Longo",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Duas Mãos",
+      "preco": "100 T$",
+      "dano": "1d8",
+      "critico": "x3",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "arpao",
+      "nome": "Arpão",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Uma Mão",
+      "preco": "30 T$",
+      "dano": "1d10",
+      "critico": "x3",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Uma Mão",
+      "preco": "1 T$",
+      "dano": "1d6",
+      "critico": "x2",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "bacamarte",
+      "nome": "Bacamarte",
+      "categoria": "arma",
+      "proficiencia": "fogo",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Duas Mãos",
+      "preco": "450 T$",
+      "dano": "4d6",
+      "critico": "19/x3",
+      "alcance": "Especial",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "besta-leve",
+      "nome": "Besta Leve",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Uma Mão",
+      "preco": "35 T$",
+      "dano": "1d8",
+      "critico": "19",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "besta-pesada",
+      "nome": "Besta Pesada",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Duas Mãos",
+      "preco": "50 T$",
+      "dano": "1d12",
+      "critico": "19",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "bordao",
+      "nome": "Bordão",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "—",
+      "dano": "1d6/1d6",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 2
+    },
+    {
+      "id": "chicote",
+      "nome": "Chicote",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "2 T$",
+      "dano": "1d3",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "15 T$",
+      "dano": "1d6",
+      "critico": "18",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "clava",
+      "nome": "Clava",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "—",
+      "dano": "1d6",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "corrente-de-espinhos",
+      "nome": "Corrente de Espinhos",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "25 T$",
+      "dano": "2d4/2d4",
+      "critico": "19",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 2
+    },
+    {
+      "id": "espada-bastarda",
+      "nome": "Espada Bastarda",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "35 T$",
+      "dano": "1d10/1d12",
+      "critico": "19",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "espada-curta",
+      "nome": "Espada Curta",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Leve",
+      "preco": "10 T$",
+      "dano": "1d6",
+      "critico": "19",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "espada-longa",
+      "nome": "Espada Longa",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "15 T$",
+      "dano": "1d8",
+      "critico": "19",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "espada-vespa",
+      "nome": "Espada Vespa",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "75 T$",
+      "dano": "2d4",
+      "critico": "18",
+      "alcance": "-",
+      "tipoDano": "Corte ou Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "florete",
+      "nome": "Florete",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "20 T$",
+      "dano": "1d6",
+      "critico": "18",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "foice",
+      "nome": "Foice",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Leve",
+      "preco": "4 T$",
+      "dano": "1d6",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "funda",
+      "nome": "Funda",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Uma Mão",
+      "preco": "—",
+      "dano": "1d4",
+      "critico": "x2",
+      "alcance": "Médio",
+      "tipoDano": "Impacto",
+      "espacos": 1
+    },
+    {
+      "id": "gadanho",
+      "nome": "Gadanho",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "18 T$",
+      "dano": "2d4",
+      "critico": "x4",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 2
+    },
+    {
+      "id": "gladio",
+      "nome": "Gládio",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "12 T$",
+      "dano": "1d6",
+      "critico": "19/x3",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "katana",
+      "nome": "Katana",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "100 T$",
+      "dano": "1d10",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "lanca",
+      "nome": "Lança",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "2 T$",
+      "dano": "1d6",
+      "critico": "x2",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "lanca-de-fogo",
+      "nome": "Lança de Fogo",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "1000 T$",
+      "dano": "Especial",
+      "critico": "Especial",
+      "alcance": "Especial",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "lanca-montada",
+      "nome": "Lança Montada",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "10 T$",
+      "dano": "1d8",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "maca",
+      "nome": "Maça",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "12 T$",
+      "dano": "1d8",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 1
+    },
+    {
+      "id": "machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Leve",
+      "preco": "6 T$",
+      "dano": "1d6",
+      "critico": "x3",
+      "alcance": "Curto",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "machado-anao",
+      "nome": "Machado Anão",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "30 T$",
+      "dano": "1d10",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "machado-de-batalha",
+      "nome": "Machado de Batalha",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "10 T$",
+      "dano": "1d8",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "machado-de-guerra",
+      "nome": "Machado de Guerra",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "20 T$",
+      "dano": "1d12",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 2
+    },
+    {
+      "id": "machado-taurico",
+      "nome": "Machado Táurico",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "50 T$",
+      "dano": "2d8",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 2
+    },
+    {
+      "id": "mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "8 T$",
+      "dano": "1d8",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 1
+    },
+    {
+      "id": "martelo-de-guerra",
+      "nome": "Martelo de Guerra",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "12 T$",
+      "dano": "1d8",
+      "critico": "x3",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 1
+    },
+    {
+      "id": "montante",
+      "nome": "Montante",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "50 T$",
+      "dano": "2d6",
+      "critico": "19",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 2
+    },
+    {
+      "id": "mordida-do-diabo",
+      "nome": "Mordida do Diabo",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "30 T$",
+      "dano": "1d4",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "mosquete",
+      "nome": "Mosquete",
+      "categoria": "arma",
+      "proficiencia": "fogo",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Duas Mãos",
+      "preco": "500 T$",
+      "dano": "2d8",
+      "critico": "19/x3",
+      "alcance": "Médio",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "neko-te",
+      "nome": "Neko-te",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Leve",
+      "preco": "10 T$",
+      "dano": "1d4",
+      "critico": "19",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "picareta",
+      "nome": "Picareta",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "8 T$",
+      "dano": "1d6",
+      "critico": "x4",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "pique",
+      "nome": "Pique",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "2 T$",
+      "dano": "1d8",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Perfuração",
+      "espacos": 2
+    },
+    {
+      "id": "pistola",
+      "nome": "Pistola",
+      "categoria": "arma",
+      "proficiencia": "fogo",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Leve",
+      "preco": "250 T$",
+      "dano": "2d6",
+      "critico": "19/x3",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "pistola-punhal",
+      "nome": "Pistola Punhal",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Especial",
+      "empunhadura": "Uma Mão",
+      "preco": "300 T$",
+      "dano": "Especial",
+      "critico": "Especial",
+      "alcance": "Especial",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "porrete",
+      "nome": "Porrete",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Leve",
+      "preco": "2 T$",
+      "dano": "1d6",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 1
+    },
+    {
+      "id": "presa-de-serpente",
+      "nome": "Presa de Serpente",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "1000 T$",
+      "dano": "1d8",
+      "critico": "17",
+      "alcance": "-",
+      "tipoDano": "Corte",
+      "espacos": 1
+    },
+    {
+      "id": "rede",
+      "nome": "Rede",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Uma Mão",
+      "preco": "20 T$",
+      "dano": "-",
+      "critico": "-",
+      "alcance": "Curto",
+      "tipoDano": "-",
+      "espacos": 1
+    },
+    {
+      "id": "shuriken",
+      "nome": "Shuriken",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Leve",
+      "preco": "1 T$",
+      "dano": "1d4",
+      "critico": "x2",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 0.5
+    },
+    {
+      "id": "tacape",
+      "nome": "Tacape",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "—",
+      "dano": "1d10",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 2
+    },
+    {
+      "id": "tetsubo",
+      "nome": "Tetsubo",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "20 T$",
+      "dano": "1d10",
+      "critico": "x2",
+      "alcance": "-",
+      "tipoDano": "Impacto",
+      "espacos": 2
+    },
+    {
+      "id": "traque",
+      "nome": "Traque",
+      "categoria": "arma",
+      "proficiencia": "fogo",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Leve",
+      "preco": "75 T$",
+      "dano": "2d6",
+      "critico": "19/x3",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "proficiencia": "marcial",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Uma Mão",
+      "preco": "15 T$",
+      "dano": "1d8",
+      "critico": "x2",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    },
+    {
+      "id": "zarabatana",
+      "nome": "Zarabatana",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "Ataque à Distância",
+      "empunhadura": "Uma Mão",
+      "preco": "5 T$",
+      "dano": "1d3",
+      "critico": "x2",
+      "alcance": "Curto",
+      "tipoDano": "Perfuração",
+      "espacos": 1
+    }
+  ],
+  "municoes": [
+    {
+      "id": "balas-de-arma-20",
+      "nome": "Balas de Arma (20)",
+      "categoria": "municao",
+      "preco": "20 T$",
+      "espacos": 1
+    },
+    {
+      "id": "balas-de-funda-20",
+      "nome": "Balas de Funda (20)",
+      "categoria": "municao",
+      "preco": "0,5 T$",
+      "espacos": 1
+    },
+    {
+      "id": "dardos-20",
+      "nome": "Dardos (20)",
+      "categoria": "municao",
+      "preco": "—",
+      "espacos": 0.5
+    },
+    {
+      "id": "flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "municao",
+      "preco": "1 T$",
+      "espacos": 1
+    },
+    {
+      "id": "virotes-20",
+      "nome": "Virotes (20)",
+      "categoria": "municao",
+      "preco": "2 T$",
+      "espacos": 1
+    }
   ],
   "armaduras": [
-    { "id": "couro", "nome": "Couro", "categoria": "armadura", "tipo": "leve", "preco": "2 TO", "peso": "7,5 kg", "bonus": "+2", "maxDes": "+5", "penalidade": "–1", "descricao": "Armadura básica de couro curtido. Leve e silenciosa, boa para rangers e ladrões." },
-    { "id": "couro-batido", "nome": "Couro Batido", "categoria": "armadura", "tipo": "leve", "preco": "7 TO", "peso": "10 kg", "bonus": "+3", "maxDes": "+4", "penalidade": "–2", "descricao": "Couro reforçado com placas de metal. Melhor proteção mantendo mobilidade relativa." },
-    { "id": "cota-malha-leve", "nome": "Cota de Malha Leve", "categoria": "armadura", "tipo": "leve", "preco": "20 TO", "peso": "10 kg", "bonus": "+4", "maxDes": "+4", "penalidade": "–2", "descricao": "Anéis de metal entrelaçados mais flexíveis. Boa proteção com mobilidade aceitável." },
-    { "id": "brunea", "nome": "Brunea", "categoria": "armadura", "tipo": "media", "preco": "45 TO", "peso": "17,5 kg", "bonus": "+6", "maxDes": "+2", "penalidade": "–5", "descricao": "Armadura de malha com placas de metal. Boa proteção mas reduz significativamente a agilidade." },
-    { "id": "cota-malha", "nome": "Cota de Malha", "categoria": "armadura", "tipo": "media", "preco": "30 TO", "peso": "15 kg", "bonus": "+5", "maxDes": "+3", "penalidade": "–4", "descricao": "Armadura de anéis de ferro entrelaçados. O padrão para soldados bem equipados." },
-    { "id": "cota-escamas", "nome": "Cota de Escamas", "categoria": "armadura", "tipo": "media", "preco": "25 TO", "peso": "17,5 kg", "bonus": "+5", "maxDes": "+3", "penalidade": "–4", "descricao": "Placas sobrepostas como escamas de peixe. Proteção similar à cota de malha." },
-    { "id": "armadura-placas", "nome": "Armadura de Placas", "categoria": "armadura", "tipo": "pesada", "preco": "100 TO", "peso": "22,5 kg", "bonus": "+8", "maxDes": "+1", "penalidade": "–6", "descricao": "A armadura definitiva. Proteção máxima ao custo de mobilidade severa. Sinal de status." },
-    { "id": "meia-armadura", "nome": "Meia Armadura", "categoria": "armadura", "tipo": "pesada", "preco": "55 TO", "peso": "17,5 kg", "bonus": "+6", "maxDes": "+1", "penalidade": "–5", "descricao": "Cobertura parcial de placa metálica. Mais barata que a armadura completa mas ainda pesada." },
-    { "id": "brigantina", "nome": "Brigantina", "categoria": "armadura", "tipo": "pesada", "preco": "75 TO", "peso": "22,5 kg", "bonus": "+7", "maxDes": "+1", "penalidade": "–6", "descricao": "Placas metálicas embutidas em tecido ou couro. Entre a cota e a armadura completa." }
+    {
+      "id": "armadura-acolchoada",
+      "nome": "Armadura acolchoada",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "5 T$",
+      "defesa": "+1",
+      "penalidade": "0",
+      "espacos": 2
+    },
+    {
+      "id": "armadura-de-couro",
+      "nome": "Armadura de couro",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "20 T$",
+      "defesa": "+2",
+      "penalidade": "0",
+      "espacos": 2
+    },
+    {
+      "id": "couro-batido",
+      "nome": "Couro batido",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "35 T$",
+      "defesa": "+3",
+      "penalidade": "-1",
+      "espacos": 2
+    },
+    {
+      "id": "gibao-de-peles",
+      "nome": "Gibão de peles",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "25 T$",
+      "defesa": "+4",
+      "penalidade": "-3",
+      "espacos": 2
+    },
+    {
+      "id": "couraca",
+      "nome": "Couraça",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "500 T$",
+      "defesa": "+5",
+      "penalidade": "-4",
+      "espacos": 2
+    },
+    {
+      "id": "armadura-de-ossos",
+      "nome": "Armadura de ossos",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "120 T$",
+      "defesa": "+3",
+      "penalidade": "-2",
+      "espacos": 2
+    },
+    {
+      "id": "veste-de-teia-de-aranha",
+      "nome": "Veste de teia de aranha",
+      "categoria": "armadura",
+      "tipo": "leve",
+      "preco": "3000 T$",
+      "defesa": "+4",
+      "penalidade": "0",
+      "espacos": 2
+    },
+    {
+      "id": "brunea",
+      "nome": "Brunea",
+      "categoria": "armadura",
+      "tipo": "pesada",
+      "preco": "50 T$",
+      "defesa": "+5",
+      "penalidade": "-2",
+      "espacos": 5
+    },
+    {
+      "id": "cota-de-malha",
+      "nome": "Cota de malha",
+      "categoria": "armadura",
+      "tipo": "pesada",
+      "preco": "150 T$",
+      "defesa": "+5",
+      "penalidade": "-2",
+      "espacos": 5
+    },
+    {
+      "id": "loriga-segmentada",
+      "nome": "Loriga segmentada",
+      "categoria": "armadura",
+      "tipo": "pesada",
+      "preco": "250 T$",
+      "defesa": "+6",
+      "penalidade": "-3",
+      "espacos": 5
+    },
+    {
+      "id": "meia-armadura",
+      "nome": "Meia armadura",
+      "categoria": "armadura",
+      "tipo": "pesada",
+      "preco": "600 T$",
+      "defesa": "+7",
+      "penalidade": "-4",
+      "espacos": 5
+    },
+    {
+      "id": "armadura-de-quitina",
+      "nome": "Armadura de quitina",
+      "categoria": "armadura",
+      "tipo": "pesada",
+      "preco": "350 T$",
+      "defesa": "+7",
+      "penalidade": "-3",
+      "espacos": 5
+    },
+    {
+      "id": "armadura-completa",
+      "nome": "Armadura completa",
+      "categoria": "armadura",
+      "tipo": "pesada",
+      "preco": "3000 T$",
+      "defesa": "+10",
+      "penalidade": "-5",
+      "espacos": 5
+    }
   ],
   "escudos": [
-    { "id": "escudo-madeira", "nome": "Escudo de Madeira", "categoria": "escudo", "tipo": "escudo", "preco": "1 TO", "peso": "2,5 kg", "bonus": "+1", "penalidade": "–1", "descricao": "Escudo simples de madeira reforçada. O mínimo de proteção adicional." },
-    { "id": "escudo-metal", "nome": "Escudo de Metal", "categoria": "escudo", "tipo": "escudo", "preco": "3 TO", "peso": "5 kg", "bonus": "+2", "penalidade": "–1", "descricao": "Escudo de ferro ou aço. Mais durável e protetivo que o de madeira." },
-    { "id": "escudo-grande", "nome": "Escudo Grande (Torre)", "categoria": "escudo", "tipo": "escudo", "preco": "5 TO", "peso": "7,5 kg", "bonus": "+2", "penalidade": "–2", "descricao": "Escudo enorme que cobre quase o corpo todo. Pode ser usado como cobertura." }
+    {
+      "id": "escudo-de-couro",
+      "nome": "Escudo de couro",
+      "categoria": "escudo",
+      "tipo": "escudo",
+      "preco": "3 T$",
+      "defesa": "+1",
+      "penalidade": "-1",
+      "espacos": 1
+    },
+    {
+      "id": "escudo-leve",
+      "nome": "Escudo leve",
+      "categoria": "escudo",
+      "tipo": "escudo",
+      "preco": "5 T$",
+      "defesa": "+1",
+      "penalidade": "-1",
+      "espacos": 1
+    },
+    {
+      "id": "escudo-pesado",
+      "nome": "Escudo pesado",
+      "categoria": "escudo",
+      "tipo": "escudo",
+      "preco": "15 T$",
+      "defesa": "+2",
+      "penalidade": "-2",
+      "espacos": 2
+    }
   ],
-  "itensGerais": [
-    { "id": "corda-hemp", "nome": "Corda de Cânhamo (15m)", "categoria": "itemGeral", "tipo": "equipamento", "preco": "1 TO", "peso": "5 kg", "descricao": "Corda resistente para escalada, amarração ou armadilhas. Suporta até 120 kg." },
-    { "id": "tocha", "nome": "Tocha", "categoria": "itemGeral", "tipo": "equipamento", "preco": "1 TC", "peso": "0,5 kg", "descricao": "Ilumina 6m por 1 hora. Pode ser usada como arma (1d3 de fogo)." },
-    { "id": "lanterna", "nome": "Lanterna com Óleo", "categoria": "itemGeral", "tipo": "equipamento", "preco": "5 TO", "peso": "1 kg", "descricao": "Ilumina 9m por 6 horas. Mais eficiente que tocha." },
-    { "id": "oleo-frasco", "nome": "Óleo (frasco)", "categoria": "itemGeral", "tipo": "equipamento", "preco": "1 TC", "peso": "0,5 kg", "descricao": "Alimenta lanternas ou pode ser arremessado e incendiado (2d6 de fogo)." },
-    { "id": "racao-viagem", "nome": "Ração de Viagem (1 dia)", "categoria": "itemGeral", "tipo": "equipamento", "preco": "5 TC", "peso": "0,5 kg", "descricao": "Alimento seco e durável para aventureiros. Nada saboroso, mas nutre." },
-    { "id": "trouxa-aventureiro", "nome": "Trouxa do Aventureiro", "categoria": "itemGeral", "tipo": "equipamento", "preco": "10 TO", "peso": "15 kg", "descricao": "Mochila com essenciais: corda, tocha (10), rações (5 dias), odre, cobertor, kit de acampamento." },
-    { "id": "kit-cura", "nome": "Kit de Cura", "categoria": "itemGeral", "tipo": "equipamento", "preco": "10 TO", "peso": "1 kg", "descricao": "Bandagens, ervas medicinais e instrumentos básicos. Fornece +2 em testes de Medicina. 10 usos." },
-    { "id": "kit-ferramenta", "nome": "Kit de Ferramentas de Ladrão", "categoria": "itemGeral", "tipo": "equipamento", "preco": "15 TO", "peso": "1 kg", "descricao": "Gazuas, espelhos pequenos, tesouras e ferramentas para abrir fechaduras e desarmar armadilhas. +2 em Ladinagem." },
-    { "id": "escada-dobravel", "nome": "Escada Dobrável (3m)", "categoria": "itemGeral", "tipo": "equipamento", "preco": "2 TO", "peso": "4 kg", "descricao": "Escada portátil para alcançar locais elevados." },
-    { "id": "aljava", "nome": "Aljava (20 flechas)", "categoria": "itemGeral", "tipo": "equipamento", "preco": "1 TO", "peso": "1,5 kg", "descricao": "Estojo para 20 flechas ou parafusos de besta." }
+  "alimentacao": [
+    {
+      "id": "prato-do-aventureiro",
+      "nome": "Prato do aventureiro",
+      "categoria": "itemGeral",
+      "tipo": "Alimentação",
+      "preco": "0,5 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "racao-de-viagem",
+      "nome": "Ração de viagem",
+      "categoria": "itemGeral",
+      "tipo": "Alimentação",
+      "preco": "0,5 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "macarrao-de-vualvin",
+      "nome": "Macarrão de Vualvin",
+      "categoria": "itemGeral",
+      "tipo": "Alimentação",
+      "preco": "1 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "sopa-de-peixe",
+      "nome": "Sopa de peixe",
+      "categoria": "itemGeral",
+      "tipo": "Alimentação",
+      "preco": "1 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "batata-valkariana",
+      "nome": "Batata valkariana",
+      "categoria": "itemGeral",
+      "tipo": "Alimentação",
+      "preco": "2 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "goard-quente",
+      "nome": "Goard quente",
+      "categoria": "itemGeral",
+      "tipo": "Alimentação",
+      "preco": "5 T$",
+      "espacos": 0.5
+    }
   ],
-  "itensMagicos": [
-    { "id": "pocao-cura-leve", "nome": "Poção de Cura Leve", "categoria": "pocao", "tipo": "magico", "preco": "25 TO", "peso": "0,25 kg", "descricao": "Cura 1d8+1 PV. Ação padrão para beber.", "escola": "Conjuração", "requisito": "Magia Curar Ferimentos" },
-    { "id": "pocao-cura-moderada", "nome": "Poção de Cura Moderada", "categoria": "pocao", "tipo": "magico", "preco": "150 TO", "peso": "0,25 kg", "descricao": "Cura 2d8+3 PV. Ação padrão para beber.", "escola": "Conjuração", "requisito": "Magia Curar Ferimentos Moderados" },
-    { "id": "pocao-invisibilidade", "nome": "Poção de Invisibilidade", "categoria": "pocao", "tipo": "magico", "preco": "300 TO", "peso": "0,25 kg", "descricao": "Torna o usuário invisível por 3 minutos ou até atacar.", "escola": "Ilusão" },
-    { "id": "pocao-forca-gigante", "nome": "Poção de Força de Gigante", "categoria": "pocao", "tipo": "magico", "preco": "200 TO", "peso": "0,25 kg", "descricao": "+4 em Força por 1 hora." },
-    { "id": "pergaminho-bola-fogo", "nome": "Pergaminho de Bola de Fogo", "categoria": "pergaminho", "tipo": "magico", "preco": "150 TO", "peso": "—", "descricao": "Conjura Bola de Fogo. CD para resistir = 13 + modificador de Int do criador.", "escola": "Evocação", "circulo": 3 },
-    { "id": "anel-protecao", "nome": "Anel de Proteção +1", "categoria": "anel", "tipo": "magico", "preco": "2.000 TO", "peso": "—", "descricao": "+1 de bônus de deflexão à Defesa.", "escola": "Abjuração" },
-    { "id": "capa-resistencia", "nome": "Capa de Resistência +1", "categoria": "item", "tipo": "magico", "preco": "1.000 TO", "peso": "0,5 kg", "descricao": "+1 em todos os testes de resistência (Fortitude, Reflexos, Vontade).", "escola": "Abjuração" },
-    { "id": "espada-longa-magica", "nome": "Espada Longa +1", "categoria": "arma", "tipo": "magico", "preco": "2.315 TO", "peso": "1,5 kg", "dano": "1d8+1", "critico": "19-20/×2", "descricao": "+1 nas jogadas de ataque e dano. Considerada mágica para superar resistências.", "escola": "Transmutação" },
-    { "id": "amuleto-saude", "nome": "Amuleto de Saúde Natural +2", "categoria": "amuleto", "tipo": "magico", "preco": "4.000 TO", "peso": "—", "descricao": "+2 em Constituição." }
+  "animais": [
+    {
+      "id": "ponei",
+      "nome": "Pônei",
+      "categoria": "itemGeral",
+      "tipo": "Animal",
+      "preco": "75 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "trobo",
+      "nome": "Trobo",
+      "categoria": "itemGeral",
+      "tipo": "Animal",
+      "preco": "100 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "cao-de-caca",
+      "nome": "Cão de caça",
+      "categoria": "itemGeral",
+      "tipo": "Animal",
+      "preco": "150 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "cavalo",
+      "nome": "Cavalo",
+      "categoria": "itemGeral",
+      "tipo": "Animal",
+      "preco": "150 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "ponei-de-guerra",
+      "nome": "Pônei de guerra",
+      "categoria": "itemGeral",
+      "tipo": "Animal",
+      "preco": "150 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "itemGeral",
+      "tipo": "Animal",
+      "preco": "750 T$",
+      "espacos": "—"
+    }
+  ],
+  "catalisadoresAlquimicos": [
+    {
+      "id": "saco-de-sal",
+      "nome": "Saco de sal",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "5 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "liquen-lilas",
+      "nome": "Líquen lilás",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "30 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "po-de-cristal",
+      "nome": "Pó de cristal",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "30 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "po-de-giz",
+      "nome": "Pó de giz",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "30 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "terra-de-cemiterio",
+      "nome": "Terra de cemitério",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "30 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "musgo-purpura",
+      "nome": "Musgo púrpura",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "45 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "ossos-de-monstro",
+      "nome": "Ossos de monstro",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "45 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "ramo-verdejante",
+      "nome": "Ramo verdejante",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "45 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "seixo-de-ambar",
+      "nome": "Seixo de âmbar",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "45 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "essencia-abissal",
+      "nome": "Essência abissal",
+      "categoria": "itemGeral",
+      "tipo": "Catalisador - Alquímico",
+      "preco": "150 T$",
+      "espacos": 0.5
+    }
+  ],
+  "equipamentoAnimal": [
+    {
+      "id": "alforje",
+      "nome": "Alforje",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento Animal",
+      "preco": "30 T$",
+      "espacos": "—"
+    }
+  ],
+  "equipamentoDeAventura": [
+    {
+      "id": "oleo",
+      "nome": "Óleo",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "0,1 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "tocha",
+      "nome": "Tocha",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "0,1 T$",
+      "espacos": 1
+    },
+    {
+      "id": "vara-de-madeira",
+      "nome": "Vara de madeira",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "0,2 T$",
+      "espacos": 1
+    },
+    {
+      "id": "corda",
+      "nome": "Corda",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "1 T$",
+      "espacos": 1
+    },
+    {
+      "id": "saco-de-dormir",
+      "nome": "Saco de dormir",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "1 T$",
+      "espacos": 1
+    },
+    {
+      "id": "mochila",
+      "nome": "Mochila",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "2 T$",
+      "espacos": "-"
+    },
+    {
+      "id": "pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "2 T$",
+      "espacos": 1
+    },
+    {
+      "id": "arpeu",
+      "nome": "Arpéu",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "5 T$",
+      "espacos": 1
+    },
+    {
+      "id": "simbolo-sagrado",
+      "nome": "Símbolo sagrado",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "5 T$",
+      "espacos": 1
+    },
+    {
+      "id": "lampiao",
+      "nome": "Lampião",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "7 T$",
+      "espacos": 1
+    },
+    {
+      "id": "agua-benta",
+      "nome": "Água benta",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "10 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "barraca",
+      "nome": "Barraca",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "10 T$",
+      "espacos": 1
+    },
+    {
+      "id": "espelho",
+      "nome": "Espelho",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "10 T$",
+      "espacos": 1
+    },
+    {
+      "id": "algemas",
+      "nome": "Algemas",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "15 T$",
+      "espacos": 1
+    },
+    {
+      "id": "bandoleira-de-pocoes",
+      "nome": "Bandoleira de poções",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "20 T$",
+      "espacos": 1
+    },
+    {
+      "id": "organizador-de-pergaminhos",
+      "nome": "Organizador de pergaminhos",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "25 T$",
+      "espacos": 1
+    },
+    {
+      "id": "mochila-de-aventureiro",
+      "nome": "Mochila de aventureiro",
+      "categoria": "itemGeral",
+      "tipo": "Equipamento de Aventura",
+      "preco": "50 T$",
+      "espacos": "-"
+    }
+  ],
+  "itensEsotericos": [
+    {
+      "id": "varinha-arcana",
+      "nome": "Varinha arcana",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "100 T$",
+      "espacos": 1
+    },
+    {
+      "id": "luva-de-ferro",
+      "nome": "Luva de ferro",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "150 T$",
+      "espacos": 1
+    },
+    {
+      "id": "dedo-de-entre",
+      "nome": "Dedo de entre",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "200 T$",
+      "espacos": 1
+    },
+    {
+      "id": "bolsa-de-po",
+      "nome": "Bolsa de pó",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "300 T$",
+      "espacos": 1
+    },
+    {
+      "id": "costela-de-lich",
+      "nome": "Costela de lich",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "300 T$",
+      "espacos": 1
+    },
+    {
+      "id": "cetro-elemental",
+      "nome": "Cetro elemental",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "750 T$",
+      "espacos": 1
+    },
+    {
+      "id": "medalhao-de-prata",
+      "nome": "Medalhão de prata",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "750 T$",
+      "espacos": 1
+    },
+    {
+      "id": "orbe-cristalino",
+      "nome": "Orbe cristalino",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "750 T$",
+      "espacos": 1
+    },
+    {
+      "id": "cajado-arcano",
+      "nome": "Cajado arcano",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "1000 T$",
+      "espacos": 2
+    },
+    {
+      "id": "tomo-hermetico",
+      "nome": "Tomo hermético",
+      "categoria": "itemGeral",
+      "tipo": "Esotérico",
+      "preco": "1500 T$",
+      "espacos": 1
+    }
+  ],
+  "ferramentas": [
+    {
+      "id": "gazua",
+      "nome": "Gazua",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "5 T$",
+      "espacos": 1
+    },
+    {
+      "id": "equipamento-de-viagem",
+      "nome": "Equipamento de viagem",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "10 T$",
+      "espacos": 1
+    },
+    {
+      "id": "sela",
+      "nome": "Sela",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "20 T$",
+      "espacos": 1
+    },
+    {
+      "id": "instrumentos-de-oficio",
+      "nome": "Instrumentos de <ofício>",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "instrumento-musical",
+      "nome": "Instrumento musical",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "35 T$",
+      "espacos": 1
+    },
+    {
+      "id": "estojo-de-disfarces",
+      "nome": "Estojo de disfarces",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "50 T$",
+      "espacos": 1
+    },
+    {
+      "id": "maleta-de-medicamentos",
+      "nome": "Maleta de medicamentos",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "50 T$",
+      "espacos": 1
+    },
+    {
+      "id": "colecao-de-livros",
+      "nome": "Coleção de livros",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "75 T$",
+      "espacos": 1
+    },
+    {
+      "id": "tambor-das-profundezas",
+      "nome": "Tambor das profundezas",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "80 T$",
+      "espacos": 1
+    },
+    {
+      "id": "luneta",
+      "nome": "Luneta",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "100 T$",
+      "espacos": 1
+    },
+    {
+      "id": "flauta-mistica",
+      "nome": "Flauta mística",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "150 T$",
+      "espacos": 1
+    },
+    {
+      "id": "alaude-elfico",
+      "nome": "Alaúde elfico",
+      "categoria": "itemGeral",
+      "tipo": "Ferramenta",
+      "preco": "300 T$",
+      "espacos": 1
+    }
+  ],
+  "preparadosAlquimicos": [
+    {
+      "id": "acido",
+      "nome": "Ácido",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "10 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "10 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "fogo-alquimico",
+      "nome": "Fogo alquímico",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "10 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "cosmetico",
+      "nome": "Cosmético",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "30 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "bomba",
+      "nome": "Bomba",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "50 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "essencia-de-mana",
+      "nome": "Essência de mana",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "50 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "elixir-do-amor",
+      "nome": "Elixir do amor",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "100 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "po-do-desaparecimento",
+      "nome": "Pó do desaparecimento",
+      "categoria": "itemGeral",
+      "tipo": "Preparado - Alquímico",
+      "preco": "100 T$",
+      "espacos": 0.5
+    }
+  ],
+  "servicos": [
+    {
+      "id": "estadia-comum",
+      "nome": "Estadia (comum)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "5 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "cura",
+      "nome": "Cura",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "5 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "estabulo-por-dia",
+      "nome": "Estábulo (por dia)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "10 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "estadia-confortavel",
+      "nome": "Estadia (confortável)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "20 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "estadia-luxuosa",
+      "nome": "Estadia (luxuosa)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "50 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "magia-1-circulo",
+      "nome": "Magia (1º círculo)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "50 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "magia-2-circulo",
+      "nome": "Magia (2º círculo)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "150 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "magia-3-circulo",
+      "nome": "Magia (3º círculo)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "500 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "conducao-terrestre",
+      "nome": "Condução (terrestre)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "0,5 T$/km",
+      "espacos": "—"
+    },
+    {
+      "id": "mensageiro",
+      "nome": "Mensageiro",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "0,5 T$/km",
+      "espacos": "—"
+    },
+    {
+      "id": "conducao-maritima",
+      "nome": "Condução (marítima)",
+      "categoria": "itemGeral",
+      "tipo": "Serviço",
+      "preco": "1 T$/km",
+      "espacos": "—"
+    }
+  ],
+  "veiculos": [
+    {
+      "id": "carroca",
+      "nome": "Carroça",
+      "categoria": "itemGeral",
+      "tipo": "Veículo",
+      "preco": "50 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "canoa",
+      "nome": "Canoa",
+      "categoria": "itemGeral",
+      "tipo": "Veículo",
+      "preco": "100 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "carruagem",
+      "nome": "Carruagem",
+      "categoria": "itemGeral",
+      "tipo": "Veículo",
+      "preco": "150 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "balao-goblin",
+      "nome": "Balão goblin",
+      "categoria": "itemGeral",
+      "tipo": "Veículo",
+      "preco": "200 T$",
+      "espacos": "—"
+    },
+    {
+      "id": "veleiro",
+      "nome": "Veleiro",
+      "categoria": "itemGeral",
+      "tipo": "Veículo",
+      "preco": "10000 T$",
+      "espacos": "—"
+    }
+  ],
+  "venenosAlquimicos": [
+    {
+      "id": "peconha-comum",
+      "nome": "Peçonha comum",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "10 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "peconha-concentrada",
+      "nome": "Peçonha concentrada",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "50 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "cicuta",
+      "nome": "Cicuta",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "150 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "riso-de-nimb",
+      "nome": "Riso de Nimb",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "150 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "po-de-lich",
+      "nome": "Pó de lich",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "500 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "peconha-potente",
+      "nome": "Peçonha potente",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "600 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "beladona",
+      "nome": "Beladona",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "1500 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "bruma-sonolenta",
+      "nome": "Bruma sonolenta",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "1500 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "essencia-de-sombra",
+      "nome": "Essência de sombra",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "1500 T$",
+      "espacos": 0.5
+    },
+    {
+      "id": "nevoa-toxica",
+      "nome": "Névoa tóxica",
+      "categoria": "itemGeral",
+      "tipo": "Veneno - Alquímico",
+      "preco": "1500 T$",
+      "espacos": 0.5
+    }
+  ],
+  "vestuario": [
+    {
+      "id": "andrajos-de-aldeao",
+      "nome": "Andrajos de aldeão",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "1 T$",
+      "espacos": 1
+    },
+    {
+      "id": "farrapos-de-ermitao",
+      "nome": "Farrapos de ermitão",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "1 T$",
+      "espacos": 1
+    },
+    {
+      "id": "bandana",
+      "nome": "Bandana",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "5 T$",
+      "espacos": 1
+    },
+    {
+      "id": "luva-de-pelica",
+      "nome": "Luva de pelica",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "5 T$",
+      "espacos": 1
+    },
+    {
+      "id": "sapatos-de-camurca",
+      "nome": "Sapatos de camurça",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "8 T$",
+      "espacos": 1
+    },
+    {
+      "id": "manopla",
+      "nome": "Manopla",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "10 T$",
+      "espacos": 1
+    },
+    {
+      "id": "tabardo",
+      "nome": "Tabardo",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "10 T$",
+      "espacos": 1
+    },
+    {
+      "id": "traje-de-viajante",
+      "nome": "Traje de viajante",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "10 T$",
+      "espacos": 1
+    },
+    {
+      "id": "manto-camuflado",
+      "nome": "Manto camuflado",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "12 T$",
+      "espacos": 1
+    },
+    {
+      "id": "capa-pesada",
+      "nome": "Capa pesada",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "15 T$",
+      "espacos": 1
+    },
+    {
+      "id": "enfeite-de-elmo",
+      "nome": "Enfeite de elmo",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "15 T$",
+      "espacos": 1
+    },
+    {
+      "id": "botas-reforcadas",
+      "nome": "Botas reforçadas",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "20 T$",
+      "espacos": 1
+    },
+    {
+      "id": "casaco-longo",
+      "nome": "Casaco longo",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "20 T$",
+      "espacos": 1
+    },
+    {
+      "id": "manto-eclesiastico",
+      "nome": "Manto eclesiástico",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "20 T$",
+      "espacos": 1
+    },
+    {
+      "id": "camisa-bufante",
+      "nome": "Camisa bufante",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "25 T$",
+      "espacos": 1
+    },
+    {
+      "id": "capa-esvoacante",
+      "nome": "Capa esvoaçante",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "25 T$",
+      "espacos": 1
+    },
+    {
+      "id": "veste-de-seda",
+      "nome": "Veste de seda",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "25 T$",
+      "espacos": 1
+    },
+    {
+      "id": "chapeu-arcano",
+      "nome": "Chapéu arcano",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "50 T$",
+      "espacos": 1
+    },
+    {
+      "id": "robe-mistico",
+      "nome": "Robe místico",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "50 T$",
+      "espacos": 1
+    },
+    {
+      "id": "gorro-de-ervas",
+      "nome": "Gorro de ervas",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "75 T$",
+      "espacos": 1
+    },
+    {
+      "id": "traje-da-corte",
+      "nome": "Traje da corte",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "100 T$",
+      "espacos": 1
+    }
+  ],
+  "pocoesEPergaminhos": [
+    {
+      "id": "abencoar-alimentos-oleo",
+      "nome": "Abençoar Alimentos (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "area-escorregadia-granada",
+      "nome": "Área Escorregadia (granada)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "arma-magica-oleo",
+      "nome": "Arma Mágica (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "compreensao",
+      "nome": "Compreensão",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "curar-ferimentos-2d8-2-pv",
+      "nome": "Curar Ferimentos (2d8+2 PV)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "disfarce-ilusorio",
+      "nome": "Disfarce Ilusório",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "escuridao-oleo",
+      "nome": "Escuridão (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "luz-oleo",
+      "nome": "Luz (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "nevoa-granada",
+      "nome": "Névoa (granada)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "primar-atletico",
+      "nome": "Primar Atlético",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "protecao-divina",
+      "nome": "Proteção Divina",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "resistencia-a-energia",
+      "nome": "Resistência à Energia",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "sono",
+      "nome": "Sono",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "suporte-ambiental",
+      "nome": "Suporte Ambiental",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "tranca-arcana-oleo",
+      "nome": "Tranca Arcana (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "visao-mistica",
+      "nome": "Visão Mística",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "vitalidade-fantasma",
+      "nome": "Vitalidade Fantasma",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "30 T$",
+      "espacos": 1
+    },
+    {
+      "id": "escudo-da-fe-aprimoramento-para-cena",
+      "nome": "Escudo da Fé (aprimoramento para cena)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "120 T$",
+      "espacos": 1
+    },
+    {
+      "id": "alterar-tamanho",
+      "nome": "Alterar Tamanho",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "aparencia-perfeita",
+      "nome": "Aparência Perfeita",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "armamento-da-natureza-oleo",
+      "nome": "Armamento da Natureza (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "bola-de-fogo-granada",
+      "nome": "Bola de Fogo (granada)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "camuflagem-ilusoria",
+      "nome": "Camuflagem Ilusória",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "concentracao-de-combate-aprimoramento-cena",
+      "nome": "Concentração de Combate (aprimoramento cena)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "curar-ferimentos-4d8-4-pv",
+      "nome": "Curar Ferimentos (4d8+4 PV)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "fisico-divino",
+      "nome": "Físico Divino",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "mente-divina",
+      "nome": "Mente Divina",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "metamorfose",
+      "nome": "Metamorfose",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "purificacao",
+      "nome": "Purificação",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "velocidade",
+      "nome": "Velocidade",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "vestimenta-da-fe-oleo",
+      "nome": "Vestimenta da Fé (óleo)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "270 T$",
+      "espacos": 1
+    },
+    {
+      "id": "voz-divina",
+      "nome": "Voz Divina",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "750 T$",
+      "espacos": 1
+    },
+    {
+      "id": "arma-magica-oleo-aprimoramento-bonus-3",
+      "nome": "Arma Mágica (óleo; aprimoramento bônus +3)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "1080 T$",
+      "espacos": 1
+    },
+    {
+      "id": "curar-ferimentos-7d8-7-pv",
+      "nome": "Curar Ferimentos (7d8+7 PV)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "1080 T$",
+      "espacos": 1
+    },
+    {
+      "id": "fisico-divino-aprimoramento-para-3-atributos",
+      "nome": "Físico Divino (aprimoramento para 3 atributos)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "1080 T$",
+      "espacos": 1
+    },
+    {
+      "id": "invisibilidade-aprimoramento-para-cena",
+      "nome": "Invisibilidade (aprimoramento para cena)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "1080 T$",
+      "espacos": 1
+    },
+    {
+      "id": "bola-de-fogo-granada-aprimoramento-para-10d6-de-dano",
+      "nome": "Bola de Fogo (granada; aprimoramento para 10d6 de dano)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "1470 T$",
+      "espacos": 1
+    },
+    {
+      "id": "curar-ferimentos-11d8-11-pv",
+      "nome": "Curar Ferimentos (11d8+11 PV)",
+      "categoria": "pocaoOuPergaminho",
+      "preco": "3000 T$",
+      "espacos": 1
+    }
   ]
 }
