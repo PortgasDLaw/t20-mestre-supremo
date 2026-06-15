@@ -1,0 +1,913 @@
+[
+  {
+    "id": "arcanista",
+    "nome": "Arcanista",
+    "imagem": "/imagens/p39_img0.jpeg",
+    "descricao": "O grande mestre da magia arcana. Pode seguir o caminho do Bruxo (foco mágico), Feiticeiro (poder inato/linhagem) ou Mago (estudo e grimório). Frágil no início, mas capaz de dobrar a própria realidade em níveis elevados.",
+    "atributo": "Inteligência ou Carisma",
+    "pv_inicial": "8 + Constituição",
+    "pv_por_nivel": "2 + Constituição",
+    "pm_por_nivel": 6,
+    "pericias_obrigatorias": ["Misticismo", "Vontade"],
+    "pericias_opcao": "2 a escolher entre Conhecimento, Diplomacia, Enganação, Guerra, Iniciativa, Intimidação, Intuição, Investigação, Nobreza, Ofício e Percepção",
+    "proficiencias": "Nenhuma",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Caminho do Arcanista",
+        "descricao": "Escolha entre três caminhos: Bruxo (lança magias através de um foco — varinha, cajado, chapéu; atributo-chave Inteligência), Feiticeiro (poder inato do sangue; escolhe uma linhagem sobrenatural; atributo-chave Carisma), ou Mago (estudo e memorização; precisa de grimório; começa com 4 magias; atributo-chave Inteligência)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Magias",
+        "descricao": "Você pode lançar magias arcanas de 1º círculo. Começa com 3 magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar. A cada quatro níveis, pode lançar magias de um círculo maior (2º no 5º nível, 3º no 9º, 4º no 13º, 5º no 17º)."
+      },
+      {
+        "nivel": 20,
+        "nome": "Alta Arcana",
+        "descricao": "No 20º nível, seu domínio das artes arcanas é total. O custo em PM de suas magias arcanas é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo)."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Caminho do arcanista, magias (1º círculo)"},
+      {"nivel": 2, "habilidade": "Poder de arcanista"},
+      {"nivel": 5, "habilidade": "Magias (2º círculo), poder de arcanista"},
+      {"nivel": 9, "habilidade": "Magias (3º círculo), poder de arcanista"},
+      {"nivel": 13, "habilidade": "Magias (4º círculo), poder de arcanista"},
+      {"nivel": 17, "habilidade": "Magias (5º círculo), poder de arcanista"},
+      {"nivel": 20, "habilidade": "Alta arcana, poder de arcanista"}
+    ],
+    "poderes": [
+      "Arcano de Batalha — soma atributo-chave na rolagem de dano ao lançar magia",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Caldeirão do Bruxo — cria poções como Preparar Poção (Bruxo, Ofício alquimista)",
+      "Conhecimento Mágico — aprende 2 magias (repetível)",
+      "Contramágica Aprimorada — contramágica como reação 1x/rodada (req. Dissipar Magia)",
+      "Envolto em Mistério — +5 Enganação/Intimidação contra não treinados em Misticismo",
+      "Especialista em Escola — CD resistência +2 para uma escola (Bruxo ou Mago)",
+      "Familiar — animal mágico com bônus especiais",
+      "Fluxo de Mana — mantém dois efeitos sustentados com uma ação livre (10º nível)",
+      "Foco Vital — sobrevive com 1 PV transferindo dano ao foco (Bruxo)",
+      "Fortalecimento Arcano — CD resistência +1 ou +2 se lança 4º círculo (5º nível)",
+      "Herança Aprimorada — herança aprimorada da linhagem (Feiticeiro, 6º nível)",
+      "Herança Superior — herança superior da linhagem (req. Herança Aprimorada, 11º nível)",
+      "Magia Pungente — +2 CD ao pagar 1 PM extra",
+      "Mestre em Escola — custo –1 PM em uma escola (req. Especialista, 8º nível)",
+      "Poder Mágico — +1 PM/nível de arcanista",
+      "Raio Arcano — 1d8+ dano de essência em alcance curto (aumenta por círculo)",
+      "Tinta do Mago — cria pergaminhos (Mago, Ofício escriba)"
+    ],
+    "linhagens": [
+      {"nome": "Dracônica", "descricao": "Um antepassado dragão. Escolhe tipo de dano. Básica: +Car em PV, RD 5 ao tipo. Aprimorada: magias do tipo –1 PM e +1 dano/dado. Superior: imune ao tipo, PM temporários ao matar."},
+      {"nome": "Feérica", "descricao": "Sangue tocado por fadas. Básica: treinado Enganação, 1 magia encantamento/ilusão. Aprimorada: CD +2 e –1 PM em encantamento/ilusão. Superior: +2 Car."},
+      {"nome": "Rubra", "descricao": "Sangue corrompido pela Tormenta. Básica: 1 poder da Tormenta. Aprimorada: 1 magia –1 PM por poder da Tormenta. Superior: +4 PM por poder da Tormenta."}
+    ]
+  },
+  {
+    "id": "barbaro",
+    "nome": "Bárbaro",
+    "imagem": "/imagens/p46_img0.jpeg",
+    "descricao": "Um herói primitivo que ignora as frivolidades da civilização. Luta por instinto, com fúria guerreira que lhe concede força e resistência animalescas. Especialista em dano bruto e sobrevivência.",
+    "atributo": "Força",
+    "pv_inicial": "24 + Constituição",
+    "pv_por_nivel": "6 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": ["Fortitude", "Luta"],
+    "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Iniciativa, Intimidação, Ofício, Percepção, Pontaria, Sobrevivência e Vontade",
+    "proficiencias": "Armas marciais e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Fúria",
+        "descricao": "Você pode gastar 2 PM para invocar uma fúria selvagem. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar Furtividade ou lançar magias). A cada cinco níveis, pode gastar +1 PM para aumentar os bônus em +1. A Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito hostil."
+      },
+      {
+        "nivel": 3,
+        "nome": "Instinto Selvagem",
+        "descricao": "Você recebe +1 em rolagens de dano, Percepção e Reflexos. A cada seis níveis, esse bônus aumenta em +1."
+      },
+      {
+        "nivel": 5,
+        "nome": "Redução de Dano",
+        "descricao": "Graças a seu vigor e força de vontade, você ignora parte de seus ferimentos. Você recebe redução de dano 2 (todo dano que sofre é reduzido em 2). A cada três níveis, sua RD aumenta em 2, até um máximo de RD 10 no 17º nível."
+      },
+      {
+        "nivel": 20,
+        "nome": "Fúria Titânica",
+        "descricao": "No 20º nível, o bônus que você recebe nos testes de ataque e rolagens de dano quando usa Fúria é dobrado."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Fúria +2"},
+      {"nivel": 3, "habilidade": "Instinto selvagem +1"},
+      {"nivel": 5, "habilidade": "Redução de dano 2"},
+      {"nivel": 6, "habilidade": "Fúria +3"},
+      {"nivel": 8, "habilidade": "Redução de dano 4"},
+      {"nivel": 9, "habilidade": "Instinto selvagem +2"},
+      {"nivel": 11, "habilidade": "Fúria +4, redução de dano 6"},
+      {"nivel": 14, "habilidade": "Redução de dano 8"},
+      {"nivel": 15, "habilidade": "Instinto selvagem +3"},
+      {"nivel": 16, "habilidade": "Fúria +5"},
+      {"nivel": 17, "habilidade": "Redução de dano 10"},
+      {"nivel": 20, "habilidade": "Fúria titânica"}
+    ],
+    "poderes": [
+      "Alma de Bronze — PV temporários = nível + Força ao entrar em Fúria",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Brado Assustador — todos inimigos em alcance curto ficam vulneráveis (1 PM, Intimidação)",
+      "Crítico Brutal — multiplicador de crítico +1 com armas corpo a corpo/arremesso (6º nível)",
+      "Destruidor — rola novamente resultados 1 e 2 em dano com armas de duas mãos (For 1)",
+      "Espírito Inquebrável — não fica inconsciente em 0 PV durante Fúria (req. Alma de Bronze)",
+      "Esquiva Sobrenatural — nunca fica surpreendido",
+      "Frenesi — ataque adicional durante Fúria (2 PM, 1x/rodada)",
+      "Fúria da Savana — deslocamento +3m; Fúria aplica bônus em arremesso também",
+      "Golpe Poderoso — dado extra de dano ao acertar (1 PM)",
+      "Ímpeto — deslocamento +6m por uma rodada (1 PM)",
+      "Pele de Ferro — +4 Defesa sem armadura pesada",
+      "Pele de Aço — bônus Pele de Ferro aumenta para +8 (8º nível)",
+      "Sangue dos Inimigos — +1 cumulativo em ataque/dano por crítico ou inimigo abatido",
+      "Superstição — resistência a magia +5",
+      "Totem Espiritual — soma Sabedoria em PM, aprende magia animal totêmica (Sab 1, 4º nível)",
+      "Vigor Primal — recupera 1d12 PV por PM gasto (ação movimento, limitado por Con)"
+    ]
+  },
+  {
+    "id": "bardo",
+    "nome": "Bardo",
+    "imagem": "/imagens/p52_img0.jpeg",
+    "descricao": "Contadores de histórias e músicos errantes que dominam ruas e cortes. Versáteis diplomatas que inspiram aliados através da arte e magia, mesclando esgrima, dança e encantamentos.",
+    "atributo": "Carisma",
+    "pv_inicial": "12 + Constituição",
+    "pv_por_nivel": "3 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": ["Atuação", "Reflexos"],
+    "pericias_opcao": "6 a escolher entre Acrobacia, Cavalgar, Conhecimento, Diplomacia, Enganação, Furtividade, Iniciativa, Intuição, Investigação, Jogatina, Ladinagem, Luta, Misticismo, Nobreza, Percepção, Pontaria e Vontade",
+    "proficiencias": "Armas marciais",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Inspiração",
+        "descricao": "Você pode gastar 2 PM para emitir uma inspiração. Você e todos os aliados em alcance curto que possam ouvir você recebem +1 em testes de perícia. A cada quatro níveis (5º, 9º, 13º, 17º), esse bônus aumenta em +1."
+      },
+      {
+        "nivel": 1,
+        "nome": "Magias",
+        "descricao": "Escolha 3 escolas de magia. Você pode lançar magias arcanas de 1º círculo dessas escolas. Começa com 2 magias. A cada nível par aprende uma magia. Atributo-chave: Carisma. Círculos maiores: 2º no 6º nível, 3º no 10º, 4º no 14º."
+      },
+      {
+        "nivel": 2,
+        "nome": "Eclético",
+        "descricao": "Você pode gastar 1 PM para receber, por um teste, os benefícios de ser treinado em uma perícia à sua escolha (incluindo perícias de outras classes)."
+      },
+      {
+        "nivel": 20,
+        "nome": "Artista Completo",
+        "descricao": "No 20º nível, quando usa Inspiração, todos os aliados que puderem ouvir você também recebem +1 em testes de ataque e rolagens de dano."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Inspiração +1, Magias (1º círculo)"},
+      {"nivel": 2, "habilidade": "Eclético, poder de bardo"},
+      {"nivel": 5, "habilidade": "Inspiração +2"},
+      {"nivel": 6, "habilidade": "Magias (2º círculo)"},
+      {"nivel": 9, "habilidade": "Inspiração +3"},
+      {"nivel": 10, "habilidade": "Magias (3º círculo)"},
+      {"nivel": 13, "habilidade": "Inspiração +4"},
+      {"nivel": 14, "habilidade": "Magias (4º círculo)"},
+      {"nivel": 17, "habilidade": "Inspiração +5"},
+      {"nivel": 20, "habilidade": "Artista Completo"}
+    ],
+    "poderes": [
+      "Arte Mágica — CD +2 para resistir a habilidades enquanto sob Inspiração",
+      "Aumentar Repertório — aprende 2 magias (repetível)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Esgrima Mágica — substitui testes de Luta por Atuação em ataques leves/uma mão",
+      "Estrelato — +5 em perícias de Carisma ao impressionar plateia (6º nível)",
+      "Golpe Mágico — ganha 2 PM temporários em ataques corpo a corpo acertados (req. Esgrima Mágica)",
+      "Inspiração Marcial — bônus de Inspiração também em rolagens de dano",
+      "Lendas e Histórias — rola novamente testes de Conhecimento, Misticismo, Nobreza, Religião (Int 1)",
+      "Manipular — criatura fascinada fica enfeitiçada (req. Balada Fascinante)",
+      "Melodia Restauradora — remove condições ao usar Melodia Curativa (+2 PM)",
+      "Música: Balada Fascinante — fascina criatura (teste oposto Vontade)",
+      "Música: Canção Assustadora — alvos ficam abalados",
+      "Música: Melodia Curativa — cura 1d6 PV por PM gasto",
+      "Paródia — copia magia lançada por outra criatura (1 PM, teste Atuação)",
+      "Prestidigitação — lança magia de ação completa como ação livre durante ação padrão (6º nível)",
+      "Dança das Lâminas — ataque corpo a corpo como ação livre ao lançar magia (req. Esgrima Mágica, 10º nível)"
+    ]
+  },
+  {
+    "id": "bucaneiro",
+    "nome": "Bucaneiro",
+    "imagem": "/imagens/p55_img0.jpeg",
+    "descricao": "Aventureiros dos mares e rios, piratas e corsários audazes. Leais aos companheiros, especialistas em evasão, esgrima leve e bravatas que desafiam os piores perigos. Usam Carisma para se defender.",
+    "atributo": "Destreza",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": ["Luta ou Pontaria", "Reflexos"],
+    "pericias_opcao": "4 a escolher entre Acrobacia, Atletismo, Atuação, Enganação, Fortitude, Furtividade, Iniciativa, Intimidação, Jogatina, Luta, Ofício, Percepção, Pilotagem e Pontaria",
+    "proficiencias": "Armas marciais",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Audácia",
+        "descricao": "Uma vez por rodada, você pode gastar 2 PM para somar seu Carisma em um teste de perícia. Você não pode usar essa habilidade em testes de ataque."
+      },
+      {
+        "nivel": 1,
+        "nome": "Insolência",
+        "descricao": "Você soma seu Carisma na Defesa, limitado pelo seu nível. Esse bônus só se aplica se você não estiver usando armadura pesada e puder se mover livremente."
+      },
+      {
+        "nivel": 2,
+        "nome": "Evasão",
+        "descricao": "Se passar em um teste de Reflexos que normalmente reduz o dano à metade, você não sofre nenhum dano."
+      },
+      {
+        "nivel": 3,
+        "nome": "Esquiva Sagaz",
+        "descricao": "+1 nos testes de Reflexos e na Defesa. Aumenta em +1 a cada 4 níveis (7º, 11º, 15º, 19º)."
+      },
+      {
+        "nivel": 5,
+        "nome": "Panache",
+        "descricao": "Você pode gastar 1 PM para rolar novamente um teste de perícia (não de ataque). Você pode usar esta habilidade depois de rolar o dado."
+      },
+      {
+        "nivel": 20,
+        "nome": "Sorte de Nimb",
+        "descricao": "No 20º nível, uma vez por cena, quando for reduzido a 0 PV ou menos, você pode gastar 5 PM para ficar com 1 PV."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Audácia, Insolência"},
+      {"nivel": 2, "habilidade": "Evasão, poder de bucaneiro"},
+      {"nivel": 3, "habilidade": "Esquiva Sagaz +1"},
+      {"nivel": 5, "habilidade": "Panache"},
+      {"nivel": 7, "habilidade": "Esquiva Sagaz +2"},
+      {"nivel": 10, "habilidade": "Evasão Aprimorada"},
+      {"nivel": 11, "habilidade": "Esquiva Sagaz +3"},
+      {"nivel": 15, "habilidade": "Esquiva Sagaz +4"},
+      {"nivel": 19, "habilidade": "Esquiva Sagaz +5"},
+      {"nivel": 20, "habilidade": "Sorte de Nimb"}
+    ],
+    "poderes": [
+      "Aparar — evita ataque com teste oposto de Luta (1 PM, req. Esgrimista)",
+      "Ataque Acrobático — +2 ao atacar após salto ou pirueta",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Aventureiro Ávido — ação padrão/movimento adicional (5 PM, ou –2 PM com Surto Heroico)",
+      "Bravata Audaz — jura façanha, ganha +2 PM/nível ao cumprir",
+      "En Garde — postura: +2 margem e Defesa com armas leves (req. Esgrimista)",
+      "Esgrimista — soma Inteligência em rolagens de dano com armas leves/ágeis (Int 1)",
+      "Flagelo dos Mares — aprende Amedrontar (Car como atributo-chave)",
+      "Grudar o Cano — sem penalidade com armas de fogo adjacentes, dano +1 passo",
+      "Pernas do Mar — +2 Acrobacia/Atletismo, não fica desprevenido ao equilibrar/escalar",
+      "Pistoleiro — proficiência com armas de fogo, +2 em rolagens de dano",
+      "Presença Paralisante — soma Car em Iniciativa, ação padrão extra na 1ª rodada (Car 1, 4º nível)",
+      "Ripostar — ataque imediato ao aparar com sucesso (+1 PM, req. Aparar, 12º nível)",
+      "Touché — dano +1 passo ao se aproximar e atacar com arma leve (req. Esgrimista, +2 PM)"
+    ]
+  },
+  {
+    "id": "cacador",
+    "nome": "Caçador",
+    "imagem": "/imagens/p58_img0.jpeg",
+    "descricao": "Especialistas em sobrevivência, rastreamento e caça de monstros. Estudiosos da natureza que utilizam emboscadas, armadilhas e conhecimento do terreno para vencer seus inimigos.",
+    "atributo": "Força ou Destreza",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": ["Luta ou Pontaria", "Sobrevivência"],
+    "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Cura, Fortitude, Furtividade, Iniciativa, Investigação, Luta, Ofício, Percepção, Pontaria e Reflexos",
+    "proficiencias": "Armas marciais e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Marca da Presa",
+        "descricao": "Como ação de movimento, você pode gastar 1 PM para analisar uma criatura em alcance curto. Até o fim da cena, você causa +1d4 pontos de dano adicional contra ela com ataques. A cada 4 níveis, o dano da Marca aumenta (+1d8 no 5º, +1d12 no 9º, +2d8 no 13º, +2d10 no 17º)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Rastreador",
+        "descricao": "Você recebe +2 em Sobrevivência e pode se mover em sua velocidade normal ao rastrear (em vez de metade)."
+      },
+      {
+        "nivel": 3,
+        "nome": "Explorador",
+        "descricao": "Escolha um terreno (aquático, ártico, costeiro, deserto, floresta, montanha, pântano, planície, subterrâneo ou urbano). Nesse terreno, você recebe +2 em Iniciativa, Percepção, Furtividade e Sobrevivência. A cada 4 níveis, escolhe outro terreno ou aumenta o bônus em +2."
+      },
+      {
+        "nivel": 20,
+        "nome": "Mestre Caçador",
+        "descricao": "No 20º nível, quando usa Marca da Presa, você pode gastar 5 PM adicionais. Se fizer isso, a criatura marcada fica abalada, sofre –2 nos testes de resistência e você nunca fica desprevenido contra ela."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Marca da Presa +1d4, Rastreador"},
+      {"nivel": 3, "habilidade": "Explorador"},
+      {"nivel": 5, "habilidade": "Caminho do Explorador, Marca da Presa +1d8"},
+      {"nivel": 7, "habilidade": "Explorador"},
+      {"nivel": 9, "habilidade": "Marca da Presa +1d12"},
+      {"nivel": 11, "habilidade": "Explorador"},
+      {"nivel": 13, "habilidade": "Marca da Presa +2d8"},
+      {"nivel": 15, "habilidade": "Explorador"},
+      {"nivel": 17, "habilidade": "Marca da Presa +2d10"},
+      {"nivel": 19, "habilidade": "Explorador"},
+      {"nivel": 20, "habilidade": "Mestre Caçador"}
+    ],
+    "poderes": [
+      "Ambidestria — dois ataques com duas armas (Des 2, penalidade –2)",
+      "Arqueiro — soma Sabedoria em dano com armas à distância (Sab 1)",
+      "Armadilha: Arataca — 2d6 perfuração + agarrado",
+      "Armadilha: Espinhos — 6d6 perfuração (Reflexos reduz à metade)",
+      "Armadilha: Laço — alvo cai ou fica agarrado",
+      "Armadilha: Rede — enreda todos na área (CD 25 para sair)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Camuflagem — pode se esconder sem camuflagem (2 PM, 6º nível)",
+      "Companheiro Animal — recebe companheiro animal (Car 1, Adestramento)",
+      "Elo com a Natureza — soma Sab em PM, aprende Caminhos da Natureza (Sab 1, 3º nível)",
+      "Emboscar — ação padrão adicional na 1ª rodada (+2 PM, Furtividade)",
+      "Escaramuça — move 6m+, +2 Defesa/Reflexos, +1d8 dano (Des 2, 6º nível)",
+      "Inimigo de (tipo) — dobra dados de bônus da Marca contra tipo/raça escolhida",
+      "Olho do Falcão — marca presa em alcance longo",
+      "Ponto Fraco — margem de ameaça +2 contra presa marcada"
+    ]
+  },
+  {
+    "id": "cavaleiro",
+    "nome": "Cavaleiro",
+    "imagem": "/imagens/p62_img0.jpeg",
+    "descricao": "Combatentes nobres ligados à honra e à tradição. Montados e armados pesadamente, especialistas em defesa e duelos, defendendo os inocentes com código de conduta estrito.",
+    "atributo": "Força",
+    "pv_inicial": "20 + Constituição",
+    "pv_por_nivel": "5 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": ["Fortitude", "Luta"],
+    "pericias_opcao": "2 a escolher entre Adestramento, Atletismo, Cavalgar, Diplomacia, Guerra, Iniciativa, Intimidação, Nobreza, Percepção e Vontade",
+    "proficiencias": "Armas marciais, armaduras pesadas e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Código de Honra",
+        "descricao": "Você nunca ataca inimigos pelas costas, caídos ou desprevenidos. Se violar o código, perde todos os seus PM até o próximo dia."
+      },
+      {
+        "nivel": 1,
+        "nome": "Baluarte",
+        "descricao": "Você pode gastar 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, o bônus aumenta em +2. No 7º nível, os aliados adjacentes também recebem o bônus. No 15º nível, o alcance aumenta para curto."
+      },
+      {
+        "nivel": 2,
+        "nome": "Duelo",
+        "descricao": "Uma vez por rodada, quando um inimigo em alcance corpo a corpo errar um ataque contra você, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse inimigo como uma reação. O bônus no ataque e dano aumenta por nível."
+      },
+      {
+        "nivel": 20,
+        "nome": "Bravura Final",
+        "descricao": "No 20º nível, uma vez por cena, você pode gastar 5 PM quando for reduzido a 0 PV ou menos. Se fizer isso, fica com 1 PV e recebe +2 em testes de ataque e rolagens de dano até o fim da cena."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Baluarte +2, Código de Honra"},
+      {"nivel": 2, "habilidade": "Duelo, poder de cavaleiro"},
+      {"nivel": 5, "habilidade": "Baluarte +4, Caminho do Cavaleiro"},
+      {"nivel": 7, "habilidade": "Baluarte (aliados adjacentes), Duelo aprimorado"},
+      {"nivel": 9, "habilidade": "Baluarte +6"},
+      {"nivel": 11, "habilidade": "Resoluto"},
+      {"nivel": 13, "habilidade": "Baluarte +8"},
+      {"nivel": 15, "habilidade": "Baluarte (aliados alcance curto)"},
+      {"nivel": 17, "habilidade": "Baluarte +10"},
+      {"nivel": 20, "habilidade": "Bravura Final"}
+    ],
+    "poderes": [
+      "Armadura da Honra — PV temporários = nível + Car no início de cena",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Desprezar os Covardes — RD 5 se caído/desprevenido/flanqueado",
+      "Escudeiro — parceiro especial com bônus em armas/armadura",
+      "Especialização em Armadura — RD 5 com armadura pesada (12º nível)",
+      "Estandarte — aliados recebem PM temporários = Car no início de cada cena (Título, 14º nível)",
+      "Etiqueta — +2 Diplomacia/Nobreza e pode rolar novamente (+1 PM)",
+      "Investida Destruidora — investida causa +2d8 dano (+2 PM)",
+      "Montaria Corajosa — montaria concede +1d6 dano",
+      "Postura: Aríete Implacável — +2 em investidas, +2d8 contra construtos",
+      "Postura: Castigo de Ferro — ataca a criatura que atacar aliado (+1 PM)",
+      "Postura: Foco de Batalha — +1 PM temporário por ataque recebido"
+    ]
+  },
+  {
+    "id": "clerigo",
+    "nome": "Clérigo",
+    "imagem": "/imagens/p65_img0.jpeg",
+    "descricao": "Servo de um dos deuses de Arton. Usa poderes divinos para defender os ideais de sua divindade. Especialista em magia de cura, proteção e dano sagrado/profano.",
+    "atributo": "Sabedoria",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 5,
+    "pericias_obrigatorias": ["Religião", "Vontade"],
+    "pericias_opcao": "2 a escolher entre Cura, Diplomacia, Fortitude, Guerra, Iniciativa, Intuição, Luta, Misticismo, Nobreza e Percepção",
+    "proficiencias": "Armas simples, armaduras pesadas e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Devoto Fiel",
+        "descricao": "Você se torna devoto de um deus maior e recebe um poder concedido por se tornar devoto. Você soma sua Sabedoria em seu total de PM. Veja as regras de devotos."
+      },
+      {
+        "nivel": 1,
+        "nome": "Magias",
+        "descricao": "Você pode lançar magias divinas de 1º círculo. Começa com 3 magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar. Atributo-chave: Sabedoria. Círculos maiores: 2º no 5º nível, 3º no 9º, 4º no 13º, 5º no 17º."
+      },
+      {
+        "nivel": 20,
+        "nome": "Mão da Divindade",
+        "descricao": "No 20º nível, você pode gastar uma ação completa e 15 PM para canalizar energia divina. Você lança três magias divinas quaisquer (de qualquer círculo) como ação livre e sem gastar PM. Após usar, fica atordoado por 1d4 rodadas."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Devoto fiel, magias (1º círculo)"},
+      {"nivel": 5, "habilidade": "Magias (2º círculo), poder de clérigo"},
+      {"nivel": 9, "habilidade": "Magias (3º círculo), poder de clérigo"},
+      {"nivel": 13, "habilidade": "Magias (4º círculo), poder de clérigo"},
+      {"nivel": 17, "habilidade": "Magias (5º círculo), poder de clérigo"},
+      {"nivel": 20, "habilidade": "Mão da divindade, poder de clérigo"}
+    ],
+    "poderes": [
+      "Arma do Deus — soma Sabedoria em rolagens de dano com arma favorita da divindade",
+      "Autoridade Eclesiástica — posição formal em uma igreja (+5 Diplomacia/Intimidação com devotos) (5º nível)",
+      "Canalizar Energia Positiva/Negativa — cura ou causa 1d6 PV/PM por PM gasto",
+      "Canalizar Amplo — Canalizar Energia em alcance médio (+2 PM)",
+      "Comunhão Vital — quando cura, aliado próximo cura metade (+2 PM)",
+      "Conhecimento Mágico — aprende 2 magias divinas (repetível)",
+      "Expulsar/Comandar Mortos-Vivos — expulsa (positivo) ou comanda (negativo) mortos-vivos (3 PM)",
+      "Liturgia Mágica — +2 CD próxima habilidade de clérigo (ação de movimento)",
+      "Magia Sagrada/Profana — muda dano de magia para luz (positivo) ou trevas (negativo) (+1 PM)",
+      "Missa: Bênção da Vida — PV temporários = nível + Sab aos participantes",
+      "Missa: Chamado às Armas — +1 em ataque/dano aos participantes",
+      "Missa: Elevação do Espírito — PM temporários = Sab aos participantes",
+      "Missa: Escudo Divino — +1 Defesa e testes de resistência",
+      "Símbolo Sagrado Energizado — –1 PM em magias divinas enquanto empunha símbolo energizado (1 PM)"
+    ]
+  },
+  {
+    "id": "druida",
+    "nome": "Druida",
+    "imagem": "/imagens/p66_img0.jpeg",
+    "descricao": "Guardião do mundo natural e devoto das forças selvagens. Pode transformar-se em animais e controlar plantas. Usa magia divina escolhendo escolas específicas.",
+    "atributo": "Sabedoria",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": ["Sobrevivência", "Vontade"],
+    "pericias_opcao": "4 a escolher entre Adestramento, Atletismo, Cavalgar, Conhecimento, Cura, Fortitude, Iniciativa, Intuição, Luta, Misticismo, Ofício, Percepção e Religião",
+    "proficiencias": "Escudos (não de metal)",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Devoto Fiel",
+        "descricao": "Você se torna devoto de Allihanna, Megalokk ou Oceano e recebe DOIS poderes concedidos. Você soma sua Sabedoria em seu total de PM."
+      },
+      {
+        "nivel": 1,
+        "nome": "Empatia Selvagem",
+        "descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão."
+      },
+      {
+        "nivel": 1,
+        "nome": "Magias",
+        "descricao": "Escolha 3 escolas de magia. Você pode lançar magias divinas de 1º círculo dessas escolas. Começa com 2 magias. A cada nível par aprende uma magia. Atributo-chave: Sabedoria. Círculos maiores: 2º no 6º nível, 3º no 10º, 4º no 14º."
+      },
+      {
+        "nivel": 2,
+        "nome": "Caminho dos Ermos",
+        "descricao": "Você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento, e a CD para rastreá-lo aumenta em +10 (apenas em terrenos naturais)."
+      },
+      {
+        "nivel": 20,
+        "nome": "Força da Natureza",
+        "descricao": "No 20º nível, você diminui o custo de todas as suas magias em –2 PM e aumenta a CD delas em +2. Os bônus dobram (–4 PM e +4 na CD) se você estiver em terrenos naturais."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Devoto fiel, empatia selvagem, magias (1º círculo)"},
+      {"nivel": 2, "habilidade": "Caminho dos ermos, poder de druida"},
+      {"nivel": 6, "habilidade": "Magias (2º círculo)"},
+      {"nivel": 10, "habilidade": "Magias (3º círculo)"},
+      {"nivel": 14, "habilidade": "Magias (4º círculo)"},
+      {"nivel": 20, "habilidade": "Força da Natureza"}
+    ],
+    "poderes": [
+      "Aspecto do Inverno — magia de convocação/evocação + redução frio 5",
+      "Aspecto do Outono — magia de necromancia + penalidade –2 em resistências inimigas",
+      "Aspecto da Primavera — magia de encantamento/ilusão + reduz custo de magias escolhidas",
+      "Aspecto do Verão — magia de transmutação + arma flamejante 1d6 fogo",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Companheiro Animal — companheiro animal como parceiro (Car 1, Adestramento)",
+      "Forma Selvagem — transforma em animal (Forma Ágil, Feroz, Resistente, Sorrateira ou Veloz)",
+      "Forma Selvagem Aprimorada — forma aprimorada por 6 PM (req. Forma Selvagem, 6º nível)",
+      "Forma Selvagem Superior — forma superior por 10 PM (req. Aprimorada, 12º nível)",
+      "Magia Natural — lança magias em forma selvagem (req. Forma Selvagem)",
+      "Segredos da Natureza — aprende 2 magias das escolas escolhidas (repetível)",
+      "Espírito dos Equinócios — rola novamente resultados 1 em qualquer dado (4 PM, req. Aspectos, 10º nível)",
+      "Espírito dos Solstícios — maximiza efeitos numéricos de magias (4 PM, req. Aspectos, 10º nível)"
+    ]
+  },
+  {
+    "id": "guerreiro",
+    "nome": "Guerreiro",
+    "imagem": "/imagens/p70_img0.jpeg",
+    "descricao": "O especialista supremo em técnicas de combate com armas. Versátil, eficiente e presente em todos os cantos de Arton. Usa Ataque Especial para potencializar seus golpes.",
+    "atributo": "Força ou Destreza",
+    "pv_inicial": "20 + Constituição",
+    "pv_por_nivel": "5 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": ["Luta ou Pontaria", "Fortitude"],
+    "pericias_opcao": "2 a escolher entre Adestramento, Atletismo, Cavalgar, Guerra, Iniciativa, Intimidação, Luta, Ofício, Percepção, Pontaria e Reflexos",
+    "proficiencias": "Armas marciais, armaduras pesadas e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Ataque Especial",
+        "descricao": "Quando faz um ataque, você pode gastar 1 PM para receber +4 no teste de ataque OU na rolagem de dano. A cada quatro níveis (+8 no 5º, +12 no 9º, +16 no 13º, +20 no 17º), pode gastar +1 PM para aumentar o bônus em +4. Você pode dividir os bônus igualmente."
+      },
+      {
+        "nivel": 3,
+        "nome": "Durão",
+        "descricao": "Você pode gastar uma ação de movimento e 2 PM para recuperar 1d6 PV. Esse valor aumenta em +1d6 a cada quatro níveis (até 5d6 no 19º nível)."
+      },
+      {
+        "nivel": 6,
+        "nome": "Ataque Extra",
+        "descricao": "Quando usa a ação agredir, você pode fazer dois ataques. Se fizer isso, sofre –2 em todos os testes de ataque até o início do seu próximo turno."
+      },
+      {
+        "nivel": 20,
+        "nome": "Mestre das Armas",
+        "descricao": "No 20º nível, quando usa Ataque Especial, você pode gastar PM adicionais além do limite normal para esse nível."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Ataque especial +4"},
+      {"nivel": 3, "habilidade": "Durão, poder de guerreiro"},
+      {"nivel": 5, "habilidade": "Ataque especial +8"},
+      {"nivel": 6, "habilidade": "Ataque extra"},
+      {"nivel": 9, "habilidade": "Ataque especial +12"},
+      {"nivel": 13, "habilidade": "Ataque especial +16"},
+      {"nivel": 17, "habilidade": "Ataque especial +20"},
+      {"nivel": 20, "habilidade": "Mestre das Armas"}
+    ],
+    "poderes": [
+      "Ambidestria — dois ataques com duas armas (Des 2, penalidade –2)",
+      "Arqueiro — soma Sabedoria em dano com armas à distância (Sab 1)",
+      "Ataque Reflexo — ataca oponente que fica desprevenido ou sai do alcance (1 PM, Des 1)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Bater e Correr — continua se movendo após investida; sem penalidade em terreno difícil (2 PM)",
+      "Destruidor — rola novamente resultados 1 e 2 em dano com armas de duas mãos",
+      "Esgrimista — soma Inteligência em dano com armas leves/ágeis (Int 1)",
+      "Especialização em Arma — +2 em dano com uma arma específica (repetível)",
+      "Especialização em Armadura — RD 5 com armadura pesada (12º nível)",
+      "Golpe de Raspão — ao errar, causa metade do dano (2 PM, 1x/rodada)",
+      "Golpe Pessoal — cria técnica única com efeitos customizados",
+      "Rajada — dois ataques à distância; –2 em todos os ataques (Des 1)"
+    ]
+  },
+  {
+    "id": "inventor",
+    "nome": "Inventor",
+    "imagem": "/imagens/p73_img0.jpeg",
+    "descricao": "Gênio da ciência, alquimia e engenharia. Cria itens superiores, poções, engenhocas e autômatos para vencer desafios. Usa Inteligência para improvisar soluções.",
+    "atributo": "Inteligência",
+    "pv_inicial": "12 + Constituição",
+    "pv_por_nivel": "3 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": ["Ofício", "Vontade"],
+    "pericias_opcao": "4 a escolher entre Conhecimento, Cura, Diplomacia, Fortitude, Iniciativa, Investigação, Luta, Misticismo, Ofício, Pilotagem, Percepção e Pontaria",
+    "proficiencias": "Nenhuma",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Engenhosidade",
+        "descricao": "Quando faz um teste de perícia, você pode gastar 2 PM para somar sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM."
+      },
+      {
+        "nivel": 1,
+        "nome": "Protótipo",
+        "descricao": "Você fabrica um item superior com valor de até T$ 500 ou 10 itens alquímicos de sua escolha."
+      },
+      {
+        "nivel": 2,
+        "nome": "Fabricar Item Superior",
+        "descricao": "Você sabe aprimorar itens. Ao fabricar um item superior, pode escolher uma melhoria. A quantidade de melhorias aumenta a cada três níveis."
+      },
+      {
+        "nivel": 20,
+        "nome": "Obra-Prima",
+        "descricao": "No 20º nível, você pode fabricar um item mágico maior. Além disso, o custo em PM de itens e engenhocas é reduzido à metade."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Engenhosidade, Protótipo"},
+      {"nivel": 2, "habilidade": "Fabricar Item Superior (1 melhoria)"},
+      {"nivel": 3, "habilidade": "Comerciante"},
+      {"nivel": 5, "habilidade": "Fabricar Item Superior (2 melhorias)"},
+      {"nivel": 7, "habilidade": "Encontrar Fraqueza"},
+      {"nivel": 8, "habilidade": "Fabricar Item Superior (3 melhorias)"},
+      {"nivel": 9, "habilidade": "Fabricar Item Mágico (menor)"},
+      {"nivel": 10, "habilidade": "Olho do Dragão"},
+      {"nivel": 11, "habilidade": "Fabricar Item Superior (4 melhorias)"},
+      {"nivel": 13, "habilidade": "Fabricar Item Mágico (médio)"},
+      {"nivel": 17, "habilidade": "Fabricar Item Mágico (maior)"},
+      {"nivel": 20, "habilidade": "Obra-Prima"}
+    ],
+    "poderes": [
+      "Agite Antes de Usar — dado extra de dano por PM em itens alquímicos (Ofício alquimista)",
+      "Alquimista de Batalha — soma Int em dano de itens alquímicos (req. Alquimista Iniciado)",
+      "Alquimista Iniciado — fabrica poções de 1º/2º círculo (Int 1, Ofício alquimista)",
+      "Armeiro — usa Inteligência em ataques/dano corpo a corpo (Luta, Ofício armeiro)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Autômato — fabrica construto parceiro (Int 3, Ofício engenhoqueiro)",
+      "Balística — proficiência com armas de fogo/distância, usa Int em ataques (Pontaria, Ofício armeiro)",
+      "Blindagem — usa Int na Defesa com armadura pesada (req. Couraceiro, 8º nível)",
+      "Catalisador Instável — fabrica item alquímico instantaneamente (req. Alquimista Iniciado)",
+      "Engenhoqueiro — fabrica engenhocas (Int 3, Ofício engenhoqueiro)",
+      "Farmacêutico — dado extra de cura por PM em itens alquímicos (Sab 1, Ofício alquimista)",
+      "Granadeiro — arremessa itens alquímicos em alcance médio, usa Int para CD",
+      "Homúnculo — criatura Minúscula alquímica com comunicação telepática"
+    ]
+  },
+  {
+    "id": "ladino",
+    "nome": "Ladino",
+    "imagem": "/imagens/p77_img3.jpeg",
+    "descricao": "Especialista em furtividade, roubo e infiltração. Letal com ataques furtivos, ágil e discreto. Domina armadilhas, perícias sociais e encontra segredos nas sombras.",
+    "atributo": "Destreza ou Inteligência",
+    "pv_inicial": "12 + Constituição",
+    "pv_por_nivel": "3 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": ["Ladinagem", "Reflexos"],
+    "pericias_opcao": "8 a escolher entre Acrobacia, Atletismo, Atuação, Cavalgar, Conhecimento, Diplomacia, Enganação, Furtividade, Iniciativa, Intimidação, Intuição, Investigação, Jogatina, Luta, Ofício, Percepção, Pilotagem e Pontaria",
+    "proficiencias": "Nenhuma",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Ataque Furtivo",
+        "descricao": "Você causa +1d6 pontos de dano quando ataca um inimigo desprevenido ou flanqueado (apenas uma vez por rodada). A cada 2 níveis, aumenta em +1d6 (máximo 10d6 no 19º nível)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Especialista",
+        "descricao": "Escolha um número de perícias treinadas igual à sua Inteligência (mínimo 1). Quando faz um teste dessas perícias, você pode gastar 1 PM para dobrar o bônus de treinamento (não em ataques)."
+      },
+      {
+        "nivel": 2,
+        "nome": "Evasão",
+        "descricao": "Se passar em um teste de Reflexos que normalmente reduz o dano à metade, você não sofre nenhum dano."
+      },
+      {
+        "nivel": 20,
+        "nome": "A Pessoa Certa para o Trabalho",
+        "descricao": "No 20º nível, quando usa Especialista em qualquer perícia treinada, você pode fazer o teste como se tivesse rolado 20 (máximo possível para a perícia)."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Ataque Furtivo +1d6, Especialista"},
+      {"nivel": 2, "habilidade": "Evasão"},
+      {"nivel": 3, "habilidade": "Ataque Furtivo +2d6"},
+      {"nivel": 4, "habilidade": "Esquiva Sobrenatural"},
+      {"nivel": 5, "habilidade": "Ataque Furtivo +3d6"},
+      {"nivel": 8, "habilidade": "Olhos nas Costas"},
+      {"nivel": 10, "habilidade": "Evasão Aprimorada"},
+      {"nivel": 19, "habilidade": "Ataque Furtivo +10d6"},
+      {"nivel": 20, "habilidade": "A Pessoa Certa para o Trabalho"}
+    ],
+    "poderes": [
+      "Assassinar — dobra dano furtivo no próximo turno (ação movimento, 3 PM, 5º nível)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Contatos no Submundo — desconto em itens, acesso a itens proibidos (Car 1)",
+      "Emboscar — ação padrão adicional na 1ª rodada (+2 PM, Furtividade)",
+      "Escapista — +5 para escapar de agarrado/amarrado e em espaços apertados",
+      "Fuga Formidável — +3m deslocamento, +5 perícias, ignora penalidades de terreno na cena",
+      "Ladrão Arcano — rouba magia com ataque furtivo (req. Roubo de Mana, 13º nível)",
+      "Mão na Boca — +2 em manobras de agarrar, alvo agarrado não pode falar",
+      "Mãos Rápidas — Ladinagem como ação livre 1x/rodada (Des 2, 1 PM)",
+      "Mente Criminosa — soma Inteligência em Ladinagem e Furtividade (Int 1)",
+      "Oportunismo — ataque gratuito quando aliado danifica inimigo (2 PM, 6º nível)",
+      "Rolamento Defensivo — reduz dano à metade e cai (2 PM)",
+      "Roubo de Mana — 1 PM temporário + 1 PM do inimigo por 1d6 de ataque furtivo (7º nível)",
+      "Saqueador de Tumbas — +5 para encontrar/resistir armadilhas, desativa em ação padrão",
+      "Sombra — +2 Furtividade e mover-se sem penalidade, –10 nos ataques (Furtividade)",
+      "Truque Mágico — aprende magia arcana de 1º círculo (Int 1, repetível)",
+      "Veneno Potente — +5 na CD de resistência de venenos aplicados"
+    ]
+  },
+  {
+    "id": "lutador",
+    "nome": "Lutador",
+    "imagem": "/imagens/p84_img0.jpeg",
+    "descricao": "Mestre do combate desarmado, pugilista e especialista em técnicas de chão. Determinado e perseverante, bate com força bruta e domina inimigos sem armas.",
+    "atributo": "Força",
+    "pv_inicial": "20 + Constituição",
+    "pv_por_nivel": "5 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": ["Fortitude", "Luta"],
+    "pericias_opcao": "4 a escolher entre Acrobacia, Adestramento, Atletismo, Enganação, Furtividade, Iniciativa, Intimidação, Ofício, Percepção, Pontaria e Reflexos",
+    "proficiencias": "Nenhuma",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Briga",
+        "descricao": "Seus ataques desarmados causam 1d6 pontos de dano (em vez do normal). A cada 4 níveis, o dano aumenta: 1d8 no 5º, 1d10 no 9º, 2d6 no 13º, 2d8 no 17º, 2d10 no 20º."
+      },
+      {
+        "nivel": 1,
+        "nome": "Golpe Relâmpago",
+        "descricao": "Você pode gastar 1 PM para fazer um ataque desarmado adicional imediatamente."
+      },
+      {
+        "nivel": 3,
+        "nome": "Casca Grossa",
+        "descricao": "Você soma sua Constituição na Defesa (limitado pelo nível). A cada 4 níveis a partir do 7º, esse bônus de limitação aumenta em +1."
+      },
+      {
+        "nivel": 20,
+        "nome": "Dono da Rua",
+        "descricao": "No 20º nível, seus ataques desarmados causam 2d10 pontos de dano e seu bônus de Casca Grossa não tem limitação."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Briga (1d6), Golpe Relâmpago"},
+      {"nivel": 3, "habilidade": "Casca Grossa"},
+      {"nivel": 5, "habilidade": "Briga (1d8), Golpe Cruel"},
+      {"nivel": 6, "habilidade": "Trocação"},
+      {"nivel": 9, "habilidade": "Briga (1d10), Golpe Violento"},
+      {"nivel": 13, "habilidade": "Briga (2d6)"},
+      {"nivel": 17, "habilidade": "Briga (2d8)"},
+      {"nivel": 20, "habilidade": "Dono da Rua (2d10)"}
+    ],
+    "poderes": [
+      "Arma Improvisada — dano +1 passo com armas improvisadas",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Braços Calejados — soma Força na Defesa sem armadura (limitado pelo nível)",
+      "Cabeçada — alvo fica desprevenido contra seu próximo ataque desarmado (2 PM, 1x/cena/alvo)",
+      "Chave — dano +1 passo em manobras de agarrar (req. Lutador de Chão, Int 1)",
+      "Confiança dos Ringues — +2 PM temporários quando inimigo erra (máx nível, 8º nível)",
+      "Golpe Baixo — alvo fica atordoado 1 rodada se acertar (2 PM, 1x/cena)",
+      "Golpe Imprudente — +1 dado de dano, –5 na Defesa",
+      "Imobilização — criatura agarrada fica indefesa (req. Chave, 8º nível)",
+      "Língua dos Becos — usa Força em testes de Carisma baseados em força bruta (For 1)",
+      "Lutador de Chão — +2 em agarrar/derrubar, manobra gratuita enquanto agarrando (1 PM)",
+      "Punhos de Adamante — ataques desarmados ignoram 10 de RD (8º nível)",
+      "Rasteira — derruba criatura com ataque desarmado (2 PM)",
+      "Sarado — soma Força em PV/Fortitude e em Diplomacia de atração (For 3)",
+      "Trocação — ataque desarmado adicional ao acertar (6º nível)",
+      "Trocação Tumultuosa — atinge todos adjacentes com um ataque desarmado (2 PM, req. Trocação, 8º nível)",
+      "Valentão — +2 ataque/dano contra caído, desprevenido, flanqueado ou indefeso",
+      "Voadora — +1d6 dano por 3m de movimento em investida (2 PM, limitado por nível)"
+    ]
+  },
+  {
+    "id": "nobre",
+    "nome": "Nobre",
+    "imagem": "/imagens/p87_img0.jpeg",
+    "descricao": "Líder natural de origem nobre ou alta posição social. Carismático e estrategista, inspira aliados, influencia com palavras afiadas e comanda com autoridade baseada em Carisma.",
+    "atributo": "Carisma",
+    "pv_inicial": "16 + Constituição",
+    "pv_por_nivel": "4 + Constituição",
+    "pm_por_nivel": 4,
+    "pericias_obrigatorias": ["Diplomacia ou Intimidação", "Vontade"],
+    "pericias_opcao": "4 a escolher entre Adestramento, Atuação, Cavalgar, Conhecimento, Diplomacia, Enganação, Fortitude, Guerra, Iniciativa, Intimidação, Intuição, Investigação, Jogatina, Luta, Nobreza, Ofício, Percepção e Pontaria",
+    "proficiencias": "Armas marciais, armaduras pesadas e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Autoconfiança",
+        "descricao": "Você soma seu Carisma em vez de Destreza na Defesa (limitado pelo nível). Esse bônus não se aplica se você usar armadura pesada ou não puder se mover livremente."
+      },
+      {
+        "nivel": 1,
+        "nome": "Espólio",
+        "descricao": "Você possui um item com preço de até T$ 2.000 que foi herança de família ou ganho como recompensa."
+      },
+      {
+        "nivel": 1,
+        "nome": "Orgulho",
+        "descricao": "Você pode gastar até um número de PM igual ao seu Carisma para receber +2 por PM em um teste de perícia (não em ataques)."
+      },
+      {
+        "nivel": 2,
+        "nome": "Palavras Afiadas",
+        "descricao": "Como ação padrão, você pode atacar um alvo com palavras cortantes. Faça um teste de Diplomacia ou Intimidação oposto pela Vontade do alvo. Se vencer, ele sofre 2d6 pontos de dano psíquico não letal. A cada 4 níveis, o dano aumenta em +2d6."
+      },
+      {
+        "nivel": 20,
+        "nome": "Realeza",
+        "descricao": "No 20º nível, a CD de Presença Aristocrática aumenta em +5. Se um inimigo for reduzido a 0 PV por Palavras Afiadas, torna-se aliado do nobre pelo resto da cena."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Autoconfiança, Espólio, Orgulho"},
+      {"nivel": 2, "habilidade": "Palavras Afiadas (2d6)"},
+      {"nivel": 3, "habilidade": "Riqueza"},
+      {"nivel": 4, "habilidade": "Gritar Ordens"},
+      {"nivel": 5, "habilidade": "Presença Aristocrática"},
+      {"nivel": 6, "habilidade": "Palavras Afiadas (4d6)"},
+      {"nivel": 10, "habilidade": "Palavras Afiadas (6d6)"},
+      {"nivel": 14, "habilidade": "Palavras Afiadas (8d6)"},
+      {"nivel": 18, "habilidade": "Palavras Afiadas (10d6)"},
+      {"nivel": 20, "habilidade": "Realeza"}
+    ],
+    "poderes": [
+      "Armadura Brilhante — usa Carisma na Defesa com armadura pesada (8º nível)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Autoridade Feudal — convoca parceiro iniciante em 1h (2 PM, 6º nível)",
+      "Educação Privilegiada — treinado em 2 perícias nobres adicionais",
+      "Estrategista — aliados recebem ação de movimento por PM gasto (Int 1, Guerra, 6º nível)",
+      "Favor — consegue favores poderosos através de influência social (5 PM, 1h conversa)",
+      "Gritar Ordens — aliados em alcance curto recebem bônus = PM gastos em teste de perícia",
+      "Inspirar Confiança — aliado rola novamente teste qualquer (2 PM)",
+      "Inspirar Glória — aliado recebe ação padrão adicional no próximo turno (5 PM, 8º nível)",
+      "Jogo da Corte — rola novamente Diplomacia/Intuição/Nobreza (1 PM)",
+      "Língua de Ouro — usa Enfeitiçar em alcance curto (4 PM, 8º nível)",
+      "Língua de Prata — +50% do nível em teste de Carisma (2 PM)",
+      "Palavras Afiadas como Grito Tirânico — usa d8 em alcance curto (ação completa, 8º nível)",
+      "Título — adquire título nobiliárquico, renda 20 TO/nível ou parceiro veterano"
+    ]
+  },
+  {
+    "id": "paladino",
+    "nome": "Paladino",
+    "imagem": "/imagens/p92_img0.jpx",
+    "descricao": "Soldado sagrado do bem e da justiça. Serve divindades bondosas com código rígido. Mestre de golpes divinos, cura sagrada e auras protetoras que abençoam aliados.",
+    "atributo": "Força e Carisma",
+    "pv_inicial": "20 + Constituição",
+    "pv_por_nivel": "5 + Constituição",
+    "pm_por_nivel": 3,
+    "pericias_obrigatorias": ["Luta", "Vontade"],
+    "pericias_opcao": "2 a escolher entre Adestramento, Atletismo, Cavalgar, Cura, Diplomacia, Fortitude, Guerra, Iniciativa, Intuição, Nobreza, Percepção e Religião",
+    "proficiencias": "Armas marciais, armaduras pesadas e escudos",
+    "habilidades_classe": [
+      {
+        "nivel": 1,
+        "nome": "Abençoado",
+        "descricao": "Você se torna devoto de um deus e recebe 2 poderes concedidos da divindade, ou se torna um paladino do bem (sem deus). Você soma seu Carisma em seu total de PM."
+      },
+      {
+        "nivel": 1,
+        "nome": "Código do Herói",
+        "descricao": "Você nunca mente, trapaceia ou rouba. Sempre ajuda inocentes em perigo. Se violar o código, perde todos os PM até o próximo dia."
+      },
+      {
+        "nivel": 1,
+        "nome": "Golpe Divino",
+        "descricao": "Quando ataca com uma arma corpo a corpo, você pode gastar 2 PM para causar +1d8 pontos de dano de luz. A cada quatro níveis, pode gastar +1 PM para aumentar o dano em +1d8 (até +5d8 no 17º nível)."
+      },
+      {
+        "nivel": 2,
+        "nome": "Cura pelas Mãos",
+        "descricao": "Como ação de movimento, você pode gastar 1 PM para curar 1d8+1 pontos de vida em uma criatura que você toque. A cada 4 níveis, aumenta a cura. No 6º nível, também pode remover uma condição negativa."
+      },
+      {
+        "nivel": 3,
+        "nome": "Aura Sagrada",
+        "descricao": "Você emana uma aura sagrada que afeta criaturas em alcance curto. O efeito depende da divindade escolhida. Por padrão, aliados recebem +1 nos testes de resistência."
+      },
+      {
+        "nivel": 20,
+        "nome": "Vingador Sagrado",
+        "descricao": "No 20º nível, quando usa Golpe Divino, você pode gastar PM adicionais além do limite normal. Além disso, seu dano de luz ignora resistências."
+      }
+    ],
+    "progressao": [
+      {"nivel": 1, "habilidade": "Abençoado, Código do Herói, Golpe Divino (+1d8)"},
+      {"nivel": 2, "habilidade": "Cura pelas Mãos (1d8+1)"},
+      {"nivel": 3, "habilidade": "Aura Sagrada"},
+      {"nivel": 5, "habilidade": "Bênção da Justiça, Golpe Divino (+2d8)"},
+      {"nivel": 9, "habilidade": "Golpe Divino (+3d8)"},
+      {"nivel": 13, "habilidade": "Golpe Divino (+4d8)"},
+      {"nivel": 17, "habilidade": "Golpe Divino (+5d8)"},
+      {"nivel": 20, "habilidade": "Vingador Sagrado"}
+    ],
+    "poderes": [
+      "Arma Sagrada — usa d12 no Golpe Divino com arma favorita da divindade",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Aura Antimagia — rola novamente testes de resistência contra magia (14º nível)",
+      "Aura Ardente — espíritos e mortos-vivos sofrem 5+Car dano de luz por turno (10º nível)",
+      "Aura de Cura — aliados recuperam 5+Car PV por turno (6º nível)",
+      "Aura de Invencibilidade — ignora o primeiro dano da cena (18º nível)",
+      "Aura Poderosa — raio de 30m na aura (6º nível)",
+      "Bênção da Justiça: Égide Sagrada — escudo/símbolo concede +Car Defesa a aliados (2 PM)",
+      "Fulgor Divino — ofusca inimigos em alcance curto ao usar Golpe Divino",
+      "Julgamento Divino: Arrependimento — próximo ataque inimigo vs Vontade ou atordoado (2 PM)",
+      "Julgamento Divino: Coragem — imunidade a medo, +2 ataques contra inimigos mais poderosos (2 PM)",
+      "Julgamento Divino: Iluminação — +2 PM temporários ao acertar (1x/cena)",
+      "Julgamento Divino: Justiça — inimigo sofre metade do dano que causar (2 PM)",
+      "Julgamento Divino: Libertação — cancela condição negativa de aliado (5 PM)",
+      "Julgamento Divino: Salvação — recupera 5 PV ao acertar inimigo (2 PM)",
+      "Julgamento Divino: Vindicação — +1 ataque, +1d8 dano contra alvo, –5 em outros (2 PM)",
+      "Orar — aprende magia divina de 1º círculo (Sab, repetível)",
+      "Virtude: Caridade — habilidades de paladino custam –1 PM para aliados",
+      "Virtude: Castidade — imunidade a encantamentos, +5 Intuição contra blefe",
+      "Virtude: Compaixão — Cura pelas Mãos cura 2d6+1 em vez de 1d8+1"
+    ]
+  }
+]

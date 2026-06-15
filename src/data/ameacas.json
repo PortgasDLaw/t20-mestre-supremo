@@ -1,0 +1,277 @@
+[
+  {
+    "id": "goblin", "nome": "Goblin", "nd": "1/4", "tipo": "Humanoide (goblinoide)", "tamanho": "Pequeno",
+    "pv": 5, "pm": 0, "ca": 13, "iniciativa": "+2",
+    "atributos": { "for": 8, "des": 15, "con": 12, "int": 10, "sab": 9, "car": 6 },
+    "resistencias": { "fortitude": 3, "reflexos": 4, "vontade": -1 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Cimitarra", "bônus": "+1", "dano": "1d6-1", "critico": "18-20/×2", "tipo": "Corte" },
+      { "nome": "Arco Curto (à dist.)", "bônus": "+4", "dano": "1d6-1", "critico": "×3", "tipo": "Perf." }
+    ],
+    "habilidades": ["Visão no Escuro 18m", "Sentido das Sombras (bônus +4 em Furtividade em penumbra)"],
+    "tesouro": "1d6 TO, ocasionalmente item mundano de baixo valor",
+    "taticas": "Goblins tentam atacar em grupos, utilizando cobertura e furtividade. Fogem quando em desvantagem numérica.",
+    "habitat": "Subterrâneo, florestas densas, ruínas",
+    "descricao": "Pequenas criaturas verdes e malignas que habitam masmorras e florestas. Covardes individualmente, mas perigosos em grupo."
+  },
+  {
+    "id": "kobold", "nome": "Kobold", "nd": "1/4", "tipo": "Humanoide (réptil)", "tamanho": "Pequeno",
+    "pv": 4, "pm": 0, "ca": 13, "iniciativa": "+1",
+    "atributos": { "for": 6, "des": 13, "con": 11, "int": 10, "sab": 10, "car": 8 },
+    "resistencias": { "fortitude": 2, "reflexos": 3, "vontade": 0 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Lança", "bônus": "+1", "dano": "1d6-2", "critico": "×3", "tipo": "Perf." }
+    ],
+    "habilidades": ["Sensibilidade à Luz (Ofuscado sob luz solar)", "Mestre de Armadilhas (+4 Ofícios ao criar armadilhas)"],
+    "tesouro": "Pouco, mas frequentemente protegem tesouro coletivo do grupo",
+    "taticas": "Kobolds são engenheiros de armadilhas. Raramente enfrentam diretamente, preferindo armadilhas, corredores estreitos e emboscadas.",
+    "habitat": "Cavernas, minas abandonadas",
+    "descricao": "Pequenos répteis covarde e inteligentes, conhecidos por suas armadilhas elaboradas. Mais organizados que goblins."
+  },
+  {
+    "id": "orc", "nome": "Orc", "nd": "1/2", "tipo": "Humanoide (orc)", "tamanho": "Médio",
+    "pv": 11, "pm": 0, "ca": 13, "iniciativa": "+0",
+    "atributos": { "for": 17, "des": 11, "con": 12, "int": 7, "sab": 8, "car": 6 },
+    "resistencias": { "fortitude": 3, "reflexos": 0, "vontade": -1 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Machadão Grande", "bônus": "+5", "dano": "1d12+4", "critico": "×3", "tipo": "Corte" }
+    ],
+    "habilidades": ["Feroz (quando reduzido a 0 PV, pode continuar agindo por 1 rodada)", "Visão no Escuro 18m", "Sensibilidade à Luz"],
+    "tesouro": "Padrão (d% na tabela de tesouro ND 1/2)",
+    "taticas": "Orcs atacam com brutalidade direta. O mais forte lidera. Raramente recuam.",
+    "habitat": "Planícies, florestas, montanhas selvagens",
+    "descricao": "Guerreiros bárbaros fortes e feios. Vivem em tribos belicosas e valorizam a força acima de tudo."
+  },
+  {
+    "id": "lobo", "nome": "Lobo", "nd": "1", "tipo": "Animal", "tamanho": "Médio",
+    "pv": 13, "pm": 0, "ca": 14, "iniciativa": "+2",
+    "atributos": { "for": 13, "des": 15, "con": 15, "int": 2, "sab": 12, "car": 6 },
+    "resistencias": { "fortitude": 5, "reflexos": 5, "vontade": 1 },
+    "deslocamento": "15m",
+    "ataques": [
+      { "nome": "Mordida", "bônus": "+3", "dano": "1d6+1", "critico": "×2", "tipo": "Perf." }
+    ],
+    "habilidades": ["Derruba (em mordida bem-sucedida, teste opostos de Luta: se vencer, derruba alvo)", "Faro (Percepção +4)", "Trabalho em Equipe (+2 ataques se aliado adjacente ao mesmo alvo)"],
+    "tesouro": "Nenhum",
+    "taticas": "Lobos cercam a presa e atacam o mais fraco. O líder da matilha inicia os ataques.",
+    "habitat": "Florestas, planícies, tundra",
+    "descricao": "Predadores habilidosos que caçam em alcateias. Perigosos em grupo por sua tática de cerco."
+  },
+  {
+    "id": "esqueleto-humano", "nome": "Esqueleto Humano", "nd": "1/3", "tipo": "Morto-vivo", "tamanho": "Médio",
+    "pv": 8, "pm": 0, "ca": 13, "iniciativa": "+5",
+    "atributos": { "for": 15, "des": 14, "con": "—", "int": "—", "sab": 10, "car": 10 },
+    "resistencias": { "fortitude": 0, "reflexos": 2, "vontade": 2 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Garra ou Espada (se armado)", "bônus": "+2", "dano": "1d6+2", "critico": "×2", "tipo": "Impacto" }
+    ],
+    "habilidades": [
+      "Imunidade a Frio",
+      "Imunidade a Veneno, Sono, Paralisia, Estupor, Doenças, Efeitos de Morte",
+      "Resistência a Cortante e Perfurante 5",
+      "Não-vivo (não precisa de ar, comida ou sono)"
+    ],
+    "tesouro": "Nenhum (ou o que portava em vida)",
+    "taticas": "Atacam o alvo mais próximo sem estratégia. Seguem ordens do controlador sem questionar.",
+    "habitat": "Masmorras, cemitérios, locais de magia das trevas",
+    "descricao": "Ossos animados por magia sombria. Sem inteligência, atacam tudo que não for morto-vivo."
+  },
+  {
+    "id": "zumbi", "nome": "Zumbi Humano", "nd": "1/2", "tipo": "Morto-vivo", "tamanho": "Médio",
+    "pv": 12, "pm": 0, "ca": 11, "iniciativa": "–1",
+    "atributos": { "for": 17, "des": 8, "con": "—", "int": "—", "sab": 10, "car": 10 },
+    "resistencias": { "fortitude": 0, "reflexos": -1, "vontade": 2 },
+    "deslocamento": "6m",
+    "ataques": [
+      { "nome": "Slam", "bônus": "+4", "dano": "1d6+4", "critico": "×2", "tipo": "Impacto" }
+    ],
+    "habilidades": [
+      "Lento (só uma ação por rodada — padrão ou movimento)",
+      "Imunidade a Veneno, Sono, Paralisia, Estupor, Doenças",
+      "Não precisa de ar, comida ou sono"
+    ],
+    "tesouro": "Nenhum",
+    "taticas": "Avança lentamente em direção ao oponente mais próximo. Sem estratégia. Pode ser letal em grandes grupos.",
+    "habitat": "Cemitérios, catacumbas, pantânais",
+    "descricao": "Cadáveres reanimados pela necromancia. Mais lentos que esqueletos mas mais fortes. A carne podre os torna resistentes a certos ataques."
+  },
+  {
+    "id": "gnoll", "nome": "Gnoll", "nd": "1", "tipo": "Humanoide (gnoll)", "tamanho": "Médio",
+    "pv": 11, "pm": 0, "ca": 15, "iniciativa": "+0",
+    "atributos": { "for": 15, "des": 10, "con": 13, "int": 8, "sab": 11, "car": 8 },
+    "resistencias": { "fortitude": 3, "reflexos": 0, "vontade": 0 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Alabarda", "bônus": "+3", "dano": "1d10+3", "critico": "×3", "tipo": "Corte" }
+    ],
+    "habilidades": ["Visão no Escuro 18m", "Ódio às Presas (+1 ataques contra humanos e élficos)"],
+    "tesouro": "50% normal",
+    "taticas": "Atacam em grupo, tentando flanquear. Priorizam presas fáceis.",
+    "habitat": "Savanas, planícies áridas, desertos",
+    "descricao": "Híbridos de hiena e humanoide, servos de Calamidade. Traficantes de escravos cruéis."
+  },
+  {
+    "id": "bugbear", "nome": "Bugbear", "nd": "2", "tipo": "Humanoide (goblinoide)", "tamanho": "Médio",
+    "pv": 16, "pm": 0, "ca": 14, "iniciativa": "+1",
+    "atributos": { "for": 17, "des": 13, "con": 14, "int": 10, "sab": 10, "car": 9 },
+    "resistencias": { "fortitude": 5, "reflexos": 4, "vontade": 0 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Morgenstern", "bônus": "+5", "dano": "1d8+3", "critico": "×2", "tipo": "Impacto" }
+    ],
+    "habilidades": ["Faro", "Visão no Escuro 18m", "Ataque Furtivo +1d6 (se oponente flanqueado ou desprevenido)"],
+    "tesouro": "Padrão",
+    "taticas": "Preferem emboscadas e furtividade. Atacam com bônus furtivo sempre que possível.",
+    "habitat": "Florestas, masmorras",
+    "descricao": "Os maiores dos goblinoides. Cruéis e astutos, líderes naturais dos goblins."
+  },
+  {
+    "id": "ogro", "nome": "Ogro", "nd": "3", "tipo": "Gigante", "tamanho": "Grande",
+    "pv": 29, "pm": 0, "ca": 16, "iniciativa": "–1",
+    "atributos": { "for": 21, "des": 8, "con": 15, "int": 6, "sab": 10, "car": 7 },
+    "resistencias": { "fortitude": 6, "reflexos": 0, "vontade": 1 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Tacape Enorme", "bônus": "+8", "dano": "2d8+7", "critico": "×2", "tipo": "Impacto" },
+      { "nome": "Pedrada (à dist.)", "bônus": "+1", "dano": "1d8+5", "critico": "×2", "tipo": "Impacto" }
+    ],
+    "habilidades": ["Visão no Escuro 18m", "Poder (+2 jogadas de dano com armas)", "Arremesso de Pedra (18m)"],
+    "tesouro": "Padrão",
+    "taticas": "Ataca o inimigo mais próximo com brutalidade. Sem táticas refinadas.",
+    "habitat": "Montanhas, cavernas, pântanos",
+    "descricao": "Gigantes estúpidos e brutais. Mais perigosos do que aparentam pela pura força."
+  },
+  {
+    "id": "troll", "nome": "Troll", "nd": "5", "tipo": "Gigante", "tamanho": "Grande",
+    "pv": 63, "pm": 0, "ca": 16, "iniciativa": "+2",
+    "atributos": { "for": 23, "des": 14, "con": 23, "int": 6, "sab": 9, "car": 6 },
+    "resistencias": { "fortitude": 10, "reflexos": 3, "vontade": 0 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Garra (×2)", "bônus": "+9", "dano": "1d6+6", "critico": "×2", "tipo": "Corte" },
+      { "nome": "Mordida", "bônus": "+9", "dano": "1d6+3", "critico": "×2", "tipo": "Perf." }
+    ],
+    "habilidades": [
+      "Regeneração 5 (dano de fogo e ácido impede; precisa de fogo/ácido para matar permanentemente)",
+      "Faro",
+      "Visão no Escuro 18m"
+    ],
+    "tesouro": "50% padrão",
+    "taticas": "Ataca sem parar. A regeneração o torna quase imparável sem fogo. Matar apenas com fogo ou ácido.",
+    "habitat": "Pântanos, florestas úmidas, montanhas",
+    "descricao": "A criatura temível pela regeneração. Pode continuar lutando enquanto tiver pedaços do corpo. Somente fogo e ácido o matam permanentemente."
+  },
+  {
+    "id": "grifo", "nome": "Grifo", "nd": "4", "tipo": "Besta Mágica", "tamanho": "Grande",
+    "pv": 42, "pm": 0, "ca": 17, "iniciativa": "+2",
+    "atributos": { "for": 18, "des": 15, "con": 16, "int": 5, "sab": 13, "car": 8 },
+    "resistencias": { "fortitude": 6, "reflexos": 7, "vontade": 2 },
+    "deslocamento": "9m (voo 24m, manobra boa)",
+    "ataques": [
+      { "nome": "Garra Dianteira (×2)", "bônus": "+8", "dano": "1d6+4", "critico": "×2", "tipo": "Corte" },
+      { "nome": "Mordida", "bônus": "+8", "dano": "2d6+2", "critico": "×2", "tipo": "Perf." }
+    ],
+    "habilidades": [
+      "Ataque Múltiplo (pode usar mordida e garras no mesmo turno)",
+      "Agarrar (após mordida bem-sucedida)",
+      "Faro"
+    ],
+    "tesouro": "25% padrão",
+    "taticas": "Mergulha do céu sobre sua presa. Usa mobilidade aérea para atacar e recuar.",
+    "habitat": "Montanhas, planícies abertas",
+    "descricao": "Majestosa criatura com corpo de leão e cabeça/asas de águia. Pode ser domada e montada."
+  },
+  {
+    "id": "manticora", "nome": "Manticora", "nd": "5", "tipo": "Besta Mágica", "tamanho": "Grande",
+    "pv": 57, "pm": 0, "ca": 17, "iniciativa": "+2",
+    "atributos": { "for": 20, "des": 15, "con": 19, "int": 7, "sab": 12, "car": 9 },
+    "resistencias": { "fortitude": 8, "reflexos": 6, "vontade": 2 },
+    "deslocamento": "9m (voo 18m, manobra média)",
+    "ataques": [
+      { "nome": "Garra (×2)", "bônus": "+9", "dano": "1d6+5", "critico": "×2", "tipo": "Corte" },
+      { "nome": "Espinhos da Cauda (×4, à dist.)", "bônus": "+6", "dano": "1d8+3", "critico": "×2", "tipo": "Perf.", "alcance": "18m" }
+    ],
+    "habilidades": [
+      "Espinhos da Cauda (até 4 espinhos por rodada, alcance 18m)",
+      "Voadora",
+      "Regeneração de Espinhos (nova série de espinhos em 24 horas)"
+    ],
+    "tesouro": "50% padrão",
+    "taticas": "Usa espinhos à distância enquanto voa. Mergulha apenas quando oponentes estão fracos.",
+    "habitat": "Planícies, florestas abertas, desertos",
+    "descricao": "Corpo de leão, cabeça humana e cauda com espinhos venenosos. Criatura sádica e inteligente."
+  },
+  {
+    "id": "dragao-jovem-vermelho", "nome": "Dragão Jovem Vermelho", "nd": "8", "tipo": "Dragão (fogo)", "tamanho": "Grande",
+    "pv": 115, "pm": 20, "ca": 20, "iniciativa": "+0",
+    "atributos": { "for": 25, "des": 10, "con": 21, "int": 14, "sab": 15, "car": 14 },
+    "resistencias": { "fortitude": 12, "reflexos": 6, "vontade": 8 },
+    "deslocamento": "15m (voo 30m, manobra média)",
+    "ataques": [
+      { "nome": "Mordida", "bônus": "+16", "dano": "2d6+10", "critico": "×2", "tipo": "Perf." },
+      { "nome": "Garra (×2)", "bônus": "+16", "dano": "1d8+7", "critico": "×2", "tipo": "Corte" },
+      { "nome": "Cauda", "bônus": "+14", "dano": "1d8+10", "critico": "×2", "tipo": "Impacto" }
+    ],
+    "habilidades": [
+      "Sopro de Fogo (cone 9m, 8d10 de fogo, Reflexos CD 20 reduz à metade)",
+      "Imunidade a Fogo",
+      "Vulnerabilidade ao Frio",
+      "Magia (pode lançar magias arcanas nível 5)",
+      "Visão no Escuro 18m"
+    ],
+    "tesouro": "Dobro padrão (ouro, joias, artefatos)",
+    "taticas": "Começa com sopro de fogo. Ataca o mago ou clérigo. Usa o voo para se posicionar.",
+    "habitat": "Montanhas vulcânicas, cavernas de lava",
+    "descricao": "O mais orgulhoso e cruel dos dragões cromáticos. Adora riquezas e teme ser superado."
+  },
+  {
+    "id": "vampiro", "nome": "Vampiro", "nd": "8", "tipo": "Morto-vivo", "tamanho": "Médio",
+    "pv": 74, "pm": 15, "ca": 22, "iniciativa": "+7",
+    "atributos": { "for": 22, "des": 24, "con": "—", "int": 16, "sab": 14, "car": 18 },
+    "resistencias": { "fortitude": 4, "reflexos": 9, "vontade": 8 },
+    "deslocamento": "9m (escalar 9m)",
+    "ataques": [
+      { "nome": "Slam (×2)", "bônus": "+10", "dano": "1d6+6", "critico": "×2", "tipo": "Impacto" },
+      { "nome": "Mordida do Sangue", "bônus": "+10", "dano": "1d4+3 + drenagem de energia", "critico": "×2", "tipo": "Perf." }
+    ],
+    "habilidades": [
+      "Drenagem de Energia (mordida: 2 níveis negativos; Fortitude CD 18 para remover)",
+      "Imunidade a veneno, sono, paralisia, doenças, dano de energia",
+      "Resistência à Eletricidade e Fogo 10",
+      "Fraquezas (luz solar = 10 d6/round; água benta = 2d4; estaca no coração = imóvel; alho repele)",
+      "Charme da Vítima (toque, Vontade CD 18 ou fascinado)",
+      "Regeneração 5 (não funciona em luz solar)",
+      "Metamorfose (lobo, morcego, névoa)"
+    ],
+    "tesouro": "Triplo padrão",
+    "taticas": "Prefere emboscadas noturnas. Usa Charme primeiro, depois drenagem de energia. Evita luz solar.",
+    "habitat": "Castelos, cripta, cidades (disfarçado)",
+    "descricao": "O não-morto por excelência. Um nobre que vendeu sua alma. Extremamente perigoso pela combinação de habilidades."
+  },
+  {
+    "id": "lich", "nome": "Lich", "nd": "14", "tipo": "Morto-vivo", "tamanho": "Médio",
+    "pv": 110, "pm": 60, "ca": 20, "iniciativa": "+2",
+    "atributos": { "for": 11, "des": 14, "con": "—", "int": 22, "sab": 14, "car": 16 },
+    "resistencias": { "fortitude": 7, "reflexos": 9, "vontade": 15 },
+    "deslocamento": "9m",
+    "ataques": [
+      { "nome": "Toque Gelado", "bônus": "+7", "dano": "1d8+5 de frio + Paralisia", "critico": "×2", "tipo": "Frio" }
+    ],
+    "habilidades": [
+      "Toque Paralisante (Fortitude CD 18 ou Paralisado 1d4+1 rounds)",
+      "Aura de Medo (60m, Vontade CD 18 ou Apavorado)",
+      "Imunidade a Frio, Eletricidade; Resistência a Fogo/Ácido 10",
+      "Imunidade a efeitos de morte, paralisia, enjoo, doenças, magia de mente",
+      "Recipiente Phylactery (lich não pode morrer permanentemente enquanto existir)",
+      "Conjuração (nível 18 de mago, acesso a todos os círculos)"
+    ],
+    "tesouro": "Quádruplo padrão + biblioteca de magia",
+    "taticas": "Usa magias de controle primeiro. Fica à distância. Usa servos para protegê-lo. Nunca arrisca o phylactery.",
+    "habitat": "Torres isoladas, masmorras profundas, planos sombrios",
+    "descricao": "Um mago que atingiu a imortalidade através da morte. A mente mais perigosa entre os mortos-vivos."
+  }
+]

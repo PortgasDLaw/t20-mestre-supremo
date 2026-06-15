@@ -1,0 +1,121 @@
+{
+  "cds": [
+    { "dificuldade": "Trivial", "cd": 5, "descricao": "Qualquer pessoa competente consegue, salvo azar extremo." },
+    { "dificuldade": "Fácil", "cd": 10, "descricao": "Personagem treinado consegue quase sempre." },
+    { "dificuldade": "Médio", "cd": 15, "descricao": "Requer habilidade ou treinamento razoável." },
+    { "dificuldade": "Difícil", "cd": 20, "descricao": "Desafio mesmo para profissionais." },
+    { "dificuldade": "Formidável", "cd": 25, "descricao": "Apenas especialistas conseguem regularmente." },
+    { "dificuldade": "Heroico", "cd": 30, "descricao": "Feito de herói; requer treinamento máximo + boa sorte." },
+    { "dificuldade": "Épico", "cd": 35, "descricao": "Impossível para mortais comuns." },
+    { "dificuldade": "Lendário", "cd": 40, "descricao": "Feito apenas em canções e mitos." }
+  ],
+  "atitudes_npc": [
+    { "atitude": "Hostil", "reacao": "Ataca, expulsa ou trai os personagens na primeira oportunidade." },
+    { "atitude": "Inamistoso", "reacao": "Desconfiado. Não ajuda sem boa razão. Informações falsas ou incompletas." },
+    { "atitude": "Indiferente", "reacao": "Padrão. Faz o mínimo necessário para si mesmo." },
+    { "atitude": "Amistoso", "reacao": "Quer ajudar, mas não arrisca nada importante. Informações precisas." },
+    { "atitude": "Prestativo", "reacao": "Age como aliado dedicado. Oferece recursos e informações voluntariamente." }
+  ],
+  "clima": [
+    { "d8": 1, "resultado": "Tempestade severa", "efeitos": "Visibilidade 1,5m; –4 Percepção e ataques à distância; Imóvel em voo" },
+    { "d8": 2, "resultado": "Chuva forte", "efeitos": "Visibilidade 9m; –2 Percepção; ataques à distância com desvantagem" },
+    { "d8": 3, "resultado": "Chuva leve", "efeitos": "Visibilidade normal; –1 Percepção" },
+    { "d8": 4, "resultado": "Nublado", "efeitos": "Sem lua à noite. Sem penalidade de dia." },
+    { "d8": 5, "resultado": "Vento forte", "efeitos": "–2 ataques à distância; Imóvel em voo" },
+    { "d8": 6, "resultado": "Neblina", "efeitos": "Visibilidade 6m; Ofuscado" },
+    { "d8": 7, "resultado": "Calor extremo", "efeitos": "CD 15 Fortitude/hora ou Fatigado; dobrar em armadura pesada" },
+    { "d8": 8, "resultado": "Tempo perfeito", "efeitos": "Sem penalidades. Bônus de moral +1 em testes fora de combate." }
+  ],
+  "eventos_aleatorios": [
+    { "d20": 1, "evento": "Encontro com viajantes", "detalhe": "1d4 viajantes. Role atitude (d8: 1-2 Hostil, 3-4 Inamistoso, 5-6 Indiferente, 7-8 Amistoso)" },
+    { "d20": 2, "evento": "Armadilha", "detalhe": "Alçapão, laço ou cova. CD 15 Percepção para detectar. CD 15 Reflexos para evitar." },
+    { "d20": 3, "evento": "Encontro com monstro", "detalhe": "Use tabela de encontros da região" },
+    { "d20": 4, "evento": "Desastre natural", "detalhe": "Deslizamento, enchente repentina ou relâmpago. CD 12 Reflexos ou 2d6 de dano" },
+    { "d20": 5, "evento": "Mercador itinerante", "detalhe": "Vende itens normais a 120% do preço. 10% de chance de item raro" },
+    { "d20": 6, "evento": "Ruínas abandonadas", "detalhe": "1d4 cômodos. 25% de tesouro escondido. 50% de ocupantes hostis" },
+    { "d20": 7, "evento": "Trilha bifurca", "detalhe": "Caminho certo: mais lento mas seguro. Caminho errado: mais rápido mas perigoso" },
+    { "d20": 8, "evento": "Sinais de batalha", "detalhe": "Restos de combate recente. Pistas sobre facções envolvidas" },
+    { "d20": 9, "evento": "Fonte/rio bloqueado", "detalhe": "Água contaminada (doença CD 14) ou criatura guardando" },
+    { "d20": 10, "evento": "Mensageiro em apuros", "detalhe": "Perseguido. Carrega mensagem importante ou falsa" },
+    { "d20": 11, "evento": "Localização mágica", "detalhe": "Círculo de pedras, altar ou portal adormecido" },
+    { "d20": 12, "evento": "Clima severo repentino", "detalhe": "Role na tabela de clima" },
+    { "d20": 13, "evento": "Grupo de refugiados", "detalhe": "Famílias em fuga. Precisam de escolta ou informação" },
+    { "d20": 14, "evento": "Espião seguindo o grupo", "detalhe": "CD 20 Percepção para notar. De quem? Qual missão?" },
+    { "d20": 15, "evento": "Acampamento abandonado", "detalhe": "Sinais de fuga repentina. O que causou?" },
+    { "d20": 16, "evento": "Herói caído", "detalhe": "Aventureiro ferido gravemente. Informações sobre dungeon próxima" },
+    { "d20": 17, "evento": "Oferenda nos bosques", "detalhe": "Ritual recente a um deus ou criatura. Sagrado ou profano?" },
+    { "d20": 18, "evento": "Terreno traiçoeiro", "detalhe": "Pântano, areia movediça, gelo. CD 15 para traversar sem custo extra" },
+    { "d20": 19, "evento": "Portão de aldeia", "detalhe": "Vilarejo não mapeado. 50% hostil a estranhos. Informações locais" },
+    { "d20": 20, "evento": "Nada — viagem tranquila", "detalhe": "Rola uma vez na tabela de clima para determinar condições" }
+  ],
+  "viagem": [
+    { "terreno": "Estrada/Pavimentada", "normal": "48 km/dia", "dificil": "32 km/dia", "penalidade": "Nenhuma" },
+    { "terreno": "Campo Aberto", "normal": "32 km/dia", "dificil": "24 km/dia", "penalidade": "Nenhuma" },
+    { "terreno": "Floresta Aberta", "normal": "24 km/dia", "dificil": "16 km/dia", "penalidade": "–2 Sobrevivência" },
+    { "terreno": "Floresta Densa", "normal": "16 km/dia", "dificil": "8 km/dia", "penalidade": "–4 Sobrevivência" },
+    { "terreno": "Colinas", "normal": "24 km/dia", "dificil": "16 km/dia", "penalidade": "–2 Sobrevivência" },
+    { "terreno": "Montanhas", "normal": "16 km/dia", "dificil": "8 km/dia", "penalidade": "–4 Sobrevivência" },
+    { "terreno": "Deserto/Pântano", "normal": "16 km/dia", "dificil": "8 km/dia", "penalidade": "–4 Sobrevivência; risco de sede" },
+    { "terreno": "Mar (barco)", "normal": "96 km/dia", "dificil": "64 km/dia", "penalidade": "Depende do vento" }
+  ],
+  "tesouro_nd": [
+    { "nd": "1/4", "ouro": "1d6×10", "itens": "10% item menor não-mágico" },
+    { "nd": "1/2", "ouro": "2d6×10", "itens": "20% item menor não-mágico" },
+    { "nd": "1", "ouro": "3d6×10", "itens": "25% item menor; 5% item médio" },
+    { "nd": "2", "ouro": "1d6×100", "itens": "30% item menor; 10% item médio" },
+    { "nd": "3", "ouro": "2d6×100", "itens": "35% item menor; 15% item médio" },
+    { "nd": "4", "ouro": "3d6×100", "itens": "40% item menor; 20% item médio; 5% item maior" },
+    { "nd": "5", "ouro": "5d6×100", "itens": "45% item médio; 10% item maior" },
+    { "nd": "6", "ouro": "1d6×1000", "itens": "50% item médio; 15% item maior" },
+    { "nd": "7", "ouro": "2d6×1000", "itens": "55% item médio; 20% item maior" },
+    { "nd": "8", "ouro": "3d6×1000", "itens": "60% item médio; 25% item maior; 5% artefato" },
+    { "nd": "10", "ouro": "5d6×1000", "itens": "65% item maior; 10% artefato" },
+    { "nd": "12+", "ouro": "10d6×1000+", "itens": "70% item maior; 20% artefato" }
+  ],
+  "precos": [
+    { "categoria": "Hospedagem", "item": "Albergue (dormitório)", "preco": "1 TC/noite" },
+    { "categoria": "Hospedagem", "item": "Inn (quarto simples)", "preco": "5 TC/noite" },
+    { "categoria": "Hospedagem", "item": "Inn (quarto bom)", "preco": "1 TO/noite" },
+    { "categoria": "Hospedagem", "item": "Hospedaria nobre", "preco": "5 TO/noite" },
+    { "categoria": "Alimentação", "item": "Refeição simples", "preco": "3 TC" },
+    { "categoria": "Alimentação", "item": "Refeição boa", "preco": "5 TC" },
+    { "categoria": "Alimentação", "item": "Banquete", "preco": "5 TO" },
+    { "categoria": "Serviços", "item": "Mensageiro (cidade)", "preco": "5 TC" },
+    { "categoria": "Serviços", "item": "Guia (por dia)", "preco": "1 TO" },
+    { "categoria": "Serviços", "item": "Curandeiro (cura leve)", "preco": "5 TO" },
+    { "categoria": "Serviços", "item": "Ferreiro (ferradura)", "preco": "1 TC" },
+    { "categoria": "Serviços", "item": "Aluguel de cavalo (dia)", "preco": "1 TO" },
+    { "categoria": "Animais", "item": "Cavalo de carga", "preco": "75 TO" },
+    { "categoria": "Animais", "item": "Cavalo de guerra", "preco": "400 TO" },
+    { "categoria": "Animais", "item": "Mula", "preco": "30 TO" }
+  ],
+  "encontros_terreno": {
+    "floresta": [
+      { "d8": "1-2", "encontro": "Lobos (1d4+2)" },
+      { "d8": "3", "encontro": "Bandidos (2d4)" },
+      { "d8": "4", "encontro": "Urso" },
+      { "d8": "5", "encontro": "Goblins em bando (2d6)" },
+      { "d8": "6", "encontro": "Elfo caçador (possível aliado)" },
+      { "d8": "7", "encontro": "Planta carnívora" },
+      { "d8": "8", "encontro": "Feiticeiro solitário (missão ou conhecimento)" }
+    ],
+    "masmorra": [
+      { "d8": "1-2", "encontro": "Esqueletos (1d6)" },
+      { "d8": "3", "encontro": "Zumbis (1d4)" },
+      { "d8": "4", "encontro": "Goblins patrulha (1d4+1)" },
+      { "d8": "5", "encontro": "Armadilha mecânica" },
+      { "d8": "6", "encontro": "Ogro" },
+      { "d8": "7", "encontro": "Câmara do tesouro (guardada)" },
+      { "d8": "8", "encontro": "Câmara especial (chefe, puzzle ou magia)" }
+    ],
+    "cidade": [
+      { "d8": "1-2", "encontro": "Ladrão tentando roubar" },
+      { "d8": "3", "encontro": "Guarda (pergunta documentos)" },
+      { "d8": "4", "encontro": "Mercador com informação" },
+      { "d8": "5", "encontro": "Briga de taverna" },
+      { "d8": "6", "encontro": "Mendigo que testemunhou crime" },
+      { "d8": "7", "encontro": "Pregador de culto suspeito" },
+      { "d8": "8", "encontro": "Nobre em problema" }
+    ]
+  }
+}

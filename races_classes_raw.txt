@@ -1,0 +1,1522 @@
+﻿
+=== PAGE 9 ===
+Sum�rio
+Pref�cio..........................................4
+introdu��o.................................6
+O que � Tormenta20?............ 8
+Mec�nica B�sica......................... 9
+Termos Importantes................ 11
+20 Coisas a Saber..................... 12
+Cap�tulo 1: constru��o
+de personagem......................14
+Conceito de Personagem.............. 16
+Atributos B�sicos......................... 17
+Ra�as............................................ 18
+Humano................................... 19
+An�o........................................ 20
+Dahllan.................................... 21
+Elfo.......................................... 22
+Goblin...................................... 23
+Lefou....................................... 24
+Minotauro................................ 25
+Qareen..................................... 26
+Golem...................................... 27
+Hynne...................................... 27
+Kliren....................................... 28
+Medusa.................................... 28
+Osteon..................................... 29
+Sereia/trit�o............................. 29
+S�lfide....................................... 30
+Suraggel................................... 30
+Trog.......................................... 31
+Classes......................................... 32
+Arcanista................................. 36
+B�rbaro.................................... 40
+Bardo....................................... 43
+Bucaneiro................................. 46
+Ca�ador.................................... 49
+Cavaleiro.................................. 52
+Cl�rigo..................................... 56
+Druida..................................... 60
+Guerreiro................................. 64
+Inventor................................... 67
+Ladino...................................... 72
+Lutador.................................... 75
+Nobre....................................... 78
+Paladino................................... 81
+Origens........................................ 85
+Sua Pr�pria Origem................. 95
+Deuses.......................................... 96
+Toques Finais............................. 106
+Caracter�sticas Derivadas...... 106
+Descri��o............................... 107
+Alinhamento.......................... 109
+Cap�tulo 2:
+Per�cias & Poderes...........112
+Per�cias....................................... 114
+Acrobacia............................... 115
+Adestramento........................ 115
+Atletismo............................... 116
+Atua��o.................................. 116
+Cavalgar................................. 116
+Conhecimento....................... 117
+Cura....................................... 117
+Diplomacia............................ 118
+Engana��o............................. 118
+Fortitude................................ 119
+Furtividade............................ 119
+Guerra.................................... 119
+Iniciativa................................ 119
+Intimida��o............................ 120
+Intui��o................................. 120
+Investiga��o........................... 120
+Jogatina.................................. 120
+Ladinagem............................. 120
+Luta....................................... 121
+Misticismo............................. 121
+Nobreza................................. 121
+Of�cio..................................... 121
+Percep��o............................... 122
+Pilotagem............................... 122
+Pontaria................................. 122
+Reflexos................................. 122
+Religi�o.................................. 122
+Sobreviv�ncia......................... 123
+Vontade.................................. 123
+Poderes Gerais........................... 124
+Poderes de Combate.............. 124
+Poderes de Destino................ 129
+Poderes de Magia................... 131
+Poderes Concedidos.............. 132
+Poderes da Tormenta............. 136
+Cap�tulo 3: 
+Equipamento.........................138
+Armas......................................... 142
+Armaduras & Escudos............... 152
+Itens Gerais................................ 155
+Itens Superiores......................... 164
+Cap�tulo 4:
+Magia...............................................168
+Regras de Magias....................... 170
+Lista de Magias Arcanas............. 174
+Lista de Magias Divinas............. 176
+Descri��o das Magias................. 178
+Cap�tulo 5:
+Jogando......................................212
+Interpreta��o.............................. 214
+Regras do Jogo........................... 220
+Combate..................................... 230
+Cap�tulo 6:
+O Mestre..................................240
+Como Mestrar............................ 242
+Sess�es, Aventuras
+e Campanhas.............................. 248
+NPCs.......................................... 257
+Ambientes de Aventura............. 263
+Tempo entre Aventuras.............. 276
+Cap�tulo 7:
+amea�as....................................280
+Construindo Combates.............. 282
+Criaturas.................................... 282
+Masmorras............................. 286
+Ermos.................................... 289
+Os Puristas............................ 294
+Reino dos Mortos.................. 297
+Os Duyshidakk...................... 300
+Os Sszzaazitas....................... 304
+Os Trolls Nobres.................... 307
+Os Drag�es............................ 310
+A Tormenta............................ 314
+Perigos........................................ 317
+Fichas de NPCs.......................... 322
+Cap�tulo 8:
+Recompensas......................324
+Pontos de Experi�ncia................ 326
+Tesouros..................................... 327
+Itens M�gicos............................. 333
+Armas.................................... 335
+Armaduras & Escudos........... 338
+Po��es & Pergaminhos.......... 341
+Acess�rios.............................. 342
+Artefatos.................................... 346
+Cap�tulo 9:
+Mundo de arton..............350
+Hist�ria Parcial........................... 352
+O Reinado.................................. 358
+Al�m do Reinado....................... 370
+Playtesters.......................... 392
+Open Game License..............393
+Lista de Condi��es............. 394
+�ndice Remissivo................. 396
+Ficha de Personagem.........400
+
+
+=== PAGE 10 ===
+4
+Pode melhorar!
+D
+ois anos separam a tiragem inicial 
+de Tormenta20 desta que voc� tem 
+agora. Ent�o aqui estou de novo, 
+honrado com a miss�o de escrever um 
+novo pref�cio e desenhar novos bonequinhos.
+Para os que iniciam agora a aventura, um resumo: 
+o mundo de fantasia Tormenta foi concebido por 
+mim e meus amigos em 1999, e jamais interrompido. 
+Teve RPGs, quadrinhos, romances e streams. Em 
+2019, sua edi��o comemorativa Tormenta20 resul�
+taria na maior campanha brasileira de financiamento 
+coletivo at� ent�o. Sim, Tormenta tem os melhores 
+f�s. N�o, a mod�stia n�o me impede de dizer.
+Quando esgotou a primeira � e enorme � ti�
+ragem impressa, nossas alternativas eram simples. 
+Imprimir de novo, tal como era. Ou, com um bocado 
+de trabalho, mudar coisas que funcionavam, mas 
+podiam ser melhoradas.
+Pois ent�o. Guilherme Dei Svaldi nunca deixa 
+em paz algo que se pode cutucar at� ficar mais 
+caprichado.
+Voc� tem agora em m�os Tormenta20 � Jogo 
+do Ano. Assim chamado porque T20 venceu as tr�s 
+maiores premia��es brasileiras para jogos de mesa: 
+o Cubo de Ouro, o Goblin de Ouro e o Pr�mio 
+Ludopedia. Nossa gratid�o aos envolvidos, que 
+talvez incluam voc� mesmo. Valeu!
+�Espera, � uma nova edi��o??!� Certo que n�o. O 
+sistema de jogo em si n�o mudou, e nenhum ma�
+terial anterior se tornou obsoleto. Mas houve, sim, 
+melhorias. Corre��es e atualiza��es coletadas ao 
+longo destes dois anos. Regras complexas agora mais 
+esclarecidas. O mesmo Tormenta20, mas melhor.
+Algumas mudan�as s�o mais not�veis. A primei�
+ra e mais radical: n�o existe mais a divis�o �atributo 
+e modificador de atributo�. Antes voc� tinha For�a 
+18, que resultava em um modificador +4. Este +4 
+era adicionado a ataques, danos e outros testes. � o 
+que realmente usamos. E aquele 18, para que servia? 
+Sejamos francos, para nada. Um n�mero para gerar 
+outro n�mero. Na �poca escolhemos manter assim, 
+para manter as coisas familiares. Hoje acreditamos 
+ser uma complica��o desnecess�ria. For�a 18 soa 
+mais bacanudo que For�a +4? Talvez, para os mais 
+saudosistas. Mas �some sua For�a� � bem melhor 
+que �some seu modificador de For�a�, n�o concorda?
+Outra melhoria, mais complexa, � a chamada 
+�Reforma Monstrogr�fica�. Personagens jogadores e 
+monstros tinham regras muito parecidas. � natural 
+que os protagonistas usem mec�nicas elaboradas, 
+com mais op��es � afinal, cada jogador tem apenas 
+um personagem com que lidar. O mestre, no entanto, 
+controla todos os outros caras e minas. Fichas longas 
+e cheias de estat�sticas n�o ajudam muito quando 
+voc� movimenta quatro kobolds, seis trogs, seu rei, 
+e um cultista de Kally com suas pr�prias magias, 
+todos previstos para durar apenas um combate. Seus 
+problemas acabaram! Monstros e NPCs s�o agora 
+muito mais simples de construir e lidar.
+Por fim, a transi��o mais relevante: os nomes na 
+capa. Ainda somos o Quinteto, mas com nova forma�
+��o. Despede-se o grande amigo Rog�rio Saladino, 
+buscando maior atua��o com HQs, terror e tamb�m 
+RPGs, suas eternas paix�es. Entra em cena Rafael 
+Dei Svaldi, como se diz, j� chutando com os dois p�s 
+� idealizador e mentor da Reforma Monstrogr�fica, 
+entre outras novidades. Se voc� pertence � comu�
+nidade, j� o conhece. Tamb�m sabe que ele deixar� 
+tudo mais perigoso. Sejam legais com ele!
+T20 Jogo do Ano tem diferen�as, mas uma 
+coisa nunca vai mudar. Arton segue bela e forte 
+apenas porque voc� ousa explorar suas paragens. 
+Proteger seus povos. Combater seu mal. Amar seus 
+deuses. Ou confront�-los.
+Nosso muito obrigado por seguir na jornada. 
+Estaremos ao seu lado.
+� Marcelo Cassaro
+Pref�cio
+
+
+=== PAGE 19 ===
+Introdu��o
+13
+11. F�cil de Aprender, Dif�cil de Dominar. 
+Esse � o grande objetivo do game design. Tormenta20 
+foi reformulado para melhorar a constru��o de per�
+sonagem � que pode ser simples e r�pida, ou ent�o 
+um mergulho na profunda complexidade mec�nica 
+em busca de suas escolhas favoritas. Cada classe ofe�
+rece m�todos mais diretos, mas nenhum personagem 
+ser� igual a outro. Combates podem ser resolvidos 
+sem pausas demoradas para debater regras, mas 
+ainda com numerosas estrat�gias � disposi��o.
+12. Pante�o Renovado. Exceto pelos per�
+sonagens jogadores, os seres de maior influ�ncia 
+em Arton s�o seus deuses � tudo que acontece no 
+mundo, de bom e ruim, ter� envolvimento deles. 
+Entre cl�rigos, druidas e paladinos, seus devotos 
+empunham magia divina e cumprem seus objetivos. 
+Embora poderosos, os deuses podem ser derrotados, 
+podem ser mortos. Deuses caem, deuses elevam-se, 
+pois sempre deve haver vinte. Os antigos Keenn, 
+Tauron e Ragnar desapareceram. Em seus lugares, 
+ascenderam Arsenal, Aharadak e Thwor.
+13. Poderes e Obriga��es. Em suas pri�
+meiras vers�es, Tormenta trazia op��es especiais 
+para servos dos deuses � incluindo dons �nicos de 
+cada divindade, acompanhados por votos sagrados 
+que cobravam um alto pre�o quando violados. Esse 
+conjunto de poderes e deveres trazia aos cl�rigos 
+muita personalidade. As regras mudaram ao longo 
+dos anos, ficaram flex�veis, soltas, pouco relevan�
+tes. Agora, n�o apenas retomam a for�a original, 
+como tamb�m est�o dispon�veis para outras clas�
+ses. Um guerreiro comum, ou um guerreiro devoto 
+de Valkaria? A escolha � sua!
+14. Ra�as e Classes. Grandes mudan�as aqui! 
+Meia-dr�ade, �cone do mang� Holy Avenger, agora cha�
+ma-se dahllan e entra no elenco das ra�as principais 
+� enquanto todas as outras tiveram suas habilidades 
+reformuladas. Substitui��es importantes nas classes: 
+saem o monge e o samurai (voltando ao lar em 
+Imp�rio de Jade), chegam o lutador e o cavaleiro. O 
+impronunci�vel swashbuckler d� lugar ao bucaneiro. 
+Feiticeiro e mago tornam-se um s�. O inventor e o 
+nobre trazem novas maneiras de vencer desafios.
+15. Origens. Al�m de uma ra�a e uma classe, 
+este novo ingrediente acrescenta riqueza � hist�ria 
+de seu personagem. Aqui � onde voc� decidir� quem 
+ele era no passado, antes de se tornar um aventurei�
+ro. Um esperto sobrevivente das ruas, que conhece 
+todas as manhas? Um membro da nobreza, agora 
+portador da armadura tradicional da fam�lia? Um 
+estudioso matriculado ainda jovem na Academia 
+Arcana? Voc� pode modificar uma origem, deixando 
+mais a seu gosto, ou at� inventar uma nova!
+16. Pontos de Mana. Na antiga vers�o do 
+jogo, apenas conjuradores (cl�rigos, druidas, magos) 
+usavam pontos para ativar seus poderes. Agora, as 
+habilidades especiais de todos os personagens exi�
+gem uma mesma energia para sua ativa��o. Esta � 
+mais uma medida para tornar o jogo mais simples, 
+para evitar que voc� precise gerenciar um n�mero de 
+utiliza��es separado para cada poder diferente.
+17. Alinhamento. Sempre se disse que, em 
+Arton, �bem, mal, ordem e caos s�o for�as funda�
+mentais do universo�. Elas continuam sendo assim, 
+mas agora se tornam mais misteriosas para os 
+mortais. As tend�ncias (agora alinhamentos) ainda 
+existem, ainda funcionam como guias de conduta 
+para os personagens, mas sem a import�ncia mec�
+nica de antes. N�o h� mais restri��es de tend�ncia 
+para classes. Obedecer aos des�gnios de um deus � 
+mais importante do que ter alinhamento similar ao 
+dele. A �nica exce��o � o paladino, que permanece 
+como campe�o sagrado do bem e ordem.
+18. A Maior e Melhor Comunidade. 
+Ent�o, forasteiro, voc� acaba de chegar ao Reinado? 
+Nada tema, voc� n�o est� sozinho. Nessas duas 
+d�cadas de jornada, Tormenta reuniu uma legi�o 
+de f�s, uma horda de companheiros prontos para 
+participar de seu grupo, um ex�rcito de veteranos 
+prontos para mostrar o caminho. N�o importa quem 
+voc� �; em Arton, ningu�m � estranho, ex�tico ou 
+esquisito demais para ser her�i. Suas diferen�as s�o 
+a nossa for�a. Seja bem-vindo!
+19. A vers�o Oficial � a SUA. Quando voc� 
+e seus amigos se re�nem para jogar Tormenta20, 
+est�o assumindo o protagonismo da aventura. 
+Voc�s s�o os personagens principais, suas escolhas 
+decidem o destino do mundo. Ainda que grandes 
+hist�rias sejam contadas em livros e quadrinhos, 
+elas n�o existem para apagar os jogadores; existem 
+para inspir�-los, para mostrar o que pode ser feito. 
+Seguir o material oficial � risca, reinventar tudo ou 
+algo no meio? Voc� escolhe.
+20. Jogue como Quiser. Como voc� sente 
+que este jogo deveria ser? Uma aventura despreocu�
+pada, plena de batalhas divertidas que terminam em 
+festa? Uma saga monumental sobre her�is modes�
+tos que evoluem e tornam-se campe�es c�smicos? 
+Um conto de horror macabro, sobre pesadelos aber�
+rantes espreitando nas frestas da realidade? N�o h� 
+jeito errado de jogar Tormenta20! Jogue todos 
+os dias, ou semanas, ou meses. Jogue por algumas 
+horas ou atravesse a noite. Fa�a de cada sess�o um 
+evento dram�tico, denso, ou uma grande bagun�a. 
+Tormenta � sobre imagina��o, aventuras, sonhos. 
+E nenhuma dessas coisas tem limites.
+
+
+=== PAGE 20 ===
+CAP�TULO
+1
+Constru��o de 
+Constru��o de 
+personagem
+personagem
+
+
+=== PAGE 21 ===
+�Eu sinto um her�i esperando para nascer! Um her�i precisando s� de um 
+motivo!�
+� Val
+
+
+=== PAGE 22 ===
+Cap�tulo Um
+C
+ada jogador de Tormenta20 contro�
+la um personagem, um her�i aven�
+tureiro. Este cap�tulo traz as regras 
+para a constru��o de personagens 
+jogadores � como determinar seus atributos, 
+ra�a, classe, origem e demais caracter�sticas.
+O personagem pode ser fornecido pelo mestre, 
+especialmente se voc� ainda n�o conhece as regras 
+� mas inventar seu aventureiro � uma das partes 
+mais divertidas do jogo. Para fazer isso, siga os 
+passos abaixo.
+1. Defina seus Atributos. For�a, Destreza, 
+Constitui��o, Intelig�ncia, Sabedoria e Carisma. Esses 
+seis atributos s�o as principais caracter�sticas de seu 
+personagem e afetam quase tudo que voc� faz.
+2. Escolha sua Ra�a. Este livro cont�m 
+dezessete ra�as. Cada uma modifica seus atributos 
+e fornece habilidades espec�ficas.
+3. Escolha sua Classe. Enquanto a ra�a diz 
+como voc� nasceu, a classe � como uma profiss�o. 
+Este livro oferece quatorze classes.
+4. Escolha sua Origem. O que voc� fazia 
+antes de ser aventureiro? Aqui voc� escolhe o hist�
+rico, o passado de seu personagem.
+5. Escolha sua Divindade (Opcional). 
+Existem vinte deuses em Arton. Se quiser, voc� pode 
+devotar-se a um deles.
+6. Escolha suas Per�cias. As habilidades 
+mundanas que seu personagem aprendeu com trei�
+namento, importantes para resolver desafios f�sicos, 
+mentais e sociais. Veja o Cap�tulo 2.
+7. Anote seu Equipamento. Anote seus 
+itens iniciais, determinados por sua origem e sua 
+classe. Veja o Cap�tulo 3.
+8. Magias (Apenas Arcanistas, Bardos, 
+Cl�rigos e Druidas). Verifique quantas magias 
+voc� conhece e escolha quais s�o. Veja o Cap�tulo 4.
+9. Toques Finais. Preencha os campos que 
+faltam na ficha de personagem: pontos de vida e 
+pontos de mana, tamanho e deslocamento, Defesa e 
+ataques. Escolha tamb�m o nome do personagem e 
+defina sua personalidade e apar�ncia.
+Conceito
+de Personagem
+Antes de come�ar a construir sua ficha, � �til ter 
+uma ideia b�sica sobre quem voc� quer interpretar 
+� um conceito de personagem.
+Voc� n�o precisa ter qualquer experi�ncia com 
+o jogo, nem conhecer o mundo de Arton. S� precisa 
+saber que Tormenta20 se passa num mundo de 
+fantasia cheio de tipos variados e que seu personagem 
+ser� um her�i. � claro, familiaridade com a hist�ria 
+e a geografia deste mundo podem levar a conceitos 
+interessantes. Se quiser, leia o Cap�tulo 9: Mundo 
+de Arton ou qualquer uma das v�rias obras que se 
+passam no cen�rio para conhec�-lo melhor.
+Voc� pode basear seu conceito em uma combina�
+��o de ra�a e classe. D� uma olhada nas se��es deste 
+cap�tulo. N�o se preocupe com regras, apenas leia a 
+descri��o das que achar mais interessantes e imagine 
+como elas podem se combinar. Essa mistura j� diz 
+muito sobre seu personagem.
+Voc� tamb�m pode basear seu personagem em 
+algum her�i de filmes, livros ou videogames. Apenas 
+lembre que voc� estar� interpretando um aventurei�
+ro em in�cio de carreira. A parte mais emocionante 
+da vida do seu personagem ainda est� por vir � na 
+forma da hist�ria que ser� contada durante o jogo.
+� claro, voc� n�o precisa usar nenhum desses 
+apoios para imaginar seu personagem. Tente descre�
+ver o conceito em uma frase curta, incluindo pelo 
+menos um tra�o de personalidade. Se conseguir, pro�
+vavelmente tem um conceito de personagem forte.
+Tudo muito te�rico? Sem problemas, vamos a 
+alguns exemplos de bons conceitos de personagem.
+� Uma bucaneira que sonha em conhecer os 
+pontos mais distantes de Arton.
+� Um guerreiro apaixonado pela nobre que s� 
+viu uma vez, determinado a se provar digno dela.
+� Um mago atrapalhado e t�mido, mas muito 
+inteligente.
+� Uma paladina que n�o consegue controlar 
+seu pavio curto.
+� Um an�o cl�rigo de Valkaria � um n�o 
+humano devotado a uma divindade de humanos 
+j� � um �timo conceito!
+� Uma elfa amargurada e traumatizada com a 
+queda do reino �lfico.
+� Um jovem pobre cujo maior objetivo � ganhar 
+dinheiro e se tornar o maior comerciante do mundo.
+� Um bardo vaidoso, obcecado com a pr�pria 
+beleza.
+� O filho de um nobre que deve superar a pr�pria 
+covardia para se tornar um herdeiro digno.
+� Uma guerreira cuja aldeia foi massacrada por 
+orcs, que busca vingan�a e uma nova fam�lia.
+16
+ 
+
+
+=== PAGE 23 ===
+Constru��o de Personagem
+ 
+Atributos b�sicos
+Todo personagem tem seis atributos, que defi�
+nem suas compet�ncias b�sicas: For�a, Destreza, 
+Constitui��o, Intelig�ncia, Sabedoria e Carisma. 
+Atributos s�o medidos numericamente. Um valor 
+0 representa a m�dia humana. Valores 1 ou 2 est�o 
+acima da m�dia � o lenhador da vila, acostumado 
+a trabalho pesado, pode ter For�a nesse intervalo. 
+Valores 3 ou 4 representam pessoas extraordin�rias 
+� o conselheiro real, que leu todos os livros da bi�
+blioteca do castelo, pode ter Intelig�ncia nessa faixa. 
+Valores 5 ou mais representam indiv�duos heroicos. 
+J� valores negativos est�o abaixo da m�dia. Uma 
+crian�a pode ter For�a �1, enquanto um anci�o de 
+sa�de muito fr�gil pode ter Constitui��o �2.
+For�a � For
+Seu poder muscular. A For�a � aplicada em testes 
+de Atletismo e Luta; rolagens de dano corpo a corpo 
+ou com armas de arremesso, e testes de For�a para 
+levantar peso e atos similares.
+Destreza � Des
+Sua agilidade, reflexos, equil�brio e coordena��o 
+motora. A Destreza � aplicada na Defesa e em testes 
+de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladi�
+nagem, Pilotagem, Pontaria e Reflexos.
+Constitui��o � Con
+Sua sa�de e vigor. A Constitui��o � aplicada aos 
+pontos de vida iniciais e por n�vel e em testes de For�
+titude. Se a Constitui��o muda, seus pontos de vida 
+aumentam ou diminuem retroativamente de acordo.
+Intelig�ncia � Int
+Sua capacidade de racioc�nio, mem�ria e educa�
+��o. A Intelig�ncia � aplicada em testes de Conheci�
+mento, Guerra, Investiga��o, Misticismo, Nobreza e 
+Of�cio. Al�m disso, se sua Intelig�ncia for positiva, 
+voc� recebe um n�mero de per�cias treinadas igual 
+ao valor dela (n�o precisam ser da sua classe).
+Sabedoria � Sab
+Sua observa��o, pondera��o e determina��o. A 
+Sabedoria � aplicada em testes de Cura, Intui��o, 
+Percep��o, Religi�o, Sobreviv�ncia e Vontade.
+Carisma � Car
+Sua for�a de personalidade e capacidade de per�
+suas�o, al�m de uma mistura de simpatia e beleza. O 
+Carisma � aplicado em testes de Adestramento, Atu�
+a��o, Diplomacia, Engana��o, Intimida��o e Jogatina.
+Definindo
+seus atributos
+H� duas maneiras de definir seus atributos: com 
+pontos ou com rolagens. Escolha a que preferir.
+Pontos. Voc� come�a com todos os atributos 
+em 0 e recebe 10 pontos para aument�-los. O custo 
+para aumentar cada atributo est� descrito na tabela 
+abaixo. Voc� tamb�m pode reduzir um atributo para 
+�1 para receber 1 ponto adicional.
+Rolagens. Role 4d6, descarte o menor e 
+some os outros tr�s. Anote o resultado. Repita esse 
+processo cinco vezes, at� obter um total de seis n��
+meros. Ent�o, converta esses n�meros em atributos 
+conforme a tabela abaixo. Por exemplo, se voc� rolar 
+13, 8, 15, 18, 10 e 9, seus atributos ser�o 1, �1, 2, 4, 
+0 e �1. Distribua esses valores entre os seis atributos 
+como quiser. Caso seus atributos n�o somem pelo 
+menos 6, role novamente o menor valor. Repita esse 
+processo at� seus atributos somarem 6 ou mais.
+Atributos M�nimos
+Um valor menor que �5 em um atributo gera 
+um efeito: For ou Des (paralisado), Con (morre), Int 
+ou Sab (inconsciente), Car (torna-se um NPC). Isso 
+ignora imunidades.
+Tabela 1-1: Atributos
+Atributo
+Custo
+Rolagem
+�2
+�
+7 ou menos
+�1
+�1 ponto
+8-9
+0
+0 ponto
+10-11
+1
+1 ponto
+12-13
+2
+2 pontos
+14-15
+3
+4 pontos
+16-17
+4
+7 pontos
+18
+17
+
+
+=== PAGE 24 ===
+Cap�tulo Um
+Ra�as
+As ra�as de Arton s�o muito variadas entre si. 
+Na maior parte do mundo civilizado um personagem 
+n�o ser� hostilizado por pertencer a qualquer ra�a. 
+Contudo, alguns antros de vilania podem nutrir 
+verdadeiro �dio por determinadas ra�as � a Supre�
+macia Purista, por exemplo, despreza n�o humanos. 
+A exce��o a isso s�o os lefou. Tocados pela Tormenta, 
+a maior amea�a deste mundo, os lefou atraem medo 
+em todos os reinos.
+Algumas ra�as s�o mais numerosas ou t�m 
+papel predominante na hist�ria de Arton � hu�
+manos, an�es, dahllan, elfos, goblins, lefou, 
+minotauros e qareen. O povo do continente est� 
+acostumado a ver membros dessas ra�as. Uma vila 
+humana pode ter um ferreiro an�o, por exemplo, e 
+ningu�m ficar� surpreso.
+Mas essas n�o s�o as �nicas ra�as de Arton. 
+Dentre toda a variedade dos seres deste mundo, h� 
+um grupo de ra�as mais raras: golens, hynne, kliren, 
+medusas, osteon, sereias, s�lfides, suraggel e trogs. 
+A maioria das pessoas nunca viu um membro dessas 
+ra�as. Pode considerar que s�o m�ticas, que foram 
+extintas ou que jamais pisaram no continente. 
+Um membro dessas ra�as pode atrair curiosidade, 
+espanto ou at� medo por onde passar. Em termos de 
+jogo, essas ra�as possuem mec�nicas mais avan�a�
+das e s�o indicadas para jogadores veteranos.
+Quase todas as grandes sagas artonianas s�o sobre 
+grupos de diferentes ra�as. Aventureiros aprendem a 
+ver o melhor em cada indiv�duo e, ao longo de uma 
+vida de viagens e batalhas, acostumam-se at� mesmo 
+ao mais ex�tico companheiro.
+Escolhendo sua Ra�a
+Ap�s definir seus atributos, � hora de escolher 
+sua ra�a. Voc� pode escolher qualquer ra�a, mas de�
+pendendo do seu conceito de personagem, algumas 
+s�o mais indicadas que outras.
+Se voc� quiser um personagem bom de briga, 
+por exemplo, minotauro � uma boa escolha. Se gosta 
+de lan�ar magias, v� de elfo. J� se prefere resolver 
+seus problemas na l�bia, escolha qareen. Da mesma 
+forma, algumas ra�as n�o s�o indicadas para certos 
+conceitos. Um trog estudioso provavelmente n�o 
+ser� muito competente, assim como um hynne 
+brig�o. Humanos s�o um caso especial � s�o a ra�a 
+mais vers�til, capazes de se destacar em qualquer 
+carreira. Se estiver em d�vida, v� de humano.
+Como dito acima, todas as ra�as funcionam para 
+todos os tipos de personagem, e fazer combina��es 
+inusitadas pode ser muito divertido. Mas, se voc� for 
+um jogador iniciante, prefira uma ra�a que forne�a 
+um b�nus no atributo principal de sua classe.
+Caracter�sticas
+das Ra�as
+Modificadores de Atributo. Sua ra�a 
+modifica seus atributos, podendo aument�-los acima 
+de 4 ou diminu�-los abaixo de �2.
+Habilidades de Ra�a. Voc� possui todas as 
+habilidades de sua ra�a. As regras para usar habili�
+dades s�o explicadas no Cap�tulo 5: Jogando.
+Tabela 1-2: Ra�as
+
+Ra�a
+Modificadores
+de Atributo
+Humano
++1 em tr�s atributos diferentes
+An�o
+Con +2, Sab +1, Des �1
+Dahllan
+Sab +2, Des +1, Int �1
+Elfo
+Int +2, Des +1, Con �1
+Goblin
+Des +2, Int +1, Car �1
+Lefou
++1 em tr�s atributos diferentes
+(exceto Car), Car �1
+Minotauro
+For +2, Con +1, Sab �1
+Qareen
+Car +2, Int +1, Sab �1
+Golem
+For +2, Con +1, Car �1
+Hynne
+Des +2, Car +1, For �1
+Kliren
+Int +2, Car +1, For �1
+Medusa
+Des +2, Car +1
+Osteon
++1 em tr�s atributos diferentes
+(exceto Con), Con �1
+Sereia/Trit�o
++1 em tr�s atributos diferentes
+S�lfide
+Car +2, Des +1, For �2
+Suraggel
+Sab +2, Car +1 (aggelus)
+ou Des +2, Int +1 (sulfure)
+Trog
+Con +2, For +1, Int �1
+18
+ 
+
+
+=== PAGE 25 ===
+Constru��o de Personagem
+ 
+O povo mais numeroso em Arton, humanos 
+s�o considerados os escolhidos dos deuses, aque�
+les que governam o mundo. Em sua variedade e 
+adaptabilidade, s�o encontrados em quase todos os 
+pontos do continente � dos vales f�rteis do Reinado 
+�s vastid�es �ridas do Deserto da Perdi��o. S�o 
+exploradores e desbravadores ambiciosos, sempre 
+buscando algo al�m.
+Habilidades de Ra�a
++1 em Tr�s Atributos Diferentes. Filhos 
+de Valkaria, a Deusa da Ambi��o, humanos podem 
+se destacar em qualquer caminho que escolherem.
+Vers�til. Voc� se torna treinado em duas pe�
+r�cias a sua escolha (n�o precisam ser da sua classe). 
+Voc� pode trocar uma dessas per�cias por um poder 
+geral a sua escolha.
+Humano
+Humanos s�o como uma praga: espalham-se por todo 
+o mundo de Arton.
+N�o interessa onde voc� olhe ou por onde passe. Nas 
+Montanhas Sanguin�rias, nas ilhas do Mar do Drag�o�
+-Rei, em alguma masmorra debaixo da terra, sempre ha�
+ver� algum humano se metendo onde n�o deve, procurando 
+alguma coisa. N�o � � toa que s�o maioria.
+Aos quinze anos j� se consideram adultos, andando por 
+a�, sacudindo espadas e lan�ando feiti�os malucos.
+Dizem que a culpa � de Valkaria. A deusa, que passou 
+gera��es presa em forma de est�tua, hoje lidera todas as di�
+vindades e alimenta a ambi��o daqueles que chama de filhos. 
+Faz com que queiram cada vez mais, n�o importa o que j� te�
+nham conseguido. Com exemplos como o
+arquimago Vectorius, que arrancou um
+peda�o enorme do ch�o para transfor�
+mar em ilha voadora s� por causa de 
+uma aposta, ou Mestre Arsenal, que 
+enfrentou o pr�prio Deus da Guer�
+ra para tomar seu lugar, � di�
+f�cil convenc�-los de que 
+isso pode ser errado. 
+Talvez nem seja.
+Humanos 
+podem ter qual�
+quer porte f�sico, cor 
+de pele ou tipo de cabe�
+lo. S�o t�o variados quan�
+to suas ambi��es, t�o diver�
+sos quanto as ideias que t�m 
+a cada instante. Suas tra�
+di��es e modas v�m e v�o 
+r�pido demais e eles fa�
+zem o que bem entendem. 
+E embora a deusa cria�
+dora seja sua principal 
+padroeira, humanos 
+podem ser devotos de 
+quais e quantos deuses 
+desejarem.
+Ser humano � ter a liber�
+dade e a conveni�ncia de se 
+tornar o que quiser, mesmo 
+sem nem sempre compreen�
+der as responsabilidades que 
+isso carrega. � ter o instinto 
+aventureiro corren�
+do no sangue.
+� Broktar 
+Hellpipes, an�o bardo
+Vallen e Drikka. 
+Vallen e Drikka. 
+Humanos s�o
+Humanos s�o
+os escolhidos
+os escolhidos
+dos deuses
+dos deuses
+19
+
+
+=== PAGE 26 ===
+Cap�tulo Um
+An�o
+N�o existe nada mais confi�vel em Arton que um an�o. 
+Cachorros tamb�m s�o confi�veis, mas eu n�o compararia os 
+dois em frente a um an�o se fosse voc�.
+S�o troncudos, maci�os, resistentes como os peda�os de 
+min�rio pelos quais s�o apaixonados. Seus dedos curtos e 
+grossos parecem pouco habilidosos, mas das m�os dos an�es 
+saem as armas e armaduras mais fabulosas de Arton.
+Quando uma crian�a an� nasce, cada choro � acom�
+panhado de uma martelada do melhor ferreiro da fam�lia 
+em uma bigorna cerimonial. Eles acreditam que cada golpe 
+fortalece o corpo e o esp�rito do rec�m-nascido pelo resto da 
+vida. N�o h� nada que indique que a cren�a n�o � verdadeira.
+Um ditado humano diz que h� apenas uma diferen�a 
+entre an�es e metal: o metal � duro, mas voc� pode martelar 
+e depois derreter, e martelar de novo at� que ele vire uma 
+espada ou qualquer outra coisa. J� um an�o n�o muda nem 
+arreda p�, n�o importa o quanto voc� bata.
+A justi�a � muito importante para os an�es � t�o 
+importante quanto suas longas e vastas barbas. Por isso o 
+patrono deles � Heredrimm, o deus que os humanos chamam 
+de Khalmyr. Dizem que Tenebra tem um dedo ou dois na 
+cria��o deles tamb�m, mas dependendo de quem estiver por 
+perto, tamb�m n�o � bom falar isso em voz alta.
+A p�tria dos an�es, Doherimm � um complexo de 
+cavernas em escala continental � � guardada a sete chaves. 
+S� eles sabem o caminho para o reino e mesmo nobres im�
+portantes e amigos da ra�a s� s�o levados at� l� vendados, 
+desacordados ou qualquer coisa do tipo.
+O subterr�neo � amea�ado pelos finntroll, inimigos 
+jurados dos an�es. Mesmo assim, muitos deles abandonam 
+Doherimm e partem para a aventura na superf�cie. N�o 
+viajam s� em busca de riquezas, mas tamb�m para dar uma 
+amostra de sua honra e tradi��o ao resto do mundo.
+� Dynx, goblin paladino de Allihanna
+An�es s�o o mais resiliente dos povos. Em suas 
+cidadelas subterr�neas, trabalham duro escavando 
+minas e forjando metal em belas armas, armaduras 
+e joias. S�o honestos e determinados, honrando a 
+fam�lia e a tradi��o. Apesar de sua profunda paix�o 
+por forja e cerveja, pouca coisa � mais preciosa para 
+um an�o que cultivar uma barba longa e orgulhosa.
+Habilidades de Ra�a
+Constitui��o +2, Sabedoria +1, Des�
+treza �1.
+Conhecimento das Rochas. Voc� 
+recebe vis�o no escuro e +2 em testes de 
+Percep��o e Sobreviv�ncia realizados no 
+subterr�neo.
+Devagar e Sempre. 
+Seu deslocamento � 6m (em 
+vez de 9m). Por�m, seu 
+deslocamento n�o � redu�
+zido por uso de armadura 
+ou excesso de carga.
+Duro como Pedra. 
+Voc� recebe +3 pontos de 
+vida no 1� n�vel e +1 por 
+n�vel seguinte.
+Tradi��o de He�
+redrimm. Voc� � peri�
+to nas armas tradicionais 
+an�s, seja por ter trei�
+nado com elas, seja por 
+us�-las como ferramen�
+tas de of�cio. Para voc�, 
+todos os machados, 
+martelos, marretas e 
+picaretas s�o armas 
+simples. Voc� recebe 
++2 em ataques com 
+essas armas.
+Golinda e 
+Golinda e 
+Ingram. 
+Ingram. 
+Nem todo 
+Nem todo 
+an�o segue 
+an�o segue 
+tradi��es
+tradi��es
+20
+ 
+
+
+=== PAGE 27 ===
+Constru��o de Personagem
+ 
+Dahllan
+Houve �poca em que meias-dr�ades eram muito, muito 
+raras. Nascidas da uni�o improv�vel entre uma dr�ade � 
+uma fada das florestas � e um humano, eram consideradas 
+meras lendas. Mesmo assim, bastou uma delas para tornar 
+a ra�a conhecida em todos os reinos: Lisandra de Galrasia. 
+Ap�s uma campanha dram�tica para tentar ressuscitar o 
+Paladino de Arton, n�o apenas se tornaria a maior druida 
+guerreira no mundo, mas tamb�m a sumo-sacerdotisa de 
+Allihanna, e uma das mortais mais poderosas a existir.
+Por algum motivo, algo mudou.
+Recentemente, jovens meias-dr�ades come�aram a surgir 
+no Reinado. A maior parte emergiu de matas profundas, 
+tendo sido criadas por animais ou fadas. Outras, misteriosa�
+mente, nasceram de fam�lias humanas. Todas femininas; h� 
+rumores sobre meios-dr�ades masculinos, nunca confirmados. 
+De qualquer forma, por n�o serem necessariamente filhas de 
+dr�ades, receberam outro nome. Dahllan.
+At� hoje ningu�m tem resposta para o mist�rio 
+de sua origem. A pr�pria Allihanna deve ser res�
+pons�vel, mas com que prop�sito? Uma tentativa 
+de ajudar meu povo a proteger as florestas, dizem 
+alguns. Uma resposta da M�e Natureza contra a 
+Tormenta, teorizam outros � um contra-ataque 
+das for�as primordiais de Arton contra a tempestade 
+rubra. Embora tenham forte liga��o com a Deusa da 
+Natureza, nem todas as dahllan se tornam druidas. 
+T�m sido vistas abra�ando as mais variadas carreiras, 
+desde arcanistas e bucaneiras at� inventoras e cavaleiras.
+Dahllan s�o �geis e s�bias, mas tamb�m um tanto r�sti�
+cas. Assim como as �rvores antigas onde as almas das dr�ades 
+habitam, as dahllan t�m tipos f�sicos variados. Algumas s�o 
+musculosas, outras esguias, outras ainda t�m curvas acen�
+tuadas. O cabelo, como as folhas, pode ser verde, vermelho 
+ou dourado � em algumas, a cor muda conforme as esta��es 
+�, mas os olhos s�o invariavelmente verdes e brilhantes. 
+N�o raro, trazem a cabe�a ornamentada com caules ou fila�
+mentos delicados, como antenas fe�ricas. Tamb�m � normal 
+ver flores brotando em seu cabelo, al�m de uma ocasional 
+borboleta ou joaninha vinda sabe-se l� de onde.
+Por serem rec�m-chegadas a Arton, o tempo de 
+vida dahllan � desconhecido. Talvez sejam t�o lon�
+gevas quanto os mais antigos carvalhos, ou mais. 
+Talvez nunca envelhe�am de fato, enquanto houver 
+vida natural no mundo.
+� Arasthoriel, elfo mago
+Parte humanas, parte fadas, as dahllan s�o uma 
+ra�a de mulheres com a seiva de �rvores correndo nas 
+veias. Falam com os animais, controlam as plantas 
+� mas tamb�m s�o ferozes em batalha, retorcendo 
+madeira para formar armaduras.
+Habilidades de Ra�a
+Sabedoria +2, Destreza +1, Intelig�ncia �1.
+Amiga das Plantas. Voc� pode lan�ar a magia 
+Controlar Plantas (atributo-chave Sabedoria). Caso 
+aprenda novamente essa magia, seu custo diminui 
+em �1 PM. e
+Armadura de Allihanna. Voc� pode gastar 
+uma a��o de movimento e 1 PM para transformar 
+sua pele em casca de �rvore, recebendo +2 na Defesa 
+at� o fim da cena.
+Empatia Selvagem. Voc� pode se comunicar 
+com animais por meio de linguagem corporal e vocali-
+za��es. Voc� pode usar Adestra�
+mento para mudar atitude e 
+persuas�o com animais (veja 
+Diplomacia, na p�gina 
+118). Caso receba esta 
+habilidade novamente, 
+recebe +2 em 
+Adestra�
+mento.
+Lisandra.
+Lisandra.
+As meias-dr�ades
+As meias-dr�ades
+come�am a
+come�am a
+explorar Arton
+explorar Arton
+21
+
+
+=== PAGE 28 ===
+Cap�tulo Um
+Elfo
+Os elfos vieram de longe h� muito tempo, em embar�
+ca��es trazidas � dizem � por ventos divinos. S�o belos 
+e esguios, de cabelos e olhos de cores t�o variadas quanto 
+o arco-�ris. Suas vestes costumam ser intrincadas e fluidas 
+como seus movimentos. Nada neles parece comum, rasteiro. 
+� dif�cil n�o se sentir impressionado ou inspirado ao lado de 
+uma presen�a �lfica. H� sempre algo de m�gico nos elfos.
+Um dia eles tiveram sua pr�pria p�tria, Len�rienn, no 
+continente sul. Uma cidade majestosa, de torres espiraladas 
+surgidas em meio � floresta, onde a magia e as artes eram en�
+sinadas desde cedo. Onde tomos ancestrais ocupavam longas 
+estantes e a poesia tomava os ares com suas rimas e melodias.
+Mas o conhecimento trouxe a arrog�ncia, e a arrog�n�
+cia, a derrota. Len�rienn caiu, v�tima da Alian�a Negra 
+dos goblinoides, um ex�rcito implac�vel. Depois, por conta 
+de um estratagema de Gl�rienn, antiga 
+Deusa dos Elfos, os membros da ra�a 
+que n�o ficaram espalhados pelo Rei�
+nado foram escravizados pelos minotauros. O que sobrou 
+foi um povo mergulhado em amargor, apoiado nas gl�rias 
+de um passado destru�do.
+Agora, por�m, eles encaram uma chance de reden��o. 
+Com a morte de Tauron e livres dos des�gnios de uma di�
+vindade mesquinha, os elfos do Reinado t�m pela primeira 
+vez um futuro em branco � frente. E ainda est�o tentando 
+descobrir o que fazer com ele. Enquanto uns buscam recupe�
+rar os conhecimentos perdidos de seu antigo reino, outros se 
+misturam a ordens de cavalaria ou guildas de ladr�es, usan�
+do seus talentos naturais para tra�ar seu pr�prio caminho, 
+abra�ando os deuses que melhor lhes conv�m.
+�Das maiores trag�dias nascem os maiores aventureiros�, 
+diz um ditado que circula nas tavernas de Malpetrim. Parece 
+algo feito sob medida 
+para os elfos de Arton.
+� Garibaldo Cachimbo 
+Ca�do, hynne bardo
+Elfos s�o seres feitos 
+para a beleza e para a guer�
+ra, t�o habilidosos com ma�
+gia quanto com espadas e arcos. Ele�
+gantes, astutos, de vidas quase eternas, 
+parecem superiores aos humanos em 
+tudo. Poderiam ter governado toda 
+Arton, n�o fosse a arrog�ncia her�
+dada de sua deusa. Com a queda 
+de Gl�rienn, os elfos se tornaram 
+um povo sem uma deusa. Um 
+povo independente. Enquan�
+to alguns veem a falta de uma 
+divindade como uma trag�dia, 
+outros acreditam que, pela pri�
+meira vez na hist�ria, s�o livres.
+Habilidades
+de Ra�a
+Intelig�ncia +2, Destreza +1, 
+Constitui��o �1.
+Gra�a de Gl�rienn. Seu deslo�
+camento � 12m (em vez de 9m).
+Sangue M�gico. Voc� recebe 
++1 ponto de mana por n�vel.
+Sentidos 
+�lficos. 
+Voc� 
+recebe vis�o na penumbra e +2 em 
+Misticismo e Percep��o.
+Gwen e Fren. Os elfos 
+Gwen e Fren. Os elfos 
+tentam superar um 
+tentam superar um 
+passado arrogante
+passado arrogante
+e tr�gico
+e tr�gico
+22
+ 
+
+
+=== PAGE 29 ===
+Constru��o de Personagem
+ 
+Goblin
+N�o importa se voc� gosta ou n�o de goblins. Se voc� se 
+importa com eles ou se os odeia. Se os tem como amigos ou se 
+acredita que s�o meras pestes.
+Goblins sempre existir�o.
+Sabemos que eles se reproduzem em grande quantidade 
+e de forma vertiginosa, mas sua origem divina � complicada, 
+com explica��es que d�o voltas e se contradizem, assim como 
+a tradi��o oral da ra�a. A mais popular � que Graolak, o 
+Deus dos Goblins, foi o respons�vel direto, aproveitando 
+para criar a ra�a � sua imagem e semelhan�a, usando os 
+restos de um banquete do Pante�o, enquanto os vinte deuses 
+maiores dormiam. Mas academicamente existem d�vidas at� 
+se Graolak realmente existiu.
+O que se pode dizer de verdade � que poucos goblins se 
+importam com o que os acad�micos pensam. A menos que os 
+acad�micos queiram aprender sobre suas engenhocas insanas.
+Pequenos, de pele rugosa verde, marrom ou amarela, 
+orelhas longas e nariz pontudo, os goblins vivem nas frestas 
+do mundo civilizado. No Reinado, habitam zonas de grande 
+pobreza. Nos ermos, ficam entocados em cavernas. Erronea�
+mente s�o vistos como inferiores � ou, na pior das hip�teses, 
+como monstros.
+Mas essa � uma vis�o simplista. O que define os goblins 
+� perseveran�a e inventividade. Eles criam engenhocas que 
+desafiam a l�gica � m�quinas cheias de pe�as, sempre expe�
+lindo fuma�a e amea�ando explodir. Tamb�m s�o aeronautas 
+pioneiros: um piloto ou baloeiro goblin pode 
+lev�-lo a qualquer lugar de Arton por um pre�o 
+m�dico, desde que voc� n�o se importe com uma 
+eventual queda desastrosa.
+O instinto de sobreviv�ncia e a 
+agilidade tornam os goblins aventu�
+reiros furtivos e malandros. A necessidade 
+de se virar com o que t�m faz com que 
+possam improvisar melhor do que o 
+mais criativo humano. Para quem 
+nasceu sem nada, qualquer 
+coisa � uma ferramenta, uma 
+arma, um tesouro. Al�m dis�
+so, aos que sabem reconhe�
+cer seu valor, um goblin 
+pode ser um parceiro para 
+a vida toda.
+Se voc� n�o se 
+importar com servir 
+de cobaia para alguns 
+inventos...
+� Leona Steelblade, 
+humana cavaleira arcana
+Estes pequenos seres feiosos conseguiram um 
+lugar entre os povos do Reinado. Podem ser encon�
+trados em todas as grandes cidades, muitos vivendo 
+na imund�cie, outros prosperando em carreiras que 
+quase ningu�m tentaria: espi�es, aeronautas, enge�
+nhoqueiros. Onde o an�o teimoso e o elfo empolado 
+falham, o goblin pode dar um jeito. Porque ele n�o 
+tem vergonha. Nem orgulho. Nem bom senso. 
+Habilidades de Ra�a
+Destreza +2, Intelig�ncia +1, Carisma �1.
+Engenhoso. Voc� n�o sofre penalidades em 
+testes de per�cia por n�o usar ferramentas. Se usar a 
+ferramenta necess�ria, recebe +2 no teste de per�cia.
+Espelunqueiro. Voc� recebe vis�o no escuro 
+e deslocamento de escalada igual ao seu deslocamen�
+to terrestre.
+Peste Esguia. Seu tamanho � Pequeno (veja a 
+p�gina 106), mas seu deslocamento se mant�m 9m. 
+Apesar de pequenos, goblins s�o r�pidos.
+Rato das Ruas. 
+Voc� recebe +2 em 
+Fortitude e sua 
+recupera��o 
+de PV e PM 
+nunca � 
+inferior ao 
+seu n�vel.
+Dok e Gradda. 
+Dok e Gradda. 
+Engenhosos
+Engenhosos
+e astutos,
+e astutos,
+mas a seu
+mas a seu
+pr�prio modo
+pr�prio modo
+23
+
+
+=== PAGE 30 ===
+Cap�tulo Um
+Lefou
+Em minhas andan�as, encontrei membros das mais 
+variadas ra�as. De todas, a mais misteriosa � a dos lefou.
+De forma bem pouco lisonjeira, parcelas da sociedade os 
+definem como pouco mais que filhos rejeitados da Tormenta. 
+S�o considerados meios-dem�nios, como se a tempestade 
+aberrante pudesse atacar um corpo e deixar suas marcas 
+como faz com a pr�pria Arton. Corrompendo de forma 
+irrevers�vel o que antes era puro.
+Pensando assim, at� faz sentido. Um lefou pode surgir 
+simplesmente porque os pais s�o aventureiros que tiveram 
+contato com a Tormenta. Ou enfrentaram a tempestade 
+rubra. Como uma doen�a, uma insidiosa vingan�a contra 
+aqueles que a tentaram destruir, talvez?
+Em suas caracter�sticas, entretanto, um lefou n�o � 
+distante de seus pais. Um filho de pais humanos parecer� 
+humano. O mesmo � verdade para os lefou filhos de outras 
+ra�as. Mas a cria carregar� consigo sempre uma 
+m�cula. Algo diferente, uma deformidade ou ca�
+racter�stica que pode causar inc�modo, embora lhe 
+possa trazer alguma vantagem. Um par de antenas. 
+Uma crosta sobre a pele. Garras. A marca indel�vel de 
+que a Tormenta esteve ali e sempre estar�.
+Claro, esta � uma vers�o preconceituosa. � 
+verdade que, com a ascens�o de Aharadak, os cultos 
+se espalharam, e lefou t�m sido procurados para 
+assumir altas posi��es nas ordens de adoradores, 
+mas muitos deles fazem exatamente o contr�rio. Aproveitam 
+sua familiaridade com a maior amea�a de Arton para lutar 
+contra ela. Estudam, treinam, dominam seus poderes para 
+us�-los quando a tempestade rubra atacar.
+E o que � melhor do que ter ao seu lado algu�m que 
+conhece t�o intimamente o inimigo?
+� Sir Porti, moreau do c�o paladino de Thyatis
+Com a influ�ncia macabra da Tormenta perme�
+ando cada vez mais o mundo, surgiram os lefou. 
+Estes meios-dem�nios de apar�ncia grotesca passa�
+ram a nascer em fam�lias de outras ra�as, sendo logo 
+sacrificados ou expulsos. Entre os que escapam, por 
+sua facilidade em manifestar poderes aberrantes, 
+muitos escolhem abra�ar o mal, enquanto outros 
+decidem combat�-lo.
+Habilidades de Ra�a
++1 em Tr�s Atributos Diferentes 
+(exceto Carisma), Carisma �1.
+Cria da Tormenta. Voc� � uma 
+criatura do tipo monstro e re�
+cebe +5 em testes de re�
+sist�ncia contra efei�
+tos causados por lefeu e 
+pela Tormenta.
+Deformidade. 
+Todo lefou possui defeitos 
+f�sicos que, embora desa�
+grad�veis, conferem cer�
+tas vantagens. Voc� rece�
+be +2 em duas per�cias a 
+sua escolha. Cada um des�
+ses b�nus conta como um 
+poder da Tormenta (exce�
+to para perda de Crisma). 
+Voc� pode trocar um des�
+ses b�nus por um po�
+der da Tormenta a sua 
+escolha (ele tamb�m 
+n�o conta para perda 
+de Carisma).
+Asha e Ichabod.
+Asha e Ichabod.
+Ser meio-dem�nio
+Ser meio-dem�nio
+da Tormenta n�o 
+da Tormenta n�o 
+significa ser maligno
+significa ser maligno
+24
+ 
+
+
+=== PAGE 31 ===
+Constru��o de Personagem
+ 
+Minotauro
+Ah, os minotauros. Talvez o maior paradoxo de Arton 
+atualmente. E talvez o maior retrato de como as coisas s�o 
+mut�veis e, no fim, a roda gira.
+Com suas legi�es de soldados e disciplina p�trea, toma�
+ram o que puderam com a justificativa de que o forte deve 
+sempre proteger o mais fraco, preceito de Tauron, o Deus 
+da For�a. Provaram-se vencedores, conquistadores. A seus 
+pr�prios olhos, protetores. E acima de tudo, fortes.
+Mas nada permanece como � por muito tempo em 
+Arton, e a derrocada veio. Numa tentativa de proteger seu 
+povo do Lorde da Tormenta Aharadak, Tauron desceu dos 
+c�us e o enfrentou. Mas perdeu.
+Tauron morreu na luta contra a Tor�
+menta. Seu gigantesco cad�ver est� estira�
+do sobre Tiberus, a capital do Imp�rio de 
+Tauron, dom�nio dos minotauros. Tiberus 
+se encontra numa luta incessante contra as 
+for�as da Tormenta, e o corpo do deus � a lem�
+bran�a de que mesmo o mais forte um dia 
+pode ser derrotado.
+As legi�es dos minotauros lu�
+tam dia e noite contra a tempesta�
+de rubra, mantendo aceso o esp�
+rito guerreiro da ra�a e tentando 
+preservar o imp�rio fragmenta�
+do. Os orgulhosos minotauros 
+j� conhecem a derrota, o medo 
+e a fraqueza.
+Por conta disso, mino�
+tauros hoje se espalham por 
+Arton para provar que seus 
+princ�pios ainda s�o verdadei�
+ros, mesmo que sua divindade 
+n�o exista mais. S�o disciplinados, 
+normalmente sisudos e deter�
+minados. Sua pelagem 
+tem cores variadas, 
+seus chifres s�o seu or�
+gulho. Sua for�a � seu 
+maior trunfo. Ter um mi�
+notauro como companheiro � contar 
+com prote��o constante e garantida. 
+� Masaru Yudai, lefou monge feiticeiro
+Povo guerreiro, orgulhoso e poderoso,
+criadores de uma civiliza��o avan�ada, com 
+a miss�o sagrada de proteger e governar 
+os fracos � ou assim se enxergavam. 
+Em seus tempos �ureos, tomaram 
+grande parte de Arton. Hoje, ap�s 
+a morte de sua divindade e a decad�ncia de seu Imp�
+rio, os minotauros lutam para recuperar a gl�ria per�
+dida ou encontrar um novo papel no mundo.
+Habilidades de Ra�a
+For�a +2, Constitui��o +1, Sabedoria �1.
+Chifres. Voc� possui uma arma natural de 
+chifres (dano 1d6, cr�tico x2, perfura��o). Uma vez 
+por rodada, quando usa a a��o agredir para atacar 
+com outra arma, pode gastar 1 PM para fazer um 
+ataque corpo a corpo extra com os chifres.
+Couro R�gido. Sua pele � dura como a de um 
+touro. Voc� recebe +1 na Defesa.
+Faro. Voc� tem olfato apurado. Contra 
+inimigos em alcance curto que n�o 
+possa ver, voc� n�o fica des�
+prevenido e camuflagem 
+total lhe causa apenas 
+20% de chance de 
+falha.
+Medo de Altura. 
+Se estiver adjacente a 
+uma queda de 3m ou mais 
+de altura (como um buraco ou 
+penhasco), voc� fica abalado.
+Artorius.
+Artorius.
+Uma nova era 
+Uma nova era 
+aguarda o povo
+aguarda o povo
+de Tauron
+de Tauron
+25
+
+
+=== PAGE 32 ===
+Cap�tulo Um
+Descendentes de poderosos g�nios, os qareen s�o 
+otimistas, generosos e prestativos, sempre ansiosos 
+por ajudar. Consideram-se aben�oados pela Deusa da 
+Magia, exibindo como evid�ncia a marca de Wynna 
+em seus corpos. Sua magia � mais poderosa quando 
+usada para realizar desejos de outros.
+Habilidades de Ra�a
+Carisma +2, Intelig�ncia +1, Sabedoria �1.
+Desejos. Se lan�ar uma magia que algu�m te�
+nha pedido desde seu �ltimo turno, o custo da magia 
+diminui em �1 PM. Fazer um desejo ao qareen � uma 
+a��o livre.
+Resist�ncia Elemental. Conforme sua 
+ascend�ncia, voc� recebe redu��o 10 a um tipo de 
+dano. Escolha uma: frio (qareen da �gua), eletricida�
+de (do ar), fogo (do fogo), �cido (da terra), luz (da 
+luz) ou trevas (qareen das trevas).
+Tatuagem M�stica. Voc� 
+pode lan�ar uma magia de 1� 
+c�rculo a sua escolha (atri�
+buto-chave Carisma). Caso 
+aprenda novamente essa 
+magia, seu custo dimi�
+nui em �1 PM. e
+Qareen
+Embora lembrem humanos de apar�ncia magn�fica, qa�
+reen s�o seres m�gicos. N�o s� no sentido de sua curiosidade 
+e modo alegre de ver a vida, mas por serem uma mistura de 
+mortais com g�nios. Cada um deles carrega no corpo elabo�
+radas tatuagens que s�o o s�mbolo de seu poder. Uma �marca 
+de Wynna�, como eles mesmos chamam, que brilha sempre 
+que uma de suas habilidades m�gicas � utilizada. 
+Os qareen s�o filhos de Wynna, a Deusa da Magia. 
+Para eles, fazer m�gica � t�o natural quanto respirar e 
+atender a desejos � um instinto primordial. Assim como sua 
+deusa m�e, este povo � generoso, curioso e encantador.
+Os qareen t�m o esp�rito desbravador inerente aos 
+aventureiros, seja para satisfazer as pr�prias vontades, seja 
+para auxiliar grupos de her�is mundanos. Carism�ticos, 
+atraem para si novos amigos assim como o calor de uma 
+fogueira atrai um viajante perdido e enregelado. Concedem 
+pequenos desejos, m�gicos ou n�o, �queles que abrem o 
+cora��o e fazem um pedido.
+E, se voc� n�o acredita em receber um desejo sem dar 
+algo em troca, � porque ainda n�o teve a 
+felicidade de conhecer um qareen.
+� Nagard Wyrmslayer,
+humano guardi�o
+da realidade
+Kadeen e Niala. 
+Kadeen e Niala. 
+Meios-g�nios
+Meios-g�nios
+est�o sempre 
+est�o sempre 
+dispostos
+dispostos
+a ajudar
+a ajudar
+26
+ 
+
+
+=== PAGE 33 ===
+Constru��o de Personagem
+ 
+Ra�as Extras
+Golem
+Diz-se que estes seres s�o apenas construtos 
+sem vida, criados n�o pelos deuses, mas por mortais. 
+No entanto, s�o movidos por for�as vivas � esp�ri�
+tos elementais selvagens, capturados e lacrados por 
+meios m�gicos em corpos de pedra e metal. Muitos 
+conformam-se com seus pap�is como trabalhadores 
+e soldados, enquanto outros demonstram alta inteli�
+g�ncia, personalidade e iniciativa. Podem fazer tudo 
+que outras ra�as fazem, at� mesmo conjurar magias. 
+Ser� que t�m alma? Ser� que encontrar�o os deuses 
+quando chegar sua hora?
+For�a +2, Constitui��o +1, 
+Carisma �1.
+Chassi. Seu corpo artificial � resis�
+tente, mas r�gido. Seu deslocamento � 
+6m, mas n�o � reduzido por uso de arma�
+dura ou excesso de carga. Voc� recebe +2 
+na Defesa, mas possui penalidade de armadu�
+ra �2. Voc� leva um dia para vestir ou remover 
+uma armadura (pois precisa acoplar as pe�as dela 
+a seu chassi). Por ser acoplada, sua armadura n�o 
+conta no limite de itens que voc� pode usar (mas 
+voc� continua s� podendo usar uma armadura).
+Criatura Artificial. Voc� � uma criatura do 
+tipo construto. Recebe vis�o no escuro e imunidade 
+a efeitos de cansa�o, metab�licos e de veneno. Al�m 
+disso, n�o precisa respirar, alimentar-se ou dormir, 
+mas n�o se beneficia de cura mundana e de itens 
+da categoria alimenta��o. Voc� precisa ficar inerte 
+por oito horas por dia para recarregar sua fonte de 
+energia. Se fizer isso, recupera PV e PM por descanso 
+em condi��es normais (golens n�o s�o afetados 
+por condi��es boas ou ruins de descanso). Por fim, 
+a per�cia Cura n�o funciona em voc�, mas Of�cio 
+(artes�o) pode ser usada no lugar dela.
+Fonte Elemental. Voc� possui um esp�rito 
+elemental preso em seu corpo. Escolha entre �gua 
+(frio), ar (eletricidade), fogo (fogo) e terra (�cido). 
+Voc� � imune a dano desse tipo. Se fosse sofrer dano 
+m�gico desse tipo, em vez disso cura PV em quan�
+tidade igual � metade do dano. Por exemplo, se um 
+golem com esp�rito elemental do fogo � atingido por 
+uma Bola de Fogo que causa 30 pontos de dano, em 
+vez de sofrer esse dano, ele recupera 15 PV.
+Prop�sito de Cria��o. Voc� foi constru�do 
+�pronto� para um prop�sito espec�fico e n�o teve 
+uma inf�ncia. Voc� n�o tem direito a escolher uma 
+origem, mas recebe um poder geral a sua escolha.
+Hynne
+Tamb�m conhecidos como halflings ou �peque�
+ninos�, os hynne s�o apreciadores de boa comida 
+e casas aconchegantes, raras vezes escolhendo sair 
+pelo mundo em aventuras perigosas. Quando deci�
+dem faz�-lo, contudo, recorrem � agilidade e encan�
+to naturais para ludibriar os inimigos � mais de um 
+taverneiro ou miliciano deixou-se enganar por suas 
+m�os ligeiras e sorrisos inocentes. Foram re�
+centemente for�ados a fugir de seu antigo rei�
+no natal, sendo ent�o acolhidos pelas Rep��
+blicas Livres de Samb�rdia, onde cultivam 
+ervas e especiarias valiosas. Para espan�
+to de todos, tamb�m se tor�
+naram astutos mercadores, 
+muitos ascendendo a 
+pr�ncipes mercantes.
+Hynne s�o 
+Hynne s�o 
+simp�ticos e 
+simp�ticos e 
+furtivos, mas 
+furtivos, mas 
+golens podem
+golens podem
+ser o que menos 
+ser o que menos 
+se espera
+se espera
+27
+
+
+=== PAGE 34 ===
+Cap�tulo Um
+Destreza +2, Carisma +1, For�a �1.
+Arremessador. Quando faz um ataque � dis�
+t�ncia com uma funda ou uma arma de arremesso, 
+seu dano aumenta em um passo.
+Pequeno e Rechonchudo. Seu tamanho � 
+Pequeno (veja a p�gina 106) e seu deslocamento � 6m. 
+Voc� recebe +2 em Engana��o e pode usar Destreza 
+como atributo-chave de Atletismo (em vez de For�a).
+Sorte Salvadora. Quando faz um teste de 
+resist�ncia, voc� pode gastar 1 PM para rolar este 
+teste novamente.
+Kliren
+Estes visitantes de outro mundo seriam uma 
+combina��o entre humanos e gnomos � mas, 
+afinal, o que s�o gnomos? S�o uma ra�a 
+que talvez existisse em Arton, n�o fosse o envolvi�
+mento criminoso de seu deus Tilliann na cria��o da 
+pr�pria Tormenta. Seja como for, os kliren somam 
+a alta intelig�ncia gn�mica e a curiosidade humana, 
+resultando em seres de extrema engenhosidade, 
+criatividade e talento com aparatos mec�nicos. Se�
+riam capazes de grandes feitos, talvez at� dominar 
+Arton, n�o fossem a impulsividade e imprud�ncia 
+que por vezes abreviam suas vidas...
+Intelig�ncia +2, Carisma +1, For�a �1.
+H�brido. Sua natureza multifacetada fez com 
+que voc� aprendesse conhecimentos variados. Voc� 
+se torna treinado em uma per�cia a sua escolha (n�o 
+precisa ser da sua classe).
+Engenhosidade. Quando faz um teste de 
+per�cia, voc� pode gastar 2 PM para somar sua 
+Intelig�ncia no teste. Voc� n�o pode usar esta 
+habilidade em testes de ataque. Caso receba esta 
+habilidade novamente, seu custo � reduzido em 
+�1 PM.
+Ossos Fr�geis. Voc� sofre 1 ponto de 
+dano adicional por dado de dano de impacto. 
+Por exemplo, se for atingido por uma clava 
+(dano 1d6), sofre 1d6+1 
+pontos de dano. Se cair de 
+3m de altura (dano 2d6), sofre 
+2d6+2 pontos de dano.
+Vanguardista. Voc� re�
+cebe profici�ncia em armas de 
+fogo e +2 em Of�cio (um qualquer, a sua 
+escolha).
+Medusa
+Ainda que estas criaturas 
+reclusas sejam famosas por 
+transformar suas v�timas em 
+pedra com um simples olhar, 
+apenas as mais antigas e 
+poderosas o fazem. 
+Jovens medusas 
+por vezes 
+rejeitam 
+a solid�o 
+e crueldade racial, aventurando-
+se no Reinado, at� mesmo fazendo 
+amigos ou integrando equipes de 
+her�is. Conseguem se fazer passar por 
+mulheres humanas, quando 
+escondem o cabelo feito de 
+serpentes. O �nico povo que 
+n�o teme medusas s�o os an�es, 
+que as consideram belas musas.
+Os meios-
+Os meios-
+gnomos kliren, 
+gnomos kliren, 
+ou as ex�ticas 
+ou as ex�ticas 
+medusas:
+medusas:
+quem � mais
+quem � mais
+perigoso?
+perigoso?
+28
+ 
+
+
+=== PAGE 35 ===
+python : Traceback (most recent call last):
+No linha:21 caractere:1
++ python "C:\VS.Projetos\t20-mestre-supremo\read_races_classes.py" 2>&1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\VS.Projetos\t20-mestre-supremo\read_races_classes.py", line 16, in <module>
+    print(text)
+    ~~~~~^^^^^^
+  File "C:\Users\Rodrigo\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\ufffd' in position 1838: character maps to <undefined>

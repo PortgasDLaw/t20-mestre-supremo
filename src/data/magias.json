@@ -1,0 +1,1612 @@
+[
+  {
+    "id": "adaga-mental",
+    "nome": "Adaga Mental",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade anula",
+    "descricao": "Você dispara lâminas de energia mental que causam dano psíquico. A magia inflige 2d6 pontos de dano mental (não reduzido por RD) na criatura. O dano mental não pode ser curado por meios físicos — apenas por magia de cura.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o dano em +1d6."
+    ]
+  },
+  {
+    "id": "alarme",
+    "nome": "Alarme",
+    "tipo": "arcana",
+    "escola": "Abjuração",
+    "circulo": 1,
+    "pm": 2,
+    "execucao": "1 minuto",
+    "alcance": "Toque",
+    "area": "Área de até 6m de raio",
+    "duracao": "8 horas",
+    "resistencia": "Nenhuma",
+    "descricao": "Você cria um alarme mágico ao redor de uma área. Caso qualquer criatura (exceto você e aquelas que você designar no momento do lançamento) entre na área, o alarme dispara um som audível a até 18m de distância.",
+    "aprimoramentos": [
+      "+2 PM: a duração aumenta para 24 horas.",
+      "+3 PM: o alarme alerta você mentalmente (sem fazer barulho), independentemente da distância."
+    ]
+  },
+  {
+    "id": "amedrontar",
+    "nome": "Amedrontar",
+    "tipo": "arcana",
+    "escola": "Necromancia",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "A criatura fica com medo de você. Enquanto estiver com medo, ela sofre –2 em testes de ataque e perícias.",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para criaturas em área de 6m de raio centrada em você.",
+      "+5 PM: a criatura fica apavorada (foge na máxima velocidade, não podendo realizar outras ações)."
+    ]
+  },
+  {
+    "id": "ampliar-sentidos",
+    "nome": "Ampliar Sentidos",
+    "tipo": "arcana",
+    "escola": "Adivinhação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você amplia um de seus sentidos. Escolha visão, audição ou olfato: visão concede visão no escuro 18m; audição concede +10 em Percepção auditiva; olfato permite rastrear pelo cheiro com bônus de +10 em Sobrevivência.",
+    "aprimoramentos": [
+      "+1 PM: amplia mais um sentido além do escolhido."
+    ]
+  },
+  {
+    "id": "arma-magica",
+    "nome": "Arma Mágica",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Movimento",
+    "alcance": "Toque",
+    "area": "1 arma",
+    "duracao": "Cena",
+    "resistencia": "Nenhuma",
+    "descricao": "A arma tocada recebe +1 nas jogadas de ataque e dano. Ela passa a ser considerada mágica, ignorando RD que exige magia para ser ignorada.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o bônus em +1 (máximo +5).",
+      "+1 PM: muda o alcance para curto.",
+      "+2 PM: a arma causa 1d6 de dano extra de energia (ácido, elétrico, fogo ou frio, à sua escolha)."
+    ]
+  },
+  {
+    "id": "armadura-arcana",
+    "nome": "Armadura Arcana",
+    "tipo": "arcana",
+    "escola": "Abjuração",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Movimento",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Uma armadura de força invisível e intangível envolve você, concedendo +4 na Defesa. Esse bônus não se acumula com armaduras físicas. Não funciona se você estiver usando armadura média ou pesada.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o bônus em +2 (máximo +10)."
+    ]
+  },
+  {
+    "id": "bencao-de-voo",
+    "nome": "Bênção de Voo",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 2,
+    "execucao": "Movimento",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você ganha a capacidade de voar com deslocamento de 12m. Ao contrário do feitiço Voo, esta versão funciona em espaços fechados com teto suficientemente alto.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o deslocamento de voo para 18m."
+    ]
+  },
+  {
+    "id": "bruma",
+    "nome": "Bruma",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Cubo de 9m",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Uma névoa espessa envolve a área designada. Criaturas dentro da névoa ficam camufladas (20% de chance de falha em ataques contra elas). Vento forte dispersa a bruma.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o cubo em +3m de lado.",
+      "+2 PM: a bruma também dificulta a respiração (Fortitude CD 15 ou fica enjoada)."
+    ]
+  },
+  {
+    "id": "camaleon",
+    "nome": "Camaleão",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Movimento",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Sua pele e roupa se adaptam ao ambiente ao redor, como um camaleão. Você recebe +10 em Furtividade e pode se camuflar mesmo sem cobertura.",
+    "aprimoramentos": [
+      "+1 PM: pode estender o efeito para um aliado adjacente."
+    ]
+  },
+  {
+    "id": "charme-pessoa",
+    "nome": "Charme Pessoa",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 humanoide",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "O humanoide alvo fica enfeitiçado por você. Ele trata você como um amigo próximo, agindo de forma prestativa. A criatura não fica sob seu controle absoluto. Se você ou seus aliados agirem de forma hostil contra a criatura, o efeito termina imediatamente.",
+    "aprimoramentos": [
+      "+2 PM: a duração aumenta para 1 dia.",
+      "+3 PM: muda o alvo para 1 criatura (qualquer tipo).",
+      "+5 PM: muda a duração para permanente."
+    ]
+  },
+  {
+    "id": "choque-eletrico",
+    "nome": "Choque Elétrico",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Você gera uma descarga elétrica ao tocar a criatura. A magia inflige 1d6 pontos de dano elétrico por PM gasto.",
+    "aprimoramentos": [
+      "+1 PM (rep.): aumenta o dano em 1d6."
+    ]
+  },
+  {
+    "id": "compreensao",
+    "nome": "Compreensão",
+    "tipo": "arcana",
+    "escola": "Adivinhação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você pode ler, escrever, falar e entender qualquer idioma durante a cena, incluindo idiomas de criaturas monstruosas. Não permite usar itens mágicos que exijam treinamento específico.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "conjurar-monstro",
+    "nome": "Conjurar Monstro",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 monstro convocado",
+    "duracao": "Concentração",
+    "resistencia": "—",
+    "descricao": "Você convoca um monstro de ND 1/2 ou inferior para lutar ao seu lado. O monstro age na iniciativa logo após você e obedece suas ordens simples. Quando a duração termina ou o monstro é reduzido a 0 PV, ele desaparece.",
+    "aprimoramentos": [
+      "+1 PM: convoca um monstro de ND 1.",
+      "+2 PM: convoca um monstro de ND 2.",
+      "+3 PM: convoca um monstro de ND 3.",
+      "+5 PM: convoca um monstro de ND 5.",
+      "+1 PM: convoca 1d3 monstros do ND especificado."
+    ]
+  },
+  {
+    "id": "controlar-chamas",
+    "nome": "Controlar Chamas",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Fogo em área de 3m de raio",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você controla chamas existentes na área. Pode aumentar (duplicar tamanho), diminuir ou extinguir o fogo. Também pode modelar as chamas em formas diversas ou movê-las até 3m por round.",
+    "aprimoramentos": [
+      "+1 PM: pode criar fogo onde não existe (em material inflamável).",
+      "+2 PM: pode controlar fogo em área de 9m de raio."
+    ]
+  },
+  {
+    "id": "criar-agua",
+    "nome": "Criar Água",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "—",
+    "duracao": "Permanente",
+    "resistencia": "—",
+    "descricao": "Você cria água pura suficiente para saciar a sede de até 3 criaturas por dia, ou aprox. 8 litros. A água aparece em um recipiente que você designar.",
+    "aprimoramentos": [
+      "+1 PM: cria água suficiente para +3 criaturas (ou +8 litros)."
+    ]
+  },
+  {
+    "id": "dardo-de-forca",
+    "nome": "Dardo de Força",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descricao": "Você dispara um dardo de energia de força pura que acerta automaticamente a criatura alvo. Inflige 1d4+1 pontos de dano de força.",
+    "aprimoramentos": [
+      "+1 PM: cria mais 1 dardo (cada dardo inflige 1d4+1, podem acertar alvos diferentes).",
+      "+2 PM: os dardos causam 2d4+2 de dano cada."
+    ]
+  },
+  {
+    "id": "detectar-magia",
+    "nome": "Detectar Magia",
+    "tipo": "arcana",
+    "escola": "Adivinhação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você consegue detectar a presença de magia em objetos e criaturas em alcance curto. Você sente se há magia presente e, com um teste bem-sucedido de Misticismo (CD 20), pode identificar a escola da magia.",
+    "aprimoramentos": [
+      "+1 PM: detecta magia em alcance médio."
+    ]
+  },
+  {
+    "id": "disfarce",
+    "nome": "Disfarce",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "Não se aplica",
+    "descricao": "Você assume a aparência visual de qualquer humanoide de tamanho similar. A ilusão altera aparência física mas não altera sons, odores ou sensações ao toque. Criaturas que interagem com você podem tentar um teste de Investigação (CD 20) para perceber que algo está errado.",
+    "aprimoramentos": [
+      "+1 PM: afeta também voz e odor.",
+      "+2 PM: muda o alvo para 1 criatura tocada.",
+      "+3 PM: você pode assumir aparência de qualquer criatura de tamanho Médio."
+    ]
+  },
+  {
+    "id": "dominar-animal",
+    "nome": "Dominar Animal",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 animal",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "Você assume controle mental sobre um animal. Ele obedece suas ordens simples (atacar, fugir, ir a algum lugar) durante a cena. Ordens complexas ou contrárias à natureza do animal requerem novo teste de Vontade.",
+    "aprimoramentos": [
+      "+2 PM: a duração aumenta para 1 dia.",
+      "+5 PM: a duração se torna permanente."
+    ]
+  },
+  {
+    "id": "explosao-de-chamas",
+    "nome": "Explosão de Chamas",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Área de 4,5m de raio centrada em você",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Uma explosão de chamas irradia de você em todas as direções. Inflige 1d6 pontos de dano de fogo por PM gasto a todas as criaturas na área. Você não sofre dano.",
+    "aprimoramentos": [
+      "+1 PM (rep.): aumenta o dano em 1d6."
+    ]
+  },
+  {
+    "id": "flutuacao",
+    "nome": "Flutuação",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula (não hostil)",
+    "descricao": "A criatura flutua até 1,5m acima do chão. Ela mantém seu deslocamento normal mas não pode escavar. Enquanto flutua, ataques de criatura no chão sofrem penalidade (a menos que tenham alcance).",
+    "aprimoramentos": [
+      "+1 PM: aumenta a altura de flutuação para 3m."
+    ]
+  },
+  {
+    "id": "forca-fantasmal",
+    "nome": "Força Fantasmal",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Concentração",
+    "resistencia": "Vontade anula",
+    "descricao": "Você cria uma ilusão convincente de algo que amedronta a criatura. A criatura que falhar na resistência acredita na ilusão e age como se ela fosse real. Se a criatura 'atacar' a ilusão e notar que não está causando dano, pode tentar nova resistência.",
+    "aprimoramentos": [
+      "+2 PM: a ilusão causa dano psíquico real (1d6 por round) se a criatura acreditar nela."
+    ]
+  },
+  {
+    "id": "iluminar",
+    "nome": "Iluminar",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Livre",
+    "alcance": "Toque",
+    "area": "Objeto",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "O objeto tocado emite luz com intensidade equivalente à luz do dia em um raio de 6m e luz fraca em mais 6m além disso. A luz pode ser ativada ou desativada com ação livre.",
+    "aprimoramentos": [
+      "+1 PM: a intensidade dobra (12m de luz plena, 12m de luz fraca)."
+    ]
+  },
+  {
+    "id": "luz",
+    "nome": "Luz",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Livre",
+    "alcance": "Toque",
+    "area": "Objeto",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "O objeto toca emite luz suave em 6m de raio e luz ainda mais fraca em mais 6m além. Funciona como a magia Iluminar com menor intensidade. Pode ser lançada na forma de um facho de luz direcional.",
+    "aprimoramentos": [
+      "+1 PM: a luz fica permanente até ser dispelida."
+    ]
+  },
+  {
+    "id": "maos-magicas",
+    "nome": "Mãos Mágicas",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Movimento",
+    "alcance": "Curto",
+    "area": "Objeto de até 10kg",
+    "duracao": "Concentração",
+    "resistencia": "—",
+    "descricao": "Você move e manipula um objeto não-segurado com força mágica invisível. Pode realizar tarefas simples que normalmente exigiriam mãos: abrir portas, pegar objetos, escrever, etc. Velocidade de manipulação é lenta (sem ser combate).",
+    "aprimoramentos": [
+      "+1 PM: aumenta o peso máximo para 25kg.",
+      "+2 PM: aumenta o peso máximo para 100kg.",
+      "+1 PM: pode usar as mãos mágicas em combate (ataque de agarrar com bônus de Sabedoria)."
+    ]
+  },
+  {
+    "id": "missil-magico",
+    "nome": "Míssil Mágico",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Até 5 mísseis",
+    "duracao": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descricao": "Você dispara mísseis de energia de força que acertam automaticamente. Você cria 1 míssil por PM gasto (máximo 5). Cada míssil inflige 1d4+1 pontos de dano de força. Você pode distribuir os mísseis entre múltiplos alvos visíveis.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "sono",
+    "nome": "Sono",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Criaturas em área de 6m de raio",
+    "duracao": "1 hora",
+    "resistencia": "Vontade anula",
+    "descricao": "Criaturas na área adormecem. Você pode afetar criaturas com um total de até 4 DV (afeta primeiro criaturas com menos PV). Criaturas adormecidas ficam indefesas. Dano ou barulho alto acorda a criatura imediatamente.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o total de DV afetados em +2.",
+      "+2 PM: criaturas despertadas pelo dano adormecem novamente ao final do round."
+    ]
+  },
+  {
+    "id": "torcao-corporal",
+    "nome": "Torção Corporal",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descricao": "Você torce e deforma o corpo da criatura magicamente. Inflige 2d6 pontos de dano e a criatura fica enjoada por 1 round. Se passar na resistência, sofre apenas o dano.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o dano em +1d6."
+    ]
+  },
+  {
+    "id": "alterar-tamanho",
+    "nome": "Alterar Tamanho",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "Fortitude anula",
+    "descricao": "A criatura aumenta ou diminui de tamanho em uma categoria. Aumentar (ex: Médio → Grande): +4 Força, –2 Destreza, –1 Defesa, +1 em rolagens de ataque e dano com armas corpo a corpo. Diminuir (ex: Médio → Pequeno): –4 Força, +2 Destreza, +1 Defesa, –1 em ataque e dano. Seus itens mudam junto.",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para você (não requer resistência).",
+      "+4 PM: altera o tamanho em duas categorias."
+    ]
+  },
+  {
+    "id": "amarras-etereas",
+    "nome": "Amarras Etéreas",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "Algemas de força imaterial imobilizam a criatura alvo. Uma criatura imobilizada não pode se mover, mas ainda pode realizar outras ações. Para se libertar, a criatura precisa de um teste bem-sucedido de Atletismo (CD 20) como ação padrão.",
+    "aprimoramentos": [
+      "+1 PM: aumenta a CD para se libertar em +5.",
+      "+2 PM: a criatura fica completamente imobilizada (não pode realizar nenhuma ação)."
+    ]
+  },
+  {
+    "id": "enfraquecer",
+    "nome": "Enfraquecer",
+    "tipo": "arcana",
+    "escola": "Necromancia",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "Fortitude parcial",
+    "descricao": "A criatura sofre –4 em Força e Constituição. Se falhar totalmente na resistência (resultado 5 ou mais abaixo da CD), sofre –8 em cada. Criaturas reduzidas a Força 0 ficam indefesas.",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para criaturas em área de 6m de raio."
+    ]
+  },
+  {
+    "id": "imagem-ilusoria",
+    "nome": "Imagem Ilusória",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Cubo de 3m de lado",
+    "duracao": "Concentração",
+    "resistencia": "Inteligência anula",
+    "descricao": "Você cria uma imagem ilusória visual de qualquer objeto ou criatura dentro da área. A ilusão não produz sons, odores ou sensações ao toque. Criaturas que tocam ou interagem fisicamente com ela e falham na resistência continuam acreditando.",
+    "aprimoramentos": [
+      "+1 PM: a ilusão inclui sons realistas.",
+      "+2 PM: a ilusão inclui odores.",
+      "+3 PM: a ilusão se torna permanente até ser dispelida."
+    ]
+  },
+  {
+    "id": "indetectavel",
+    "nome": "Indetectável",
+    "tipo": "arcana",
+    "escola": "Abjuração",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Movimento",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você fica indetectável por magia de adivinhação. Magias como Detectar Magia, Localizar Criatura e similares não podem encontrá-lo ou detectar sua magia.",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para 1 criatura tocada."
+    ]
+  },
+  {
+    "id": "invisibilidade",
+    "nome": "Invisibilidade",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura ou objeto",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "A criatura ou objeto fica completamente invisível. Ações ofensivas (atacar, lançar magia hostil) encerram o efeito imediatamente. Uma criatura invisível recebe +10 em Furtividade e ataques contra ela têm 50% de chance de falhar automaticamente.",
+    "aprimoramentos": [
+      "+2 PM: a invisibilidade não é cancelada por ações ofensivas.",
+      "+3 PM: muda o alvo para você e aliados em alcance curto."
+    ]
+  },
+  {
+    "id": "nevoa-mental",
+    "nome": "Névoa Mental",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "A mente da criatura fica nublada e confusa. Ela sofre –5 em todos os testes de perícias baseadas em Inteligência, –5 em Vontade e não pode usar habilidades que exijam concentração.",
+    "aprimoramentos": [
+      "+2 PM: reduz também a Inteligência em –2."
+    ]
+  },
+  {
+    "id": "paralisar",
+    "nome": "Paralisar",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 humanoide",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "O humanoide fica paralisado (indefeso e incapaz de se mover ou agir). Ao final de cada um de seus turnos, pode tentar outra resistência de Vontade para escapar do efeito.",
+    "aprimoramentos": [
+      "+3 PM: muda o alvo para qualquer criatura.",
+      "+2 PM: a criatura não pode tentar novas resistências para escapar."
+    ]
+  },
+  {
+    "id": "raio-de-gelo",
+    "nome": "Raio de Gelo",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descricao": "Um raio de frio intenso atinge a criatura. Inflige 4d6 pontos de dano de frio. Se falhar na resistência, a criatura fica lenta (–2 em ataques, Defesa e Reflexos) por 1 round.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6.",
+      "+2 PM: se falhar na resistência, a criatura fica imobilizada por 1 round em vez de lenta."
+    ]
+  },
+  {
+    "id": "raio-de-luz-solar",
+    "nome": "Raio de Luz Solar",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Raio de luz (1,5m de largura, 18m de comprimento)",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Um raio de luz solar concentrada queima tudo em sua linha. Inflige 4d6 pontos de dano de luz. Mortos-vivos e criaturas sensíveis à luz sofrem dano dobrado.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6.",
+      "+2 PM: criaturas que falharem na resistência ficam cegas por 1 round."
+    ]
+  },
+  {
+    "id": "teia",
+    "nome": "Teia",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Cubo de 6m de lado",
+    "duracao": "Cena",
+    "resistencia": "Reflexos anula",
+    "descricao": "Você envolve a área em teias mágicas pegajosas. Criaturas na área ficam enredadas (–2 em ataques, –4 em Destreza, não podem correr). Para se mover enquanto enredadas, precisam de um teste de Atletismo ou Acrobacia (CD 20) a cada metro. Fogo destrói a teia em 1 round.",
+    "aprimoramentos": [
+      "+1 PM: aumenta a CD dos testes para escapar em +5.",
+      "+2 PM: criaturas que falharem na resistência ficam imobilizadas em vez de enredadas."
+    ]
+  },
+  {
+    "id": "terreno-ilusorio",
+    "nome": "Terreno Ilusório",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "1 minuto",
+    "alcance": "Longo",
+    "area": "Área de 12m de raio",
+    "duracao": "Cena",
+    "resistencia": "Inteligência anula",
+    "descricao": "Você faz com que o terreno na área pareça completamente diferente do que é. Um campo pode parecer uma floresta, um abismo pode parecer um gramado plano, etc. A ilusão é estática e não muda.",
+    "aprimoramentos": [
+      "+3 PM: a ilusão inclui sons e odores condizentes.",
+      "+5 PM: a duração se torna permanente."
+    ]
+  },
+  {
+    "id": "trovao",
+    "nome": "Trovão",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Linha de 18m",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "descricao": "Um trovão ensurdecedor se propaga em linha. Inflige 4d6 pontos de dano sônico a tudo em seu caminho. Criaturas que falharem na resistência ficam atordoadas por 1 round e ensurdecidas por 1 minuto.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6.",
+      "+1 PM: aumenta o comprimento da linha em +6m."
+    ]
+  },
+  {
+    "id": "ancora-dimensional",
+    "nome": "Âncora Dimensional",
+    "tipo": "arcana",
+    "escola": "Abjuração",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "1 criatura ou portal dimensional",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "Você trava a criatura ao plano material. Ela fica impedida de usar qualquer habilidade de teleporte, viagem planar, deslocamento dimensional ou movimento extradimensional durante a cena.",
+    "aprimoramentos": [
+      "+3 PM: afeta todas as criaturas em área de 9m de raio."
+    ]
+  },
+  {
+    "id": "bola-de-fogo",
+    "nome": "Bola de Fogo",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Área de 9m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Uma bola de fogo explode no ponto designado, liberando uma explosão de calor intenso. Inflige 5d6 pontos de dano de fogo a todas as criaturas e objetos na área.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6.",
+      "+1 PM: aumenta o raio em +3m."
+    ]
+  },
+  {
+    "id": "contato-extraplanar",
+    "nome": "Contato Extraplanar",
+    "tipo": "arcana",
+    "escola": "Adivinhação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "1 minuto",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Concentração",
+    "resistencia": "—",
+    "descricao": "Você faz contato mental com uma inteligência extraplanar poderosa que pode responder perguntas. Você pode fazer 1 pergunta por round. A entidade responde com 'sim', 'não', 'provavelmente', 'improvável' ou 'desconhecido'. Há 10% de chance cumulativa por pergunta de perder 1 ponto de Sabedoria temporariamente (recuperado após 1 dia).",
+    "aprimoramentos": [
+      "+2 PM: a entidade fornece respostas mais elaboradas (até uma frase)."
+    ]
+  },
+  {
+    "id": "persona",
+    "nome": "Persona",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 3,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "Não se aplica",
+    "descricao": "Você assume completamente a identidade de outra pessoa, incluindo aparência, voz, maneirismos e odor. Você pode imitar qualquer pessoa que já tenha visto. Testes para perceber que você está disfarçado têm CD 25 em vez de 20.",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para 1 criatura tocada."
+    ]
+  },
+  {
+    "id": "portal-arcano",
+    "nome": "Portal Arcano",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "—",
+    "duracao": "1 round/nível",
+    "resistencia": "—",
+    "descricao": "Você cria um portal dimensional entre dois locais que você já visitou. O portal tem 3m de altura e 2m de largura. Qualquer criatura pode atravessá-lo em ambos os sentidos.",
+    "aprimoramentos": [
+      "+5 PM: o portal pode conectar a locais em outros planos."
+    ]
+  },
+  {
+    "id": "telecinesia",
+    "nome": "Telecinesia",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "1 objeto ou criatura",
+    "duracao": "Concentração",
+    "resistencia": "Vontade anula",
+    "descricao": "Você move objetos ou criaturas com o poder da mente. Pode mover um objeto de até 200kg a uma velocidade de até 9m por round. Se usar contra criatura, ela pode resistir com Vontade; se falhar, fica suspenso no ar e você pode movê-la.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o peso máximo para 500kg.",
+      "+2 PM: pode usar o objeto como arma de arremesso (dano 2d6, alcance médio).",
+      "+3 PM: pode mover múltiplos objetos (total de peso máximo)."
+    ]
+  },
+  {
+    "id": "voo",
+    "nome": "Voo",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Movimento",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "A criatura tocada ganha a capacidade de voar com deslocamento de 18m e manobrabilidade boa. Se a magia acabar enquanto a criatura estiver no ar, ela cai suavemente (como sob efeito de Queda Suave).",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para você e aliados em alcance curto.",
+      "+1 PM: aumenta o deslocamento de voo em +6m.",
+      "+2 PM: a manobrabilidade melhora para perfeita."
+    ]
+  },
+  {
+    "id": "alterar-memoria",
+    "nome": "Alterar Memória",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Permanente",
+    "resistencia": "Vontade anula",
+    "descricao": "Você modifica as memórias da criatura. Pode: apagar memórias de um evento de até 5 minutos de duração; criar memórias falsas de um evento de até 5 minutos; ou alterar memórias existentes de até 5 minutos.",
+    "aprimoramentos": [
+      "+2 PM: pode alterar memórias de até 1 hora de duração.",
+      "+5 PM: pode apagar todas as memórias de um dia inteiro."
+    ]
+  },
+  {
+    "id": "conjurar-elemental",
+    "nome": "Conjurar Elemental",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 elemental convocado",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você convoca um elemental de tamanho Médio (ar, água, fogo ou terra) para servir você. O elemental age em sua iniciativa e obedece suas ordens.",
+    "aprimoramentos": [
+      "+2 PM: conjura um elemental de tamanho Grande.",
+      "+4 PM: conjura um elemental de tamanho Enorme.",
+      "+2 PM: conjura 1d3 elementais de tamanho Médio."
+    ]
+  },
+  {
+    "id": "controlar-gravidade",
+    "nome": "Controlar a Gravidade",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Área de 9m de raio",
+    "duracao": "Concentração",
+    "resistencia": "Vontade anula",
+    "descricao": "Você altera a gravidade em uma área. Pode: inverter (criaturas caem em direção ao teto, sofrendo dano de queda); aumentar (criaturas ficam lentas, –6m em deslocamento, –2 em ataques); ou reduzir (criaturas flutam até 1,5m, podem saltar até 9m).",
+    "aprimoramentos": [
+      "+3 PM: a área aumenta para 18m de raio."
+    ]
+  },
+  {
+    "id": "imagem-perfeita",
+    "nome": "Imagem Perfeita",
+    "tipo": "arcana",
+    "escola": "Ilusão",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Cubo de 6m de lado",
+    "duracao": "Concentração",
+    "resistencia": "Inteligência anula",
+    "descricao": "Como Imagem Ilusória, mas a ilusão afeta todos os sentidos: visual, auditivo, olfativo e tátil. É praticamente indistinguível da realidade. Apenas interação física intensa (tentar atravessar uma parede ilusória) revela a ilusão.",
+    "aprimoramentos": [
+      "+3 PM: a ilusão se torna permanente."
+    ]
+  },
+  {
+    "id": "voragem-dimensional",
+    "nome": "Voragem Dimensional",
+    "tipo": "arcana",
+    "escola": "Conjuração",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Longo",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade anula",
+    "descricao": "Uma fissura dimensional se abre e engole a criatura, lançando-a em um espaço entre os planos. A criatura desaparece por 1d6 rounds, depois reaparece no espaço mais próximo disponível ao local original.",
+    "aprimoramentos": [
+      "+2 PM: você escolhe onde a criatura reaparece (dentro de alcance longo)."
+    ]
+  },
+  {
+    "id": "alterar-destino",
+    "nome": "Alterar Destino",
+    "tipo": "arcana",
+    "escola": "Adivinhação",
+    "circulo": 5,
+    "pm": 5,
+    "execucao": "Reação",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Você intervém no destino de uma criatura. Use como reação após um dado ser rolado mas antes de aplicar o resultado. Pode: fazer um ataque que errou acertar (ou vice-versa); fazer um teste que falhou passar (ou vice-versa); maximizar ou minimizar um dano rolado.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "controlar-tempo",
+    "nome": "Controlar o Tempo",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 5,
+    "pm": 7,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Especial",
+    "resistencia": "—",
+    "descricao": "Você para o tempo para todas as criaturas e objetos ao seu redor. Durante esse período (1d4+1 rounds), outras criaturas ficam paralisadas, projéteis se imobilizam no ar e você pode agir normalmente. Ao final, o tempo retoma de onde parou.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "xagarashar",
+    "nome": "Xagarashar",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 5,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Longo",
+    "area": "Área de 9m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Uma tempestade de energia mágica pura explode no ponto designado. A magia inflige 10d6 pontos de dano de energia (escolha o tipo no momento do lançamento: ácido, elétrico, frio ou fogo) a todas as criaturas na área.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6."
+    ]
+  },
+  {
+    "id": "abençoar-alimentos",
+    "nome": "Abençoar Alimentos",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "Alimentos e bebidas para até 6 pessoas",
+    "duracao": "Permanente",
+    "resistencia": "—",
+    "descricao": "Você abençoa alimentos e bebidas, purificando-os e tornando-os nutritivos. Alimentos abençoados curam 1 PV por porção consumida e removem venenos e doenças naturais presentes nos alimentos. Criaturas malignas ou mortos-vivos não recebem benefício dos alimentos abençoados.",
+    "aprimoramentos": [
+      "+1 PM: afeta alimentos para +6 pessoas adicionais.",
+      "+2 PM: cada porção cura 1d6 PV em vez de 1.",
+      "+3 PM: os alimentos também removem as condições envenenado e enfermo de quem os consumir."
+    ]
+  },
+  {
+    "id": "acalmar-animal",
+    "nome": "Acalmar Animal",
+    "tipo": "divina",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 animal",
+    "duracao": "Cena",
+    "resistencia": "Vontade anula",
+    "descricao": "O animal fica prestativo em relação a você. Ele não fica sob seu controle, mas percebe suas palavras e ações da maneira mais favorável possível. Você recebe +10 nos testes de Adestramento e Diplomacia que fizer contra o animal.",
+    "aprimoramentos": [
+      "+1 PM: muda o alcance para médio.",
+      "+1 PM: muda o alvo para 1 monstro ou espírito com Int –5 ou –4.",
+      "+2 PM: aumenta o número de alvos em +1.",
+      "+5 PM: muda o alvo para 1 monstro ou espírito. Requer 3º círculo."
+    ]
+  },
+  {
+    "id": "bencao",
+    "nome": "Bênção",
+    "tipo": "divina",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Aliados em área de 9m de raio",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você abençoa seus aliados na área com o favor divino. Eles recebem +1 nas jogadas de ataque e em todas as resistências.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o bônus em +1.",
+      "+1 PM: aliados também recebem +1d4 de dano nos ataques.",
+      "+2 PM: muda o alcance para médio."
+    ]
+  },
+  {
+    "id": "castigar",
+    "nome": "Castigar",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "descricao": "Você canaliza energia divina em um toque poderoso. A criatura sofre 1d8 + seu modificador de Sabedoria (ou Carisma) de dano sagrado (contra criaturas malignas) ou profano (contra criaturas benignas).",
+    "aprimoramentos": [
+      "+1 PM: aumenta o dano em +1d8.",
+      "+2 PM: muda o alcance para curto."
+    ]
+  },
+  {
+    "id": "causar-ferimentos",
+    "nome": "Causar Ferimentos",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura viva",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade reduz à metade",
+    "descricao": "Você canaliza energia negativa para ferir uma criatura viva. Inflige 1d8 + seu atributo de magia pontos de dano. Se usado contra mortos-vivos, cura-os em vez de ferir.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o dano em +1d8.",
+      "+2 PM: muda o alcance para curto."
+    ]
+  },
+  {
+    "id": "consagrar",
+    "nome": "Consagrar",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "1 minuto",
+    "alcance": "Toque",
+    "area": "Área de 9m de raio centrada no ponto tocado",
+    "duracao": "Dia",
+    "resistencia": "Nenhuma",
+    "descricao": "A área fica consagrada à sua divindade. Mortos-vivos e criaturas do alinhamento oposto ao da sua divindade sofrem –1 em todos os testes e nas resistências dentro da área. Aliados que compartilham o alinhamento da divindade recebem +1 em testes de Vontade.",
+    "aprimoramentos": [
+      "+2 PM: mortos-vivos sofrem –2 nos testes dentro da área.",
+      "+3 PM: a duração aumenta para semana.",
+      "+5 PM: a duração aumenta para permanente."
+    ]
+  },
+  {
+    "id": "controlar-plantas",
+    "nome": "Controlar Plantas",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Plantas em área de 9m de raio",
+    "duracao": "Concentração",
+    "resistencia": "—",
+    "descricao": "Você controla plantas naturais na área. Pode fazer com que ramos e raízes se movam para enredar criaturas (Reflexos CD Sab para evitar), criar cobertura vegetal, abrir passagem em vegetação densa, dobrar e moldar plantas em formas úteis.",
+    "aprimoramentos": [
+      "+1 PM: aumenta a área em +3m de raio.",
+      "+2 PM: pode controlar plantas-criaturas com Int –5 ou –4."
+    ]
+  },
+  {
+    "id": "curar-ferimentos",
+    "nome": "Curar Ferimentos",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura viva",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade anula (não hostil)",
+    "descricao": "A criatura recupera 1d8 + seu modificador de atributo de magia (Sabedoria ou Carisma) em PV. Se usada contra mortos-vivos, causa dano sagrado equivalente em vez de curar.",
+    "aprimoramentos": [
+      "+1 PM: aumenta a cura em +1d8.",
+      "+2 PM: muda o alcance para curto.",
+      "+5 PM: muda o alvo para aliados em área de 6m de raio."
+    ]
+  },
+  {
+    "id": "detectar-alinhamento",
+    "nome": "Detectar Alinhamento",
+    "tipo": "divina",
+    "escola": "Adivinhação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você detecta o alinhamento de criaturas e objetos mágicos em alcance curto. Sente a intensidade do alinhamento (Ordeiro/Neutro/Caótico). Com Misticismo CD 15, pode detectar também Bem/Mal se houver.",
+    "aprimoramentos": [
+      "+1 PM: detecta especificamente se a criatura é Boa ou Má além do eixo Ordem/Caos."
+    ]
+  },
+  {
+    "id": "domar-animal",
+    "nome": "Domar Animal",
+    "tipo": "divina",
+    "escola": "Encantamento",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 animal",
+    "duracao": "Permanente",
+    "resistencia": "Vontade anula",
+    "descricao": "O animal fica domesticado e obediente a você. Pode ser treinado como um animal doméstico. O animal é leal até a morte mas não age contra sua natureza básica.",
+    "aprimoramentos": [
+      "+3 PM: pode afetar monstros bestas com Int –4 ou –3."
+    ]
+  },
+  {
+    "id": "orientacao",
+    "nome": "Orientação",
+    "tipo": "divina",
+    "escola": "Adivinhação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Livre",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "1 minuto",
+    "resistencia": "—",
+    "descricao": "Você concede orientação divina à criatura. Ela recebe +1 em um único teste à sua escolha feito durante a duração da magia.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o bônus em +1.",
+      "+2 PM: a criatura pode rolar o teste duas vezes e usar o melhor resultado."
+    ]
+  },
+  {
+    "id": "protecao",
+    "nome": "Proteção",
+    "tipo": "divina",
+    "escola": "Abjuração",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "A criatura recebe +2 na Defesa e nas resistências contra criaturas de um tipo especificado por você (aberrações, animais, construtos, mortos-vivos, etc.).",
+    "aprimoramentos": [
+      "+1 PM: aumenta o bônus em +2.",
+      "+2 PM: muda o alvo para aliados em alcance curto."
+    ]
+  },
+  {
+    "id": "remover-veneno",
+    "nome": "Remover Veneno",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura ou objeto",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Remove um veneno ou doença natural da criatura. A criatura também é curada de qualquer dano de atributo causado pelo veneno ou doença.",
+    "aprimoramentos": [
+      "+2 PM: neutraliza também venenos e doenças mágicas."
+    ]
+  },
+  {
+    "id": "sagrar-arma",
+    "nome": "Sagrar Arma",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Movimento",
+    "alcance": "Toque",
+    "area": "1 arma",
+    "duracao": "Cena",
+    "resistencia": "Nenhuma",
+    "descricao": "A arma fica sagrada (ou profana, se sua divindade for maligna). Ela causa +1d6 de dano sagrado (ou profano) extra contra criaturas do alinhamento oposto. Também é considerada mágica para fins de RD.",
+    "aprimoramentos": [
+      "+1 PM: aumenta o dano extra em +1d6.",
+      "+2 PM: a arma também recebe +1 nas jogadas de ataque e dano."
+    ]
+  },
+  {
+    "id": "aliado-animal",
+    "nome": "Aliado Animal",
+    "tipo": "divina",
+    "escola": "Encantamento",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "1 minuto",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Permanente",
+    "resistencia": "—",
+    "descricao": "Um animal se torna seu companheiro leal e permanente. Você ganha um animal companheiro de ND igual à metade do seu nível (mínimo 1). O animal obedece suas ordens e melhora conforme você ganha níveis.",
+    "aprimoramentos": [
+      "+3 PM: o animal companheiro é de ND igual ao seu nível."
+    ]
+  },
+  {
+    "id": "auxilio",
+    "nome": "Auxílio",
+    "tipo": "divina",
+    "escola": "Encantamento",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "A criatura recebe +1 nas jogadas de ataque, em todas as resistências e ganha +1d8 PV temporários (que são removidos ao final da cena).",
+    "aprimoramentos": [
+      "+1 PM: o bônus aumenta em +1 e os PV temporários aumentam em +1d8."
+    ]
+  },
+  {
+    "id": "controlar-fogo",
+    "nome": "Controlar Fogo",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Fogo em área de 9m de raio",
+    "duracao": "Concentração",
+    "resistencia": "—",
+    "descricao": "Você controla chamas existentes na área. Pode aumentar (dobra tamanho), diminuir ou extinguir o fogo. Pode modelar as chamas, criar paredes de fogo de até 6m de comprimento (3d6 de dano de fogo a quem atravessa, Reflexos CD 15 reduz à metade).",
+    "aprimoramentos": [
+      "+1 PM: pode criar fogo onde não existe (em material inflamável dentro do alcance).",
+      "+2 PM: criaturas que falharem nos Reflexos ao atravessar uma parede de fogo pegam fogo (1d6 dano por round até apagado)."
+    ]
+  },
+  {
+    "id": "controlar-madeira",
+    "nome": "Controlar Madeira",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Objetos de madeira em área de 9m de raio",
+    "duracao": "Concentração",
+    "resistencia": "Vontade anula (objetos segurados)",
+    "descricao": "Você controla madeira na área. Pode dobrar, torcer ou quebrar objetos de madeira, criar barreiras de madeira de até 3m, ou fazer raízes e galhos crescerem para enredar criaturas (Reflexos CD Sab).",
+    "aprimoramentos": [
+      "+2 PM: pode controlar árvores vivas (como se fossem apenas madeira não-mágica)."
+    ]
+  },
+  {
+    "id": "curar-ferimentos-em-massa",
+    "nome": "Curar Ferimentos em Massa",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Aliados em área de 6m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade anula (não hostil)",
+    "descricao": "Todos os aliados na área recuperam 1d8 + seu modificador de atributo de magia PV.",
+    "aprimoramentos": [
+      "+1 PM: aumenta a cura em +1d8."
+    ]
+  },
+  {
+    "id": "invocar-relampago",
+    "nome": "Invocar Relâmpago",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Longo",
+    "area": "Relâmpagos (1 por round)",
+    "duracao": "Concentração",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Você invoca nuvens de tempestade sobrenaturais. A cada round, como ação livre, você pode chamar um relâmpago que atinge um ponto dentro do alcance, infligindo 3d6 de dano elétrico em raio de 1,5m.",
+    "aprimoramentos": [
+      "+2 PM: o dano aumenta para 5d6 por relâmpago.",
+      "+1 PM: você pode chamar 2 relâmpagos por round."
+    ]
+  },
+  {
+    "id": "silencio",
+    "nome": "Silêncio",
+    "tipo": "divina",
+    "escola": "Ilusão",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Área de 6m de raio",
+    "duracao": "Concentração",
+    "resistencia": "Vontade anula (criaturas)",
+    "descricao": "Nenhum som pode ser criado ou transmitido dentro da área de efeito. Criaturas dentro da área não conseguem lançar magias com componente verbal. Ideal para evitar alarmes e comunicação.",
+    "aprimoramentos": [
+      "+2 PM: criaturas dentro da área também ficam ensurdecidas mesmo que passem na resistência."
+    ]
+  },
+  {
+    "id": "vitalidade",
+    "nome": "Vitalidade",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "A criatura recupera 1d8 PV e fica energizada: recebe +2 em For e Con durante a cena.",
+    "aprimoramentos": [
+      "+1 PM: aumenta a cura em +1d8 e o bônus em +1."
+    ]
+  },
+  {
+    "id": "controlar-agua",
+    "nome": "Controlar Água",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Longo",
+    "area": "Massa de água em área de 30m de raio",
+    "duracao": "Concentração",
+    "resistencia": "—",
+    "descricao": "Você controla água na área. Pode elevar ou rebaixar o nível em até 3m por round (máximo 9m de diferença), criar correntes e redemoinho, ou dividir águas criando um corredor seco de até 3m de largura.",
+    "aprimoramentos": [
+      "+2 PM: você pode caminhar sobre a superfície da água durante a cena.",
+      "+3 PM: a área de controle aumenta para 90m de raio."
+    ]
+  },
+  {
+    "id": "controlar-terra",
+    "nome": "Controlar Terra",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Médio",
+    "area": "Terra em área de 9m de raio",
+    "duracao": "Concentração",
+    "resistencia": "Reflexos anula (enredar)",
+    "descricao": "Você controla pedra e terra na área. Pode criar tremores (criaturas fazem Reflexos CD Sab ou caem), elevar ou rebaixar o terreno em até 1,5m, criar paredes de terra de até 1,5m de altura e 6m de comprimento, ou fazer o chão prender criaturas.",
+    "aprimoramentos": [
+      "+2 PM: pode mover e modelar pedra sólida (criar esculturas, selar portas de pedra, etc.).",
+      "+3 PM: cria um tremor de terra que afeta área de 18m de raio."
+    ]
+  },
+  {
+    "id": "criar-alimento",
+    "nome": "Criar Alimento",
+    "tipo": "divina",
+    "escola": "Conjuração",
+    "circulo": 3,
+    "pm": 2,
+    "execucao": "1 minuto",
+    "alcance": "Toque",
+    "area": "—",
+    "duracao": "1 dia",
+    "resistencia": "—",
+    "descricao": "Você cria alimentos e bebidas simples mas nutritivos suficientes para alimentar até 15 pessoas por um dia completo.",
+    "aprimoramentos": [
+      "+1 PM: alimenta +15 pessoas.",
+      "+3 PM: o alimento equivale a uma refeição revitalizante (remove fadiga e exaustão)."
+    ]
+  },
+  {
+    "id": "cura-plena",
+    "nome": "Cura Plena",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade anula (não hostil)",
+    "descricao": "A criatura recupera todos os seus PV. Remove também as condições envenenado, doente e abalado.",
+    "aprimoramentos": [
+      "+2 PM: muda o alcance para curto.",
+      "+5 PM: muda o alvo para aliados em área de 6m de raio."
+    ]
+  },
+  {
+    "id": "purificar",
+    "nome": "Purificar",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 3,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura ou área de 9m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude anula",
+    "descricao": "Remove maldições e estados negativos mágicos. Também limpa venenos, doenças e contaminações sobrenaturais. Maldições mais poderosas podem exigir testes de Misticismo para serem removidas.",
+    "aprimoramentos": [
+      "+3 PM: remove também maldições lançadas por feiticeiros de 10º nível ou acima."
+    ]
+  },
+  {
+    "id": "ressuscitar-animal",
+    "nome": "Ressuscitar Animal",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "1 minuto",
+    "alcance": "Toque",
+    "area": "1 animal morto",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Você traz um animal de volta à vida. O animal deve ter morrido há no máximo 1 dia por nível do lançador. Retorna com 1 PV e fica fragilizado por 1 semana (–2 em todos os testes). Requer o corpo intacto.",
+    "aprimoramentos": [
+      "+2 PM: o prazo máximo aumenta para 1 semana por nível."
+    ]
+  },
+  {
+    "id": "conjurar-mortos-vivos",
+    "nome": "Conjurar Mortos-Vivos",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Mortos-vivos convocados",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você convoca mortos-vivos para servi-lo. Pode conjurar mortos-vivos com ND total igual ao seu nível (ex: 8º nível = ND 8 total, como dois ND 4 ou oito ND 1). Os mortos-vivos seguem suas ordens e desaparecem ao final da cena.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o ND total disponível em +2.",
+      "+5 PM: os mortos-vivos permanecem por 1 hora."
+    ]
+  },
+  {
+    "id": "controlar-clima",
+    "nome": "Controlar o Clima",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "10 minutos",
+    "alcance": "Especial",
+    "area": "Área de 1,5km de raio",
+    "duracao": "4 horas",
+    "resistencia": "—",
+    "descricao": "Você controla o clima em uma enorme área. Pode criar tempestades com raios (1d6 dano/round a quem estiver ao ar livre), neblina densa (visibilidade 6m), ventos fortes (desvantagem em ataques com projéteis), chuva ou neve intensa (-2 em Percepção), calor extremo ou frio extremo. Leva 1d4x10 minutos para o clima mudar.",
+    "aprimoramentos": [
+      "+3 PM: a duração aumenta para 8 horas.",
+      "+5 PM: a área aumenta para 5km de raio."
+    ]
+  },
+  {
+    "id": "milagre-menor",
+    "nome": "Milagre Menor",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 4,
+    "pm": 5,
+    "execucao": "Padrão",
+    "alcance": "Especial",
+    "area": "Especial",
+    "duracao": "Especial",
+    "resistencia": "Especial",
+    "descricao": "Você pede um favor menor à sua divindade. O milagre menor pode: duplicar os efeitos de qualquer magia divina de até 3º círculo; criar um efeito único com poder equivalente (aprovado pelo Mestre); ou conceder um bônus de +4 em qualquer teste para o qual sua divindade é protetora. A divindade pode negar se a relação com o devoto não for boa.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "ressuscitar",
+    "nome": "Ressuscitar",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 4,
+    "pm": 5,
+    "execucao": "10 minutos",
+    "alcance": "Toque",
+    "area": "1 criatura morta",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Você traz uma criatura de volta à vida. Ela deve ter morrido há no máximo 1 semana por nível do lançador. A criatura retorna com 1 PV e perde 1 ponto permanente de Constituição. Criaturas que morreram de velhice não podem ser ressuscitadas por esta magia.",
+    "aprimoramentos": [
+      "+5 PM: o prazo máximo não tem limite.",
+      "+3 PM: a criatura retorna sem perder pontos de Constituição."
+    ]
+  },
+  {
+    "id": "grande-cura",
+    "nome": "Grande Cura",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 5,
+    "pm": 6,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "Aliados em área de 9m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Todos os aliados na área recuperam todos os seus PV e são completamente curados de qualquer condição negativa não permanente (venenos, doenças, maldições de nível inferior ao 5º círculo, etc.).",
+    "aprimoramentos": []
+  },
+  {
+    "id": "milagre",
+    "nome": "Milagre",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 5,
+    "pm": 10,
+    "execucao": "Padrão",
+    "alcance": "Especial",
+    "area": "Especial",
+    "duracao": "Especial",
+    "resistencia": "Especial",
+    "descricao": "Você pede a intervenção direta da sua divindade. O milagre pode: duplicar qualquer magia divina sem limite de círculo; restaurar à vida alguém que morreu há qualquer tempo; remover qualquer maldição ou doença, incluindo as permanentes; transformar uma área de até 30m de raio de acordo com a vontade da divindade; ou criar qualquer outro efeito com o poder de um deus (aprovado pelo Mestre). A divindade pode exigir uma missão, sacrifício ou prova de fé em troca.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "praga-divina",
+    "nome": "Praga Divina",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 5,
+    "pm": 6,
+    "execucao": "Padrão",
+    "alcance": "Longo",
+    "area": "1 criatura ou área de 30m de raio",
+    "duracao": "Permanente",
+    "resistencia": "Fortitude anula",
+    "descricao": "Você amaldiçoa com uma praga divina. O efeito é determinado pela sua divindade e pode incluir doenças sobrenaturais, maldições, transformações físicas, ou outros efeitos permanentes. A praga só pode ser removida por Milagre ou pela intervenção de um ser divino poderoso.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "ressurreicao-total",
+    "nome": "Ressurreição Total",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 5,
+    "pm": 8,
+    "execucao": "10 minutos",
+    "alcance": "Toque",
+    "area": "1 criatura morta",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Você traz uma criatura de volta à vida sem nenhuma restrição de tempo, mesmo que o corpo esteja destruído (desde que tenha algum fragmento). A criatura retorna com todos os seus PV, sem perda de Constituição e sem penalidades. Pode trazer de volta criaturas que morreram de velhice, recriando o corpo em sua forma jovem adulta.",
+    "aprimoramentos": []
+  }
+]

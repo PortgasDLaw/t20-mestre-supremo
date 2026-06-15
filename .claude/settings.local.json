@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -c \"import fitz; doc = fitz.open\\('C:/VS.Projetos/T20 - Livro B�sico - Jogo do Ano.pdf'\\); print\\('Total pages:', len\\(doc\\)\\); print\\('Page 1:', doc[0].get_text\\(\\)[:500]\\)\")",
+      "PowerShell(pip install pymupdf 2>&1)",
+      "PowerShell(cd \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; $job = Start-Job { Set-Location \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; npm run dev }; Start-Sleep 5; Receive-Job $job 2>&1)",
+      "PowerShell(cd \"C:\\\\VS.Projetos\\\\t20-mestre-supremo\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'C:\\\\VS.Projetos\\\\t20-mestre-supremo'; npm run dev\")",
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:5173\" -UseBasicParsing -TimeoutSec 5)"
+    ]
+  }
+}

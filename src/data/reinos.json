@@ -1,0 +1,162 @@
+[
+  {
+    "id": "arton-capital", "nome": "Arton (A Capital)", "tipo": "Cidade-Estado",
+    "governo": "Oligarquia de mercadores e nobres",
+    "populacao": "300.000+", "cor": "#c8960c",
+    "historia": "A maior cidade do mundo conhecido. Fundada há mais de mil anos, Arton cresceu como centro comercial e político. Sobreviveu ao Cataclismo graças a suas poderosas muralhas mágicas.",
+    "descricao": "A metrópole mais populosa e poderosa de Arton. Centro de comércio, política e intriga. Cada rua conta uma história de traição e glória.",
+    "cidades": ["A Capital (sede)", "Porto das Brumas", "Vila Ferreiro"],
+    "religiao": ["Valkaria (patrona)", "Allihanna", "Khalmyr", "Marah"],
+    "conflitos": [
+      "Tensão constante entre guildas rivais de mercadores",
+      "Influência crescente de cultos sombrios no submundo",
+      "Disputa territorial com o Grão-Reino"
+    ],
+    "ganchos": [
+      "Um contrabandista desapareceu com informações vitais sobre a guilda dos ladrões",
+      "Um nobre foi encontrado morto com marcas de veneno arcano desconhecido",
+      "Rumores de um portal para o Inferno aberto nos esgotos da cidade baixa",
+      "A Biblioteca Real foi roubada e documentos históricos críticos desapareceram"
+    ]
+  },
+  {
+    "id": "valkaria", "nome": "Valkaria", "tipo": "Cidade Sagrada",
+    "governo": "Teocracia (Patrões divinos)",
+    "populacao": "150.000", "cor": "#f4d03f",
+    "historia": "Cidade dos deuses — ou pelo menos a mais próxima de uma cidade divina. Construída onde a divindade Valkaria desceu ao plano material. Centro do Panteão de Arton.",
+    "descricao": "Cidade brilhante onde os templos se erguem como montanhas de mármore branco. Cada deus do Panteão tem seu grande templo aqui. Peregrinos chegam de todo o mundo.",
+    "cidades": ["Valkaria (capital sagrada)"],
+    "religiao": ["Todos os deuses do Panteão têm representação", "Valkaria é a deusa patrona"],
+    "conflitos": [
+      "Intrigas teológicas entre ordens de diferentes deuses",
+      "Cultistas das Trevas tentam profanar os templos",
+      "Debate sobre um 'novo deus' não reconhecido"
+    ],
+    "ganchos": [
+      "Uma relíquia sagrada de Khalmyr foi roubada durante uma procissão",
+      "Um oráculo previu o 'eclipse dos deuses' sem explicação",
+      "Noviços de um templo menor estão desaparecendo",
+      "Documentos antigos revelam um deus esquecido que quer retornar"
+    ]
+  },
+  {
+    "id": "doherimm", "nome": "Doherimm", "tipo": "Reino Anão",
+    "governo": "Monarquia hereditária (Rei dos Clãs)",
+    "populacao": "80.000 (maioria anão)", "cor": "#8b6914",
+    "historia": "O grande reino subterrâneo dos anões. Fundado há três mil anos nas Montanhas dos Dentes do Mundo. Resistiu a inúmeras invasões orcs e trolls.",
+    "descricao": "Cidades esculpidas em rocha viva, iluminadas por cristais mágicos. Os anões de Doherimm são os melhores ferreiros e engenheiros do mundo.",
+    "cidades": ["Doherimm (capital)", "Forja-Profunda", "Portão de Pedra"],
+    "religiao": ["Khalmyr (deus da lei)", "Tharon (deus da guerra)"],
+    "conflitos": [
+      "Invasões periódicas de orcs pelas passagens do norte",
+      "Disputas entre clãs por poços minerais",
+      "Criaturas profundas (drows, aboleths) de tunéis mais baixos"
+    ],
+    "ganchos": [
+      "Uma mina ancestral foi reaberta revelando ruínas de civilização mais antiga",
+      "O Rei-dos-Clãs está doente e os herdeiros estão em guerra fria",
+      "Um veio de adamante foi descoberto — agora todos querem",
+      "Mortos-vivos surgindo de câmaras seladas por séculos"
+    ]
+  },
+  {
+    "id": "malpetrim", "nome": "Malpetrim", "tipo": "Cidade Livre (Sombria)",
+    "governo": "Anarquia organizada (Guilda dos Ladrões, Assassinos e Comerciantes)",
+    "populacao": "120.000", "cor": "#4a4a8a",
+    "historia": "Fundada por refugiados e foragidos, Malpetrim nunca teve um governo legítimo. A lei é a do mais forte — e o mais forte aqui são as guildas criminosas.",
+    "descricao": "A cidade que não dorme e não tem moral. Escravidão é legal, assassinato é um serviço pago, e tudo tem preço. O ideal para aventureiros sem escrúpulos ou em busca de trabalho sujo.",
+    "cidades": ["Malpetrim (cidade única)"],
+    "religiao": ["Tenebra (escuridão)", "Megalokk (destruição)", "nenhuma oficial"],
+    "conflitos": [
+      "Guerra de guildas pelo controle do porto",
+      "Investigação secreta de Valkaria infiltrando espiões",
+      "Culto das Trevas usando a cidade como base"
+    ],
+    "ganchos": [
+      "Um assassinato 'impossível' — a vítima estava protegida por magia",
+      "Um escravo fugiu com segredos de uma guilda importante",
+      "Informação vendida ao melhor ofertante sobre a localização de um artefato",
+      "Um clérigo de Khalmyr tentando proibir a escravidão está com seus dias contados"
+    ]
+  },
+  {
+    "id": "sultanato-iram", "nome": "Sultanato de Iram", "tipo": "Sultanato",
+    "governo": "Monarquia absoluta (Sultão)",
+    "populacao": "200.000", "cor": "#c0392b",
+    "historia": "Império do deserto fundado por conquistadores de língua árabe. Iram cresceu controlando as rotas comerciais através do Deserto de Areia Dourada.",
+    "descricao": "Cidades de torres brancas e mercados exóticos. Magia de fogo e vento é comum. O Sultão governa com mão de ferro e exércitos de djinn vinculados.",
+    "cidades": ["Iram Al-Zahr (capital)", "Porto das Especiarias", "Cidade das Palmas"],
+    "religiao": ["Tenchi (vento)", "Allihanna (natureza do deserto)", "cultos de djinn"],
+    "conflitos": [
+      "Rebelião de tribos nômades que recusam pagar tributos",
+      "Conspiração para substituir o sultão por um genio vinculado",
+      "Invasão discreta de cultistas das trevas"
+    ],
+    "ganchos": [
+      "Um djinn aprisionado oferece três desejos em troca de libertação",
+      "Caravana desapareceu no deserto com carga valiosa",
+      "O sultão está sendo envenenado lentamente",
+      "Ruínas de uma cidade submergida pela areia surgem após tempestade"
+    ]
+  },
+  {
+    "id": "galrasia", "nome": "Floresta de Galrasia", "tipo": "Nação Élfica",
+    "governo": "Conselho dos Anciãos",
+    "populacao": "40.000 (élficos)", "cor": "#27ae60",
+    "historia": "A mais antiga floresta habitada de Arton. Os elfos de Galrasia vivem há milênios entre as árvores sagradas, guardiões da magia natural.",
+    "descricao": "Floresta de árvores milenares com cidades construídas entre os galhos. Magia druídica permeia cada folha. Estranhos são bem-vindos apenas com guia élfico.",
+    "cidades": ["Galrasia (cidade nas árvores)", "Clareira Prateada"],
+    "religiao": ["Allihanna (natureza)", "Lena (lua)"],
+    "conflitos": [
+      "Madeireiros do Grão-Reino ameaçam a fronteira",
+      "Druidas radicais propondo fechar a floresta completamente",
+      "Criaturas corrompidas por magia negra invadindo do sul"
+    ],
+    "ganchos": [
+      "Uma árvore sagrada começa a murchar sem explicação",
+      "Um elfo banido quer retornar com exército mercenário",
+      "Criança humana adotada por elfos manifesta poderes druídicos",
+      "Portal para o plano natural está se abrindo na floresta"
+    ]
+  },
+  {
+    "id": "reinton", "nome": "Reinton (Grão-Reino)", "tipo": "Monarquia",
+    "governo": "Monarquia constitucional (Rei + Conselho de Lordes)",
+    "populacao": "500.000+", "cor": "#2980b9",
+    "historia": "O maior reino humano de Arton. Fundado após a Grande Guerra, Reinton unificou dezenas de pequenos reinos sob uma única bandeira. O coração da civilização humana.",
+    "descricao": "Vastas planícies agrícolas pontuadas por castelos e cidades medievais. A cavalaria de Reinton é lendária. Leis elaboradas mantêm a ordem.",
+    "cidades": ["Reinton (capital)", "Porto Real", "Cidadela do Norte", "Vila Comercial"],
+    "religiao": ["Khalmyr (lei e justiça)", "Marah (amor)", "Valkaria"],
+    "conflitos": [
+      "Nobreza dividida sobre expansão territorial",
+      "Tensão com Doherimm por direitos minerários",
+      "Invasões orcs nas fronteiras do norte"
+    ],
+    "ganchos": [
+      "O príncipe herdeiro desapareceu durante caçada",
+      "Uma ordem de cavaleiros foi acusada de heresia",
+      "Documentos falsos estão sendo usados para fraudar terras nobres",
+      "Uma profecia antiga indica que o rei atual é ilegítimo"
+    ]
+  },
+  {
+    "id": "tapista", "nome": "Tapista", "tipo": "Nação Secreta",
+    "governo": "Conselho das Sombras (muda identidade constantemente)",
+    "populacao": "Desconhecida", "cor": "#7f8c8d",
+    "historia": "Nação de ninjas e espiões que oficialmente não existe. Tapista fica entre montanhas impenetráveis, conhecida apenas por meio de rumores e pelos agentes que envia.",
+    "descricao": "Sociedade fechada de assassinos, espiões e mestres da furtividade. Qualquer governo do mundo usa seus serviços secretamente.",
+    "cidades": ["Localização desconhecida pelos estrangeiros"],
+    "religiao": ["Tenebra (deusa das sombras e segredos)"],
+    "conflitos": [
+      "Facções internas disputam o controle do Conselho",
+      "Um agente foi capturado e pode revelar segredos",
+      "Contrato em aberto para assassinar um rei"
+    ],
+    "ganchos": [
+      "Os personagens são contratados para encontrar um agente renegado de Tapista",
+      "Documento com nomes de agentes infiltrados está sendo leiloado",
+      "Uma criança está sendo recrutada à força por Tapista",
+      "O grupo recebe um convite misterioso para 'visitar' Tapista"
+    ]
+  }
+]
