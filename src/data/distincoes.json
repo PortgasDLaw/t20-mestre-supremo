@@ -70,15 +70,17 @@
     "nome": "Cavaleiro Negro",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Cavaleiros das terras profanas de Umbralar que abraçaram as trevas. Mortos-vivos imparáveis que potencializam suas capacidades póstumas.",
-    "admissao": "Deve ter morrido e retornado como morto-vivo, ter 8 níveis de personagem e ter feito um pacto com uma entidade das trevas em Umbralar.",
-    "marcaDaDistincao": "Casca Maligna: Ao sofrer dano de trevas, você recebe redução de dano 4 por 1 rodada. Além disso, recebe imunidade a doenças e efeitos de veneno.",
+    "resumo": "Cavaleiros das terras profanas de Umbralar que abraçaram as trevas, tornando-se mortos-vivos. Capacidades intimamente ligadas às dos mirmidões; o primeiro deles foi Drenir, o Mirmidão-Rei. Alguns usam seu poder profano para combater o verdadeiro mal.",
+    "admissao": "Você deve ser um morto-vivo (de qualquer raça e por qualquer método). Deve então provar seu valor a um verdadeiro cavaleiro negro: os mais ousados viajam até Umbralar para aprender com o próprio Drenir, mas seus ensinamentos têm um preço, normalmente pago em almas de criaturas vivas (quanto mais pura a alma, mais valiosa — preferencialmente devotas virgens de Marah ou Lena). Outros cavaleiros negros, como um mirmidão servo de Tenebra que vaga por Arton auxiliando bruxeiros, têm exigências mais brandas.",
+    "marcaDaDistincao": "Vida após a Morte: Você recebe +2 em Fortitude e efeitos de cura de luz não causam mais dano a você (mas você ainda não é curado por eles). Além disso, pode descansar sob qualquer estado para ter os efeitos de um descanso normal.",
     "poderes": [
-      "Aura das Trevas — Criaturas em alcance curto sofrem –2 em testes de ataque e resistência contra você.",
-      "Armadura da Noite — Sua armadura se converte em uma extensão das trevas, recebendo redução de corte, impacto e perfuração 5.",
-      "Cavaleiro Imortal — Quando reduzido a 0 PV, ao invés de morrer, você fica na condição inconsciente por 1d4 rodadas, após isso recupera PV iguais ao seu nível × 2.",
-      "Golpe do Oblívio — Uma vez por rodada ao acertar um ataque, você pode gastar 4 PM para drenar 1d6 PM do alvo e adicionar o dobro ao seu total de PM (máx. seu limite).",
-      "Senhor das Trevas — Você pode gastar uma ação padrão e 5 PM para invocar 1d4+1 esqueletos guerreiros (por 1 cena) que obedecem suas ordens."
+      "Golpe Sombrio — Se estiver empunhando uma arma corpo a corpo, você causa +1d6 pontos de dano de trevas nos seus ataques com ela. Para cada outro poder de cavaleiro negro que possuir, esse dano aumenta em um passo. Se possuir a habilidade Força do Oblívio, em vez do normal, aumente o dano dessa habilidade em um passo. Pré-requisitos: ser morto-vivo, treinado em Luta e Fortitude, proficiência com armas marciais.",
+      "Casca Maligna — Ao sofrer dano de trevas, você recebe redução de dano 4 por 1 rodada. Para cada dois outros poderes que possuir dessa distinção, o ganho de RD aumenta em +2. Pré-requisito: Impacto das Trevas.",
+      "Ginete Sombrio — Você firma um pacto com um Corcel das Sombras iniciante (montaria especial ofertada por Tenebra), mas não perde PM pelo pacto. Se já possuir um parceiro montaria, perde-o e soma os benefícios (não cumulativos, escolha o melhor). Com três outros poderes da distinção, o corcel se torna veterano; com seis, mestre. Pré-requisitos: Golpe Sombrio, Ginete.",
+      "Guilhotina — Armas naturalmente adaptáveis têm o bônus de dano de Manuseio Aperfeiçoado aumentado para +5. Além disso, você é sempre considerado empunhando uma arma adaptável com as duas mãos para habilidades que se beneficiam disso. Pré-requisitos: Golpe Sombrio, Manuseio Aperfeiçoado.",
+      "Impacto das Trevas — Uma vez por rodada, ao fazer um ataque corpo a corpo, você pode gastar PM (limitado pelo total de poderes da distinção que possui). Para cada PM gasto, aumenta o dano de Golpe Sombrio ou Força do Oblívio em +1 dado e criaturas adjacentes ao alvo (incluindo você) sofrem apenas o dano de trevas deste ataque (Reflexos CD For reduz à metade). Pré-requisito: Golpe Sombrio.",
+      "Potência Sombria — Criaturas imunes a dano de trevas ainda sofrem metade do dano que você causar. Além disso, ao causar dano de trevas, você pode escolher não curar a criatura com esse dano (ex.: causar dano de trevas a um osteon sem que ele recupere PV). Pré-requisitos: Carrasco, Casca Maligna.",
+      "Carrasco — Ao fazer um Golpe de Misericórdia, a chance de matar seu alvo instantaneamente aumenta em +25%. Pré-requisito: Guilhotina."
     ]
   },
   {
