@@ -104,20 +104,18 @@
     "nome": "Explorador da Frota",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Exploradores de elite das Montanhas Sanguinárias. Recebem equipamentos exclusivos e acesso a armas de expedição únicas para caçar as maiores ameaças.",
-    "admissao": "Deve completar a admissão da Frota (teste de Sobrevivência CD 25 e derrotar uma ameaça de ND igual ao seu nível), ter 6 níveis e ser treinado em Sobrevivência.",
-    "marcaDaDistincao": "Carta de Expedição: Um pergaminho que serve como credencial de Explorador da Frota. Acesso a equipamentos de expedição e armas exclusivas.",
+    "resumo": "Caçadores e estudiosos da fauna e flora das Montanhas Sanguinárias, baseados na aldeia averiana de Averia. Mantêm o equilíbrio do ecossistema artoniano caçando, capturando e expulsando monstros errantes, e são famosos por fabricar itens de expedição únicos a partir de partes de monstros.",
+    "admissao": "Você deve viajar até uma base da Frota (principalmente em Averia) e se apresentar a um dos anciões averianos, que designará uma criatura perigosa para você caçar sob a tutela de um membro da frota (que apenas instrui e rastreia, sem auxiliar no combate). Com sucesso, deve realizar uma segunda missão de rastreio e captura (não morte) de uma nova ameaça designada. Aprovado pelos anciões, passa um semestre aprendendo a fabricar equipamentos de expedição com partes de monstros e a usar armas, armaduras e itens do ofício. Ao produzir com sucesso sua própria arma de expedição, assina sua carta de expedição em uma última reunião com o ancião e seu tutor, tornando-se oficialmente um explorador.",
+    "marcaDaDistincao": "Treino de Exploração: Você recebe proficiência com itens de expedição (Capítulo 3); esses itens só podem ser comprados, fabricados e usados por quem possui esta distinção.",
     "poderes": [
-      "Armas de Expedição — Você recebe proficiência com armas de expedição (Fuziladora Leve, Fuziladora Pesada, Berrante de Exploração, Glaive Entomática, Lâminachado, Lançanhão, Montanchado).",
-      "Rastreador Supremo — Você recebe +5 em Sobrevivência para rastrear e nunca se perde em biomas selvagens.",
-      "Abate Eficiente — Ao derrotar uma ameaça, você pode extrair ingredientes raros avaliados em até T$ 500 × seu nível.",
-      "Explorador Ágil — Seu deslocamento aumenta em +3m em terreno difícil e você ignora penalidades de terreno.",
-      "Veterano das Sanguinárias — Você recebe redução de dano 5 e é imune a efeitos de medo de criaturas do tipo monstro."
+      "Membro da Frota — Você recebe +5 em testes para rastrear e nas rolagens de dano contra monstros. Ao atacar com uma arma de expedição, pode gastar 3 PM para causar +1d6 de dano ácido, elétrico, de fogo ou frio à escolha, por poder de Explorador da Frota que possuir. Cada arma de expedição tem ainda uma interação única ao ser empunhada por um explorador da frota (Arco das Serpes, Berrante de Caça, Fuzilarco, Glaive Inseto, Lâmina Dínamo, Lâminas Duplas, Lançarma e Transmachado), descritas no Capítulo 3.",
+      "Ataque de Foco — Ao realizar um acerto crítico com uma arma de expedição, você pode gastar 6 PM para dobrar seus valores fixos de dano (exceto ganhos temporários); se possuir dois outros poderes de Explorador da Frota, o custo cai em –1 PM. Pré-requisito: Membro da Frota.",
+      "Parceiros de Frota — Você recebe os serviços de um gatamigo. Se possuir três poderes de Explorador da Frota, também recebe um Seikran, um parceiro montaria único. Pré-requisitos: Membro da Frota, treinado em Adestramento, Cavalgar e Diplomacia."
     ],
     "itens": [
       {
         "nome": "Carta de Expedição",
-        "descricao": "Pergaminho que serve de credencial. Permite acesso a lojas e serviços exclusivos da Frota nas Montanhas Sanguinárias."
+        "descricao": "Pergaminho dado a todos que cumprem a admissão de Explorador da Frota, contendo a assinatura do tutor, do ancião e a sua; ocupa 0,5 espaço e dá acesso aos itens de Expedição do Capítulo 3. Conta com diversas magias e não pode ser falsificada; se perdida ou destruída, uma nova pode ser obtida em uma sede da Frota após 1 semana de espera e T$ 100."
       }
     ]
   },
@@ -142,15 +140,15 @@
     "nome": "Grande Mestre",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "A epítome do combate marcial. Para grandes mestres, as armas são extensões do corpo, não meros instrumentos de guerra.",
-    "admissao": "Deve ter 15 níveis de personagem, ser treinado em ao menos 4 armas diferentes e vencer um duelo contra um guerreiro de renome reconhecido pelo mestre do jogo.",
-    "marcaDaDistincao": "Mestre das Armas: Se uma arma pode ser empunhada, um Grande Mestre saberá como usá-la. Você é considerado proficiente com todas as armas.",
+    "resumo": "Combatentes que alcançam tamanha maestria que deixam de depender de uma arma específica: para um Grande Mestre, qualquer objeto empunhável — de uma garrafa de vinho a uma espada matadora de deuses — pode se tornar uma arma mortal.",
+    "admissao": "Você deve ter uma arma de grande afinidade (herdada, recebida de uma divindade ou forjada por suas próprias mãos) e vencer com ela ao menos dez combates desafiadores junto de seus aliados. Em seguida, deve esquecê-la: vencer novos conflitos perigosos usando armas e equipamentos diferentes a cada vez — de arco e flecha a mosquetes, lutando desarmado ou até com paus e pedras — provando que pode vencer qualquer desafio mesmo sem sua arma mais preciosa. Ao perceber que a maestria não está nas armas, mas em quem as empunha, você se torna sua própria arma e é admitido como Grande Mestre.",
+    "marcaDaDistincao": "Mestre das Armas: Se estiver empunhando uma arma e usar uma habilidade ativada por fazer um ataque ou pela ação agredir, o custo dela diminui em –1 PM. Você não sofre penalidades por usar armas desbalanceadas, improvisadas ou por fazer ataques não letais.",
     "poderes": [
-      "Golpe Perfeito — Uma vez por rodada, ao acertar um ataque, você pode gastar 3 PM para maximizar o dano (sem rolar dados).",
-      "Defesa do Mestre — Sua Defesa aumenta em +4 e você pode usar qualquer arma como se fosse um escudo para efeitos de habilidades.",
-      "Reflexo do Mestre — Uma vez por rodada, como reação, você pode gastar 2 PM para fazer um contra-ataque contra qualquer criatura que te acerte.",
-      "Lenda Marcial — Ao empunhar qualquer arma, ela é considerada mágica e causa +2d6 de dano extra do tipo da arma.",
-      "Golpe Definitivo — Uma vez por aventura, você pode gastar 10 PM para fazer um ataque irresistível: acerto automático (sem rolar dados) que causa o máximo de dano possível + 5d10 adicionais."
+      "Estilo Masterizado — Escolha um poder de estilo que possua; ele recebe um efeito adicional (Estilo de Arma e Escudo: bônus do poder muda para +4 e dano dos escudos +1 dado; Estilo de Arma Longa: +2 no dano e, ao superar a Defesa do alvo por 10+, atravessa-o e acerta uma criatura atrás dele; Estilo de Arremesso: alcance +1 passo, ou +1 dado de dano se já for longo; Estilo de Disparo: ao mirar, +2 no dano e +1 no multiplicador de crítico à distância até o fim do turno; Estilo de Duas Armas: acerto concede +1 dado cumulativo de dano no próximo ataque, limitado pelos poderes de Grande Mestre, até o fim do turno; Estilo de Duas Mãos: +2 em testes de ataque e usa Ataque em Arco/Inércia do Aço sem custo em PM com arma de duas mãos; Estilo de Uma Arma: gaste 2 PM para, ao acertar com arma em uma mão e nada na outra, fazer agarrar como ação livre com a mão livre; Estilo Desarmado: dano desarmado +1 passo, escolhível de novo para +1 passo adicional, e as habilidades desta distinção passam a afetar ataques desarmados se vestir manopla). Para cada dois outros poderes de Grande Mestre, escolhe um efeito adicional. Pré-requisitos: um poder de estilo, proficiência com armas exóticas e de fogo.",
+      "Duelo de Mestres — Uma vez por rodada, ao sofrer um ataque, você pode descrever como desvia dele, impondo –2 no teste do atacante (pode repetir até duas vezes, para –5 e –10); se ainda assim for acertado, a penalidade se converte em ganho na margem de ameaça do atacante. Pré-requisito: quatro outros poderes de Grande Mestre.",
+      "Grão-Mestre das Armas — Escolha um grupo de armas (leves, de uma mão, de duas mãos, de arremesso ou de disparo); você recebe os bônus de Foco em Arma e habilidades similares para todas as armas desse grupo. Pré-requisitos: Estilo Masterizado, Foco em Arma (qualquer arma), ter vencido 25 combates com um único grupo de armas.",
+      "Maestria em Foco — Empunhando uma arma, gaste ação de movimento para receber +1 nos testes de ataque e nas rolagens de dano do próximo ataque feito na rodada; esse bônus aumenta em +1 por outro poder de Grande Mestre que possuir. Pré-requisito: Estilo Masterizado.",
+      "Potencial do Simples — O bônus de Maestria em Foco aumenta em +1 se estiver empunhando uma arma simples, cujo dano também aumenta em um passo; os ganhos dobram se a arma for improvisada. Pré-requisito: Maestria em Foco."
     ]
   },
   {
@@ -174,15 +172,15 @@
     "nome": "Novo Rico",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "A elite comercial de Arton. Personagens que acumularam riqueza e influência suficientes para fazer parte do círculo dos mais poderosos comerciantes do continente.",
-    "admissao": "Deve ter ao menos T$ 100.000 em posses, ter 6 níveis e ser reconhecido por ao menos três nobres ou comerciantes importantes.",
-    "marcaDaDistincao": "Riqueza é Poder: Você recebe +5 em Nobreza e Diplomacia com pessoas que saibam de sua fortuna.",
+    "resumo": "Burgueses e aristocratas de alta densidade comercial que, nascidos em berço de ouro ou enriquecidos por esforço próprio (incluindo a vida de aventureiro), ascendem como os novos governantes do mundo aristocrático artoniano, sempre acompanhados de seu séquito de servos e ajudantes.",
+    "admissao": "Você precisa de uma quantia farta de tibares e de contatos consolidados com figuras de autoridade (comerciantes, nobres, generais, reis ou guildas). Em seguida, precisa de uma fonte de renda estável (herança, negócio próprio lícito ou não, ou aventuras) e de algum ato digno de reconhecimento que lhe confira título e status — possuir um feudo, uma base comercial rica, um ato heróico ou um casamento político servem. Tendo dinheiro, fama e renda, a sociedade passa a considerá-lo um novo rico, restando apenas manter a fortuna em meio às intrigas e conspirações da corte.",
+    "marcaDaDistincao": "Sangue Dourado: Você recebe o poder Sangue Azul (Tormenta20, p. 86); se já o possuir, recebe em vez disso +1 em perícias baseadas em Carisma.",
     "poderes": [
-      "Rede de Contatos — Você pode gastar T$ 1.000 para obter qualquer item não mágico de valor até T$ 5.000 em 1d4 dias.",
-      "Ele é Meu Amigo — Uma vez por cena, você pode estender seus privilégios a um aliado, fazendo-o ser tratado como nobre por 1 cena.",
-      "Investimento — A cada aventura, você recebe T$ 500 × seu nível em renda passiva de seus investimentos.",
-      "Influência Política — Você pode gastar T$ 5.000 para resolver legalmente qualquer conflito com a lei em sua favor.",
-      "Imperador Comercial — Você e seus aliados recebem preços 50% menores em qualquer estabelecimento comercial de Arton."
+      "Séquito — Você recebe um membro do Séquito (Bibliotecário, Especialista, Filósofo, Instrutor Arcano, Instrutor Marcial, Línguista, Médico ou Mestre); para cada outro poder de Novo Rico que possuir, recebe um membro adicional. Os benefícios persistem mesmo que o membro morra, podendo ser substituído em uma cidade por T$ 500. Pré-requisitos: Carisma 3, Autoridade Feudal, treinado em Diplomacia, Enganação e Nobreza.",
+      "Ele é Meu Amigo — Uma vez por cena, por criatura, você pode conceder a um aliado em alcance curto um poder seu (exceto poderes concedidos e da tormenta) ou uma magia até o fim do próximo turno dele, usando o nível e atributo do aliado; o círculo máximo da magia é limitado pela quantidade de outros poderes de Novo Rico que possuir. Pré-requisito: Séquito.",
+      "Empáfia — Você recebe +1 em testes de resistência por poder de Novo Rico que possuir. Pode gastar 1 PM para receber um dado de auxílio (d4) em um teste de resistência e, se ainda falhar, 3 PM para rolar de novo; cada outro poder de Novo Rico permite gastar +2 PM para +1 dado de auxílio adicional. Pré-requisito: Séquito.",
+      "Exército Particular — Seu pelotão de infantaria recebe +2 na Defesa e nas rolagens de dano, com dano base mudado para 2d6+2; para cada dois outros poderes de Novo Rico que possuir, convoca um capanga adicional. Pré-requisitos: Guarda Pessoal, Séquito.",
+      "\"Pff\" — Uma vez por cena, você pode lançar qualquer magia arcana ou divina de até 4º círculo como magia simulada (atributo-chave Carisma). Pré-requisitos: quatro outros poderes de Novo Rico."
     ]
   },
   {
@@ -190,15 +188,15 @@
     "nome": "Virtuoso",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Personagens de virtude excepcional que transcendem os limites normais do bem. Virtuosos sacrificam tudo para servir a uma divindade maior.",
-    "admissao": "Deve ser paladino ou ter ao menos 3 poderes concedidos de uma divindade de alinhamento bom, ter 10 níveis e ter realizado uma ação de sacrifício extremo em prol do bem.",
-    "marcaDaDistincao": "Aura da Virtude: Todos os aliados em alcance curto recebem +1 em testes de resistência e são imunes a efeitos de medo.",
+    "resumo": "Paladinos que se tornam ferramentas vivas do bem divino, sacrificando quase tudo de si — amores, família, vinganças, sonhos — em prol de deuses bondosos; a primeira virtuosa foi Pallasi Dina, seguida por seu marido Pierce, sendo ambos os únicos exemplos conhecidos até hoje.",
+    "admissao": "Não há um caminho fixo, apenas uma regra observada: abnegação genuína em prol de divindades do bem (apenas deuses que canalizam energia positiva, nunca deuses malignos ou neutros como Tanna-Toh). Isso pode exigir abandonar a fé em um único deus para seguir as O&R de várias divindades bondosas, ou sacrificar grandes amores, família, vingança e sonhos pessoais. O processo culmina em um momento de catarse, geralmente diante do sacrifício da própria vida, quando o candidato tem um vislumbre sagrado e ascende temporariamente como um vingador sagrado — marcas dessa ascensão permanecem em seu corpo como sinal de que se tornou um Virtuoso.",
+    "marcaDaDistincao": "Extrema Virtude: Para cada poder de virtude paladinesca que possuir, você recebe +3 PV; para cada poder de julgamento divino que possuir, você recebe +2 PM.",
     "poderes": [
-      "Virtude Exemplar — Você recebe um poder paladinesco adicional de qualquer divindade de alinhamento bom.",
-      "Golpe da Virtude — Uma vez por rodada, ao acertar um ataque, você pode gastar 3 PM para causar +2d8 de luz e deixar o alvo atordoado por 1 rodada (Fort CD Car evita).",
-      "Sacrifício de Virtude — Uma vez por aventura, você pode absorver todo o dano que seria causado a aliados adjacentes em 1 rodada.",
-      "Graça Divina — Você recebe +Car em todos os testes de resistência e é imune a efeitos de encantamento.",
-      "Apoteose Virtuosa — Uma vez por campanha, você pode invocar diretamente o poder de sua divindade para curar todos os aliados a PV máximos e neutralizar todas as condições negativas."
+      "Ferramenta dos Deuses — Você recebe um poder concedido de um deus maior ou menor à escolha que canalize apenas energia positiva. Para cada dois outros poderes de Virtuoso que possuir, recebe um poder concedido adicional. Pré-requisitos: Abençoado, Código do Herói, Sabedoria 3, Carisma 3, dois poderes de virtude paladinesca.",
+      "Arma Vingadora — Os poderes Arma Juramentada e Arma Sacramentada passam a fornecer uma melhoria e um encanto adicional, ganhos que só se perdem por descumprir as O&R uma vez por aventura (não mais a cada violação); se sua arma tiver o encanto Sagrada, os dados de dano desse encanto mudam para d12. Pré-requisitos: Arma Sacramentada, dois outros poderes de Virtuoso.",
+      "Aspecto dos Deuses — Ao usar Vingador Sagrado, pode gastar +10 PM para que sua forma receba auréola e asas, RD 50, deslocamento 36m e maximize os dados extras de Golpe Divino; durante o uso não fica inconsciente e pode usar Cura pelas Mãos como ação livre uma vez por rodada. Se for um Santo, ao usar Vingador Santificado pode gastar +10 PM para receber também os efeitos básicos de Vingador Sagrado na mesma ação. Pré-requisitos: quatro outros poderes de Virtuoso, quatro poderes de virtude paladinesca, Vingador Sagrado ou Santificado.",
+      "Eucaristia — Você recebe um poder de Missa (Tormenta20, p. 58); para cada dois outros poderes de Virtuoso que possuir, recebe um poder de Missa adicional. Pré-requisito: Ferramenta dos Deuses.",
+      "Unção — Gaste uma semana e faça um teste de Religião (CD 30); com sucesso, um equipamento que estiver ungindo se torna Abençoado (armadura ou escudo) ou Sagrado (arma). Pode encantar um número de equipamentos igual à quantidade de poderes de Virtuoso que possui. Pré-requisitos: Ferramenta dos Deuses, treinado em Religião, Virtude Paladinesca: Caridade."
     ]
   },
   {
