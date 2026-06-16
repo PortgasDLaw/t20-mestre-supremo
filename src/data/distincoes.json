@@ -88,31 +88,15 @@
     "nome": "Deicida",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Mortais que se dedicam a matar deuses e usurpar seus poderes. Uma distinção perigosa que atrai a ira dos panteões.",
-    "admissao": "Deve ter derrotado ou auxiliado na derrota de ao menos uma criatura com o subtipo divindade, ter 12 níveis e não possuir qualquer devoção.",
-    "marcaDaDistincao": "Caçador de Deuses: Você recebe +2 em testes de ataque e rolagens de dano contra criaturas com o subtipo divindade, celestiais e cultistas.",
+    "resumo": "Inspirados pela lenda de Solace — a primeira a matar um deus e, em consequência, tornar-se a deusa menor do Oblívio, aprisionada em Umbralar —, deicidas são mortais que dedicam sua existência a destruir divindades e usurpar sua essência, desafiando a ordem cósmica e atraindo sobre si o ódio de panteões inteiros.",
+    "admissao": "Durante todo o processo, você não pode se devotar a nenhuma divindade — e se já for devoto, deve violar consciente e progressivamente as obrigações de sua fé até perder seus poderes, agindo sem qualquer auxílio divino e sem criar empatia ou compaixão por devotos ou criaturas divinas. Movido por ódio ao divino, vingança, descrença ou desejo megalomaníaco de poder (nunca por um bem maior ou fama), deve agir de forma incógnita, eliminando tudo que seja minimamente importante para o deus que pretende destruir — seu culto, seu paladino único, figuras de seu alto clero ou pessoas queridas — sendo o alvo final sempre uma divindade de peso e influência reais, nunca um deus menor insignificante. Por fim, trava um combate direto e decisivo contra essa divindade (podendo contar com aliados) e, ao matá-la, sente o chamado do Oblívio e usurpa sua essência divina, tornando-se um deicida. Quem se tornar uma divindade menor não pode mais ingressar nessa distinção.",
+    "marcaDaDistincao": "Algoz Divino: Você recebe +5 em testes de resistência contra efeitos divinos, de suas criaturas e de devotos. Além disso, sofre as restrições de Ódio dos Deuses: não pode ter nenhuma devoção; não pode mais lançar magias divinas (exceto se for um usurpador); a atitude de todas as criaturas divinas e devotos sempre é uma categoria pior (devotos da divindade que matou sempre são hostis a você, sem excessão); e sofre –5 em testes de perícias baseadas em Carisma, exceto Intimidação, contra devotos e criaturas divinas — penalidade que aumenta em 1 para cada poder dessa distinção que possuir, e em +5 se tiver matado um deus maior.",
     "poderes": [
-      "Absorver o Divino — Ao matar uma criatura com subtipo divindade, você pode absorver um de seus poderes concedidos permanentemente.",
-      "Blasfêmia — Uma vez por cena, você pode proferir uma blasfêmia que causa 2d10 de dano de trevas a todos os devotos e cultistas em alcance médio (Vontade CD Car reduz à metade).",
-      "Resistência Divina — Você recebe resistência a magias divinas +5 e imunidade a efeitos de medo de criaturas divinas.",
-      "Golpe Mortal dos Deuses — Uma vez por rodada ao acertar um ataque crítico, você pode gastar 5 PM para multiplicar o dano do crítico por 3 (em vez de 2).",
-      "Ascensão Proibida — Uma vez por aventura, ao matar uma divindade menor, você pode absorver parte de sua essência, recebendo +2 em um atributo e +10 PM permanentemente."
-    ]
-  },
-  {
-    "id": "cacador-sombras",
-    "nome": "Caçador das Sombras",
-    "tipo": "distinção",
-    "fonte": "Mitos de Arton",
-    "resumo": "Guardiões secretos que lutam contra o crepúsculo, revelando-se apenas para enfrentar as maiores ameaças das trevas. Portadores da Estrela da Manhã.",
-    "admissao": "Deve ser convocado pelos Belomont ou encontrar a Estrela da Manhã por conta própria, ter 8 níveis e nunca ter servido a Tenebra ou criaturas das trevas.",
-    "marcaDaDistincao": "Irmão das Sombras: Você recebe visão no escuro e pode gastar 1 PM para se tornar invisível até o fim do turno.",
-    "poderes": [
-      "Estrela da Manhã — Você recebe acesso à Estrela da Manhã (mangual banhado em prata). Ela causa +2d6 de dano sagrado contra mortos-vivos.",
-      "Revelação — Uma vez por cena, você pode gastar 2 PM para revelar todas as criaturas invisíveis em alcance médio por 1 rodada.",
-      "Caçador Implacável — Você ignora todas as reduções de dano de mortos-vivos e demônios.",
-      "Sombra Protetora — Você pode gastar 3 PM para mover-se pela sombra teleportando até 9m para qualquer local sombreado.",
-      "Aniquilar as Trevas — Uma vez por aventura, você pode gastar 10 PM para criar uma explosão de luz sagrada que causa 8d8 de luz a todos os mortos-vivos e demônios em alcance médio."
+      "Devorador de Deuses — Ao matar um deus, você recebe seu poder concedido, podendo manter uma quantidade máxima de poderes dessa forma igual ao total de poderes dessa distinção que possui. Você pode trocar os poderes nos quais se beneficia sempre no início de uma aventura. Pré-requisitos: Car 3, não possuir uma devoção.",
+      "Destruir a Fé — Você pode gastar uma ação de movimento e 5 PM para receber +5 nas suas rolagens de dano e na CD para resistir as suas habilidades contra devotos até o fim da cena. Para cada dois outros poderes de Deicida que possuir, o custo dessa habilidade diminui em –1 PM. Pré-requisito: Devorador de Deuses.",
+      "Emissário da Morte — Quando usa Destruir a Fé, o poder passa a funcionar contra qualquer criatura divina. Além disso, você pode usar Fé Usurpada contra essas criaturas, mas em vez de roubar poderes concedidos, você aumenta seus PM máximos em +1. Pré-requisito: Destruir a Fé, Fé Usurpada.",
+      "Fé Usurpada — Ao matar um devoto de um deus maior, você pode gastar 6 PM e fazer um teste de Vontade (CD 15 + ND da criatura). Se passar, você recebe um poder concedido a sua escolha da divindade da qual a criatura era devoto. Você pode roubar poderes adicionais dessa forma, limitado a uma quantidade máxima igual ao total de poderes dessa distinção que possui. Para cada poder roubado, a CD desse teste aumenta em +5. Pré-requisito: Destruir a Fé.",
+      "Usurpador Divino — Você é considerado um deus menor de status divino 5 para efeitos baseados nisso, incluindo limites de dádivas. Para cada deus que já matou ou matar, você recebe uma dádiva (exceto Paróquia ou Paladino Único e dádivas que tenham essas como pré-requisito). Se tiver matado um deus maior, recebe duas dádivas. Pré-requisitos: Emissário da Morte, ter matado cinco ou mais deuses de status divino 3 ou maior."
     ]
   },
   {
@@ -170,38 +154,6 @@
     ]
   },
   {
-    "id": "ilusionista-circense",
-    "nome": "Ilusionista Circense",
-    "tipo": "distinção",
-    "fonte": "Mitos de Arton",
-    "resumo": "Artistas macabros a serviço de Tenebra. Criadores de ilusões perturbadoras que mesclam entretenimento com horror.",
-    "admissao": "Deve ser devoto de Tenebra, ter 8 níveis e ter se apresentado em ao menos 3 cenas como artista enquanto usava suas ilusões para causar efeitos mecânicos.",
-    "marcaDaDistincao": "Show Macabro: Você recebe +2 em Atuação e pode usar Atuação para causar medo em criaturas (Vontade CD Car evita).",
-    "poderes": [
-      "Truques Circenses — Você pode lançar magias simuladas de 1º círculo de ilusão e encantamento sem gastar PM (1× por rodada).",
-      "Ilusão Real — Suas magias de ilusão causam dano real igual a metade do dano que causariam se fossem reais.",
-      "Palco do Terror — Uma vez por cena, você pode criar uma área de ilusão em 9m de raio que causa terror em todos que entram (Vontade CD Car evita).",
-      "Prestidigitação Mortal — Uma vez por rodada, você pode gastar 2 PM para conjurar um objeto ilusório como arma que causa 1d8 + Car de dano de ilusão (não reduzido por RD).",
-      "Grande Espetáculo — Uma vez por aventura, você pode gastar 10 PM para criar uma ilusão tão convincente que afeta a realidade, causando os efeitos de uma magia de até 3° círculo sem custo adicional."
-    ]
-  },
-  {
-    "id": "martir",
-    "nome": "Mártir",
-    "tipo": "distinção",
-    "fonte": "Mitos de Arton",
-    "resumo": "Aqueles que sacrificam tudo em prol de uma causa nobre. Um mártir sabe reconhecer quando um novo candidato está prestes a surgir e os orienta no caminho do sacrifício.",
-    "admissao": "Deve ter sofrido algum sacrifício significativo (perda de PV máximos, atributo ou aliado) em prol de inocentes, ter 8 níveis e ser devoto de uma divindade de alinhamento bom.",
-    "marcaDaDistincao": "Sacrifício Sagrado: Ao ser reduzido a 0 PV, você pode gastar 5 PM para se manter com 1 PV e transferir a cura que receberia para aliados adjacentes.",
-    "poderes": [
-      "Absorver o Dano — Uma vez por rodada, como reação, você pode absorver o dano de um aliado adjacente pagando metade em PM (máx. seu nível em PM).",
-      "Inspiração do Mártir — Aliados que testemunham seu sacrifício recebem +2 em testes de ataque e resistência por 1 cena.",
-      "Ressureição — Uma vez por aventura, ao morrer, você ressurge com PV iguais ao seu nível × 5 após 1d4 rodadas.",
-      "Bênção do Sacrifício — Criaturas que você cura recebem o dobro do efeito normal das curas.",
-      "Sacrifício Final — Uma vez por campanha, você pode se sacrificar completamente para salvar todos os aliados de uma morte certa, estabilizando-os automaticamente."
-    ]
-  },
-  {
     "id": "mestre-totemico",
     "nome": "Mestre Totêmico",
     "tipo": "distinção",
@@ -234,22 +186,6 @@
     ]
   },
   {
-    "id": "profanador",
-    "nome": "Profanador",
-    "tipo": "distinção",
-    "fonte": "Mitos de Arton",
-    "resumo": "Aqueles que descobriram que os corpos das criaturas artonianas podem ser usados para magia sombria. Coletores de almas e corpos para alimentar seus poderes.",
-    "admissao": "Deve ter praticado necromancia ao menos 3 vezes em jogo, ter 8 níveis e receber a aprovação de uma entidade das trevas.",
-    "marcaDaDistincao": "Extração Sombria: Você pode gastar uma ação de movimento para coletar as almas de criaturas mortas próximas, recebendo 1 PM temporário por ND da criatura (máx. seu nível em PM).",
-    "poderes": [
-      "Mácula Crescente — Você aprende uma magia de necromancia e pode lançá-la gastando –1 PM por nível de profanador.",
-      "Manipular Mortos-Vivos — Você pode controlar mortos-vivos sem ser devoto de Tenebra, usando Misticismo como atributo-chave.",
-      "Dreno Vital — Uma vez por rodada, ao acertar um ataque, você pode gastar 2 PM para drenar 1d8 PV do alvo e absorvê-los como PV temporários.",
-      "Corpo Profanado — Seu corpo começa a se transformar em morto-vivo. Você recebe redução de dano mundano 5 e imunidade a venenos.",
-      "Profanação Total — Uma vez por aventura, você pode gastar 10 PM para transformar todos os cadáveres em alcance médio em mortos-vivos sob seu controle."
-    ]
-  },
-  {
     "id": "virtuoso",
     "nome": "Virtuoso",
     "tipo": "distinção",
@@ -263,28 +199,6 @@
       "Sacrifício de Virtude — Uma vez por aventura, você pode absorver todo o dano que seria causado a aliados adjacentes em 1 rodada.",
       "Graça Divina — Você recebe +Car em todos os testes de resistência e é imune a efeitos de encantamento.",
       "Apoteose Virtuosa — Uma vez por campanha, você pode invocar diretamente o poder de sua divindade para curar todos os aliados a PV máximos e neutralizar todas as condições negativas."
-    ]
-  },
-  {
-    "id": "visir-valquirias",
-    "nome": "Visír das Valquírias",
-    "tipo": "distinção",
-    "fonte": "Mitos de Arton",
-    "resumo": "Guerreiros escolhidos pelas valquírias de Alstra para servir como seus representantes em Arton, recebendo uma Espada Visír como símbolo de seu cargo.",
-    "admissao": "Deve ter impressionado ao menos uma valquíria em combate, ser um guerreiro exemplar com 8 níveis e receber a Espada Visír em cerimônia formal em Alstra.",
-    "marcaDaDistincao": "Espada Visír: Espada cerimonial entregue na admissão. Única forma de obtê-la. Ao obtê-la, recebe +2 em testes de ataque com espadas e +1d8 extra de eletricidade.",
-    "poderes": [
-      "Protetor das Valquírias — Aliados com asas recebem +2 na Defesa enquanto você estiver adjacente a elas.",
-      "Voo Concedido — Você pode gastar 3 PM para ganhar deslocamento de voo de 9m por 1 minuto.",
-      "Golpe Visír — Uma vez por rodada, ao acertar um ataque, você pode gastar 2 PM para deixar o alvo desarmado (Reflexos CD Des evita).",
-      "Honra Inabalável — Você é imune a efeitos de encantamento e charme de qualquer origem.",
-      "Lança da Valquíria — Você se torna proficiente com a Lança Valquíriana e ao empunhá-la recebe +2 em testes de ataque e +1d10 extra de perfuração."
-    ],
-    "itens": [
-      {
-        "nome": "Espada Visír",
-        "descricao": "Espada cerimonial única dada na admissão. Fornece +2 em testes de ataque e +1d8 de eletricidade. Acessório — preço incalculável (única peça)."
-      }
     ]
   },
   {
