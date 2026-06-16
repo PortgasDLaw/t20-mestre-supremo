@@ -115,15 +115,19 @@
       "indumentaria": "Peças de couro (raramente de dragões), adornado com ouro e joias lapidadas. Os mais tradicionais adornam apenas o corpo com joias e metais preciosos.",
       "obrigacoesRestricoes": "Deve tratar dragões e criaturas dracônicas com reverência, matando-os apenas em último caso. Deve definir um covil e armazenar metade de tudo que ganhar.",
       "brando": "Mesmas do devoto brando de Kallyadranoch.",
-      "fundamentalista": "Não matam dragões ou criaturas dracônicas (kobolds, kallyanachs, etc.).",
+      "fundamentalista": "Não matam dragões ou criaturas dracônicas (kobolds, kallyanachs, etc.) — o mestre tem a palavra final sobre o que é uma criatura associada a dragões. Além disso, uma vez que encontre um dragão, deve cumprir um favor em seu nome.",
       "fonte": "Mitos de Arton"
     },
     {
       "id": "druida-lena",
       "divindade": "Lena",
       "titulo": "Druida de Lena",
-      "descricao": "Preserva a vida de todos os seres. Como os demais druidas, tem acesso aos poderes concedidos de Lena.",
-      "fonte": "Mitos de Arton"
+      "descricao": "Preserva a vida de todos os seres — desde animais feridos a plantas machucadas. Guerreiros da natureza que servem de cruzada contra a tormenta e mortos-vivos, sem abrir mão da cura e germinação da vida.",
+      "fonte": "Mitos de Arton",
+      "indumentaria": "Túnicas verdes e longas de materiais naturais, adornadas com ervas e unguentos, e bolsas de linho cheias de medicamentos naturais.",
+      "obrigacoesRestricoes": "Deve garantir a proliferação da vida: uma vez por mês (ou sessão), germinar uma planta ou auxiliar no nascimento de uma criatura viva. Proibida de matar, causar perda de vida ou dano letal a qualquer criatura viva. Somente mulheres podem ser druidas de Lena; antes de receber seus poderes, devem ter cultivado o equivalente a um campo pequeno de plantas.",
+      "brando": "Como as O&R acima, exceto pela proibição de causar dano letal (pode causar dano letal a criaturas).",
+      "fundamentalista": "Proibida de se associar a qualquer devoto de Aharadak, Tenebra, criaturas da tormenta e mortos-vivos; deve atacar e destruir todos que encontrar. Criaturas da tormenta não são consideradas \"criaturas vivas\" para efeito das O&R de Lena."
     }
   ],
   "novosPaladinos": [
@@ -163,6 +167,17 @@
       "divindade": "Aharadak",
       "titulo": "Vingador de Aharadak",
       "descricao": "Figura trágica de desilusão e desespero. Surge quando um paladino é manipulado pela tormenta ao ver seus dogmas se tornarem impossíveis. Acredita que pode usar o poder profano para fazer o bem — ao menos inicialmente.",
+      "fonte": "Mitos de Arton",
+      "indumentaria": "Vestimentas em vermelho vivo por baixo de armaduras pesadas, escudos e equipamentos feitos de matéria vermelha, com olhos adornados com bocarras afiadas em locais específicos.",
+      "fundamentalista": "Como o sacerdote (fundamentalista de Aharadak)."
+    },
+    {
+      "id": "vingador-arsenal",
+      "divindade": "Arsenal",
+      "titulo": "Vingador de Arsenal",
+      "descricao": "Ressentidos com o conformismo dos paladinos, os vingadores de Arsenal julgam que a vitória deve vir acima de qualquer código de honra ou justiça — o mal é esmagado com todas as armas disponíveis. Para eles, compaixão é fraqueza, diplomacia é covardia, e quem convence com palavras merece ser subjugado.",
+      "indumentaria": "Armaduras pesadas empunhando duas armas enquanto carregam várias outras. O símbolo sagrado é mais reservado nas roupas, mas as cores representativas de Arsenal são constantes em seus trajes.",
+      "fundamentalista": "Como o paladino (fundamentalista de Arsenal).",
       "fonte": "Mitos de Arton"
     },
     {
@@ -198,7 +213,9 @@
       "divindade": "Tenebra",
       "titulo": "Vingador de Tenebra",
       "descricao": "Surgidos em Umbralar, ilha misteriosa cercada por névoa escura. Quando não se tornam mirmidões, fogem e passam a servir Tenebra para manter sua sanidade. Personalidade melancólica e taciturna — felicidade e boas memórias parecem apagadas, deixando traumas, pesadelos e medos vívidos.",
-      "fonte": "Mitos de Arton"
+      "fonte": "Mitos de Arton",
+      "indumentaria": "Vestimentas sempre pretas ou em tons de roxo escuro, adornadas com crânios e ossos de criaturas inteligentes; armaduras enegrecidas e sujas de sangue seco.",
+      "fundamentalista": "Não apenas são proibidos de se associar com devotos de Azgher, como devem atacar e destruir todos os que encontrarem. Nunca podem revelar seus rostos para as pessoas, exceto para o sumo-sacerdote, seu cônjuge ou em seu funeral."
     },
     {
       "id": "vingador-thwor",
@@ -207,7 +224,7 @@
       "descricao": "Campeões do deus dos goblinoides. Associados à filosofia do Akzath. Podem substituir Vontade por Intimidação nas perícias iniciais e incluem Vontade nas perícias de classe.",
       "habilidadeEspecial": {
         "nome": "Filosofia de Mudança",
-        "descricao": "Gaste ação padrão e 3 PM para impor a força da roda do Akzath sobre criatura em alcance curto. Faça Intimidação oposta a Vontade da criatura — se vencer, aplica penalidade da roda externa; se falhar por 10+, também penalidade da roda interna.",
+        "descricao": "Você pode gastar uma ação padrão e 3 PM para impor a força da roda do Akzath sobre uma criatura em alcance curto. Faça um teste de Intimidação oposto ao teste de Vontade da criatura — se vencer, ela sofre uma penalidade da roda externa associada à parte em que ela está mais envolvida (a critério do mestre). Se falhar por 10 ou mais, também sofre uma penalidade da roda interna vinculada ao efeito externo. A cada quatro níveis, você pode gastar +2 PM para receber +5 no teste de Intimidação ao usar essa habilidade. Devotos de Thwor, goblinoides e bugbears têm +5 cumulativo nos testes de Vontade contra essa habilidade. A partir do 9º nível, você pode gastar +3 PM para afetar todas as criaturas escolhidas em alcance curto.",
         "rodaExterna": [
           "Vida: alvo perde 1d4 PV por rodada; você recupera a mesma quantidade.",
           "Ignorância: CD das habilidades do alvo diminui –2 (cumulativo).",
