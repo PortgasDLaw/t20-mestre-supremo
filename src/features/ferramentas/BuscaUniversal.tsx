@@ -10,8 +10,10 @@ import ameacasData from '@/data/ameacas.json'
 import reinosData from '@/data/reinos.json'
 import distincoesData from '@/data/distincoes.json'
 import deusesData from '@/data/deuses_menores.json'
+import itensMagicosData from '@/data/itensMagicos.json'
+import poderesConcedidosData from '@/data/poderesConcedidos.json'
 
-type ResultType = 'equipamento' | 'magia' | 'condicao' | 'ameaca' | 'reino' | 'distincao' | 'deus'
+type ResultType = 'equipamento' | 'magia' | 'condicao' | 'ameaca' | 'reino' | 'distincao' | 'deus' | 'itemMagico' | 'poderConcedido'
 
 interface Resultado {
   id: string
@@ -24,12 +26,12 @@ interface Resultado {
 
 const tipoColor: Record<ResultType, 'gold' | 'blood' | 'gray' | 'green' | 'blue' | 'purple'> = {
   equipamento: 'gold', magia: 'purple', condicao: 'blood', ameaca: 'blood', reino: 'blue',
-  distincao: 'gold', deus: 'gray',
+  distincao: 'gold', deus: 'gray', itemMagico: 'green', poderConcedido: 'blue',
 }
 
 const tipoLabel: Record<ResultType, string> = {
   equipamento: 'Equipamento', magia: 'Magia', condicao: 'Condição', ameaca: 'Ameaça', reino: 'Reino',
-  distincao: 'Distinção/Rito', deus: 'Deus Menor',
+  distincao: 'Distinção/Rito', deus: 'Deus Menor', itemMagico: 'Item Mágico', poderConcedido: 'Poder Concedido',
 }
 
 // Build search index
@@ -59,14 +61,43 @@ const allItems: Resultado[] = [
     subtipo: r.tipo, descricao: r.descricao,
     raw: r,
   })),
+  ...(distincoesData as any[]).map(d => ({
+    id: d.id, nome: d.nome, tipo: 'distincao' as ResultType,
+    subtipo: d.tipo === 'rito' ? 'Rito' : 'Distinção', descricao: d.resumo,
+    raw: d,
+  })),
+  ...(deusesData as any[]).map(d => ({
+    id: d.id, nome: d.nome, tipo: 'deus' as ResultType,
+    subtipo: d.epiteto, descricao: d.historia,
+    raw: d,
+  })),
+  ...[
+    ...(itensMagicosData as any).encantosArmas || [],
+    ...(itensMagicosData as any).armasEspecificas || [],
+    ...(itensMagicosData as any).encantosArmaduras || [],
+    ...(itensMagicosData as any).armadurasEspecificas || [],
+    ...(itensMagicosData as any).escudosEspecificos || [],
+    ...(itensMagicosData as any).encantosEsotericos || [],
+    ...(itensMagicosData as any).esoteriosEspecificos || [],
+    ...(itensMagicosData as any).encantosAcessorios || [],
+    ...(itensMagicosData as any).acessoriosEspecificos || [],
+    ...(itensMagicosData as any).itensLiturgicos || [],
+    ...(itensMagicosData as any).liturgiaDosRaidos || [],
+    ...(itensMagicosData as any).artefatos || [],
+  ].map((i: any) => ({
+    id: i.id, nome: i.nome, tipo: 'itemMagico' as ResultType,
+    subtipo: i.divindade ? `Litúrgico — ${i.divindade}` : (i.categoria || i.tipo || 'Item Mágico'),
+    descricao: i.descricao,
+    raw: i,
+  })),
+  ...(poderesConcedidosData as any[]).map(p => ({
+    id: p.id, nome: p.nome, tipo: 'poderConcedido' as ResultType,
+    subtipo: Array.isArray(p.divindade) ? p.divindade.join(', ') : p.divindade,
+    descricao: p.descricao,
+    raw: p,
+  })),
 ]
 
-function highlight(text: string, query: string) {
-  if (!query || !text) return text
-  const idx = text.toLowerCase().indexOf(query.toLowerCase())
-  if (idx === -1) return text
-  return text.slice(0, idx) + '**' + text.slice(idx, idx + query.length) + '**' + text.slice(idx + query.length)
-}
 
 export default function BuscaUniversal() {
   const [busca, setBusca] = useState('')
@@ -173,7 +204,7 @@ export default function BuscaUniversal() {
         />
 
         <div className="flex gap-1 flex-wrap">
-          {(['todos', 'equipamento', 'magia', 'condicao', 'ameaca', 'reino'] as const).map(t => (
+          {(['todos', 'equipamento', 'magia', 'condicao', 'ameaca', 'reino', 'distincao', 'deus', 'itemMagico', 'poderConcedido'] as const).map(t => (
             <button key={t} onClick={() => setFiltroTipo(t)}
               className={`px-3 py-1 text-xs font-cinzel rounded border transition-colors ${filtroTipo === t ? 'bg-gold text-abyss-950 border-gold' : 'border-grimoire-600 text-parchment-muted hover:border-gold-700'}`}>
               {t === 'todos' ? 'Todos' : tipoLabel[t]}

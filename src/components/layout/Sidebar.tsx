@@ -3,7 +3,7 @@ import { cn } from '@/utils/cn'
 import {
   LayoutDashboard, Sword, AlertTriangle, Sparkles, Skull, Dices,
   Shield, BookOpen, Users, Map, BookMarked, Wand2, Wrench, Search,
-  ChevronLeft, ChevronRight, Flame, Feather, GraduationCap, Star, Crown
+  ChevronLeft, ChevronRight, Flame, Feather, GraduationCap, Star, Crown, Gem, ScrollText, Zap
 } from 'lucide-react'
 import { useState } from 'react'
 
@@ -19,6 +19,10 @@ const navItems: NavItem[] = [
   { id: 'ameacas', label: 'Ameaças', icon: Skull, group: 'Compêndio' },
   { id: 'distincoes', label: 'Distinções & Ritos', icon: Star, group: 'Mitos de Arton' },
   { id: 'deuses', label: 'Deuses Menores', icon: Crown, group: 'Mitos de Arton' },
+  { id: 'devocaoAlternativa', label: 'Deuses & Devotos', icon: Shield, group: 'Mitos de Arton' },
+  { id: 'itensMagicos', label: 'Itens Mágicos', icon: Gem, group: 'Mitos de Arton' },
+  { id: 'poderesConcedidos', label: 'Poderes Concedidos', icon: Zap, group: 'Mitos de Arton' },
+  { id: 'regrasOpcionais', label: 'Regras Opcionais', icon: ScrollText, group: 'Mitos de Arton' },
   { id: 'encontros', label: 'Gerador de Encontros', icon: Dices, group: 'Ferramentas' },
   { id: 'combate', label: 'Rastreador de Combate', icon: Shield, group: 'Ferramentas' },
   { id: 'tabelas', label: 'Tabelas do Mestre', icon: BookOpen, group: 'Ferramentas' },

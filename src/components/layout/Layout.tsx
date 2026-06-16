@@ -20,6 +20,10 @@ const Racas = lazy(() => import('@/features/compendio/Racas'))
 const Classes = lazy(() => import('@/features/compendio/Classes'))
 const Distincoes = lazy(() => import('@/features/compendio/Distincoes'))
 const DeusesMenores = lazy(() => import('@/features/compendio/DeusesMenores'))
+const ItensMagicos = lazy(() => import('@/features/compendio/ItensMagicos'))
+const PoderesConcedidos = lazy(() => import('@/features/compendio/PoderesConcedidos'))
+const DevocaoAlternativa = lazy(() => import('@/features/compendio/DevocaoAlternativa'))
+const RegrasOpcionais = lazy(() => import('@/features/compendio/RegrasOpcionais'))
 
 const pages: Record<string, React.ReactNode> = {
   dashboard: <Dashboard />,
@@ -27,6 +31,10 @@ const pages: Record<string, React.ReactNode> = {
   classes: <Classes />,
   distincoes: <Distincoes />,
   deuses: <DeusesMenores />,
+  devocaoAlternativa: <DevocaoAlternativa />,
+  itensMagicos: <ItensMagicos />,
+  poderesConcedidos: <PoderesConcedidos />,
+  regrasOpcionais: <RegrasOpcionais />,
   equipamentos: <Equipamentos />,
   condicoes: <Condicoes />,
   magias: <Magias />,

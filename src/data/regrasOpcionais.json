@@ -1,0 +1,246 @@
+[
+  {
+    "id": "ro-poderes-revisados",
+    "categoria": "Poderes Revisados",
+    "nome": "Poderes Revisados",
+    "fonte": "Mitos de Arton",
+    "descricao": "Compilado de poderes do livro básico e suplementos que podem ser modificados para melhor atender os jogadores.",
+    "conteudo": [
+      {
+        "nome": "Inexpugnável (Geral)",
+        "descricao": "Se estiver usando uma armadura pesada, você recebe +2 em todos os testes de resistência. Esse ganho aumenta em +1 para cada outro poder que possua que tenha Encouraçado como pré-requisito.",
+        "prereq": "Encouraçado, 6º nível de personagem"
+      },
+      {
+        "nome": "Educação Privilegiada (Nobre)",
+        "descricao": "Você se torna treinado em duas perícias a sua escolha."
+      },
+      {
+        "nome": "Golpe Elemental (Bardo)",
+        "descricao": "Enquanto sob efeito de Inspiração, gaste 1 PM para causar 1d6 de dano extra de ácido, eletricidade, fogo ou frio em ataques corpo a corpo até o fim da cena. Para cada quatro níveis, gaste +1 PM para aumentar o dano em +1d6.",
+        "prereq": "Golpe Mágico"
+      },
+      {
+        "nome": "Golpe Poderoso (Bárbaro)",
+        "descricao": "Você causa um dado extra de dano do mesmo tipo com armas corpo a corpo e de arremesso."
+      },
+      {
+        "nome": "Paladino do Reino (Paladino)",
+        "descricao": "Você recebe um poder de cavaleiro ou nobre cujos pré-requisitos cumpra, usando seu nível como nível nessas classes.",
+        "prereq": "Treinado em Nobreza"
+      },
+      {
+        "nome": "Superstição (Bárbaro)",
+        "descricao": "Você odeia magia, o que faz com que seja mais resistente a ela. Você recebe resistência a magia +5, mas não pode escolher o poder Totem Espiritual."
+      }
+    ]
+  },
+  {
+    "id": "ro-envolto-misterio",
+    "categoria": "Efeitos Novos de Poderes",
+    "nome": "Envolto em Mistério",
+    "fonte": "Mitos de Arton",
+    "descricao": "Sua aparência e postura assombrosas o permitem manipular e assustar pessoas ignorantes ou supersticiosas. +5 em Enganação e Intimidação contra criaturas inteligentes não treinadas em Conhecimento ou Misticismo, além de benefício específico por caminho de arcanista.",
+    "conteudo": [
+      { "nome": "Arcanista", "descricao": "Pode convencer as pessoas de que é um poderoso arcanista oculto. Ao usar pergaminho contra essas criaturas, pode trocar o teste de Misticismo por Enganação." },
+      { "nome": "Bruxo", "descricao": "Ao lançar magia com foco arcano contra o alvo, gaste 1 PM fazendo movimentos elusivos, aumentando a CD para resistir em +2." },
+      { "nome": "Feiticeiro Abençoado", "descricao": "+5 em Diplomacia e Intimidação contra devotos da divindade que lhe abençoou. Alvos treinados em Religião podem fazer teste (CD Sab) para identificar a farsa." },
+      { "nome": "Feiticeiro Cósmico", "descricao": "Uma vez por rodada, gaste ação padrão e 1 PM, faça Enganação vs. Vontade. Se o alvo falhar, sofre –1 em testes de perícia até o fim da cena (+1 para cada 10 pontos de diferença)." },
+      { "nome": "Feiticeiro Dracônico", "descricao": "Uma vez por cena, gaste ação padrão e 1 PM, faça Enganação vs. Vontade de todas as criaturas na cena. Para cada falha: +1 em resistência a magia e 2 PM temporários cumulativos até o fim da cena." },
+      { "nome": "Feiticeiro Feérico", "descricao": "Uma vez por cena, gaste 1 PM e faça Enganação vs. Vontade de uma criatura. Se passar, a atitude da criatura aumenta em uma categoria e você recebe +5 em Diplomacia contra ela." },
+      { "nome": "Feiticeiro Monstruoso", "descricao": "A CD dos seus efeitos mágicos de medo aumentam em +2. Gaste 1 PM ao lançar magia contra alvo com efeito de medo para fazer teste de Intimidação; para cada 10 pontos, aumente a CD em +1." },
+      { "nome": "Feiticeiro Rubro", "descricao": "+1 em Intimidação para cada poder da tormenta que possuir (limitado pelo Carisma). Este poder passa a contar como da tormenta para você — exceto para perda de Carisma." },
+      { "nome": "Mago", "descricao": "Gaste 1 PM por círculo da magia e faça Enganação vs. Vontade. Se passar, memorize a magia ou lanche-a até o fim da cena (deve ser de círculo que possa lançar)." }
+    ]
+  },
+  {
+    "id": "ro-lendas-historias",
+    "categoria": "Efeitos Novos de Poderes",
+    "nome": "Lendas e Histórias",
+    "fonte": "Mitos de Arton",
+    "descricao": "Você é um arquivo vivo de relatos, canções e folclore. Quando faz um teste de Conhecimento, Misticismo, Nobreza ou Religião, pode gastar 1 PM para rolá-lo novamente, além de benefício específico por raça ou origem.",
+    "conteudo": [
+      { "nome": "Bardo", "descricao": "+5 em Intuição e testes para obter informações. Em ambiente social, pode rolar novamente testes de Diplomacia, Enganação ou Intimidação." },
+      { "nome": "Bruxeiro", "descricao": "+5 em testes para rastrear e pode usar esta habilidade em testes de Sobrevivência. A ação para identificar uma criatura é reduzida em um passo." },
+      { "nome": "Escriba", "descricao": "A CD para fabricar e ler pergaminhos de magias desconhecidas diminui em 5. Pode usar Conhecimento ou Ofício (escriba) no lugar de Misticismo ao usar pergaminhos." }
+    ]
+  },
+  {
+    "id": "ro-suserano",
+    "categoria": "Efeitos Novos de Poderes",
+    "nome": "Suserano",
+    "fonte": "Mitos de Arton",
+    "descricao": "Escolha um membro da nobreza aprovado pelo mestre. Você serve a esse nobre como parte de sua corte. +5 em Diplomacia e Intimidação contra vassalos de nível inferior. Nas terras do suserano: alojamento e alimentação gratuita, além de benefícios conforme o suserano.",
+    "conteudo": [
+      { "nome": "Conselho de Wynlla", "descricao": "Aprende e pode lançar uma magia arcana de 1º círculo (CD Car). A cada quatro níveis após o 1º, aprende magia adicional. A partir do 9º nível, pode aprender magias arcanas de 2º círculo." },
+      { "nome": "Dragão-Rei Sckhar", "descricao": "10% de toda recompensa em tibares deve ser enviada a Sckhar. Uma vez por rodada, gaste 2 PM para receber +5 no próximo teste — exceto testes de ataque." },
+      { "nome": "Pequeno Conselho", "descricao": "+2 em testes de perícia baseadas em Carisma, +5 PV e +3 PM. Enquanto em Deheon, receba um poder geral a sua escolha cujos pré-requisitos cumpra, que perde ao sair do reino." },
+      { "nome": "Rainha-Imperatriz Shivara", "descricao": "+5 em Vontade. Habilidades que fornecem bônus em testes de perícia têm custo reduzido em –1 PM. +1 na margem de ameaça com espadas." },
+      { "nome": "Rainha Ayleth", "descricao": "Ao falhar em um teste (exceto ataque), gaste 2 PM para rolá-lo novamente somando Sabedoria (apenas uma vez por teste). Se o novo teste for pior, fica frustrado até o fim da cena." },
+      { "nome": "Regente Silloherom", "descricao": "+5 em Cavalgar. Enquanto montado: use Cavalgar no lugar de Acrobacia e Atletismo. Em investida montada, dano aumenta em +2 dados do mesmo tipo." },
+      { "nome": "Rei Janz", "descricao": "+5 em Intuição e Nobreza. Contra criaturas desonradas: +2 na Defesa e em testes de ataque." },
+      { "nome": "Rei Roggandin", "descricao": "+1 dado extra de dano com armas e proficiência com armas marciais (ou +1 em testes de ataque se já proficiente). Treinado em Ofício (armeiro), ou +2 se já treinado." },
+      { "nome": "Sir Alenn Toren", "descricao": "Proficiência com armaduras pesadas e +2 PM (aumenta em +1 por cada quatro níveis de vassalo). Em Bielefeld: PM temporários = nível de Vassalo + Carisma." },
+      { "nome": "Thantalla-Dhaedelin", "descricao": "+5 em Enganação e resistência a magia +2. Aprende e pode lançar uma magia de encantamento de 1º círculo (CD Car)." },
+      { "nome": "Triunvirato", "descricao": "+1 em Força e +2 em Intimidação contra criaturas de ND menor. Gaste ação de movimento e 2 PM para capangas receberem +5 nas rolagens de dano até o fim da cena." }
+    ]
+  },
+  {
+    "id": "ro-titulo",
+    "categoria": "Efeitos Novos de Poderes",
+    "nome": "Título",
+    "fonte": "Mitos de Arton",
+    "descricao": "Você adquire um título de nobreza. No início de cada aventura, receba 20 TO por nível ou ajuda de um parceiro veterano, mais benefícios de acordo com o título.",
+    "conteudo": [
+      { "nome": "Barão", "descricao": "Enquanto na região de influência: +2 em quaisquer testes de perícia treinados." },
+      { "nome": "Visconde", "descricao": "Se possuir domínio não místico, todo ganho de LO aumenta em +1. Ganho de TO muda para 25 por nível." },
+      { "nome": "Conde", "descricao": "Ferreiros pessoais que melhoram equipamentos. Escolha uma arma, uma armadura e outro item — cada um recebe uma melhoria gratuita. A partir do 17º nível, um pode receber um encanto gratuito." },
+      { "nome": "Marquês", "descricao": "Escolha uma habilidade de 1º nível de outra classe (exceto Magias). Você recebe a habilidade e ela evolui com seu nível." },
+      { "nome": "Duque", "descricao": "Escolha um parceiro — os benefícios que ele fornece são dobrados." },
+      { "nome": "Arquiduque", "descricao": "Gaste ação de movimento e 3 PM para somar Carisma na Defesa até o fim da cena (cumulativo com outros efeitos)." },
+      { "nome": "Grão-Duque", "descricao": "Bônus de Barão muda para +5, +2 em todos os testes de perícia não treinados na região de influência. Se possuir domínio não místico, o nível máximo dele aumenta em 1." },
+      { "nome": "Marechal", "descricao": "+5 em Guerra e uma ação padrão adicional para comandar capangas. Ao posicionar mais de um capanga, receba 1 capanga adicional." },
+      { "nome": "Conselheiro", "descricao": "Receba uma habilidade de Suserano. Escolha um item para receber um encanto gratuito." },
+      { "nome": "Rei", "descricao": "Se possuir domínio não místico: duas construções gratuitas. Escolha duas habilidades de classe com custo em PM ou quatro magias: custo diminui em –1 PM (cumulativo)." }
+    ]
+  },
+  {
+    "id": "ro-autoridade-feudal",
+    "categoria": "Autoridades Feudais",
+    "nome": "Autoridade Feudal",
+    "fonte": "Mitos de Arton",
+    "descricao": "Você tem certa autoridade em locais onde a sua posição carrega influência. Receba alimentação e acomodação gratuita e pode pedir pequenos favores, mais benefícios conforme o reino ou região. Pré-requisito: 6º nível de cavaleiro ou nobre.",
+    "conteudo": [
+      { "nome": "Ahlen", "descricao": "Escolha duas: Enganação, Furtividade, Jogatina, Ladinagem, Nobreza ou Percepção. Você soma seu Carisma (limitado pelo nível) nessas perícias." },
+      { "nome": "Aslothia", "descricao": "Redução de trevas 5, aprende e pode lançar Conjurar Mortos-Vivos (CD Car) e pode usar aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo do seu nível." },
+      { "nome": "Bielefeld", "descricao": "Armaduras pesadas e escudos fornecem +1 adicional na Defesa. Espadas recebem +2 nas rolagens de dano. Ambos dobram se montado." },
+      { "nome": "Brando", "descricao": "Requisito adicional: ser um moreau. +1 em todos os testes de perícia contra criaturas não-moreaus. +1 adicional contra duyshidakk ou darash; dobra em Moreania." },
+      { "nome": "Deheon", "descricao": "Receba um poder geral (exceto poderes concedidos e da tormenta) cujos pré-requisitos cumpra. Pode ser trocado no início de cada aventura. A partir do 11º nível, pode aumentar um atributo em +1 no lugar do poder." },
+      { "nome": "Deserto da Perdição", "descricao": "Resistência contra efeitos climáticos +5 e +1 em testes de perícia sob luz solar direta. Em Halak-Tûr exposto ao sol: cura acelerada 2/mágico." },
+      { "nome": "Doherimm", "descricao": "+2 em Nobreza e em um Ofício a sua escolha. Compra itens superiores de materiais especiais 20% mais barato em Doherimm." },
+      { "nome": "Império de Tauron", "descricao": "+1 em testes de resistência em alcance curto de aliado com Força menor que a sua. +5 PV no 6º nível e a cada quatro níveis seguintes." },
+      { "nome": "Khubar", "descricao": "Deslocamento de nado 9m (ou +3m se já possuir). Se empunhar um sagna, +1 no bônus de Defesa (dobra em Khubar)." },
+      { "nome": "Laughton", "descricao": "Ao realizar uma busca, role novamente um teste no qual tenha fracassado e é treinado em todas as perícias durante esses testes. Em Moreania: sempre role dois dados e escolha o resultado em encontros aleatórios." },
+      { "nome": "Luncaster", "descricao": "+2 em Sobrevivência e Percepção (+5 em Moreania). Ao acampar, aliados recebem os benefícios de um descanso confortável." },
+      { "nome": "Namalkah", "descricao": "Em Namalkah: gaste ação de movimento e 2 PM para obter cavalos de guerra para você e seu grupo (parceiros iniciantes). Parceiro montaria do tipo cavalo tem +3m no deslocamento em Namalkah." },
+      { "nome": "Nova Malpetrim", "descricao": "+2 em Acrobacia e Atletismo. O tesouro em dinheiro de uma criatura derrotada nunca é menor que normal." },
+      { "nome": "Pondsmânia", "descricao": "Resistência a magia +2 (+5 contra fadas, celestiais e devotos de Nimb ou Wynna). A CD para resistir aos seus efeitos mentais aumenta em +2." },
+      { "nome": "Salistick", "descricao": "Resistência a metabolismo e venenos +5, soma Carisma em efeitos mundanos de cura. Penalidade de –2 em testes contra efeitos divinos." },
+      { "nome": "Sambúrdia", "descricao": "10% de desconto ao comprar itens, vende 10% mais caro. Valores dobram em Sambúrdia. +5 em Diplomacia contra comerciantes e negociantes." },
+      { "nome": "Sckharshantallas", "descricao": "Redução de fogo 5 e +2 nas rolagens de dano contra criaturas maiores. Em Sckharshantallas: resistência a medo +5 contra criaturas dracônicas." },
+      { "nome": "Svalas", "descricao": "Soma Sabedoria (limitada pelo nível) em Conhecimento e Nobreza. Gaste 2 PM para fazer testes dessas perícias sem treinamento. +2 em Fortitude e Vontade." },
+      { "nome": "Tamu-ra", "descricao": "Enquanto se mantiver honrado (sem Enganação, Furtividade, Ladinagem ou ataques desprevenidos), no início de cada combate receba PV temporários = nível + Carisma. Um ato desonrado interrompe isso até o próximo dia." },
+      { "nome": "Trebuck", "descricao": "Ao falhar em um teste, receba +1 cumulativo no próximo teste (exceto ataque/resistência). Ao passar em qualquer teste, os bônus acumulados são perdidos. Dura até o fim da cena (ou do dia em Trebuck)." },
+      { "nome": "Ubani", "descricao": "Escolha ácido, eletricidade, fogo, frio, luz ou trevas. Redução 5 e soma Sabedoria (limitada pelo nível) nos testes de resistência contra efeitos desse tipo." },
+      { "nome": "Wynlla", "descricao": "Aprende e pode lançar uma magia arcana de 1º círculo (CD Car). Pode usar aprimoramentos como um arcanista. Pode usar essa magia de armadura sem testes de Misticismo." },
+      { "nome": "Zakharov", "descricao": "Escolha armas leves, simples, marciais, exóticas ou de fogo. +1 nos testes de ataque e +2 nas rolagens de dano. Dobra em Zakharov." }
+    ]
+  },
+  {
+    "id": "ro-fabricacao-avancada",
+    "categoria": "Fabricação Avançada",
+    "nome": "Fabricação Avançada",
+    "fonte": "Mitos de Arton",
+    "descricao": "Alternativas para fabricar equipamentos e itens sem ser Inventor. Para fabricar um item, você precisa de um espaço adequado, matéria-prima e um teste de Ofício adequado.",
+    "conteudo": [
+      { "nome": "Espaço Adequado", "descricao": "Você não pode fabricar um item em qualquer lugar, precisando de forja, laboratório ou espaço próprio a critério do mestre." },
+      { "nome": "Matéria-Prima", "descricao": "Materiais próprios para produzir o item. Cada conjunto ocupa 1 espaço e custa um terço do valor do item. Materiais especiais ocupam 1 espaço à parte e custam um terço do valor deles." },
+      { "nome": "Teste", "descricao": "1 dia de trabalho (itens consumíveis) ou 1 semana (permanentes). +1 semana por melhoria/encanto. Se passar, fabrica o item; do contrário, gaste +1 semana para tentar novamente." }
+    ],
+    "materiais": [
+      { "nome": "Jóias Brutas", "preco": "T$ 6.000", "descricao": "Armazene 1 PM para energizá-las. Adiciona um encanto extra a item mágico menor." },
+      { "nome": "Peças Élficas", "preco": "T$ 3.000", "descricao": "Adiciona uma melhoria extra a item superior com três melhorias." },
+      { "nome": "Peças Enânicas", "preco": "T$ 2.000", "descricao": "Adiciona uma melhoria extra a item superior com duas melhorias." },
+      { "nome": "Peças Fundidas", "preco": "T$ 75", "descricao": "Adiciona uma melhoria a item mundano ou mágico (sem melhorias)." },
+      { "nome": "Peças Temperadas", "preco": "T$ 900", "descricao": "Adiciona uma melhoria extra a item superior com uma melhoria." },
+      { "nome": "Pedras Dracônicas", "preco": "T$ 12.000", "descricao": "Armazene 1 PM para energizá-las. Adiciona um encanto extra a item mágico médio." },
+      { "nome": "Pepitas", "preco": "T$ 6.000", "descricao": "Armazene 1 PM para energizá-las. Adiciona um encanto a item mundano ou superior." }
+    ],
+    "poderesFabricacao": [
+      { "nome": "Apotecário", "prereq": "5º nível, Int 3, Ofício (alquimista)", "descricao": "Você pode criar poções como se tivesse o poder Preparar Poção. Se já puder criar poções de outras formas, pode fabricar o dobro ao mesmo tempo." },
+      { "nome": "Fabricação Especial", "prereq": "10º nível, Metalúrgico ou Produtor de Itens", "descricao": "Pode aplicar a melhoria material especial a itens que fabricar. Se já puder, o efeito do material aumenta em 1 (ou 2 se for redução)." },
+      { "nome": "Materialista", "prereq": "17º nível", "descricao": "A CD para criar e fundir materiais diminui em –5 e você não perde um material ao falhar no teste (mas perde ao falhar por 10 ou mais)." },
+      { "nome": "Metalurgia Mágica", "prereq": "12º nível, For 4, Int 5, Metalúrgico, Misticismo", "descricao": "Pode fabricar armas, armaduras e escudos mágicos menores. Nos níveis 14 e 18: médios e maiores. Se já puder fabricar, o tempo diminui em –1 semana." },
+      { "nome": "Metalúrgico", "prereq": "3º nível, For 2, Int 3, Ofício (Armeiro)", "descricao": "Fabrica armas, armaduras e escudos superiores com uma melhoria. Nos níveis 6, 10 e 14: duas, três e quatro melhorias respectivamente." },
+      { "nome": "Produção Mágica", "prereq": "12º nível, Sab 4, Int 5, Produtor de Itens", "descricao": "Fabrica itens (exceto armas, armaduras e escudos) mágicos menores. Nos níveis 14 e 18: médios e maiores." },
+      { "nome": "Produtor de Itens", "prereq": "3º nível, Sab 2, Int 3, Ofício, Misticismo", "descricao": "Fabrica itens superiores com uma melhoria. Nos níveis 6, 10 e 14: duas, três e quatro melhorias." },
+      { "nome": "Troca Equivalente", "prereq": "Ofício (artesão)", "descricao": "Fabrica componentes para magias, missas, rituais, etc. gastando 1 hora de trabalho e passando em Ofício (CD 20), gastando apenas tibares." }
+    ]
+  },
+  {
+    "id": "ro-miscelanea",
+    "categoria": "Miscêlania",
+    "nome": "Regras Gerais Opcionais",
+    "fonte": "Mitos de Arton",
+    "descricao": "Conjunto de regras gerais opcionais para personalizar a experiência de jogo.",
+    "conteudo": [
+      { "nome": "Movimento Diagonal", "descricao": "Mover-se na diagonal não custa mais o dobro do deslocamento." },
+      { "nome": "Reduções de Custo Cumulativas", "descricao": "Reduções de custo de PM fornecidas por habilidades passam a ser cumulativas com itens, apenas." },
+      { "nome": "Idades Variadas — Criança", "descricao": "Como em Heróis de Arton, mas com +5 na Defesa (em vez do normal), +1 em Carisma e +2 PM por patamar de jogo." },
+      { "nome": "Idades Variadas — Adulto", "descricao": "Receba 1 poder geral ou +1 em atributos mentais (apenas se escolher os benefícios desta idade)." },
+      { "nome": "Idades Variadas — Maduro", "descricao": "Como em Heróis de Arton, mas em vez de um nível extra: +1 em atributos mentais e 1 poder (de classe ou geral)." },
+      { "nome": "Idades Variadas — Velho", "descricao": "Como em Heróis de Arton, mas em vez de dois níveis extras: +2 em atributos mentais e 2 poderes (de classe ou geral)." },
+      { "nome": "Idades Variadas — Ancião", "descricao": "Como em Heróis de Arton, mas em vez de três níveis extras: +2 em atributos mentais, 3 poderes e um benefício ou poder único de origem." },
+      { "nome": "Alquimia Eclética", "descricao": "Poderes com Alquimista Iniciado como pré-requisito podem ser pegos por outras classes se o personagem puder criar poções de outras formas." },
+      { "nome": "Aumento de Atributo (Alternativo)", "descricao": "Você não pode escolher o poder Aumento de Atributo, mas recebe +1 ponto em um atributo a sua escolha a cada patamar de jogo alcançado." },
+      { "nome": "Aumento de PV", "descricao": "Poderes que aumentam a vida em +3 PV no 1º nível passam a aumentar em +4." },
+      { "nome": "Concenção Ampliada", "descricao": "Devotos de Megalokk podem escolher o poder Fúria Divina e devotos de Valkaria o poder A Ferramenta Certa." },
+      { "nome": "Foco Abrangente", "descricao": "Poderes como Foco em Arma passam a permitir escolher um tipo específico de arma (espadas, arcos, martelos, etc.)." },
+      { "nome": "União Verdadeira", "descricao": "No patamar campeão ou lenda, escolha um poder de grupo — todos os jogadores recebem o poder escolhido." },
+      { "nome": "Anão — Ajuste", "descricao": "Duro Como Pedra fornece +2 em Fortitude e Tradição de Heredrimm fornece treino em Ofício (armeiro)." },
+      { "nome": "Raças Extraplanares", "descricao": "Se sua raça for originalmente um espírito (exceto vanir), pode ser originária de um mundo divino, recebendo uma Herança Planar. Suraggel de mundo divino recebe um poder concedido." },
+      { "nome": "Arcanista — Ajuste", "descricao": "Se aprender Armadura Arcana, você recebe +5 na Defesa (conta como armadura). Não acumula com magias." },
+      { "nome": "Origens — Benefício Único", "descricao": "Ao obter uma origem que dê benefício em vez de poderes e perícias, receba um poder geral ou único de origem (não se aplica para Adolescente ou mais novo)." },
+      { "nome": "Distinção Drogadora — Marca", "descricao": "Além dos efeitos normais da marca, também concede imunidade a doenças e venenos (ou +1 em testes de resistência por poder de drogadora, a critério do mestre)." },
+      { "nome": "Bainha Mágica", "descricao": "Se possuir Saque Rápido e Arma Mágica, a execução dessa magia é reduzida em um passo se estiver vestindo uma Bainha Mágica." },
+      { "nome": "Itens Mágicos — Fabricação Simplificada", "descricao": "Fabricar itens mágicos não exige sacrifício de PM. Aplicar melhorias/encantos em itens já superiores ou mágicos que você fabricou demora apenas 1 semana (em vez de 1 mês)." },
+      { "nome": "Encantar Itens", "descricao": "Os poderes encantar itens menores, médios e maiores exigem apenas uma semana de trabalho." },
+      { "nome": "Itens Alquímicos", "descricao": "Você saca itens alquímicos com ação livre mesmo sem Saque Rápido. Se tiver Saque Rápido, utilizar esses itens tem a execução reduzida em uma categoria. Uma vez por rodada com ação livre." },
+      { "nome": "Itens Vestidos", "descricao": "No patamar campeão ou lenda, você se beneficia de +1 item vestido adicional." },
+      { "nome": "Rubi da Virtude (Alternativo)", "descricao": "Em vez do normal, o item fornece +10 PV, +5 PM e um poder de classe ou geral, além dos outros benefícios." },
+      { "nome": "Bases — Mobília Extra", "descricao": "Uma base Formidável ou maior pode ter duas mobílias por cômodo." },
+      { "nome": "Domínios — Regras Alternativas", "descricao": "Se regido por conselho, uma construção só pode fornecer benefícios a número de personagens igual ao nível do domínio. Cada jogador tem duas ações de domínio individualmente." }
+    ]
+  },
+  {
+    "id": "ro-novas-dadivas",
+    "categoria": "Novas Dádivas",
+    "nome": "Novas Dádivas Divinas",
+    "fonte": "Mitos de Arton",
+    "descricao": "Novas opções de dádivas para personagens que ascendem a deus menor. Para regras completas de deus menor, veja Deuses de Arton, páginas 233-237.",
+    "conteudo": [
+      {
+        "nome": "Ascenção Verdadeira",
+        "prereq": "Status Divino 5, Imortal",
+        "descricao": "Você recebe a habilidade Maior que a Morte. Além disso, uma vez por rodada, gaste 3 PM para evitar o efeito de uma habilidade lançada sobre você ou anular um dano que receberia. Cada novo uso na mesma cena aumenta o custo em +3 PM."
+      },
+      {
+        "nome": "Autoridade Divina",
+        "descricao": "Você pode substituir testes de Guerra e Nobreza por Religião. Além disso, quando faz um teste de Religião, rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Corpo Aprimorado",
+        "prereq": "Status Divino 3, Aprimoramento Divino, Essência Divina, Vigor Divino",
+        "descricao": "Escolha um atributo: você o aumenta em +1 e soma no seu total de pontos de vida e mana (cumulativo)."
+      },
+      {
+        "nome": "Deus Marcial",
+        "descricao": "Você recebe +1 em testes de ataque e rolagens de dano por status divino quando usando sua arma favorita."
+      },
+      {
+        "nome": "Habilidade Divina",
+        "descricao": "Escolha uma habilidade ou magia que exija teste de resistência: a CD aumenta em +1 por status divino. No status divino 3 e novamente no 5, você pode escolher uma habilidade ou magia adicional."
+      },
+      {
+        "nome": "Semideus",
+        "prereq": "Status Divino 3, Dragão-Rei ou Mortal Ascendido, Escolhido dos Deuses",
+        "descricao": "Se foi devoto antes de ascender, você retém parte dos poderes da divindade anterior. Mantenha um poder concedido da divindade que outrora serviu. Ao alcançar o Status Divino 5, pode manter um poder concedido adicional."
+      },
+      {
+        "nome": "Templo",
+        "prereq": "Status Divino 2, Paróquia",
+        "descricao": "Seus devotos produziram uma igreja. Ela conta como uma base básica para você. À medida que aumenta seu status divino, o porte da igreja aumenta em uma categoria. Você paga apenas metade do custo para construir cômodos nela."
+      }
+    ]
+  }
+]

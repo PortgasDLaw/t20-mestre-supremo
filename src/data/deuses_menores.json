@@ -226,5 +226,62 @@
       "nome": "Três Pulinhos",
       "descricao": "Uma vez por rodada, você pode gastar uma ação de movimento dando três pulinhos. Se fizer isso, recebe +3m de deslocamento extra neste turno e pode mover-se através de terreno difícil como se fosse normal."
     }
+  },
+  {
+    "id": "zalcanas",
+    "nome": "Zalcanas",
+    "epiteto": "Deus da Conquista",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 3,
+    "tipo": "Entidade Primordial",
+    "historia": "O vanir que representa desde o início dos tempos a raça dos forjados, sendo seu criador. Uma divindade considerada maligna, cruel e impassível — Zalcanas se mantém dormente na forma de um obelisco titânico em Alstra, fomenta estratégias e busca o momento perfeito para dominar e conquistar tudo.",
+    "crencasEObjetivos": "Destruir os fracos e a fraqueza. Lutar sempre com estratégias em mente. Ser impassivo e metódico. Comandar com mão de ferro e demonstrar superioridade militar.",
+    "simboloSagrado": "Um elmo escuro com seis olhos em chamas",
+    "canalizarEnergia": "Negativa",
+    "armaPreferida": "Qualquer (toda arma cumpre seu propósito como ferramenta)",
+    "devotos": "Anões, bugbears, forjados, golens, hobgoblins, kallyanachs, kaijins, lefous, medusas, minotauros, osteons, sulfures, trogs, bárbaros, bruxeiros, cavaleiros, guerreiros, lutadores",
+    "obrigacoesERestricoes": "Deve ganhar um combate ou disputa ao menos uma vez por sessão. Nunca deve fugir ou desistir de um conflito que tenha se iniciado — nem seus aliados.",
+    "poderConcedido": {
+      "nome": "Mão de Aço",
+      "descricao": "Você recebe +2 em Guerra e pode fazer testes dessa perícia sem ser treinado. Pode trocar testes de Nobreza por Guerra gastando 2 PM. Se for proficiente com armas marciais e treinado em Guerra, soma Inteligência (limitada pelo nível) nas rolagens de dano com armas corpo a corpo."
+    }
+  },
+  {
+    "id": "polaris",
+    "nome": "Polaris",
+    "epiteto": "Deusa dos Golens",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 1,
+    "tipo": "Entidade Primordial",
+    "historia": "A primeira golem de Arton, criada por Tillian para Wynna. Ficou séculos esquecida e escondida em Alstra, onde foi reativada e passou a ensinar o povo sobre o Glorioso Criador. Impulsionou Alstra a descobrir Arton, tornando-se padroeira da tecnomagia, golens e inventos.",
+    "crencasEObjetivos": "Reverenciar a magia e a tecnologia. Promover a harmonia entre arcana e invenções. Proteger os golens e povos engenhosos. Trazer o criador Tillian de volta ao panteão.",
+    "simboloSagrado": "Uma engrenagem incrustada com runas mágicas",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Báculo",
+    "devotos": "Anões, elfos, forjados, goblins, golens, hobgoblins, klirens, qareens, toskrers, yidishans, arcanistas, inventores",
+    "obrigacoesERestricoes": "Deve passar ao menos 1 hora por dia mexendo com magia ou tecnologia (estudando versiculário, grimório, ou fabricando bugigangas/pergaminhos). Deve lançar uma magia — simulada ou não — uma vez por dia (ou sessão).",
+    "poderConcedido": {
+      "nome": "Invenções Tecnomágicas",
+      "descricao": "Você pode fabricar engenhocas mágicas, podendo manter uma por patamar. Funcionam como engenhocas padrão, mas são mágicas, só podem ser de magias divinas e não precisam ser ativadas — você gasta PM normalmente. Inventores ou tecnomagos que as usem aumentam o limite de PM das magias lançadas por elas em +2."
+    }
+  },
+  {
+    "id": "deus-vinganca",
+    "nome": "Deus da Vingança",
+    "epiteto": "Conceito Vivo da Vingança",
+    "fonte": "Mitos de Arton",
+    "statusDivino": 4,
+    "tipo": "Conceito Vivo",
+    "historia": "A vingança é tão antiga quanto o surgimento da humanidade. Hoje em Arton é um conceito claro: elfos buscam vingança contra goblinoides, povos inteiros clamam pela morte de seus opressores. Tanta busca transformou o ordinário em divino — onde quer que haja vingança, esta divindade estará presente para dar objetivo e poder.",
+    "crencasEObjetivos": "Praticar e incentivar a vingança contra seus alvos. Buscar as formas mais eficientes de retaliação. Vingar-se de maneira fria e polida. Não ferir inocentes — somente obstáculos no caminho da vingança.",
+    "simboloSagrado": "A letra 'V'",
+    "canalizarEnergia": "Negativa",
+    "armaPreferida": "Adaga",
+    "devotos": "Anões, bugbears, elfos, goblins, hobgoblins, lefous, minotauros, osteons, bárbaros, bardos, bucaneiros, guerreiros, nobres, vingadores",
+    "obrigacoesERestricoes": "Não podem oferecer perdão ou misericórdia aos seus inimigos, nem permitir que outros o façam — devem sempre incentivar a destruição de todos que as pessoas ao redor declararem como alvo de vingança.",
+    "poderConcedido": {
+      "nome": "Espírito de Vingança",
+      "descricao": "Gaste ação de movimento e 2 PM para analisar um alvo em alcance curto, tornando-o seu alvo de vingança até o fim da cena. O alvo tem –2 em todos os testes de perícia contra você. A penalidade aumenta em 1 cumulativamente para cada 50 pontos de dano causados ao alvo em uma rodada (máx. –5)."
+    }
   }
 ]

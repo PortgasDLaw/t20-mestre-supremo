@@ -1,0 +1,410 @@
+{
+  "glorienn": {
+    "id": "glorienn",
+    "nome": "Glórienn",
+    "epiteto": "Deusa dos Elfos",
+    "outrosNomes": ["Sylvara (entre as fadas)", "Nimriel, a Dama de Olhos Tristes (elfos-do-mar)", "Vaelyndra, a Princesa dos Cânticos (dragões)", "Elariel (gnolls)", "Thutrialda (hobgoblins, insulto intraduzível)"],
+    "areasInfluencia": ["Elfos", "Beleza", "Artes", "Arquearia", "Esgrima", "Magia", "Natureza", "Perfeição", "Redenção", "Tristeza", "Melancolia"],
+    "simboloSagrado": "Arco e flecha dourados",
+    "canalizarEnergia": "Positiva",
+    "armaPreferida": "Florete",
+    "coresSignificativas": ["Branco", "Dourado", "Prata", "Verde"],
+    "lema": "Elfos são os únicos que podem alcançar a perfeição, pois são eternos.",
+    "historia": "Glórienn é uma das deidades nascidas como parte dos Vinte originais. Seus atos prepotentes e orgulhosos a fizeram cometer erros indizíveis: isolou os elfos, foi manipulada por Tanna-Toh a trazer a tormenta para Arton, e viu seu povo devastado. Após anos de autossacrifício, voltou ao panteão redimida, agora buscando alcançar a verdadeira perfeição através do crescimento e da correção de seus erros.",
+    "motivacoes": "Alcançar a epítome da perfeição, corrigir os erros do passado, proteger e resgatar a cultura élfica, destruir a tormenta e os duyshidakks.",
+    "relacoes": "Mantém contato principalmente com Lin-Wu (que a chama de Youtsume), tem relação amistosa com Allihanna, Wynna e Valkaria. Nutre inimizade com Nimb, Tanna-Toh, Tenebra e Sszzaas, e rejeita mencionar Aharadak ou Thwor.",
+    "crenças": "Ensinar, proteger e resgatar os valores e a cultura élfica; preservar a arte, a natureza e a raça élfica; destruir a tormenta e os duyshidakks; almejar a perfeição; corrigir os erros do passado.",
+    "devotos": ["Dampíros", "Duendes", "Eiradaans", "Elfos", "Elfos-do-mar", "Naidoras", "Sílfides", "Arcanistas", "Bardos", "Caçadores", "Cavaleiros", "Druidas", "Paladinos"],
+    "obrigacoesRestricoes": "Proibido de mentir, trapacear, roubar ou recusar pedidos de ajuda de elfos inocentes. Só pode matar elfos e criaturas semelhantes em último caso. Raças goblinoides, crias da tormenta ou raças brutas não podem ser devotas.",
+    "brando": "Apenas não pode recusar pedidos de ajuda de elfos inocentes ou para resgatar relíquias élficas (desde que não excessivamente perigoso). Apenas elfos puros podem ser devotos brandos.",
+    "autoridadeEclesiastica": "+5 em Atuação e Nobreza. Ao visitar uma igreja de Glórienn, soma Carisma no total de PM até o fim do dia (cumulativo).",
+    "poderesConcedidos": [
+      {
+        "nome": "Arcana Perfeita",
+        "descricao": "Escolha uma magia de 1º círculo que tenha aprendido e que possa lançar; ela não pode ser dissipada e afeta criaturas imunes à escola que pertence."
+      },
+      {
+        "nome": "Artes Élficas",
+        "descricao": "+2 em Atuação, Diplomacia e Nobreza."
+      },
+      {
+        "nome": "Flecha de Lenórienn",
+        "descricao": "Você aprende e pode lançar Flecha de Luz como magia arcana e divina. Caso aprenda novamente, custo diminui em –1 PM."
+      },
+      {
+        "nome": "Verdadeira Arte",
+        "descricao": "+2 em Ofício (a escolha). Aumenta +1 por patamar além do iniciante. Ao fazer testes de sustento, recebe o dobro de tibares."
+      }
+    ],
+    "classesSacerdote": {
+      "indumentaria": "Vestimentas de tecido fino (seda, algodão), em branco ou verde com adornos prateados ou dourados.",
+      "fundamentalista": "Proibido de se associar com duyshidakks; deve atacar e destruir todos que encontrar. Deve ensinar sobre o Cánealya. Apenas elfos puros."
+    },
+    "classesDruida": {
+      "descricao": "Garantem equilíbrio entre civilização élfica e natureza, quase sincréticos com Allihanna. Acompanham aventureiros para compreender outras raças e exterminar focos da tormenta.",
+      "indumentaria": "Vestimentas longas de seda, algodão ou linho em tons de verde vivo, com ramos de flores e ervas.",
+      "fundamentalista": "Proibidos de se associar com criaturas da tormenta; devem atacar e destruir todos. Apenas elfos puros."
+    },
+    "classesPaladino": {
+      "descricao": "Guerreiros formidáveis, exímios em esgrima e arquearia. Linha de frente na proteção do povo élfico contra lefeu e duyshidakk.",
+      "indumentaria": "Armaduras de qualidade ímpar com materiais leves (mitral ou madeira), acompanhadas de arcos, escudos e espadas.",
+      "fundamentalista": "Como o sacerdote, inclui criaturas da tormenta."
+    },
+    "fonte": "Mitos de Arton"
+  },
+  "novosDruidas": [
+    {
+      "id": "druida-azgher",
+      "divindade": "Azgher",
+      "titulo": "Druida de Azgher",
+      "descricao": "Vanguarda para proteção e manutenção da natureza verde e iluminada. Combatem os que perturbam o ciclo da vida — especialmente devotos de Aharadak e Tenebra. São contra mortos-vivos e os expulsam da superfície.",
+      "indumentaria": "Roupas de couro ou tecidos leves e naturais (seda, linho) com tiras para odres, lamparinas e bolsas de semente. Máscaras de madeira com gravuras shamiri.",
+      "obrigacoesRestricoes": "Deve manter o rosto sempre coberto (revelado apenas ao sumo-sacerdote ou em seu funeral). Deve sempre estar em ambientes iluminados; não pode ficar mais de uma cena em escuridão leve ou total.",
+      "brando": "Apenas deve manter o rosto coberto, revelando-o somente ao sumo-sacerdote ou em cerimônias dedicadas ao seu deus.",
+      "fundamentalista": "Proibido de se associar a mortos-vivos, necromantes, cultistas de Aharadak ou Tenebra. Se corruptos ou vilões, deve atacar e destruir todos que encontrar.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "druida-kallyadranoch",
+      "divindade": "Kallyadranoch",
+      "titulo": "Druida de Kallyadranoch",
+      "descricao": "Vê dragões como figuras familiares, conquista sua confiança e molda uma convivência. Acredita que dragões podem coexistir com outras espécies. Alguns criam elos com ovos de dragão. Outros adotam abordagens tirânicas, definindo territórios selvagens como seus domínios.",
+      "poderesConcedidos": [
+        {
+          "nome": "Colheita Selvagem",
+          "descricao": "Uma vez por dia, gaste ação padrão e 3 PM para produzir arbusto com 4d6 frutas mágicas (duram 1 dia). Consumir é ação padrão: recupera 2d6+2 PV. Exclusivo de druidas de Arton."
+        }
+      ],
+      "indumentaria": "Peças de couro (raramente de dragões), adornado com ouro e joias lapidadas. Os mais tradicionais adornam apenas o corpo com joias e metais preciosos.",
+      "obrigacoesRestricoes": "Deve tratar dragões e criaturas dracônicas com reverência, matando-os apenas em último caso. Deve definir um covil e armazenar metade de tudo que ganhar.",
+      "brando": "Mesmas do devoto brando de Kallyadranoch.",
+      "fundamentalista": "Não matam dragões ou criaturas dracônicas (kobolds, kallyanachs, etc.).",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "druida-lena",
+      "divindade": "Lena",
+      "titulo": "Druida de Lena",
+      "descricao": "Preserva a vida de todos os seres. Como os demais druidas, tem acesso aos poderes concedidos de Lena.",
+      "fonte": "Mitos de Arton"
+    }
+  ],
+  "novosPaladinos": [
+    {
+      "id": "paladino-allihanna",
+      "divindade": "Allihanna",
+      "titulo": "Paladino de Allihanna",
+      "tituloClasseOrdem": "Espadas da Natureza",
+      "descricao": "Guerreiros santos da natureza que protegem florestas sagradas de suas tribos. Exímios ginetes que recebem montarias especiais (cavalos a pégasus). Usam armaduras de madeiras mágicas feéricas, não metais. Raramente saem das terras onde foram criados.",
+      "indumentaria": "Vestes esverdeadas sob armaduras de folhas, madeiras e vinhas em camadas de natureza viva. Alguns gravam símbolo de Allihanna no peitoral; outros preferem brincos ou coroas.",
+      "obrigacoesRestricoes": "Mesmas do devoto de Allihanna. Também deve proteger e não pode causar dano letal, perda de vida ou matar qualquer animal.",
+      "brando": "Deve visitar sua tribo ao menos uma vez por ano e não pode matar animais.",
+      "fundamentalista": "Como o sacerdote. Não pode se associar com cultistas de Aharadak e criaturas da tormenta; deve atacar e destruir qualquer um que encontrar.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "paladino-arsenal",
+      "divindade": "Arsenal",
+      "titulo": "Paladino de Arsenal",
+      "descricao": "Formados na ordem das armas austeras de Zakharov, em parceria com devotos de Khalmyr. Acreditam que a justiça deve prevalecer acima de qualquer vitória. Aceitam a derrota com honra quando necessário. Buscam vitórias justas para oferecer ao seu deus.",
+      "poderesConcedidos": [
+        {
+          "nome": "Força do Herói",
+          "descricao": "Quando em combate contra criatura corrupta ou vilão, gaste ação de movimento e 3 PM para somar Carisma nas rolagens de dano com armas até o fim da cena (cumulativo). Exclusivo de paladino do bem ou vingador da justiça."
+        }
+      ],
+      "indumentaria": "Armaduras potentes com símbolo de Arsenal gravado em metal ou bordado em tecido nas cores representativas do deus.",
+      "obrigacoesRestricoes": "Mesmas do devoto de Arsenal.",
+      "brando": "Proibido de desarmar ou destruir equipamentos do oponente.",
+      "fundamentalista": "Ao perder, deve entregar seu equipamento mais poderoso ao vencedor (podendo incluir a vida). Se vencer, o perdedor deve entregar a vida ou seu mais precioso equipamento.",
+      "fonte": "Mitos de Arton"
+    }
+  ],
+  "novosVingadores": [
+    {
+      "id": "vingador-aharadak",
+      "divindade": "Aharadak",
+      "titulo": "Vingador de Aharadak",
+      "descricao": "Figura trágica de desilusão e desespero. Surge quando um paladino é manipulado pela tormenta ao ver seus dogmas se tornarem impossíveis. Acredita que pode usar o poder profano para fazer o bem — ao menos inicialmente.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-kallyadranoch",
+      "divindade": "Kallyadranoch",
+      "titulo": "Vingador de Kallyadranoch",
+      "descricao": "Definidos pelo orgulho, convencem-se de que são superiores sem jactância escandalosa. Formam a própria justiça — tirânica, de poder e dominação. Protegem os vulneráveis sob pretexto de justiça, mas para estabelecer dominância dracônica. São os vingadores da opressão.",
+      "indumentaria": "Adornos dourados nas armaduras, joias pelo corpo, símbolo do deus dos dragões em local visível.",
+      "fundamentalista": "Não matam dragões ou kallyanachs, mas podem dominá-los por diálogo, intimidação ou força não letal.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-nimb",
+      "divindade": "Nimb",
+      "titulo": "Vingador de Nimb",
+      "tituloAlternativo": "Cavaleiros Risonhos",
+      "descricao": "Atitudes padronizadamente aleatórias — saltitar, sempre sorrir ou gargalhar. Cada um é único, seus motivos tão aleatórios quanto. Manipulam o campo de batalha usando a sorte e o azar. Nimb se diverte; seus inimigos sentem o destino como marionete.",
+      "indumentaria": "Vestimentas bufantes e caleidoscópicas com diversas cores. Armadura com máscaras tragicômicas; equipamentos estranhos.",
+      "fundamentalista": "Uma vez por dia, precisam fazer ao menos uma pessoa rir.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-sszzaas",
+      "divindade": "Sszzaas",
+      "titulo": "Vingador de Sszzaas",
+      "descricao": "Colecionadores de segredos artonianos — tabuletas esquecidas, páginas ocultas de conhecimento proibido. Guardam tudo para si, sem compartilhar. Cada novo conhecimento será usado para manipular inimigos. Acreditam que a ignorância das pessoas permite tirania e opressão.",
+      "indumentaria": "Raramente se disfarçam; usam motivos de serpente em armaduras e equipamentos. Sempre carregam bolsa de couro com conhecimento proibido.",
+      "fundamentalista": "Proibido de negar oportunidade de obter novos conhecimentos secretos, mesmo que seja armadilha. Não pode divulgar qualquer conhecimento adquirido — deve armazená-los em pergaminhos.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-tenebra",
+      "divindade": "Tenebra",
+      "titulo": "Vingador de Tenebra",
+      "descricao": "Surgidos em Umbralar, ilha misteriosa cercada por névoa escura. Quando não se tornam mirmidões, fogem e passam a servir Tenebra para manter sua sanidade. Personalidade melancólica e taciturna — felicidade e boas memórias parecem apagadas, deixando traumas, pesadelos e medos vívidos.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-thwor",
+      "divindade": "Thwor",
+      "titulo": "Vingador de Thwor",
+      "descricao": "Campeões do deus dos goblinoides. Associados à filosofia do Akzath. Podem substituir Vontade por Intimidação nas perícias iniciais e incluem Vontade nas perícias de classe.",
+      "habilidadeEspecial": {
+        "nome": "Filosofia de Mudança",
+        "descricao": "Gaste ação padrão e 3 PM para impor a força da roda do Akzath sobre criatura em alcance curto. Faça Intimidação oposta a Vontade da criatura — se vencer, aplica penalidade da roda externa; se falhar por 10+, também penalidade da roda interna.",
+        "rodaExterna": [
+          "Vida: alvo perde 1d4 PV por rodada; você recupera a mesma quantidade.",
+          "Ignorância: CD das habilidades do alvo diminui –2 (cumulativo).",
+          "Mudança: você reordena os bônus de resistência do alvo.",
+          "Fim: efeitos com duração cena são encerrados; alvo rola iniciativa com –5.",
+          "Morte: –2 na Defesa e testes de resistência (cumulativo).",
+          "Conhecimento: –2 em perícias mentais (cumulativo).",
+          "Continuidade: efeitos com duração em rodadas duram +1 rodada adicional.",
+          "Início: alvo fica incapaz de qualquer ação até início do seu próximo turno."
+        ],
+        "rodaInterna": [
+          "Nós (Vida): perda de vida aumenta +1d4 por aliado; recuperação distribuída entre aliados.",
+          "Dentro (Ignorância): custo das habilidades do alvo aumenta +2 PM.",
+          "Estagnação (Mudança): alvo rola 3d20 e usa esses valores para sempre em Fort/Ref/Von.",
+          "Trevas (Fim): uma habilidade ou magia do alvo é bloqueada.",
+          "Fora (Morte): alvo não pode ser alvo de qualquer efeito benéfico.",
+          "Eles (Conhecimento): penalidades também afetam atributos físicos quando percebido por você.",
+          "Movimento (Continuidade): alvo deve testar Vontade (CD Car) no início do turno ou perde ação de movimento.",
+          "Luz (Início): dano de luz causado ao alvo durante paralisia é maximizado."
+        ]
+      },
+      "indumentaria": "Vestes de metal seco e simples, com poucos símbolos religiosos. Símbolo do Akzath entre as placas de metal.",
+      "fundamentalista": "Empenhados em espalhar a palavra do Akzath; destroem qualquer ideologia contrária, muitas vezes de maneira violenta.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-valkaria",
+      "divindade": "Valkaria",
+      "titulo": "Vingador de Valkaria",
+      "descricao": "Rebelde sem causa, sempre disposto a pregar a liberdade. Paladinos que se cansaram de conformismo. Contra qualquer forma de opressão. Auxiliam os de Thwor para alcançar 'O Mundo Como Deve Ser'. Não seguem nenhuma lei que vá contra seus dogmas.",
+      "indumentaria": "Invariavelmente vestem roxo, alguns com panos vermelhos. Usam as seis faixas entrelaçadas como símbolo sagrado.",
+      "fundamentalista": "Nunca podem ir contra a liberdade, aplicando condições de movimento ou removendo liberdade de pessoas.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "vingador-justica",
+      "divindade": "Panteão",
+      "titulo": "Vingador da Justiça",
+      "descricao": "Não se dedica a nenhuma divindade específica. Segue seus próprios dogmas de vingança e justiça. Normalmente racionalistas ao extremo e moralmente consistentes, mas mercenários. Movidos pela ambição de vencer, lutar, salvar inocentes e punir os malignos.",
+      "indumentaria": "Versão sombria do paladino: armaduras escuras, capas pretas. Alguns ostentam símbolos de diferentes deuses malignos.",
+      "fundamentalista": "Não se associa com devotos de deuses bondosos (exceto Valkaria). Não oferece compaixão, rendição ou misericórdia a criaturas corruptas ou vilanescas — deve atacar e destruir todas que encontrar.",
+      "fonte": "Mitos de Arton"
+    }
+  ],
+  "devocoesAlternativas": [
+    {
+      "id": "alt-aharadak",
+      "divindade": "Aharadak",
+      "descricao": "Devotos por fascínio e curiosidade pelo aberrante. Ao menos uma vez por dia (ou por sessão), deve realizar uma interação com algo associado à tormenta — item de matéria vermelha, lefeu, área de tormenta, etc.",
+      "brando": "Como as O&R básicas, mas rola 1d10 e fica fascinado apenas com resultado 1.",
+      "fundamentalista": "Sacerdote: Não se associa com seres da realidade — apenas lefou ou criaturas da tormenta.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-allihanna",
+      "divindade": "Allihanna",
+      "descricao": "Não pode descansar em comunidade maior que aldeia (não perde poderes, mas não recupera PV/PM). Não pode se associar a cultistas de Aharadak ou inventores. Não pode causar dano letal ou perda de vida a animais.",
+      "brando": "Apenas não pode descansar em comunidade maior que aldeia.",
+      "fundamentalista": "Sacerdote: Não se associa com cultistas de Aharadak, Megalokk, Tanna-Toh ou Tenebra, nem inventores. Não pode descansar em comunidade que não a própria ou nos ermos. Druida: Deve atacar e destruir cultistas de Aharadak em vez de Megalokk.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-arsenal",
+      "divindade": "Arsenal",
+      "descricao": "Não pode quebrar ou desarmar criaturas. Deve sempre atacar com armas. Só pode usar armas, armaduras e escudos de metal (exceto se o item for mágico).",
+      "brando": "Perde poderes somente se você e o grupo perderem um combate. Outros conflitos são apenas 'investidas para trás'.",
+      "fundamentalista": "Sacerdote: Se derrotado, deve ofertar equipamento valioso (priorizando mágicos) ao vencedor. O mesmo vale para o inimigo derrotado.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-azgher",
+      "divindade": "Azgher",
+      "descricao": "Todo ouro pertence a Azgher. Não pode usar itens feitos ou banhados com ouro (exceto dado pelo sumo-sacerdote/avatar/aspecto). Deve sempre usar máscara cobrindo totalmente o rosto (exceto os olhos).",
+      "brando": "Deve doar 10% de todo dinheiro a templo de Azgher no início de cada aventura.",
+      "fundamentalista": "Sacerdote: Deve doar 50% de todo tesouro a Azgher em tibares ou itens. Paladino: Proibido de se associar a devotos de Tenebra, necromantes e mortos-vivos. Se corruptos ou vilões, deve atacar e destruir.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-hynnin",
+      "divindade": "Hynnin",
+      "descricao": "Ao fim de cada aventura, deve ter conseguido individualmente ao menos 50% do valor equivalente ao nível em tibares (Tabela 3-1). Esse dinheiro deve ser gasto somente consigo. Não pode recusar pedido para participar de golpe, trapaça ou artimanha.",
+      "brando": "Só pode recusar um pedido para participar de golpe, trapaça ou artimanha uma vez por aventura.",
+      "fundamentalista": "Sacerdote: Deve ao menos uma vez por cena fazer ação que exija Enganação ou Ladinagem com CD mínima 20 + nível.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-kallyadranoch",
+      "divindade": "Kallyadranoch",
+      "descricao": "Ao menos uma vez por dia (ou sessão), deve causar nível×10 pontos de dano a uma mesma criatura. O dano deve ser de ácido, eletricidade, fogo ou frio.",
+      "brando": "Em vez de tributo em ouro, pode matar ameaça solo de ND igual ou maior que o nível do grupo, dedicando a vitória a Kallyadranoch. Dragões não contam.",
+      "fundamentalista": "Sacerdote: Deve seguir obrigações de um dragão-rei simultaneamente às de Kallyadranoch.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-khalmyr",
+      "divindade": "Khalmyr",
+      "descricao": "Não pode prejudicar inocentes de qualquer forma. Deve sempre manter a palavra e nunca desobedecer ordens de superiores da igreja. Somente espadas (incluindo espadim) e montantes são permitidos.",
+      "brando": "Apenas não pode recusar pedidos de ajuda de pessoas inocentes.",
+      "fundamentalista": "Sacerdote: Deve ajudar ao menos uma pessoa necessitada por dia (ou sessão). Apenas anões podem ser fundamentalistas de Khalmyr. Paladino: Como o sacerdote.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-keenn",
+      "divindade": "Keenn",
+      "descricao": "Deve sempre procurar começar um conflito violento, insistindo até que aconteça. Não pode lançar magias de cura, se render ou fugir de combate — a única saída é matar ou ser morto.",
+      "brando": "Não pode negar participar de batalha ou conflito, mas pode impedí-lo de formas não diplomáticas.",
+      "fundamentalista": "Sacerdote: Não pode ser alvo de qualquer efeito de cura. Se derrotado em conflito violento, deve retirar a própria vida.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-lena",
+      "divindade": "Lena",
+      "descricao": "Qualquer gênero pode ser devoto, desde que tenha presenciado ao menos uma vez o ato da criação da vida ou adotado uma criança. Criaturas da tormenta não são consideradas 'criaturas vivas' para as O&R de Lena.",
+      "brando": "Apenas não pode matar qualquer criatura viva (não inclui criaturas da tormenta).",
+      "fundamentalista": "Sacerdote: Não pode causar dano a qualquer criatura viva; deve usar efeito de cura ao menos uma cena de combate. Proibido de se associar com cultistas de Aharadak ou criaturas da tormenta. Paladino: Como sacerdote, mas deve atacar e destruir cultistas de Aharadak e criaturas da tormenta.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-lin-wu",
+      "divindade": "Lin-Wu",
+      "descricao": "Não pode ser treinado em Enganação, Furtividade e Ladinagem (–5 nessas perícias). Deve ao menos uma vez por dia destruir criaturas desonradas com ND igual ou maior que o nível do grupo. Proibido de prejudicar criaturas honradas.",
+      "brando": "Pode fazer apenas um ato de desonra por dia (+1 por patamar além do iniciante).",
+      "fundamentalista": "Sacerdote: Proibido de se associar com criaturas desonradas e da tormenta. Paladino: Como sacerdote + proibido de se associar com cultistas de Aharadak, devendo atacar e destruir.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-marah",
+      "divindade": "Marah",
+      "descricao": "Como as O&R básicas, mas pode causar qualquer condição exceto as que causem dano ou perda de vida. Deve ao menos uma vez por dia fazer ação que exija Atuação com CD mínima 15 + metade do nível.",
+      "brando": "Pode causar condições que não causem dano ou perda de vida. Pode causar dano não letal apenas em legítima defesa.",
+      "fundamentalista": "Sacerdote: Não pode causar qualquer condição nem lançar magias com testes de resistência sobre inimigos. Só pode usar magias em aliados que forneçam bônus em Defesa, testes de resistência ou recuperem/concedam pontos. Paladino: Apenas cura ou protege aliados; aliados não podem causar dano letal sob sua presença.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-megalokk",
+      "divindade": "Megalokk",
+      "descricao": "Deve agir como um tribal (não como criatura incivilizada). Recebe –5 em Inteligência, Carisma e perícias baseadas neles (exceto Adestramento e Intimidação). Só pode usar armaduras e escudos não-metálicos e armas primitivas mundanas.",
+      "brando": "Uma vez por dia (ou sessão), deve atacar e matar criatura viva com ND igual ou maior que o nível do grupo e então devorá-la.",
+      "fundamentalista": "Sacerdote: Proibido de se associar com qualquer criatura que não seja devota de Allihanna, Megalokk ou que não seja monstro. Druida: Como sacerdote + deve atacar e destruir qualquer criatura viva que ameace minimamente você ou o grupo.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-nimb",
+      "divindade": "Nimb",
+      "descricao": "Está sempre entregando a vida ao caos. Não pode escolher 0, 10 ou 20 nem 'escolher' em qualquer situação — deve sempre escolher aleatoriamente. Isso vale até mesmo para a criação do personagem.",
+      "brando": "Não sofre penalidade de Carisma. Rola 1d20 e fica confuso apenas com resultado ≤ 5.",
+      "fundamentalista": "Sacerdote: A sorte guia tudo — não recebe qualquer bônus em testes (apenas valores de atributo são aplicados ao d20).",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-oceano",
+      "divindade": "Oceano",
+      "descricao": "Pode usar apenas armas corpo a corpo, armaduras leves e escudos. Deve ter contato direto com fonte de água natural (praia, lago, etc.) ao menos 1 hora por dia. Deve tomar banho ao menos uma vez por dia (sem banho, não recupera PV/PM ao descansar).",
+      "brando": "Não pode ficar longe de fonte natural de água salgada por mais de um mês.",
+      "fundamentalista": "Sacerdote: Jamais põem os pés em terra firme — desloca-se por terra apenas pairando, voando ou montado. Druida: Nunca inicia ou participa de conflitos envolvendo animais marinhos ou nativos dos oceanos; participa de outros apenas se ameaçado.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-panteao",
+      "divindade": "Panteão",
+      "descricao": "Sacerdote: Ao menos uma vez por mês, deve visitar comunidade com igreja e reunir a população para cerimônia (gasto de T$50 por nível em componentes). Druida de Arton: Deve prover mantimentos e proteção a uma comunidade e visitá-la ao menos uma vez por mês.",
+      "brando": "Sem qualquer O&R. Apenas sacerdotes podem ser devotos brandos. Não recebem PM adicionais.",
+      "fundamentalista": "Sacerdote: Não pode se associar com sacerdotes, druidas, paladinos ou vingadores devotos de uma única divindade. Paladino do Bem: Não pode se associar com devotos de divindades que canalizam apenas energia negativa; deve atacá-los e destruí-los. Druida de Arton: Deve ser vegano — não pode causar dano, perda de vida ou condições a qualquer criatura.",
+      "poderesConcedidos": [
+        {
+          "nome": "Favor dos Vinte",
+          "descricao": "Uma vez por cena, faça teste de Religião (CD 20 +5 por uso adicional no mesmo dia). Se passar, recebe um poder concedido a escolha do mestre até o fim da cena. Se falhar, não pode usar este poder até o próximo dia e fica alquebrado pela cena. Exclusivo de sacerdotes do panteão."
+        }
+      ],
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-ragnar",
+      "divindade": "Ragnar",
+      "descricao": "Na Arton Norte, Ragnar é Leenn, o deus da morte. Deve respeitar a hora da partida, fazendo funeral para qualquer criatura que morra na sua presença. Proibido de usar efeitos de cura.",
+      "brando": "Apenas proibido de causar dano não letal — só ataca para matar.",
+      "fundamentalista": "Sacerdote: Deve efetivamente matar qualquer criatura em conflito violento, por mais banal que seja o motivo. Se bugbear: proibido de se associar com anões, elfos e humanos; deve atacar e destruir elfos.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-sszzaas",
+      "divindade": "Sszzaas",
+      "descricao": "Nunca pode revelar seu verdadeiro nome. Nunca pode contar uma verdade de forma direta — apenas por meio de enigmas, omissões, meias-verdades ou mentiras que levem à verdade. Deve ao menos uma vez por dia inocular veneno com sucesso em criatura não imune.",
+      "brando": "Nunca pode recusar oferta para obter novos conhecimentos ocultos/segredos antigos, mesmo que possa prejudicar aliados.",
+      "fundamentalista": "Sacerdote: Ato de traição diária com CD mínima 20 + nível. Não pode causar dano, perda de vida ou matar criaturas ofídicas.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-tanna-toh",
+      "divindade": "Tanna-Toh",
+      "descricao": "Deve ao menos uma vez por dia (ou sessão) descobrir novos conhecimentos gerais, eclesiásticos ou místicos via teste de Conhecimento, Misticismo ou Religião (CD 15 + metade do nível). A informação deve ser compartilhada em voz alta. Deve sempre dizer a verdade e responder perguntas diretas.",
+      "brando": "Pode se recusar a dizer a verdade ou responder perguntas (mas não pode mentir — pode omitir).",
+      "fundamentalista": "Sacerdote: Proibido de fazer ações que exijam Enganação; não pode se associar com devotos de Sszzaas (deve atacar e destruir). Paladino: Como sacerdote + deve sempre revelar sua verdadeira identidade, devoção e capacidades.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-tenebra",
+      "divindade": "Tenebra",
+      "descricao": "Jamais pode revelar qualquer segredo ou informação que lhe foi entregue, mesmo que custe a vida. Deve cobrir o rosto com véu diáfano e vestir apenas roupas escuras com prata. Durante o dia, deve usar proteção contra sol e calor.",
+      "brando": "Deve impedir apenas que seu rosto seja tocado pela luz do sol.",
+      "fundamentalista": "Sacerdote: A pele nunca pode ser tocada por qualquer iluminação (natural, artificial ou mágica). Proibido de se associar com devotos de Azgher. Druida: Jamais causa dano ou perda de vida a mortos-vivos (mas pode impor condições).",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-thyatis",
+      "divindade": "Thyatis",
+      "descricao": "Proibido de matar criaturas inteligentes (Int –3 ou maior), exceto criaturas da tormenta. Caso a criatura derrotada não demonstre arrependimento, pode permitir que um aliado a mate.",
+      "brando": "Pode matar criaturas inteligentes se forem corruptas, vilãs ou da tormenta.",
+      "fundamentalista": "Sacerdote: Como o básico + proibido de se associar com cultistas de Aharadak e criaturas da tormenta (deve atacar e destruir — sem violar O&R). Paladino: Como o paladino básico + mesmo efeito.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-thwor",
+      "divindade": "Thwor",
+      "descricao": "Deve seguir e promover o Akzath e o 'Mundo Como Deve Ser'. Deve atacar e destruir a cultura élfica e a antiga cultura goblinoide alimentada por Ragnar.",
+      "brando": "Apenas segue o 'Mundo Como Deve Ser' e parte dos princípios do Akzath.",
+      "fundamentalista": "Sacerdote: Deve ensinar e doutrinar os povos inteligentes sobre a filosofia goblinoide, buscando convertê-los em duyshidakks, usando violência apenas como último recurso.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-valkaria",
+      "divindade": "Valkaria",
+      "descricao": "Jamais pode recusar chamado, pedido ou missão para uma aventura (exceto excessivamente perigosa). Não pode ter moradia ou local fixo (não se beneficia de bônus de estruturas).",
+      "brando": "Proibido de casar e formar uniões estáveis. Deve sair do lugar onde está pelo menos uma vez por ano.",
+      "fundamentalista": "Sacerdote: Não pode se beneficiar de estruturas, ficar mais de 1 semana numa mesma comunidade ou recusar missões. Paladino: Como o básico + não pode se beneficiar de estruturas.",
+      "fonte": "Mitos de Arton"
+    },
+    {
+      "id": "alt-wynna",
+      "divindade": "Wynna",
+      "descricao": "Deve ao menos uma vez por dia (ou sessão) lançar magia arcana com sucesso do maior círculo que tiver acesso. Não pode matar criaturas mágicas ou conjuradores arcanos (exceto se forem vilões).",
+      "brando": "Apenas não pode recusar pedidos de ajuda de pessoas inocentes. Apenas criaturas mágicas e conjuradores arcanos podem ser devotos brandos.",
+      "fundamentalista": "Sacerdote: Deve escolher 0 em testes de resistência sempre que alvo de uma magia. Não pode cancelar magias.",
+      "fonte": "Mitos de Arton"
+    }
+  ]
+}
