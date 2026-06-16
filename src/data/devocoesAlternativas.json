@@ -52,8 +52,8 @@
       "Druidas",
       "Paladinos"
     ],
-    "obrigacoesRestricoes": "Proibido de mentir, trapacear, roubar ou recusar pedidos de ajuda de elfos inocentes. Só pode matar elfos e criaturas semelhantes em último caso. Raças goblinoides, crias da tormenta ou raças brutas não podem ser devotas.",
-    "brando": "Apenas não pode recusar pedidos de ajuda de elfos inocentes ou para resgatar relíquias élficas (desde que não excessivamente perigoso). Apenas elfos puros podem ser devotos brandos.",
+    "obrigacoesRestricoes": "Proibido de mentir, trapacear, roubar ou recusar pedidos de ajuda de elfos inocentes. Só pode matar elfos e criaturas semelhantes em último caso. Raças goblinoides, crias da tormenta ou raças brutas (como ogros, orcs, trogs, etc.) não podem ser devotas de Glórienn, independente de sua classe ou origem.",
+    "brando": "Apenas não pode recusar pedidos de ajuda de elfos inocentes ou para resgatar relíquias élficas (desde que não excessivamente perigoso ou que prejudique seus aliados). Apenas elfos puros podem ser devotos brandos.",
     "autoridadeEclesiastica": "+5 em Atuação e Nobreza. Ao visitar uma igreja de Glórienn, soma Carisma no total de PM até o fim do dia (cumulativo).",
     "poderesConcedidos": [
       {
