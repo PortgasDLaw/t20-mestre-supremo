@@ -254,27 +254,33 @@
     "nome": "Rito do Anjo",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Ao realizar este rito sagrado, você se torna um ser angelical poderoso, como um aggelus potencializado.",
-    "ritual": "Deve passar 1 mês em oração contínua em um templo sagrado, ser devoto de uma divindade de alinhamento bom e ter ao menos 10 níveis.",
+    "resumo": "Ao completar este rito sagrado, você se torna um ser angelical superior, mais poderoso que um aggelus comum.",
+    "ritual": "Você deve primeiro se sacrificar: tornar-se fundamentalista de uma divindade, seguir todas as virtudes paladinescas e os códigos do herói, da honra e da norma, e passar uma semana inteira sem se alimentar ou dormir, narrando dias de atos missionários em nome da fé. Em seguida, realiza a eucaristia — um ritual sagrado em um templo da divindade, acompanhado de ao menos doze devotos fiéis e T$ 50.000 em componentes, em uma cerimônia de um dia inteiro (teste estendido de Religião, CD 35, 5 sucessos; falhar exige reiniciar o sacrifício). Concluída a eucaristia, a divindade envia um aspecto ou avatar para arrebatá-lo, destruindo seu corpo mortal e ascendendo-o a uma forma de luz pura — mas antes deve responder corretamente a uma última pergunta divina, sob pena de ser arrebatado por completo e perder o personagem.",
     "poderes": [
-      "Corpo Angelical — Você se torna uma criatura do tipo espírito (mantendo características do tipo original). Recebe asas angelicais (voo 12m), visão no escuro e imunidade a doenças.",
-      "Aura Sagrada — Criaturas do mal em alcance curto sofrem –2 em testes de ataque e resistência.",
-      "Cura Angelical — Uma vez por rodada, você pode curar um aliado adjacente em 2d8+nível PV como ação de movimento.",
-      "Armamento Divino — Seus ataques causam +1d8 de dano de luz contra criaturas do mal."
+      "Atributos — Sabedoria +2, Carisma +1.",
+      "Espírito — Seu tipo muda para espírito (celestial). Você recebe visão no escuro e passa a ser banido para o mundo divino da divindade na qual é devoto.",
+      "Apóstolo Divino — Você se torna parte da sua divindade, não podendo mais ser devoto de qualquer outra, e é considerado um devoto fiel dela (inclusive para ganhar outro poder). Violar as O&R da sua divindade causa, além dos efeitos normais, –5 em todos os testes até se redimir.",
+      "Asas Flamejantes — Você recebe um par de asas de luz com deslocamento de voo 18m (ou +6m se já possuir asas). Uma vez por rodada, gaste ação padrão e 3 PM para lançar uma tempestade de penas flamejantes em cone de 9m, causando 7d8+7 de fogo (Ref CD Sab reduz à metade), dano que aumenta em +1d8+1 por ponto de Sabedoria.",
+      "Auréola dos Santos — Gaste 2 PM para receber cura acelerada 10/trevas, +1 por dado em seu dano e cura de luz e +2 na CD dos seus efeitos divinos (efeito sustentado; combina com Aura Sagrada, se possuir).",
+      "Aversão ao Profano — Você é imune a luz e recebe resistência divina +5, mas não pode aprender magias de necromancia nem causar dano de trevas (viola suas O&R).",
+      "Constituição Celestial — Imunidade a doenças, efeitos de medo, metabólicos, sentidos e veneno; redução de fogo e eletricidade 20; cura de luz tem o dobro de eficácia em você.",
+      "Magia Sagrada — Você aprende e pode lançar três magias a sua escolha de até 4º círculo que causem dano de luz ou curem criaturas vivas (CD Sab); se aprendê-las de novo, o custo cai em –1 PM."
     ]
   },
   {
-    "id": "rito-altair",
-    "nome": "Rito de Altair",
+    "id": "rito-ascendido",
+    "nome": "Rito do Ascendido",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Presenteado pelo próprio deus menor Altair, concede o poder infinito da jornada ao portador.",
-    "ritual": "Deve encontrar o deus menor Altair e receber sua bênção pessoal, algo que exige uma jornada épica através das estrelas.",
+    "resumo": "Provação física suprema inspirada pelo deus menor Altair: ao escalar o monte Korvith e receber a bênção de Laurina, você se torna um guerreiro ascendido, com o vigor de um deus da guerra dentro de si.",
+    "ritual": "Você deve escalar uma montanha digna de ser chamada de provação — preferencialmente o monte Korvith — sem qualquer auxílio de equipamentos ou itens mágicos, usando apenas armadura, arma e escudo não mágicos. A escalada é um teste estendido longo de no mínimo uma semana (7 sucessos antes de 3 falhas, principalmente em Atletismo, CD inicial 10 que aumenta em +5 a cada sucesso e/ou falha, enfrentando armadilhas, perigos e inimigos pelo caminho; magias tendem a falhar durante a provação). Uma falha total faz você despencar, sofrendo 9d6 de impacto por sucesso já obtido. Ao alcançar o topo, Laurina, a deusa menor das estrelas, lhe presenteia com uma estrela que, ao tocar seu peito, é absorvida por seu corpo, tornando-o um guerreiro das estrelas.",
     "poderes": [
-      "Estrela Guia — Você nunca se perde e pode viajar entre planos usando as estrelas como referência.",
-      "Poder da Jornada — A cada aventura completada, você recebe um bônus cumulativo de +1 em um atributo à sua escolha (máx. +5).",
-      "Bênção das Estrelas — Uma vez por cena, você pode gastar 3 PM para receber inspiração cósmica: +1d6 em qualquer teste.",
-      "Viajante Eterno — Você é imune a efeitos de teleporte indesejado e banimento."
+      "Atributos — Força +1, Destreza +1, Constituição +1, Inteligência –1.",
+      "Juventude — Sua longevidade muda para x5 e você deixa de envelhecer, voltando a ser jovem (mantendo benefícios e removendo penalidades de idade, se usar a regra de Idades Variadas). Não precisa se alimentar e dorme apenas 4 horas.",
+      "Bastião Imortal — Você reduz à metade (ou totalmente, com Durão) todo dano mundano recebido e é imune a medo.",
+      "Estrela Cadente — Gaste ação completa e 10 PM para se lançar aos céus e cair como um cometa em um espaço a alcance longo, explodindo em esfera de 9m: 10d12 de impacto e 10d12 de fogo, empurrando 9m e deixando caído (Ref CD For reduz o dano de fogo à metade e evita condição/empurrão); alvos que colidem com obstáculos sofrem +2d12 por 1,5m empurrado.",
+      "Fulgor — A cada acerto, ganha +1 cumulativo em testes de ataque (limitado pela Força) até o fim da cena; ao errar, perde os acúmulos mas ganha +2 na Defesa e em resistência, cumulativo (limitado pela Constituição).",
+      "Guerreiro Perfeito — +2 em testes de ataque e +5 nas rolagens de dano com qualquer arma; em todo ataque, rola dois dados e usa o melhor, e em acerto crítico o dano da arma aumenta um passo antes da rolagem."
     ]
   },
   {
@@ -282,13 +288,18 @@
     "nome": "Rito do Demônio",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Ritual profano que transforma o usuário em um ser demoníaco poderoso.",
-    "ritual": "Deve realizar um pacto com uma entidade demoníaca, ter ao menos 12 níveis e sacrificar algo de valor incalculável.",
+    "resumo": "Pacto profano com um demônio de um mundo divino que transforma o devoto em um ser demoníaco e poderoso.",
+    "ritual": "Você deve realizar um antigo ritual de invocação: T$ 50.000 em componentes, seis sacrifícios humanoides mortos há menos de uma semana, dispostos sobre o símbolo ritual em uma noite de lua nova, com palavras proferidas exatamente às 3:33 da madrugada (Religião CD 33; falhar consome os corpos e exige recomeçar). Se bem-sucedido, um demônio do mundo divino da sua divindade aparece e oferece um pacto por pergaminho: aceitar custa sua alma (perde o personagem, que se torna um vilão do mestre, a menos que perceba a má intenção com Intuição CD 30 ou Vontade CD 35). Percebendo a armadilha, pode negociar um trato — recebe os poderes em troca de servidão eterna à divindade do demônio — ou convencê-lo a cedê-los sem nada em troca (Diplomacia CD 40).",
     "poderes": [
-      "Constituição Demoníaca — Você recebe imunidade a doenças, efeitos de medo, encantamento, ilusão e veneno. Além disso, recebe redução de fogo e trevas 10.",
-      "Forma Demoníaca — Você pode gastar 5 PM para revelar sua forma demoníaca verdadeira por 1 minuto, recebendo +4 em testes de ataque, +2d8 de dano de trevas e asas (voo 9m).",
-      "Domínio Infernal — Criaturas demoníacas não atacam você a menos que você as ataque primeiro.",
-      "Magia Infernal — Você aprende 2 magias de necromancia ou evocação e pode lançá-las gastando –1 PM."
+      "Atributos — Inteligência +2, Destreza +1.",
+      "Espírito — Seu tipo muda para espírito (abissal). Você recebe visão no escuro e passa a ser banido para o mundo divino da divindade na qual é devoto.",
+      "Aversão ao Divino — Você é imune a trevas e recebe resistência divina +5, mas não pode aprender magias de cura nem causar dano de luz (viola suas O&R).",
+      "Constituição Demoníaca — Imunidade a doenças, medo, encantamento, ilusão e veneno; redução de ácido e frio 20; magias de trevas curam você, mas cura de luz tem só metade da eficácia.",
+      "Magia Profana — Você aprende e pode lançar três magias a sua escolha de até 4º círculo que causem dano de ácido, frio, fogo ou trevas (CD Sab); se aprendê-las de novo, custo cai em –1 PM.",
+      "Prole Infernal — Você se torna parte da sua divindade, não podendo mais ser devoto de outra, e é considerado devoto fiel dela; violar as O&R causa –5 em todos os testes até se redimir (não recebe esta característica se convenceu o demônio em vez de pactuar).",
+      "Pacto das Trevas — Gaste T$ 1.000 e um dia para criar um pergaminho que permite oferecer um pacto (uso de Intervenção Divina sem custo de PM/mana) a outra pessoa; em troca do desejo concedido, você ganha +1 PM permanente (que quem aceitou perde).",
+      "Estigma dos Pecadores — Gaste 2 PM para receber cura acelerada 10/luz, +1 por dado no seu dano de trevas e +2 na CD dos seus efeitos divinos (efeito sustentado).",
+      "Vigário — Se convenceu o demônio (em vez de pactuar), você não precisa seguir as O&R da sua divindade e recebe +5 em Enganação."
     ]
   },
   {
@@ -296,14 +307,17 @@
     "nome": "Rito do Dragão",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Ao realizar este ritual antigo, você se torna um dos monstros mais poderosos de Arton, assumindo características dracônicas permanentes.",
-    "ritual": "Deve consumir o coração de um dragão ancião, ter ao menos 14 níveis e sobreviver a 7 dias de transformação.",
+    "resumo": "Ritual ancestral e sangrento que transforma o celebrante em um dos monstros mais poderosos de Arton: um dragão verdadeiro.",
+    "ritual": "Você deve abater ao menos cinco dragões adultos ou mais velhos e extrair seus corações intactos e frescos (no máximo uma semana entre as coletas), sendo que pelo menos três devem ter idades próximas — a predominância decide o nível de poder obtido. Com T$ 50.000 em componentes, um espaço permeado de energia dracônica e um grande valão de água misturada ao sangue de um dragão adulto ou mais velho, lança os corações no líquido e profere uma oração (Religião CD 35); falhar faz o líquido evaporar e exige recomeçar. Com sucesso, mergulha despido no valão borbulhante por dez minutos (o líquido causa 20d6 de dano do tipo do dragão usado por minuto, reduzido à metade com Fortitude CD 30 +2 por minuto submerso) e então consome o líquido, desmaiando e despertando em outro plano para um duelo mental e mágico contra um aspecto do dragão mais forte usado no ritual — perder custa o personagem, vencer transforma você em um dragão.",
     "poderes": [
-      "Sangue de Dragão — Você se torna parcialmente dragão. Recebe escamas que fornecem RD 5 e resistência ao elemento do dragão consumido 15.",
-      "Sopro do Dragão — Você pode usar Sopro do Dragão (dano 6d8 do elemento escolhido, cone de 12m, Ref CD Con reduz à metade) uma vez por cena.",
-      "Terrificante — Criaturas de ND menor que seu nível ficam com medo ao te ver (Vontade CD Car evita).",
-      "Longevidade Dracônica — Você envelhece 10× mais lentamente e é imune a efeitos de envelhecimento.",
-      "Forma de Dragão — Uma vez por aventura, você pode assumir a forma de um dragão adulto do seu elemento por 10 minutos."
+      "Atributos — Força +1, Constituição +1, Carisma +1, Destreza –1.",
+      "Monstro — Seu tipo muda para monstro (dragão). Você recebe visão no escuro e imunidade a atordoamento, metamorfose, cansaço e paralisia, além de imunidade ao tipo de dano do elemento predominante usado no Mergulho — mas fica vulnerável ao dano do tipo oposto.",
+      "Aura Aterradora — No início de uma cena, criaturas a alcance longo que possam perceber você ficam abaladas (Von CD Car evita); se falharem por 10+, ficam apavoradas por 1 rodada e então abaladas. Funciona uma vez por dia por criatura. Medo.",
+      "Escamas — Resistência a magia conforme a idade predominante dos dragões do ritual (+3 adulto, +4 venerável, +5 rei); com predominância de dragões-rei, também reduz à metade qualquer dano mundano sofrido.",
+      "Forma de Dragão — Gaste ação completa e 10 PM para assumir sua forma verdadeira: mordida (2d10, crítico x3) e duas garras (3d6, crítico 18), Força +6, Constituição +4, Carisma +4 (sem PV/PM extra), redução de dano 20, voo 18m e tamanho conforme a idade predominante do ritual. Pode atacar com todas as armas naturais gastando 5 PM após uma ação agredir com outra arma, uma vez por rodada.",
+      "Magia Dracônica — Magias do elemento ao qual é imune causam +1 de dano por dado e têm CD +2; você pode lançá-las sem se concentrar, gesticular ou vocalizar.",
+      "Metamorfose — Você pode lançar Metamorfose como ação completa, sem limitação de tamanho menor que sua forma verdadeira.",
+      "Sopro — Gaste ação padrão e 5 PM para soprar energia elemental em cone (9m), esfera (18m) ou cilindro (9m): 6d12 (adulto), 8d12 (venerável) ou 10d12 (rei) de dano do elemento imune (Ref CD Con reduz à metade), +1 dado por ponto de Carisma; considerado magia para efeitos de interação."
     ]
   },
   {
@@ -311,13 +325,16 @@
     "nome": "Rito do Estrangeiro",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Uma possessão bizarra que transforma o usuário em uma criatura estrangeira caçadora de sombras de outro mundo.",
-    "ritual": "Deve ser possuído por uma entidade alienígena e sobreviver à possessão, ter 10 níveis.",
+    "resumo": "Possessão alienígena bizarra que transforma o hospedeiro em uma criatura estrangeira caçadora de seres vivos em nome do Fim.",
+    "ritual": "Você precisa ouvir os 'sinais' — frequências transmitidas por naves extraplanares dos soberanos do Fim, perceptíveis apenas a seres selvagens — e rastrear a nave (teste estendido de Sobrevivência, CD 30). Capturado, é incubado: o soberano implanta uma prole em seu corpo e o devolve a Arton, onde deve sobreviver doze semanas com a criatura se alimentando de você (teste de Fortitude no início de cada semana, CD 30 +2 por novo teste; falha custa 10% da vida máxima), sob fome constante, sem se beneficiar de consumíveis e sujeito a lapsos de memória (Vontade CD 30). Sobrevivendo às doze semanas, ocorre a simbiose: você se funde à criatura, deixando de ser hominídeo e se tornando o 'estrangeiro', recuperando toda a vida perdida no processo.",
     "poderes": [
-      "Percepção Alienígena — Você recebe percepção às cegas (longo) e visão verdadeira.",
-      "Tentáculos Estrangeiros — Você pode manifestar tentáculos que funcionam como armas naturais (1d8, agarrar automático no crítico).",
-      "Mente Alienígena — Você é imune a efeitos de encantamento e ilusão.",
-      "Invocação Estrangeira — Uma vez por aventura, você pode invocar uma criatura do seu mundo de origem para auxiliá-lo."
+      "Atributos — Força +1, Destreza +1, Constituição +1, Inteligência –1.",
+      "Monstro — Seu tipo muda para monstro. Você recebe percepção às cegas e sua categoria de tamanho aumenta um passo (máx. Grande), sem a penalidade usual em Furtividade — mas fica cego e perde Faro (se possuir), pois seu rosto é revestido por uma carapaça.",
+      "Anatomia Atroz — Seu dano desarmado passa a ser de corte e você recebe a habilidade Briga (evoluindo com seu nível); se já possuir Briga, aumenta o dano desarmado em um passo. Por sua anatomia, não pode vestir ou empunhar itens, sem forma de adaptação.",
+      "Arsenal Criptídeo — Suas armas naturais são substituídas por uma cauda (2d8, crítico 19/x3, corte) e uma mordida (2d10, crítico x3, perfuração). Uma vez por rodada, ao atacar com a cauda, gaste 1 PM para um ataque extra de mordida; acertando, pode agarrar como ação livre com –5 para o alvo resistir.",
+      "Caçador de Gente — Dano dobrado contra humanoides; ao matar um humanoide com mordida, recupera 1d12 PV por ponto de ND da criatura — mas sofre –5 em perícias de Carisma (exceto Intimidação) e a atitude de criaturas em relação a você é sempre uma categoria pior.",
+      "Carapaça Soberana — Redução de dano 10/fogo, +5 em Furtividade e +5 na Defesa, +1 adicional por patamar de jogo.",
+      "Sangue Ácido — Uma vez por rodada, ao sofrer dano corpo a corpo, gaste 2 PM para devolver metade desse dano ao agressor como dano de ácido."
     ]
   },
   {
@@ -325,13 +342,31 @@
     "nome": "Rito do Lado Demoníaco",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Ritual antigo e profano que permite ao usuário se transformar em um poderoso demônio.",
-    "ritual": "Disponível apenas para Onis ou criaturas com herança demoníaca. Requer ritual de 1 semana e 14 níveis.",
+    "resumo": "Ritual interior antigo e profano através do qual você cultiva e finalmente liberta seu próprio lado demoníaco.",
+    "ritual": "Você deve reconhecer que é uma pessoa cinza — nem totalmente boa, nem má — e declarar e aceitar conscientemente seus pecados, sem se redimir deles. Em seguida, deve praticá-los, podendo violar códigos e obrigações próprios. Por fim, confronta o demônio que cultivou em si: um ritual com um símbolo místico em local vazio, T$ 20.000 em componentes e um teste estendido de Religião (CD 30, 5 sucessos); falhando, deve tentar de novo outro dia. Com sucesso, enfrenta o próprio demônio em um combate pelo domínio do corpo — vencer concede o poder de assumir a face demoníaca quando desejar.",
     "poderes": [
-      "Transformação Demoníaca — Você pode se transformar em um demônio completo por 1 hora por dia, com poder de ND igual ao seu nível.",
-      "Essência do Inferno — Seus ataques causam +1d8 de trevas e você drena PM dos alvos ao acertar.",
-      "Portal Infernal — Uma vez por aventura, você pode abrir um portal para o mundo infernal e convocar reforços demoníacos.",
-      "Imortalidade do Mal — Se morto em sua forma demoníaca, você se reconstrói no plano infernal após 1d10 dias."
+      "Gatilho Infernal — Gaste ação completa e 10 PM para despertar seu lado demoníaco e assumir a forma infernal como efeito sustentado, recebendo todas as características abaixo; só sai dela ao ficar inconsciente, desfazê-la (ação de movimento) ou chegar a 0 PM. A cada cena na forma, teste de Vontade (CD 20 +5 por cena anterior); falhar custa 2d4 PM (+1d4 a cada nova falha); chegar a 0 PM transformado deixa você atordoado por 1 rodada.",
+      "Atributos — Força +2, Destreza +1 (apenas enquanto transformado).",
+      "Arma Demoníaca — Gaste ação de movimento e 5 PM para amaldiçoar uma arma (ou ataque desarmado): o tipo de dano muda para ácido, eletricidade ou trevas e aumenta um passo; um crítico aplica um estigma que impede o alvo de receber cura por 1 rodada.",
+      "Fisionomia Infernal — Asas com deslocamento de voo 12m e imunidade a dano de queda (exceto imóvel/inconsciente); carapaça que dá redução de dano 5, +2 em resistência e +5 na Defesa; ataques desarmados +1 dado do mesmo tipo, ataques com armas +5 nas rolagens de dano.",
+      "Rajada do Estirge — Gaste ação padrão e 2 PM por criatura em alcance curto para disparar esferas flamejantes: 6d6+6 de fogo e fica em chamas (Ref CD For reduz à metade e evita a condição).",
+      "Sangue Fervente — Cura acelerada 10/luz, imunidade a ácido e eletricidade, +3m de deslocamento; ao ativar a forma, ganha +20 PV e +10 PM temporários, que duram enquanto a forma persistir.",
+      "Voz do Diabo — Voz grossa e distorcida: +5 em Intimidação, podendo usar Força como atributo-chave dessa perícia."
+    ]
+  },
+  {
+    "id": "rito-lobisomem",
+    "nome": "Rito do Lobisomem",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Iniciação concedida por um círculo secreto de devotos de Tenebra que transforma o celebrante em um lobisomem, criatura da noite feita pela mãe-noite.",
+    "ritual": "Você deve localizar e ganhar a confiança de um círculo secreto de devotos de Tenebra que conhece o segredo da transformação, sendo julgado por seu ancião. Aprovado, cumpre uma série de provações em nome da deusa — caçar itens importantes para o círculo e sua igreja, e enfrentar ameaças à sua convivência, como os inquisidores de Azgher do Sol Prateado. Demonstrando respeito, confiança e lealdade após muitas missões, é levado ao local sagrado do ritual em uma lua nova, onde bebe o sangue de um ancião do círculo numa bacia cerimonial, contendo a agonia da transformação com testes contínuos de Fortitude (CD 35). Resistindo, transforma-se pela primeira vez e entra em fúria primal, caçando as criaturas mais próximas (exceto lobisomens) — ficando, a partir de então, permanentemente amaldiçoado por Tenebra.",
+    "poderes": [
+      "Atributos — Força +1, Destreza +1, Constituição +1, Inteligência –1.",
+      "Forma Lupina — Ao assumir a forma ágil, feroz ou resistente, pode gastar o dobro de PM para se tornar um lobisomem (sem custo durante a noite, exceto o de usar Forma Selvagem). Na forma de lobisomem, mantém os benefícios da forma escolhida, mas fala de modo primitivo, sofre –5 em testes de ataque com armas empunhadas (podendo empunhá-las), recebe Força +4, Destreza +3, dano das armas naturais +1 dado do mesmo tipo e uma arma natural adicional (1 PM, uma vez por rodada, após atacar corpo a corpo com outra arma natural); +5 na margem de ameaça contra alvos sangrando e recupera 1d12 PV ao causar dano com armas naturais.",
+      "Fraquezas Lupinas — Você é vulnerável a prata; em noites de lua nova, transforma-se automaticamente e não pode realizar ações que exijam calma e concentração, até as seis da manhã seguinte.",
+      "Sentidos Animalescos — Você recebe faro (ou aumenta um passo, se já possuir) e +2 em Percepção e Reflexos.",
+      "Uivar — Uma vez por cena, gaste ação completa para convocar uma matilha de 1d6+2 lobos capangas (deslocamento 12m, Defesa 19, dano 1d12+2 de perfuração) que somem ao fim da cena."
     ]
   },
   {
@@ -339,14 +374,50 @@
     "nome": "Rito do Revenã",
     "tipo": "rito",
     "fonte": "Mitos de Arton",
-    "resumo": "Ao completar este ritual, você se torna um revenã — uma criatura que é sua própria armadura.",
-    "ritual": "Deve encontrar um orbe de revenã (criado por um necromante de alto nível) e passar 7 dias em estado de morte aparente.",
+    "resumo": "Ritual macabro que funde o devoto com sua própria armadura mágica, tornando-o um revenã — um guerreiro perpétuo que é sua própria armadura.",
+    "ritual": "Exige como pré-requisito uma armadura pesada mágica item maior, completa ou mais fechada (corins servem para alguns inventores exóticos), não específica, feita sob medida e selada para o seu corpo, que deve ser usada continuamente por seis meses sem remoção (interrupções reiniciam a contagem). Em seguida, o vínculo exige ungir a armadura com óleos e processos arcanos complexos, contratando um mago experiente (capaz de lançar magias de 4º círculo, versado em alquimia e escriba) por T$ 50.000 mais taxas, durante uma semana de ritual. Por fim, deve morrer em um combate mortal e difícil (não basta morrer de outra forma): a armadura ativa o ritual com seu sangue, acorrentando-o a ela para sempre, e você trava um combate mental contra o espectro de sua própria mente — vencer mantém sua consciência e completa a transformação em revenã.",
     "poderes": [
-      "Armadura Viva — Você passa a habitar sua armadura. Sua Defesa base aumenta em +4 e você não pode ser desarmado.",
-      "Orbe Vital — Você possui um orbe que funciona como seu coração. Se o orbe for destruído, você é incapacitado mas não morre. O orbe se reconstrói no início da próxima cena.",
-      "Presas — Você recebe uma arma natural de presas (1d10, perfuração). Ao acertar, o alvo fica sangrando.",
-      "Imortalidade do Revenã — Enquanto seu orbe existir, você não pode ser morto por dano normal. Apenas dano ao orbe é letal.",
-      "Forma Completa — Você pode expandir sua armadura para tamanho Grande por 3 PM, recebendo os benefícios de tamanho Grande por 1 minuto."
+      "Atributos — Força +2, Constituição +2, Destreza –1, Carisma –1.",
+      "Morto-Vivo — Seu tipo muda para morto-vivo. Você recebe visão no escuro e imunidade a cansaço, medo, metamorfose, efeitos metabólicos, trevas e veneno; não precisa respirar, comer ou dormir. Cura de luz causa dano a você, você não se beneficia de itens de alimentação, mas dano de trevas recupera seus PV.",
+      "Aperto Imortal — Gaste ação padrão e 3 PM para agarrar um alvo em alcance curto com uma mão fantasmagórica; acertando a manobra, puxa o alvo para adjacente a você e causa 6d6+6 de trevas, metade convertida em cura para você.",
+      "Domínio da Morte — Você recebe a habilidade Duelo como um cavaleiro do seu nível de personagem (custo reduzido em –1 PM se já a possuir); ao usá-la, o alvo não pode se afastar além de alcance curto de você até chegar a 0 PV ou menos.",
+      "Intransponível — Sua armadura recebe +5 na Defesa e redução de dano 20/luz, e reduz à metade dano de eletricidade e frio.",
+      "Metal Mortal — Seu corpo é sua armadura: não conta no limite de itens vestidos, ocupa 0 espaços e não pode ser alvo de Quebrar (RD 80, PV 100; só é destruída ao morrer, e efeitos de reconstrução não funcionam nesse período). Funciona como um filactério, ressuscitando-o em 1d10 dias.",
+      "Preço da Não Vida — Você precisa passar 8 horas sob luz de estrelas ou no subterrâneo para recuperar PV e PM por descanso normalmente; caso contrário, sofre os efeitos de fome."
+    ]
+  },
+  {
+    "id": "rito-sabio",
+    "nome": "Rito do Sábio",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Ritual interno de iluminação espiritual ligado a Lin-Wu, através do qual o cultivador abre seus meridianos e se torna um grande sábio, parte íntegra do carnal e do astral.",
+    "ritual": "Você precisa criar um forte vínculo de amizade com seu pashupati e meditar sob condições extremas de rigor (frio extremo, sob cachoeiras, etc.) até deixar de ser afetado por elas (5 sucessos seguidos em um teste estendido de Fortitude ou Vontade), despertando seu chi. Em seguida, peregrina sozinho até Tamu-ra, sobe os picos vanara conhecidos como garras do dragão até o pico ni-no-sentan, onde encontra o templo dos antigos sábios e um mestre vanara que o instrui por cerca de um ano de meditação e provações. Ao alcançar a verdadeira iluminação, transcende a si mesmo, tornando-se parte íntegra do carnal e do astral; a cada nível acima do 14º, abre um meridiano adicional, até o décimo segundo no 20º nível.",
+    "poderes": [
+      "Atributos — Destreza +1, Constituição +1, Sabedoria +1, Força –1.",
+      "Espírito — Seu tipo muda para espírito. Você recebe visão no escuro e passa a ser banido para Sora.",
+      "Alma e Meia — Seu pashupati ganha a capacidade de falar e concede os benefícios de dois familiares à sua escolha; uma vez por dia, você pode transformá-lo em capanga como na magia Conjurar Monstro, sem gastar PM, com reserva de aprimoramentos igual ao dobro de meridianos abertos.",
+      "Harmonia — Você recebe 1d3 cargas de chi por rodada em cenas de combate, e passa a usar Regeneração Meditativa e Revitalização Espiritual uma vez por rodada em vez de uma vez por cena.",
+      "Olhar dos Reinos — Soma sua Sabedoria em Intuição e Percepção; pode gastar 6 PM para receber percepção às cegas até o fim da cena; aprende e pode lançar Visão Mística (custo –1 PM ao aprender de novo).",
+      "Os Doze Meridianos — Métodos de cultivo com acesso a magias permitem aprender magias de 5º círculo no 10º meridiano aberto; o poder Constelação Rotatória passa a permitir escolher o mesmo atributo duas vezes."
+    ]
+  },
+  {
+    "id": "rito-tecelao-sangue",
+    "nome": "Rito do Tecelão de Sangue",
+    "tipo": "rito",
+    "fonte": "Mitos de Arton",
+    "resumo": "Rito ancestral e sanguinário através do qual um hemófago atinge o zênite da magia de sangue, abandonando grande parte de sua humanidade em troca de poder.",
+    "ritual": "Você deve caçar como a primeira hemófaga de Arton: durante seis noites seguidas, caçar e matar exatamente seis criaturas inteligentes por noite usando Hemofagia, com o golpe final sempre vindo de uma habilidade que consome a vida do alvo. Em seguida, passa a sofrer com a luz do sol (fica Fraco sob exposição direta) e deve hibernar durante o dia por um mês em um ambiente póstumo (cripta, mausoléu), alimentando-se à noite de carne e sangue de criaturas inteligentes — ao menos uma das vítimas deve ser levada ao local de descanso e seu sangue drenado e armazenado. Reunido sangue suficiente e um caixão especial (T$ 20.000 em componentes), um sacerdote de Tenebra conspurca o sangue (Religião CD 30, 3 sucessos, 1 hora) e você se sela no caixão por uma semana, submerso no sangue, fazendo testes diários de Fortitude (CD 35, 7 sucessos); uma falha total faz você ser consumido e se tornar um vampiro sob controle do mestre, mas o sucesso o faz renascer como um tecelão de sangue.",
+    "poderes": [
+      "Atributos — Constituição +2, Carisma +1, Força –1, Destreza –1, Sabedoria –1.",
+      "Monstro — Seu tipo muda para monstro. Você recebe faro (ou aumenta um passo, se já possuir), não precisa dormir e recebe imunidade a trevas (se já for imune, dano mágico de trevas recupera metade do dano sofrido em PV).",
+      "Couraça de Sangue — Gaste 10 PM para moldar uma armadura do seu próprio sangue: +20 PV temporários (usáveis em habilidades) e redução de dano 10/luz, durando até o fim da cena; enquanto ativa, pode gastar 3 PM por rodada para +5 PV temporários adicionais.",
+      "Humanidade Perdida — Você ganha sensibilidade ao sol (ofuscado e perde 5d6 PV por rodada sob luz solar direta) e –5 em Conhecimento, Diplomacia, Intuição e Vontade; não se beneficia de cura de luz ou itens de alimentação, precisa consumir carne e sangue de criaturas inteligentes ao menos uma vez por dia (ou sofre fome) e só descansa normalmente após 8 horas no subterrâneo ou em ambiente póstumo.",
+      "Orbe de Sangue — Uma vez por cena, recupera PV (incluindo os perdidos por suas próprias habilidades) igual ao 'dano' armazenado em sua esfera de sangue; o orbe se destrói ao ser usado, mas se reconstrói no início da próxima cena.",
+      "Presas — Arma natural de presas (2d8, crítico 19, trevas); uma vez por rodada, ao atacar com outra arma ou lançar magia contra um alvo adjacente, gaste 1 PM para um ataque extra de presas, cuja metade do dano é convertida em cura para você.",
+      "Sangue Corrompido — Soma sua Constituição em pontos de mana e nas rolagens de dano de presas e habilidades de hemófago (inclusive magias); pode usar Hemofagia uma vez adicional por rodada.",
+      "Visual Monstruoso — Usa Constituição como atributo-chave de Intimidação e recebe +5 nessa perícia."
     ]
   }
 ]
