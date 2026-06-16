@@ -1,0 +1,187 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=487 x1=295 y1=572 ---
+recebendo assim seus efeitos (cumulativo com a própria 
+matéria vermelha). Para cada quatro outros poderes da 
+tormenta, você pode gastar +3 PM para adicionar uma 
+melhoria adicional a seu Armamento Aberrante além de 
+matéria vermelha. Pré-requisito: Armamento Aberrante.
+Elitra Resistente
+
+--- block x0=71 y0=572 x1=295 y1=681 ---
+Suas asas insetóides se tornam maiores e mais 
+resistentes, permitindo voos mais longos. A duração do 
+deslocamento de voo ganho por Asas Insetóides dura 
+até o início do seu próximo turno, mas voar com essas 
+asas exige liberdade de movimentos; você não pode 
+fazê-lo se estiver de armadura ou sob algum efeito de 
+movimento. Pré-requisito: Asas Insetóides.
+Feto Abissal
+
+--- block x0=71 y0=681 x1=295 y1=709 ---
+Você pode gastar 6 PM e uma ação completa para 
+conceber de maneira macabra uma criatura rubra 
+
+--- block x0=309 y0=55 x1=533 y1=176 ---
+similar a um inseto composto de matéria vermelha. Ele 
+atua como um parceiro iniciante de um tipo a sua esco-
+lha — exceto montaria — até o fim da cena ou até ser 
+morto. Se possuir quatro outros poderes da tormenta, 
+ele se torna um parceiro veterano, se possuir oito outros 
+poderes da tormenta, se torna um parceiro mestre. Você 
+só pode conceber um feto por vez. Pré-requisito: outro 
+poder da tormenta.
+Humanidade PErdida
+
+--- block x0=309 y0=175 x1=533 y1=260 ---
+Você passa a ser considerado um lefou para efeitos 
+e pré-requisitos de raça, mas ainda é parte da sua "raça 
+original". Se for lefou ou kaijin, obter esse poder lhe 
+dá resistência a tormenta +5. Pré-requisito: oito outros 
+poderes da tormenta.
+Imitar a Realidade
+
+--- block x0=309 y0=260 x1=533 y1=321 ---
+Você recebe uma habilidade de raça humanoide a 
+sua escolha. Você pode trocar a habilidade no início de 
+cada aventura. Pré-requisito: Desprezar a Realidade.
+Imitar a Sociedade
+
+--- block x0=309 y0=321 x1=533 y1=418 ---
+Você pode lançar Metamorfose como uma magia si-
+mulada (atributo-chave Sab), mas apenas em você mes-
+mo e só pode se transformar em criaturas humanoides 
+com a sua categoria de tamanho — e não transforma 
+seus equipamentos e itens. Porém, a duração da habi-
+lidade muda para 1 dia. Pré-requisito: Imitar a Realidade.
+Implantar Simbionte
+
+--- block x0=309 y0=418 x1=533 y1=599 ---
+Ao agarrar uma criatura com a arma natural obtida 
+por Dentes Afiados, você pode gastar 6 PM para forçar 
+a criatura agarrada a fazer um teste de Fortitude (CD 
+Sab), se ele falhar, tem um simbionte manipulador colo-
+cado em seu cérebro através do pescoço e passa a seguir 
+suas ordens — como no efeito básico de Marionete. No 
+início de cada um dos turnos da criatura controlada, ela 
+pode fazer um teste de Vontade para sair do controle 
+mental, vomitando o simbionte, mas ao fazer isso, sofre 
+1d6 pontos de dano de ácido para cada rodada que 
+passou sendo controlada e fica enjoada (Fort CD Sab 
+evita a condição). Esse efeito só funciona em lacaios. 
+Pré-requisitos: Larva Explosiva, Quelíceras. Mental.
+Jardim Fúngico
+
+--- block x0=309 y0=599 x1=533 y1=711 ---
+Você pode gastar uma ação de movimento e 1 PM 
+para fazer brotar vários fungos macabros em diferentes 
+partes de seu corpo, que exalam um feromônio corro-
+sivo e venenoso. Sempre que uma criatura iniciar seu 
+turno adjacente a você, ela perde 1d6 pontos de vida. 
+Para cada dois outros poderes da tormenta que possuir, 
+a perda de vida aumenta em +1d6, e para cada quatro 
+outros poderes da tormenta que possuir, o alcance da 
+habilidade aumenta em +1,5m. Veneno.
+
+--- block x0=116 y0=66 x1=247 y1=98 ---
+Tabela 1-36: 
+Poderes da Tormenta
+
+--- block x0=75 y0=101 x1=259 y1=114 ---
+Poder
+Pré-requisitos
+
+--- block x0=75 y0=117 x1=279 y1=139 ---
+Alteração Óptica
+Enganação, quatro poderes 
+da tormenta
+
+--- block x0=75 y0=143 x1=233 y1=154 ---
+Anulação Mágica
+Rejeição arcana
+
+--- block x0=75 y0=157 x1=257 y1=169 ---
+Armamento Bizarro
+Armamento aberrante
+
+--- block x0=75 y0=172 x1=232 y1=183 ---
+Elitra Resistente
+Asas insetóides
+
+--- block x0=75 y0=187 x1=260 y1=198 ---
+Feto Abissal
+Um poder da tormenta
+
+--- block x0=75 y0=202 x1=271 y1=213 ---
+Humanidade Perdida
+Oito poderes da tormenta
+
+--- block x0=75 y0=216 x1=255 y1=228 ---
+Imitar a Realidade
+Desprezar a realidade
+
+--- block x0=75 y0=231 x1=240 y1=242 ---
+Imitar a Sociedade
+Imitar a realidade
+
+--- block x0=75 y0=246 x1=274 y1=257 ---
+Implantar Simbionte
+Larva explosiva, quelíceras
+
+--- block x0=75 y0=261 x1=181 y1=272 ---
+Jardim Fúngico
+—
+
+--- block x0=75 y0=275 x1=233 y1=287 ---
+Membros Aracnídeos
+Membros extras
+
+--- block x0=75 y0=290 x1=237 y1=301 ---
+Olhos Demais
+Olhos vermelhos
+
+--- block x0=75 y0=305 x1=181 y1=316 ---
+Palavra Impronunciável
+—
+
+--- block x0=75 y0=320 x1=181 y1=331 ---
+Pesadelo Vivo
+—
+
+--- block x0=75 y0=334 x1=230 y1=346 ---
+Quelíceras
+Dentes afiados
+
+--- block x0=75 y0=349 x1=229 y1=360 ---
+Rejeição Arcana
+Tempo místico
+
+--- block x0=75 y0=364 x1=225 y1=375 ---
+Revoada de Espinhos
+Sangue ácido
+
+--- block x0=75 y0=379 x1=270 y1=390 ---
+Sopro Repulsivo
+Sangue ácido, visco rubro
+
+--- block x0=75 y0=393 x1=265 y1=415 ---
+Substituição Macabra
+Implantar símbionte, seis 
+poderes da tormenta
+
+--- block x0=75 y0=419 x1=181 y1=430 ---
+Tentáculos
+—
+
+--- block x0=75 y0=434 x1=228 y1=445 ---
+Ventriloquismo Arcano
+Tempo Místico
+
+--- block x0=75 y0=448 x1=181 y1=460 ---
+Vislumbre Impossível
+—
+
+--- block x0=560 y0=756 x1=575 y1=767 ---
+133
+

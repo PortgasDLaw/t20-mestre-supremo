@@ -1,0 +1,189 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=107 ---
+A partir do 9º nível, você pode gastar +4 PM 
+para mudar a ação concedida para padrão, e a partir 
+do 15º nível, você pode gastar +1 PM (junto aos +2 
+ou +4 acima) para tornar o efeito sustentado.
+
+--- block x0=51 y0=107 x1=275 y1=135 ---
+Poder de Bardo. A partir do 2º nível, você 
+recebe essa habilidade como o bardo básico.
+
+--- block x0=51 y0=135 x1=275 y1=211 ---
+Lembrete Mortal. A partir do 8º nível, 
+sempre que uma criatura sob efeito de Bater Cabeça 
+reduzir um inimigo a 0 PVs ou menos, você recupera 
+PM igual ao círculo máximo de magias que pode 
+lançar. A critério do mestre, essa habilidade não 
+funciona em lacaios.
+
+--- block x0=51 y0=211 x1=275 y1=324 ---
+Fúria da Tempestade. No 20º nível, você 
+pode usar Sinfonia da Destruição como uma ação 
+livre, criaturas afetadas por Bater Cabeça recebem 
++5 em suas rolagens de dano e reduzem o custo de 
+suas habilidades em –1 PM (cumulativo com outras 
+reduções de custo). Além disso, todo dano de fogo 
+e eletricidade que você causar quando sob efeito de 
+Bater Cabeça é maximizado (sem a necessidade de 
+rolar dados).
+
+--- block x0=51 y0=339 x1=132 y1=373 ---
+xLutadorx
+Monge
+
+--- block x0=68 y0=374 x1=165 y1=390 ---
+"Namu Lin-Wu Tentsu..."
+
+--- block x0=51 y0=390 x1=275 y1=478 ---
+Houve um tempo em Tamu-ra onde era extrema-
+mente difícil uma pessoa portar armas, por diversas 
+leis e deméritos, sendo necessário ter cargos aristo-
+cráticos de renome para poder ter tal privilégio. Por 
+esse motivo, os tamurianos desenvolveram as artes 
+marciais, nascendo assim os mestres dessa arte; hoje 
+chamados de monges.
+
+--- block x0=51 y0=478 x1=275 y1=647 ---
+Monges são mais do que lutadores, são con-
+selheiros, eruditos e nômades que contemplam a 
+natureza e auxilia o povo comum em suas jornadas. 
+Ser um monge significa se responsabilizar pelo povo 
+tamuraniano ou de sua comunidade, ou simples-
+mente instruir seus aliados na jornada pela ascensão 
+espiritual, além de protegê-los de qualquer male. 
+Afinal, monges são extremamente resilientes graças 
+ao ardúo treinamento no qual se empregam para se 
+fortalecer e realizar tais tarefas altruístas.
+Características de 
+Classe
+
+--- block x0=51 y0=646 x1=275 y1=686 ---
+Pontos de Vida. Um monge começa com 16 
+pontos de vida + Constituição e ganha 4 PV + Con 
+por nível.
+
+--- block x0=68 y0=686 x1=223 y1=702 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=289 y0=423 x1=513 y1=475 ---
+Perícias. Como o lutador básico, mas adicione 
+Intuição, Religião e Vontade a lista de perícias desta 
+classe e treine 2 perícias de classe adicionais (para 
+um total de 6).
+
+--- block x0=289 y0=475 x1=491 y1=520 ---
+Proficiências. Nenhuma.
+Habilidades de Classe
+
+--- block x0=289 y0=519 x1=513 y1=643 ---
+Arsenal do Monge. Escolha três armas de 
+monge (cajado de batalha, katana, katar e outras 
+armas que, a critério do mestre, sejam consideradas 
+'de monge'). Você se torna proficiente com as armas 
+escolhidas e, uma vez por rodada, ao atacar com elas, 
+pode gastar 2 PM para somar seu dano desarmado na 
+rolagem de dano (incluindo quaisquer bônus) com 
+esta arma. A partir do 8º nível, seus ataques com 
+armas de monge contam como ataques desarmados 
+para efeito de suas habilidades de lutador.
+
+--- block x0=289 y0=643 x1=513 y1=707 ---
+Kung Fu. Seu dano desarmado se torna 1d6 e 
+passa a causar dano letal ou não letal. A cada cinco 
+níveis, esse dano aumenta de acordo com a tabela. 
+Uma vez por rodada, ao fazer um ataque corpo a 
+corpo com sua arma de monge, você pode gastar 1 
+
+--- block x0=338 y0=67 x1=461 y1=86 ---
+Tabela 1-21: O Monge
+
+--- block x0=294 y0=89 x1=484 y1=102 ---
+Nível
+Habilidades de Classe
+
+--- block x0=305 y0=105 x1=454 y1=116 ---
+1º
+Arsenal do monge, kung fu (1d6)
+
+--- block x0=305 y0=120 x1=427 y1=131 ---
+2º
+Evasão, poder de lutador
+
+--- block x0=305 y0=135 x1=471 y1=146 ---
+3º
+Poder de lutador, sexto sentido (Sab)
+
+--- block x0=305 y0=149 x1=397 y1=161 ---
+4º
+Poder de lutador
+
+--- block x0=305 y0=164 x1=451 y1=175 ---
+5º
+Kung fu (1d8), poder de lutador
+
+--- block x0=305 y0=179 x1=469 y1=190 ---
+6º
+Alma de diamante, poder de lutador
+
+--- block x0=305 y0=194 x1=480 y1=205 ---
+7º
+Poder de lutador, sexto sentido (Sab+1)
+
+--- block x0=305 y0=209 x1=397 y1=220 ---
+8º
+Poder de lutador
+
+--- block x0=305 y0=223 x1=455 y1=235 ---
+9º
+Kung fu (1d10), poder de lutador
+
+--- block x0=303 y0=238 x1=473 y1=249 ---
+10º
+Evasão aprimorada, poder de lutador
+
+--- block x0=303 y0=253 x1=480 y1=264 ---
+11º
+Poder de lutador, sexto sentido (Sab+2)
+
+--- block x0=303 y0=268 x1=444 y1=279 ---
+12º
+Poder de lutador, sete nuvens
+
+--- block x0=303 y0=282 x1=455 y1=294 ---
+13º
+Kung fu (1d12), poder de lutador
+
+--- block x0=303 y0=297 x1=397 y1=308 ---
+14º
+Poder de lutador
+
+--- block x0=303 y0=312 x1=480 y1=323 ---
+15º
+Poder de lutador, sexto sentido (Sab+3)
+
+--- block x0=303 y0=327 x1=397 y1=338 ---
+16º
+Poder de lutador
+
+--- block x0=303 y0=341 x1=451 y1=353 ---
+17º
+Kung fu (2d6), poder de lutador
+
+--- block x0=303 y0=356 x1=397 y1=367 ---
+18º
+Poder de lutador
+
+--- block x0=303 y0=371 x1=480 y1=382 ---
+19º
+Poder de lutador, sexto sentido (Sab+4)
+
+--- block x0=303 y0=386 x1=451 y1=397 ---
+20º
+Nirvana (2d8), poder de lutador
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+74
+

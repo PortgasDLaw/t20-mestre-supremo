@@ -1,0 +1,115 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=116 ---
+Você soma seu Carisma, limitado pelo nível, nas 
+rolagens de danos de magias que causam dano de 
+trevas e de suas armas corpo a corpo leves e ágeis.
+Rocha Vulcânica	
+g'rokk
+
+--- block x0=71 y0=116 x1=295 y1=163 ---
+Você recebe imunidade a efeitos climáticos e 
+redução de fogo 10.
+Roedor	
+toskr
+
+--- block x0=71 y0=163 x1=295 y1=260 ---
+Você recebe +10 em testes para escalar e uma 
+arma natural de mordida (dano 1d6, crítico x2, 
+perfuração). Uma vez por rodada, quando usa a ação 
+agredir para atacar com outra arma corpo a corpo, 
+você pode gastar 1 PM para fazer um ataque corpo a 
+corpo extra com a mordida.
+Sangue de Dragão	
+kobolds
+
+--- block x0=71 y0=260 x1=295 y1=320 ---
+Vocês recebem a habilidade Herança Dracônica 
+e duas bênçãos de Kallyadranoch (veja Ameaças de 
+Arton, p. 151). Pré-requisito: 5º nível de personagem.
+Sangue vital	
+várias
+
+--- block x0=71 y0=320 x1=295 y1=497 ---
+Você soma sua Inteligência no seu total de pon-
+tos de vida no 1º nível, e recebe +1 PV a cada nível 
+seguinte. Além disso, você pode, uma vez por roda-
+da, gastar 2 PM para recuperar 5 PV.  Pré-requisito: 
+homunculus ou raça do tipo espírito.
+Senso de Si	
+Harpia
+Você atribui-se a ideia de beleza, e por desejo 
+divino, torna-se assim. Você recebe +1 em testes 
+de perícia originalmente baseadas em Carisma. 
+Além disso, você pode usar Carisma no lugar do 
+seu atributo-chave de magias divinas e Misticismo. 
+Pré-requisito: não ser devoto de Megalokk.
+Sete Pecados	
+sulfure
+
+--- block x0=71 y0=497 x1=295 y1=558 ---
+Você recebe uma habilidade dentre as disponíveis 
+na lista do Pecador (p. @@). Se já for um pecador, 
+pode escolher um segundo pecado da lista.
+Tartaruga Negra	
+Kappa
+
+--- block x0=71 y0=558 x1=295 y1=642 ---
+Escolha duas das perícias a seguir: Acrobacia, 
+Atletismo, Enganação, Furtividade, Jogatina e 
+Ladinagem. Ao fazer um teste de uma das perícias 
+escolhidas, você pode gastar 2 PM para somar sua 
+Constituição neste teste.
+Topor	
+Alraune, Dahllan, Sílfide
+
+--- block x0=71 y0=642 x1=295 y1=707 ---
+Você pode gastar uma ação padrão e 2 PM para 
+lançar no ar uma nuvem de pó silvestre em um cubo 
+com 3m de lado em alcance curto. Os seres na área 
+fazem um teste de Fortitude (CD Car), quem falhar 
+fica enfeitiçado até sofrer algum ataque. Alvos hostis 
+
+--- block x0=309 y0=55 x1=530 y1=90 ---
+tem +5 no teste de resistência contra esse efeito.
+Troncudo	 Galokk, Minotauro, Ogro, Orc
+
+--- block x0=309 y0=90 x1=533 y1=163 ---
+Uma vez por rodada, ao sofrer dano, você pode 
+gastar uma quantidade de PM limitado pela sua For-
+ça. Para cada PM gasto, você recebe RD 5 contra o 
+dano recebido. Pré-requisito: 7º nível de personagem.
+Valente	
+humano
+
+--- block x0=309 y0=163 x1=533 y1=248 ---
+Ao ficar com metade dos seus pontos de vida má-
+ximos ou menos, você pode gastar 3 PM para receber 
++2 na Defesa e +1 em seus testes de resistência. A 
+partir do 7º nível, e novamente no 15º, você pode 
+gastar +1 PM para aumentar esses bônus em +1.
+Visão dos Gigantes	
+Jötun
+
+--- block x0=309 y0=248 x1=533 y1=332 ---
+O alcance de sua percepção às cegas aumenta em 
+um passo. Além disso, você pode lançar Augúrio sem 
+custo de PM, mas com a execução mudada para 10 
+minutos e apenas uma vez por aventura, represen-
+tando sua capacidade de ver o futuro.
+Völundr	
+valquíria
+
+--- block x0=309 y0=332 x1=533 y1=420 ---
+Você pode gastar uma ação de movimento e 3 
+PM para encantar uma arma que esteja empunhando 
+com o poder de Cardea até o fim da cena. O dano 
+de luz fornecido pela habilidade Coletora dos Mortos 
+muda para +3d6 e passa a afetar qualquer criatura — 
+esse dano é multiplicado em caso de acertos críticos 
+contra mortos-vivos. e
+
+--- block x0=560 y0=756 x1=575 y1=767 ---
+139
+

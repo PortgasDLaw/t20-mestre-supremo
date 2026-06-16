@@ -1,0 +1,68 @@
+Aventureiros de Arton
+Sentidos sobreNaturais
+Você recebe visão na penumbra, se já possuir, 
+recebe visão no escuro, e se tiver visão no escuro, 
+aumenta o alcance dela em um passo. Pré-requisitos: 
+Elo com a Natureza Maior, 6º nível de caçador. e
+Slot Disponível
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. 
+Maecenas consequat dui 
+felis, dictum rutrum est 
+ultrices tincidunt. Quisque 
+a lectus ut mi cursus dictum. 
+Proin nec metus faucibus, 
+vestibulum diam et, feugiat 
+mi. Nam at odio.
+Slot Disponível
+Lorem ipsum dolor sit 
+amet, consectetur adipiscing 
+elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices 
+tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus fauci-
+bus, vestibulum diam et, feugiat mi.
+Cavaleiro
+Arma Austera
+Você pode gastar 1 hora de trabalho para 
+encaixar um esotérico que afete magias 
+divinas em uma arma, desde que ela seja 
+a favorita de sua divindade. Ao fazer isso, 
+a mão em que empunha a arma é consi-
+derada livre para lançar magias e toda 
+magia lançada através da arma recebe 
+os efeitos do esotérico encaixado. 
+Pré-requisito: Cavaleiro do Panteão.
+Cavaleiro Divino
+Você recebe as habilidades Código do Herói e 
+Golpe Divino, que evolui de acordo com seu nível 
+de cavaleiro. Se já possuir Golpe Divino, invés do 
+normal a habilidade passa a causar +1d8 pontos de 
+dano adicional. Pré-requisito: Cavaleiro Sagrado. e
+Cavaleiro do Panteão
+Você aprende e pode lançar duas magias divinas 
+de 1º círculo a sua escolha que sejam de abjuração 
+ou transmutação (CD Car). Você tem acesso aos 
+mesmos círculos de magias que um clérigo com seu 
+nível de cavaleiro para propósitos de aprimoramen-
+to. Pré-requisitos: treinado em Misticismo e Religião, 
+devoto de um deus maior. e
+Égide Impenetrável
+Uma vez por cena, se estiver 
+empunhando um escudo, 
+você 
+pode 
+gastar 
+uma 
+ação completa e 6 PM 
+para dobrar toda 
+RD recebida por 
+habilidades 
+de 
+cavaleiro e poder 
+gastar 3 PM para 
+"Eu caçarei até o último 
+"Eu caçarei até o último 
+goblinoide de Arton!"
+goblinoide de Arton!"
+105

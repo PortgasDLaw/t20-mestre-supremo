@@ -1,0 +1,141 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=440 x1=272 y1=462 ---
+Habilidades de Classe
+
+--- block x0=71 y0=464 x1=295 y1=492 ---
+Devoto Fiel. Como o druida básico, mas você 
+não pode ser devoto de Azgher ou Lena.
+
+--- block x0=71 y0=492 x1=295 y1=568 ---
+Forma Selvagem. Você recebe o poder Forma 
+Selvagem (Tormenta20, p. 62), no 5º nível, recebe a 
+Forma Aprimorada, e no 11º nível, a Superior. Além 
+disso, nos níveis 5 e 11, o bônus em Enganação 
+para fingir ser um animal comum aumenta em 
++5. e
+
+--- block x0=71 y0=568 x1=257 y1=608 ---
+Voz Selvagem. Como em Empatia 
+Selvagem, mas você pode falar mesmo sob 
+efeito de forma selvagem.
+
+--- block x0=71 y0=607 x1=272 y1=658 ---
+Poder de Druida. A partir do 2º nível, 
+você recebe esta habilidade como o druida bási-
+co, mas não pode escolher o poder Segredos da 
+Natureza ou poderes de Aspectos ou Espíritos.
+
+--- block x0=71 y0=658 x1=295 y1=710 ---
+Faro Predatório. No 2º nível, você re-
+cebe faro — ou, se já possuir, aumente seu alcance 
+em um passo. Além disso, você pode gastar uma 
+ação de movimento e 2 PM para marcar uma criatura 
+
+--- block x0=309 y0=55 x1=533 y1=95 ---
+em alcance curto. Até o fim da cena, seus ataques 
+contra a criatura marcada causam +1 dado de dano e 
+você rola dois dados e usa o melhor em seus testes.
+
+--- block x0=309 y0=95 x1=533 y1=135 ---
+A partir do 7º nível, ao usar essa habilidade, você 
+pode gastar 5 PM ao todo para também receber +2 
+na margem de ameaça contra o alvo marcado. e
+
+--- block x0=108 y0=64 x1=255 y1=83 ---
+Tabela 1-25: O Polimorfo
+
+--- block x0=75 y0=86 x1=265 y1=100 ---
+Nível
+Habilidades de Classe
+
+--- block x0=87 y0=102 x1=273 y1=114 ---
+1º
+Devoto fiel, forma selvagem, voz selvagem
+
+--- block x0=87 y0=117 x1=238 y1=129 ---
+2º
+Faro predatório, poder de druida
+
+--- block x0=87 y0=132 x1=222 y1=143 ---
+3º
+Fera primal, poder de druida
+
+--- block x0=87 y0=147 x1=175 y1=158 ---
+4º
+Poder de druida
+
+--- block x0=87 y0=162 x1=250 y1=173 ---
+5º
+Forma aprimorada, poder de druida
+
+--- block x0=87 y0=176 x1=175 y1=188 ---
+6º
+Poder de druida
+
+--- block x0=87 y0=191 x1=282 y1=213 ---
+7º
+Fera primal (Sab nos PV), faro predatório (+2 
+na margem de ameaça), poder de druida
+
+--- block x0=87 y0=217 x1=175 y1=228 ---
+8º
+Poder de druida
+
+--- block x0=87 y0=232 x1=175 y1=243 ---
+9º
+Poder de druida
+
+--- block x0=85 y0=246 x1=175 y1=258 ---
+10º
+Poder de druida
+
+--- block x0=85 y0=261 x1=282 y1=283 ---
+11º
+Forma superior, poder de druida, polimorfia 
+real
+
+--- block x0=85 y0=287 x1=175 y1=298 ---
+12º
+Poder de druida
+
+--- block x0=85 y0=301 x1=175 y1=313 ---
+13º
+Poder de druida
+
+--- block x0=85 y0=316 x1=175 y1=327 ---
+14º
+Poder de druida
+
+--- block x0=85 y0=331 x1=175 y1=342 ---
+15º
+Poder de druida
+
+--- block x0=85 y0=346 x1=175 y1=357 ---
+16º
+Poder de druida
+
+--- block x0=85 y0=360 x1=175 y1=372 ---
+17º
+Poder de druida
+
+--- block x0=85 y0=375 x1=175 y1=386 ---
+18º
+Poder de druida
+
+--- block x0=85 y0=390 x1=175 y1=401 ---
+19º
+Poder de druida
+
+--- block x0=85 y0=405 x1=241 y1=416 ---
+20º
+Poder de druida, predador primal
+
+--- block x0=477 y0=697 x1=553 y1=708 ---
+"Eu.. Me... Adaptei."
+"Eu.. Me... Adaptei."
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+79
+

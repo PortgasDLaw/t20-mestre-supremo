@@ -1,40 +1,40 @@
 [
   {
     "id": "aegis",
-    "nome": "Aegis",
+    "nome": "Aegis Valienhart",
     "epiteto": "Deus da Abnegação",
     "fonte": "Mitos de Arton",
     "statusDivino": 2,
     "tipo": "mortal ascendido",
-    "historia": "Representa os Envars de Alstra. Com a ascensão da deusa Glória como conceito, o cargo de divindade menor dos envars ficou vago e passou a ser ocupado pelo mais fiel de sua prole, Aegis Valienhart. Especialista em espadas, Aegis encarna a humildade e a abnegação no combate.",
-    "crencasEObjetivos": "Humildade no combate. Usar a espada como ferramenta de proteção, não de conquista. Nunca subestimar o adversário.",
-    "simboloSagrado": "Uma espada inclinada para baixo",
+    "historia": "No continente de Alstra, cada raça vivente é representada por uma divindade menor. A primeira a se tornar um conceito foi a dos envars, a deusa Glória, que passou a ser conhecida como deusa da vitória. Com sua ascensão, o cargo de divindade menor dos envars ficou vago e passou a ser ocupado pelo mais fiel de sua prole, Aegis Valienhart, escolhido pela própria Glória por acreditar que ele, mais do que ninguém, representava o estilo de vida dos envars. Aegis é uma entidade de abnegação absoluta, um herói em todos os sentidos, dito ser o pai, ou até a reencarnação, do herói do tempo em algum momento da história artoniana.",
+    "crencasEObjetivos": "Pregar a humildade, abnegação, altruísmo e bondade. Ser o que prega, para servir de exemplo aos seus iguais. Nunca empunhar lanças ou desrespeitar autoridades, mesmo que seja uma. Proteger os fracos, marginalizados e oprimidos, dando a eles destinos melhores.",
+    "simboloSagrado": "Um leão",
     "canalizarEnergia": "Positiva",
     "armaPreferida": "Espada longa",
-    "devotos": "Envars, cavaleiros, paladinos, guerreiros humildes",
-    "obrigacoesERestricoes": "Um devoto de Aegis nunca deve se gabar de vitórias. Deve sempre oferecer chance de rendição antes de um golpe final. Nunca deve atacar um oponente desarmado ou indefeso.",
+    "devotos": "Aggelus, anões, envars, elfos, hynnes, kallyanachs, kaijins, qareens, tengus, cavaleiros, guerreiros, nobres, paladino",
+    "obrigacoesERestricoes": "Um devoto de Aegis deve ser humilde e justo, nunca devendo descumprir uma promessa ou negar o pedido de uma pessoa inocente, além disso deve demonstrar ter uma humildade virtuosa e benfeitora, seja através de boas ações ou doações. A cada vez que visitar uma comunidade igual ou maior que uma aldeia, deve realizar uma Busca bem-sucedida onde as recompensas devem ser entregues como forma de doação à comunidade, ou doar 20% de todo dinheiro que possuir consigo a essa comunidade se falhar na busca.",
     "poderConcedido": {
       "nome": "Virtude da Espada",
-      "descricao": "Na primeira rodada de um combate, se estiver empunhando uma espada, você pode gastar uma ação completa e 3 PM para pedir a orientação de Aegis. Até o fim da cena, você soma sua Sabedoria, limitada pelo nível, aos seus testes de ataque com essa arma (conta como bônus de encanto)."
+      "descricao": "Na primeira rodada de um combate, se estiver empunhando uma espada, você pode gastar uma ação completa e 3 PM para pedir a orientação de Aegis. Até o fim da cena, você soma sua Sabedoria, limitada pelo nível, aos seus testes de ataque com essa arma (conta como um bônus de encanto, não cumulativo com efeitos que usem este atributo). Se possuir o poder Virtude Paladinesca: Humildade, pode ativar esse poder concedido e sua virtude como parte da mesma ação."
     }
   },
   {
     "id": "alex",
-    "nome": "Alex",
+    "nome": "Alex Samyurge",
     "epiteto": "Deusa dos Metamorfos",
     "fonte": "Mitos de Arton",
     "statusDivino": 2,
     "tipo": "mortal ascendida",
-    "historia": "Uma das primeiras duplas criadas por Hyninn e também escolhida pelo deus da trapaça para libertar sua amiga de panteão. Alex foi uma libertadora que lutou ao lado de outros heróis épicos. Sua capacidade de transformação e adaptação a tornaram uma divindade dos metamorfos.",
-    "crencasEObjetivos": "Adaptação constante. Nunca permanecer a mesma. Libertar aqueles presos em formas que não escolheram.",
-    "simboloSagrado": "Duas formas fundindo-se em uma",
+    "historia": "Uma das primeiras duplas criadas por Hynnin, e também escolhida pelo deus da trapaça para libertar sua amiga de panteão. Alex foi uma libertadora que lutou ao lado de outros heróis épicos. Na estrada até a conclusão de seu objetivo, se apaixonou e casou-se, e essa relação lhe rendeu nome e identidade, vivendo uma vida feliz após libertar a deusa, tendo filhos, uma casa, família e, graças ao seu desejo, um culto em seu nome. Funciona como uma divindade familiar, com sua família compondo as partes mais importantes de seu clero — sua filha mais nova é sua paladina, e sua guardiã é a mais velha. Sendo o primeiro simulacro de Arton, é perfeita em se adaptar a qualquer um e qualquer pessoa; somente sua cônjuge consegue percebê-la independente do disfarce que assuma.",
+    "crencasEObjetivos": "Pregar a liberdade, a trapaça e o apego à vida. Reverenciar Alex e todas as criaturas de Hynnin. Ser livre para decidir quem é hoje, amanhã e sempre, nunca se prendendo a um único ego.",
+    "simboloSagrado": "Uma máscara branca de face plana, referenciando um duplo",
     "canalizarEnergia": "Qualquer",
-    "armaPreferida": "Adaga",
-    "devotos": "Duplos, homunculi, metamorfos, ladrões, ilusionistas",
-    "obrigacoesERestricoes": "Um devoto de Alex nunca pode recusar ajudar alguém preso em uma forma indesejada. Deve manter ao menos uma identidade secreta.",
+    "armaPreferida": "Florete",
+    "devotos": "Qualquer; Alex está disposta a aceitar qualquer um em seu clero, desde que espalhe a palavra da mudança",
+    "obrigacoesERestricoes": "Você não pode causar dano letal a criaturas vivas. Além disso, deve se esforçar para proteger e curar seus aliados sempre que tiver essa oportunidade, provendo cura e proteção na forma de habilidades e itens.",
     "poderConcedido": {
-      "nome": "Forma Fluida",
-      "descricao": "Uma vez por cena, você pode gastar 2 PM para mudar sua aparência física (não habilidades) completamente por 1 hora. Se for um metamorfo ou tiver habilidades de transformação, o custo diminui para 1 PM."
+      "nome": "Faces da Metamorfa",
+      "descricao": "Você aprende e pode lançar Disfarce Ilusório. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, você pode aprender Metamorfose como uma magia divina."
     }
   },
   {
@@ -44,35 +44,35 @@
     "fonte": "Mitos de Arton",
     "statusDivino": 3,
     "tipo": "mortal ascendido",
-    "historia": "Em uma ramificação histórica de Arton, existiu um libertador chamado Arthas Mal'ach, um morto-vivo amaldiçoado com uma armadura removida do cadáver de um hemófago, entregue pela própria Tenebra. Sua jornada pela masmorra mais difícil do mundo culminou na libertação de Valkaria. Devido à sua grande espada e tradição familiar, recebeu o epíteto de deus dos carrascos.",
-    "crencasEObjetivos": "Executar os culpados sem hesitação. A morte é a única punição verdadeira. Manter a ordem através do medo da espada.",
-    "simboloSagrado": "Uma grande espada de dois gumes com gota de sangue",
+    "historia": "Em uma das muitas ramificações históricas que ocorrem no mundo de Arton e além, existiu um libertador chamado Arthas Mal'ach, um morto-vivo amaldiçoado com uma armadura removida do cadáver de um hemófago e entregue a ele pela própria deusa das trevas, que selou suas memórias e o instruiu a libertar a deusa da humanidade. Sua jornada pelos desafios da masmorra mais difícil do mundo culminou na libertação de Valkaria. Devido à sua grande espada e antiga tradição familiar, recebeu o epíteto de deus dos carrascos. Foi um dos deuses menores que compôs o exército da libertação de Tamu-ra, executando hordas de lefeus para abrir caminho até Crânio Negro. Nos anos da Guerra Artoniana, marchou sobre Tyrondir contra a aliança negra dos goblinoides, lutando diretamente contra Thwor Ironfist; após a queda da Flecha de Fogo e o mês sem mortes, ascendeu novamente como divindade menor, sendo dito como aquele que executou Ragnar e cedeu a Thwor Ironfist a capacidade de ascender a divindade. Embora tenha sido um campeão de Tenebra, Arthas é tão benigno quanto um paladino devotado, vagando por Arton como o carrasco das sombras que executa o mal para trazer o bem.",
+    "crencasEObjetivos": "Executar o mal, os ímpios e os maléficos. Proteger as criaturas das sombras e àqueles que são oprimidos pela luz. Ser o carrasco do próprio mal. Eliminar a escória.",
+    "simboloSagrado": "Uma rosa negra envolta por espinhos",
     "canalizarEnergia": "Negativa",
-    "armaPreferida": "Greatsword (espada grande)",
-    "devotos": "Mortos-vivos, cavaleiros negros, inquisidores, executores, hemófagos",
-    "obrigacoesERestricoes": "Um devoto de Arthas não pode oferecer perdão ou misericórdia. Deve sempre incentivar a destruição dos inimigos declarados.",
+    "armaPreferida": "Montante",
+    "devotos": "Dampiros, elfos, galokks, hobgoblins, kallyanachs, lefous, osteons, sulfures, vampiros, bárbaros, cavaleiros, guerreiros, mirmidões, vingador",
+    "obrigacoesERestricoes": "Um devoto de Arthas deve, pelo menos uma vez por semana (ou por sessão de jogo, o que demorar mais), matar uma criatura de maneira instantânea, executando-a como um carrasco — por magias, golpes de misericórdia ou habilidades. O mestre tem a palavra final sobre o que é uma morte instantânea.",
     "poderConcedido": {
-      "nome": "Espírito de Vingança",
-      "descricao": "Você pode gastar uma ação de movimento e 2 PM para analisar um alvo em alcance curto, tornando-o seu alvo de vingança até o fim da cena. O alvo tem –2 em todos os testes de perícia contra você. Essa penalidade aumenta em 1 de forma cumulativa para cada 50 pontos de dano que você causar ao alvo em uma rodada (máx. –5)."
+      "nome": "Lâmina Negra da Morte",
+      "descricao": "A CD para resistir aos seus efeitos de morte instantânea aumenta em +2 e você pode realizar golpes de misericórdia com uma ação padrão (em vez de completa)."
     }
   },
   {
     "id": "banta",
     "nome": "Banta",
-    "epiteto": "Deus dos Guerreiros Ubaneri",
+    "epiteto": "Deus do Sangue",
     "fonte": "Mitos de Arton",
     "statusDivino": 2,
-    "tipo": "espírito ancestral ascendido",
-    "historia": "Espírito ancestral dos ubaneri, Banta dormia em seu mundo divino aguardando o momento de ser necessário. Ao ouvir o chamado do sangue ubaneri, despertou e chegou a Arton para proteger seu povo. Antes considerado um deus pastoril e gentil, hoje é cruel e sanguinário devido ao conflito com seu antigo irmão.",
-    "crencasEObjetivos": "Proteger os descendentes ubaneri. Honrar os ancestrais através da batalha. Vingança contra aqueles que prejudicaram o povo ubaneri.",
-    "simboloSagrado": "Uma lança com plumas vermelhas",
+    "tipo": "entidade primordial",
+    "historia": "Durante os conflitos que assolaram a região ubaneri, surgiu a crença de uma entidade sanguinária, um espírito elemental perdido que estava aprisionado na antiga Ojumajele, um carniçal formado pelo elemento primordial que move os seres vivos — não era água, mas corria como uma; não era fogo, mas tinha sua ferocidade. Era morte e vida, era sangue. No auge de um conflito, essa entidade primordial despertou após ser fervorosamente citada e adorada como um deus, recebendo o nome de Banta. Uma das criações dos deuses originais, surgida junto com o próprio sangue, ficava isolada nos prados de Árboria, aprisionada após a chegada da tormenta, até despertar e fugir para responder ao chamado do sangue ubaneri. Antes pregado como um deus benigno e pastoril, hoje é cruel e sanguinário devido ao conflito com seu antigo irmão Bes, hoje morto pelas próprias mãos do puma.",
+    "crencasEObjetivos": "Reverenciar as coisas boas, como a cura, a felicidade e o plantio. Valer-se do sangue dos seus inimigos e proteger aquilo que é seu. Destruir o que é mal, ruim, profano e distorcido, e então assimilar esses conceitos de maneiras boas.",
+    "simboloSagrado": "A face de uma pantera de olhos vermelhos e cicatriz de garra",
     "canalizarEnergia": "Qualquer",
-    "armaPreferida": "Lança",
-    "devotos": "Ubaneri, hynnes, tribos bárbaras, guerreiros ancestrais",
-    "obrigacoesERestricoes": "Um devoto de Banta deve honrar seus ancestrais antes de qualquer batalha e nunca abandonar um aliado no campo de batalha.",
+    "armaPreferida": "Serrilheira",
+    "devotos": "Bugbears, dampiros, dagon, kaijins, kallyanachs, lefous, medusas, minotauros, orcs, qareens, trogs, valquírias, vampiros, bárbaros, caçadores, guerreiros, hemófagos, lutadores, druidas, místicos",
+    "obrigacoesERestricoes": "Você deve proteger os ubaneri e nunca deve mentir, trapacear, roubar ou negar pedidos de ajuda de ubaneris inocentes. Além disso, deve sempre fazer um rito funerário para um aliado morto, enterrando-o com todas as honrarias e tesouros.",
     "poderConcedido": {
-      "nome": "Sangue dos Ancestrais",
-      "descricao": "Uma vez por cena, ao ser reduzido abaixo da metade dos seus PV, você pode gastar 3 PM para invocar a fúria de seus ancestrais. Você recebe +2 em testes de ataque e rolagens de dano e seu deslocamento aumenta em +3m até o fim da cena."
+      "nome": "Esfolar",
+      "descricao": "Você recebe +1d6 pontos de dano com armas contra alvos sangrando. O ganho é cumulativo (se o alvo estiver perdendo 2d6 PV por sangramento, você recebe +2d6 pontos de dano, por exemplo)."
     }
   },
   {
@@ -82,35 +82,35 @@
     "fonte": "Mitos de Arton",
     "statusDivino": 1,
     "tipo": "mortal ascendido",
-    "historia": "Outrora um usurpador ressentido com as injustiças que Arton lhe fez sofrer, Dukkaan agia principalmente pela paz. Tomava as dores dos outros como suas e se sacrificava para que outros não precisassem sofrer. Seu reconhecimento como deus menor veio quase simultaneamente ao de Frier, quando se reencontraram em Tapista.",
-    "crencasEObjetivos": "O sofrimento pessoal em prol do coletivo é sagrado. Nenhum inocente deve sofrer se você pode impedir. Aceitar a dor com graça e dignidade.",
-    "simboloSagrado": "Uma chama envolta em correntes",
-    "canalizarEnergia": "Positiva",
-    "armaPreferida": "Cajado",
-    "devotos": "Mártires, curandeiros, frades, defensores dos fracos",
-    "obrigacoesERestricoes": "Um devoto de Dukkaan nunca pode recusar socorro a um inocente em perigo. Deve sempre absorver o sofrimento alheio se capaz.",
+    "historia": "Outrora um usurpador ressentido com a sua vida pelas injustiças que Arton lhe fez sofrer, Dukkaan agia principalmente pela paz. Tomava as dores de seus aliados e lutava na linha de frente protegendo os fracos e oprimidos — não era um pacificador, era um guerreiro, mas acima de tudo, era alguém que se sacrificava. Durante a revolta da lavoura, enquanto Tauron, Aharadak e Glórienn lutavam sobre a cidade de Tiberus, Dukkaan foi chamado por sua deusa matrona e quase se viu alvo de uma trama da deusa dos elfos arquitetada pelo deus da traição, mas foi a voz da razão por trás da lucidez de Glórienn. Quando esta se redimiu e lutou ao lado de seu captor, Dukkaan a protegeu usando o poder sacrificial de Marah, usurpado, para proteger toda a cidade. Quase morrendo, Glórienn, em seu primeiro ato como divindade, entregou a Dukkaan os louros, a centelha e a admiração de todos os elfos que salvara, tornando-o o deus menor dos mártires.",
+    "crencasEObjetivos": "Sacrificar-se pelos seus aliados e seus iguais. Tomar as dores de todo o mal que se abate sobre seus aliados. Reverenciar aos deuses protetores e ao martírio individual. Entender que todo sacrifício tem um propósito maior.",
+    "simboloSagrado": "Um escudo sangrando",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Espada bastarda",
+    "devotos": "Anões, envars, eiradaans, elfos, galokks, golens, medusas, minotauros, valquírias, bruxeiros, cavaleiros, guerreiros, hemófagos, lutadores, nobres",
+    "obrigacoesERestricoes": "Um devoto de Dukkaan preza mais por seus aliados do que por si mesmo, não permitindo que qualquer um deles caia. Você deve sempre encerrar seus turnos adjacente a um aliado. Além disso, não pode deixar um aliado seu chegar a 0 PV ou menos e cair inconsciente.",
     "poderConcedido": {
-      "nome": "Sacrifício Sagrado",
-      "descricao": "Uma vez por cena, como reação ao receber dano, você pode gastar PM iguais ao dano que seria sofrido (mín. 1, máx. seu nível) para transferir esse dano para seus PM em vez de PV. Se não tiver PM suficientes, absorve o restante em PV."
+      "nome": "Martírio Vingativo",
+      "descricao": "Uma vez por rodada, por aliado, se ele estiver adjacente e for alvo de um efeito hostil (ataque, magia, etc.), você pode gastar 3 PM para se tornar o novo alvo do efeito no lugar dele. Caso ele esteja em alcance curto, você pode gastar 5 PM (em vez de 3 PM) para ficar adjacente ao aliado e então sofrer o efeito. Ao usar essa habilidade, você falha em qualquer tentativa de reduzir ou evitar o efeito, mas para cada 10 pontos de dano sofrido, você recebe +1 em testes de ataque e rolagens de dano até o fim do seu próximo turno — esse efeito não é cumulativo, escolha o maior se usar esse poder mais de uma vez."
     }
   },
   {
     "id": "frier",
     "nome": "Frier",
-    "epiteto": "Deus da Liberdade",
+    "epiteto": "Deus da Rebeldia",
     "fonte": "Mitos de Arton",
-    "statusDivino": 2,
-    "tipo": "mortal ascendida",
-    "historia": "Frier lutou em meio a grandes guerras em nome da liberdade de Arton, sempre com rebeldia e ambição. Ao descobrir o Império Trollkyka e a Supremacia Purista, não pôde permitir que tais tiranias dominassem o belo mundo de liberdade dado pelos deuses. Sua ascensão coincidiu com a de Dukkaan ao se reencontrarem em Tapista.",
-    "crencasEObjetivos": "Ser heróico e bondoso com inocentes. Ser impiedoso com inimigos. Rejeitar qualquer forma de ódio, opressão ou corrupção. Ser vitorioso e humilde.",
-    "simboloSagrado": "Uma águia estilizada",
-    "canalizarEnergia": "Positiva",
-    "armaPreferida": "Lança valquíriana",
-    "devotos": "Envars, valquírias, cavaleiros, guerreiros, paladinos",
-    "obrigacoesERestricoes": "Um devoto de Frier jamais deve oferecer rendição ou ter compaixão pelos inimigos. Nunca deve ser o primeiro a recuar em uma batalha justa.",
+    "statusDivino": 1,
+    "tipo": "mortal ascendido",
+    "historia": "Nascido em uma família abastada de Valkaria, Frier foi um meio-elfo fruto da união entre um elfo ex-paladino de Valkaria e uma misteriosa mãe humana, na verdade filha de um aspecto de Keenn. Em uma de suas aventuras, ele e um outro meio-elfo chamado Dukkaan foram tragados pelas forças sombrias do Oblívio, tornando-se escravos de Umbralar, só conseguindo se libertar mais de meio século depois. Ao descobrir a existência do império Trollkyka e a ascensão da Supremacia Purista, Frier não pôde permitir que tais tiranias dominassem o mundo de liberdade dado aos mortais pelos deuses, lutando em grandes guerras com rebeldia e ambição. Sua ascensão a divindade menor veio quase junto à de Dukkaan, ao se reencontrarem em Tapista, onde ambos ajudaram a elucidar a mente perturbada de Glórienn (que quase exterminou os meios-elfos da capital do Império) e mostrá-la a beleza da miscigenação élfica.",
+    "crencasEObjetivos": "Praticar a rebeldia, a ambição e a liberdade. Derrubar tiranos e figuras de poder que abusam do que têm. Ser sempre inovador e livre para testar novas formas de enfrentar desafios. Combater opressores e ditadores.",
+    "simboloSagrado": "As armas de Frier sobrepostas: uma adaga, uma espada e uma besta",
+    "canalizarEnergia": "Qualquer",
+    "armaPreferida": "Adaga",
+    "devotos": "Rebeldes; qualquer criatura de natureza rebelde e ambiciosa pode ser devota de Frier",
+    "obrigacoesERestricoes": "Um devoto de Frier não quer receber ordens ou sermões. Sempre que for alvo de um efeito benéfico lançado por uma criatura que não seja devota de Frier ou Valkaria, deve fazer um teste de Vontade (CD 20 + metade do seu nível); se falhar, não recebe nenhum dos bônus que o efeito concederia.",
     "poderConcedido": {
-      "nome": "Grito de Guerra",
-      "descricao": "Uma vez por cena, você pode gastar uma ação de movimento e 2 PM para proferir um grito de guerra. Aliados em alcance médio recebem +2 em testes de ataque e são imunes a efeitos de medo até o início do seu próximo turno."
+      "nome": "Revide Rebelde",
+      "descricao": "Uma vez por rodada, ao ser alvo de um ataque corpo a corpo enquanto empunhando a arma favorita de sua divindade, você pode gastar 5 PM para fazer um ataque contra seu agressor como uma reação."
     }
   },
   {
@@ -118,18 +118,18 @@
     "nome": "Glória",
     "epiteto": "Deusa da Vitória",
     "fonte": "Mitos de Arton",
-    "statusDivino": 3,
-    "tipo": "vanir ascendida a conceito",
-    "historia": "A primeira guerreira do antigo mundo das deusas exteriores, portadora da Espada-Mestra. Glória foi a primeira representante de Alstra a se tornar um conceito, ascendendo de divindade menor a algo além. Agora personifica a vitória em todas as suas formas.",
-    "crencasEObjetivos": "A vitória é o objetivo supremo. A derrota é apenas aprendizado. Todo herói merece uma chance de glória.",
-    "simboloSagrado": "Uma espada erguida cercada de raios dourados",
+    "statusDivino": 4,
+    "tipo": "conceito vivo",
+    "historia": "Outrora uma divindade menor que formou a raça dos envars, hoje Glória é a deusa da vitória; mesmo após se tornar conceito, não deixou de ser uma divindade, mas agora é adorada também pelos artonianos, principalmente pela influência dos cavaleiros gloriosos nas guerras recentes. Quando ainda vanir, era a representante de sua raça e uma das mais respeitadas generais de Vanasi, o salão onde vivem as valquírias. Foi por seu decreto que um destacamento de valquírias e envars se locomoveu para Arton, onde fundou a ordem gloriosa e lutou nas guerras vindouras. É um tanto abdicativa de devotos em prol de suas convicções: atribui heróis como seus principais devotos, mas se recusa a aceitar qualquer vilão.",
+    "crencasEObjetivos": "Ser heróico e bondoso com inocentes e aliados. Ser impiedoso e cruel com seus inimigos. Rejeitar qualquer forma de ódio, infâmia, opressão ou corrupção. Ser vitorioso e honrado. Ser humilde e caridoso.",
+    "simboloSagrado": "Uma águia estilizada",
     "canalizarEnergia": "Positiva",
-    "armaPreferida": "Espada longa",
-    "devotos": "Envars, valquírias, cavaleiros, heróis épicos, guerreiros honoráveis",
-    "obrigacoesERestricoes": "Um devoto de Glória nunca pode se render enquanto puder lutar. Deve sempre defender os mais fracos contra os tiranos.",
+    "armaPreferida": "Lança valquíriana",
+    "devotos": "Envars, valquírias, cavaleiros, guerreiros, nobres, paladinos (esta é a única deusa menor que pode ter mais de um paladino)",
+    "obrigacoesERestricoes": "Glória prega impiedade e heroísmo. Para representar a impiedade mediante o mal, um devoto de Glória jamais deve oferecer rendição ou ter compaixão pelos seus inimigos, pois ela não vê arrependimento — mesmo que isso possa causar dilemas a seus paladinos.",
     "poderConcedido": {
-      "nome": "Aura da Vitória",
-      "descricao": "Uma vez por aventura, ao ser reduzido a menos de 25% dos seus PV, você pode gastar 5 PM para invocar a aura da vitória. Até o fim da cena, você recebe +4 em testes de ataque, suas rolagens de dano são maximizadas e você é imune a condições debilitantes."
+      "nome": "Asas Gloriosas",
+      "descricao": "Uma vez por rodada, quando um aliado em alcance curto é alvo de um ataque, você pode gastar 2 PM para abrir suas asas (se não possuir, cria-se asas etéreas) e voar rapidamente em direção ao alvo, tomando o ataque no lugar dele e o afastando 3m em uma direção oposta ao inimigo. Essa habilidade não provoca ataques de oportunidade. Se estiver usando um item Zeloso, o custo dessa habilidade é reduzido em –1 PM."
     }
   },
   {

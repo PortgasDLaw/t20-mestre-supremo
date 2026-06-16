@@ -1,0 +1,197 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=309 y0=468 x1=533 y1=496 ---
+ponsável por forjar tudo que Arton tem de melhor a 
+oferecer quando se trata de bons equipamentos. 
+
+--- block x0=309 y0=496 x1=533 y1=628 ---
+Ser um ferreiro é mais do que só martelar em 
+uma bigorna, é uma arte milenar, o primeiro ofício 
+a surgir em Arton. Ele é utilizado não apenas para 
+armar soldados, mas como uma forma de arte antiga 
+e até mesmo sagrada. Castelos são ornamentados 
+com armaduras, enquanto tronos e salas heráldicas 
+expõe armas poderosas em suas paredes.
+Características de 
+Classe
+
+--- block x0=309 y0=627 x1=533 y1=655 ---
+Pontos de Vida. Um ferreiro começa com 16 
+pontos de vida + Con e ganha 4 PV + Con por nível.
+
+--- block x0=326 y0=655 x1=519 y1=672 ---
+Pontos de Mana. Como o inventor básico.
+
+--- block x0=309 y0=672 x1=533 y1=700 ---
+Perícias. Como o inventor básico, mas seu 
+Ofício inicial é armeiro.
+
+--- block x0=71 y0=55 x1=295 y1=95 ---
+que sobe de nível, pode lançar magias de círculos 
+maiores (2º círculo no 6º nível, 3º círculo no 10º 
+nível e 4º círculo no 14º nível).
+
+--- block x0=71 y0=95 x1=295 y1=147 ---
+Você começa com duas magias de 1º círculo. A 
+cada nível par (2º, 4º etc.), aprende uma magia de 
+qualquer círculo que possa lançar. Seu atributo-cha-
+ve para lançar magias é Sabedoria.
+
+--- block x0=71 y0=147 x1=295 y1=175 ---
+Poder de Inquisidor. A partir do 2º nível, 
+você recebe essa habilidade como o inquisidor básico.
+
+--- block x0=71 y0=175 x1=295 y1=252 ---
+Discernimento. No 3º nível, a sua visão do 
+mundo passa a ver além da realidade carnal. Você 
+fica permanentemente sob efeito de visão mística com 
+todos os aprimoramentos, soma sua Sabedoria em 
+Investigação e sua Inteligência em Intuição, ambos 
+limitados pelo nível.
+
+--- block x0=71 y0=252 x1=295 y1=292 ---
+A partir do 17º nível, você passa a ficar perma-
+nentemente sob efeito de visão verdadeira com todos 
+os aprimoramentos.
+
+--- block x0=71 y0=292 x1=295 y1=332 ---
+Apogeu da Mente. No 5º nível, escolha entre 
+Olhos Internos ou Vislumbre Onírico, uma vez feita, 
+a escolha não pode ser mudada.
+
+--- block x0=71 y0=332 x1=295 y1=384 ---
+•	 Olhos Internos. Você ignora efeitos de camu-
+flagem e recebe percepção às cegas. Além disso, ao 
+fazer um teste de Percepção, pode gastar 2 PM para 
+somar sua Inteligência no teste, limitado pelo nível.
+
+--- block x0=71 y0=384 x1=295 y1=449 ---
+•	 Vislumbre Onírico. Uma vez por rodada, ao 
+lançar uma magia de adivinhação, você pode fazer 
+um teste de Conhecimento. Para cada 10 pontos de 
+resultado no teste, você diminui o custo da magia 
+lançada em –1 PM (mínimo 0 PM).
+
+--- block x0=71 y0=449 x1=295 y1=513 ---
+Tributo. A partir do 11º nível, você pode usar 
+habilidades de Inquisidor perdendo PV ao invés de 
+gastar PM (como em Hemofilia, p. @@). Porém, 
+isso é um uso opcional e a única forma de recuperar 
+pontos de vida perdidos dessa forma é com descanso.
+
+--- block x0=71 y0=513 x1=295 y1=589 ---
+A Verdade. No 20º nível, você pode, uma vez 
+por rodada, escolher 20 em um teste, ignorar um 
+dano recebido ou anular uma condição que esteja 
+lhe afetando. Além disso, não precisa mais respirar, 
+alimentar-se ou dormir e recebe imunidade a efeitos 
+de cansaço, metabólicos e venenos.
+
+--- block x0=71 y0=604 x1=173 y1=639 ---
+xInventorx
+Ferreiro
+
+--- block x0=88 y0=640 x1=289 y1=656 ---
+"Martelo e bigorna., amigos para todo o sempre."
+
+--- block x0=71 y0=657 x1=295 y1=709 ---
+Nas entranhas de Arton, em suas profundezas 
+mais escuras, habitam os anões de Doher, e se tem 
+algo em que o reino dos anões é famoso por, é seus 
+ferreiros. Um ferreiro é uma criatura singular, res-
+
+--- block x0=352 y0=68 x1=487 y1=86 ---
+Tabela 1-13: O Ferreiro
+
+--- block x0=313 y0=91 x1=503 y1=104 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=107 x1=476 y1=118 ---
+1º
+Barriga de chumbo, forja pessoal
+
+--- block x0=325 y0=122 x1=472 y1=144 ---
+2º
+Armeiro superior (2 melhorias), 
+poder de inventor
+
+--- block x0=325 y0=147 x1=490 y1=159 ---
+3º
+Martelo e bigorna, poder de inventor
+
+--- block x0=325 y0=162 x1=508 y1=173 ---
+4º
+Disciplina metalúrgica, poder de inventor
+
+--- block x0=325 y0=177 x1=472 y1=199 ---
+5º
+Armeiro superior (3 melhorias), 
+poder de inventor
+
+--- block x0=325 y0=202 x1=421 y1=214 ---
+6º
+Poder de Inventor
+
+--- block x0=325 y0=217 x1=528 y1=239 ---
+7º
+Disciplina metalúrgica (armaduras e escudos), 
+poder de inventor
+
+--- block x0=325 y0=243 x1=472 y1=265 ---
+8º
+Armeiro superior (4 melhorias), 
+poder de inventor
+
+--- block x0=325 y0=268 x1=516 y1=279 ---
+9º
+Armeiro mágico (menor), poder de inventor
+
+--- block x0=323 y0=283 x1=420 y1=294 ---
+10º
+Poder de inventor
+
+--- block x0=323 y0=298 x1=515 y1=309 ---
+11º
+Armeiro mágico (médio), poder de inventor
+
+--- block x0=323 y0=312 x1=459 y1=324 ---
+12º
+Poder de inventor, temperar
+
+--- block x0=323 y0=327 x1=513 y1=338 ---
+13º
+Armeiro mágico (maior), poder de inventor
+
+--- block x0=323 y0=342 x1=420 y1=353 ---
+14º
+Poder de inventor
+
+--- block x0=323 y0=357 x1=420 y1=368 ---
+15º
+Poder de inventor
+
+--- block x0=323 y0=371 x1=420 y1=383 ---
+16º
+Poder de inventor
+
+--- block x0=323 y0=386 x1=420 y1=397 ---
+17º
+Poder de inventor
+
+--- block x0=323 y0=401 x1=420 y1=412 ---
+18º
+Poder de inventor
+
+--- block x0=323 y0=416 x1=420 y1=427 ---
+19º
+Poder de inventor
+
+--- block x0=323 y0=430 x1=493 y1=442 ---
+20º
+Forjar consciência, poder de inventor
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+63
+

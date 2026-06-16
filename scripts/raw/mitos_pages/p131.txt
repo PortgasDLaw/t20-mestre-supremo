@@ -1,0 +1,122 @@
+Aventureiros de Arton
+Tabela 1-33: Poderes de Combate
+Poder
+Pré-requisitos
+Poder
+Pré-Requisitos
+Arremessar Aliado
+Estilo de Arremesso, For 5
+Investida com Escudo
+Ataque com Escudo
+Barão Alquímico
+Ofício (alquimista)
+No Ritmo da Luta
+Briga ou Estilo Desarmado, 
+Acrobacia e Atuação
+Chute Rotatório Quadrado
+Briga ou Estilo Desarmado
+Manuseio Aperfeiçoado
+—
+Disparo Duplo
+Disparo Rápido, Des 2
+Manuseio Lendário
+Empunhadura Poderosa, 
+Manuseio Aperfeiçoado, For 3
+Disparo Triplo
+Disparo Duplo, Des 4
+Perfurar a Escama
+—
+Dama da Guerra
+Estilo de Arma e Escudo, 
+Donzela de Ferro
+Ponta da Liderança
+Guerra, Estilo de Arma 
+Longa, Int 2
+Defensor Exemplar
+—
+Precisão Cruel
+Precisão Letal, 17º nível de 
+personagem
+Donzela de Ferro
+Fortitude, Luta, Misticismo e 
+Vontade
+Quebrar Montanhas
+Guerra, Estilo de Duas 
+Mãos, Int 2
+Espadachim Exemplar
+Guerra, Estilo de Uma Arma, 
+Int 2
+Rodopiar e Lançar
+Estilo de Arremesso, For 5
+Estilo Matador
+Firula Inspiradora
+Sequência Crítica
+Estilo de Duas Armas, 
+Precisão Letal
+Flechada no Joelho
+Estilo de Disparo, Sab 2
+Tanque Armado
+Fortitude
+Gigante
+Empunhadura Poderosa, 
+Grandão, For 4, Con 5
+Um Tiro, Uma Baixa
+Armas de fogo, 5º nível de 
+personagem
+Ginete Andarilho
+Ginete, 5º nível de personagem
+Varar a Cabeça
+Armas de fogo
+Tabela 1-34: Poderes de Destino
+Poder
+Pré-requisitos
+Poder
+Pré-Requisitos
+Adepto dos Ermos
+Sobrevivência, Sab 2
+Destino Perpétuo
+Ao Sabor do Destino
+Alma de Aventureiro
+6º nível de personagem
+Entusiasta de Itens Mágicos
+Int 3, Car 3
+Amigo Espiritual
+7º nível de personagem, 
+alikunhá
+Fagulha dos deuses
+—
+Bicho do Mato
+—
+Fingir de Morto
+—
+Carinho do Bicho
+Adestramento, Car 2
+Nacionalista
+Origem regional
+Cozinha Campestre
+Foco em Perícia (Ofício 
+[Cozinheiro])
+Otimismo
+Vontade de Ferro
+Crise de Meia-Idade
+Maduro
+Professoral
+Int 3
+Tabela 1-35: Poderes de Magia
+Poder
+Pré-requisitos
+Poder
+Pré-Requisitos
+Alterar a Magia
+Lançar magias de 3º círculo
+Crítico Arcano
+Lançar magias
+Caos Arcano
+Magia Selvagem
+Magia Rápida
+Lançar magias
+Cálculos Místicos
+Lançar magias de 4º círculo
+Magia Selvagem
+Lançar magias
+131

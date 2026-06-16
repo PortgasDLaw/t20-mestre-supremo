@@ -1,0 +1,95 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=54 x1=181 y1=82 ---
+Cultivador
+
+--- block x0=51 y0=84 x1=275 y1=208 ---
+No Império de Jade, uma tradição recente começou a 
+se instaurar entre os aventureiros de lá, e está vaga-
+rosamente se espalhando por toda Arton, trata-se da 
+arte milenar do cultivo, que passou a ser conhecida 
+apenas nos últimos anos. O motivo para a arte do 
+cultivo ser tão desconhecida, é por essa ser uma 
+técnica que até então era exclusiva dos espíritos de 
+Sora, mundo divino do deus da honra, 
+que era secreta e quase que totalmen-
+te desconhecida.
+
+--- block x0=51 y0=212 x1=197 y1=420 ---
+O cultivo se tornou "famoso" quan-
+do Kong Wu-Sun, um vanara, e 
+Maaka Wu-Cheng, uma ryuujin, 
+se reuniram para apresentar aos 
+tamuranianos essa arte, espa-
+lhando o conhecimento do cul-
+tivo para todos que quisessem 
+tê-lo. Para entender melhor o 
+que é o cultivo, devemos ir 
+para Sora, onde viviam os 
+espíritos cultivadores, 
+o método de cultivo 
+tem várias maneiras, 
+meditação, 
+treino 
+marcial 
+e 
+até 
+conexão 
+com 
+espíritos 
+
+--- block x0=289 y0=55 x1=513 y1=143 ---
+mais poderosos (o que os artonianos chamam de 
+deuses), tudo isso amplia e fortalece os seus meri-
+dianos, que dá forças ao seu Dantian, uma espécie de 
+núcleo presente em todo ser vivo, responsável pela 
+canalização do chi, forma similar a mana que forta-
+lece habilidades marciais e permite convocar magia 
+através dos espíritos.
+
+--- block x0=289 y0=147 x1=513 y1=355 ---
+Um cultivador é versátil em várias formas, pois são 
+capazes de compreender diferentes maneiras de 
+realizar seu Nei Gong, uma técnica de fortalecimento 
+e desenvolvimento do chi, e através das técnicas 
+de cultivo, as formas milenares de utilizar o chi, 
+eles as utilizam junto as suas artes marciais, que 
+vão desde magias até combate corporal. Assim 
+como samurais, também aperfeiçoam suas 
+armas através da honra, mas com o auxílio do 
+chi, sendo difícil encontrar cultivadores que 
+não sejam devotos de Lin-Wu. Por fim, 
+cultivadores podem até mesmo atuar 
+como suportes dependendo de 
+como ele desenvolveu seu 
+chi, o que demonstra a alta 
+versatilidade dos guerrei-
+ros espirituais de Tamu-ra.
+
+--- block x0=395 y0=360 x1=513 y1=412 ---
+Cultivadores 
+Fa-
+mosos. 
+Kong 
+Wu-Sun, 
+Maaka Wu-Cheng, Teng 
+Xialong.
+
+--- block x0=458 y0=412 x1=513 y1=440 ---
+Devotos. 
+Lin-Wu.
+
+--- block x0=299 y0=668 x1=396 y1=690 ---
+"Lin-Wu me guia / Entre 
+"Lin-Wu me guia / Entre 
+cachoeiras e montanhas / 
+cachoeiras e montanhas / 
+
+--- block x0=302 y0=689 x1=392 y1=700 ---
+rumo a honra e alegria."
+rumo a honra e alegria."
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+34
+

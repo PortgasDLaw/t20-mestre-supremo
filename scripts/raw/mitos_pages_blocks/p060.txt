@@ -1,0 +1,196 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=83 ---
+de tamanho menores que a sua, invés disso ela lhe 
+considera uma cobertura total.
+
+--- block x0=51 y0=83 x1=272 y1=111 ---
+Bastião. No 5º nível, você recebe essa habilida-
+de como o cavaleiro básico.
+
+--- block x0=51 y0=111 x1=275 y1=139 ---
+Resoluto. A partir do 11º nível, você recebe 
+essa habilidade como o cavaleiro básico.
+
+--- block x0=51 y0=139 x1=275 y1=180 ---
+Bravura Final. No 20º nível, você recebe essa 
+habilidade como o cavaleiro básico, mas com o custo 
+em PM reduzido para 2.
+
+--- block x0=51 y0=195 x1=173 y1=229 ---
+xCavaleirox
+Dragoeiro
+
+--- block x0=68 y0=231 x1=221 y1=247 ---
+"Eu não tenho asas, mas posso voar!"
+
+--- block x0=51 y0=247 x1=275 y1=335 ---
+Em Arton, existem aqueles que caçam dragões, 
+seja por heroísmo ou para saquear seus tesouros, 
+existem ordens inteiras investidas em matá-los, e 
+facções que conspiram em sua completa aniquilação, 
+despertando a ira de Kallyadranoch. Mas existem os 
+poucos que, ao invés de tentar domá-los ou matá-los, 
+preferem estudá-los e assimilar suas técnicas.
+
+--- block x0=289 y0=55 x1=513 y1=155 ---
+Os dragoeiros são cavaleiros pesados de uma 
+ordem pequena, mas existente, que conseguem 
+investir, soprar e voar como os dragões, utilizando 
+apenas de suas incríveis capacidades físicas. Eles 
+conseguem alçar os céus para atacar do alto, sendo 
+vistos caindo como cometas no campo de batalha. E 
+tudo isso utilizando ostentosas armaduras pesadas 
+moldada na forma dessas majestosas criaturas.
+
+--- block x0=289 y0=155 x1=513 y1=312 ---
+Diferente do que se possa imaginar, os drago-
+eiros em sua maioria não são devotos do deus dos 
+dragões, ou sequer servem a um, mas também não 
+os antagonizam, na verdade eles parecem ter um tipo 
+de admiração por eles, e se permite estudá-los para 
+entender suas técnicas, ainda assim, aqueles que 
+desejam, acabam devotando-se ao deus dos dragões, 
+ou a algum dragão-rei poderoso. Existem até mesmo 
+dragoeiros viventes de Skcharshantallas.
+Características de 
+Classe
+
+--- block x0=306 y0=310 x1=497 y1=327 ---
+Pontos de Vida. Como o cavaleiro básico.
+
+--- block x0=306 y0=327 x1=461 y1=343 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=289 y0=342 x1=513 y1=381 ---
+Perícias. Como o cavaleiro básico, mas suas 
+perícias iniciais são Atletismo e Luta, e você adiciona 
+Fortitude a sua lista de perícias.
+
+--- block x0=289 y0=381 x1=492 y1=423 ---
+Proficiências. Como o cavaleiro básico..
+Habilidades de Classe
+
+--- block x0=306 y0=422 x1=507 y1=438 ---
+Código de Honra. Como o cavaleiro básico.
+
+--- block x0=289 y0=438 x1=513 y1=538 ---
+Investida Dracônica. Uma vez por rodada, 
+ao fazer uma investida, você pode gastar 2 PM para 
+saltar em direção ao alvo. Faça um teste de Atletis-
+mo, para cada 10 pontos de resultado neste teste, 
+você causa +1d8 pontos de dano ao acertar o ataque. 
+Se estiver empunhando uma arma alongada e/ou 
+possuir deslocamento de voo, você recebe um bônus 
+de +5 neste teste.
+
+--- block x0=289 y0=538 x1=513 y1=567 ---
+Poder de Cavaleiro. A partir do 2º nível, 
+você recebe essa habilidade como o cavaleiro básico.
+
+--- block x0=289 y0=567 x1=513 y1=667 ---
+Presa Perfurante. A partir do 2º nível, ao 
+atacar com uma arma alongada, você pode gastar 2 
+PM para atacar todas as criaturas em uma linha com 
+um comprimento igual ao seu alcance natural — faça 
+um único teste de ataque e compare com a Defesa de 
+todas as criaturas na área. Ao usar essa habilidade, 
+seu alcance natural aumenta em +3m até o início do 
+seu próximo turno (após ser dobrado por sua arma).
+
+--- block x0=289 y0=667 x1=513 y1=707 ---
+Caminho do Dragoeiro. No 5º nível, esco-
+lha entre Corcel ou Sopro. Uma vez feita, a escolha 
+não pode ser mudada.
+
+--- block x0=88 y0=364 x1=235 y1=383 ---
+Tabela 1-10: O Dragoeiro
+
+--- block x0=56 y0=386 x1=246 y1=400 ---
+Nível
+Habilidades de Classe
+
+--- block x0=67 y0=403 x1=236 y1=414 ---
+1º
+Código de Honra, Investida Dracônica
+
+--- block x0=67 y0=417 x1=232 y1=429 ---
+2º
+Poder de Cavaleiro, Presa Perfurante
+
+--- block x0=67 y0=432 x1=166 y1=444 ---
+3º
+Poder de Cavaleiro
+
+--- block x0=67 y0=447 x1=166 y1=458 ---
+4º
+Poder de Cavaleiro
+
+--- block x0=67 y0=462 x1=254 y1=473 ---
+5º
+Caminho do Dragoeiro, Poder de Cavaleiro
+
+--- block x0=67 y0=476 x1=166 y1=488 ---
+6º
+Poder de Cavaleiro
+
+--- block x0=67 y0=491 x1=166 y1=503 ---
+7º
+Poder de Cavaleiro
+
+--- block x0=67 y0=506 x1=166 y1=517 ---
+8º
+Poder de Cavaleiro
+
+--- block x0=67 y0=521 x1=166 y1=532 ---
+9º
+Poder de Cavaleiro
+
+--- block x0=65 y0=535 x1=166 y1=547 ---
+10º
+Poder de Cavaleiro
+
+--- block x0=65 y0=550 x1=224 y1=562 ---
+11º
+Vento dos Reis, Poder de Cavaleiro
+
+--- block x0=65 y0=565 x1=166 y1=576 ---
+12º
+Poder de Cavaleiro
+
+--- block x0=65 y0=580 x1=166 y1=591 ---
+13º
+Poder de Cavaleiro
+
+--- block x0=65 y0=594 x1=166 y1=606 ---
+14º
+Poder de Cavaleiro
+
+--- block x0=65 y0=609 x1=166 y1=621 ---
+15º
+Poder de Cavaleiro
+
+--- block x0=65 y0=624 x1=166 y1=635 ---
+16º
+Poder de Cavaleiro
+
+--- block x0=65 y0=639 x1=166 y1=650 ---
+17º
+Poder de Cavaleiro
+
+--- block x0=65 y0=653 x1=166 y1=665 ---
+18º
+Poder de Cavaleiro
+
+--- block x0=65 y0=668 x1=166 y1=680 ---
+19º
+Poder de Cavaleiro
+
+--- block x0=65 y0=683 x1=243 y1=694 ---
+20º
+Investida Meteórica, Poder de Cavaleiro
+
+--- block x0=6 y0=756 x1=19 y1=767 ---
+60
+

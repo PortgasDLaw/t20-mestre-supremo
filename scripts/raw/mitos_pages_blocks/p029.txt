@@ -1,0 +1,193 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=83 ---
+Bruxeiros Famosos. Artyom D. Zechts, 
+Enkhantryx de Wynna, Ricardo, Wilson Slayblade.
+
+--- block x0=71 y0=83 x1=281 y1=144 ---
+Devotos. Arsenal, Azgher, Tenebra, Wynna.
+Características de 
+Classe
+
+--- block x0=71 y0=142 x1=295 y1=183 ---
+Pontos de Vida. Um bruxeiro começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Constituição por nível.
+
+--- block x0=88 y0=183 x1=243 y1=199 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=71 y0=199 x1=295 y1=287 ---
+Perícias. Luta (For) e Vontade (Sab), mais 4 
+a sua escolha entre Adestramento (Car), Atletismo 
+(For), Cavalgar (Des), Conhecimento (Int), Cura 
+(Sab), Fortitude (Con), Guerra (Int), Iniciativa 
+(Des), Intimidação (Car), Misticismo (Int), Ofício 
+(Int), Percepção (Sab), Pontaria (Des), Reflexos 
+(Des) e Sobrevivência (Sab).
+
+--- block x0=71 y0=287 x1=264 y1=332 ---
+Proficiências. Armas Marciais.
+Habilidades de Classe
+
+--- block x0=71 y0=331 x1=295 y1=431 ---
+Arma Bruxeira. Você recebe uma arma alqui-
+micamente tratada para lidar com ameaças chamada 
+Arma de Bruxeiro. Ela é uma espada a sua escolha 
+entre a bastarda, curta, longa ou uma montante que 
+causa +1d4 pontos de dano, que aumenta em +1d4 
+a cada quatro níveis. Você pode substituir sua arma 
+de bruxeiro realizando um processo que demora 1 
+semana e custa T$ 150 em materiais.
+
+--- block x0=71 y0=431 x1=295 y1=471 ---
+Sinais. Você soma sua Inteligência no seu total 
+de pontos de mana no 1º nível. Além disso, aprende 
+seus primeiros sinais (veja a página @@). e
+
+--- block x0=71 y0=471 x1=295 y1=548 ---
+Teste das Ervas. Você treinou e se formou 
+em uma escola de bruxeiro. Escolha uma entre as 
+disponíveis nas páginas @@ a @@, uma vez feita, 
+essa escolha não pode ser mudada. Além disso, pelos 
+químicos aplicados em seu sangue, sua longevidade 
+aumenta em +1 (arredondado para cima, máx. x5).
+
+--- block x0=71 y0=547 x1=295 y1=588 ---
+Poder de Bruxeiro. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de bruxeiro a 
+sua escolha. Veja a lista a seguir.
+
+--- block x0=71 y0=588 x1=295 y1=652 ---
+Olhos Laranjas. A partir do 3º nível, você 
+pode gastar 2 PM para somar sua Inteligência, li-
+mitada pelo nível, em seu próximo teste de ataque 
+com sua arma de bruxeiro, Percepção ou Reflexos 
+realizado até o fim do seu turno.
+
+--- block x0=71 y0=652 x1=295 y1=704 ---
+Formação Versátil. No 6º nível, você recebe 
+o efeito básico de uma segunda escola de bruxeiro. 
+Mas não pode escolher os poderes Graduação e Mas-
+terização para essa escola.
+
+--- block x0=309 y0=415 x1=533 y1=507 ---
+Mestre Bruxeiro. No 20º nível, quando 
+empunhando sua arma de bruxeiro, você rola dois 
+dados e usa o melhor resultado em testes de ataque, 
+rola novamente qualquer resultado 1 ou 2 em rola-
+gens de dano e dobra os dados de Arma Bruxeira.
+Poderes de Classe
+
+--- block x0=309 y0=506 x1=533 y1=559 ---
+•	 Abrir a Guarda. Uma vez por rodada, ao reali-
+zar um ataque com sua arma de bruxeiro, você pode 
+gastar 3 PM para fazer um ataque adicional com a 
+mesma arma. Pré-requisito: 6º nível de bruxeiro.
+
+--- block x0=309 y0=559 x1=533 y1=635 ---
+•	 Aço e Prata. Você recebe uma segunda arma 
+de bruxeiro dentre as disponíveis em Arma Bruxei-
+ra — se não possuir. Ela afeta não-humanoides ou 
+humanoides ao usar Exterminador de acordo com 
+a escolha oposta com a primeira arma de bruxeiro. 
+Pré-requisito: Exterminador, 5º nível de bruxeiro.
+
+--- block x0=309 y0=635 x1=533 y1=699 ---
+•	 Adepto Solitário. Enquanto não receber ne-
+nhum efeito benéfico de seus aliados (como cura, 
+bônus, etc.) e não possuir parceiros, você reduz o 
+custo das suas habilidades de bruxeiro em –1 PM 
+(cumulativo com outras reduções de custo).
+
+--- block x0=353 y0=64 x1=486 y1=83 ---
+Tabela 1-2: O Bruxeiro
+
+--- block x0=315 y0=86 x1=505 y1=100 ---
+Nível
+Habilidades de Classe
+
+--- block x0=327 y0=102 x1=520 y1=114 ---
+1º
+Arma bruxeira (+1d4), sinais, teste das ervas
+
+--- block x0=327 y0=117 x1=424 y1=128 ---
+2º
+Poder de bruxeiro
+
+--- block x0=327 y0=132 x1=481 y1=143 ---
+3º
+Olhos laranjas, poder de bruxeiro
+
+--- block x0=327 y0=147 x1=424 y1=158 ---
+4º
+Poder de bruxeiro
+
+--- block x0=327 y0=161 x1=506 y1=173 ---
+5º
+Arma bruxeira (+2d4), poder de bruxeiro
+
+--- block x0=327 y0=176 x1=495 y1=187 ---
+6º
+Formação versátil, poder de bruxeiro
+
+--- block x0=327 y0=191 x1=424 y1=202 ---
+7º
+Poder de bruxeiro
+
+--- block x0=327 y0=206 x1=424 y1=217 ---
+8º
+Poder de bruxeiro
+
+--- block x0=327 y0=220 x1=506 y1=232 ---
+9º
+Arma bruxeira (+3d4), poder de bruxeiro
+
+--- block x0=325 y0=235 x1=424 y1=246 ---
+10º
+Poder de bruxeiro
+
+--- block x0=325 y0=250 x1=424 y1=261 ---
+11º
+Poder de bruxeiro
+
+--- block x0=325 y0=265 x1=424 y1=276 ---
+12º
+Poder de bruxeiro
+
+--- block x0=325 y0=279 x1=506 y1=291 ---
+13º
+Arma bruxeira (+4d4), poder de bruxeiro
+
+--- block x0=325 y0=294 x1=424 y1=305 ---
+14º
+Poder de bruxeiro
+
+--- block x0=325 y0=309 x1=424 y1=320 ---
+15º
+Poder de bruxeiro
+
+--- block x0=325 y0=324 x1=424 y1=335 ---
+16º
+Poder de bruxeiro
+
+--- block x0=325 y0=338 x1=506 y1=350 ---
+17º
+Arma bruxeira (+5d4), poder de bruxeiro
+
+--- block x0=325 y0=353 x1=424 y1=364 ---
+18º
+Poder de bruxeiro
+
+--- block x0=325 y0=368 x1=424 y1=379 ---
+19º
+Poder de bruxeiro
+
+--- block x0=325 y0=383 x1=516 y1=394 ---
+20º
+Mestre bruxeiro (+10d4), poder de bruxeiro
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+29
+

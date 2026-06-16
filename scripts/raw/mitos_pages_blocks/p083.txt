@@ -1,0 +1,199 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=255 y1=93 ---
+Características de 
+Classe
+
+--- block x0=71 y0=91 x1=295 y1=120 ---
+Pontos de Vida. Um sábio começa com 8 
+pontos de vida + Con e ganha 2 PV + Con por nível.
+
+--- block x0=88 y0=120 x1=281 y1=136 ---
+Pontos de Mana. Como o inventor básico.
+
+--- block x0=71 y0=136 x1=295 y1=236 ---
+Perícias. Conhecimento (Int) e Vontade (Sab), 
+mais 4 a sua escolha entre Adestramento (Car), Atu-
+ação (Car), Cura (Sab), Diplomacia (Car), Engana-
+ção (Car), Guerra (Int), Iniciativa (Des), Intimidação 
+(Car), Intuição (Sab), Investigação (Int), Jogatina 
+(Car), Ladinagem (Des), Luta (For), Misticismo 
+(Int), Nobreza (Int), Ofício (Int), Percepção (Sab), 
+Pilotagem (Des), Pontaria (Des) e Religião (Sab).
+
+--- block x0=71 y0=236 x1=272 y1=281 ---
+Proficiências. Nenhuma.
+Habilidades de Classe
+
+--- block x0=71 y0=280 x1=295 y1=332 ---
+Auxílio Acadêmico. Ao fazer um teste para 
+Ajudar usando uma perícia originalmente baseada 
+em um atributo mental, você pode gastar 1 PM para 
+rolar dois dados e escolher o melhor resultado.
+
+--- block x0=88 y0=332 x1=278 y1=348 ---
+Engenhosidade. Como o inventor básico.
+
+--- block x0=71 y0=348 x1=295 y1=400 ---
+Poder de Inventor. A partir do 2º nível, 
+você recebe esta habilidade como o inventor básico, 
+mas não pode escolher o poder Engenhoqueiro ou 
+poderes que o tenha como pré-requisito.
+
+--- block x0=71 y0=400 x1=295 y1=489 ---
+Acadêmico. A partir do 2º nível, escolha 
+uma perícia em que seja treinado (exceto Luta ou 
+Pontaria), ao fazer um teste da perícia escolhida ou 
+de Conhecimento, você pode gastar 1 PM para rolar 
+1d6 e somar o resultado ao valor total do teste. A 
+cada quatro níveis, você pode escolher uma perícia 
+adicional para ser afetada por essa habilidade.
+
+--- block x0=71 y0=489 x1=295 y1=529 ---
+No 9º nível, e novamente no 15º nível, você pode 
+gastar +1 PM para aumentar o valor do dado de 
+acordo com a tabela.
+
+--- block x0=71 y0=529 x1=218 y1=677 ---
+Ecleticismo Amplo. No 
+3º nível, você recebe um 
+poder de uma classe 
+que 
+não 
+a 
+sua, 
+usando seu nível de 
+inventor como seu 
+nível na classe do poder 
+escolhido. Uma vez 
+por dia, após concluir 
+um 
+descanso, 
+você 
+pode trocar esse poder 
+por outro.
+
+--- block x0=71 y0=677 x1=211 y1=705 ---
+Traça de Livros. A 
+partir do 5º nível, você aumenta 
+
+--- block x0=309 y0=423 x1=533 y1=463 ---
+em +2 o bônus de perícia fornecido por coleções de 
+livros e habilidades baseadas em estar em ambientes 
+com livros
+
+--- block x0=309 y0=463 x1=533 y1=504 ---
+Bacharel. A partir do 6º nível, você dobra o 
+bônus de treinamento de perícias afetadas pela sua 
+habilidade Acadêmico.
+
+--- block x0=371 y0=504 x1=533 y1=616 ---
+Mestre do Conhecimento. 
+No 20º nível, as habilidades Acadê-
+mico e Auxílio Acadêmico não tem 
+mais custo de PM. Além disso, 
+se puder escolher 10 em uma 
+perícia durante um teste, 
+você pode gastar 5 PM, uma 
+vez por perícia, por cena, 
+para escolher 20.
+
+--- block x0=409 y0=631 x1=509 y1=668 ---
+xCaçadorx
+Tecelão
+
+--- block x0=388 y0=670 x1=533 y1=698 ---
+"As técnicas antigas da linha 
+e costura, agora confiamos a você."
+
+--- block x0=362 y0=67 x1=477 y1=86 ---
+Tabela 1-28: O Sábio
+
+--- block x0=313 y0=89 x1=503 y1=102 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=105 x1=483 y1=116 ---
+1º
+Auxílio acadêmico, engenhosidade
+
+--- block x0=325 y0=120 x1=487 y1=131 ---
+2º
+Acadêmico (1d6), poder de inventor
+
+--- block x0=325 y0=134 x1=494 y1=146 ---
+3º
+Ecleticismo amplo, poder de inventor
+
+--- block x0=325 y0=149 x1=420 y1=161 ---
+4º
+Poder de inventor
+
+--- block x0=325 y0=164 x1=476 y1=175 ---
+5º
+Poder de inventor, traça de livros
+
+--- block x0=325 y0=179 x1=458 y1=190 ---
+6º
+Bacharel, poder de inventor
+
+--- block x0=325 y0=194 x1=420 y1=205 ---
+7º
+Poder de inventor
+
+--- block x0=325 y0=208 x1=420 y1=220 ---
+8º
+Poder de inventor
+
+--- block x0=325 y0=223 x1=487 y1=235 ---
+9º
+Acadêmico (1d8), poder de inventor
+
+--- block x0=323 y0=238 x1=420 y1=249 ---
+10º
+Poder de inventor
+
+--- block x0=323 y0=253 x1=420 y1=264 ---
+11º
+Poder de inventor
+
+--- block x0=323 y0=267 x1=420 y1=279 ---
+12º
+Poder de inventor
+
+--- block x0=323 y0=282 x1=420 y1=294 ---
+13º
+Poder de inventor
+
+--- block x0=323 y0=297 x1=420 y1=308 ---
+14º
+Poder de inventor
+
+--- block x0=323 y0=312 x1=492 y1=323 ---
+15º
+Acadêmico (1d10), poder de inventor
+
+--- block x0=323 y0=326 x1=420 y1=338 ---
+16º
+Poder de inventor
+
+--- block x0=323 y0=341 x1=420 y1=353 ---
+17º
+Poder de inventor
+
+--- block x0=323 y0=356 x1=420 y1=367 ---
+18º
+Poder de inventor
+
+--- block x0=323 y0=371 x1=420 y1=382 ---
+19º
+Poder de inventor
+
+--- block x0=323 y0=385 x1=517 y1=397 ---
+20º
+Mestre do conhecimento, poder de inventor
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+83
+

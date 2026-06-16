@@ -1,0 +1,132 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=104 ---
+habilidades de cura) e recebe +2 dados em efeitos 
+de cura. Pré-requisitos: druida de Lena, Magia Natural.
+Forma dracônica
+
+--- block x0=51 y0=103 x1=275 y1=200 ---
+Ao assumir a forma ágil, feroz ou resistente, você 
+também recebe, além dos demais benefícios, redu-
+ção 5 a um tipo de dano à sua escolha entre ácido, 
+eletricidade, fogo ou frio. Esse ganho muda para 10 
+na forma aprimorada, e para 20 na superior. Pré-requi-
+sitos: druida de Kallyadranoch, Forma Selvagem. e
+Forma Indomável
+
+--- block x0=51 y0=200 x1=275 y1=309 ---
+Quando usa Forma Selvagem, você pode gastar 
++2 PM para se tornar incontível. Sempre que falha 
+em um teste de resistência contra um efeito com 
+duração maior que instantânea, você pode fazer um 
+novo teste contra esse mesmo efeito no início do seu 
+próximo turno, recebendo +2 neste teste. Pré-requisi-
+to: Forma Selvagem, druida de Megalokk.
+Forma Soberana
+
+--- block x0=51 y0=309 x1=275 y1=382 ---
+Ao assumir uma forma dracônica, você continua 
+podendo falar e recebe Carisma +4 (isso não fornece 
+PM adicionais). Pré-requisitos: Magia Natural, Trans-
+formação Soberana, 13º nível de druida. e
+Garras atrozes
+
+--- block x0=51 y0=382 x1=275 y1=443 ---
+O multiplicador de crítico das suas armas natu-
+rais aumenta em +1. Pré-requisitos: Forma Selvagem, 
+11º nível de druida.
+Horror Vivo
+
+--- block x0=51 y0=443 x1=275 y1=587 ---
+Quando usa Forma Selvagem com Transformação 
+Repugnante, você pode gastar +2 PM para mudar o 
+teste de resistência para um teste de Intimidação 
+(você soma sua Sabedoria neste teste) oposto a 
+Vontade das criaturas na cena. Além disso, enquanto 
+transformado, você é considerado como tendo três 
+poderes da tormenta adicionais — exceto para perda 
+de Carisma — mas você não pode ser alvo de efeitos 
+benefícos e testes de ajuda realizados pelos seus 
+aliados. Pré-requisito: Transformação Repugnante.
+Mestre Naturalista
+
+--- block x0=51 y0=587 x1=275 y1=648 ---
+Ao usar um catalisador, você pode gastar +1 PM 
+e rolar um dado. Você tem 50% de chance (qualquer 
+valor par) de não consumir o catalisador após usá-lo.
+Núcleo elemental
+
+--- block x0=51 y0=648 x1=275 y1=712 ---
+Enquanto na forma dracônica, você pode gastar 
+uma ação padrão e 2 PM para soprar energia elemen-
+tal em um cone de 6m que causa 3d12 pontos de 
+dano de um tipo de dano definido pela redução de 
+dano fornecida pela forma dracônica. Este dano au-
+
+--- block x0=289 y0=55 x1=513 y1=116 ---
+menta em +1d12 para cada círculo de magias acima 
+do 1º que puder lançar (Ref CD Sab reduz à metade). 
+Pré-requisito: Forma Dracônica. e
+Proteção do Cardume
+
+--- block x0=289 y0=115 x1=513 y1=188 ---
+Quando usa Forma de Cardume, se ocupar o 
+mesmo espaço de um aliado, ele recebe camuflagem 
+leve e não fica em uma condição ruim para lançar 
+magias. Pré-requisito: Forma de Cardume.
+Raio de Dragão
+
+--- block x0=289 y0=188 x1=513 y1=273 ---
+Você recebe o Poder Raio Arcano (veja Tormen-
+ta20, p. 39) e pode escolher poderes que tenham 
+Raio Arcano como pré-requisito, usando seu nível de 
+druida como seu nível de arcanista — exceto poderes 
+de distinção. Pré-requisito: Orador dos Elementos. e
+Saliva Antiséptica
+
+--- block x0=289 y0=273 x1=513 y1=382 ---
+Enquanto em Forma Selvagem, você pode gastar 
+uma ação completa e uma quantidade de PM a sua 
+escolha, limitada pela sua Sabedoria, para lamber 
+suas feridas ou as de uma criatura adjacente. Para 
+cada PM gasto, você recupera 2d6 PV do alvo e anula 
+uma condição sangrando que esteja o afetando. Pré-
+-requisito: Forma Selvagem.
+Segredo Primordial
+
+--- block x0=289 y0=382 x1=513 y1=491 ---
+Você aprende uma magia, arcana ou divina, a 
+sua escolha, que seja de 5º círculo, mas que pertença 
+a uma das escolas de magia que você pode lançar. 
+Além disso, você é considerado como tendo acesso 
+a magias de 5º círculo para função de cumprir pré-
+-requisitos (incluindo de magias). Pré-requisitos: 18º 
+nível de druida, Segredos da Natureza.
+Segredos Xamânicos
+
+--- block x0=289 y0=491 x1=510 y1=539 ---
+Você recebe acesso a uma escola de magia adicio-
+nal. Pré-requisitos: Xamã Místico, 5º nível de druida.
+Simbiose Árborea
+
+--- block x0=289 y0=539 x1=513 y1=624 ---
+Se estiver empunhando uma arma feita de 
+madeira tollon, você aplica o efeito deste material 
+as suas armas naturais quando usa Forma Selvagem 
+(não cumulativo com outros efeitos). Pré-requisito: 
+druida de Allihanna, Forma Selvagem.
+Transformação Soberana
+
+--- block x0=289 y0=624 x1=513 y1=712 ---
+Ao usar forma dracônica, todas as criaturas esco-
+lhidas em alcance médio fazem um teste de Vontade 
+(CD Car), quem falhar fica abalado até o fim da cena, 
+quem falhar por 10 ou mais, fica apavorado por 1 
+rodada e então abalado. Um ser que passe no teste 
+contra esse efeito fica imune a ele pelo resto do dia. 
+Pré-requisito: Forma Dracônica. Medo. e
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+110
+

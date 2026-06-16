@@ -1,0 +1,197 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=246 y1=93 ---
+Características de 
+Classe
+
+--- block x0=71 y0=91 x1=295 y1=132 ---
+Pontos de Vida. Um inquisidor começa com 
+12 pontos de vida + Constituição e ganha 3 PV + 
+Constituição por nível.
+
+--- block x0=88 y0=132 x1=243 y1=148 ---
+Pontos de Mana. 3 PM por nível.
+
+--- block x0=71 y0=148 x1=295 y1=248 ---
+Perícias. Pontaria (Des) e Investigação (Int), 
+mais 6 a sua escolha entre Acrobacia (Des), Atletis-
+mo (For), Cura (Sab), Fortitude (Con), Furtividade 
+(Des), Intimidação (Car), Intuição (Sab), Ladinagem 
+(Des), Luta (For), Misticismo (Int), Nobreza (Int), 
+Ofício (Int), Percepção (Sab), Pilotagem (Des), Re-
+flexos (Des), Religião (Sab), Sobrevivência (Sab) e 
+Vontade (Sab).
+
+--- block x0=71 y0=248 x1=264 y1=293 ---
+Proficiências. Armas de fogo.
+Habilidades de Classe
+
+--- block x0=71 y0=292 x1=295 y1=344 ---
+Agente da Lei Oculta. Você começa o jogo 
+com uma pistola e 20 balas. Além disso, tem permis-
+são para comprar e utilizar itens a base de pólvora e 
+armas de fogo dentro dos limites do Reinado.
+
+--- block x0=71 y0=344 x1=295 y1=420 ---
+Coronhada. Você pode realizar ataques corpo 
+a corpo com armas de fogo (dano 1d6, crítico x2, 
+impacto), se a arma for de duas mãos, aumente esse 
+dano em um passo, melhorias e encantos aplicados a 
+sua arma e que afetem armas corpo a corpo também 
+afetam a sua coronhada.
+
+--- block x0=71 y0=420 x1=295 y1=496 ---
+Tiro Calculado. Quando faz um ataque à 
+distância com uma arma de fogo, você pode gastar 
+2 PM para calcular seu disparo. Você soma sua In-
+teligência no teste de ataque e ignora 2 pontos da 
+redução de dano do alvo. A cada quatro níveis, você 
+pode gastar +1 PM para ignorar +2 de RD do alvo.
+
+--- block x0=71 y0=496 x1=295 y1=537 ---
+Poder de Inquisidor. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de inquisidor a 
+sua escolha. Veja a lista a seguir.
+
+--- block x0=71 y0=537 x1=295 y1=589 ---
+Técnicas Inquisitivas. No 3º nível, você 
+recebe +2 em Cura e Investigação e pode usar In-
+teligência como atributo-chave de Cura. A cada seis 
+níveis, esse bônus aumenta em +1.
+
+--- block x0=71 y0=589 x1=295 y1=629 ---
+Pacto Sagrado. No 5º nível, escolha entre a 
+Bênção Antiga ou a Bênção Áurea. Uma vez feita, a 
+escolha não pode ser mudada.
+
+--- block x0=71 y0=629 x1=295 y1=669 ---
+•	 Bênção Antiga. Você soma sua Inteligência nos 
+seus PV e recebe +1 PV por nível de inquisidor. 
+Além disso, recebe imunidade a doenças e venenos.
+
+--- block x0=71 y0=670 x1=295 y1=710 ---
+•	 Bênção Áurea. Você soma sua Inteligência nos 
+seus PM e recebe +1 PM por nível de inquisidor. 
+Além disso, recebe imunidade a medo.
+
+--- block x0=309 y0=453 x1=533 y1=505 ---
+Melhorias Pessoais. No 11º nível, o dano 
+de uma arma de fogo empunhada por você aumenta 
+em +1 dado do mesmo tipo e a ação necessária para 
+recarregá-la diminui em uma categoria.
+
+--- block x0=309 y0=505 x1=533 y1=598 ---
+Gatilho Desenfreado. No 20º nível, você 
+recebe um turno adicional — role a iniciativa duas 
+vezes. Esse efeito exige liberdade de movimentos; 
+você não pode usá-lo se estiver de armadura pesada 
+ou sob qualquer condição de movimento.
+Poderes de Classe
+
+--- block x0=309 y0=597 x1=533 y1=661 ---
+•	 Absorver História. Você recebe +5 em testes 
+para Identificar, e, se passar, recebe uma informação 
+adicional sobre o que está identificando. Pré-requisi-
+tos: Int 3, treinado em Conhecimento, Misticismo, 
+Religião e Sobrevivência.
+
+--- block x0=309 y0=661 x1=533 y1=713 ---
+•	 Alquimago. Ao fabricar uma seringa arcana, 
+você pode gastar +T$ 500 para que a criatura in-
+jetada possa lançar uma magia de 1º ou 2º círculo. 
+Pré-requisitos: 6º nível de inquisidor, Seringueiro.
+
+--- block x0=348 y0=64 x1=491 y1=83 ---
+Tabela 1-5: O Inquisidor
+
+--- block x0=313 y0=86 x1=503 y1=100 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=103 x1=476 y1=125 ---
+1º
+Agente da lei oculta, coronhada, 
+tiro calculado (RD 2)
+
+--- block x0=325 y0=128 x1=427 y1=140 ---
+2º
+Poder de inquisidor
+
+--- block x0=325 y0=143 x1=517 y1=154 ---
+3º
+Poder de inquisidor, técnicas inquisitivas +2
+
+--- block x0=325 y0=158 x1=427 y1=169 ---
+4º
+Poder de inquisidor
+
+--- block x0=325 y0=173 x1=488 y1=195 ---
+5º
+Pacto sagrado, poder de inquisidor, 
+tiro calculado (RD 4)
+
+--- block x0=325 y0=198 x1=427 y1=209 ---
+6º
+Poder de inquisidor
+
+--- block x0=325 y0=213 x1=427 y1=224 ---
+7º
+Poder de inquisidor
+
+--- block x0=325 y0=228 x1=427 y1=239 ---
+8º
+Poder de inquisidor
+
+--- block x0=325 y0=242 x1=521 y1=264 ---
+9º
+Poder de inquisidor, técnicas Inquisitivas +3, 
+tiro calculado (RD 6)
+
+--- block x0=323 y0=268 x1=427 y1=279 ---
+10º
+Poder de inquisidor
+
+--- block x0=323 y0=283 x1=502 y1=294 ---
+11º
+Melhorias pessoais, poder de inquisidor
+
+--- block x0=323 y0=297 x1=427 y1=309 ---
+12º
+Poder de inquisidor
+
+--- block x0=323 y0=312 x1=506 y1=323 ---
+13º
+Poder de inquisidor, tiro calculado (RD 8)
+
+--- block x0=323 y0=327 x1=427 y1=338 ---
+14º
+Poder de inquisidor
+
+--- block x0=323 y0=342 x1=517 y1=353 ---
+15º
+Poder de inquisidor, técnicas inquisitivas +4
+
+--- block x0=323 y0=356 x1=427 y1=368 ---
+16º
+Poder de inquisidor
+
+--- block x0=323 y0=371 x1=511 y1=382 ---
+17º
+Poder de inquisidor, tiro calculado (RD 10)
+
+--- block x0=323 y0=386 x1=427 y1=397 ---
+18º
+Poder de inquisidor
+
+--- block x0=323 y0=401 x1=427 y1=412 ---
+19º
+Poder de inquisidor
+
+--- block x0=323 y0=415 x1=507 y1=427 ---
+20º
+Gatilho desenfreado, poder de inquisidor
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+45
+

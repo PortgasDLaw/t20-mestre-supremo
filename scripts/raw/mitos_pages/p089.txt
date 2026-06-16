@@ -1,0 +1,110 @@
+Aventureiros de Arton
+xClérigox
+Zelote
+"Como ousa desrespeitar minha divindade!?"
+Enquanto um ocultista é um frade que mantém 
+uma relação de pacto com sua divindade, o zelote 
+é quase o completo oposto. São devotos ferrenhos 
+de seus deuses, que lutam e evisceram por eles. 
+Possuem um treinamento ainda mais afixionado com 
+seu deus e prega suas vontades com louvor e glória, 
+enaltecendo ao máximo os princípios de seu deus, 
+promovendo cruzadas em seu nome e destruindo 
+todos aqueles que são inimigos de sua fé.
+Alguns podem considerar zelotes como cultistas 
+insanos e fundamentalistas, outros como fanáticos 
+religiosos, outros, até, como uma seita isolada den-
+tro das igrejas das divindades, como é o templo da 
+pureza divina na Supremacia Purista, mas um zelote 
+é na verdade tudo isso e mais um pouco. No entanto, 
+tem aqueles mais controlados e justos, que apesar do 
+fanatismo, são conversáveis.
+Características de 
+Classe
+Pontos de Vida. Um cruzado começa com 20 
+pontos de vida + Con e ganha 5 PV + Con por nível.
+Pontos de Mana. 4 PM por nível.
+Perícias. Luta (For) e Religião (Sab), mais 2 a 
+sua escolha entre Cura (Sab), Diplomacia (Car), For-
+titude (Con), Guerra (Int), Iniciativa (Des), Intuição 
+(Sab), Misticismo (Int), Nobreza (Int), Ofício (Int), 
+Percepção (Sab) e Vontade (Sab).
+Proficiências. Armas marciais, armaduras 
+pesadas e escudos.
+Habilidades de Classe
+Devoto Fiel. Como o clérigo básico, mas você 
+não pode escolher ser um clérigo de Lena ou Marah.
+Fanatismo. Ao empunhar a arma favorita da 
+sua divindade, você recebe +1 em testes de ataque e 
+rolagens de dano com ela. Esse bônus aumenta em 
++1 a cada quatro níveis.
+Magias. Como o clérigo básico, mas por focar 
+seu treino em combate, aprende novas magias a cada 
+nível impar (3º, 5º, 7º nível...).
+Poder de Clérigo. A partir do 2º nível, você 
+recebe esta habilidade como o clérigo básico, mas 
+não pode escolher missas ou poderes que tenham 
+missas como pré-requisito, porém, pode escolher 
+julgamentos divinos como poderes de clérigo.
+Fé Guardiã. No 2º nível, e a cada quatro níveis 
+seguintes, você recebe +1 na Defesa quando usando 
+armadura pesada. Além disso, se estiver empu-
+nhando um escudo, você pode gastar uma ação de 
+movimento e 3 PM para infundí-lo com poder divino. 
+Até o fim da cena, o escudo emite uma luz dourada 
+ou roxa como uma tocha e soma sua Sabedoria na 
+Defesa (limitado pelo nível). e
+Campeão Divino. No 20º nível, você dobra 
+o ganho de Defesa de Fé Guardiã e ao empunhar a 
+arma favorita da sua divindade, o dano dela aumenta 
+em dois passos. Além disso, você pode gastar +3 PM 
+quando usa Fé Guardiã para receber redução de dano 
+10 além dos outros efeitos da habilidade.
+Tabela 1-32: O Zelote
+Nível
+Habilidades de Classe
+1º
+Devoto Fiel, fanatismo +1, magias (1º círculo)
+2º
+Fé guardiã +1, poder de clérigo
+3º
+Poder de clérigo
+4º
+Poder de clérigo
+5º
+Fanatismo +2, magias (2º círculo), 
+poder de clérigo
+6º
+Fé guardiã +2, poder de clérigo
+7º
+Poder de clérigo
+8º
+Poder de clérigo
+9º
+Fanatismo +3, magias (3º círculo), 
+poder de clérigo
+10º
+Fé guardiã +3, poder de clérigo
+11º
+Poder de clérigo
+12º
+Poder de clérigo
+13º
+Fanatismo +4, magias (4º círculo), 
+poder de clérigo
+14º
+Fé guardiã +4, poder de clérigo
+15º
+Poder de clérigo
+16º
+Poder de clérigo
+17º
+Fanatismo +5, magias (5º círculo), 
+poder de clérigo
+18º
+Fé guardiã +5, poder de clérigo
+19º
+Poder de clérigo
+20º
+Campeão Divino, Poder de Clérigo
+89

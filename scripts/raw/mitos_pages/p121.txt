@@ -1,0 +1,91 @@
+Aventureiros de Arton
+Mestre Marcial
+Você recebe +2 em testes de manobra e não gasta 
+mais PM para usar Golpe Relâmpago. Pré-requisitos: 
+Especialista Marcial, 11º nível de lutador.
+Onda de Choque
+Você pode gastar uma ação padrão e uma quanti-
+dade de PM limitada pela sua Força para realizar um 
+ataque desarmado contra o solo. Para cada PM gasto, 
+você causa 1d8 pontos de dano de impacto a todas as 
+criaturas em um cone de 6m a partir de você (Ref CD 
+For reduz o dano à metade). A área se torna terreno 
+difícil após o uso da habilidade.
+Postura Fechada
+Sua postura não abres brechas para os inimigos 
+lhe atacar. Você recebe redução de dano 5. Essa ha-
+bilidade não funciona se estiver empunhando itens 
+ou vestindo armaduras e manopla. Essa redução au-
+menta em +5 no 17º nível de lutador. Pré-requisitos: 
+Braços Calejados, Foco Marcial, 11º nível de lutador.
+Punho Suave
+Quando usa Trocação, você desestabiliza o alvo 
+a cada ataque. Sempre que acerta um ataque desar-
+mado, o oponente sofre uma penalidade cumulativa 
+de –1 na Defesa e na CD para resistir as habilidades 
+dele — limitado pela sua Força. Essa penalidade dura 
+até o fim da cena ou até usar Trocação novamente. 
+Pré-requisito: Trocação.
+Nobre
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas dictum rutrum est tincidunt. 
+Maecenas dictum rutrum est tincidunt. Maecenas 
+dictum rutrum est tincidunt. Maecenas dictum ru-
+trum est tincidunt.
+Braço Direito
+Escolha um de seus parceiros (se tiver), ele pas-
+sa a fornecer os benefícios de um tipo a sua escolha 
+entre ajudante, combatente, fortão ou guardião de 
+nível mestre. Pré-requisito: 17º nível de nobre.
+Cara da Nobreza
+Você recebe um bônus cumulativo de +1 em No-
+breza e nos seus testes de ataque e rolagens de dano 
+com o espadim se estiver vestindo uma capa com 
+dragonas, bainha adornada e/ou um traje da corte. A 
+critério do mestre, itens mágicos que fornecem Ca-
+risma também contam para este poder. Pré-requisito: 
+5º nível de nobre.
+Castelão
+Você recebe os serviços de um castelão, um par-
+ceiro especial que não conta no seu limite. O castelão 
+fica responsável por todos os assuntos que envolva 
+suas estruturas, enquanto você realiza outras tare-
+fas. Em termos de jogo, você recebe uma ação entre 
+aventuras adicional para lidar com bases, negócios ou 
+domínios.  Pré-requisito: 8º nível de nobre, Senescal.
+Comitiva Arcana
+Você pode criar um séquito com magia arcana. 
+Você aprende e pode lançar Montaria Arcana, Servos 
+Invisíveis e Refúgio (todas atributo-chave Carisma) 
+e pode usar seus aprimoramentos como se tivesse 
+acesso aos mesmos círculos de magia que um feiti-
+ceiro de seu nível. Pré-requisitos: 12º nível de nobre, 
+treinado em Misticismo, Int 4. e
+Companheiro Animal
+Você recebe um companheiro animal. Pré-requisi-
+tos: Car 1, treinado em Adestramento.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt.
+Decreto: Ajoelhem-se!
+Criaturas escolhidas no alcance ficam imóveis 
+se ajoelhando (Von CD Car evita), mas sempre no 
+início dos seus turnos, podem repetir o teste para 
+encerrar o efeito.
+Decretos
+Alguns poderes de nobre são Decretos. 
+Esses poderes compartilham as seguintes 
+regras.
+• Usar estes poderes é um ato de fala, por 
+isso exige ser capaz de vocalizar.
+• A menos que dito o contrário, ativar um 
+decreto gasta uma ação padrão e 2 PM.
+• Decretos têm alcance curto e somente 
+afeta alvos inteligentes.
+121

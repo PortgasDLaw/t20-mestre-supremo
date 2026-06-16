@@ -1,0 +1,113 @@
+Aventureiros de Arton
+ponsável por forjar tudo que Arton tem de melhor a 
+oferecer quando se trata de bons equipamentos. 
+Ser um ferreiro é mais do que só martelar em 
+uma bigorna, é uma arte milenar, o primeiro ofício 
+a surgir em Arton. Ele é utilizado não apenas para 
+armar soldados, mas como uma forma de arte antiga 
+e até mesmo sagrada. Castelos são ornamentados 
+com armaduras, enquanto tronos e salas heráldicas 
+expõe armas poderosas em suas paredes.
+Características de 
+Classe
+Pontos de Vida. Um ferreiro começa com 16 
+pontos de vida + Con e ganha 4 PV + Con por nível.
+Pontos de Mana. Como o inventor básico.
+Perícias. Como o inventor básico, mas seu 
+Ofício inicial é armeiro.
+que sobe de nível, pode lançar magias de círculos 
+maiores (2º círculo no 6º nível, 3º círculo no 10º 
+nível e 4º círculo no 14º nível).
+Você começa com duas magias de 1º círculo. A 
+cada nível par (2º, 4º etc.), aprende uma magia de 
+qualquer círculo que possa lançar. Seu atributo-cha-
+ve para lançar magias é Sabedoria.
+Poder de Inquisidor. A partir do 2º nível, 
+você recebe essa habilidade como o inquisidor básico.
+Discernimento. No 3º nível, a sua visão do 
+mundo passa a ver além da realidade carnal. Você 
+fica permanentemente sob efeito de visão mística com 
+todos os aprimoramentos, soma sua Sabedoria em 
+Investigação e sua Inteligência em Intuição, ambos 
+limitados pelo nível.
+A partir do 17º nível, você passa a ficar perma-
+nentemente sob efeito de visão verdadeira com todos 
+os aprimoramentos.
+Apogeu da Mente. No 5º nível, escolha entre 
+Olhos Internos ou Vislumbre Onírico, uma vez feita, 
+a escolha não pode ser mudada.
+•	 Olhos Internos. Você ignora efeitos de camu-
+flagem e recebe percepção às cegas. Além disso, ao 
+fazer um teste de Percepção, pode gastar 2 PM para 
+somar sua Inteligência no teste, limitado pelo nível.
+•	 Vislumbre Onírico. Uma vez por rodada, ao 
+lançar uma magia de adivinhação, você pode fazer 
+um teste de Conhecimento. Para cada 10 pontos de 
+resultado no teste, você diminui o custo da magia 
+lançada em –1 PM (mínimo 0 PM).
+Tributo. A partir do 11º nível, você pode usar 
+habilidades de Inquisidor perdendo PV ao invés de 
+gastar PM (como em Hemofilia, p. @@). Porém, 
+isso é um uso opcional e a única forma de recuperar 
+pontos de vida perdidos dessa forma é com descanso.
+A Verdade. No 20º nível, você pode, uma vez 
+por rodada, escolher 20 em um teste, ignorar um 
+dano recebido ou anular uma condição que esteja 
+lhe afetando. Além disso, não precisa mais respirar, 
+alimentar-se ou dormir e recebe imunidade a efeitos 
+de cansaço, metabólicos e venenos.
+xInventorx
+Ferreiro
+"Martelo e bigorna., amigos para todo o sempre."
+Nas entranhas de Arton, em suas profundezas 
+mais escuras, habitam os anões de Doher, e se tem 
+algo em que o reino dos anões é famoso por, é seus 
+ferreiros. Um ferreiro é uma criatura singular, res-
+Tabela 1-13: O Ferreiro
+Nível
+Habilidades de Classe
+1º
+Barriga de chumbo, forja pessoal
+2º
+Armeiro superior (2 melhorias), 
+poder de inventor
+3º
+Martelo e bigorna, poder de inventor
+4º
+Disciplina metalúrgica, poder de inventor
+5º
+Armeiro superior (3 melhorias), 
+poder de inventor
+6º
+Poder de Inventor
+7º
+Disciplina metalúrgica (armaduras e escudos), 
+poder de inventor
+8º
+Armeiro superior (4 melhorias), 
+poder de inventor
+9º
+Armeiro mágico (menor), poder de inventor
+10º
+Poder de inventor
+11º
+Armeiro mágico (médio), poder de inventor
+12º
+Poder de inventor, temperar
+13º
+Armeiro mágico (maior), poder de inventor
+14º
+Poder de inventor
+15º
+Poder de inventor
+16º
+Poder de inventor
+17º
+Poder de inventor
+18º
+Poder de inventor
+19º
+Poder de inventor
+20º
+Forjar consciência, poder de inventor
+63

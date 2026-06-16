@@ -1,0 +1,76 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=172 y1=72 ---
+Super Henshin
+
+--- block x0=71 y0=71 x1=295 y1=229 ---
+Lendas dizem que alguns heróis henshin forma 
+uma equipe com nomes extravagantes e identidades 
+secretas, esses são os grupos sentais de Tamu-ra res-
+ponsáveis por proteger o império de jade dos perigo-
+sos kaijus! Para fazer isso, essas equipes conseguem 
+combinar suas montarias sagradas especiais — os 
+birrotores — para torná-las uma enorme máquina de 
+combate conhecida como Super Henshin! Para mon-
+tar o Super Henshin, pelo menos três membros do 
+grupo precisa gastar uma ação completa e 3 PM para 
+que no início da próxima rodada, estejam pilotando o 
+Super Henshin, que se mantém até o fim da cena ou 
+até um dos condutores o desfazer (ação livre).
+
+--- block x0=71 y0=229 x1=295 y1=329 ---
+O Super Henshin não exige tração, funciona 
+através de uma tecnologia sagrada inexplicável, faz 
+investidas como se você estivesse montado e é equi-
+pado com uma katana de energia (dano 2d12 +Sab 
+do condutor, crítico 17/x3, essência) e um Buster 
+(dano 3d12 +Sab do condutor, crítico 18, médio, 
+essência). Cada condutor pode mover ou atacar com 
+o Super Henshin com uma ação completa.
+
+--- block x0=71 y0=329 x1=295 y1=393 ---
+O Super Henshin é um veículo Colossal, com 
+deslocamento 18m, Defesa 20 (+Des de todos os 
+condutores somadas), PV 100 por condutor e pode 
+carregar até seis criaturas médias ou 120 espaços. 
+Pré-requisitos: Montaria Especial (Birrotor Henshin).
+
+--- block x0=330 y0=66 x1=509 y1=84 ---
+Tabela 1-38: Poderes de Grupo
+
+--- block x0=313 y0=88 x1=498 y1=101 ---
+Poder
+Pré-requisitos
+
+--- block x0=313 y0=104 x1=419 y1=115 ---
+Golpe Final
+—
+
+--- block x0=313 y0=119 x1=419 y1=130 ---
+Grande Intimidade
+—
+
+--- block x0=313 y0=133 x1=467 y1=145 ---
+Membros de Cruzada
+Religião, Sab 3
+
+--- block x0=313 y0=148 x1=430 y1=159 ---
+Mimetismo Curativo
+Cura
+
+--- block x0=313 y0=163 x1=498 y1=174 ---
+Oferta e Demanda
+Dinheiro Atrai Dinheiro
+
+--- block x0=313 y0=178 x1=483 y1=189 ---
+Sinergia Mágica
+Magia Comunitária
+
+--- block x0=313 y0=192 x1=515 y1=204 ---
+Super Henshin
+Montaria Especial (Birrotor)
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+141
+

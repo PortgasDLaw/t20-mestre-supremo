@@ -1,0 +1,65 @@
+Aventureiros de Arton
+Familiar Feérico
+Você pode reter uma magia de encantamento ou 
+ilusão no seu familiar por vez. Fazer isso exige gastar 
+PM e lançar a magia, mas ela fica armazenada no seu 
+familiar até o fim do dia. A qualquer momento como 
+uma ação livre, você pode lançar a magia retida sem a 
+necessidade de gestos ou vocalizações. Pré-requisitos: 
+Herança Básica (linhagem feérica), Familiar.
+Foco Martírico
+Uma vez por rodada, quando sofrer um efeito 
+que lhe aplicaria uma condição, você pode gastar 3 
+PM para evitar receber a condição (mas ainda sofre 
+quaisquer outros efeitos). O foco também perde 
+1d12 pontos de vida. Pré-requisito: Foco Vital.
+Foco Resistente
+Você soma seu atributo-chave na redução de 
+dano e no total de pontos de vida de seu foco arcano. 
+Além disso, ao usar Foco Vital, pode fazê-lo com 
+perda de vida. Pré-requisito: Foco Vital.
+Foco Supremo
+Seu foco passa a ter uma reserva de pontos de 
+mana igual à seu atributo-chave. Ao lançar uma ma-
+gia, você pode aprimorá-la usando PM desta reserva. 
+Pontos de mana do seu foco só são recuperados com 
+descanso, no entanto, pontos de mana recuperados 
+por Sifão de Mana também recupera os PM do seu 
+foco. Pré-requisitos: 17º nível de arcanista, Foco Vital.
+Grimório Supremo
+Seu grimório passa a ser um item mágico que 
+ocupa 1 espaço no seu inventário, e recebe quatro 
+melhorias e três encantos a sua escolha (ele conta 
+como uma ferramenta e esotérico que fornece bônus 
+em Misticismo). Além disso, Memória Subita não lhe 
+faz esquecer uma magia no lugar de lembrar outra. 
+Pré-requisitos: 17º nível de arcanista, mago.
+Herança Oculta
+Você soube compreender melhor as origens da 
+sua magia, desenvolvendo uma segunda marca de 
+poder no seu sangue. Escolha uma segunda linhagem 
+de feiticeiro para receber sua herança básica. Pré-re-
+quisitos: 12º nível de arcanista, Herança Superior.
+Lâmina Arcana
+Você pode gastar uma ação de movimento e 3 
+PM para criar uma lâmina de energia arcana que 
+surge em sua mão e dura até o fim da cena. Ela causa 
+o mesmo dano do Raio Arcano, é considerada uma 
+magia para habilidades e efeitos relacionados a isso, 
+ataca com Misticismo, invés de Luta e a mão ocupada 
+pela lâmina é considerada livre para lançar magias. 
+Pré-requisito: Raio Arcano. e
+Lâmina Elemental
+Ao usar Lâmina Arcana, 
+você pode gastar +1 
+PM para trocar o tipo 
+de dano dela para um 
+entre ácido, eletricidade, 
+fogo ou frio. Pré-requi-
+sito: Lâmina Arcana, 
+Raio Elemental. e
+"A melhor magia é aquela 
+"A melhor magia é aquela 
+que vem das trevas..."
+que vem das trevas..."
+97

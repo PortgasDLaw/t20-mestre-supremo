@@ -1,0 +1,184 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=204 y0=73 x1=397 y1=91 ---
+Tabela 1-33: Poderes de Combate
+
+--- block x0=75 y0=95 x1=511 y1=108 ---
+Poder
+Pré-requisitos
+Poder
+Pré-Requisitos
+
+--- block x0=75 y0=111 x1=497 y1=122 ---
+Arremessar Aliado
+Estilo de Arremesso, For 5
+Investida com Escudo
+Ataque com Escudo
+
+--- block x0=75 y0=126 x1=526 y1=148 ---
+Barão Alquímico
+Ofício (alquimista)
+No Ritmo da Luta
+Briga ou Estilo Desarmado, 
+Acrobacia e Atuação
+
+--- block x0=75 y0=151 x1=431 y1=162 ---
+Chute Rotatório Quadrado
+Briga ou Estilo Desarmado
+Manuseio Aperfeiçoado
+—
+
+--- block x0=75 y0=166 x1=524 y1=188 ---
+Disparo Duplo
+Disparo Rápido, Des 2
+Manuseio Lendário
+Empunhadura Poderosa, 
+Manuseio Aperfeiçoado, For 3
+
+--- block x0=75 y0=191 x1=431 y1=203 ---
+Disparo Triplo
+Disparo Duplo, Des 4
+Perfurar a Escama
+—
+
+--- block x0=75 y0=206 x1=509 y1=228 ---
+Dama da Guerra
+Estilo de Arma e Escudo, 
+Donzela de Ferro
+Ponta da Liderança
+Guerra, Estilo de Arma 
+Longa, Int 2
+
+--- block x0=75 y0=232 x1=525 y1=254 ---
+Defensor Exemplar
+—
+Precisão Cruel
+Precisão Letal, 17º nível de 
+personagem
+
+--- block x0=75 y0=257 x1=507 y1=279 ---
+Donzela de Ferro
+Fortitude, Luta, Misticismo e 
+Vontade
+Quebrar Montanhas
+Guerra, Estilo de Duas 
+Mãos, Int 2
+
+--- block x0=75 y0=283 x1=520 y1=305 ---
+Espadachim Exemplar
+Guerra, Estilo de Uma Arma, 
+Int 2
+Rodopiar e Lançar
+Estilo de Arremesso, For 5
+
+--- block x0=75 y0=308 x1=506 y1=331 ---
+Estilo Matador
+Firula Inspiradora
+Sequência Crítica
+Estilo de Duas Armas, 
+Precisão Letal
+
+--- block x0=75 y0=334 x1=459 y1=345 ---
+Flechada no Joelho
+Estilo de Disparo, Sab 2
+Tanque Armado
+Fortitude
+
+--- block x0=75 y0=349 x1=522 y1=371 ---
+Gigante
+Empunhadura Poderosa, 
+Grandão, For 4, Con 5
+Um Tiro, Uma Baixa
+Armas de fogo, 5º nível de 
+personagem
+
+--- block x0=75 y0=374 x1=477 y1=386 ---
+Ginete Andarilho
+Ginete, 5º nível de personagem
+Varar a Cabeça
+Armas de fogo
+
+--- block x0=205 y0=398 x1=396 y1=417 ---
+Tabela 1-34: Poderes de Destino
+
+--- block x0=75 y0=420 x1=511 y1=433 ---
+Poder
+Pré-requisitos
+Poder
+Pré-Requisitos
+
+--- block x0=75 y0=436 x1=500 y1=447 ---
+Adepto dos Ermos
+Sobrevivência, Sab 2
+Destino Perpétuo
+Ao Sabor do Destino
+
+--- block x0=75 y0=451 x1=463 y1=462 ---
+Alma de Aventureiro
+6º nível de personagem
+Entusiasta de Itens Mágicos
+Int 3, Car 3
+
+--- block x0=75 y0=466 x1=431 y1=488 ---
+Amigo Espiritual
+7º nível de personagem, 
+alikunhá
+Fagulha dos deuses
+—
+
+--- block x0=75 y0=491 x1=431 y1=502 ---
+Bicho do Mato
+—
+Fingir de Morto
+—
+
+--- block x0=75 y0=506 x1=484 y1=517 ---
+Carinho do Bicho
+Adestramento, Car 2
+Nacionalista
+Origem regional
+
+--- block x0=75 y0=521 x1=488 y1=543 ---
+Cozinha Campestre
+Foco em Perícia (Ofício 
+[Cozinheiro])
+Otimismo
+Vontade de Ferro
+
+--- block x0=75 y0=546 x1=440 y1=557 ---
+Crise de Meia-Idade
+Maduro
+Professoral
+Int 3
+
+--- block x0=212 y0=574 x1=389 y1=593 ---
+Tabela 1-35: Poderes de Magia
+
+--- block x0=75 y0=596 x1=511 y1=610 ---
+Poder
+Pré-requisitos
+Poder
+Pré-Requisitos
+
+--- block x0=75 y0=613 x1=478 y1=624 ---
+Alterar a Magia
+Lançar magias de 3º círculo
+Crítico Arcano
+Lançar magias
+
+--- block x0=75 y0=627 x1=478 y1=639 ---
+Caos Arcano
+Magia Selvagem
+Magia Rápida
+Lançar magias
+
+--- block x0=75 y0=642 x1=478 y1=653 ---
+Cálculos Místicos
+Lançar magias de 4º círculo
+Magia Selvagem
+Lançar magias
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+131
+

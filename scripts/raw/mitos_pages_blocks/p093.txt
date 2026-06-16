@@ -1,0 +1,145 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=83 ---
++1, +5 PV e +2 em rolagens de dano corpo a corpo, 
+mas perde –1 em Inteligência e Carisma.
+
+--- block x0=71 y0=83 x1=292 y1=140 ---
+Itens. Armadura de ossos macabra, arma sim-
+ples ou marcial de casco de monstro.
+Ginete Tribal
+
+--- block x0=71 y0=139 x1=295 y1=203 ---
+Você era membro de uma comuna selvagem e 
+fazia parte da sua cavalaria como noviço, ou era um 
+cuidador das montarias da tribo. Quando precisou 
+partir para suas aventuras, recebeu uma destas mon-
+tarias para lhe acompanhar como um irmão.
+
+--- block x0=71 y0=203 x1=295 y1=231 ---
+Benefício. Você é treinado em Adestramento e 
+Cavalgar e recebe o poder Ginete.
+
+--- block x0=71 y0=231 x1=295 y1=288 ---
+Itens. Um parceiro iniciante a sua escolha entre 
+um cavalo, gorlogg, leão ou urso pardo.
+Incivilizado
+
+--- block x0=71 y0=287 x1=295 y1=351 ---
+Você viveu sua vida inteira solitário e longe da 
+civilização, com um grupo de animais ou até mesmo 
+criado por um monstro. O seu contato totalmente 
+nulo com a sociedade o tornou um tipo de animal 
+que agora tem que se adaptar a vida de aventuras.
+
+--- block x0=71 y0=351 x1=295 y1=379 ---
+Benefício. Você é treinado em Adestramento, 
+Cavalgar e Sobrevivência e recebe +2 nessas perícias.
+
+--- block x0=71 y0=379 x1=295 y1=436 ---
+Itens. Bordão, farrapos do ermitão, símbolo 
+sagrado de Allihanna, Megalokk ou Oceano.
+Iniciado da Frota
+
+--- block x0=71 y0=435 x1=295 y1=511 ---
+Como um vivente das sanguinárias, você acabou 
+conhecendo a aldeia de Averia e sua guilda de explo-
+radores, aprendendo uma coisa ou outra com seus 
+membros. Você ainda está longe de ser um explora-
+dor interino e ter seu próprio brasão, mas já pode se 
+considerar nos trilhos.
+
+--- block x0=71 y0=511 x1=295 y1=575 ---
+Benefício. Você recebe +2 em testes de ata-
+que e rolagens de dano contra monstros maiores que 
+você. Além disso, ao se tornar um Explorador da Fro-
+ta, armas e itens de expedição tem o preço reduzido 
+em 20% para você (não cumulativo com barganha).
+
+--- block x0=71 y0=575 x1=292 y1=632 ---
+Itens. Armadura de couro, energético x2, lam-
+pião de luminsetos, prendedora.
+Nobre Espiritual
+
+--- block x0=71 y0=631 x1=295 y1=683 ---
+Você é um dos poucos membros da casta nobre 
+tamuraniana que teve o privilégio de conviver entre 
+os kami — grandes espíritos do além-arton —, sendo 
+considerado parte desta corte.
+
+--- block x0=71 y0=683 x1=295 y1=711 ---
+Benefício. Você é treinado em Conhecimento 
+e Nobreza. Além disso, aprende e pode lançar as 
+
+--- block x0=309 y0=55 x1=533 y1=107 ---
+magias Compreensão e Orientação. Esses efeitos não 
+contam como magias (exceto para fins de acúmulo) 
+e não são mágicos — eles provêm dos seus estudos 
+privilegiados e de alta qualidade dado para os nobres.
+
+--- block x0=309 y0=107 x1=530 y1=164 ---
+Itens. Anel de jade (espaço 0,5, T$ 300), cole-
+ção de livros, traje da corte.
+Nobre Feérico
+
+--- block x0=309 y0=160 x1=533 y1=224 ---
+Tem quem diga que o meio selvagem artoniano 
+é incivilizado e sem hierarquia. Mas você sabe que 
+é mentira, pois fez parte da nobre corte feérica de 
+Pondsmânia ou outra corte similar geridas por fadas, 
+normalmente viventes de Magika.
+
+--- block x0=309 y0=224 x1=533 y1=264 ---
+Benefício. Você recebe Carisma +1, é treinado 
+em Nobreza e pode usar Carisma como atributo-cha-
+ve dessa perícia (em vez de Inteligência).
+
+--- block x0=309 y0=264 x1=533 y1=321 ---
+Itens. Coroa de flores exóticas (quando vestida, 
+fornece +1 em testes de Diplomacia), traje da corte.
+Órfão de Guerra
+
+--- block x0=309 y0=320 x1=533 y1=420 ---
+Você nasceu ou cresceu em um conturbado 
+período de guerras. Seja um conflito grande como 
+as guerras táuricas ou a guerra artoniana, ou algo 
+menor como o chamado às armas de Doherimm. Tais 
+conflitos acabaram ceifando a vida de seus pais, e o 
+tornou um órfão que foi adotado por alguém que viu 
+em seu ressentimento e mágoa a oportunidade de 
+criar um guerreiro formidável.
+
+--- block x0=309 y0=420 x1=533 y1=472 ---
+Benefício. Você é treinado em Fortitude, Luta 
+e Vontade e pode gastar uma ação padrão e 3 PM 
+para receber +2 na Defesa, em testes de ataque, 
+resistência e em rolagens de dano até o fim da cena.
+
+--- block x0=309 y0=472 x1=484 y1=517 ---
+Itens. Arma marcial, armadura leve.
+Profeta estelar
+
+--- block x0=309 y0=516 x1=533 y1=616 ---
+Você vê nas estrelas sinais, profecias e dilemas 
+para todas as questões do mundo, estudando-as 
+como uma entidade misteriosa, um tecido profético 
+do futuro vindouro. Talvez fizesse isso como um 
+devoto de Thyatis na época de ouro de Sternachten, 
+de forma autônoma ou por ser um duyshidakk em 
+busca de desvendar o Akzath. De qualquer modo, 
+pode usar esse conhecimento para várias ocasiões.
+
+--- block x0=309 y0=616 x1=533 y1=668 ---
+Benefício. Se estiver em céu aberto durante 
+a noite, você pode passar 1 hora refletindo sobre 
+as estrelas para receber +1 em todos os testes de 
+perícia até o fim da próxima cena.
+
+--- block x0=309 y0=668 x1=533 y1=697 ---
+Itens. Luneta, instrumentos de ofício (Escriba), 
+pergaminho de Áugurio x2.
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+93
+

@@ -1,0 +1,193 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=272 y1=99 ---
+Proficiências. Como o frade básico.
+Habilidades de Classe
+
+--- block x0=71 y0=98 x1=295 y1=162 ---
+Devoto Fiel. Como o frade básico, mas deve 
+seguir apenas as obrigações & restrições brandas da 
+sua divindade (p. @@). Além disso, uma vez que 
+escolha a divindade na qual é devoto, você não pode 
+trocar sua devoção.
+
+--- block x0=88 y0=162 x1=219 y1=179 ---
+Magias. Como o frade básico.
+
+--- block x0=71 y0=179 x1=295 y1=267 ---
+Talismã Divino. Você recebe um talismã que 
+marca seu pacto com uma divindade. Além dos efei-
+tos de um símbolo sagrado, o talismã lhe concede, 
+uma vez por rodada, +1d4 em um teste de perícia 
+(exceto testes de ataque e resistência). O dado au-
+menta no 6º nível, e a cada quatro níveis seguintes de 
+acordo com a tabela na página anterior.
+
+--- block x0=71 y0=267 x1=295 y1=355 ---
+Correntes do Pacto. No 2º nível, você 
+recebe um familiar (veja Tormenta20, p. 38) que 
+representa sua divindade, a critério do mestre. O fa-
+miliar também fornece os benefícios de um parceiro 
+iniciante de um tipo baseado na divindade ao qual 
+você está pactuado. No 5º nível, você recebe o poder 
+Familiar Aprimorado (veja Heróis de Arton, p. 55).
+
+--- block x0=71 y0=355 x1=295 y1=383 ---
+Poder de Frade. A partir do 2º nível, você 
+recebe essa habilidade como o frade básico.
+
+--- block x0=71 y0=383 x1=295 y1=484 ---
+Livro das Sombras. No 5º nível, você recebe 
+um livro sagrado que potencializa suas magias. Es-
+colha um número de magias de até 2º círculo igual 
+à metade da sua Inteligência. As magias escolhidas 
+podem ser lançadas sem gastar PM, mas apenas uma 
+vez por rodada e você ainda gasta PM com aprimora-
+mentos. No início de cada aventura, você pode trocar 
+as magias escolhidas com 1 hora de estudo.
+
+--- block x0=71 y0=484 x1=295 y1=584 ---
+Acordo Final. No 20º nível, você fecha um 
+acordo com sua divindade, não precisando mais se-
+guir suas obrigações & restrições e ainda mantendo 
+seus poderes concedidos. Além disso, você pode 
+escolher magias de até 3º círculo para ser afetada 
+por Livro das Sombras, seu familiar se torna mestre 
+e você pode gastar 3 PM ao usar seu Talismã Divino 
+para rolar dois dados de auxílio e escolher o melhor.
+
+--- block x0=71 y0=599 x1=143 y1=633 ---
+xBucaneirox
+Pirata
+
+--- block x0=88 y0=635 x1=208 y1=651 ---
+"Preparem o Quebra-Cascos!"
+
+--- block x0=71 y0=651 x1=295 y1=703 ---
+A pirataria não é uma coisa rara em Arton, tam-
+pouco é algo que se limita apenas ao mar, os piratas 
+são o mestre do contrabado, foras da lei supremos. 
+Regras para eles não existem, mas até mesmo entre 
+
+--- block x0=309 y0=435 x1=533 y1=475 ---
+pirataria existem os honrados e justos, esses recebem 
+o apelido de "chapéu de palha" ou são contratados 
+por nobres e recebem a alcunha de "corsário".
+
+--- block x0=309 y0=475 x1=533 y1=619 ---
+Piratas se vangloriam das grandes recompensas 
+sobre suas cabeças, utilizando disto para definir 
+quais são os mais poderosos. Mas, existem aqueles 
+que em troca de limpar seu nome e a caça pelo seu 
+tesouro, se aliam a reinos, sendo a escória dos mares, 
+dos quais, não tem respeito de nenhum pirata. Estes 
+recebem o nome de "caçadores de pirata", mas entre 
+os piratas, são os "vendidos".
+Características de 
+Classe
+
+--- block x0=326 y0=618 x1=521 y1=635 ---
+Pontos de Vida. Como o bucaneiro básico.
+
+--- block x0=326 y0=634 x1=481 y1=651 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=326 y0=651 x1=484 y1=667 ---
+Perícias. Como o bucaneiro básico.
+
+--- block x0=309 y0=667 x1=516 y1=712 ---
+Proficiências. Armas Marciais e de Fogo.
+Habilidades de Classe
+
+--- block x0=358 y0=67 x1=481 y1=86 ---
+Tabela 1-24: O Pirata
+
+--- block x0=313 y0=89 x1=503 y1=103 ---
+Nível
+Habilidades de Classe
+
+--- block x0=313 y0=105 x1=452 y1=117 ---
+1º
+"Barril!" (+2d6), insolência
+
+--- block x0=313 y0=120 x1=499 y1=131 ---
+2º
+Flagelo dos mares, poder de bucaneiro
+
+--- block x0=313 y0=135 x1=499 y1=146 ---
+3º
+Laranja de sangue, poder de bucaneiro
+
+--- block x0=313 y0=150 x1=427 y1=161 ---
+4º
+Poder de bucaneiro
+
+--- block x0=313 y0=164 x1=479 y1=186 ---
+5º
+Amigos do porto, "barril!" (+3d6), 
+poder de bucaneiro
+
+--- block x0=313 y0=190 x1=427 y1=201 ---
+6º
+Poder de bucaneiro
+
+--- block x0=313 y0=205 x1=427 y1=216 ---
+7º
+Poder de bucaneiro
+
+--- block x0=313 y0=220 x1=427 y1=231 ---
+8º
+Poder de bucaneiro
+
+--- block x0=313 y0=234 x1=487 y1=246 ---
+9º
+"Barril!" (+4d6), poder de bucaneiro
+
+--- block x0=313 y0=249 x1=460 y1=260 ---
+10º
+Capitão, poder de bucaneiro
+
+--- block x0=313 y0=264 x1=427 y1=275 ---
+11º
+Poder de bucaneiro
+
+--- block x0=313 y0=279 x1=427 y1=290 ---
+12º
+Poder de bucaneiro
+
+--- block x0=313 y0=293 x1=487 y1=305 ---
+13º
+"Barril!" (+5d6), poder de bucaneiro
+
+--- block x0=313 y0=308 x1=427 y1=319 ---
+14º
+Poder de bucaneiro
+
+--- block x0=313 y0=323 x1=427 y1=334 ---
+15º
+Poder de bucaneiro
+
+--- block x0=313 y0=338 x1=427 y1=349 ---
+16º
+Poder de bucaneiro
+
+--- block x0=313 y0=352 x1=487 y1=364 ---
+17º
+"Barril!" (+6d6), poder de bucaneiro
+
+--- block x0=313 y0=367 x1=427 y1=378 ---
+18º
+Poder de bucaneiro
+
+--- block x0=313 y0=382 x1=427 y1=393 ---
+19º
+Poder de bucaneiro
+
+--- block x0=313 y0=397 x1=485 y1=408 ---
+20º
+Rei dos piratas, poder de bucaneiro
+
+--- block x0=563 y0=756 x1=573 y1=767 ---
+77
+

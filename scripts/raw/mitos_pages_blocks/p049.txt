@@ -1,0 +1,191 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=246 y1=93 ---
+Características de 
+Classe
+
+--- block x0=71 y0=91 x1=295 y1=132 ---
+Pontos de Vida. Um mirmidão começa com 
+20 pontos de vida + Constituição e ganha 5 PV + 
+Constituição por nível.
+
+--- block x0=88 y0=132 x1=243 y1=148 ---
+Pontos de Mana. 3 PM por nível.
+
+--- block x0=71 y0=148 x1=295 y1=212 ---
+Perícias. Fortitude (Con) e Luta (For), mais 
+2 a sua escolha entre Atletismo (For), Cavalgar 
+(Des), Cura (Sab), Guerra (Int), Iniciativa (Des), 
+Intimidação (Car), Intuição (Sab), Misticismo (Int), 
+Percepção (Sab), Religião (Sab) e Vontade (Sab).
+
+--- block x0=71 y0=212 x1=295 y1=269 ---
+Proficiências. Armas marciais, armaduras 
+pesadas e escudos.
+Habilidades de Classe
+
+--- block x0=71 y0=268 x1=295 y1=368 ---
+Armadura Maldita. Você inicia o jogo 
+vestindo uma armadura completa contendo uma 
+melhoria a sua escolha (exceto material especial). 
+Nos níveis 4, 7 e 10, você pode escolher uma nova 
+melhoria para adicionar na armadura. Nos níveis 9, 
+13 e 17, você pode escolher um encanto para adicio-
+nar na armadura. No entanto, a armadura tem uma 
+maldição que não pode ser quebrada.
+
+--- block x0=71 y0=368 x1=295 y1=480 ---
+Você não pode remover a armadura por completo 
+e quando quebrada, a armadura se reconstrói no iní-
+cio do próximo dia — e você perde todos os seus PM, 
+só podendo recuperá-los ao recuperar a armadura. 
+Dormir com essa armadura não lhe deixa fatigado, 
+mas sua condição de descanso nunca é melhor que 
+normal. Se morrer e não for preservado ou ressus-
+citado em até 1 semana, você desasparece, sendo 
+tragado por Umbralar.
+
+--- block x0=71 y0=480 x1=295 y1=532 ---
+Força do Oblívio. Você causa +1d6 pontos 
+de dano de trevas adicional quando empunhando 
+armas corpo a corpo. A cada quatro níveis, o dano 
+dessa habilidade aumenta de acordo com a tabela. e
+
+--- block x0=71 y0=532 x1=295 y1=585 ---
+Magias. Você pode lançar magias de 1º círculo 
+de necromancia. Á medida que sobe de nível, pode 
+lançar magias de círculos maiores (2º círculo no 6º 
+nível e 3º círculo no 10º nível).
+
+--- block x0=71 y0=585 x1=295 y1=673 ---
+Você começa com duas magias de 1º círculo, a 
+cada nível par (2º, 4º, 6º, etc.), aprende uma magia 
+de qualquer círculo de necromancia que possa lançar. 
+Você pode aprender magias arcanas e divinas, mas as 
+magias aprendidas são lançadas como se fossem divi-
+nas. Seu atributo-chave para magias é Inteligência e 
+você soma sua Inteligência nos seus pontos de mana.
+
+--- block x0=71 y0=672 x1=295 y1=711 ---
+Poder de Mirmidão. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de mirmidão a 
+sua escolha. Veja a lista a seguir.
+
+--- block x0=309 y0=537 x1=533 y1=601 ---
+Príncipe das Trevas. A partir do 5º nível, 
+você recebe redução de trevas 5 e resistência a cansa-
+ço, metabolismo, trevas e veneno +2. A cada quatro 
+níveis após o 5º, esses ganhos aumenta em 5 e em 
++1, respectivamente.
+
+--- block x0=309 y0=601 x1=533 y1=690 ---
+Rei Sombrio. No 20º nível, o custo das suas 
+magias de mirmidão são reduzidos em –2 PM 
+(cumulativo com outras reduções de custo) e o dano 
+de Força do Oblívio muda para 2d12. Além disso, 
+sua Armadura Maldita fornece redução de dano 10 
+e recebe uma melhoria e um encanto adicional a sua 
+escolha — que não contam no limite.
+
+--- block x0=351 y0=62 x1=488 y1=81 ---
+Tabela 1-6: O Mirmidão
+
+--- block x0=313 y0=84 x1=503 y1=97 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=100 x1=505 y1=122 ---
+1º
+Armadura maldita (1 melhoria), força do 
+oblívio +1d6, magias (1º círculo)
+
+--- block x0=325 y0=125 x1=426 y1=137 ---
+2º
+Poder de mirmidão
+
+--- block x0=325 y0=140 x1=426 y1=152 ---
+3º
+Poder de mirmidão
+
+--- block x0=325 y0=155 x1=512 y1=177 ---
+4º
+Armadura maldita (2 melhorias), poder de 
+mirmidão
+
+--- block x0=325 y0=181 x1=514 y1=203 ---
+5º
+Força do oblívio +1d8, poder de mirmidão, 
+principe das trevas 5/+2
+
+--- block x0=325 y0=206 x1=498 y1=217 ---
+6º
+Magias (2º círculo), poder de mirmidão
+
+--- block x0=325 y0=221 x1=512 y1=243 ---
+7º
+Armadura maldita (3 melhorias), poder de 
+mirmidão
+
+--- block x0=325 y0=246 x1=426 y1=258 ---
+8º
+Poder de mirmidão
+
+--- block x0=325 y0=261 x1=517 y1=294 ---
+9º
+Armadura maldita (1 encanto), força do 
+oblívio +1d10, poder de mirmidão, principe 
+das trevas 10/+3
+
+--- block x0=323 y0=297 x1=518 y1=320 ---
+10º
+Armadura maldita (4 melhorias), magias (3º 
+círculo), poder de mirmidão
+
+--- block x0=323 y0=323 x1=426 y1=334 ---
+11º
+Poder de mirmidão
+
+--- block x0=323 y0=338 x1=426 y1=349 ---
+12º
+Poder de mirmidão
+
+--- block x0=323 y0=353 x1=517 y1=385 ---
+13º
+Armadura maldita (2 encantos), 
+força do oblívio +1d12, poder de mirmidão, 
+principe das trevas 15/+4
+
+--- block x0=323 y0=389 x1=426 y1=400 ---
+14º
+Poder de mirmidão
+
+--- block x0=323 y0=404 x1=426 y1=415 ---
+15º
+Poder de mirmidão
+
+--- block x0=323 y0=418 x1=426 y1=430 ---
+16º
+Poder de mirmidão
+
+--- block x0=323 y0=433 x1=512 y1=466 ---
+17º
+Armadura maldita (3 encantos), 
+força do oblívio +3d6, poder de mirmidão, 
+principe das trevas 20/+5
+
+--- block x0=323 y0=469 x1=426 y1=481 ---
+18º
+Poder de mirmidão
+
+--- block x0=323 y0=484 x1=426 y1=496 ---
+19º
+Poder de mirmidão
+
+--- block x0=323 y0=499 x1=505 y1=510 ---
+20º
+Rei sombrio (+2d12), poder de mirmidão
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+49
+

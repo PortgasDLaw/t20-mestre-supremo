@@ -1,0 +1,117 @@
+Aventureiros de Arton
+Características de 
+Classe
+Pontos de Vida. Um mirmidão começa com 
+20 pontos de vida + Constituição e ganha 5 PV + 
+Constituição por nível.
+Pontos de Mana. 3 PM por nível.
+Perícias. Fortitude (Con) e Luta (For), mais 
+2 a sua escolha entre Atletismo (For), Cavalgar 
+(Des), Cura (Sab), Guerra (Int), Iniciativa (Des), 
+Intimidação (Car), Intuição (Sab), Misticismo (Int), 
+Percepção (Sab), Religião (Sab) e Vontade (Sab).
+Proficiências. Armas marciais, armaduras 
+pesadas e escudos.
+Habilidades de Classe
+Armadura Maldita. Você inicia o jogo 
+vestindo uma armadura completa contendo uma 
+melhoria a sua escolha (exceto material especial). 
+Nos níveis 4, 7 e 10, você pode escolher uma nova 
+melhoria para adicionar na armadura. Nos níveis 9, 
+13 e 17, você pode escolher um encanto para adicio-
+nar na armadura. No entanto, a armadura tem uma 
+maldição que não pode ser quebrada.
+Você não pode remover a armadura por completo 
+e quando quebrada, a armadura se reconstrói no iní-
+cio do próximo dia — e você perde todos os seus PM, 
+só podendo recuperá-los ao recuperar a armadura. 
+Dormir com essa armadura não lhe deixa fatigado, 
+mas sua condição de descanso nunca é melhor que 
+normal. Se morrer e não for preservado ou ressus-
+citado em até 1 semana, você desasparece, sendo 
+tragado por Umbralar.
+Força do Oblívio. Você causa +1d6 pontos 
+de dano de trevas adicional quando empunhando 
+armas corpo a corpo. A cada quatro níveis, o dano 
+dessa habilidade aumenta de acordo com a tabela. e
+Magias. Você pode lançar magias de 1º círculo 
+de necromancia. Á medida que sobe de nível, pode 
+lançar magias de círculos maiores (2º círculo no 6º 
+nível e 3º círculo no 10º nível).
+Você começa com duas magias de 1º círculo, a 
+cada nível par (2º, 4º, 6º, etc.), aprende uma magia 
+de qualquer círculo de necromancia que possa lançar. 
+Você pode aprender magias arcanas e divinas, mas as 
+magias aprendidas são lançadas como se fossem divi-
+nas. Seu atributo-chave para magias é Inteligência e 
+você soma sua Inteligência nos seus pontos de mana.
+Poder de Mirmidão. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de mirmidão a 
+sua escolha. Veja a lista a seguir.
+Príncipe das Trevas. A partir do 5º nível, 
+você recebe redução de trevas 5 e resistência a cansa-
+ço, metabolismo, trevas e veneno +2. A cada quatro 
+níveis após o 5º, esses ganhos aumenta em 5 e em 
++1, respectivamente.
+Rei Sombrio. No 20º nível, o custo das suas 
+magias de mirmidão são reduzidos em –2 PM 
+(cumulativo com outras reduções de custo) e o dano 
+de Força do Oblívio muda para 2d12. Além disso, 
+sua Armadura Maldita fornece redução de dano 10 
+e recebe uma melhoria e um encanto adicional a sua 
+escolha — que não contam no limite.
+Tabela 1-6: O Mirmidão
+Nível
+Habilidades de Classe
+1º
+Armadura maldita (1 melhoria), força do 
+oblívio +1d6, magias (1º círculo)
+2º
+Poder de mirmidão
+3º
+Poder de mirmidão
+4º
+Armadura maldita (2 melhorias), poder de 
+mirmidão
+5º
+Força do oblívio +1d8, poder de mirmidão, 
+principe das trevas 5/+2
+6º
+Magias (2º círculo), poder de mirmidão
+7º
+Armadura maldita (3 melhorias), poder de 
+mirmidão
+8º
+Poder de mirmidão
+9º
+Armadura maldita (1 encanto), força do 
+oblívio +1d10, poder de mirmidão, principe 
+das trevas 10/+3
+10º
+Armadura maldita (4 melhorias), magias (3º 
+círculo), poder de mirmidão
+11º
+Poder de mirmidão
+12º
+Poder de mirmidão
+13º
+Armadura maldita (2 encantos), 
+força do oblívio +1d12, poder de mirmidão, 
+principe das trevas 15/+4
+14º
+Poder de mirmidão
+15º
+Poder de mirmidão
+16º
+Poder de mirmidão
+17º
+Armadura maldita (3 encantos), 
+força do oblívio +3d6, poder de mirmidão, 
+principe das trevas 20/+5
+18º
+Poder de mirmidão
+19º
+Poder de mirmidão
+20º
+Rei sombrio (+2d12), poder de mirmidão
+49

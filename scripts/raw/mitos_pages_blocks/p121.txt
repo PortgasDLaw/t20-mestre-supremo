@@ -1,0 +1,135 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=180 y1=72 ---
+Mestre Marcial
+
+--- block x0=71 y0=72 x1=295 y1=133 ---
+Você recebe +2 em testes de manobra e não gasta 
+mais PM para usar Golpe Relâmpago. Pré-requisitos: 
+Especialista Marcial, 11º nível de lutador.
+Onda de Choque
+
+--- block x0=71 y0=132 x1=295 y1=241 ---
+Você pode gastar uma ação padrão e uma quanti-
+dade de PM limitada pela sua Força para realizar um 
+ataque desarmado contra o solo. Para cada PM gasto, 
+você causa 1d8 pontos de dano de impacto a todas as 
+criaturas em um cone de 6m a partir de você (Ref CD 
+For reduz o dano à metade). A área se torna terreno 
+difícil após o uso da habilidade.
+Postura Fechada
+
+--- block x0=71 y0=241 x1=295 y1=338 ---
+Sua postura não abres brechas para os inimigos 
+lhe atacar. Você recebe redução de dano 5. Essa ha-
+bilidade não funciona se estiver empunhando itens 
+ou vestindo armaduras e manopla. Essa redução au-
+menta em +5 no 17º nível de lutador. Pré-requisitos: 
+Braços Calejados, Foco Marcial, 11º nível de lutador.
+Punho Suave
+
+--- block x0=71 y0=338 x1=295 y1=464 ---
+Quando usa Trocação, você desestabiliza o alvo 
+a cada ataque. Sempre que acerta um ataque desar-
+mado, o oponente sofre uma penalidade cumulativa 
+de –1 na Defesa e na CD para resistir as habilidades 
+dele — limitado pela sua Força. Essa penalidade dura 
+até o fim da cena ou até usar Trocação novamente. 
+Pré-requisito: Trocação.
+Nobre
+
+--- block x0=71 y0=469 x1=178 y1=486 ---
+Slot Disponível
+
+--- block x0=71 y0=486 x1=295 y1=568 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas dictum rutrum est tincidunt. 
+Maecenas dictum rutrum est tincidunt. Maecenas 
+dictum rutrum est tincidunt. Maecenas dictum ru-
+trum est tincidunt.
+Braço Direito
+
+--- block x0=71 y0=568 x1=295 y1=641 ---
+Escolha um de seus parceiros (se tiver), ele pas-
+sa a fornecer os benefícios de um tipo a sua escolha 
+entre ajudante, combatente, fortão ou guardião de 
+nível mestre. Pré-requisito: 17º nível de nobre.
+Cara da Nobreza
+
+--- block x0=71 y0=640 x1=295 y1=705 ---
+Você recebe um bônus cumulativo de +1 em No-
+breza e nos seus testes de ataque e rolagens de dano 
+com o espadim se estiver vestindo uma capa com 
+dragonas, bainha adornada e/ou um traje da corte. A 
+critério do mestre, itens mágicos que fornecem Ca-
+
+--- block x0=309 y0=230 x1=533 y1=279 ---
+risma também contam para este poder. Pré-requisito: 
+5º nível de nobre.
+Castelão
+
+--- block x0=309 y0=278 x1=533 y1=382 ---
+Você recebe os serviços de um castelão, um par-
+ceiro especial que não conta no seu limite. O castelão 
+fica responsável por todos os assuntos que envolva 
+suas estruturas, enquanto você realiza outras tare-
+fas. Em termos de jogo, você recebe uma ação entre 
+aventuras adicional para lidar com bases, negócios ou 
+domínios.  Pré-requisito: 8º nível de nobre, Senescal.
+Comitiva Arcana
+
+--- block x0=309 y0=382 x1=533 y1=491 ---
+Você pode criar um séquito com magia arcana. 
+Você aprende e pode lançar Montaria Arcana, Servos 
+Invisíveis e Refúgio (todas atributo-chave Carisma) 
+e pode usar seus aprimoramentos como se tivesse 
+acesso aos mesmos círculos de magia que um feiti-
+ceiro de seu nível. Pré-requisitos: 12º nível de nobre, 
+treinado em Misticismo, Int 4. e
+Companheiro Animal
+
+--- block x0=309 y0=491 x1=530 y1=540 ---
+Você recebe um companheiro animal. Pré-requisi-
+tos: Car 1, treinado em Adestramento.
+Slot Disponível
+
+--- block x0=309 y0=539 x1=533 y1=648 ---
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt.
+Decreto: Ajoelhem-se!
+
+--- block x0=309 y0=648 x1=533 y1=700 ---
+Criaturas escolhidas no alcance ficam imóveis 
+se ajoelhando (Von CD Car evita), mas sempre no 
+início dos seus turnos, podem repetir o teste para 
+encerrar o efeito.
+
+--- block x0=326 y0=53 x1=376 y1=71 ---
+Decretos
+
+--- block x0=326 y0=72 x1=503 y1=112 ---
+Alguns poderes de nobre são Decretos. 
+Esses poderes compartilham as seguintes 
+regras.
+
+--- block x0=326 y0=113 x1=506 y1=141 ---
+• Usar estes poderes é um ato de fala, por 
+isso exige ser capaz de vocalizar.
+
+--- block x0=326 y0=141 x1=507 y1=169 ---
+• A menos que dito o contrário, ativar um 
+decreto gasta uma ação padrão e 2 PM.
+
+--- block x0=326 y0=169 x1=497 y1=197 ---
+• Decretos têm alcance curto e somente 
+afeta alvos inteligentes.
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+121
+

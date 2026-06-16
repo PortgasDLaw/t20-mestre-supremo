@@ -1,0 +1,94 @@
+Aventureiros de Arton
+Runista
+Você aprende a fabricar e transliterar runas. Veja 
+sobre as regras de runas no quadro acima. Pré-requi-
+sitos: treinado em Misticismo, Int 3, não possuir o 
+poder Engenhoqueiro. e
+Tiro Rúnico
+Uma vez por cena, um ataque crítico à distância 
+feito por você com uma arma fabricada por você rece-
+be uma quantidade de dados de dano na sua rolagem 
+igual ao multiplicador de crítico da arma. Pré-requisi-
+tos: Cano Raiado, Runista, 12º nível de inventor. e
+Utensílio Personalíssimo
+Escolha um equipamento fabricado por você e 
+no qual tenha usado por pelo menos quatro aven-
+turas em sequência, uma vez feita, a escolha não 
+pode ser mudada. Você pode gastar 1 hora fazendo 
+ajustes pessoais ao mesmo, no qual tem seus valores 
+numéricos fixos aumentados em +1 (incluindo 
+valores fornecidos por melhorias e encantos) e o 
+dano aumentado em um passo, ou a penalidade de 
+armadura reduzida em –1, se for uma armadura. Se 
+este item for destruido, você perde todos os seus PM 
+e fica atordoado por 1d4 rodadas. Seus PM só são re-
+cuperados ao escolher um novo equipamento como 
+seu utensílio personalíssimo. Pré-requisitos: treinado 
+em Ofício (armeiro), 6º nível de inventor.
+Ladino
+Apunhalar pelas Costas
+Ao causar dano a um alvo desprevenido, você 
+pode gastar 1 PM para deixá-lo sangrando. Se o 
+alvo já estiver sangrando, você aumenta o dado de 
+sangramento em uma categoria.
+Ataque Surpresa
+Ao fazer um ataque contra um alvo surpreendido, 
+você pode gastar 3 PM para fazê-lo como uma ação 
+livre e o ataque não gasta seu uso de Ataque Furtivo 
+na rodada. Pré-requisito: 8º nível de ladino.
+Delinquente
+As ruas lhe ensinaram a usar qualquer arma em 
+qualquer situação. Você não sofre a penalidade de –2 
+em testes de ataque por usar armas improvisadas e o 
+dano de armas simples e improvisadas empunhadas 
+por você aumenta em um passo.
+Diálogo das Ruas
+Você pode gastar 1 PM para somar sua Força 
+em um teste de Intimidação. Além disso, para cada 
+5 pontos de diferença que seu teste tiver com o do 
+alvo em uma rolagem para Assustar, você causa 1d8 
+pontos de dano psíquico a este alvo (Limitado pela 
+sua Força). Pré-requisito: treinado em Intimidação.
+Discrição
+Ao fazer um ataque com uma arma ocultável, você 
+pode gastar 1 PM para aumentar o dano da arma em 
+um passo neste ataque. Ao usar essa habilidade, 
+faça um teste de Furtividade oposto a Percepção do 
+alvo, se passar, a ação não é considerada hostil ou 
+chamativa. Pré-requisito: 7º nível de ladino.
+Execução Covarde
+Ao usar Oportunismo e Investida Rasteira contra 
+o mesmo alvo e ele falhar na resistência, você pode 
+gastar 2 PM para fazer um ataque adicional no mesmo 
+alvo. Pré-requisitos: Investida Rasteira, Oportunismo.
+Saltar das Sombras
+Se estiver escondido ou dentro de uma área de 
+camuflagem (como uma fumaça, névoa, etc.), você 
+pode gastar uma ação de movimento e fazer um teste 
+de Atletismo (CD 15 + metade do seu nível). Se 
+passar, você salta e fica adjacente a uma criatura em 
+alcance curto, na qual fica desprevenida até o fim do 
+seu turno, mas se falhar, perde a ação. Pré-requisito: 
+treinado em Atletismo.
+Salto de Fé
+Ao cair de uma altura elevada e fizer um teste 
+para amortecer a queda, você pode gastar 1 PM para 
+somar sua Sabedoria neste teste. Pré-requisito: treina-
+do em Acrobacia e Religião.
+ShunpÔ
+Uma vez por rodada, você pode gastar uma 
+ação de movimento e 3 PM para se teletransportar 
+até uma arma que tenha arremessado em alcance 
+curto, ficando adjacente a ela. Você ignora qualquer 
+obstáculo no caminho entre você e a arma. Este não 
+é um efeito mágico e provém da sua capacidade de 
+exucutar técnicas avançadas de movimentação. Pré-
+-requisito: 8º nível de ladino.
+Shuriken nos olhos
+Ao fazer um ataque de arremesso com uma shu-
+riken, você pode gastar 2 PM para mirar seu ataque 
+nos olhos do alvo. Se acertar, além do dano, você 
+deixa o alvo cego por 1 rodada. Essa habilidade só 
+pode ser usada uma vez por cena, por criatura.
+Virtuoso Versátil
+117

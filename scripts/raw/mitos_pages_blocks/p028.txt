@@ -1,0 +1,120 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=150 x1=159 y1=179 ---
+Bruxeiro
+
+--- block x0=51 y0=179 x1=275 y1=272 ---
+Em Arton, um mundo com guerras e monstros 
+por todos os lados, até em regiões civilizadas como 
+em Deheon, é certo que terão aventureiros dispostos 
+a enfrentar essas bestas para obter recompensas 
+e louros. Existem aqueles mais heróicos e 
+também os mais mercenários, mas 
+nenhum mercenário supera um 
+bruxeiro.
+
+--- block x0=51 y0=271 x1=209 y1=431 ---
+É quase certo dizer que um 
+bruxeiro não é formado, mas pra-
+ticamente criado. Para começar 
+a grande maioria dele são 
+órfãos de guerra, nos quais 
+são "adotados" pelos bruxei-
+ros e levados as cidadelas 
+das grandes escolas para 
+receber o árduo treinamento 
+que os tornará um bruxeiro 
+no futuro. O treinamento 
+ocorre desde a infância, e 
+se estende por toda a ado-
+lescência até a vida adulta.
+
+--- block x0=51 y0=430 x1=197 y1=655 ---
+Ainda nesse periodo, 
+os candidatos são expostos 
+a químicos cujas fórmulas 
+são conhecidas apenas 
+por uma das líderes 
+desse grupo, que fazem 
+com que seus corpos 
+assumam características 
+diferentes da de um ser 
+vivo mundano, a maior delas 
+sendo em seus olhos, que se 
+tornam dourados com pupilas de 
+fenda, como as de um gato. Além 
+disso, é dito que essas substân-
+cias que são agregadas ao seus 
+corpos mudam sua fisionomia ao 
+ponto de se tornarem mais longe-
+vos, existindo casos de bruxeiros 
+humanos que estão vivos desde 
+antes das guerras táuricas.
+
+--- block x0=51 y0=654 x1=200 y1=703 ---
+No entanto, esse treino conce-
+de frutos consideráveis, o bruxeiro 
+se torna mestre na arte da espada 
+e da magia, podendo entoar Sinais 
+
+--- block x0=289 y0=151 x1=513 y1=233 ---
+para realizar diversos efeitos arcanos. Ao terminar 
+essa fase de treino, os bruxeiros se estabelece for-
+malmente na escola que o treinou, representadas 
+através de animais mundanos e fantásticos. Sua es-
+cola é mostrada a todos através de um colar de ferro 
+em seus pescoços, que normalmente também são os 
+seus símbolos sagrados.
+
+--- block x0=347 y0=232 x1=513 y1=436 ---
+É raro ver um bruxeiro acompanhan-
+do ou fazendo parte de algum grupo de 
+aventureiros, apesar de serem partes 
+de escolas, normalmente trabalham 
+sozinhos, e são habitualmente cha-
+mados de “mercenários” pelos 
+ignorantes que não sabem o que 
+são de verdade, mas eles não 
+parecem se importar com isso, 
+na verdade eles demonstram 
+uma apatia severa, como se 
+seus sentimentos estives-
+sem enterrados no oceano 
+de dor e terror que tive-
+ram que presenciar 
+para se tornarem 
+o que são hoje; 
+exterminadores.
+
+--- block x0=399 y0=435 x1=513 y1=572 ---
+A incidência 
+de bruxeiros por 
+Arton 
+tornou-se 
+frequente durante a 
+guerra artoniana, mas 
+se consolidou com o 
+surgimento de Aslothia, 
+com fortes bruxeiros se 
+erguendo em vários can-
+tos estratégicos e ocultos, 
+para evitar a destruição 
+de sua prática.
+
+--- block x0=109 y0=50 x1=452 y1=109 ---
+Novas Classes
+
+--- block x0=393 y0=614 x1=493 y1=635 ---
+"Eu caço dragões, puristas 
+"Eu caço dragões, puristas 
+e outros monstros... Sabe, 
+e outros monstros... Sabe, 
+
+--- block x0=404 y0=634 x1=480 y1=646 ---
+criaturas malignas."
+criaturas malignas."
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+28
+

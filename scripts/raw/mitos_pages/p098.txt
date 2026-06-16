@@ -1,0 +1,95 @@
+Capítulo Um
+Magia Pertinente
+Escolha uma magia de 1º círculo que tenha 
+aprendido e que tenha você como alvo. Após um 
+ritual de 1 hora, seus PM máximos são reduzidos em 
+–3 e a magia escolhida fica ativa até ser descarregada 
+(ação livre). A magia fornece somente seus efeitos 
+básicos e não pode ser aprimorada enquanto lançada 
+dessa forma. Pré-requisito: 13º nível de arcanista. e
+Projeção Paralela
+Você pode gastar 1 PM para criar uma projeção de 
+você mesmo em um espaço desocupado em alcance 
+curto. A projeção pode se deslocar até 6m por rodada 
+e você pode lançar magias através dela. A projeção 
+desasparece ao ser atacada ou quando você se afasta 
+além de 9m dela. e
+Raio Abençoado
+Quando usa Raio Elemental, você pode escolher 
+dano de luz (ofuscado por 1 rodada) e de acordo com 
+a energia que a divindade que lhe abençoou canaliza, 
+a cada alvo falha que falhar no teste de resistência 
+contra seu Raio Arcano, você recebe +2 PV (nega-
+tiva) ou +1 PM (positiva) temporários cumulativos 
+que duram até o fim da cena, limitado pelo seu atri-
+buto-chave. Pré-requisitos: Herança Básica (linhagem 
+abençoada), Raio Elemental. e
+Raio Psíquico
+Quando usa Raio Arcano, você pode pagar 1 PM 
+para que ele cause dano psíquico. O alvo que falhar 
+na resistência fica frustrado pela cena. Pré-requisitos: 
+Herança Básica (linhagem rubra), Raio Arcano. e
+Supremacia Elemental
+Ao usar Raio Elemental trocando o dano para o 
+da sua linhagem, você não gasta PM. Além disso, ao 
+escolher o poder Linhagem Superior, o dano do Raio 
+Arcano aumenta em +1 dado. Pré-requisitos: Herança 
+Básica (linhagem dracônica), Raio Elemental.
+Terceiro Olho
+Você soma seu atributo-chave em Intuição e Per-
+cepção. Além disso, ao fazer um teste de resistência 
+contra um efeito de ilusão, você rola dois dados e 
+escolhe o melhor resultado. e
+Toque das Fadas
+Você não precisa ter o sangue das fadas para 
+compreender suas capacidades mágicas. A CD para 
+resistir as suas magias de encantamento e ilusão e o 
+limite de PM delas aumenta em +2. Pré-requisito: não 
+ser feiticeiro feérico.
+Bárbaro
+Absorver Intenções
+Sempre que ativa uma habilidade que reduz um 
+dano que receberia, lhe fornece redução de dano 
+ou  PV temporários, você recebe +1 PM temporário 
+cumulativo até o fim da cena, limitado pelo seu nível.
+Ápice Furioso
+Ao usar Fúria, você pode gastar +2 PM para 
+receber +1 em Força e Destreza enquanto ela durar. 
+Efeitos que interagem com os bônus fornecidos pela 
+sua fúria (como Fúria Titânica) afetam esta habilida-
+de. Pré-requisito: 11º nível de bárbaro.
+Atropelar
+Ao usar Investida Imprudente, você atropela 
+qualquer criatura no caminho até o alvo. Em termos 
+de jogo, você faz uma manobra empurrar contra toda 
+criatura no caminho, elas são afastadas do caminho 
+e se falharam no teste de manobra, ficam caídas e 
+sofrem 1d12 pontos de dano de impacto — do con-
+trário, elas apenas são afastadas para fora da linha de 
+corrida. Pré-requisito: Investida Imprudente.
+Baluarte Primal
+Ao usar Vigor Primal, para cada PM gasto, você 
+recebe +1 em seus testes de resistência até o início 
+de seu próximo turno. Pré-requisito: Vigor Primal.
+Brado: Ensurdecedor
+Você pode gastar uma quantidade de PM limi-
+tada pela sua Constituição. Para cada PM gasto, as 
+criaturas escolhidas no alcance do seu brado sofrem 
+1d8 pontos de dano de impacto e ficam surdas (Fort 
+CD Con reduz o dano à metade e evita a condição).
+Brado: Fulmegante
+Você dá um rugido que faz a terra se incendiar. 
+Inimigos no alcance do brado sofrem 2d6 pontos de 
+dano de fogo e ficam em chamas (Fort CD Car evita 
+a condição e reduz o dano à metade). Pré-requisito: 
+Habilidade de Classe Magias ou Totem Espiritual. e
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas, dictum rutrum est ultrices 
+tincidunt. Quisque a lectus ut mi cursus dictum. 
+Proin nec metus faucibus, vestibulum diam et, feu-
+giat mi. Quisque a lectus ut mi cursus dictum. Proin 
+nec metus faucibus, vestibulum diam et, feugiat mi. 
+Quisque a lectus ut mi cursus dictum. Proin nec 
+metus faucibus, vestibulum diam et, feugiat mi. 
+98

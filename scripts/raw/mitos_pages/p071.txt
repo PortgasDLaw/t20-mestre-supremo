@@ -1,0 +1,115 @@
+Aventureiros de Arton
+Mashin. A partir do 7º nível, seu corin fornece 
+os benefícios de um segundo tipo de parceiro a sua 
+escolha dentre os disponíveis em Autômato ou os 
+de um parceiro destruidor ou médico. Seguindo a 
+progressão de nível de um autômato.
+Golem Magibélico. No 13º nível, seu corin 
+se torna um item mágico e recebe um encanto. No 
+15º e 17º nível, ele recebe encantos adicionais. Você 
+pode escolher se o encanto vai ser aplicado no chassi 
+ou nos punhos e passa a poder encantar os punhos 
+do corin como se fossem armas corpo a corpo. e
+Kishin. No 20º nível, você pode comandar o 
+corin sem precisar pilotá-lo (mas ainda pode fazê-
+-lo). Você ainda gasta ações para o fazer agir, ele não 
+age se não receber uma ordem e usa seus valores de 
+Pilotagem ao atacar (atacar sendo uma ação padrão, 
+deslocar-se de movimento, etc). Além disso, ele se 
+torna um artefato — se for reduzido a 0 PV, o Corin 
+fica inerte por 1d4 rodadas e volta a ter 1 PV. e
+Corin
+Um Corin é um veiculo Grande com desloca-
+mento 6m que não precisa de tração, Defesa 5 + 
+Des + Int do piloto, redução de dano 5 e que fornece 
+Cobertura Total ao piloto. Esse veículo só pode ser 
+pilotado por uma única criatura média ou menor, e 
+não possui espaços de armazenamento.
+Pontos de Vida. O Corin começa com 20 PV 
++Int, e ganha +5 PV +Int por nível do Inventor.
+Reforço. Para cada patamar além do iniciante, 
+a redução de dano do Corin aumenta em +5.
+Fragilidade. Quando reduzido a 0 PV, o corin 
+ejeta o piloto e fica paralisado até recuperar ao me-
+nos 1 PV. Se for acertado novamente, é destruido e 
+gera uma explosão em uma área com 6m de raio, que 
+causa 1d8 pontos de dano de fogo para cada nível de 
+Inventor do fabricante. Consertar um corin destruido 
+exige 1 semana e T$ 200 x nível do inventor.
+Pilotando. Ao embarcar em um Corin, você 
+recebe penalidade de armadura –5, mas recebe +2 
+em testes de resistência. O corin pode empunhar 
+itens aumentados e ter as peças do chassi trocada por 
+uma armadura pesada, substituindo a Defesa base do 
+corin pela da armadura acoplada (a base sendo uma 
+brunea), esse processo exige 1 dia de trabalho.
+Golens-armadura não são afetados por terreno 
+difícil, excesso de carga e efeitos de movimento — 
+exceto os aplicados por manobras de combate, como 
+ao agarrar o veículo.
+Quando dentro de um golem-armadura, você fica 
+em uma condição ruim para lançar magias e sempre 
+que quiser fazer qualquer outra ação que não seja 
+pilotar o corin, deve ser bem sucedido em um teste 
+de Pilotagem (CD 20) ou perde a ação.
+xCaçadorx
+Mestre das Feras
+"Um lobo sem matilha é incapaz de lutar."
+Os mestres das feras podem muitas vezes ser 
+confundidos com treinadores, mas não se deixe 
+enganar, isso é um erro de principiante. Estes caça-
+dores são na verdade patrulheiros que desde muito 
+novos já desenvolveram um vínculo especial com um 
+animal que para eles é extremamente especial, não 
+foi fruto de magia ou poderes, ou algum elo místico, 
+foi simples conexão profunda com o natural.
+As histórias mais famosas contam dos ginetes de 
+Namalkah, sempre muito próximos dos seus irmãos 
+sem esporas, coisa parecida pode ser dita de hynnes 
+e trobos, há muitas histórias sobre possíveis mestres 
+das feras, dentre o esperado, você verá possivelmen-
+te um guerreiro perigoso empunhando um grande 
+Tabela 1-19: O Mestre das Feras
+Nível
+Habilidades de Classe
+1º
+Irmão selvagem, marca da presa
+2º
+Poder de caçador
+3º
+Matilha +1, poder de caçador
+4º
+Poder de caçador
+5º
+Poder de caçador, virar o bicho
+6º
+Poder de caçador
+7º
+Irmão aprimorado, poder de Caçador
+8º
+Poder de caçador
+9º
+Matilha +2, poder de caçador
+10º
+Poder de caçador
+11º
+Irmão místico, poder de caçador
+12º
+Poder de caçador
+13º
+Poder de caçador
+14º
+Poder de caçador
+15º
+Irmão lendário, matilha +3, poder de caçador
+16º
+Poder de caçador
+17º
+Poder de caçador
+18º
+Poder de caçador
+19º
+Poder de caçador
+20º
+Mestre caçador, poder de caçador
+71

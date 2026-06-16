@@ -1,0 +1,117 @@
+Aventureiros de Arton
+•	 Virtude da Temperança. Ao usar Elo Temperado, 
+as criaturas afetadas também recebem +2 em testes 
+de ataque e rolagens de dano. Esse efeito aumenta 
+em +1 a cada quatro níveis de paladino após o 5º.
+Zênite Virtuoso. No 20º nível, seu Golpe 
+Corajoso não tem mais limite por rodada, Cura Pa-
+ciente recupera vida a cada 5 pontos de resultado no 
+teste, ao invés de a cada 10 e as criaturas afetadas por 
+Elo Poderoso criam uma aura com 3m de raio que 
+aplicam todos os efeitos da habilidade as criaturas 
+dentro dela.
+xLutadorx
+Hanuman
+"Eu sou impenetrável."
+Ás vezes referidos como vajras, hanuman são 
+lutadores que aprenderam técnicas de cultivo, mas 
+Habilidades de Classe
+Abençoado. Como o paladino básico, mas 
+você só pode ser um paladino do bem ou de um deus 
+menor.
+Código do Herói. Como o paladino básico, 
+mas você também segue o Código de Honra.
+Golpe Corajoso. Uma vez por rodada, ao 
+fazer um ataque corpo a corpo, você pode gastar 2 
+PM para golpear com sua vontade. Você soma seu 
+Carisma no teste de ataque e +1d4 na rolagem de 
+dano para cada 2 pontos em Sabedoria (limitado pelo 
+nível, mínimo +1 dado). A cada quatro níveis, você 
+pode gastar +1 PM para aumentar o dado de dano 
+extra em uma categoria. e
+Poder de Paladino. A partir do 2º nível, 
+você recebe essa habilidade como o paladino básico. 
+Além disso, você pode escolher missas e poderes que 
+tenham missas como pré-requisito como se fossem 
+poderes de paladino.
+Cura Paciente. A partir do 2º nível, você 
+pode gastar uma ação de movimento e 2 PM para 
+somar seu Carisma em Cura e fazer um teste dessa 
+perícia. Para cada 10 pontos de resultado no teste, 
+aliados em alcance curto que possa perceber curam 
+1d4 PV. A cada quatro níveis, você pode gastar +1 
+PM para aumentar o dado de cura em um passo. e
+Elo Temperado. A partir do 3º nível, no início 
+de uma cena de combate, você pode gastar 3 PM para 
+criar um elo entre você e até dois aliados em alcance 
+curto como um efeito sustentado. Você e os aliados 
+escolhidos recebem PV temporários igual ao seu Ca-
+risma + Sabedoria pela duração da habilidade. Além 
+disso, quando um aliado sob efeito de Elo Temperado 
+sofre dano, você pode gastar 2 PM para transferir o 
+dano sofrido por ele à você. Seu elo conta como Aura 
+Sagrada (veja Tormenta20, p. 84) para pré-requisitos 
+e efeitos de poderes de paladino. e
+Virtudes Gloriosas. No 5º nível, escolha 
+entre a Virtude da Coragem, da Paciência ou da 
+Temperança. Uma vez feita, a escolha não pode ser 
+mudada.
+•	 Virtude da Coragem. Ao usar Golpe Corajoso e 
+o resultado do seu teste de ataque passar a Defesa 
+do alvo por 10 ou mais, ele perde suas imunidades a 
+efeitos mentais e de medo por 1 rodada.
+•	 Virtude da Paciência. Você soma sua Sabedoria 
+na cura realizada por Cura Paciente e o alcance da ha-
+bilidade muda para médio. Além disso, ao usar Cura 
+Paciente, você pode remover um efeito ou condição 
+afetando uma das criaturas afetadas pela habilidade, 
+entre efeitos de cansaço, medo, mental e sentidos.
+Tabela 1-16: O Hanuman
+Nível
+Habilidades de Classe
+1º
+Cultivo (1º meridiano), nei gong
+2º
+Poder de lutador
+3º
+Poder de lutador
+4º
+Cultivo (2º meridiano), poder de lutador, 
+postura imóvel
+5º
+Poder de lutador
+6º
+Cultivo (3º meridiano), palma afiada, 
+poder de lutador
+7º
+Poder de lutador
+8º
+Cultivo (4º meridiano), escudo dos reinos, 
+poder de lutador
+9º
+Poder de lutador
+10º
+Cultivo (5º meridiano), poder de lutador
+11º
+Poder de lutador
+12º
+Cultivo (6º meridiano), palma brutal, 
+poder de lutador
+13º
+Poder de lutador
+14º
+Cultivo (7º meridiano), palma divina, poder 
+de lutador
+15º
+Poder de lutador
+16º
+Poder de lutador
+17º
+Poder de lutador
+18º
+Poder de lutador
+19º
+Poder de lutador
+20º
+Destruidor de mundos, poder de lutador
+67

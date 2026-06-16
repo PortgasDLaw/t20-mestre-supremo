@@ -1,0 +1,94 @@
+Capítulo Um
+Membros Aracnídeos
+Você pode gastar 2 PM para aumentar o tamanho 
+das suas patas insetóides e receber mais quatro outras 
+patas que brotam das suas costas. Se fizer isso, até o fim 
+da cena, você recebe deslocamento de escalada 6m, com 
++1,5m para cada dois outros poderes da tormenta que 
+possuir e pode se locomover com as patas, o que lhe 
+dá deslocamento a pé igual ao de escalada. Caminhar 
+e escalar com essas patas exige espaço livre; você é 
+considerado uma categoria de tamanho acima da sua 
+para seu espaço ocupado. Pré-requisito: Membros Extras.
+Olhos Demais
+Você tem olhos em regiões diferentes do corpo, 
+como nuca, braços, ombros... Ou olhos gigantes igual 
+ao de moscas. Você não pode ser flanqueado — se já não 
+puder, invés disso recebe imunidade a condição cego. 
+Pré-requisito: Olhos Vermelhos.
+Palavra Impronunciável
+Você pode falar palavras na língua lefeu (ou, pelo 
+menos, o que eles tem mais próximo de uma língua). Ao 
+fazer isso, você lança Sussurros Insanos (atributo-chave 
+Sab) como uma magia simulada e apenas vocalizando.
+Pesadelo vivo
+Ao entrar em combate, os inimigos na cena ficam 
+abalados por 1 rodada (Von CD Sab evita). A duração da 
+condição aumenta em +1 rodada para cada dois outros 
+poderes da tormenta que possuir. Medo.
+Quelíceras
+Sua gengiva projeta quelíceras afiadas, o que 
+aumenta o dano de Dentes Afiados em um passo, com 
+mais um passo para cada quatro outros poderes da 
+tormenta que possuir e, ao gastar +1 PM ao atacar com 
+a mordida, você pode trocar o tipo de dano dela para 
+ácido. Em um ataque bem sucedido, o alvo perde 1d12 
+pontos de vida por veneno. Pré-requisito: Dentes afiados.
+Rejeição Arcana
+Uma vez por rodada, quando uma criatura que você 
+possa perceber (incluindo aliados!) lança uma magia 
+arcana, deve ser bem sucedida em um teste de Vontade 
+(CD Sab; +1 para cada outro poder da tormenta que 
+possuir) ou a magia falha, mas ela gasta PMs mesmo 
+assim. Criaturas da tormenta são imunes a este efeito. 
+Pré-requisito: Tempo Místico.
+Revoada de Espinhos
+Você pode perder 5 PV (que não podem ser tempo-
+rários) para abrir o próprio peito e disparar três espinhos 
+feitos de ossos, sangue e carne contra até duas criaturas 
+em alcance curto, que sofrem 1d6 pontos de dano de 
+perfuração e 1d6 pontos de dano de ácido por espinho. 
+Para cada dois outros poderes da tormenta que possuir, 
+você pode perder +5 PV para aumentar a quantidade de 
+espinhos disparados em +3. Pré-requisito: Sangue Ácido.
+Sopro Repulsivo
+Você pode gastar uma ação padrão e 3 PM para inflar 
+a própria garganta e expelir um líquido viscoso e pútrido 
+similar a vômito em um cone de 6m. Criaturas na área 
+sofre 2d6 pontos de dano de ácido e ficam vulneráveis. 
+Para cada dois poderes da tormenta que possuir, o dano 
+do sopro aumenta em +1d6. Pré-requisito: Sangue Ácido, 
+Visco Rubro.
+Substituição Macabra
+Uma vez por aventura, como reação por morrer, 
+você pode brotar como um parasita de uma criatura 
+que tenha instalado um simbionte em alcance médio. 
+A criatura com o simbionte morre e você volta com 
+metade dos seus PVs máximos e 0 PM, mas perde 
+permanentemente 1 ponto de Carisma e Constituição. 
+Você fica 1d4 rodadas pasmo crescendo em um ritmo 
+acelerado (mesmo que imune a essa condição) até vol-
+tar a seu estado original antes da morte. Pré-requisitos: 
+implantar simbionte, seis outros poderes da tormenta.
+Tentáculos
+Você pode gastar uma ação de movimento e 2 PM 
+para fazer brotar de suas costas, flancos ou abdômen, 
+tentáculos feitos de materia vermelha que goteja um 
+muco ácido. Os tentáculos funcionam como membros 
+extras que podem ser usados para segurar itens ou 
+agarrar criaturas em alcance curto sem ocupar armas 
+naturais ou suas mãos. Uma criatura agarrada pelos 
+tentáculos podem ser puxadas até ficarem adjacentes 
+(Fort CD Con evita).
+Ventriloquismo Arcano
+Uma vez por rodada, você pode gastar +2 PM ao 
+lançar uma magia para fazê-lo como uma magia simula-
+da. Pré-requisito: Tempo Místico.
+Vislumbre impossível
+Você pode gastar uma ação completa e 3 PM no 
+início de uma cena para forçar todas as criaturas em 
+alcance curto a ter um pequeno vislumbre do seu verda-
+deiro ser. Elas sofrem 1d6 pontos de dano psíquico para 
+cada dois poderes da tormenta que você possuir (Von 
+CD Sab reduz o dano à metade). Mental.
+134

@@ -1,0 +1,160 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=292 y1=72 ---
+Enxertos Quiméricos	
+homunculus
+
+--- block x0=71 y0=72 x1=295 y1=237 ---
+Você recebe uma habilidade de uma raça do tipo 
+monstro à sua escolha — exceto habilidades que 
+muda seu tipo de criatura, se a raça for modular, 
+cada poder é considerado uma habilidade separada. 
+Pré-requisito: 11º nível de personagem.
+Equilíbrio das águas	
+Kappa
+Se estiver com água na cabeça, você soma sua 
+Constituição nos seus efeitos de cura (conta como 
+um bônus de item para magias). Além disso, você 
+precisa falhar por 10 ou mais nos testes para derru-
+bar a água de sua cabeça.
+Esgrima da vespa	
+entoma
+
+--- block x0=71 y0=237 x1=295 y1=298 ---
+Se estiver empunhando uma arma corpo a corpo 
+leve ou ágil, você pode usar Acrobacia no lugar de 
+Luta em seus testes de ataque.
+Espinhos da Rosa	
+alraune
+
+--- block x0=71 y0=298 x1=295 y1=407 ---
+Você pode gastar uma ação de movimento e 2 
+PM para produzir espinhos pelo seu corpo. Armas 
+que empunhar recebem +2 nas rolagens de dano e 
+criaturas adjacentes a você sofrem 1d6 pontos de 
+dano de perfuração no início do seu turno. A cada 
+quatro níveis após o 1º, você pode gastar +1 PM para 
+aumentar o bônus em +1 (e +1d6).
+Essência vital	
+várias
+
+--- block x0=71 y0=407 x1=295 y1=480 ---
+Você recebe +2 PM por patamar e resistência a 
+magia +2. Além disso, preparados que recuperam 
+PM tem esse efeito aumentado em +1 dado. Pré-re-
+quisito: homunculus ou raça do tipo espírito.
+Expelir Mel	
+entoma
+
+--- block x0=71 y0=479 x1=295 y1=588 ---
+Você pode gastar uma ação padrão e 3 PM para 
+vomitar uma dose de mel. Este é um item que ocupa 
+0,5 espaços no inventário e quando consumido por 
+uma criatura que não seja você com uma ação pa-
+drão, ele recupera 2d4+4 pontos de vida. O mel pode 
+ser usado como ingrediente culinário, substituindo o 
+açúcar. Pré-requisito: Familia Hymenoptera.
+Falso Devoto	
+Vanir
+
+--- block x0=71 y0=588 x1=295 y1=661 ---
+Você passa a poder escolher poderes concedidos 
+de um deus maior a sua escolha, ignorando o pré-re-
+quisito de ser devoto — exceto Aharadak. Você só 
+pode escolher um poder concedido por patamar.
+Favor Divino	
+várias
+
+--- block x0=71 y0=661 x1=295 y1=701 ---
+Para cada poder concedido que possuir, você 
+recebe +1 PV e +1 PM. Pré-requisito: devoto de um 
+deus maior, ser de uma raça humanoide.
+
+--- block x0=309 y0=239 x1=530 y1=256 ---
+Ferreiro Inato	
+Anão
+
+--- block x0=309 y0=256 x1=533 y1=329 ---
+Você pode fabricar armas, armaduras e escudos 
+superiores com uma melhoria. Se puder fazer isso 
+através de outra habilidade, você o faz na metade do 
+tempo. Pré-requisito: treinado em Ofício (Armeiro).
+Gene recessivo	
+homunculus
+
+--- block x0=309 y0=329 x1=533 y1=426 ---
+Você recebe uma habilidade de uma raça huma-
+noide. Ao escolher esse poder pela 1ª vez, escolha 
+uma segunda raça humanoide para receber os efeitos 
+de Mistura Genética. Você pode escolher esse poder 
+outras vezes, mas só uma vez por patamar além do 
+veterano. Pré-requisito: 5º nível de personagem.
+Grito Apavorante	
+Harpia
+
+--- block x0=309 y0=425 x1=533 y1=510 ---
+Você pode gastar uma ação padrão e 3 PM para 
+emitir um grito apavorante. Criaturas em alcance 
+curto ficam surdas, apavoradas por 1d4 rodadas e 
+então abaladas (Von CD Car evita a condição apavo-
+rado). Pré-requisito: 11º nível de personagem.
+Lorde da tempestade	
+Galokk
+
+--- block x0=309 y0=510 x1=533 y1=571 ---
+Os dados de Tempestade dos Titãs muda para d8. 
+Pré-requisitos: Galokk de Gelo, 12º nível de persona-
+gem, Sab 3. e
+Mãe Natureza	
+alraune
+
+--- block x0=309 y0=571 x1=533 y1=656 ---
+Quando em um bioma de floresta, você recebe 
++2 no limite de PM e na CD das magias aprendidas 
+com Bênção da Floresta. Além disso, recebe o poder 
+Saraivada Florestal (veja Heróis de Arton, p. 91). Pré-
+-requisitos: Pele Arbórea, 14º nível de personagem.
+Marca Divina	
+envar
+
+--- block x0=309 y0=656 x1=533 y1=708 ---
+Se escolheu um atributo para somar no seu total 
+de PV, ele também passa a ser somado (ainda limi-
+tado pelo nível) no seu total de PM. Se escolheu ser 
+marcado por Glória, você recebe +3 PV por patamar.
+
+--- block x0=335 y0=65 x1=508 y1=97 ---
+Tabela 1-37: Poderes de Raça 
+(Continuação)
+
+--- block x0=313 y0=100 x1=410 y1=114 ---
+Raça
+Poderes
+
+--- block x0=313 y0=117 x1=411 y1=128 ---
+Sulfure
+Sete Pecados
+
+--- block x0=313 y0=132 x1=506 y1=143 ---
+Toskr
+Atirador, Atração pela Pólvora, Roedor
+
+--- block x0=313 y0=146 x1=520 y1=179 ---
+Valquíria
+Arma Guardiã, Asas de Ferro, Asas Guardiãs, 
+Comandar Aprimorado, Conforto do Aço, 
+Duro como Aço, Perserverar, Völundr
+
+--- block x0=313 y0=183 x1=508 y1=205 ---
+Vanir
+Falso Devoto, Fragrância de Rosas, 
+Presença Natural, Vitalidade das Fadas
+
+--- block x0=313 y0=208 x1=515 y1=220 ---
+Várias
+Essência Vital, Favor Divino, Sangue Vital
+
+--- block x0=561 y0=756 x1=575 y1=767 ---
+137
+

@@ -1,0 +1,174 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=446 x1=275 y1=510 ---
+uma chama de progresso, a capacidade de um dia 
+criar robôs para pilotar em combate em suas aven-
+turas, foi assim que aos poucos nasceu uma vertente 
+inventista 
+conhecida 
+como mecânopilotos.
+
+--- block x0=289 y0=55 x1=513 y1=143 ---
+Um mecânopiloto é um inventor que foca os seus 
+esforços na produção de robôs pilotáveis, ou apenas 
+Corins. Eles são um grande exotraje mecânico contro-
+lado por botões, alavancas e sistemas autômotos a 
+base de magia arcana e muitos processos complexos 
+que só o inventor sabe como funciona — e por isso 
+somente o inventor sabe como controlar seu corin. 
+
+--- block x0=289 y0=143 x1=513 y1=252 ---
+Eles empregam os seus corins em combate e 
+dificilmente é visto fora deles — exceto se for para 
+repará-los — e por muitas vezes só utiliza suas 
+capacidades inventivas quando isso atribui algum 
+aperfeiçoamento ao seu golem-armadura.
+Características de 
+Classe
+
+--- block x0=289 y0=250 x1=513 y1=291 ---
+Pontos de Vida. Um mecânopiloto começa 
+com 8 pontos de vida + Constituição e ganha 2 PV 
++ Constituição por nível.
+
+--- block x0=306 y0=291 x1=499 y1=307 ---
+Pontos de Mana. Como o inventor básico.
+
+--- block x0=289 y0=306 x1=513 y1=378 ---
+Perícias. Ofício (Engenhoqueiro) (Int) e 
+Pilotagem (Des), mais 4 a sua escolha entre Co-
+nhecimento (Int), Cura (Sab), Diplomacia (Car), 
+Fortitude (Con), Iniciativa (Des), Investigação (Int), 
+Luta (For), Misticismo (Int), Ofício (Int), Percepção 
+(Sab), Pontaria (Des) e Vontade (Sab).
+
+--- block x0=289 y0=378 x1=491 y1=423 ---
+Proficiências. Como o inventor básico.
+Habilidades de Classe
+
+--- block x0=289 y0=422 x1=513 y1=474 ---
+Corin. Você começa com um Corin, um veículo 
+especial que usará durante sua jornada (veja a próxi-
+ma página). Além disso, começa com instrumentos 
+de engenhoqueiro aprimorado.
+
+--- block x0=306 y0=474 x1=497 y1=490 ---
+Engenhosidade. Como o inventor básico.
+
+--- block x0=289 y0=490 x1=513 y1=555 ---
+Automação. A partir do 2º nível, seu corin 
+passa a atuar como um autômato (veja Tormenta20, 
+p. 69) de um tipo a sua escolha quando não está 
+sendo pilotado.  Seu Corin conta como Autômato 
+para pré-requisitos e efeitos de poderes de inventor.
+
+--- block x0=289 y0=554 x1=513 y1=595 ---
+Poder de Inventor. A partir do 2º nível, 
+você recebe essa habilidade como o inventor básico, 
+mas não pode escolher o poder autômato.
+
+--- block x0=289 y0=595 x1=513 y1=635 ---
+Robô Superior. No 3º nível, seu corin recebe 
+uma melhoria de até T$ 2.000 aplicada ao chassi. No 
+5º, 7º e 9º nível, ele recebe melhorias adicionais.
+
+--- block x0=289 y0=635 x1=513 y1=699 ---
+Gigante de Aço. A partir do 5º nível, seu 
+corin, quando desarmado, causa 1d8 pontos de 
+dano, que pode ser letal ou não letal. Além disso, 
+você pode melhorar os punhos do seu corin como se 
+fossem armas corpo a corpo.
+
+--- block x0=78 y0=68 x1=246 y1=86 ---
+Tabela 1-18: O Mecânopiloto
+
+--- block x0=56 y0=90 x1=246 y1=103 ---
+Nível
+Habilidades de Classe
+
+--- block x0=67 y0=106 x1=178 y1=117 ---
+1º
+Corin, engenhosidade
+
+--- block x0=67 y0=121 x1=209 y1=132 ---
+2º
+Automação, poder de inventor
+
+--- block x0=67 y0=135 x1=264 y1=147 ---
+3º
+Poder de inventor, robô superior (1 melhoria)
+
+--- block x0=67 y0=150 x1=162 y1=161 ---
+4º
+Poder de inventor
+
+--- block x0=67 y0=165 x1=225 y1=187 ---
+5º
+Gigante de aço, poder de inventor, 
+robô superior (2 melhorias)
+
+--- block x0=67 y0=190 x1=162 y1=202 ---
+6º
+Poder de inventor
+
+--- block x0=67 y0=205 x1=198 y1=227 ---
+7º
+Mashin, poder de inventor, 
+robô superior (3 melhorias)
+
+--- block x0=67 y0=231 x1=162 y1=242 ---
+8º
+Poder de inventor
+
+--- block x0=67 y0=245 x1=268 y1=257 ---
+9º
+Poder de inventor, robô superior (4 melhorias)
+
+--- block x0=65 y0=260 x1=162 y1=272 ---
+10º
+Poder de inventor
+
+--- block x0=65 y0=275 x1=162 y1=286 ---
+11º
+Poder de inventor
+
+--- block x0=65 y0=290 x1=162 y1=301 ---
+12º
+Poder de inventor
+
+--- block x0=65 y0=304 x1=267 y1=316 ---
+13º
+Golem magibélico (menor), poder de inventor
+
+--- block x0=65 y0=319 x1=162 y1=331 ---
+14º
+Poder de inventor
+
+--- block x0=65 y0=334 x1=266 y1=345 ---
+15º
+Golem magibélico (médio), poder de inventor
+
+--- block x0=65 y0=349 x1=162 y1=360 ---
+16º
+Poder de inventor
+
+--- block x0=65 y0=363 x1=264 y1=375 ---
+17º
+Golem magibélico (maior), poder de inventor
+
+--- block x0=65 y0=378 x1=162 y1=390 ---
+18º
+Poder de inventor
+
+--- block x0=65 y0=393 x1=162 y1=404 ---
+19º
+Poder de inventor
+
+--- block x0=65 y0=408 x1=190 y1=419 ---
+20º
+Kishin, Poder de Inventor
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+70
+

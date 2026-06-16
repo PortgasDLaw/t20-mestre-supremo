@@ -1,0 +1,131 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=140 ---
+Você recebe a habilidade Duelo que progride de 
+acordo com seu nível de ladino. Além disso, você re-
+cebe um poder de qualquer outra classe a sua escolha 
+que comece com a letra "V", mas perde a habilidade 
+Ataque Furtivo. Pré-requisito: Ataque Furtivo.
+Slot Disponível
+
+--- block x0=51 y0=139 x1=275 y1=212 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=212 x1=275 y1=285 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=285 x1=275 y1=358 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=358 x1=275 y1=431 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=431 x1=275 y1=503 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=503 x1=275 y1=576 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=576 x1=275 y1=649 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=649 x1=275 y1=701 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+
+--- block x0=289 y0=55 x1=396 y1=72 ---
+Slot Disponível
+
+--- block x0=289 y0=72 x1=513 y1=145 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=289 y0=144 x1=513 y1=217 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=289 y0=217 x1=513 y1=290 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=289 y0=290 x1=513 y1=375 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt.
+Slot Disponível
+
+--- block x0=289 y0=375 x1=513 y1=448 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt.
+Slot Disponível
+
+--- block x0=289 y0=447 x1=513 y1=557 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt.
+Lutador
+Arte Combinada
+
+--- block x0=289 y0=556 x1=513 y1=641 ---
+Você pode assumir duas artes marciais ao mesmo 
+tempo como parte da mesma ação, mas gasta +1 PM. 
+A penalidade no seu deslocamento não é cumulativa. 
+Pré-requisitos: dois poderes de arte marcial, 12º nível 
+de lutador.
+Arte Marcial: Boxe Externo
+
+--- block x0=289 y0=641 x1=513 y1=705 ---
+Você se torna mais ágil e elusivo, recebendo +2 
+em testes de ataque e em Enganação para Fintar 
+(se possuir o poder Finta Aprimorada, esse bônus 
+muda para +5). Além disso, ao realizar uma finta 
+bem sucedida, você pode gastar 2 PM para fazer 
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+118
+

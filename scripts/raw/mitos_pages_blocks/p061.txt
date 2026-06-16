@@ -1,0 +1,192 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=143 ---
+•	 Corcel. Você recebe um corcel de Kally com o 
+qual tem +5 em testes de Adestramento e Cavalgar. 
+Ele fornece os benefícios de um parceiro veterano de 
+seu tipo. No 11º nível, passa a fornecer os benefícios 
+de um parceiro mestre. Caso sua montaria morra, 
+você pode obter uma nova após prestar um serviço 
+a igreja de Kallyadranoch e o treinar por 1 semana.
+
+--- block x0=71 y0=143 x1=295 y1=207 ---
+•	 Sopro. Ao usar Presa Perfurante, você pode 
+gastar +2 PM para causar +2d8 pontos de dano de 
+um tipo a sua escolha entre ácido, eletricidade, fogo 
+ou frio. A cada quatro níveis após o 5º, o dano dessa 
+halidade aumenta em +1d8. e
+
+--- block x0=71 y0=207 x1=295 y1=271 ---
+Vento dos Reis. A partir do 11º nível, ao usar 
+Investida Dracônica, você pode gastar +2 PM para 
+rodopiar no ar e então cair aplicando força centrífuga. 
+Se acertar o ataque, criaturas a 3m do alvo atingido 
+sofrem metade do seu dano total.
+
+--- block x0=71 y0=271 x1=295 y1=348 ---
+Investida Meteórica. No 20º nível, ao usar 
+Investida Dracônica, você pode gastar +4 PM para 
+cair como um grande cometa. Você muda os dados de 
+dano extra de Investida Dracônica para d10 e acumu-
+la dados para cada 5 pontos no teste de Atletismo, 
+invés de a cada 10.
+
+--- block x0=71 y0=363 x1=235 y1=397 ---
+xDruidax
+Elementalista
+
+--- block x0=88 y0=399 x1=290 y1=415 ---
+"Espíritos do fogo, água e terra, me dêem forças!"
+
+--- block x0=71 y0=415 x1=295 y1=515 ---
+Na natureza, muitos deuses são associados aos 
+elementos, Thyatis é o calor e fogo primordial, Ocea-
+no é as águas, Allihanna a terra e os céus pertencem 
+a Azgher e Tenebra. A outros também são atributos 
+esse papel, como Kallyadranoch e Wynna. Mas uma 
+vertente se faz certa e indiscutível, Arton é a fonte 
+de todos os elementos, e através do controle dos 
+elementos, você entende o mundo.
+
+--- block x0=71 y0=515 x1=295 y1=698 ---
+Ubaneris, druidas de arton e estudiosos da 
+acadêmia arcana entende que o elemento é parte 
+fundamental não apenas da magia arcana, mas como 
+de todo o mundo, e por isso, elementalistas começa-
+ram a surgir, pessoas que através da íntima conexão 
+com a natureza, obtém a capacidade de controlar e 
+manipular os elementos. Mas claramente, aqueles 
+que tem a mais profunda conexão com Arton e seus 
+elementos é os druídas, e por tal motivo, são os 
+detentores do titulo de verdadeiros elementalistas.
+Características de 
+Classe
+Pontos de Vida. Como o druida básico.
+
+--- block x0=326 y0=423 x1=481 y1=439 ---
+Pontos de Mana. 5 PM por nível.
+
+--- block x0=326 y0=438 x1=470 y1=455 ---
+Perícias. Como o druida básico.
+
+--- block x0=309 y0=455 x1=510 y1=499 ---
+Proficiências. Nenhuma.
+Habilidades de Classe
+
+--- block x0=309 y0=498 x1=533 y1=526 ---
+Devoto Fiel. Como o druida básico, mas você 
+não pode ser devoto de Aharadak e Lena.
+
+--- block x0=309 y0=526 x1=533 y1=579 ---
+Língua Primal. Você pode se comunicar com 
+elementais, como na magia Voz Divina, e recebe +2 
+em testes de Carisma e de perícias originalmente 
+baseadas em Carisma com essas criaturas.
+
+--- block x0=309 y0=579 x1=533 y1=607 ---
+Magias. Como o druida básico, além disso, 
+você recebe o poder Orador dos Elementos.
+
+--- block x0=309 y0=607 x1=533 y1=659 ---
+Poder de Druida. A partir do 2º nível, você 
+recebe esta habilidade como o druida básico, mas 
+ignora pré-requisitos de ser druida de Arton para 
+seus poderes de druida.
+
+--- block x0=309 y0=659 x1=533 y1=711 ---
+Força Elemental. No 3º nível, escolha dois 
+tipos de dano entre ácido, corte, eletricidade, fogo, 
+frio, impacto, luz, perfuração e trevas; uma vez feita, 
+a escolha não pode ser mudada. Você recebe redução 
+
+--- block x0=335 y0=66 x1=504 y1=85 ---
+Tabela 1-11: O Elementalista
+
+--- block x0=313 y0=88 x1=503 y1=102 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=105 x1=521 y1=116 ---
+1º
+Devoto fiel, língua primal, magias (1º círculo)
+
+--- block x0=325 y0=119 x1=414 y1=131 ---
+2º
+Poder de druida
+
+--- block x0=325 y0=134 x1=478 y1=145 ---
+3º
+Força elemental, poder de druida
+
+--- block x0=325 y0=149 x1=414 y1=160 ---
+4º
+Poder de druida
+
+--- block x0=325 y0=164 x1=494 y1=175 ---
+5º
+Arma sazonal (+1d8), poder de druida
+
+--- block x0=325 y0=178 x1=487 y1=190 ---
+6º
+Magias (2º círculo), Poder de Druida
+
+--- block x0=325 y0=193 x1=414 y1=204 ---
+7º
+Poder de druida
+
+--- block x0=325 y0=208 x1=414 y1=219 ---
+8º
+Poder de druida
+
+--- block x0=325 y0=223 x1=414 y1=234 ---
+9º
+Poder de druida
+
+--- block x0=323 y0=237 x1=486 y1=249 ---
+10º
+Magias (3º círculo), poder de druida
+
+--- block x0=323 y0=252 x1=494 y1=263 ---
+11º
+Arma sazonal (+2d8), poder de druida
+
+--- block x0=323 y0=267 x1=414 y1=278 ---
+12º
+Poder de druida
+
+--- block x0=323 y0=282 x1=414 y1=293 ---
+13º
+Poder de druida
+
+--- block x0=323 y0=296 x1=486 y1=308 ---
+14º
+Magias (4º círculo), poder de druida
+
+--- block x0=323 y0=311 x1=414 y1=322 ---
+15º
+Poder de druida
+
+--- block x0=323 y0=326 x1=414 y1=337 ---
+16º
+Poder de druida
+
+--- block x0=323 y0=341 x1=494 y1=352 ---
+17º
+Arma sazonal (+3d8), poder de druida
+
+--- block x0=323 y0=355 x1=414 y1=367 ---
+18º
+Poder de druida
+
+--- block x0=323 y0=370 x1=414 y1=381 ---
+19º
+Poder de druida
+
+--- block x0=323 y0=385 x1=472 y1=396 ---
+20º
+Avatar (+6d12), poder de druida
+
+--- block x0=563 y0=756 x1=572 y1=767 ---
+61
+

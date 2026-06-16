@@ -1,0 +1,195 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=107 ---
+A partir do 4º nível, você pode escolher poderes 
+de armadilha do caçador (veja Tormenta20, p. 50) 
+como poderes de ladino, ou poderes que interagem 
+com armadilhas.
+
+--- block x0=68 y0=107 x1=204 y1=123 ---
+Evasão. Como o ladino básico.
+
+--- block x0=51 y0=123 x1=275 y1=151 ---
+Poder de Ladino. A partir do 2º nível, você 
+recebe essa habilidade como o ladino básico.
+
+--- block x0=51 y0=151 x1=275 y1=192 ---
+Shunin. No 5º nível, escolha entre Ninjutsu 
+ou Taijutsu. Uma vez feita, a escolha não pode ser 
+mudada.
+
+--- block x0=51 y0=192 x1=275 y1=304 ---
+•	 Ninjutsu. O dano do seu Ataque Furtivo é 
+reduzido em uma categoria, mas você aprende três 
+magias arcanas a sua escolha, aprendendo uma nova 
+magia a cada nível impar após o 5º, usando a progres-
+são de círculos de um bardo com seu nível de ladino. 
+Seu atributo-chave para essas magias é Inteligência e 
+você soma sua Inteligência nos seus pontos de mana. 
+Por fim, você pode lançar magias usando armaduras 
+leves sem precisar de testes de Misticismo. e
+
+--- block x0=51 y0=304 x1=275 y1=380 ---
+•	 Taijutsu. A habilidade Bukijutsu passa a afetar 
+qualquer arma ágil e você se torna proficiente com 
+elas. Além disso, seu dano desarmado muda para 
+1d6 e você pode, uma vez por rodada, gastar 1 PM 
+após um ataque corpo a corpo para dar um ataque 
+desarmado extra.
+
+--- block x0=51 y0=380 x1=275 y1=468 ---
+Substituição. A partir do 8º nível, ao sofrer 
+dano, gastar 3 PM e fazer um teste de Reflexos (CD 
+20 +5 por uso adicional na mesma cena) uma vez 
+por rodada. Se passar, você surge em um ponto vazio 
+a sua escolha há 3m de sua posição anterior, com 
+seu corpo sendo substituído por um objeto (tronco, 
+boneco, etc.) que sofre o dano no seu lugar. e
+
+--- block x0=51 y0=467 x1=275 y1=495 ---
+Evasão Aprimorada. No 10º nível, você 
+recebe essa habilidade como o ladino básico.
+
+--- block x0=51 y0=495 x1=275 y1=571 ---
+O Verdadeiro Ninja. No 20º nível, você re-
+cebe deslocamento de escalada 12m (se já tiver, invés 
+disso aumente-o em +3m), nunca fica surpreendido 
+e, ao fazer um teste de Acrobacia, Atletismo, Engana-
+ção, Furtividade, Ladinagem ou Reflexos, você pode 
+gastar 3 PM para receber +5 nesse teste.
+
+--- block x0=51 y0=586 x1=165 y1=621 ---
+xFradex
+Ocultista
+
+--- block x0=51 y0=623 x1=275 y1=651 ---
+"Aprenda, não é seu papel servir aos deuses, mas 
+sim é o deles servir a você."
+
+--- block x0=51 y0=651 x1=275 y1=703 ---
+Frades e freiras tem sua vida dedicada a servir 
+os deuses, desde da maneira mais simples, porém 
+fiel, até a maneira mais fundamentalista e extremis-
+ta. Mas não ocultistas, estes são mais dedicados a 
+
+--- block x0=289 y0=454 x1=513 y1=519 ---
+compreender e usar do milagre dado a eles pelas di-
+vindades para seu próprio benefício. Para eles, servir 
+os propósitos de uma divindade, é mais sobre uma 
+troca do que devoção. Eles atendem os desígnios dos 
+deuses, esperando o poder que eles dão.
+
+--- block x0=289 y0=519 x1=513 y1=651 ---
+Ao compreender que milagres vem da fé, eles se 
+atentam a servir o deus, obter seus milagres e assim 
+formar um tipo de pacto que se mantém enquanto 
+ambas as partes mantém esse ciclo de troca equi-
+valente, não por gostar do deus, mas por saber que 
+o fazendo, terão benefícios, então fazem o mínimo 
+para que mantenham seus poderes.
+Características de 
+Classe
+
+--- block x0=306 y0=650 x1=481 y1=666 ---
+Pontos de Vida. Como o frade básico.
+
+--- block x0=306 y0=666 x1=485 y1=683 ---
+Pontos de Mana. Como o frade básico.
+
+--- block x0=306 y0=683 x1=444 y1=699 ---
+Perícias. Como o frade básico.
+
+--- block x0=328 y0=67 x1=472 y1=86 ---
+Tabela 1-23: O Ocultista
+
+--- block x0=294 y0=89 x1=484 y1=102 ---
+Nível
+Habilidades de Classe
+
+--- block x0=305 y0=105 x1=451 y1=127 ---
+1º
+Devoto fiel, magias (1º círculo), 
+talismã divino (+1d4)
+
+--- block x0=305 y0=131 x1=464 y1=142 ---
+2º
+Correntes do pacto, poder de frade
+
+--- block x0=305 y0=145 x1=388 y1=157 ---
+3º
+Poder de frade
+
+--- block x0=305 y0=160 x1=388 y1=171 ---
+4º
+Poder de frade
+
+--- block x0=305 y0=175 x1=491 y1=208 ---
+5º
+Correntes do pacto (familiar aprimorado), 
+livro das sombras, magias (2º círculo), 
+poder de frade
+
+--- block x0=305 y0=211 x1=471 y1=223 ---
+6º
+Poder de frade, talismã divino (+1d6)
+
+--- block x0=305 y0=226 x1=388 y1=237 ---
+7º
+Poder de frade
+
+--- block x0=305 y0=241 x1=388 y1=252 ---
+8º
+Poder de frade
+
+--- block x0=305 y0=256 x1=461 y1=267 ---
+9º
+Magias (3º círculo), poder de frade
+
+--- block x0=303 y0=270 x1=471 y1=282 ---
+10º
+Poder de frade, talismã divino (+1d8)
+
+--- block x0=303 y0=285 x1=388 y1=296 ---
+11º
+Poder de frade
+
+--- block x0=303 y0=300 x1=388 y1=311 ---
+12º
+Poder de frade
+
+--- block x0=303 y0=315 x1=461 y1=326 ---
+13º
+Magias (4º círculo), poder de frade
+
+--- block x0=303 y0=329 x1=476 y1=341 ---
+14º
+Poder de frade, talismã divino (+1d10)
+
+--- block x0=303 y0=344 x1=388 y1=355 ---
+15º
+Poder de frade
+
+--- block x0=303 y0=359 x1=388 y1=370 ---
+16º
+Poder de frade
+
+--- block x0=303 y0=374 x1=461 y1=385 ---
+17º
+Magias (5º círculo), poder de frade
+
+--- block x0=303 y0=388 x1=476 y1=400 ---
+18º
+Poder de frade, talismã divino (+1d12)
+
+--- block x0=303 y0=403 x1=388 y1=414 ---
+19º
+Poder de frade
+
+--- block x0=303 y0=418 x1=388 y1=429 ---
+20º
+Poder de frade
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+76
+

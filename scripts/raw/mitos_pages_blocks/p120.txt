@@ -1,0 +1,108 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=155 y1=72 ---
+Coxas Grossas
+
+--- block x0=51 y0=72 x1=275 y1=169 ---
+Você tem coxas torneadas e protuberantes. A cri-
+tério do mestre, você recebe +2 em Diplomacia con-
+tra criaturas que se sintam fisicamente atraídas por 
+coxas definidas e, ao anunciar um ataque desarmado 
+usando as pernas, o dano deste ataque aumenta em 
++1 dado do mesmo tipo. Pré-requisito: Sarado.
+Escudo de Carne
+
+--- block x0=51 y0=168 x1=275 y1=277 ---
+Ao agarrar uma criatura, você pode gastar uma 
+ação de movimento para deixá-la exposta para sofrer 
+ataques no seu lugar. Você não consegue atacá-la 
+dessa forma, mas qualquer ataque realizado contra 
+você passa a ter 90% de chance de acertar a criatura 
+que estiver agarrando. Ataques de aliado tem apenas 
+10% de chance de lhe atingir.
+Especialista Marcial
+
+--- block x0=51 y0=277 x1=275 y1=386 ---
+Você é considerado como fazendo um ataque 
+desarmado quando ataca com uma arma tradicional, 
+mas o dano da arma aumenta em +1 dado do mesmo 
+tipo. Uma arma tradicional é qualquer bordão, cajado 
+de batalha, leque, tonfa ou outras armas que, a crité-
+rio do mestre, possam ser consideradas tradicionais. 
+Pré-requisitos: Foco Marcial, 5º nível de lutador.
+Finalização
+
+--- block x0=51 y0=386 x1=275 y1=462 ---
+Ao fazer um ataque desarmado e reduzir seu 
+oponente a 0 PV ou menos, você pode gastar 5 PM 
+para finalizá-lo de forma teatral e visceral. Ao fazer 
+isso, você recebe PV temporários igual a ND da cria-
+tura + seu nível de lutador e +2 em Força até o fim 
+da cena. Pré-requisitos: treinado em Atuação.
+
+--- block x0=289 y0=55 x1=383 y1=72 ---
+Foco Marcial
+
+--- block x0=289 y0=72 x1=513 y1=121 ---
+Você recebe +2 em testes de ataque desarmados. 
+No 17º nível de lutador, esse bônus muda para +4.
+Golpe Fantasma
+
+--- block x0=289 y0=120 x1=513 y1=229 ---
+Uma vez por rodada, ao fazer um ataque desar-
+mado, você pode gastar 2 PM para o alvo fazer um 
+teste de Percepção oposto ao seu teste de ataque. Se 
+ele falhar, sofre –5 na Defesa contra este ataque, e 
+se você acertar o ataque, rola seu dano desarmado 
+duas vezes e soma ambos os resultados. Pré-requisito: 
+Mestre Marcial.
+Instinto Selvagem
+
+--- block x0=289 y0=229 x1=513 y1=362 ---
+Ao assumir as artes marciais Boxe Interno e Luta 
+Livre ao mesmo tempo, você também recebe +1 no 
+seu multiplicador de crítico desarmado e após usar o 
+efeito de recuperação de PV dessas artes, você recebe 
++5 nas rolagens de dano enquanto elas durarem. 
+Sempre que reduzir uma criatura a 0 PV ou menos 
+com as artes ativadas, você recupera PV igual a 1d12 
++ sua Força. Pré-requisitos: Arte Combinada, Arte 
+Marcial: Boxe Interno, Arte Marcial: Luta Livre.
+Jiu-Jitsu Ubaneri
+
+--- block x0=289 y0=362 x1=513 y1=519 ---
+Ao assumir as artes marciais Boxe Externo e Luta 
+livre ao mesmo tempo, você aumenta em um passo o 
+dano do seu próximo ataque desarmado após realizar 
+uma finta bem sucedida. Além disso, a penalidade 
+de deslocamento sofrida ao assumir essas artes são 
+anuladas, invés disso, você recebe +3m de desloca-
+mento enquanto elas durarem. Além disso, quando 
+utiliza Jogo de Pernas em conjunto com essas artes, 
+você recebe +5 na Defesa até o inicio do seu próximo 
+turno. Pré-requisitos: Arte Combinada, Arte Marcial: 
+Boxe Externo, Arte Marcial: Luta Livre.
+Quebra-Crânio
+
+--- block x0=289 y0=519 x1=513 y1=640 ---
+Se estiver adjacente a duas criaturas, você pode 
+gastar 3 PM e uma ação padrão para bater a cabeça de 
+uma criatura na outra. Faça um único teste de ataque 
+desarmado e compare com a Defesa de ambas as cria-
+turas, se acertar ambas, além do dano desarmado, 
+elas ficam atordoadas por 1 rodada e então vulnerável 
+pela cena (Fort CD For muda para vulnerável por 1 
+rodada). Pré-requisitos: Cabeçada, Valentão.
+Mestre do Improviso
+
+--- block x0=289 y0=639 x1=513 y1=704 ---
+Quando empunha uma arma improvisada, você 
+anula a penalidade de –2 em testes de ataque e pode 
+gastar 1 PM para rolar dois dados e escolher o melhor 
+resultado. Além disso, a arma só quebra se você tirar 
+um resultado igual ou menor que 5 no dado.
+
+--- block x0=5 y0=756 x1=20 y1=767 ---
+120
+

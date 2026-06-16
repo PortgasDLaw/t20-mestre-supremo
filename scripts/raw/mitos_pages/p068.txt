@@ -1,0 +1,112 @@
+Capítulo Um
+o foco de sua prática não é com espadas ou com a 
+meditação, mas sim com o aperfeiçoamento de seu 
+corpo a ponto dele se tornar um escudo impenetrável 
+e tão rígido quanto uma armadura de adamante.
+É dito que o hanuman mais poderoso conseguia 
+conter um meteoro com o peito nu, mas uma curiosi-
+dade é que o gentílico 'vajra' é para hanumans mulhe-
+res. O motivo é um tanto simples, a postura imóvel 
+de vajra foi criada por uma amazona tamuraniana de 
+mesmo nome. que imaginam ser uma deusa menor 
+(algo extremamente incomum em Tamu-ra, não o 
+fato dela ser mulher, mas deusa menor).
+Características de 
+Classe
+Pontos de Vida. Como o lutador básico.
+Pontos de Mana. Como o lutador básico.
+Perícias. Como o lutador básico.
+Proficiências. Como o lutador básico.
+Habilidades de Classe
+Cultivo. Você recebe essa habilidade como o 
+cultivador (p. @@).
+Nei Gong. Você recebe essa habilidade como o 
+cultivador, mas escolhe o Método dos Punhos.
+Poder de Lutador. A partir do 2º nível, você 
+recebe essa habilidade como o lutador básico.
+Postura Imóvel. A partir do 4º nível, enquan-
+to possuir ao menos 1 carga de chi, você recebe +1 
+na Defesa e em testes de resistência por meridiano 
+ímpar aberto. e
+Palma Afiada. No 6º nível, você recebe +1 na 
+margem de ameaça com seus ataques desarmados.
+Escudo dos Reinos. A partir do 8º nível, se 
+não estiver usando armadura pesada, você soma sua 
+Sabedoria na Defesa, limitado pelo nível.
+Palma Contundente. No 12º nível, você re-
+cebe +1 no multiplicador de crítico dos seus ataques 
+desarmados.
+Palma Divina. A partir do 14º nível, ao realizar 
+um acerto crítico desarmado, o alvo do ataque fica 
+atordoado por 1 rodada ou sangrando, a sua escolha 
+(Fort CD For evita). Essa habilidade só funciona uma 
+vez por cena, por criatura. e
+Destruidor de Mundos. No 20º nível, seu 
+dano desarmado aumenta em mais um passo. Além 
+disso, você pode gastar uma ação completa e 10 PM 
+para convocar dois braços etéreos até o fim da cena. 
+Eles não podem empunhar itens. Enquanto manter 
+essa habilidade, seu alcance natural aumenta em 
++3m e você pode gastar 2 PM, uma vez por rodada, 
+por braço, para realizar um ataque desarmado como 
+uma ação livre. e
+xTreinadorx
+Maquinista
+"Minhas máquinas sairão dos trilhos no meu trem 
+da insanidade!"
+Enquanto inventores normais podem até mesmo 
+pilotar veículos com formas humanoides equipados 
+com as mais variadas bugigangas, e treinadores 
+podem domar os mais diversos tipos de criaturas, 
+os maquinistas estão simplesmente preocupados em 
+dar vida aos mais insanos maquinários que puderem 
+comandar e utilizar para lutar ao seu lado.
+Dotados de um grande intelecto acima do seu 
+grande carisma, os maquinistas podem passar vários 
+dias produzindo as mais diversas peças de meca-
+nização autônoma, podendo ir de pequenos robôs 
+Tabela 1-17: O Maquinista
+Nível
+Habilidades de Classe
+1º
+Direcionar, maquinários (1º círculo), meu 
+amigo robô
+2º
+Poder de treinador
+3º
+Código-fonte, poder de treinador
+4º
+Poder de treinador
+5º
+Poder de treinador, robótica especializada
+6º
+Maquinários (2º círculo), poder de treinador
+7º
+Poder de treinador
+8º
+Poder de treinador
+9º
+Poder de treinador
+10º
+Aceleração mecânica, poder de treinador
+11º
+Poder de treinador
+12º
+Maquinários (3º círculo), poder de treinador
+13º
+Poder de treinador
+14º
+Poder de treinador
+15º
+Poder de treinador
+16º
+Poder de treinador
+17º
+Poder de treinador
+18º
+Poder de treinador
+19º
+Poder de treinador
+20º
+Automatron, poder de treinador
+68

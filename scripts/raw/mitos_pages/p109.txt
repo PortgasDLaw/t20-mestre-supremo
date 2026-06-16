@@ -1,0 +1,94 @@
+Aventureiros de Arton
+Sacerdote
+Você recebe um poder de frade cujos pré-requi-
+sitos cumpra, usando seu nível de clérigo como nível 
+de frade.
+Santo Guerreiro
+Você recebe proficiência com armas marciais, 
+ou +2 nas suas rolagens de dano com armas corpo 
+a corpo se já for proficiente. Além disso, ao usar 
+Abençoar Arma, você causa +1d4 pontos de dano de 
+luz (se canaliza energia positiva) ou de trevas (se ca-
+naliza energia negativa) para cada círculo de magias 
+que puder lançar em seu ataque, uma vez por rodada. 
+Pré-requisitos: Abençoar Arma, 14º nível de clérigo. e
+Solidificar o Espírito
+Ao lançar Arma Espiritual, você pode gastar 
+uma ação de movimento e 3 PM para pegar a arma 
+invocada pela magia e empunhá-la, o que cancela a 
+magia. A arma espiritual empunhada segue todas as 
+regras da versão mundana da arma, mas tem seu tipo 
+de dano mudado para 1d12 de essência e dura até o 
+fim da cena. Esse dano aumenta em +1d12 para cada 
+círculo de magia que puder lançar além do primeiro. 
+Pré-requisitos: Arma Espiritual, Abençoar Arma.
+DRUIDA
+Agouro Do Amanhecer
+Ao usar uma habilidade que cause dano de fogo 
+ou luz, você pode gastar +2 PM para que o dano 
+causado a aliados vire cura. Pré-requisitos: druida de 
+Azgher, 6º nível de druida, Aspecto do Verão.
+Agouro do Entardecer
+Suas habilidades que recupera pontos de vida ou 
+causa dano de fogo ou luz tem estes efeitos aumen-
+tados em +1 ponto por dado. Pré-requisitos: druida de 
+Azgher, 6º nível de druida, Aspecto do Verão.
+Agouro do Meio-Dia
+Quando iluminado pela luz do sol ou similar, 
+você aumenta o dado de dano de suas habilidades 
+mágicas que causem dano de fogo ou luz em uma 
+categoria (máx. d12). Caso fique em um ambiente 
+sob efeito de escuridão, o oposto ocorre — o dano é 
+reduzido em uma categoria. Pré-requisitos: druida de 
+Azgher, 6º nível de druida, Aspecto do Verão.
+Aura das Flores
+Ao usar uma habilidade de cura em um ambiente 
+com grande densidade floral, metade da cura reali-
+zada em você e nas criaturas afetadas se torna PV 
+temporários que duram até o fim da cena. Pré-requisi-
+tos: druida de Lena.
+Companheiro Dracônico
+Escolha um de seus companheiros animais e um 
+tipo de dano entre ácido, eletricidade, fogo ou frio: 
+seu parceiro se torna um Corcel de Kally com o tipo 
+de dano escolhido. Pré-requisitos: druida de Kallyadra-
+noch, Companheiro Animal, Coração de Dragão.
+Companheiro Póstumo
+Um de seus companheiros animais passa a ser 
+um esqueleto morto-vivo que fornece +5 em Inti-
+midação. Além disso, você pode gastar uma ação 
+de movimento e 2 PM para ele se desmontar e virar 
+uma armadura sob seu corpo. Ele deixa de fornecer 
+quaisquer outros benefícios como parceiro (exceto o 
+bônus em Intimidação), mas passa a lhe dar redução 
+de corte, frio, perfuração e trevas 5 até o fim da cena 
+ou até você desfazer o efeito (ação livre). Pré-requisi-
+tos: druida de Tenebra, Companheiro Animal.
+Fera Interior
+Você perde acesso a uma das escolas da sua ha-
+bilidade Magias, mas quando usa Forma Selvagem, 
+um de seus benefícios aumenta em +1 e o dano de 
+suas armas naturais em +1 dado. Pré-requisito: Forma 
+Selvagem, habilidade de classe Magias.
+Fera Vigorosa
+Você recebe +1 PV por nível de druida. Além 
+disso, quando usa Forma Selvagem, você pode gastar 
++2 PM para receber uma quantidade de PV temporá-
+rios igual seu nível. Pré-requisito: Con 3.
+Força Monstruosa
+Uma vez por rodada, você pode gastar até 2 PM 
+por círculo de magia a que tem acesso para receber 
+um ganho de Força igual à metade do total de PM 
+gastos. Pré-requisito: druida de Megalokk. e
+Forma Celestial
+Quando usa Forma Selvagem, você pode gastar 
++2 PM para assumir uma forma celestial. Você rece-
+be redução de fogo e luz 10. Além disso, suas armas 
+naturais passam a causar dano de luz e deixam as 
+criaturas atingidas ofuscadas. Pré-requisitos: druida de 
+Azgher, Forma Selvagem.
+Forma de Unicórnio
+Quando usa Forma Selvagem, você pode gastar 
++2 PM para virar um unicórnio. Você recebe uma 
+ação padrão adicional por rodada (apenas para usar 
+109

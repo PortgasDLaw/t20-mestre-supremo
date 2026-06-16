@@ -1,0 +1,112 @@
+Aventureiros de Arton
+•	 Corcel. Você recebe um corcel de Kally com o 
+qual tem +5 em testes de Adestramento e Cavalgar. 
+Ele fornece os benefícios de um parceiro veterano de 
+seu tipo. No 11º nível, passa a fornecer os benefícios 
+de um parceiro mestre. Caso sua montaria morra, 
+você pode obter uma nova após prestar um serviço 
+a igreja de Kallyadranoch e o treinar por 1 semana.
+•	 Sopro. Ao usar Presa Perfurante, você pode 
+gastar +2 PM para causar +2d8 pontos de dano de 
+um tipo a sua escolha entre ácido, eletricidade, fogo 
+ou frio. A cada quatro níveis após o 5º, o dano dessa 
+halidade aumenta em +1d8. e
+Vento dos Reis. A partir do 11º nível, ao usar 
+Investida Dracônica, você pode gastar +2 PM para 
+rodopiar no ar e então cair aplicando força centrífuga. 
+Se acertar o ataque, criaturas a 3m do alvo atingido 
+sofrem metade do seu dano total.
+Investida Meteórica. No 20º nível, ao usar 
+Investida Dracônica, você pode gastar +4 PM para 
+cair como um grande cometa. Você muda os dados de 
+dano extra de Investida Dracônica para d10 e acumu-
+la dados para cada 5 pontos no teste de Atletismo, 
+invés de a cada 10.
+xDruidax
+Elementalista
+"Espíritos do fogo, água e terra, me dêem forças!"
+Na natureza, muitos deuses são associados aos 
+elementos, Thyatis é o calor e fogo primordial, Ocea-
+no é as águas, Allihanna a terra e os céus pertencem 
+a Azgher e Tenebra. A outros também são atributos 
+esse papel, como Kallyadranoch e Wynna. Mas uma 
+vertente se faz certa e indiscutível, Arton é a fonte 
+de todos os elementos, e através do controle dos 
+elementos, você entende o mundo.
+Ubaneris, druidas de arton e estudiosos da 
+acadêmia arcana entende que o elemento é parte 
+fundamental não apenas da magia arcana, mas como 
+de todo o mundo, e por isso, elementalistas começa-
+ram a surgir, pessoas que através da íntima conexão 
+com a natureza, obtém a capacidade de controlar e 
+manipular os elementos. Mas claramente, aqueles 
+que tem a mais profunda conexão com Arton e seus 
+elementos é os druídas, e por tal motivo, são os 
+detentores do titulo de verdadeiros elementalistas.
+Características de 
+Classe
+Pontos de Vida. Como o druida básico.
+Pontos de Mana. 5 PM por nível.
+Perícias. Como o druida básico.
+Proficiências. Nenhuma.
+Habilidades de Classe
+Devoto Fiel. Como o druida básico, mas você 
+não pode ser devoto de Aharadak e Lena.
+Língua Primal. Você pode se comunicar com 
+elementais, como na magia Voz Divina, e recebe +2 
+em testes de Carisma e de perícias originalmente 
+baseadas em Carisma com essas criaturas.
+Magias. Como o druida básico, além disso, 
+você recebe o poder Orador dos Elementos.
+Poder de Druida. A partir do 2º nível, você 
+recebe esta habilidade como o druida básico, mas 
+ignora pré-requisitos de ser druida de Arton para 
+seus poderes de druida.
+Força Elemental. No 3º nível, escolha dois 
+tipos de dano entre ácido, corte, eletricidade, fogo, 
+frio, impacto, luz, perfuração e trevas; uma vez feita, 
+a escolha não pode ser mudada. Você recebe redução 
+Tabela 1-11: O Elementalista
+Nível
+Habilidades de Classe
+1º
+Devoto fiel, língua primal, magias (1º círculo)
+2º
+Poder de druida
+3º
+Força elemental, poder de druida
+4º
+Poder de druida
+5º
+Arma sazonal (+1d8), poder de druida
+6º
+Magias (2º círculo), Poder de Druida
+7º
+Poder de druida
+8º
+Poder de druida
+9º
+Poder de druida
+10º
+Magias (3º círculo), poder de druida
+11º
+Arma sazonal (+2d8), poder de druida
+12º
+Poder de druida
+13º
+Poder de druida
+14º
+Magias (4º círculo), poder de druida
+15º
+Poder de druida
+16º
+Poder de druida
+17º
+Arma sazonal (+3d8), poder de druida
+18º
+Poder de druida
+19º
+Poder de druida
+20º
+Avatar (+6d12), poder de druida
+61

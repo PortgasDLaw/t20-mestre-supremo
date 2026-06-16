@@ -1,0 +1,113 @@
+Capítulo Um
+A partir do 9º nível, você pode gastar +4 PM 
+para mudar a ação concedida para padrão, e a partir 
+do 15º nível, você pode gastar +1 PM (junto aos +2 
+ou +4 acima) para tornar o efeito sustentado.
+Poder de Bardo. A partir do 2º nível, você 
+recebe essa habilidade como o bardo básico.
+Lembrete Mortal. A partir do 8º nível, 
+sempre que uma criatura sob efeito de Bater Cabeça 
+reduzir um inimigo a 0 PVs ou menos, você recupera 
+PM igual ao círculo máximo de magias que pode 
+lançar. A critério do mestre, essa habilidade não 
+funciona em lacaios.
+Fúria da Tempestade. No 20º nível, você 
+pode usar Sinfonia da Destruição como uma ação 
+livre, criaturas afetadas por Bater Cabeça recebem 
++5 em suas rolagens de dano e reduzem o custo de 
+suas habilidades em –1 PM (cumulativo com outras 
+reduções de custo). Além disso, todo dano de fogo 
+e eletricidade que você causar quando sob efeito de 
+Bater Cabeça é maximizado (sem a necessidade de 
+rolar dados).
+xLutadorx
+Monge
+"Namu Lin-Wu Tentsu..."
+Houve um tempo em Tamu-ra onde era extrema-
+mente difícil uma pessoa portar armas, por diversas 
+leis e deméritos, sendo necessário ter cargos aristo-
+cráticos de renome para poder ter tal privilégio. Por 
+esse motivo, os tamurianos desenvolveram as artes 
+marciais, nascendo assim os mestres dessa arte; hoje 
+chamados de monges.
+Monges são mais do que lutadores, são con-
+selheiros, eruditos e nômades que contemplam a 
+natureza e auxilia o povo comum em suas jornadas. 
+Ser um monge significa se responsabilizar pelo povo 
+tamuraniano ou de sua comunidade, ou simples-
+mente instruir seus aliados na jornada pela ascensão 
+espiritual, além de protegê-los de qualquer male. 
+Afinal, monges são extremamente resilientes graças 
+ao ardúo treinamento no qual se empregam para se 
+fortalecer e realizar tais tarefas altruístas.
+Características de 
+Classe
+Pontos de Vida. Um monge começa com 16 
+pontos de vida + Constituição e ganha 4 PV + Con 
+por nível.
+Pontos de Mana. 4 PM por nível.
+Perícias. Como o lutador básico, mas adicione 
+Intuição, Religião e Vontade a lista de perícias desta 
+classe e treine 2 perícias de classe adicionais (para 
+um total de 6).
+Proficiências. Nenhuma.
+Habilidades de Classe
+Arsenal do Monge. Escolha três armas de 
+monge (cajado de batalha, katana, katar e outras 
+armas que, a critério do mestre, sejam consideradas 
+'de monge'). Você se torna proficiente com as armas 
+escolhidas e, uma vez por rodada, ao atacar com elas, 
+pode gastar 2 PM para somar seu dano desarmado na 
+rolagem de dano (incluindo quaisquer bônus) com 
+esta arma. A partir do 8º nível, seus ataques com 
+armas de monge contam como ataques desarmados 
+para efeito de suas habilidades de lutador.
+Kung Fu. Seu dano desarmado se torna 1d6 e 
+passa a causar dano letal ou não letal. A cada cinco 
+níveis, esse dano aumenta de acordo com a tabela. 
+Uma vez por rodada, ao fazer um ataque corpo a 
+corpo com sua arma de monge, você pode gastar 1 
+Tabela 1-21: O Monge
+Nível
+Habilidades de Classe
+1º
+Arsenal do monge, kung fu (1d6)
+2º
+Evasão, poder de lutador
+3º
+Poder de lutador, sexto sentido (Sab)
+4º
+Poder de lutador
+5º
+Kung fu (1d8), poder de lutador
+6º
+Alma de diamante, poder de lutador
+7º
+Poder de lutador, sexto sentido (Sab+1)
+8º
+Poder de lutador
+9º
+Kung fu (1d10), poder de lutador
+10º
+Evasão aprimorada, poder de lutador
+11º
+Poder de lutador, sexto sentido (Sab+2)
+12º
+Poder de lutador, sete nuvens
+13º
+Kung fu (1d12), poder de lutador
+14º
+Poder de lutador
+15º
+Poder de lutador, sexto sentido (Sab+3)
+16º
+Poder de lutador
+17º
+Kung fu (2d6), poder de lutador
+18º
+Poder de lutador
+19º
+Poder de lutador, sexto sentido (Sab+4)
+20º
+Nirvana (2d8), poder de lutador
+74

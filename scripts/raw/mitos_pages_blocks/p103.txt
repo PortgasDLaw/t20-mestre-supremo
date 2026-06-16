@@ -1,0 +1,135 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=178 y1=72 ---
+Slot Disponível
+
+--- block x0=71 y0=72 x1=295 y1=157 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=156 x1=295 y1=241 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=241 x1=295 y1=326 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=326 x1=295 y1=411 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=411 x1=295 y1=496 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=495 x1=295 y1=580 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=580 x1=295 y1=665 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=665 x1=295 y1=705 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=55 x1=416 y1=72 ---
+Slot Disponível
+
+--- block x0=309 y0=72 x1=533 y1=161 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus.
+Caçador
+
+--- block x0=309 y0=169 x1=416 y1=186 ---
+Slot Disponível
+
+--- block x0=309 y0=186 x1=533 y1=247 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt.
+ALCATEIA
+
+--- block x0=309 y0=247 x1=533 y1=308 ---
+Quando dois aliados estão flanqueando um ini-
+migo, caso estejam em alcance curto, você também 
+recebe os benefícios dessa mecânica.
+Balas Curvas
+
+--- block x0=309 y0=308 x1=533 y1=381 ---
+Ao fazer um ataque à distância, você pode gastar 
+3 PM para enfeitiçar sua munição para que ela persi-
+ga seu alvo, o que anula qualquer cobertura em que 
+ele esteja que não seja total. e
+Bolsa de ERvas
+
+--- block x0=309 y0=378 x1=533 y1=463 ---
+Ao usar um item mudano de cura, os dados de 
+cura dele aumentam em uma categoria (máx. d12) 
+e a ação para usá-lo se torna de movimento — ou a 
+ação padrão para usá-lo, o que for menor. Pré-requisi-
+to: Curandeiro dos Ermos.
+Caçador Felino
+
+--- block x0=309 y0=463 x1=533 y1=535 ---
+Caso não possua nenhum parceiro, você dobra 
+os bônus fornecidos pelo poder Lobo Solitário. Se fu-
+turamente obter um parceiro, perderá os benefícios 
+deste poder. Pré-requisito: Lobo Solitário.
+Caçador Selvagem
+
+--- block x0=309 y0=535 x1=533 y1=584 ---
+Suas habilidades de caçador que exige empunhar 
+uma arma passa a funcionar com armas naturais.
+CAMALEÃO
+
+--- block x0=309 y0=584 x1=533 y1=657 ---
+Você recebe +2 em Furtividade quando em 
+ambientes ermos e ao usar Sombra dos Ermos, pode 
+gastar +5 PM para receber camuflagem total (em vez 
+de Leve). Pré-requisito: Sombra dos Ermos. e
+Campista
+
+--- block x0=309 y0=657 x1=533 y1=709 ---
+Ao fazer um teste de Sobrevivência para acampar 
+e passar na CD do teste por 10 ou mais, a categoria 
+de descanso do acampamento aumenta em uma 
+categoria. Se o local onde o acampamento foi mon-
+
+--- block x0=560 y0=756 x1=576 y1=767 ---
+103
+

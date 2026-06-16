@@ -1,0 +1,133 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=216 y1=72 ---
+Sacrário da Iluminação
+
+--- block x0=51 y0=72 x1=275 y1=169 ---
+Você e seus aliados dentro do sacrário recebem 
+redução de trevas 10 e resistência a necromancia +5, 
+esses efeitos perduram por até 1 rodada após você 
+ou um aliado sair da área. Já inimigos na área do 
+sacrário ficam cegos por 1 rodada e então ofuscadas 
+até sair do sacrário. Pré-requisito: 6º nível de frade. e
+Sacrário dos Elementos
+
+--- block x0=51 y0=168 x1=275 y1=265 ---
+Uma criatura na área do sacrário sofre 2d6 
+pontos de dano de ácido, eletricidade, fogo ou frio, a 
+sua escolha. O tipo de dano pode ser trocado a cada 
+rodada e se repete sempre no início dos seus turnos. 
+Para cada círculo de magias que pude lançar além do 
+1º, o dano do sacrário aumenta em +2d6. e
+Sermão da Bravura
+
+--- block x0=51 y0=265 x1=275 y1=338 ---
+Você pode gastar uma ação padrão e 3 PM para 
+orar e dar forças a um aliado em alcance curto. O 
+aliado escolhido recebe +5 pontos em sua próxima 
+rolagem de dano realizada até o fim da cena. e
+Sermão da Perseverança
+
+--- block x0=51 y0=338 x1=275 y1=411 ---
+Você pode gastar uma ação padrão e 3 PM para 
+motivar um aliado em alcance curto com palavras de 
+otimismo. Ele rola 1d12 e soma ao resultado do seu 
+próximo teste de perícia feito até o fim da cena. e
+Trair o Traidor
+
+--- block x0=51 y0=411 x1=275 y1=520 ---
+Você pode convencer um criatura de que você 
+está do lado dela. Faça um teste de Enganação oposto 
+a Intuição de uma criatura em alcance curto. Se ele 
+falhar, passa a acreditar que você é um aliado infiltra-
+do e evita realizar qualquer ação contra você, desde 
+que você não interfira diretamente contra o alvo. Pré-
+-requisito: frade de Sszzaas, treinado em Enganação.
+Versículo favorito
+
+--- block x0=51 y0=518 x1=275 y1=650 ---
+Escolha uma magia aprendida de até 3º círculo, 
+ela passa a fazer parte permanente de seu Versiculá-
+rio, não podendo ser trocada. O custo básico da magia 
+é reduzido a 0 PM (mas ainda deve gastar ao menos 1 
+PM para poder lançá-la) e o ganho de PM para gastar 
+em aprimoramentos com a magia escolhida aumenta 
+para +2. Ao criar outro versiculário, só então poderá 
+trocar a magia. Pré-requisito: 6º nível de frade.
+Guerreiro
+
+--- block x0=51 y0=655 x1=167 y1=672 ---
+Alma de Batalha
+
+--- block x0=51 y0=671 x1=275 y1=709 ---
+Você aprende e pode lançar Arma Mágica (atri-
+buto-chave Inteligência) e pode usar seus aprimora-
+mentos como se tivesse acesso aos mesmos círculos 
+
+--- block x0=289 y0=55 x1=513 y1=115 ---
+de magia que um feiticeiro de seu nível. Essa não é 
+uma habilidade mágica e provém da sua capacidade 
+de condensar seu espírito de luta em suas armas.
+Analisar o Tabuleiro
+
+--- block x0=289 y0=114 x1=513 y1=187 ---
+Ao usar Xadrez da Batalha, você pode gastar +3 
+PM por criatura para analisar alvos adicionais como 
+parte da mesma ação. Pré-requisito: Xadrez da Batalha, 
+9º nível de Guerreiro.
+Aprimorar Armamento
+
+--- block x0=289 y0=187 x1=513 y1=296 ---
+Você pode gastar uma ação padrão e 5 PM para 
+adicionar um encanto em uma arma mundana que 
+esteja empunhando que dura até o fim da cena ou 
+até que largue ou guarde a arma. Nos níveis 13 e 17, 
+você pode gastar +5 PM para adicionar dois ou três 
+encantos na arma, respectivamente. Pré-requisito: 11º 
+nível de guerreiro, Espada Feiticeira. e
+ARma Pessoal
+
+--- block x0=289 y0=296 x1=513 y1=369 ---
+Ao criar um Golpe Pessoal que use a arma em 
+que você é mestre, você soma sua Inteligência ao li-
+mite de PM desse Golpe. Pré-requisitos: Golpe Pessoal, 
+Mestre em Arma, 18º nível de guerreiro.
+Ataque Analítico
+
+--- block x0=289 y0=369 x1=513 y1=454 ---
+Uma vez por rodada, ao fazer um ataque corpo 
+a corpo com uma arma leve ou ágil usando Ataque 
+Especial, você pode gastar +2 PM para somar sua 
+Inteligência, limitada pelo nível, neste teste. Pré-re-
+quisitos: Esgrimista, 8º nível de guerreiro.
+Blindado
+
+--- block x0=289 y0=454 x1=513 y1=526 ---
+Uma vez por cena, ao usar Durão, para cada 10 
+pontos de dano evitado por essa habilidade, você 
+recebe redução de dano 1 até o fim da cena, limitado 
+pelo seu nível. Pré-requisito: 3º nível de guerreiro.
+Espada Feiticeira
+
+--- block x0=289 y0=526 x1=513 y1=623 ---
+Ao lançar uma magia através de um Golpe Pesso-
+al, você pode aprimorá-la como se tivesse acesso aos 
+mesmos círculos de magia que um feiticeiro com seu 
+nível, mas não pode escolher aprimoramentos que 
+começam com "muda". Pré-requisitos: Golpe Pessoal, 
+treinado em Misticismo, 9º nível de guerreiro. e
+Especialista Em Vanguarda
+
+--- block x0=289 y0=623 x1=513 y1=711 ---
+Você recebe proficiência com armas de fogo, ou 
++2 em rolagens de dano à distância se já for profi-
+ciente Além disso você pode, uma vez por rodada, ao 
+fazer um ataque a distância usando Ataque Especial, 
+gastar +2 PM para somar sua Sabedoria, limitada 
+pelo nível, no seu teste de ataque. Pré-requisitos: 
+Arqueiro, 8º nível de guerreiro.
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+112
+

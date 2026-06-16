@@ -1,0 +1,145 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=199 ---
+A prática da tecnomagia começou relativamente 
+cedo, após a descoberta de Alstra e a cultura dos 
+toskrers, e o recente culto a deusa Polaris, tudo isso 
+ascendeu no coração dos estudiosos o desejo de 
+união destes conceitos. A representação disso é os 
+tecnomagos, que conseguem realizar feitos mágicos 
+elevados pela tecnologia, redescobrindo novas for-
+mas de auxiliar um grupo.
+Características de 
+Classe
+
+--- block x0=68 y0=198 x1=259 y1=214 ---
+Pontos de Vida. Como o arcanista básico.
+
+--- block x0=68 y0=214 x1=223 y1=231 ---
+Pontos de Mana. 5 PM por nível.
+
+--- block x0=51 y0=231 x1=275 y1=307 ---
+Perícias. Ofício (mecânomago [Int]) e Vonta-
+de (Sab), mais 4 a sua escolha entre Conhecimento 
+(Int), Diplomacia (Car), Enganação (Car), Guerra 
+(Int), Iniciativa (Des), Intimidação (Car), Intuição 
+(Sab), Investigação (Int), Misticismo (Int), Nobreza 
+(Int), Ofício (Int) e Percepção (Sab).
+
+--- block x0=51 y0=307 x1=253 y1=352 ---
+Proficiências. Nenhuma.
+Habilidades de Classe
+
+--- block x0=51 y0=350 x1=275 y1=499 ---
+Caminho do Tecnomago. Você lança magias 
+por meio do misto entre ciência e magia. Você come-
+ça com 2 bugigangas, itens que ocupam 0,5 espaço e 
+exige manutenção constante, por isso, você só pode 
+manter um número máximo de bugigangas igual 
+sua Inteligência. Caso uma bugiganga quebre, você 
+precisa fabricar uma nova. Para lançar uma magia, 
+você empunha a bugiganga com uma mão — e ges-
+ticula com a outra. Cada bugiganga permite lançar 
+uma magia escolhida ao fabricá-la ou obtê-la, trocar 
+a magia de uma bugiganga gasta 1 dia de ajustes. Seu 
+atributo-chave para magias é Inteligência.
+
+--- block x0=51 y0=498 x1=274 y1=570 ---
+Bugigangas são itens mágicos que exige o gasto de T$ 
+500, 1 semana de trabalho e um teste de Ofício (mecâno-
+mago) contra CD 25 para serem produzidas. Sempre que 
+lança uma magia através de uma bugiganga, role um teste de 
+Ofício (mecânomago). Para cada 10 pontos de resultado no 
+teste, você recebe +1 PM para gastar em aprimoramentos.
+
+--- block x0=51 y0=570 x1=275 y1=670 ---
+Lei de Asimov. Uma vez por rodada, você 
+impõe as leis da robótica através de um misto de 
+códigos e teses mágicas. Você faz um teste de Ofício 
+(mecânomago) oposto a Vontade de um construto 
+em alcance curto, se ele falhar, sofre os efeitos bá-
+sicos da magia Tranquilidade. Construtos sem valor 
+de inteligência falham automaticamente neste teste. 
+Essa habilidade não é um efeito mental ou mágico.
+
+--- block x0=51 y0=670 x1=275 y1=711 ---
+A partir do 3º nível, se o construto falhar por 
+10 ou mais, ele passa a atuar como um parceiro ini-
+ciante de um tipo apropriado até o fim da cena. Esse 
+
+--- block x0=289 y0=55 x1=513 y1=83 ---
+segundo efeito, no entanto, não afeta construtos sem 
+valor de inteligência.
+
+--- block x0=306 y0=83 x1=454 y1=99 ---
+Magias. Como o arcanista básico.
+
+--- block x0=289 y0=99 x1=513 y1=127 ---
+Poder de Arcanista. A partir do 2º nível, 
+você recebe essa habilidade como o arcanista básico.
+
+--- block x0=289 y0=127 x1=513 y1=204 ---
+Transmutar Item Superior. No 2º nível, 
+você passa a poder melhorar itens através de forja 
+magicânica, recebendo um item superior com valor 
+de até T$ 2.000. Escolha um ofício, você pode adi-
+cionar até uma melhoria a um item da categoria do 
+ofício escolhido usando Ofício (mecânomago).
+
+--- block x0=289 y0=204 x1=513 y1=256 ---
+Nos níveis 5, 8 e 11, você pode substituir esse 
+item por um item superior com duas, três e quatro 
+melhorias e passa a poder adicionar até duas, três e 
+quatro melhorias a itens, respectivamente. e
+
+--- block x0=289 y0=256 x1=513 y1=332 ---
+Autonomia Magicânica. A partir do 3º ní-
+vel, lançar magias exige apenas empunhar a bugigan-
+ga, sem necessidade de ter a outra mão livre e você 
+pode encaixar esotéricos em suas bugigangas com 
+uma ação completa para a magia lançada através da 
+bugiganga receber os efeitos do esotérico encaixado.
+
+--- block x0=289 y0=332 x1=513 y1=384 ---
+No 8º nível, você pode usar até 2 bugigangas 
+como item vestidos, o que permite lançar a magia 
+sem ocupar suas mãos, a cada cinco níveis após o 8º, 
+esse limite aumenta em +1.
+
+--- block x0=289 y0=384 x1=513 y1=473 ---
+Sorriso de Polaris. No 20º nível, quando 
+lança uma magia através de uma bugiganga, você re-
+cebe +5 PM para gastar em aprimoramentos (cumu-
+lativo com outros efeitos). Além disso, bugigangas 
+vestidas não ocupam o espaço de itens vestidos e 
+você passa a poder ter uma quantidade de bugigan-
+gas igual ao dobro do seu valor de Inteligência.
+
+--- block x0=289 y0=488 x1=399 y1=525 ---
+xPaladinox
+Vingador
+
+--- block x0=306 y0=527 x1=500 y1=543 ---
+"Quem disse que os fins não justifica os meios?"
+
+--- block x0=289 y0=543 x1=513 y1=595 ---
+Diferente de algozes, seres malignos que pervete 
+os dons divinos em prol da destruição, os vingadores 
+são os "anti-paladinos", seguem um código simples, 
+não são maus, mas também não são bonzinhos. 
+
+--- block x0=289 y0=595 x1=513 y1=707 ---
+Paladinos são os campeões do bem, eles lutam 
+seguindo as definições do que Arton classifica 
+como um herói, já os vingadores são o que pode ser 
+chamado de "anti-herói". Eles não praticam o mal 
+absoluto, isso é trabalho dos algozes, eles apenas 
+punem, como carrascos, matam o que é mal, sem 
+decoro, compaixão ou segundas chances, para eles, o 
+que é hediondo para sua fé deve ser exterminado — 
+ou sentir o peso de seus atos.
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+86
+

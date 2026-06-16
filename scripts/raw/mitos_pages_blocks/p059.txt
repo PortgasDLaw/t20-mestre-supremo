@@ -1,0 +1,197 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=95 ---
+Pé de Martelo. No 3º nível, e a cada seis 
+níveis seguintes, seu dano desarmado e com armas 
+leves aumenta em um passo.
+
+--- block x0=71 y0=95 x1=295 y1=147 ---
+Chute Relâmpago. A partir do 10º nível, 
+uma vez por rodada, ao fazer um ataque corpo a 
+corpo, você pode gastar 1 PM para fazer um ataque 
+desarmado como uma ação livre.
+
+--- block x0=71 y0=147 x1=295 y1=199 ---
+Cordão de Ouro. No 20º nível, você soma 
+seu Carisma Perícias originalmente baseadas em 
+Destreza e no dano dos seus ataques desarmados, 
+com armas leves e de suas magias.
+
+--- block x0=71 y0=212 x1=186 y1=246 ---
+xCavaleirox
+Defensor
+
+--- block x0=88 y0=248 x1=199 y1=264 ---
+"Você está a salvo comigo!"
+
+--- block x0=71 y0=264 x1=295 y1=316 ---
+Defensores são cavaleiros determinados que 
+dedicam suas vidas a protege, pondo-se de frente a 
+qualquer perigo para que outros não precisem tê-lo, 
+são sem tirar nem por, a epítome da proteção.
+
+--- block x0=309 y0=55 x1=533 y1=271 ---
+Por esse modo de agir, é normal que a maioria dos 
+defensores sejam devotos de Marah, para defender a 
+todos em nome da paz, ou simplesmente o esperado 
+de pessoas assim; são devotos de Khalmyr, Lena 
+ou Thyatis. Ainda assim, nem todos os defensores 
+são bons ou heróicos por causa dos deuses a que 
+servem, eles apenas nutrem um desejo básico de ver 
+todos os seus companheiros seguros, e dedicam suas 
+forças para protegê-los com sua vida. A existência 
+dos defensores faz um paralelo com os minotauros, 
+uma vez que a crença de Tauron parece com a deles, 
+porém, diferente dos legionários, o defensor segue 
+um princípio simples: um homem forte se defende 
+sozinho, um homem mais forte defende os outros.
+Características de 
+Classe
+
+--- block x0=309 y0=270 x1=533 y1=310 ---
+Pontos de Vida. Um sentinela começa com 
+24 pontos de vida + Constituição e ganha 6 PV + 
+Constituição por nível.
+
+--- block x0=326 y0=310 x1=521 y1=327 ---
+Pontos de Mana. Como o cavaleiro básico.
+
+--- block x0=326 y0=327 x1=480 y1=343 ---
+Perícias. Como o cavaleiro básico.
+
+--- block x0=309 y0=343 x1=530 y1=388 ---
+Proficiências. Armaduras pesadas e escudos.
+Habilidades de Classe
+
+--- block x0=309 y0=386 x1=533 y1=487 ---
+Código do Defensor. Para um defensor, 
+nada é pior do que permitir que seus aliados se ma-
+chuquem. Você deve sempre empunhar um escudo 
+e não pode atacar com armas, apenas com escudos. 
+Além disso, deve sempre terminar o seu turno com 
+pelo menos um aliado dentro de seu alcance natural. 
+Se violar o código, perde todos os seus PM e só pode 
+recuperá-los a partir do próximo dia.
+
+--- block x0=326 y0=487 x1=485 y1=503 ---
+Baluarte. Como o cavaleiro básico.
+
+--- block x0=309 y0=503 x1=533 y1=555 ---
+Ariete. Você pode empunhar dois escudos, um 
+em cada mão, se fizer isso, acumula os efeitos de 
+ambos os escudos e considera um dos escudos uma 
+arma para habilidades baseadas nisso.
+
+--- block x0=309 y0=555 x1=533 y1=596 ---
+Forte. No 2º nível, se estiver vestindo uma 
+armadura pesada, você soma sua Constituição na 
+Defesa, limitada pelo nível. 
+
+--- block x0=309 y0=595 x1=533 y1=624 ---
+Poder de Cavaleiro. A partir do 2º nível, 
+você recebe essa habilidade como o cavaleiro básico.
+
+--- block x0=309 y0=624 x1=533 y1=664 ---
+Barreira. No 3º nível, e a cada seis níveis se-
+guintes, se estiver de armadura pesada, você recebe 
+fortificação +25%.
+
+--- block x0=309 y0=664 x1=533 y1=704 ---
+Muralha. A partir do 4º nível, você é consi-
+derado uma cobertura leve para quem estiver atrás 
+de você. Se a criatura for duas ou mais categorias 
+
+--- block x0=114 y0=335 x1=249 y1=353 ---
+Tabela 1-9: O Defensor
+
+--- block x0=75 y0=357 x1=265 y1=370 ---
+Nível
+Habilidades de Classe
+
+--- block x0=87 y0=373 x1=260 y1=384 ---
+1º
+Ariete, baluarte +2, código do defensor
+
+--- block x0=87 y0=388 x1=209 y1=399 ---
+2º
+Forte, poder de cavaleiro
+
+--- block x0=87 y0=402 x1=287 y1=414 ---
+3º
+Barreira (fortificação 25%), poder de cavaleiro
+
+--- block x0=87 y0=417 x1=219 y1=428 ---
+4º
+Muralha, poder de cavaleiro
+
+--- block x0=87 y0=432 x1=263 y1=443 ---
+5º
+Baluarte +4, bastião, poder de cavaleiro
+
+--- block x0=87 y0=447 x1=185 y1=458 ---
+6º
+Poder de cavaleiro
+
+--- block x0=87 y0=462 x1=228 y1=484 ---
+7º
+Baluarte (aliados adjacentes), 
+poder de cavaleiro
+
+--- block x0=87 y0=487 x1=185 y1=498 ---
+8º
+Poder de cavaleiro
+
+--- block x0=87 y0=502 x1=264 y1=524 ---
+9º
+Baluarte +6, barreira (fortificação 50%), 
+poder de cavaleiro
+
+--- block x0=85 y0=527 x1=185 y1=539 ---
+10º
+Poder de cavaleiro
+
+--- block x0=85 y0=542 x1=220 y1=554 ---
+11º
+Poder de cavaleiro, resoluto
+
+--- block x0=85 y0=557 x1=185 y1=568 ---
+12º
+Poder de cavaleiro
+
+--- block x0=85 y0=572 x1=232 y1=583 ---
+13º
+Baluarte +8, poder de cavaleiro
+
+--- block x0=85 y0=586 x1=185 y1=598 ---
+14º
+Poder de cavaleiro
+
+--- block x0=85 y0=601 x1=283 y1=623 ---
+15º
+Baluarte (aliados em alcance curto), barreira 
+(fortificação 75%), poder de cavaleiro
+
+--- block x0=85 y0=627 x1=185 y1=638 ---
+16º
+Poder de cavaleiro
+
+--- block x0=85 y0=641 x1=236 y1=653 ---
+17º
+Baluarte +10, poder de cavaleiro
+
+--- block x0=85 y0=656 x1=185 y1=668 ---
+18º
+Poder de cavaleiro
+
+--- block x0=85 y0=671 x1=185 y1=682 ---
+19º
+Poder de cavaleiro
+
+--- block x0=85 y0=686 x1=236 y1=697 ---
+20º
+Bravura final, poder de cavaleiro
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+59
+

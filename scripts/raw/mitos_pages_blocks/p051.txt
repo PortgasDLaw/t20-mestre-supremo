@@ -1,0 +1,146 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=83 ---
+a cada inimigo adjacente a essa criatura. Pré-requisito: 
+5º nível de mirmidão.
+
+--- block x0=71 y0=83 x1=295 y1=159 ---
+•	 Liberdade dos Beduínos. Você recebe as habilida-
+des Esquiva Sobrenatural e Olho nas Costas. Ambas 
+as habilidades exigem liberdade de movimentos; você 
+não pode utilizá-las se estiver usando armaduras 
+pesadas ou na condição imóvel. Pré-requisito: General 
+das Trevas (batalhão das bênçãos).
+
+--- block x0=71 y0=159 x1=295 y1=223 ---
+•	 Livramento. Ao aprender uma magia de uma 
+escola que não seja de necromancia, mas que a ha-
+bilidade que permite aprendê-las muda para necro-
+mancia, você pode optar por ela permanecer sendo 
+da escola original.  Pré-requisito: Recruta das Trevas.
+
+--- block x0=71 y0=223 x1=295 y1=324 ---
+•	 Marca do Sacrifício. Você pode gastar uma ação 
+de movimento e perder 6 PV (que não podem ser 
+temporários) para sua armadura o tornar mais pode-
+roso. Você recebe  um bônus em testes de resistência 
+e na Defesa igual ao círculo máximo de magias que 
+você pode lançar. Sustentar este efeito o faz perder 3 
+PV por rodada. Pontos de vida perdidos dessa forma 
+só podem ser recuperados com descanso. e
+
+--- block x0=71 y0=324 x1=295 y1=388 ---
+•	 Marcha da Morte. Força do Oblívio passa a 
+aplicar seus efeitos em seus capangas conjurados por 
+magias de necromancia. A partir do 11º nível, eles 
+também recebem +5 na Defesa e +3m de desloca-
+mento. Pré-requisito: Conjurar Mortos-Vivos.
+
+--- block x0=71 y0=388 x1=295 y1=452 ---
+•	 Metal Pesado. Você pode usar sua Inteligência 
+na Defesa quando usa armadura pesada. Se fizer isso, 
+não pode somar sua Destreza, mesmo que outras 
+habilidades ou efeitos permitam isso. Pré-requisito: 8º 
+nível de mirmidão.
+
+--- block x0=71 y0=452 x1=295 y1=516 ---
+•	 Morte Rastejante. Ao matar uma criatura do 
+tipo morto-vivo (exceto capangas), você pode fazer 
+um teste de Misticismo (CD 15 + ND da criatura), 
+se passar, recupera PV igual a CD do teste. Pré-requi-
+sito: 5º nível de mirmidão. e
+
+--- block x0=71 y0=516 x1=295 y1=569 ---
+•	 Obliterar. Você pode gastar uma ação de movi-
+mento e 3 PM para profanar uma arma corpo a corpo 
+que esteja empunhando. Força do Oblívio causa +2 
+dados com a arma empunhada até o fim da cena. e
+
+--- block x0=71 y0=569 x1=295 y1=657 ---
+•	 Ocultar no Oblívio. Você pode gastar uma ação 
+completa e 3 PM para desequipar sua armadura mal-
+dita e guardá-la no Oblívio, onde ela fica armazenada 
+até você equipá-la novamente gastando 3 PM. Porém, 
+você ainda não pode equipar outras armaduras, se o 
+fizer, a armadura em questão é destruída. Pré-requisi-
+to: Comandante das Trevas (batalhão das sombras).
+
+--- block x0=71 y0=657 x1=295 y1=709 ---
+•	 Pesadelo. Você recebe um cavalo morto-vivo 
+especial que fornece os mesmos benefícios de um 
+parceiro montaria veterano de um tipo a sua escolha 
+— e aprovado pelo mestre. Vocês tem uma ligação 
+
+--- block x0=309 y0=208 x1=533 y1=260 ---
+telepática, e ele pode ser conjurado ou dispensado 
+com uma ação de movimento e o gasto de 2 PM. Ao 
+atingir o 11º nível de mirmidão, seu parceiro se torna 
+mestre. Pré-requisito: 5º nível de mirmidão.
+
+--- block x0=309 y0=260 x1=533 y1=288 ---
+•	 Recruta das Trevas. Você recebe o treinamento 
+de um dos batalhões de Umbralar, veja mais adiante.
+
+--- block x0=309 y0=288 x1=533 y1=412 ---
+•	 Rei Destruído. Você passa a estar no limiar entre 
+a vida e a morte. Você recebe imunidade aos efeitos 
+que Principe das Trevas lhe dá resistência e ao sofrer 
+dano de trevas, recupera PV igual ao dano sofrido. 
+Além disso, se for uma criatura do tipo morto-vivo, 
+você recebe recebe imunidade a frio e recupera +1 
+PV por dado de dano de trevas sofrido. Por fim, você 
+é considerando como podendo lançar magias de 5º 
+círculo para suas habilidades de mirmidão. Pré-requi-
+sitos: Ascenção das Trevas, 17º nível de Mirmidão. e
+
+--- block x0=309 y0=413 x1=533 y1=489 ---
+•	 Sacerdote Sombrio. Você recebe um poder de 
+clérigo cujos pré-requisitos cumpra, usando seu 
+nível de mirmidão como nível de clérigo. Se o atribu-
+to-chave do poder for Sabedoria, troque por Inteli-
+gência. Pré-requisitos: treinado em Religião, devoto de 
+um deus maior que canaliza energia negativa.
+
+--- block x0=309 y0=489 x1=533 y1=553 ---
+•	 Segredos Sombrios. Você aprende duas magias 
+de qualquer círculo que possa lançar. Elas devem 
+pertencer às escolas que você sabe usar, mas podem 
+ser arcanas ou divinas. Você pode escolher este poder 
+quantas vezes quiser.
+
+--- block x0=309 y0=553 x1=533 y1=605 ---
+•	 Sincretismo Bélico. Você recebe o treinamento 
+de um segundo batalhão de umbralar, mas não pode 
+obter o treinamento aprimorado ou superior para o 
+segundo batalhão. Pré-requisito: Recruta das Trevas.
+
+--- block x0=309 y0=605 x1=533 y1=645 ---
+•	 Solidez. Se estiver usando um escudo, você 
+soma o bônus na Defesa recebido pelo escudo em 
+testes de resistência.
+
+--- block x0=309 y0=646 x1=533 y1=710 ---
+•	 Teurgista Necrótico. Você poder aprender ma-
+gias de convocação como se fossem divinas e a escola 
+dessas magias muda para necromancia. Isso altera a 
+aparência e natureza da magia, mas não tem qual-
+quer outro efeito mecânico (além da troca de escola).
+
+--- block x0=326 y0=53 x1=456 y1=71 ---
+Cerimônia da Maldição
+
+--- block x0=326 y0=72 x1=514 y1=184 ---
+A maldição em sua armadura pode ser 
+transferida para outras, desde que ela seja 
+pesada. O processo de troca exige 1 dia de 
+rituais e T$ 300 em componentes. A antiga 
+armadura é destruída e a nova se veste em 
+seu corpo automaticamente, recebendo 
+todos os benefícios da habilidade Armadura 
+Maldita — incluindo melhorias e encantos, 
+mas não ignora limites.
+
+--- block x0=563 y0=756 x1=572 y1=767 ---
+51
+

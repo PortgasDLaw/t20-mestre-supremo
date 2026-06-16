@@ -1,0 +1,184 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=56 x1=155 y1=90 ---
+xClérigox
+Zelote
+
+--- block x0=88 y0=92 x1=270 y1=108 ---
+"Como ousa desrespeitar minha divindade!?"
+
+--- block x0=71 y0=108 x1=295 y1=220 ---
+Enquanto um ocultista é um frade que mantém 
+uma relação de pacto com sua divindade, o zelote 
+é quase o completo oposto. São devotos ferrenhos 
+de seus deuses, que lutam e evisceram por eles. 
+Possuem um treinamento ainda mais afixionado com 
+seu deus e prega suas vontades com louvor e glória, 
+enaltecendo ao máximo os princípios de seu deus, 
+promovendo cruzadas em seu nome e destruindo 
+todos aqueles que são inimigos de sua fé.
+
+--- block x0=71 y0=220 x1=295 y1=390 ---
+Alguns podem considerar zelotes como cultistas 
+insanos e fundamentalistas, outros como fanáticos 
+religiosos, outros, até, como uma seita isolada den-
+tro das igrejas das divindades, como é o templo da 
+pureza divina na Supremacia Purista, mas um zelote 
+é na verdade tudo isso e mais um pouco. No entanto, 
+tem aqueles mais controlados e justos, que apesar do 
+fanatismo, são conversáveis.
+Características de 
+Classe
+Pontos de Vida. Um cruzado começa com 20 
+pontos de vida + Con e ganha 5 PV + Con por nível.
+
+--- block x0=88 y0=389 x1=243 y1=405 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=71 y0=404 x1=295 y1=464 ---
+Perícias. Luta (For) e Religião (Sab), mais 2 a 
+sua escolha entre Cura (Sab), Diplomacia (Car), For-
+titude (Con), Guerra (Int), Iniciativa (Des), Intuição 
+(Sab), Misticismo (Int), Nobreza (Int), Ofício (Int), 
+Percepção (Sab) e Vontade (Sab).
+
+--- block x0=71 y0=463 x1=295 y1=520 ---
+Proficiências. Armas marciais, armaduras 
+pesadas e escudos.
+Habilidades de Classe
+
+--- block x0=71 y0=519 x1=295 y1=547 ---
+Devoto Fiel. Como o clérigo básico, mas você 
+não pode escolher ser um clérigo de Lena ou Marah.
+
+--- block x0=71 y0=547 x1=295 y1=600 ---
+Fanatismo. Ao empunhar a arma favorita da 
+sua divindade, você recebe +1 em testes de ataque e 
+rolagens de dano com ela. Esse bônus aumenta em 
++1 a cada quatro níveis.
+
+--- block x0=71 y0=599 x1=295 y1=640 ---
+Magias. Como o clérigo básico, mas por focar 
+seu treino em combate, aprende novas magias a cada 
+nível impar (3º, 5º, 7º nível...).
+
+--- block x0=71 y0=640 x1=295 y1=704 ---
+Poder de Clérigo. A partir do 2º nível, você 
+recebe esta habilidade como o clérigo básico, mas 
+não pode escolher missas ou poderes que tenham 
+missas como pré-requisito, porém, pode escolher 
+julgamentos divinos como poderes de clérigo.
+
+--- block x0=309 y0=466 x1=533 y1=566 ---
+Fé Guardiã. No 2º nível, e a cada quatro níveis 
+seguintes, você recebe +1 na Defesa quando usando 
+armadura pesada. Além disso, se estiver empu-
+nhando um escudo, você pode gastar uma ação de 
+movimento e 3 PM para infundí-lo com poder divino. 
+Até o fim da cena, o escudo emite uma luz dourada 
+ou roxa como uma tocha e soma sua Sabedoria na 
+Defesa (limitado pelo nível). e
+
+--- block x0=309 y0=566 x1=533 y1=642 ---
+Campeão Divino. No 20º nível, você dobra 
+o ganho de Defesa de Fé Guardiã e ao empunhar a 
+arma favorita da sua divindade, o dano dela aumenta 
+em dois passos. Além disso, você pode gastar +3 PM 
+quando usa Fé Guardiã para receber redução de dano 
+10 além dos outros efeitos da habilidade.
+
+--- block x0=357 y0=67 x1=482 y1=86 ---
+Tabela 1-32: O Zelote
+
+--- block x0=313 y0=89 x1=503 y1=102 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=105 x1=521 y1=116 ---
+1º
+Devoto Fiel, fanatismo +1, magias (1º círculo)
+
+--- block x0=325 y0=120 x1=468 y1=131 ---
+2º
+Fé guardiã +1, poder de clérigo
+
+--- block x0=325 y0=135 x1=414 y1=146 ---
+3º
+Poder de clérigo
+
+--- block x0=325 y0=149 x1=414 y1=161 ---
+4º
+Poder de clérigo
+
+--- block x0=325 y0=164 x1=481 y1=186 ---
+5º
+Fanatismo +2, magias (2º círculo), 
+poder de clérigo
+
+--- block x0=325 y0=190 x1=468 y1=201 ---
+6º
+Fé guardiã +2, poder de clérigo
+
+--- block x0=325 y0=204 x1=414 y1=216 ---
+7º
+Poder de clérigo
+
+--- block x0=325 y0=219 x1=414 y1=230 ---
+8º
+Poder de clérigo
+
+--- block x0=325 y0=234 x1=481 y1=256 ---
+9º
+Fanatismo +3, magias (3º círculo), 
+poder de clérigo
+
+--- block x0=323 y0=259 x1=468 y1=271 ---
+10º
+Fé guardiã +3, poder de clérigo
+
+--- block x0=323 y0=274 x1=414 y1=286 ---
+11º
+Poder de clérigo
+
+--- block x0=323 y0=289 x1=414 y1=300 ---
+12º
+Poder de clérigo
+
+--- block x0=323 y0=304 x1=481 y1=326 ---
+13º
+Fanatismo +4, magias (4º círculo), 
+poder de clérigo
+
+--- block x0=323 y0=329 x1=468 y1=341 ---
+14º
+Fé guardiã +4, poder de clérigo
+
+--- block x0=323 y0=344 x1=414 y1=355 ---
+15º
+Poder de clérigo
+
+--- block x0=323 y0=359 x1=414 y1=370 ---
+16º
+Poder de clérigo
+
+--- block x0=323 y0=373 x1=481 y1=396 ---
+17º
+Fanatismo +5, magias (5º círculo), 
+poder de clérigo
+
+--- block x0=323 y0=399 x1=468 y1=410 ---
+18º
+Fé guardiã +5, poder de clérigo
+
+--- block x0=323 y0=414 x1=414 y1=425 ---
+19º
+Poder de clérigo
+
+--- block x0=323 y0=429 x1=481 y1=440 ---
+20º
+Campeão Divino, Poder de Clérigo
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+89
+

@@ -1,0 +1,113 @@
+Aventureiros de Arton
+Você começa com duas magias de 1º círculo. A 
+cada nível par (2º, 4º etc.), aprende uma magia de 
+qualquer círculo que possa lançar. Você pode lançar 
+essas magias vestindo armaduras leves sem precisar 
+de testes de Misticismo.
+Seu atributo-chave para lançar magias é Carisma 
+e você soma seu Carisma no seu total de PM.
+Poder de Bárbaro. A partir do 2º nível, você 
+recebe essa habilidade como o bárbaro básico, mas 
+você não pode escolher o poder Totem Espiritual ou 
+que tenham Totem Espiritual como pré-requisito.
+Sangue Místico. A partir do 3º nível, você 
+passa a somar seu Carisma no dano das suas magias 
+e recebe +1 nas suas rolagens de dano corpo a corpo 
+e em Misticismo. Para cada círculo de magias que 
+puder lançar além do 1º, esse bônus aumenta em +1.
+Tatuagens de Sangue. A partir do 5º nível, 
+você pode, sempre que sofrer dano, gastar uma quan-
+tidade de PM limitada pelo seu Carisma. Para cada 
+PM gasto, você recebe RD 10 contra o dano sofrido. 
+Além disso, no 9º, e a cada quatro níveis seguintes, 
+você recebe resistência a magia +2.
+Fúria Explosiva. No 20º nível, ao entrar em 
+Fúria, você gera uma deflagração de energia em uma 
+área de 9m ao seu redor. Criaturas na área sofrem 
+20d12 pontos de dano de essência (Ref CD For reduz 
+à metade). Para cada criatura que falhar no teste, o 
+bônus fornecido pela sua Fúria aumenta em +1 até o 
+fim da cena (limitado pelo seu Carisma). e
+xHemófagox
+Psicófago
+"Sua mente não lhe pertence mais."
+A casta soberana d'o Fim que agora habita Arton 
+são uma evidência recente, e talvez pacífica, de vida 
+extraterrestre, antes de Valkaria se tornar a líder 
+do panteão e relaxar as regras sobre todos os seres, 
+eles viviam isolados n'O Fim, em uma rígida casta 
+formada por vários seres. Mas agora, eles não apenas 
+estão mais ativos no mundo, como buscam espalhar 
+seu extenso e incompreensivo conhecimento com 
+os artonianos. Uma dessas doutrinas foi a arte de 
+"devorar" a mente dos inimigos, a psicofagia.
+Psicófagos são como os hemófagos de Umbralar, 
+mas ao invés de consumir a vitalidade dos seres vivos 
+através da absorção de sangue (incluindo o próprio), 
+eles devoram a mente e a energia de criaturas inte-
+ligentes, a sua essência, devorando a mana destes 
+seres. Mas isso tem um alto preço.
+Por serem capazes de consumir a mana de outros 
+seres, psicófagos recebem a rejeição da deusa da ma-
+gia, não conseguindo recuperar pontos de mana de 
+maneiras mundanas ou típicas. Ainda assim, eles não 
+são negados de usar a magia, pela generosidade da 
+deusa, ela apenas espera que eles se consumam até o 
+ponto de sumirem... O que cria um ciclo peculiar de 
+devorar, lançar magias e então consumir ainda mais.
+Características de 
+Classe
+Pontos de Vida. Um psicófago começa com 
+8 pontos de vida + Constituição e ganha 2 PV + 
+Constituição por nível.
+Pontos de Mana. 6 PM por nível.
+Perícias. Misticismo (Int) e Vontade (Sab), 
+mais 2 a sua escolha entre Atuação (Car), Conhe-
+cimento (Int), Cura (Sab), Iniciativa (Des), Intimi-
+dação (Car), Luta (For), Nobreza (Int), Ofício (Int), 
+Percepção (Sab), Pontaria (Des) e Religião (Sab).
+Proficiências. Como o hemófago básico.
+Tabela 1-27: O Psicófago
+Nível
+Habilidades de Classe
+1º
+Magias (1º círculo), psicofagia (1d4), psicofilia
+2º
+poder de Hemófago
+3º
+Blindar a mente, poder de Hemófago
+4º
+poder de Hemófago
+5º
+Magias (2º círculo), poder de Hemófago
+6º
+poder de Hemófago, psicofagia (1d6)
+7º
+Dissonância mental, poder de Hemófago
+8º
+poder de Hemófago
+9º
+Magias (3º círculo), poder de Hemófago
+10º
+poder de Hemófago, psicofagia (2d4)
+11º
+Desmantelar a mente, poder de Hemófago
+12º
+poder de Hemófago
+13º
+Magias (4º círculo), poder de Hemófago
+14º
+poder de Hemófago, psicofagia (2d6)
+15º
+poder de Hemófago
+16º
+poder de Hemófago
+17º
+Magias (5º círculo), poder de Hemófago
+18º
+poder de Hemófago, psicofagia (4d4)
+19º
+poder de Hemófago
+20º
+Ápice da mente (5d6), poder de Hemófago
+81

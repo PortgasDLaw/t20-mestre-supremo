@@ -1,0 +1,203 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=272 y1=127 ---
+machado enquanto monta um tigre voraz ou um ar-
+queiro extremamente habilidoso com olhos no céu.
+Características de 
+Classe
+
+--- block x0=68 y0=126 x1=253 y1=142 ---
+Pontos de Vida. Como o caçador básico.
+
+--- block x0=68 y0=142 x1=258 y1=159 ---
+Pontos de Mana. Como o caçador básico.
+
+--- block x0=51 y0=159 x1=275 y1=199 ---
+Perícias. Como o caçador básico, mas troque 
+Sobrevivência por Adestramento e adicione Sobrevi-
+vência a lista de perícias de classe.
+
+--- block x0=51 y0=199 x1=253 y1=244 ---
+Proficiências. Armas Marciais.
+Habilidades de Classe
+
+--- block x0=51 y0=242 x1=275 y1=319 ---
+Irmão Selvagem. Você recebe o poder Compa-
+nheiro Animal (veja Tormenta20, p. 61). Esse parceiro 
+não conta no seu limite. De forma alternativa, você 
+pode aumentar um dos benefícios de um parceiro 
+animal que já possua em +1 (e valores variáveis em 
+um passo).
+
+--- block x0=68 y0=319 x1=255 y1=335 ---
+Marca da Presa. Como o caçador básico.
+
+--- block x0=51 y0=335 x1=275 y1=363 ---
+Poder de Caçador. A partir do 2º nível, você 
+recebe essa habilidade como o caçador básico.
+
+--- block x0=51 y0=363 x1=275 y1=428 ---
+Matilha. No 3º nível, e a cada seis níveis se-
+guintes, você pode escolher entre receber um compa-
+nheiro animal adicional que não conta no seu limite 
+de parceiros, ou aumentar o benefício de um que já 
+possua em +1 (e valores variáveis em um passo).
+
+--- block x0=51 y0=426 x1=275 y1=499 ---
+Virar o Bicho. A partir do 5º nível, você pode 
+gastar uma ação completa e 3 PM para assimilar suas 
+capacidades a de um de seus parceiros animais. De 
+acordo com um dos tipos do parceiro escolhido, você 
+recebe as características abaixo até o fim da cena e o 
+parceiro para de te fornecer os benefícios dele.
+
+--- block x0=51 y0=499 x1=275 y1=539 ---
+•	 Ajudante. Some sua Sabedoria (mínimo +1, 
+limitado pelo nível) as perícias em que seu compa-
+nheiro lhe ajuda.
+
+--- block x0=51 y0=539 x1=275 y1=579 ---
+•	 Assassino. Receba uma quantidade de dados 
+de ataque furtivo igual a metade da sua Sabedoria 
+(mínimo +1d6, limitado pelo nível).
+
+--- block x0=51 y0=579 x1=275 y1=608 ---
+•	 Atirador e Fortão. O dano extra é em todos os 
+ataques, em vez de um ataque por rodada.
+
+--- block x0=51 y0=608 x1=275 y1=636 ---
+•	 Guardião. Some sua Sabedoria (mínimo +1, 
+limitado pelo nível) na Defesa e em Reflexos.
+
+--- block x0=51 y0=636 x1=275 y1=664 ---
+•	 Montaria. Você recebe uma ação de movimento 
+adicional em seus turnos.
+
+--- block x0=51 y0=664 x1=275 y1=704 ---
+•	 Perseguidor. Você recebe Faro e os benefícios de 
+um parceiro Vigilante de acordo com o nível do seu 
+parceiro.
+
+--- block x0=289 y0=55 x1=513 y1=95 ---
+Irmão Aprimorado. No 7º nível, você recebe 
+o poder Companheiro Animal Aprimorado (veja 
+Tormenta20, p. 62).
+
+--- block x0=289 y0=95 x1=513 y1=147 ---
+Irmão Místico. No 11º nível, você recebe um 
+poder a sua escolha entre Companheiro Aberrante, 
+Elemental ou Mágico (veja Tormenta20, p. 62 e Heróis 
+de Arton, p. 66).
+
+--- block x0=289 y0=147 x1=513 y1=187 ---
+Irmão Lendário. No 15º nível, você recebe o 
+poder Companheiro Animal Lendário (veja Tormen-
+ta20, p. 62).
+
+--- block x0=289 y0=187 x1=513 y1=240 ---
+Mestre Caçador. No 20º nível, você recebe 
+essa habilidade como o caçador básico, mas você 
+também passa a somar sua Sabedoria (mínimo +1, 
+limitado pelo nível) em Adestramento e Cavalgar.
+
+--- block x0=289 y0=255 x1=412 y1=289 ---
+xBardox
+Metaleiro
+
+--- block x0=306 y0=291 x1=430 y1=307 ---
+"Tá na hora de tocar o terror!"
+
+--- block x0=332 y0=330 x1=467 y1=349 ---
+Tabela 1-20: O Metaleiro
+
+--- block x0=294 y0=352 x1=484 y1=366 ---
+Nível
+Habilidades de Classe
+
+--- block x0=305 y0=368 x1=500 y1=380 ---
+1º
+Magias (1º círculo), sinfonia da destruição –1
+
+--- block x0=305 y0=383 x1=448 y1=395 ---
+2º
+Ás de espadas, poder de bardo
+
+--- block x0=305 y0=398 x1=444 y1=409 ---
+3º
+Bater cabeça, poder de bardo
+
+--- block x0=305 y0=413 x1=391 y1=424 ---
+4º
+Poder de bardo
+
+--- block x0=305 y0=427 x1=474 y1=450 ---
+5º
+Poder de bardo, 
+sinfonia da destruição –2 (afeta dano)
+
+--- block x0=305 y0=453 x1=464 y1=464 ---
+6º
+Magias (2º círculo), poder de bardo
+
+--- block x0=305 y0=468 x1=391 y1=479 ---
+7º
+Poder de bardo
+
+--- block x0=305 y0=483 x1=453 y1=494 ---
+8º
+Poder de bardo, portador da luz
+
+--- block x0=305 y0=497 x1=502 y1=519 ---
+9º
+Bater cabeça (ação padrão), poder de bardo, 
+sinfonia da destruição –3 (afeta Defesa)
+
+--- block x0=303 y0=523 x1=464 y1=534 ---
+10º
+Magias (3º círculo), poder de bardo
+
+--- block x0=303 y0=538 x1=391 y1=549 ---
+11º
+Poder de bardo
+
+--- block x0=303 y0=552 x1=391 y1=564 ---
+12º
+Poder de bardo
+
+--- block x0=303 y0=567 x1=490 y1=589 ---
+13º
+Poder de bardo, sinfonia da destruição –4 
+(causa dano de trevas)
+
+--- block x0=303 y0=593 x1=464 y1=604 ---
+14º
+Magias (4º círculo), poder de bardo
+
+--- block x0=303 y0=607 x1=493 y1=619 ---
+15º
+Bater cabeça (sustentado), poder de bardo
+
+--- block x0=303 y0=622 x1=391 y1=633 ---
+16º
+Poder de bardo
+
+--- block x0=303 y0=637 x1=489 y1=648 ---
+17º
+Poder de bardo, sinfonia da destruição –5
+
+--- block x0=303 y0=652 x1=391 y1=663 ---
+18º
+Poder de bardo
+
+--- block x0=303 y0=666 x1=391 y1=678 ---
+19º
+Poder de bardo
+
+--- block x0=303 y0=681 x1=472 y1=692 ---
+20º
+Fúria da tempestade, poder de bardo
+
+--- block x0=7 y0=756 x1=17 y1=767 ---
+72
+

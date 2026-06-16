@@ -1,0 +1,99 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=68 y0=50 x1=499 y1=220 ---
+Novas Linhagens
+E
+
+--- block x0=71 y0=154 x1=295 y1=223 ---
+xistem inúmeras formas de um fei-
+ticeiro obter sua magia; através da 
+energia dos dragões, do sangue das 
+fadas ou até mesmo pela bênção de 
+uma divindade maior.
+
+--- block x0=71 y0=223 x1=295 y1=335 ---
+No entanto existem outros meios, esquecidos e 
+até mesmo raros que um arcanista pode obter seu 
+poder, pois é através de eventos específicos e muitas 
+vezes impossíveis ou incabíveis no cotidiano místico 
+que tais eventos aconteçam. Essas linhagens nor-
+malmente são obtidas de maneira consciente pelos 
+antepassados de cada feiticeiro, que estudaram e 
+buscaram dar a sua prole um poder único e raro, para 
+que ele possa cultivar.
+
+--- block x0=71 y0=335 x1=295 y1=435 ---
+A linhagem cósmica é dada aos feiticeiros que 
+conseguem uma "reunião" pessoal com Laurina, a 
+deusa menor das estrelas, ou simplesmente tiveram 
+um evento cosmológico atípico, como viajar pelo 
+Éter ou ter interações com mundos divinos. Há 
+também o caso mais raro e até dito como impossível, 
+onde recebem sua linhagem do contato com o Nada 
+e do Vazio.
+
+--- block x0=71 y0=435 x1=293 y1=544 ---
+Já os feiticeiros monstruosos possuem alguma 
+ligação com monstros, feras ou criaturas horrendas 
+criadas por divindades como Megalokk ou Tene-
+bra. Podendo ser até mesmo filhos de tais enti-
+dades, não sendo incomum de haver averianos 
+ou outras raças monstruosas com tal linhagem. 
+Estes dominam a magia com ferocidade evidente.
+Linhagem Cósmica
+
+--- block x0=71 y0=544 x1=295 y1=608 ---
+•	 Básica. Você pode usar Misticismo para 
+Rastrear e Orientar-se. Além disso, suas magias 
+que causam dano de essência tem o custo reduzido 
+em –1 PM (cumulativo) se você estiver sob um céu 
+estrelado.
+
+--- block x0=71 y0=608 x1=295 y1=648 ---
+•	 Aprimorada. Suas magias que causam dano de 
+essência tem o dano aumentado em +1 ponto por 
+dado (ou +2 se você estiver sob um céu estrelado).
+
+--- block x0=71 y0=648 x1=295 y1=713 ---
+•	 Superior. Se estiver sob um céu estrelado, você 
+pode, uma vez por cena, gastar uma ação completa 
+para absorver parte do poder das estrelas. Você rece-
+be uma quantidade de PM temporários igual ao seu 
+Carisma, que duram até o fim da cena.
+
+--- block x0=309 y0=154 x1=463 y1=171 ---
+Linhagem Monstruosa
+
+--- block x0=309 y0=171 x1=533 y1=223 ---
+•	 Básica. Magias que tenham como alvo armas 
+empunhadas passam a poder ser lançadas em armas 
+naturais. Além disso, lançar magias passam a não ser 
+mais uma ação que exige calma e concentração.
+
+--- block x0=309 y0=223 x1=533 y1=275 ---
+•	 Aprimorada. Ao fazer um ataque com uma 
+arma natural, você pode gastar 2 PM para lançar uma 
+magia com execução de uma ação padrão ou menor 
+como uma ação livre.
+
+--- block x0=309 y0=275 x1=533 y1=364 ---
+•	 Superior. Você soma seu Carisma nas suas 
+rolagens de dano com armas naturais. Além disso, 
+ao lançar uma magia que cause dano, pode gastar 
++1 PM para somar sua Força, 
+limitada pelo nível, 
+na rolagem de dano 
+desta magia.
+
+--- block x0=309 y0=592 x1=391 y1=603 ---
+Um feiticeiro cósmico 
+Um feiticeiro cósmico 
+
+--- block x0=313 y0=602 x1=386 y1=613 ---
+domina as estrelas.
+domina as estrelas.
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+57
+

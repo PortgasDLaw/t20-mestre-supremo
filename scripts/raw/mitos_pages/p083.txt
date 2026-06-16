@@ -1,0 +1,117 @@
+Aventureiros de Arton
+Características de 
+Classe
+Pontos de Vida. Um sábio começa com 8 
+pontos de vida + Con e ganha 2 PV + Con por nível.
+Pontos de Mana. Como o inventor básico.
+Perícias. Conhecimento (Int) e Vontade (Sab), 
+mais 4 a sua escolha entre Adestramento (Car), Atu-
+ação (Car), Cura (Sab), Diplomacia (Car), Engana-
+ção (Car), Guerra (Int), Iniciativa (Des), Intimidação 
+(Car), Intuição (Sab), Investigação (Int), Jogatina 
+(Car), Ladinagem (Des), Luta (For), Misticismo 
+(Int), Nobreza (Int), Ofício (Int), Percepção (Sab), 
+Pilotagem (Des), Pontaria (Des) e Religião (Sab).
+Proficiências. Nenhuma.
+Habilidades de Classe
+Auxílio Acadêmico. Ao fazer um teste para 
+Ajudar usando uma perícia originalmente baseada 
+em um atributo mental, você pode gastar 1 PM para 
+rolar dois dados e escolher o melhor resultado.
+Engenhosidade. Como o inventor básico.
+Poder de Inventor. A partir do 2º nível, 
+você recebe esta habilidade como o inventor básico, 
+mas não pode escolher o poder Engenhoqueiro ou 
+poderes que o tenha como pré-requisito.
+Acadêmico. A partir do 2º nível, escolha 
+uma perícia em que seja treinado (exceto Luta ou 
+Pontaria), ao fazer um teste da perícia escolhida ou 
+de Conhecimento, você pode gastar 1 PM para rolar 
+1d6 e somar o resultado ao valor total do teste. A 
+cada quatro níveis, você pode escolher uma perícia 
+adicional para ser afetada por essa habilidade.
+No 9º nível, e novamente no 15º nível, você pode 
+gastar +1 PM para aumentar o valor do dado de 
+acordo com a tabela.
+Ecleticismo Amplo. No 
+3º nível, você recebe um 
+poder de uma classe 
+que 
+não 
+a 
+sua, 
+usando seu nível de 
+inventor como seu 
+nível na classe do poder 
+escolhido. Uma vez 
+por dia, após concluir 
+um 
+descanso, 
+você 
+pode trocar esse poder 
+por outro.
+Traça de Livros. A 
+partir do 5º nível, você aumenta 
+em +2 o bônus de perícia fornecido por coleções de 
+livros e habilidades baseadas em estar em ambientes 
+com livros
+Bacharel. A partir do 6º nível, você dobra o 
+bônus de treinamento de perícias afetadas pela sua 
+habilidade Acadêmico.
+Mestre do Conhecimento. 
+No 20º nível, as habilidades Acadê-
+mico e Auxílio Acadêmico não tem 
+mais custo de PM. Além disso, 
+se puder escolher 10 em uma 
+perícia durante um teste, 
+você pode gastar 5 PM, uma 
+vez por perícia, por cena, 
+para escolher 20.
+xCaçadorx
+Tecelão
+"As técnicas antigas da linha 
+e costura, agora confiamos a você."
+Tabela 1-28: O Sábio
+Nível
+Habilidades de Classe
+1º
+Auxílio acadêmico, engenhosidade
+2º
+Acadêmico (1d6), poder de inventor
+3º
+Ecleticismo amplo, poder de inventor
+4º
+Poder de inventor
+5º
+Poder de inventor, traça de livros
+6º
+Bacharel, poder de inventor
+7º
+Poder de inventor
+8º
+Poder de inventor
+9º
+Acadêmico (1d8), poder de inventor
+10º
+Poder de inventor
+11º
+Poder de inventor
+12º
+Poder de inventor
+13º
+Poder de inventor
+14º
+Poder de inventor
+15º
+Acadêmico (1d10), poder de inventor
+16º
+Poder de inventor
+17º
+Poder de inventor
+18º
+Poder de inventor
+19º
+Poder de inventor
+20º
+Mestre do conhecimento, poder de inventor
+83

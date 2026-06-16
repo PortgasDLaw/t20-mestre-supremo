@@ -1,0 +1,117 @@
+Aventureiros de Arton
+Características de 
+Classe
+Pontos de Vida. Um hemófago começa com 
+24 pontos de vida + Constituição e ganha 6 PV + 
+Constituição por nível.
+Pontos de Mana. 3 PM por nível.
+Perícias. Fortitude (Con) e Misticismo (Int), 
+mais 2 a sua escolha entre Atuação (Car), Conhe-
+cimento (Int), Cura (Sab), Iniciativa (Des), Intimi-
+dação (Car), Luta (For), Nobreza (Int), Ofício (Int), 
+Percepção (Sab), Religião (Sab) e Vontade (Sab).
+Proficiências. Nenhuma. Assim como arca-
+nistas, hemófagos não iniciam com armadura.
+Habilidades de Classe
+Hemofagia. Você pode, uma vez por rodada, 
+gastar uma ação padrão e 2 PM (essa habilidade e 
+certos poderes de hemófago são os únicos em que ele 
+gasta PM) para disparar um raio de sangue em um 
+inimigo vivo em alcance curto. Ele sofre 2d4 pontos 
+de dano de trevas e você recupera PV na mesma 
+quantidade (Fort CD Car reduz à metade). Um alvo 
+afetado por essa habilidade e que falhe na resistência 
+não pode receber efeitos de cura por 1 rodada. No 
+6º nível, e a cada quatro níveis seguintes, você pode 
+gastar +1 PM para aumentar o dano em +1d4. e
+Hemofilia. Você não gasta PM para usar ha-
+bilidades, em vez disso, perde PV (que não podem 
+ser temporários). Para cada 1 PM que a habilidade 
+custar, você perde 2 PV para usá-la. A menos que dito 
+o contrário, pontos de vida perdidos dessa forma só 
+podem ser recuperados com cura acelerada, descanso 
+e habilidades de hemófago — exceto magias.
+Seu limite de PV é igual o dobro do seu nível 
+de hemófago, efeitos que afetam seu limite de PM 
+afetam o de PV (mas sempre duplicando-o).
+Magias. Você pode lançar magias arcanas e 
+divinas de 1º círculo de necromancia, transmutação 
+e uma terceira escola a sua escolha como se fossem 
+arcanas. A cada quatro níveis, pode lançar magias de 
+um círculo maior (2º círculo no 5º nível, 3º círculo 
+no 9º nível e assim por diante).
+Você começa com três magias de 1º círculo. A 
+cada nível, aprende uma magia de qualquer círculo 
+que possa lançar. Seu atributo-chave para lançar 
+magias é Carisma e você soma seu Carisma no seu 
+total de PV.
+Poder de Hemófago. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de hemófago a 
+sua escolha. Veja a lista a seguir.
+Caminho do Sangue. No 5º nível, escolha 
+entre Acúmulo Sanguíneo ou Penetração Sanguínea, 
+uma vez feita, essa escolha não pode ser mudada.
+•	 Acúmulo Sanguíneo. Ao usar Hemofagia, todo 
+PV sobressalente que receber é convertido em PV 
+temporários limitado pelo seu Carisma que duram 
+até o fim da cena e podem ser gastos com habilidades.
+•	 Penetração Sanguínea. O dano causado por 
+Hemofagia se torna perda de vida e aumenta em +1 
+dado do mesmo tipo.
+Hemopotência. A partir do 9º nível, ao usar 
+Hemofagia, você pode gastar +5 PM para mudar o 
+alvo para inimigos vivos no alcance. Além disso, um 
+alvo que falhe na resistência fica fraco.
+Regeneração Sanguínea. No 13º nível, 
+você recebe cura acelerada 10/mágico. e
+Banho de Sangue. No 20º nível, você recebe 
+imunidade a trevas e se torna imortal. Além disso, os 
+dados de Hemofagia muda para d6 e se você morrer 
+Tabela 1-4: O Hemófago
+Nível
+Habilidades de Classe
+1º
+Hemofagia (2d4), hemofilia, 
+magias (1º círculo)
+2º
+Poder de hemófago
+3º
+Poder de hemófago
+4º
+Poder de hemófago
+5º
+Caminho do sangue, magias (2º círculo), 
+poder de hemófago
+6º
+Hemofagia (3d4), poder de Hemófago
+7º
+Poder de hemófago
+8º
+Poder de hemófago
+9º
+Hemopotência, magias (3º círculo), 
+poder de hemófago
+10º
+Hemofagia (4d4), poder de hemófago
+11º
+Poder de hemófago
+12º
+Poder de hemófago
+13º
+Magias (4º círculo), poder de hemófago, 
+regeneração sanguínea.
+14º
+Hemofagia (5d4), poder de hemófago
+15º
+Poder de hemófago
+16º
+Poder de hemófago
+17º
+Magias (5º círculo), poder de hemófago
+18º
+Hemofagia (6d4), poder de hemófago
+19º
+Poder de hemófago
+20º
+Banho de sangue (6d6), poder de hemófago
+41

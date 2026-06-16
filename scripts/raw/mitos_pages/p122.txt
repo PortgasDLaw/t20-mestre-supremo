@@ -1,0 +1,96 @@
+Capítulo Um
+Decreto: Cortem as Cabeças!
+Criaturas escolhidas no alcance recebem +2 
+na margem de ameaça até o fim da cena. Se estiver 
+usando a regra de Efeitos Críticos, acertar a cabeça 
+do alvo aumenta a Severidade do ataque em +1. 
+Pré-requisito: 11º nível de nobre.
+Decreto: Libertem-se!
+Você pode gastar 6 PM para anular qualquer con-
+dição de movimento afetando as criaturas escolhidas 
+no alcance. Pré-requisito: 9º nível de nobre. e
+Decreto: Protejam-me!
+Criaturas voluntárias no alcance recebem +2 na 
+Defesa e em testes de resistência até o fim da cena, 
+mas uma vez por rodada, você pode fazer com que 
+um efeito hostil realizado contra você seja direciona-
+do a um dos alvos afetados por este decreto, desde 
+que ele ainda esteja no alcance.
+Decreto: Tenham Medo!
+Criaturas escolhidas no alcance ficam abaladas 
+(Von CD Car evita), ou apavorado por 1 rodada e 
+então abalado pela cena se falhar na resistência por 
+10 ou mais. Para cada criatura sob um efeito de medo 
+na cena após o uso deste decreto, você e seus aliados 
+recebem um bônus cumulativo de +1 em rolagens 
+de dano contra esses alvos.
+Família
+Capangas posicionados por você recebem +1 
+ponto de dano por dado e você ganha uma ação 
+padrão adicional (apenas para comandá-los). Pré-re-
+quisitos: 12º nível de nobre.
+Maquiavélico
+Ao realizar uma ação de estrutura que exija um 
+teste de perícia, você soma metade de seu Carisma 
+neste teste. Pré-requisitos: Senescal.
+Mercenarismo
+Seus capangas dispõem de um equipamento me-
+lhorado, aumentado o dano dos seus ataques em +1 
+dado do mesmo tipo e a Defesa em +2. Pré-requisito: 
+10º nível de nobre.
+Ordem de Execução
+Você pode gastar uma ação padrão e uma 
+quantidade de PM limitada pelo seu Carisma para 
+declarar uma criatura em alcance curto como alvo de 
+execução. Para cada PM gasto, seus aliados recebem 
++1 nas rolagens de dano contra essa criatura até que 
+seus PV cheguem a 0 ou menos — ou ao fim da cena.
+Ordens Ecoantes
+Na primeira rodada de um combate, ao usar 
+uma habilidade de nobre (exceto Gritar Ordens) 
+ou Comandar, você recebe +1 PM para gastar com 
+Gritar Ordens até o início do seu próximo turno. 
+Pré-requisito: 4º nível de nobre.
+Palavras Ensaiadas
+Ao realizar um teste de Diplomacia ou Intimi-
+dação, você pode gastar 1 PM para refazer este teste 
+usando Atuação.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt.
+Palavras Motivadoras
+Sempre que uma criatura falha em um teste de 
+resistência contra um de seus decretos, você recebe 
++1 PM temporário cumulativo que dura até o fim 
+da cena, limitado pelo seu nível. Pré-requisito: dois 
+poderes de decreto.
+Pele de Diamante
+Você pode gastar uma ação completa e 3 PM para 
+receber +2 na Defesa e redução de dano 5 até o fim 
+da cena. No 13º nível, você pode gastar +2 PM para 
+mudar os bônus para +5 na Defesa e a redução de 
+dano para 10. Pré-requisito: 9º nível de nobre. e
+Presença de Aegis
+Sua presença inspira e livra as pessoas do temor. 
+Você recebe imunidade a encantamento e medo (esse 
+poder não elimina fobias raciais). Além disso, uma 
+vez por cena, se você ou um aliado em alcance curto 
+sofrer dano ou uma condição mental, você pode gas-
+tar 5 PM e fazer um teste de Diplomacia ou Intimi-
+dação contra a CD deste efeito (ou um teste oposto 
+se for um ataque). Se passar, o dano ou condição é 
+anulada. Pré-requisitos: Car 6, 18º nível de nobre.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt.
+122

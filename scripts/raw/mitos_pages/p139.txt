@@ -1,0 +1,85 @@
+Aventureiros de Arton
+Você soma seu Carisma, limitado pelo nível, nas 
+rolagens de danos de magias que causam dano de 
+trevas e de suas armas corpo a corpo leves e ágeis.
+Rocha Vulcânica	
+g'rokk
+Você recebe imunidade a efeitos climáticos e 
+redução de fogo 10.
+Roedor	
+toskr
+Você recebe +10 em testes para escalar e uma 
+arma natural de mordida (dano 1d6, crítico x2, 
+perfuração). Uma vez por rodada, quando usa a ação 
+agredir para atacar com outra arma corpo a corpo, 
+você pode gastar 1 PM para fazer um ataque corpo a 
+corpo extra com a mordida.
+Sangue de Dragão	
+kobolds
+Vocês recebem a habilidade Herança Dracônica 
+e duas bênçãos de Kallyadranoch (veja Ameaças de 
+Arton, p. 151). Pré-requisito: 5º nível de personagem.
+Sangue vital	
+várias
+Você soma sua Inteligência no seu total de pon-
+tos de vida no 1º nível, e recebe +1 PV a cada nível 
+seguinte. Além disso, você pode, uma vez por roda-
+da, gastar 2 PM para recuperar 5 PV.  Pré-requisito: 
+homunculus ou raça do tipo espírito.
+Senso de Si	
+Harpia
+Você atribui-se a ideia de beleza, e por desejo 
+divino, torna-se assim. Você recebe +1 em testes 
+de perícia originalmente baseadas em Carisma. 
+Além disso, você pode usar Carisma no lugar do 
+seu atributo-chave de magias divinas e Misticismo. 
+Pré-requisito: não ser devoto de Megalokk.
+Sete Pecados	
+sulfure
+Você recebe uma habilidade dentre as disponíveis 
+na lista do Pecador (p. @@). Se já for um pecador, 
+pode escolher um segundo pecado da lista.
+Tartaruga Negra	
+Kappa
+Escolha duas das perícias a seguir: Acrobacia, 
+Atletismo, Enganação, Furtividade, Jogatina e 
+Ladinagem. Ao fazer um teste de uma das perícias 
+escolhidas, você pode gastar 2 PM para somar sua 
+Constituição neste teste.
+Topor	
+Alraune, Dahllan, Sílfide
+Você pode gastar uma ação padrão e 2 PM para 
+lançar no ar uma nuvem de pó silvestre em um cubo 
+com 3m de lado em alcance curto. Os seres na área 
+fazem um teste de Fortitude (CD Car), quem falhar 
+fica enfeitiçado até sofrer algum ataque. Alvos hostis 
+tem +5 no teste de resistência contra esse efeito.
+Troncudo	 Galokk, Minotauro, Ogro, Orc
+Uma vez por rodada, ao sofrer dano, você pode 
+gastar uma quantidade de PM limitado pela sua For-
+ça. Para cada PM gasto, você recebe RD 5 contra o 
+dano recebido. Pré-requisito: 7º nível de personagem.
+Valente	
+humano
+Ao ficar com metade dos seus pontos de vida má-
+ximos ou menos, você pode gastar 3 PM para receber 
++2 na Defesa e +1 em seus testes de resistência. A 
+partir do 7º nível, e novamente no 15º, você pode 
+gastar +1 PM para aumentar esses bônus em +1.
+Visão dos Gigantes	
+Jötun
+O alcance de sua percepção às cegas aumenta em 
+um passo. Além disso, você pode lançar Augúrio sem 
+custo de PM, mas com a execução mudada para 10 
+minutos e apenas uma vez por aventura, represen-
+tando sua capacidade de ver o futuro.
+Völundr	
+valquíria
+Você pode gastar uma ação de movimento e 3 
+PM para encantar uma arma que esteja empunhando 
+com o poder de Cardea até o fim da cena. O dano 
+de luz fornecido pela habilidade Coletora dos Mortos 
+muda para +3d6 e passa a afetar qualquer criatura — 
+esse dano é multiplicado em caso de acertos críticos 
+contra mortos-vivos. e
+139

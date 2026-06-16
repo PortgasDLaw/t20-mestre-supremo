@@ -1,0 +1,104 @@
+Capítulo Um
+e ainda restar pelo menos uma gota de seu sangue, 
+você volta a vida em 1d10 dias.
+Poderes de Classe
+•	 Adrenalina. Você pode perder 10 PV para rece-
+ber +1 em testes de perícia e +3m de deslocamento 
+até o fim da cena. Esses efeitos dobram no 17º nível 
+de hemófago. Pré-requisito: 5º nível de hemófago.
+•	 Aperto da Não-Vida. Uma vez por rodada, você 
+pode perder 6 PV para lançar uma garra de sangue 
+que puxa todas as criaturas em uma linha de 6m a 
+partir de você até que fiquem adjacentes, percam 4d6 
+PV e fiquem fracas (Fort CD Car evita). Metabolismo.
+•	 Aperto Fágico. Uma vez por rodada, ao usar He-
+mofagia contra um alvo agarrado, você não gasta PM.
+•	 Ária de Dor. Uma vez por cena, ao ficar com 0 
+PV ou menos, você ainda fica consciente até o fim de 
+seu próximo turno, mas não pode usar nenhuma ha-
+bilidade que gaste PV. Você ainda morre se ficar com 
+um valor negativo de pontos de vida igual ou maior 
+que à metade que a sua vida máxima. Pré-requisito: 
+12º nível de hemófago.
+•	 Aristocrata Póstumo. Você soma seu Carisma 
+em Nobreza e pode falar com mortos-vivos como se 
+estivesse sob efeito de Voz Divina. e
+•	 Arma de Sangue. Você pode gastar uma ação de 
+movimento e 6 PV para produzir uma arma corpo 
+a corpo adaptável e ágil feita com seu sangue (dano 
+1d6/1d8, crítico x2, trevas) até o fim da cena. O dano 
+da arma aumenta em +1 dado por círculo de magia 
+além do 1º que puder lançar e você soma seu Caris-
+ma nas rolagens de dano ela — em vez de Força. e
+•	 Arma de Ferro. Ao usar Arma de Sangue, você 
+pode gastar +6 PV para produzí-la como ferro de 
+seu sangue. Você pode usar Misticismo para atacar 
+com a arma e ela recebe uma melhoria por círculo de 
+magias acima do 1º que puder lançar. Pré-requisitos: 
+Arma de Sangue, 5º nível de hemófago.
+•	 Arma Vampírica. Uma vez por rodada, ao fazer 
+um ataque com sua arma de sangue, você pode usar 
+Hemofagia como parte dessa mesma ação. Se acertar o 
+ataque, causa o dano da arma e o da habilidade — mas 
+recupera vida apenas pelo dano causado por Hemofagia. 
+Pré-requisitos: Arma de Sangue, 8º nível de hemófago.
+•	 Aumento de Atributo. Você recebe +1 em um atri-
+buto. Você pode escolher esse poder várias vezes, mas 
+apenas uma vez por patamar para um mesmo atributo.
+•	 Aurora da Dor. Para cada 20 pontos de vida 
+perdidos por receber dano, você recebe um bônus 
+cumulativo de +1 nas rolagens de dano das suas 
+magias até o fim da cena — limitado pelo Carisma.
+•	 Banco de Sangue. Você passa a ser acompanhado 
+por uma esfera rubra diáfana que armazena sangue. 
+Sempre que usa Hemofagia, você pode armazenar o 
+dano causado na esfera, que pode conter uma quan-
+tidade de "dano" igual a cinco vezes sua Constituição. 
+Você pode consumir o PV armazenado na esfera em 
+vez dos seu para suas habilidades. Criaturas podem 
+atacar a esfera, que possui Defesa igual a sua e PV 
+iguais ao dano armazenado. Se for destruída, a esfera 
+se reconstrói no início do próximo dia. e
+•	 Couraça de Espinhos. Ao usar Couraça do De-
+fundo, sempre que sofrer dano, todo dano absorvido 
+pela redução de dano fornecida pela couraça retorna 
+ao agressor como dano de trevas. Esse efeito acon-
+tece uma vez por rodada. Pré-requisito: Couraça do 
+Defunto, 8º nível de hemófago. e
+•	 Couraça do Defunto. Se não estiver usando 
+armadura, você pode gastar uma ação de movimento 
+e 8 PV para receber redução de dano 5 até o fim da 
+cena. No nível 17, você pode perder +8 PV para 
+receber redução de dano 10. e
+•	 Doação. Uma vez por rodada, você pode gastar 
+uma ação padrão e 2 PV por ponto em Constituição. 
+Para cada 2 PV perdido, você cura 1d4 PV de uma 
+criatura viva em alcance curto.
+•	 Explosão de Cadáver. Você pode gastar uma 
+ação padrão e 2 PV para explodir o cadáver de uma 
+criatura viva em alcance curto. A explosão causa 1d4 
+pontos de dano de trevas por ponto em Constituição 
+do alvo em todas as criaturas que estejam em uma 
+área de 3m de raio dele (Ref CD Car evita). e
+•	 Explosão em Cadeia. Ao usar Explosão de 
+Cadáver, você pode perder +2 PV para explodir um 
+alvo adicional dentro da área da primeira explosão. 
+Pré-requisito: Explosão de Cadáver.
+•	 Explosão Grotesca. A área da Explosão de 
+Cadáver aumenta em +3m, o dano muda para d6 
+e as criaturas afetadas ficam enjoadas por 1 rodada 
+se falhar na resistência. Pré-requisitos: Explosão de 
+Cadáver, 8º nível de hemófago.
+•	 Flechas de Sangue. Ao usar Arma de Sangue, 
+você pode perder +2 PV para produzir uma arma à 
+distância com alcance médio (dano 1d10, crítico x3, 
+trevas). Ao atacar com essa arma, você perde 1 PV 
+produzindo a munição.
+•	 Graal Profano. Ao matar uma criatura viva, 
+você pode gastar 3 PM para produzir um frasco de 
+sangue. O frasco ocupa 0,5 espaços e pode ser con-
+sumido com uma ação padrão para recuperar 1d4 PV 
+por ponto em Constituição da criatura — incluindo 
+perda de vida por habilidades. Pré-requisito: treinado 
+em Ofício (alquimista).
+42

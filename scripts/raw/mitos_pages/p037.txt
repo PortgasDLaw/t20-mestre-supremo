@@ -1,0 +1,101 @@
+Aventureiros de Arton
+•	 Espírito Gentil. Você pode usar Regeneração 
+Meditativa em criaturas vivas em alcance curto. Além 
+disso, seus efeitos de cura de luz recupera +1 PV por 
+dado. Pré-requisito: Revitalização Espiritual.
+•	 Expansão Metodológica. Você recebe um segun-
+do método de cultivo. Para efeitos de meridiano, 
+considere como tendo dois meridianos a menos no 
+segundo método e para poderes que o tenha como 
+pré-requisito. Pré-requisito: 6º nível de cultivador.
+•	 Focar o Dantian. Você soma sua Sabedoria na 
+cura e no dano das suas habilidades de cultivador.
+•	 Jigoku. Você pode gastar uma ação completa 
+e 15 PM para abrir uma fenda para o inferno de 
+Sora. Correntes surgem e captura uma criatura a sua 
+escolha em alcance curto (Ref CD Sab evita). Caso 
+a criatura seja capturada, é agarrada e arrastada em 
+direção a fenda. No próximo turno da criatura, ela 
+deve repetir o teste, se falhar, a fenda a suga por com-
+pleto, a fazendo desasparecer. Pré-requisitos: Método 
+do Demônio Imperial, 17º nível de cultivador. e
+•	 Kyudo. Ao usar Mestre das Armas, você pode 
+escolher arcos. Se sua arma de cultivo for um arco, 
+Espada da Garça fornece o encanto caçadora, em vez 
+de dançarina. Pré-requisito: Mestre das Armas.
+•	 Lâmina de Chi. Você pode gastar uma ação de 
+movimento e 5 PM para criar uma lâmina de energia 
+(dano 1d12, crítico 19/x3, essência) com duração 
+sustentada. Ela surge em sua mão, é considerada 
+mágica, ignora 5 pontos de redução de dano por 
+meridiano aberto após o 3º e emite uma luz azulada 
+que ilumina como uma tocha. Pré-requisitos: Método 
+das Armas, 8º nível de cultivador. e
+•	 Lâminas dos Sete Céus. Você pode gastar uma 
+ação padrão e uma quantidade de PM limitada pela 
+sua Sabedoria. Para cada PM gasto, você invoca uma 
+espada de energia (dano 1d8+1, crítico x2, essência) 
+como um efeito sustentado. Após invocadas, você 
+pode gastar uma ação padrão e 1 carga de chi para as 
+espadas atacarem um ou mais alvos em alcance curto, 
+limitado pela quantidade de espadas invocadas. e
+•	 Magia Moldada. Ao lançar uma magia com 
+efeito de área, você pode gastar 1 carga de chi por 
+criatura na área para que a magia não o afete. Pré-re-
+quisitos: Método da Meditação, 6º nível de cultivador.
+•	 Mandala: Abismo e Paraíso. O alvo sofre 1d6 
+pontos de dano de luz ou trevas por mandala (Fort 
+reduz à metade). Explodir a mandala causa 1d12 
+pontos de dano de luz ou trevas por mandala no 
+alvo e criaturas adjacentes ao alvo ficam abaladas (se 
+causou dano de trevas) ou ofuscadas (se causou dano 
+de luz; Fort reduz à metade e evita a condição). e
+•	 Mandala: Reino Bestial. O alvo fica em uma con-
+dição ruim para lançar magias, ou terrível se falhar 
+no teste de Vontade. Explodir a mandala deixa o alvo 
+surdo por um número de rodadas igual a quantidade 
+de mandalas que ele tinha em seu corpo (Von evita). 
+Pré-requisito: 6º nível de cultivador. e
+•	 Mandala: Reino Deva. O alvo não sofre efeitos 
+da mandala, mas explodir elas faz o alvo perder 1d12 
+PV por mandala (Fort reduz à metade). Todo PV 
+perdido pelo alvo é convertido em cura para você. 
+Pré-requisito: 14º nível de cultivador. e
+•	 Mandala: Reino Mortal. O alvo sofre –1 em 
+testes de perícia e na Defesa por mandala (Vont 
+remove uma mandala). Explodir as mandalas deixa o 
+alvo desprevenido por um número de rodadas igual a 
+quantidade de mandalas explodidas (Vont muda para 
+vulnerável). Pré-requisito: 8º nível de cultivador. e
+•	 Meditar. Você aprende duas magias de qualquer 
+círculo e escola que possa lançar. Você pode escolher 
+este poder quantas vezes quiser. Pré-requisito: Método 
+da meditação.
+•	 Mestre das Armas. Uma vez por aventura, você 
+pode realizar um ritual que gasta 1 dia e T$ 100 
+em materiais para trocar a sua arma de cultivo por 
+uma arma corpo a corpo leve ou ágil em que seja 
+proficiente. Você deve ter uma versão mundana do 
+item escolhido, que recebe todos os benefícios da 
+sua arma de cultivo. Ao fim da transferência, a arma 
+antiga é destruída. Pré-requisito: Método das Armas.
+•	 Mestre das Mandalas. Você soma a quantidade 
+de meridianos abertos na CD para resistir as suas 
+Mandalas
+Alguns poderes do cultivador são Mandalas. 
+Esses poderes compartilham as seguintes 
+regras.
+• Ativar uma mandala é uma reação a um 
+ataque bem sucedido e custa 2 PM. Efeitos 
+de mandala se repetem sempre no início do 
+turno do alvo marcado por ela.
+• Explodir a mandala é uma ação livre que 
+pode ser realizada durante seu turno.
+• A CD da mandala é Sabedoria. Resistir a 
+elas é um teste definido pela Mandala.
+• Você pode sustentar um valor máximo 
+de mandalas igual a sua quantidade de 
+meridianos abertos. Podendo aplicar 
+mandalas em diferentes alvos, explodir uma 
+mandala explode todas de uma vez.
+37

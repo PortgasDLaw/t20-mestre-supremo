@@ -1,0 +1,62 @@
+Aventureiros de Arton
+Flexionar
+Ao usar um preparado ou poção, você pode mu-
+dar sua execução para uma ação completa (caso não 
+seja), se fizer isso, aumenta os efeitos do item em +2 
+(ou em +1 dado). Além disso, até o fim da cena, você 
+recebe Força ou Destreza +1, a sua escolha.
+Golpes Gêmeos
+Uma vez por rodada, quando usa Golpe Pessoal 
+com uma arma de uma mão enquanto empunha uma 
+arma leve na outra, você pode usar o mesmo Golpe 
+Pessoal com a outra arma como parte da mesma ação. 
+O segundo ataque tem o custo diminuido em 
+–2 PM, mas você sofre uma penalidade 
+de –5 no segundo ataque. Pré-requisitos: 
+Ambidestria, Golpe Pessoal, 17º nível de 
+guerreiro.
+Guerreiro Primitivo
+Você recebe um poder de bárbaro cujo 
+pré-requisitos cumpra, usando seu nível de 
+guerreiro como nível de bárbaro. Pré-requisi-
+tos: treinado em Fortitude.
+Investida Atlética
+Ao fazer uma investida, você pode gastar 
+2 PM e fazer um teste de Atletismo. Para cada 10 
+pontos de resultado neste teste, o bônus do ataque 
+aumenta em +1 e caso o acerte, você causa +2 dados 
+extras de dano. Pré-requisitos: treinado em Atletismo.
+Mestre em Armadura
+Se estiver usando armadura pesada, você recebe 
+fortificação 25%. Pré-requisitos: Defesa Estratégica, 
+Especialização em Armadura, 18º nível de guerreiro.
+Mestre Espadachim
+Se estiver empunhando uma arma na qual é mes-
+tre em uma mão e nada na outra e for alvo de um 
+ataque, você pode gastar 2 PM e fazer um teste de 
+ataque. Se o resultado do seu teste for maior que 
+o do oponente, você evita o ataque. Pré-requisitos: 
+Mestre em Arma.
+Movimentação Estratégica
+Ao usar Xadrez da Batalha, você pode gastar 
++1 PM por aliado em alcance curto (incluindo 
+você), se fizer isso, até o fim da cena, você e 
+os aliados escolhidos recebem +6m de des-
+locamento, mas apenas para se deslocar em 
+direção ao alvo marcado. Pré-requisito: Xadrez 
+da Batalha.
+Sacrifício Bélico
+Ao fazer um ataque com uma arma corpo a cor-
+po, você pode gastar 2 PM para aumentar a margem 
+de ameaça e o multiplicador de crítico em dela em 
++1. Após o ataque, a arma é destruída. Para cada 
+melhoria que a arma possuir, a margem de ameaça 
+aumenta em +1, e para cada encanto, o multiplica-
+dor de crítico aumenta em +1. 
+Essa habilidade não pode 
+ser usada com artefatos.
+"Por Valkaria essa 
+"Por Valkaria essa 
+guerra vai ter fim!"
+guerra vai ter fim!"
+113

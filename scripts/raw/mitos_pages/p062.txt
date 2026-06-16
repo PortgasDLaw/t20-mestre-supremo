@@ -1,0 +1,113 @@
+Capítulo Um
+10 e causa +1 ponto de dano por dado com os tipos 
+de dano escolhidos. Se for devoto de Arton, pode 
+escolher um tipo de dano adicional da lista.
+Arma Sazonal. No 5º nível, e a cada seis níveis 
+seguintes, ao empunhar uma foice, gadanho ou arma 
+favorita da sua divindade, ela causa +1d8 pontos de 
+dano de um tipo escolhido em Força Elemental e 
+cumpre os pré-requisitos de Arma Tradicional.
+Avatar. No 20º nível, você escolhe todos os 
+tipos de dano descritos em Força Elemental — cujos 
+benefícios são dobrados. Além disso, o dano adicio-
+nal de Arma Sazonal muda para +6d12.
+xInquisidorx
+Eminente
+"Abra seus olhos, a realidade é só uma ilusão."
+O Fim. Uma dimensão alternativa habitada por 
+criaturas além da compreensão mortal, capaz de 
+distorcer a percepção das pessoas sobre o que é a 
+realidade, o que é verdadeiro, irreal, compreensivo 
+ou impossível. Não se tem muitas informações aca-
+dêmicas ou precisas sobre o que é esse lugar, além do 
+pouco que foi descoberto com contato com seres de 
+tal dimensão profana.
+Com isso, inquisidores passaram a ser enviados 
+para expedições planares rumo ao Fim, mas os 
+poucos que voltavam... Já não eram mais os mesmos. 
+Eles foram tocados pelo fim, transformados, não em 
+corpo, mas em mente, tornando-se uma parcela des-
+te mundo invertido na realidade presente, criaturas 
+eminentes; os inquisidores do fim.
+Os eminentes são atordoados pela compreensão 
+maior, e lutam não pela justiça mortal, humana ou 
+divina, mas pela justiça além, pelo que é verdadei-
+ramente certo. Eles possuem um código estrito em 
+relação ao que devem ou não fazer, e manuseiam 
+suas mentes como um arcanista habilidoso manuseia 
+magia. Para eles, tudo na realidade é compreensivo... 
+Basta ser manipulado em favor da justiça.
+Características de 
+Classe
+Pontos de Vida. Como o inquisidor básico.
+Pontos de Mana. 4 PM por nível.
+Perícias. Conhecimento (Int) e Intuição (Sab), 
+mais 4 a sua escolha entre Acrobacia (Des), Atletis-
+mo (For), Cura (Sab), Fortitude (Con), Furtividade 
+(Des), Intimidação (Car), Investigação (Int), Ladi-
+nagem (Des), Luta (For), Misticismo (Int), Nobreza 
+(Int), Ofício (Int), Percepção (Sab), Pilotagem (Des), 
+Pontaria (Des), Reflexos (Des), Religião (Sab), So-
+brevivência (Sab) e Vontade (Sab).
+Proficiências. Como o inquisidor básico.
+Habilidades de Classe
+Agente do Fim. Como em Agente da Lei 
+Oculta (p. @@), mas além do normal, você também 
+pode usar Sabedoria como atributo-chave de Pontaria 
+(em vez de Destreza). Se já puder fazer isso de outra 
+forma, invés disso recebe +2 em Pontaria.
+Código do Vicário. Você não pode atacar 
+criaturas antes delas o fazê-lo, mesmo que ele já 
+tenha atacado seus aliados. Nem atacar alvos caídos, 
+desprevenidos, surpreendidos, vulneráveis ou flan-
+queados. Se violar o código, perde todos os seus PM 
+e só pode recuperá-los a partir do próximo dia.
+Eminência. Você soma sua Inteligência em 
+seu total de PM e pode lançar magias divinas de 1º 
+círculo, mas apenas de adivinhação e encantamento. 
+Essa não é uma habilidade mágica e provém da sua 
+capacidade de vislumbrar o fim eminente. À medida 
+Tabela 1-12: O Eminente
+Nível
+Habilidades de Classe
+1º
+Agente do fim, código do vicário, eminência
+2º
+Discernimento, poder de inquisidor
+3º
+Poder de inquisidor
+4º
+Poder de inquisidor
+5º
+Apogeu da mente, poder de inquisidor
+6º
+Poder de inquisidor
+7º
+Poder de inquisidor
+8º
+Poder de inquisidor
+9º
+Poder de inquisidor
+10º
+Poder de inquisidor
+11º
+Poder de inquisidor, tributo
+12º
+Poder de inquisidor
+13º
+Poder de inquisidor
+14º
+Poder de inquisidor
+15º
+Poder de inquisidor
+16º
+Poder de inquisidor
+17º
+Poder de inquisidor
+18º
+Poder de inquisidor
+19º
+Poder de inquisidor
+20º
+A verdade, poder de inquisidor
+62

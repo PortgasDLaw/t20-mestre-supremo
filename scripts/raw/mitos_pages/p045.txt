@@ -1,0 +1,115 @@
+Aventureiros de Arton
+Características de 
+Classe
+Pontos de Vida. Um inquisidor começa com 
+12 pontos de vida + Constituição e ganha 3 PV + 
+Constituição por nível.
+Pontos de Mana. 3 PM por nível.
+Perícias. Pontaria (Des) e Investigação (Int), 
+mais 6 a sua escolha entre Acrobacia (Des), Atletis-
+mo (For), Cura (Sab), Fortitude (Con), Furtividade 
+(Des), Intimidação (Car), Intuição (Sab), Ladinagem 
+(Des), Luta (For), Misticismo (Int), Nobreza (Int), 
+Ofício (Int), Percepção (Sab), Pilotagem (Des), Re-
+flexos (Des), Religião (Sab), Sobrevivência (Sab) e 
+Vontade (Sab).
+Proficiências. Armas de fogo.
+Habilidades de Classe
+Agente da Lei Oculta. Você começa o jogo 
+com uma pistola e 20 balas. Além disso, tem permis-
+são para comprar e utilizar itens a base de pólvora e 
+armas de fogo dentro dos limites do Reinado.
+Coronhada. Você pode realizar ataques corpo 
+a corpo com armas de fogo (dano 1d6, crítico x2, 
+impacto), se a arma for de duas mãos, aumente esse 
+dano em um passo, melhorias e encantos aplicados a 
+sua arma e que afetem armas corpo a corpo também 
+afetam a sua coronhada.
+Tiro Calculado. Quando faz um ataque à 
+distância com uma arma de fogo, você pode gastar 
+2 PM para calcular seu disparo. Você soma sua In-
+teligência no teste de ataque e ignora 2 pontos da 
+redução de dano do alvo. A cada quatro níveis, você 
+pode gastar +1 PM para ignorar +2 de RD do alvo.
+Poder de Inquisidor. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de inquisidor a 
+sua escolha. Veja a lista a seguir.
+Técnicas Inquisitivas. No 3º nível, você 
+recebe +2 em Cura e Investigação e pode usar In-
+teligência como atributo-chave de Cura. A cada seis 
+níveis, esse bônus aumenta em +1.
+Pacto Sagrado. No 5º nível, escolha entre a 
+Bênção Antiga ou a Bênção Áurea. Uma vez feita, a 
+escolha não pode ser mudada.
+•	 Bênção Antiga. Você soma sua Inteligência nos 
+seus PV e recebe +1 PV por nível de inquisidor. 
+Além disso, recebe imunidade a doenças e venenos.
+•	 Bênção Áurea. Você soma sua Inteligência nos 
+seus PM e recebe +1 PM por nível de inquisidor. 
+Além disso, recebe imunidade a medo.
+Melhorias Pessoais. No 11º nível, o dano 
+de uma arma de fogo empunhada por você aumenta 
+em +1 dado do mesmo tipo e a ação necessária para 
+recarregá-la diminui em uma categoria.
+Gatilho Desenfreado. No 20º nível, você 
+recebe um turno adicional — role a iniciativa duas 
+vezes. Esse efeito exige liberdade de movimentos; 
+você não pode usá-lo se estiver de armadura pesada 
+ou sob qualquer condição de movimento.
+Poderes de Classe
+•	 Absorver História. Você recebe +5 em testes 
+para Identificar, e, se passar, recebe uma informação 
+adicional sobre o que está identificando. Pré-requisi-
+tos: Int 3, treinado em Conhecimento, Misticismo, 
+Religião e Sobrevivência.
+•	 Alquimago. Ao fabricar uma seringa arcana, 
+você pode gastar +T$ 500 para que a criatura in-
+jetada possa lançar uma magia de 1º ou 2º círculo. 
+Pré-requisitos: 6º nível de inquisidor, Seringueiro.
+Tabela 1-5: O Inquisidor
+Nível
+Habilidades de Classe
+1º
+Agente da lei oculta, coronhada, 
+tiro calculado (RD 2)
+2º
+Poder de inquisidor
+3º
+Poder de inquisidor, técnicas inquisitivas +2
+4º
+Poder de inquisidor
+5º
+Pacto sagrado, poder de inquisidor, 
+tiro calculado (RD 4)
+6º
+Poder de inquisidor
+7º
+Poder de inquisidor
+8º
+Poder de inquisidor
+9º
+Poder de inquisidor, técnicas Inquisitivas +3, 
+tiro calculado (RD 6)
+10º
+Poder de inquisidor
+11º
+Melhorias pessoais, poder de inquisidor
+12º
+Poder de inquisidor
+13º
+Poder de inquisidor, tiro calculado (RD 8)
+14º
+Poder de inquisidor
+15º
+Poder de inquisidor, técnicas inquisitivas +4
+16º
+Poder de inquisidor
+17º
+Poder de inquisidor, tiro calculado (RD 10)
+18º
+Poder de inquisidor
+19º
+Poder de inquisidor
+20º
+Gatilho desenfreado, poder de inquisidor
+45

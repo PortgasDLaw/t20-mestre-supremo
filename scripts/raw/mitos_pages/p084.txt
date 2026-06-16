@@ -1,0 +1,118 @@
+Capítulo Um
+Nas terras subterrâneas de Alstra, ou em regiões 
+desconhecidas das montanhas sanguinárias, o povo 
+subterrâneo como os entomas ou até mesmo alguns 
+aracnídeos cultivaram uma técnica de tecelagem an-
+cestral que forma caçadores excêntricos por misturar 
+a delicada arte da costura com um combate rápido e 
+frenético, estes são os tecelãos.
+Um tecelão é facilmente reconhecido por duas 
+coisas; seus mantos finamente produzidos com ma-
+teriais exóticos e com propriedades além de qualquer 
+outra vestimenta, e suas armas, que são vinculadas a 
+um tipo de linha mística conhecida como seda, que 
+os permite se aprimorar e combater inimigos com 
+graciosidade e perfeição notáveis, além de utilizar 
+habilidades especiais somente possíveis com o vín-
+culo com a seda em seus equipamentos.
+Características de 
+Classe
+Pontos de Vida. Como o caçador básico.
+Pontos de Mana. Como o caçador básico.
+Perícias. Ofício (Alfaiate [Int]) e Reflexos 
+(Des), mais 6 a sua escolha entre Acrobacia (Des), 
+Atletismo (For), Conhecimento (Int), Diplomacia 
+(Car), Enganação (Car), Furtividade (Des), Intima-
+dação (Car), Investigação (Int), Ladinagem (Des), 
+Luta (For), Misticismo (Int), Ofício (Int), Percepção 
+(Sab) e Pontaria (Des).
+Proficiências. Armas marciais.
+Habilidades de Classe
+Arte Ancestral. Você soma sua Sabedoria, 
+limitada pelo nível, em Ofício (alfaiate).
+Manto do Caçador. Você começa com um 
+manto especial com os efeitos de dois vestuários à 
+sua escolha. No 6º nível, e a cada quatro níveis se-
+guintes, o manto recebe uma melhoria a sua escolha.
+No 10º nível, e a cada quatro níveis seguintes, seu 
+manto do caçador recebe um encanto a sua escolha. 
+Se perder seu manto ou ele for destruído, você pode 
+fabricar um novo com 1 semana de trabalho e o gasto 
+de T$ 50 em materiais.
+Marca da Presa. Como o caçador básico.
+Arma do Caçador. No 2º nível, escolha uma 
+arma corpo a corpo leve ou ágil que cause dano 
+de corte ou perfuração. A arma é vinculada a uma 
+linha de seda que lhe permite puxar a arma como 
+uma ação livre ou reação em qualquer ponto que ela 
+esteja em alcance médio e usar uma das habilidades 
+a seguir, a sua escolha, que uma vez feita, não pode 
+ser mudada. Usar essas habilidades gasta 3 PM como 
+parte de uma ação. A cada quatro níveis, você pode 
+escolher uma habilidade adicional para poder usar.
+•	 Avanço de Seda. Você faz um ataque à distância 
+contra um alvo em alcance curto arremessando sua 
+arma contra ele. Se acertar, você se impulsiona em 
+direção ao alvo, ficando adjacente a ele.
+•	 Flechas de Seda. Você gasta uma ação de movi-
+mento para criar uma quantidade de setas feitas de 
+seda igual a sua Sabedoria (limitado pelo nível). Elas 
+duram até o fim da cena e causam dano de perfuração 
+Tabela 1-29: O Tecelão
+Nível
+Habilidades de Classe
+1º
+Arte ancestral, manto do caçador, 
+marca da presa +1d4
+2º
+Arma do caçador (1 habilidade), estilista (1 
+melhoria), poder de caçador
+3º
+Manto fortificado, poder de caçador
+4º
+Poder de caçador
+5º
+Estilista (2 melhorias), marca da presa +1d8, 
+poder de caçador
+6º
+Arma do caçador (2 habilidades), marca 
+pessoal, manto do caçador (1 melhoria), 
+poder de caçador
+7º
+Estilista (3 melhorias), poder de caçador
+8º
+Poder de caçador
+9º
+Estilista (menor), marca da presa +1d12, 
+poder de caçador
+10º
+Arma do caçador (3 habilidades), estilista (4 
+melhorias), manto do caçador (2 melhorias, 
+menor), poder de caçador
+11º
+Poder de caçador
+12º
+Poder de caçador
+13º
+Estilista (médio), marca da presa +2d8, 
+poder de caçador
+14º
+Arma do caçador (4 habilidades), manto 
+do caçador (3 melhorias, médio), poder de 
+caçador
+15º
+Poder de caçador
+16º
+Poder de caçador
+17º
+Estilista (maior), marca da presa +2d10, 
+poder de caçador
+18º
+Arma do caçador (5 habilidades), manto 
+do caçador (4 melhorias, maior), poder de 
+caçador
+19º
+Poder de caçador
+20º
+Mestre da seda, poder de caçador
+84

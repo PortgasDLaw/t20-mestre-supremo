@@ -1,0 +1,183 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=83 ---
+rodada, gastar 3 PM para receber uma ação padrão — 
+apenas para comandá-los.
+
+--- block x0=51 y0=83 x1=275 y1=159 ---
+•	 Tutoria Intensiva. Seu braço direito recebe +4 
+PV por nível, um traço e pode vestir um item adi-
+cional. No 11º nível, ele recebe um traço adicional e 
+você pode escolher poderes gerais como traço para 
+ele. No 17º nível, o limite de carga dele muda para 
+20 espaços.
+
+--- block x0=51 y0=159 x1=275 y1=259 ---
+Estratégias de Comando. A partir do 6º 
+nível, você pode gastar uma ação completa, 3 PM 
+e encerrar seu turno. Até o início do seu próximo 
+turno, sempre que um aliado em alcance curto usar 
+uma ação Agredir para atacar um inimigo, você pode 
+gastar 2 PM para fazer um de seus melhores amigos 
+se deslocar até este inimigo e atacá-lo também (se 
+conseguir).
+
+--- block x0=51 y0=259 x1=275 y1=348 ---
+Mestre da Guerra. No 20º nível, você pode 
+usar Direcionar em aliados no alcance, mas apenas 
+uma vez por rodada, por aliado. Além disso, ao usar 
+Discurso motivador, faça um teste de Guerra, para 
+cada 10 pontos de resultado neste teste, o custo da 
+habilidade é reduzido em –1 PM de forma cumulativa 
+nesta ativação.
+
+--- block x0=51 y0=363 x1=162 y1=400 ---
+xPaladinox
+Glorioso
+
+--- block x0=68 y0=402 x1=220 y1=418 ---
+"Por Arton! Por Alstra! Pela Glória!"
+
+--- block x0=51 y0=418 x1=275 y1=530 ---
+Pallasi Dina d'Alstra, para poucos esse nome 
+tem o merecido valor. Esta foi a primeira e única 
+paladina gloriosa de Arton, não apenas isso, como 
+foi uma das fundadoras da ordem gloriosa e também 
+líder suplente da ordem de Merkava. Ela lutou com 
+virtude e fé até o fim de seus dias ao proteger sua 
+mãe na batalha final contra os puristas, e enfim ser 
+arrebatada para Ordine, onde passou a viver ao lado 
+de seu grande amor.
+
+--- block x0=51 y0=530 x1=275 y1=630 ---
+Pallasi é um exemplo de heroísmo, virtude e 
+honra para todos os paladinos que assim como eram, 
+lutavam por ideais altruístas e por dedicação a causas 
+e amores, foi então que a ideia de novos paladinos 
+gloriosos começou a surgir. Um paladino glorioso 
+não é extremamente devotado, como um santo, mas 
+um herói verdadeiro, que se dedica a causas nobres, 
+e não a desígnos divinos.
+
+--- block x0=51 y0=630 x1=275 y1=706 ---
+Gloriosos não seguem deuses, seguem códigos, 
+causas, desejos e amores. Eles esperam o altruísmo 
+individual, e não recompensas dos milagres, e por 
+tal, são tão paladinos quanto os próprios que se di-
+zem santos ou heróicos. Lutando em nome do bem, 
+possuem códigos mais rígidos, mas compensam 
+
+--- block x0=289 y0=442 x1=513 y1=515 ---
+isso com habilidades e milagres mais poderosos que 
+qualquer outro devoto.
+Características de 
+Classe
+
+--- block x0=306 y0=514 x1=496 y1=530 ---
+Pontos de Vida. Como o paladino básico.
+
+--- block x0=306 y0=530 x1=461 y1=546 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=289 y0=546 x1=513 y1=575 ---
+Perícias. Cura (Sab), Luta (For), Nobreza 
+(Int), Religião (Sab) e Vontade (Sab).
+
+--- block x0=289 y0=574 x1=401 y1=615 ---
+Proficiências. 
+Como o paladino 
+básico.
+
+--- block x0=331 y0=65 x1=468 y1=84 ---
+Tabela 1-15: O Glorioso
+
+--- block x0=293 y0=87 x1=483 y1=101 ---
+Nível
+Habilidades de Classe
+
+--- block x0=305 y0=103 x1=442 y1=125 ---
+1º
+Abençoado, código do herói, 
+golpe corajoso +d4
+
+--- block x0=305 y0=129 x1=473 y1=140 ---
+2º
+Cura paciente +d4, poder de paladino
+
+--- block x0=305 y0=144 x1=461 y1=155 ---
+3º
+Elo temperado, poder de paladino
+
+--- block x0=305 y0=158 x1=402 y1=170 ---
+4º
+Poder de paladino
+
+--- block x0=305 y0=173 x1=482 y1=195 ---
+5º
+Golpe corajoso +d6, poder de paladino, 
+virtudes gloriosas
+
+--- block x0=305 y0=199 x1=473 y1=210 ---
+6º
+Cura paciente +d6, poder de paladino
+
+--- block x0=305 y0=213 x1=402 y1=225 ---
+7º
+Poder de paladino
+
+--- block x0=305 y0=228 x1=402 y1=240 ---
+8º
+Poder de paladino
+
+--- block x0=305 y0=243 x1=477 y1=254 ---
+9º
+Golpe corajoso +d8, Poder de paladino
+
+--- block x0=303 y0=258 x1=473 y1=269 ---
+10º
+Cura paciente +d8, poder de paladino
+
+--- block x0=303 y0=272 x1=402 y1=284 ---
+11º
+Poder de paladino
+
+--- block x0=303 y0=287 x1=402 y1=299 ---
+12º
+Poder de paladino
+
+--- block x0=303 y0=302 x1=482 y1=313 ---
+13º
+Golpe corajoso +d10, Poder de paladino
+
+--- block x0=303 y0=317 x1=478 y1=328 ---
+14º
+Cura paciente +d10, poder de paladino
+
+--- block x0=303 y0=331 x1=402 y1=343 ---
+15º
+Poder de paladino
+
+--- block x0=303 y0=346 x1=402 y1=358 ---
+16º
+Poder de paladino
+
+--- block x0=303 y0=361 x1=482 y1=372 ---
+17º
+Golpe corajoso +d12, Poder de paladino
+
+--- block x0=303 y0=376 x1=478 y1=387 ---
+18º
+Cura paciente +d12, poder de paladino
+
+--- block x0=303 y0=390 x1=402 y1=402 ---
+19º
+Poder de paladino
+
+--- block x0=303 y0=405 x1=461 y1=417 ---
+20º
+Poder de paladino, zênite virtuoso
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+66
+

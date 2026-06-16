@@ -1,0 +1,116 @@
+Capítulo Um
+Características de 
+Classe
+Pontos de Vida. Um vaqueiro começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Constituição por nível.
+Pontos de Mana. 3 PM por nível.
+Perícias. Adestramento (Car) e Cavalgar (Des), 
+mais 4 a sua escolha entre Acrobacia (Des), Atletismo 
+(For), Atuação (Car), Enganação (Car), Fortitude 
+(Con), Guerra (Int), Jogatina (Car), Ladinagem (Des), 
+Percepção (Sab), Pilotagem (Des), Pontaria (Des), 
+Reflexos (Des) e Sobrevivência (Sab).
+Proficiências. Armas de fogo e marciais.
+Habilidades de Classe
+Alazão. Você começa com um parceiro monta-
+ria iniciante, normalmente um cavalo (ou pônei) de 
+guerra, mas pode ser outra montaria sob aprovação 
+Tabela 1-7: O Vaqueiro
+Nível
+Habilidades de Classe
+1º
+Alazão, bicho arretado, boiadeiro +1
+2º
+Laçar, poder de vaqueiro
+3º
+Chapéu de vaqueiro +1, poder de vaqueiro
+4º
+Poder de vaqueiro
+5º
+Boiadeiro +2, caboclo, poder de vaqueiro
+6º
+Poder de vaqueiro
+7º
+Poder de vaqueiro
+8º
+Poder de vaqueiro
+9º
+Boiadeiro +3, chapéu de vaqueiro +2, poder 
+de vaqueiro
+10º
+Poder de vaqueiro
+11º
+Bicho valente (20%), poder de vaqueiro
+12º
+Poder de vaqueiro
+13º
+Boiadeiro +4, poder de vaqueiro
+14º
+Bicho valente (30%), poder de vaqueiro
+15º
+Chapéu de vaqueiro +3, poder de vaqueiro
+16º
+Poder de vaqueiro
+17º
+Bicho valente (40%), boiadeiro +5, poder de 
+vaqueiro
+18º
+Poder de vaqueiro
+19º
+Poder de vaqueiro
+20º
+Bicho valente (50%), cabra da peste, poder de 
+vaqueiro
+do mestre. No 5º nível, ele se torna um parceiro 
+veterano e no 11º, um parceiro mestre. Se sua mon-
+taria morrer, você pode treinar uma nova com um 
+tempo entre aventuras e o gasto de T$ 75 (ou mais, 
+a critério do mestre de acordo com sua montaria).
+Bicho Arretado. Enquanto montado, você 
+pode usar uma arma natural (dano 1d8, crítico x2, 
+varia) de acordo com sua montaria — como cascos, 
+mordida, etc. Uma vez por rodada, quando usa a ação 
+agredir ou faz uma investida montada para atacar 
+com outra arma, você pode gastar 1 PM para fazer um 
+ataque corpo a corpo extra com essa arma natural. 
+Caso receba uma habilidade com efeitos similares, 
+invés disso o dano da arma natural fornecida pela sua 
+montaria tem o dano aumentado em um passo.
+Boiadeiro. Você recebe +1 em Adestramento 
+e Cavalgar. Esse bônus aumenta em +1 a cada quatro 
+níveis. Além disso, você passa automaticamente em 
+testes de Cavalgar para não cair da montaria quando 
+sofre dano e não sofre penalidades para atacar à 
+distância ou lançar magias quando montado. Se for 
+um centauro ou g'rokk, você não sofre as penalidades 
+por carregar um cavaleiro — exceto penalidades de 
+sobrecarga. Essa habilidade conta como Ginete (veja 
+Tormenta20, p. 128) para para pré-requisitos.
+Laçar. No 2º nível, você se torna proficiente 
+com o chicote, boleadeira e rede. Além disso, ao 
+fazer um ataque com uma dessas armas, você pode 
+gastar 1 PM para fazer uma manobra agarrar como 
+uma ação livre, usando o resultado do seu teste de 
+ataque para esta manobra. Se conseguir agarrar uma 
+criatura dessa forma, pode usar uma ação de movi-
+mento para tornar a criatura adjacente a você.
+Poder de Vaqueiro. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de vaqueiro a 
+sua escolha. Veja a lista a seguir.
+Chapéu de Vaqueiro. A partir do 3º nível, 
+enquanto estiver vestindo um chapéu emplumado 
+(ou qualquer outro chapéu), você recebe +1 nos 
+seus testes de ataque e nas rolagens de dano com 
+armas de fogo e que são afetadas pelo poder Laçar. A 
+cada seis níveis, esses bônus aumentam em +1.
+Caboclo. No 5º nível, escolha entre Cabra da 
+Peste ou Lampião. Uma vez feita, a escolha não pode 
+ser mudada.
+•	 Cabra da Peste. Caso não possua qualquer outro 
+parceiro além de uma montaria, você dobra os efeitos 
+da habilidade Chapéu de Vaqueiro. Além disso, você 
+pode usar as ações de movimento fornecida pela sua 
+montaria para recarregar suas armas e sua montaria 
+pode se beneficiar de um item vestido adicional.
+54

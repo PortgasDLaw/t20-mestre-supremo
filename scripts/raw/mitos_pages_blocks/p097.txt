@@ -1,0 +1,93 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=184 y1=72 ---
+Familiar Feérico
+
+--- block x0=71 y0=72 x1=295 y1=181 ---
+Você pode reter uma magia de encantamento ou 
+ilusão no seu familiar por vez. Fazer isso exige gastar 
+PM e lançar a magia, mas ela fica armazenada no seu 
+familiar até o fim do dia. A qualquer momento como 
+uma ação livre, você pode lançar a magia retida sem a 
+necessidade de gestos ou vocalizações. Pré-requisitos: 
+Herança Básica (linhagem feérica), Familiar.
+Foco Martírico
+
+--- block x0=71 y0=180 x1=295 y1=265 ---
+Uma vez por rodada, quando sofrer um efeito 
+que lhe aplicaria uma condição, você pode gastar 3 
+PM para evitar receber a condição (mas ainda sofre 
+quaisquer outros efeitos). O foco também perde 
+1d12 pontos de vida. Pré-requisito: Foco Vital.
+Foco Resistente
+
+--- block x0=71 y0=265 x1=295 y1=338 ---
+Você soma seu atributo-chave na redução de 
+dano e no total de pontos de vida de seu foco arcano. 
+Além disso, ao usar Foco Vital, pode fazê-lo com 
+perda de vida. Pré-requisito: Foco Vital.
+Foco Supremo
+
+--- block x0=71 y0=338 x1=295 y1=447 ---
+Seu foco passa a ter uma reserva de pontos de 
+mana igual à seu atributo-chave. Ao lançar uma ma-
+gia, você pode aprimorá-la usando PM desta reserva. 
+Pontos de mana do seu foco só são recuperados com 
+descanso, no entanto, pontos de mana recuperados 
+por Sifão de Mana também recupera os PM do seu 
+foco. Pré-requisitos: 17º nível de arcanista, Foco Vital.
+Grimório Supremo
+
+--- block x0=71 y0=447 x1=295 y1=556 ---
+Seu grimório passa a ser um item mágico que 
+ocupa 1 espaço no seu inventário, e recebe quatro 
+melhorias e três encantos a sua escolha (ele conta 
+como uma ferramenta e esotérico que fornece bônus 
+em Misticismo). Além disso, Memória Subita não lhe 
+faz esquecer uma magia no lugar de lembrar outra. 
+Pré-requisitos: 17º nível de arcanista, mago.
+Herança Oculta
+
+--- block x0=71 y0=555 x1=295 y1=640 ---
+Você soube compreender melhor as origens da 
+sua magia, desenvolvendo uma segunda marca de 
+poder no seu sangue. Escolha uma segunda linhagem 
+de feiticeiro para receber sua herança básica. Pré-re-
+quisitos: 12º nível de arcanista, Herança Superior.
+Lâmina Arcana
+
+--- block x0=71 y0=640 x1=295 y1=704 ---
+Você pode gastar uma ação de movimento e 3 
+PM para criar uma lâmina de energia arcana que 
+surge em sua mão e dura até o fim da cena. Ela causa 
+o mesmo dano do Raio Arcano, é considerada uma 
+magia para habilidades e efeitos relacionados a isso, 
+
+--- block x0=309 y0=55 x1=533 y1=116 ---
+ataca com Misticismo, invés de Luta e a mão ocupada 
+pela lâmina é considerada livre para lançar magias. 
+Pré-requisito: Raio Arcano. e
+Lâmina Elemental
+
+--- block x0=309 y0=115 x1=431 y1=216 ---
+Ao usar Lâmina Arcana, 
+você pode gastar +1 
+PM para trocar o tipo 
+de dano dela para um 
+entre ácido, eletricidade, 
+fogo ou frio. Pré-requi-
+sito: Lâmina Arcana, 
+Raio Elemental. e
+
+--- block x0=329 y0=647 x1=427 y1=658 ---
+"A melhor magia é aquela 
+"A melhor magia é aquela 
+
+--- block x0=336 y0=657 x1=418 y1=668 ---
+que vem das trevas..."
+que vem das trevas..."
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+97
+

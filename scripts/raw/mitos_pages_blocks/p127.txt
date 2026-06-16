@@ -1,0 +1,148 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=210 y1=77 ---
+Novos Truques
+
+--- block x0=71 y0=75 x1=295 y1=128 ---
+A seguir novos truques que podem ser escolhidos 
+para seu Melhor Amigo. Se estiver usando um Braço 
+Direito, você pode aumentar a Inteligência dele com 
+Condicionamento Especial.
+
+--- block x0=71 y0=128 x1=295 y1=192 ---
+•	 Absorção Elemental. Seu melhor amigo se torna 
+imune ao tipo de dano do sopro dele. Ao sofrer dano 
+do tipo ao qual é imune, ele recupera pontos de vida 
+igual metade do dano sofrido — ou todo o dano se 
+ele for mágico. Pré-requisitos: construto, Sopro.
+
+--- block x0=71 y0=192 x1=295 y1=268 ---
+•	 Aparência Assustadora. Seu melhor amigo 
+tem uma aparência mais ameaçadora. Uma vez por 
+rodada, quando seu melhor amigo faz um teste de 
+Intimidação, você pode gastar 3 PM e fazer um teste 
+de Adestramento e somar o resultado deste teste a 
+Intimidação do seu melhor amigo.
+
+--- block x0=71 y0=268 x1=295 y1=344 ---
+•	 Aspecto Planar. Seu melhor amigo recebe o 
+poder concedido de um deus maior a sua escolha, 
+representando o mundo divino que ele vivia. Além 
+disso, se seu melhor amigo possuir o truque Sopro, 
+ele pode causar dano de luz ou trevas, de acordo com 
+a energia que ele canaliza. Pré-requisito: espírito.
+
+--- block x0=71 y0=344 x1=295 y1=433 ---
+•	 Bicho do Mato. Seu melhor amigo recebe a habi-
+lidade natureza vegetal. Além disso, você pode gastar 
+uma quantidade de PM limitada pela Constituição do 
+seu melhor amigo, uma vez por rodada. Para cada 
+PM gasto, seu melhor amigo recupera 5 PV, mas ele 
+não recupera pontos de vida perdidos por dano de 
+fogo. Pré-requisito: animal ou monstro.
+
+--- block x0=71 y0=433 x1=295 y1=497 ---
+•	 Fome Póstuma. Seu melhor amigo pode gastar 
+uma ação completa devorando um cadáver de uma 
+criatura viva, ao fazê-lo, ele recupera uma quantidade 
+de PV igual a ND da criatura devorada. Pré-requisito: 
+morto-vivo.
+
+--- block x0=71 y0=497 x1=295 y1=597 ---
+•	 Magia Superior. Escolha uma magia aprendida 
+pelo seu melhor amigo, ele passa a poder aprimorá-la 
+como se tivesse acesso aos mesmos círculos de magia 
+que um arcanista com seu nível. De forma alterna-
+tiva, seu melhor amigo aprende e pode lançar uma 
+magia de 2º círculo a sua escolha. Você pode escolher 
+este truque outras vezes para magias diferentes. Pré-
+-requisitos: 6º nível de treinador, Magia Inata.
+
+--- block x0=71 y0=597 x1=295 y1=661 ---
+•	 Primor Mecânico. Seu melhor amigo treina uma 
+perícia adicional e recebe uma maravilha mecânica 
+do Mashin. Esse truque pode ser escolhido outras 
+vezes para receber novas maravilhas mecânicas, mas 
+apenas uma vez por patamar. Pré-requisito: construto.
+
+--- block x0=71 y0=661 x1=295 y1=702 ---
+•	 Sentidos Ecolocalizadores. Seu melhor amigo 
+recebe percepção às cegas (ou, se já tiver, aumenta o 
+alcance da habilidade em um passo). Além disso, se 
+
+--- block x0=309 y0=55 x1=533 y1=95 ---
+ambos estiverem em alcance curto e fizer um teste 
+de Percepção, o melhor dado  rolado entre você e o 
+melhor amigo é usado no teste de ambos.
+
+--- block x0=309 y0=95 x1=533 y1=147 ---
+•	 Supersônico. Seu melhor amigo recebe a habi-
+lidade evasão. Você pode escolher este truque uma 
+segunda vez, se estiver no patamar campeão, para ele 
+receber evasão aprimorada. Pré-requisito: Veloz.
+
+--- block x0=309 y0=147 x1=533 y1=259 ---
+•	 Tornar-se Enxame. Seu melhor amigo pode gas-
+tar uma ação completa e 3 PM para se transformar 
+em um enxame de pequenas criaturas, causando o 
+dano de sua arma natural contra inimigos ocupando 
+o mesmo espaço que elas (se possuir mais de uma, 
+soma os dados de dano), e aumentando sua categoria 
+de tamanho em um passo. Elas seguem todas as 
+regras de um enxame (veja Ameaças de Arton, p. 15). 
+Pré-requisitos: monstro, Convocar Enxame.
+
+--- block x0=309 y0=259 x1=533 y1=299 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=299 x1=533 y1=338 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=338 x1=533 y1=377 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=377 x1=533 y1=416 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=416 x1=533 y1=456 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=456 x1=533 y1=495 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=495 x1=533 y1=534 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=534 x1=533 y1=573 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=573 x1=533 y1=613 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=309 y0=613 x1=533 y1=651 ---
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+
+--- block x0=561 y0=756 x1=575 y1=767 ---
+127
+

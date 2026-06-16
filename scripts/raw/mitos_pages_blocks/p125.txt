@@ -1,0 +1,132 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=123 y1=72 ---
+Teurgia
+
+--- block x0=71 y0=72 x1=295 y1=145 ---
+Você recebe +1 PM por nível de paladino, e ao 
+escolher o poder Orar, você pode, apenas uma vez, 
+aprender uma magia divina de 2º círculo. Pré-requisi-
+to: 6º nível de paladino.
+Ultimato Heróico
+
+--- block x0=71 y0=144 x1=295 y1=253 ---
+Quando usa Golpe Divino com Rajada Divina 
+usando a arma favorita da sua divindade, você pode 
+mudar a execução do seu ataque para uma ação com-
+pleta para somar sua Sabedoria na rolagem de dano 
+deste ataque e o seu alcance para uma linha de 30m. 
+Pré-requisitos: Arma Sagrada, Rajada Divina, 11º nível 
+de paladino.
+Vigor Sagrado
+
+--- block x0=71 y0=253 x1=295 y1=326 ---
+Você soma seu Carisma no seu total de pontos 
+de vida. Além disso, para cada poder concedido que 
+possuir da divindade na qual é devoto, você recebe 
++2 PV. Pré-requisito: devoto de um deus maior.
+Virtude Paladinesca: Diligência
+
+--- block x0=71 y0=326 x1=295 y1=416 ---
+Quando usa uma habilidade de paladino que use 
+uma ação de movimento ou padrão, você pode usá-la 
+como uma ação completa para aumentar seu efeito 
+em +2 (ou em +1 dado, ou em um passo).
+Treinador
+
+--- block x0=71 y0=421 x1=212 y1=438 ---
+Amigo Independente
+
+--- block x0=71 y0=438 x1=295 y1=523 ---
+Seu melhor amigo recebe a própria ordem na ini-
+ciativa, uma ação padrão e uma ação de movimento, 
+mas você ainda pode gastar as suas para fazê-lo agir 
+mais vezes no seu próprio turno. Pré-requisito: Treino 
+Intensivo, 18º nível de treinador.
+Amigo Plurivalente
+
+--- block x0=71 y0=523 x1=295 y1=631 ---
+Seu melhor amigo passa a fornecer os benefícios 
+de um segundo tipo de parceiro a sua escolha entre 
+ajudante, assassino, besta de carga (veja Ameaças 
+de Arton, p. 416), combatente, fortão, guardião ou 
+vigilante. Se escolher ajudante, as perícias escolhidas 
+devem ser aprovadas pelo mestre. Pré-requisito: Trei-
+no Intensivo.
+Avanço Conjunto
+
+--- block x0=71 y0=631 x1=295 y1=695 ---
+Uma vez por rodada, quando seu melhor amigo 
+faz um ataque, você pode gastar 5 PM para seus 
+capangas se deslocarem até o alvo do ataque do seu 
+melhor amigo e o atacarem. Pré-requisito: Ordens 
+Conjuntas, 12º nível de treinador.
+
+--- block x0=309 y0=55 x1=432 y1=72 ---
+Batalhão Pessoal
+
+--- block x0=309 y0=72 x1=533 y1=133 ---
+Sempre que posiciona ou invoca capangas em 
+uma cena, você recebe um capanga adicional. No 11º 
+nível, você passa a receber dois capangas adicionais.
+Comando Adaptado
+
+--- block x0=309 y0=132 x1=533 y1=265 ---
+De acordo com o tipo de seu melhor amigo, você 
+pode utilizar outra perícia no lugar de Adestramento 
+para suas habilidades de Treinador. Sendo Misticis-
+mo para espíritos e mortos-vivos, Intimidação para 
+monstros e Conhecimento para construtos. Além 
+disso, ao fazer um teste de uma dessas perícias ou 
+de Adestramento enquanto usa uma habilidade de 
+Treinador, você pode gastar 1 PM para somar sua 
+Sabedoria no teste, limitado pelo nível.
+Discurso Lendário
+
+--- block x0=309 y0=264 x1=533 y1=346 ---
+O alcance de Discurso Motivador muda para 
+médio e ao usar essa habilidade, você pode gastar +6 
+PM para fornecer as criaturas afetadas +5 na Defesa 
+e +10 PM temporários que duram até o fim da cena. 
+Pré-requisito: 17º nível de treinador.
+Espelhar Benefícios
+
+--- block x0=309 y0=346 x1=533 y1=419 ---
+Você fornece os benefícios de um vestuário a sua 
+escolha que esteja vestindo a seus melhores amigos 
+caso eles estejam em alcance curto. Pré-requisito: 
+melhor amigo espírito.
+Golpe Combinado
+
+--- block x0=309 y0=419 x1=533 y1=504 ---
+Uma vez por rodada, quando você faz um ata-
+que contra um alvo no qual seu melhor amigo está 
+adjacente, você pode gastar 2 PM para ele fazer um 
+ataque como parte da mesma ação. Pré-requisito: 6º 
+nível de treinador.
+Irmãos de Armas
+
+--- block x0=309 y0=503 x1=533 y1=588 ---
+Você recebe proficiência com armas marciais 
+corpo a corpo ou à distância. Além disso, se seu 
+melhor amigo puder empunhar itens, ele se bene-
+ficia de poderes de Estilo e que tenha Estilos como 
+pré-requisito que você tenha.
+Slot Disponível
+
+--- block x0=309 y0=587 x1=533 y1=647 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt.
+Mascote Aprimorado
+
+--- block x0=309 y0=647 x1=533 y1=699 ---
+Escolha um de seus mascotes, os efeitos dele 
+aumenta em +1 (+1 dado, um passo, uma categoria, 
+etc.). Você pode escolher este poder outras vezes 
+para mascotes diferentes. Pré-requisito: Mascote.
+
+--- block x0=561 y0=756 x1=575 y1=767 ---
+125
+

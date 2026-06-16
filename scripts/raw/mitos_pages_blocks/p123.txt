@@ -1,0 +1,134 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=267 y1=72 ---
+Sangue, Apostas e Navalhas
+
+--- block x0=71 y0=72 x1=295 y1=157 ---
+Quando fazer um teste de Jogatina, você pode 
+gastar 1 PM para também fazer um teste de Nobreza. 
+Para cada 5 pontos de resultado no teste, você recebe 
++1 no resultado no resultado do teste de Jogatina. 
+Pré-requisito: treinado em Jogatina.
+Sociabilidade Intuitiva
+
+--- block x0=71 y0=156 x1=295 y1=231 ---
+Ao fazer um teste social, você pode gastar 2 PM 
+para somar sua Sabedoria neste teste. Pré-requisitos: 
+Sab 2, Car 2.
+PALADINO
+
+--- block x0=71 y0=237 x1=180 y1=253 ---
+Absorver Magia
+
+--- block x0=71 y0=253 x1=295 y1=398 ---
+Quando usa Égide Sagrada contra uma magia 
+lançada por um inimigo, você pode, invés de lançá-la 
+de volta no conjurador, armazená-la. Você pode soltar 
+ela mais tarde com uma ação padrão (funcionando 
+como descrito normalmente), ou absorver a magia 
+gastando uma ação de movimento. Ao fazer isso, 
+você recupera uma quantidade de PM igual ao círculo 
+da magia que foi armazenada. Você só pode armaze-
+nar uma magia dessa forma por vez. Pré-requisitos: 12º 
+nível de paladino, Égide Sagrada.
+Ataque Conjunto
+
+--- block x0=71 y0=398 x1=295 y1=459 ---
+Quando um aliado faz um ataque contra uma 
+criatura adjacente a você. Você pode gastar 2 PM para 
+fazer um teste de ataque para Ajudar.
+Aura Gravitacional
+
+--- block x0=71 y0=459 x1=292 y1=508 ---
+Enquanto sua aura estiver ativa, todo inimigo den-
+tro dela fica lento. Pré-requisito: 6º nível de paladino. e
+Aura Julgadora
+
+--- block x0=71 y0=508 x1=295 y1=569 ---
+Enquanto sua aura estiver ativa, os inimigos 
+dentro dela sofrem –2 em testes de resistência e ro-
+lagens de dano. Pré-requisito: 5º nível de paladino. e
+Aura Pacificadora
+
+--- block x0=71 y0=568 x1=295 y1=665 ---
+Enquanto sua aura estiver ativa, animais e 
+monstros dentro dela tem a sua atitude em relação 
+ao grupo aumentada em uma categoria (Vont CD 
+Car evita). Se a criatura afetada for inteligente (Int 
+–3 ou maior), recebe +5 no teste contra esse efeito. 
+Pré-requisito: 5º nível de paladino. e
+Campeão Sincrético
+
+--- block x0=71 y0=665 x1=295 y1=705 ---
+Você se torna devoto de um segundo deus maior 
+a sua escolha, desde que ela esteja na lista de divin-
+dades da sua classe e canalize a mesma energia da 
+
+--- block x0=309 y0=55 x1=533 y1=152 ---
+divindade primária. Você não pode ser um devoto 
+brando ou fundamentalista de nenhum destes deu-
+ses, deve seguir as duas obrigações & restrições e 
+recebe apenas um único poder do deus secundário — 
+e não pode escolher outros poderes dele. Pré-requisito: 
+devoto de um deus maior.
+Capa Heróica
+
+--- block x0=309 y0=151 x1=533 y1=224 ---
+Se lançar Vestimenta da Fé em uma capa que esteja 
+vestindo, ela passa a ser considerada um escudo para 
+suas habilidades de paladino e para acúmulos en-
+quanto a magia durar. Pré-requisito: Manto de Batalha.
+Chama Sagrada
+
+--- block x0=309 y0=224 x1=533 y1=309 ---
+Quando usa Golpe Divino, você pode gastar +1 
+PM para converter todo o dano causado para fogo 
+e deixar o alvo em chamas. Se o alvo for imune a 
+fogo, não sofre a condição, mas ainda sofre metade 
+do dano causado. Pré-requisito: paladino de Azgher.
+Compartilhar Cura
+
+--- block x0=309 y0=309 x1=533 y1=382 ---
+Uma vez por rodada, ao usar uma habilidade de 
+cura, você pode gastar +2 PM para ela afetar todas 
+as criaturas escolhidas dentro da sua Aura Sagrada. 
+Pré-requisito: paladino de Lena, 6º nível de paladino.
+Escudo Protetor
+
+--- block x0=309 y0=382 x1=533 y1=455 ---
+Quando usa Escudo Sagrado, você pode gastar 
++2 PM para compartilhar a RD fornecida pela habi-
+lidade aos aliados adjacentes — ou a 9m se possuir 
+Escudo Fraterno. Pré-requisito: Escudo Sagrado. e
+Golpe Celestial
+
+--- block x0=309 y0=455 x1=533 y1=539 ---
+Quando usa Golpe Divino empunhando a arma 
+favorita de sua divindade contra um alvo ofuscado, 
+você pode gastar 3 PM para reduzir a Defesa do alvo 
+em –5 contra este ataque. Pré-requisito: Arma Sagrada, 
+Fulgor Divino. e
+Golpe Punitivo
+
+--- block x0=309 y0=539 x1=533 y1=612 ---
+Quando usa Golpe Divino e acerta o ataque, você 
+pode gastar 3 PM para receber +5 na sua rolagem de 
+dano. Além disso, o alvo do ataque fica atordoado por 
+1 rodada (uma vez por criatura; Fort CD Car evita).
+Julgamento Divino: Culpa
+
+--- block x0=309 y0=612 x1=533 y1=685 ---
+Você pode gastar 2 PM para marcar uma criatura 
+em alcance curto. Você recebe +1d10 pontos de dano 
+psíquico contra a criatura marcada, de forma cumu-
+lativa, se ela for desonrada, desonesta ou maligna.
+Julgamento Divino: Pureza
+
+--- block x0=309 y0=685 x1=533 y1=713 ---
+Você pode gastar 2 PM para causar +1d6 pontos 
+de dano de luz adicional em espíritos e mortos-vivos. 
+
+--- block x0=561 y0=756 x1=575 y1=767 ---
+123
+

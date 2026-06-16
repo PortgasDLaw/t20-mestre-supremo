@@ -1,0 +1,131 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=104 ---
+tado for em um bioma afetado pela sua habilidade 
+Explorador, invés disso aumenta em duas categorias.
+Captura Efetiva
+
+--- block x0=51 y0=103 x1=275 y1=164 ---
+A CD para resistir aos seus efeitos que aplicam 
+condições de movimento aumenta em +2. Esse 
+bônus muda para +5 contra inimigos.
+Estudar Inimigos
+
+--- block x0=51 y0=164 x1=275 y1=261 ---
+Você pode, uma vez por aventura, gastar 8 horas 
+estudando criaturas novas. Faça um teste de Investi-
+gação (CD 25), se passar, você recebe os benefícios 
+da habilidade Inimigo para o tipo de criatura ou raça 
+humanoide escolhida até o fim da aventura. Pré-requi-
+sito: 8º nível de caçador.
+Explorador Diletante
+
+--- block x0=51 y0=261 x1=275 y1=382 ---
+Você pode, uma vez por aventura, gastar 8 horas 
+estudando um terreno à sua escolha que tenha visita-
+do ou um que tenha conhecimento para aprofundá-lo. 
+Faça um teste de Sobrevivência (CD 25), se passar, 
+você recebe os benefícios da habilidade Explorador 
+para o terreno escolhido até o fim da aventura. Se o 
+terreno já foi escolhido por você, aumente o bônus 
+em +2. Pré-requisito: 12º nível de caçador.
+Flecheiro Místico
+
+--- block x0=51 y0=382 x1=275 y1=455 ---
+Você pode fabricar munições com duas melho-
+rias e na metade do tempo. Além disso, pode fabricar 
+munições com um encanto. Pré-requisitos: Flecheiro, 
+13º nível de caçador. e
+Fuzileiro
+
+--- block x0=51 y0=455 x1=275 y1=551 ---
+A habilidade Caminho do Atirador também 
+passa a considerar pistolas e mosquetes. Além disso, 
+você recebe a habilidade Coronhada (p. @@), do 
+Inquisidor. Se já possuir essa habilidade, invés disso 
+você recebe +2 nas rolagens de dano ao atacar com 
+essa habilidade. Pré-requisito: Guerrilheiro.
+Slot Disponível
+
+--- block x0=51 y0=551 x1=275 y1=648 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt. Mae-
+cenas consequat dui felis, dictum rutrum est ultrices 
+tincidunt. 
+Guerrilheiro
+
+--- block x0=51 y0=648 x1=275 y1=700 ---
+Você recebe proficiência com armas de fogo, 
+rede e o bônus fornecido pela habilidade Explorador 
+também passa a afetar Cavalgar, Guerra e Pilotagem. 
+Pré-requisitos: treinado em Guerra, 5º nível de caçador.
+
+--- block x0=289 y0=55 x1=409 y1=72 ---
+Herói da Matilha
+
+--- block x0=289 y0=72 x1=513 y1=157 ---
+Para cada parceiro animal que possuir, você rece-
+be +1 em Iniciativa, Percepção e Sobrevivência. Para 
+cada parceiro do tipo no nível mestre, você também 
+recebe +1 em testes de ataque. Pré-requisitos: treina-
+do em Adestramento, Car 3, 5º nível de caçador.
+Slot Disponível
+
+--- block x0=289 y0=156 x1=513 y1=253 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio. Maecenas conse-
+quat dui felis, dictum rutrum est ultrices tincidunt.
+Jovem Místico
+
+--- block x0=289 y0=253 x1=513 y1=374 ---
+Durante a noite, você pode ficar 1 hora fazendo 
+reflexões sob a luz das estrelas. Se fizer isso, recebe 
+uma quantidade de dados de auxílio (d4) igual a sua 
+Sabedoria (mínimo 1). Ao fazer um teste (exceto 
+testes de ataque ou resistência), você pode rolar um 
+desses dados e somar o resultado ao seu teste. Os 
+dados duram por 1 dia. Pré-requisitos: treinado em 
+Misticismo, Sab 1.
+Marca da Morte
+
+--- block x0=289 y0=374 x1=513 y1=447 ---
+Você aumenta seu multiplicador de crítico em 
++1 contra alvos sob efeito de sua Marca da Presa. 
+Esse bônus dobra contra inimigos. Pré-requisito: 6º 
+nível de caçador.
+Marca Lancinante
+
+--- block x0=289 y0=447 x1=513 y1=520 ---
+Ao usar Marca da Presa, você pode gastar +4 PM 
+para fazer com que os dados fornecidos por essa ha-
+bilidade ter ser aumentados em uma categoria (máx. 
+d12). Pré-requisito: 18º nível de caçador.
+Matilha
+
+--- block x0=289 y0=519 x1=513 y1=652 ---
+Se o seu companheiro animal for um lobo ou 
+algum outro animal ou criatura que, a critério do 
+mestre, ande em bandos, você pode gastar 2 PM 
+para que ele emita um som e chame seu grupo. 2d3 
+capangas do tipo do seu parceiro surgem em espaços 
+desocupados em alcance curto (deslocamento 12m, 
+Defesa 16, dano 1d8 de perfuração cada). Eles fogem 
+ao "morrer" ou no fim da cena. Pré-requisitos: Compa-
+nheiro Animal, 6º nível de caçador.
+Sem Espaço para Erros
+
+--- block x0=289 y0=652 x1=513 y1=704 ---
+Ao fazer um ataque a distância, você pode gastar 
+3 PM para enfeitiçar sua munição, fazendo-a anular 
+qualquer chance de falha que o alvo possua, incluindo 
+por camuflagem. Pré-requisito: 12º nível de caçador. e
+
+--- block x0=5 y0=756 x1=20 y1=767 ---
+104
+

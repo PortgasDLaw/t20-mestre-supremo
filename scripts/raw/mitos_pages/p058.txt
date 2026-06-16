@@ -1,0 +1,101 @@
+Capítulo Um
+xBardox
+capoeirista
+"Ubanauê, ubaná."
+A capoeira é um estilo de dança mas também 
+uma arte marcial utilizada por povos oprimidos 
+para combate e ativismo contra captores. A arte 
+logo se tornou reconhecida pelo mundo de Arton, 
+principalmente na região de Ubani, onde o estilo 
+é chamado de Ka'a Puêra. Tal fama, fez esta arte se 
+tornar apreciada tanto por aventureiros quanto por 
+pessoas comuns, pelo seu estilo balancante e belo.
+A arte da capoeira é rítmica e acrobática, foi 
+desenvolvida por elfos adjuntos a outros escravos 
+de Tiberus, sendo utilizada durante a revolta da 
+lavoura. Normalmente capoeiristas tem consigo um 
+a dois parceiros que tocam tambores, pandeiros e 
+berimbaus.
+O rítmo da capoeira torna-a uma dança inspi-
+radora, mas letal. Além disso, seus movimentos 
+rápidos e coordenados são usados por capoeiristas 
+para realizar feitos arcanos impressionantes. 
+Características de 
+Classe
+Pontos de Vida. Um capoeirista começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Cons por nível.
+Pontos de Mana. Como o bardo básico.
+Perícias. Acrobacia (Des) e Atuação (Car) 
+mais 4 a sua escolha entre Atletismo (For), Co-
+nhecimento (Int), Diplomacia (Car), Enganação 
+(Car), Furtividade (Des), Iniciativa (Des), Intuição 
+(Sab), Jogatina (Car), Ladinagem (Des), Luta (For), 
+Misticismo (Int), Nobreza (Int), Percepção (Sab), 
+Reflexos (Des) e Vontade (Sab).
+Proficiências. Nenhuma.
+Habilidades de Classe
+Ginga. Quando se move 6m ou mais, você 
+recebe +2 em testes de ataque e rolagens de dano e 
+é considerado sob efeito de Inspiração (veja Tormen-
+ta20, p. 44) para fins de efeitos baseados nisso até 
+o início do seu próximo turno. A cada cinco níveis, 
+estes bônus aumentam em +1. Além disso, se não 
+estiver usando armadura, você soma seu Carisma na 
+Defesa, limitado pelo nível.
+Magias. Como o bardo básico.
+Poder de Bardo. A partir do 2º nível, você 
+recebe esta habilidade como o bardo básico.
+Maculelê. A partir do 3º nível, quando sob 
+efeito de Ginga, você recebe +1 dado de dano de 
+impacto com ataques desarmados e armas leves. A 
+cada seis níveis, esse efeito aumenta em +1 dado.
+Classes Variantes
+Tabela 1-8: O Capoeirista
+Nível
+Habilidades de Classe
+1º
+Ginga, magias (1º círculo)
+2º
+Poder de bardo
+3º
+Maculelê (+1 dado), pé de martelo (1 passo), 
+poder de bardo
+4º
+Poder de bardo
+5º
+Poder de bardo
+6º
+Magias (2º círculo), poder de bardo
+7º
+Poder de bardo
+8º
+Poder de bardo
+9º
+Maculelê (+1 dado), pé de martelo (2 passos), 
+poder de bardo
+10º
+Chute relâmpago, magias (3º círculo), poder 
+de bardo
+11º
+Poder de bardo
+12º
+Poder de bardo
+13º
+Poder de bardo
+14º
+Magias (4º círculo), poder de bardo
+15º
+Maculelê (+1 dado), pé de Martelo (3 passos), 
+poder de bardo
+16º
+Poder de bardo
+17º
+Poder de bardo
+18º
+Poder de bardo
+19º
+Poder de bardo
+20º
+Cordão de ouro, poder de bardo
+58

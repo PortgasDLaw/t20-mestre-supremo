@@ -1,0 +1,97 @@
+Capítulo Um
+Zombaria Provocante
+Você pode gastar 2 PM para provocar todos os 
+inimigos em alcance curto. Faça um teste de Atuação 
+oposto a Vontade de cada inimigo, quem falhar sofre 
+2d6 pontos de dano psíquico e ficam alquebradas até 
+o fim da próxima rodada. A cada quatro níveis após 
+o 1º, você pode gastar +1 PM para aumentar o dano 
+psíquico em +1d6. Quem passar fica imune a este 
+efeito por um dia. Mental.
+Bucaneiro
+Andar na Prancha
+Ao se deslocar em direção a uma criatura sob 
+algum efeito de medo, você pode gastar 1 PM e fazer 
+um teste de Intimidação oposto a Vontade do alvo, 
+se ele falhar, para cada 5 pontos de diferença entre 
+os testes, você recebe +2 em sua próxima rolagem 
+de dano contra esse alvo. Pré-requisitos: Flagelo dos 
+Mares, 8º nível de bucaneiro. Medo.
+Bala Surpresa
+Uma vez por rodada, ao fazer um ataque com 
+uma arma em que os efeitos de Esgrimista se apli-
+cam, você pode gastar 2 PM e 1 bala para fazer um 
+ataque à distância com uma arma de fogo de uma 
+mão que tenha no inventário, mesmo que não tenha 
+mãos livres. Pré-requisitos: Pistoleiro (ou Proficiência 
+com armas de fogo), Esgrimista, Des 3.
+Bravata Feroz
+Você pode declarar a qualquer momento que 
+irá cumprir um objetivo heróico e humilhante, mas 
+sangrento, como decapitar o tirano de uma comuni-
+dade, fazer um dragão sentir medo, ou humilhar uma 
+célula de um culto maligno. Caso cumpra sua brava, 
+você recebe +5 em Iniciativa, rolagens de dano e +2 
+PV por nível de bucaneiro até o fim da aventura.
+Derreter o Cano
+Quando você começa a atirar, não para até que 
+o cano da sua arma derreta. Ao fazer um ataque 
+com sua arma de fogo, você pode gastar 3 PM para 
+recarregá-la com uma ação livre e então realizar um 
+ataque extra. Você pode usar essa habilidade várias 
+vezes no mesmo turno, mas a cada novo uso, o custo 
+da habilidade aumenta em +2 PM. Após usar essa 
+habilidade, sua arma fica avariada. Pré-requisito:  17º 
+nível de bucaneiro.
+É os Guri
+Ao usar Amigos do Porto e passar por 10 ou mais 
+no teste, você pode chamar uma atenção de antigos 
+amigos ainda mais poderosos. O parceiro que você 
+pode ter por essa habilidade se torna mestre ou você 
+pode escolher ter o auxílio de um grupo de tripulan-
+tes veteranos que duram até o fim da aventura (ou 
+até serem posicionados, o que vier primeiro). Pré-re-
+quisitos:  Amigos do Porto, 11º nível de bucaneiro.
+Elo com os Mares
+Você soma seu Carisma no seu total de pontos de 
+mana e aprende e pode lançar a magia Orbe do Oceano 
+(veja Deuses de Arton, p. 62). Pré-requisitos: treinado 
+em Misticismo, Car 2, 5º nível de bucaneiro. e
+Escudo Amigo
+Os mares lhe concedem um parceiro escudeiro 
+iniciante (veja Ameaças de Arton, p. 191). No 7º ní-
+vel, ele se torna veterano, e no 15º nível, se torna 
+mestre. Caso já possua um parceiro do tipo por meio 
+de outra habilidade, o escudeiro também fornece os 
+benefícios de um parceiro guardião iniciante e recebe 
+uma melhoria de escudo ou arma adicional (exceto 
+material especial). Pré-requisito: Elo com os Mares.
+Esgrimista Pesado
+Para você, a alfange e o gadanho são consideradas 
+armas ágeis para a habilidade Esgrimista e poderes 
+que tenha Esgrimista como pré-requisito. Pré-requisi-
+tos: Esgrimista, For 3.
+Na Agulha
+Você recebe +2 em testes de ataque com armas 
+de fogo e pode flanquear inimigos à até 6m com um 
+aliado adjacente a ele se estiver empunhando uma. 
+Pré-requisito: Pistoleiro.
+Pilhar os três mares
+Uma vez por aventura, ao chegar em uma região 
+com a presença do oceano, você pode gastar 1 hora e 
+3 PM para vasculhar por tesouros e naufrágios. Faça 
+um teste de Percepção (CD 25), se passar, você rola 
+uma vez na Tabela 8-1: Tesouros na ND igual 
+ao seu nível, escolhendo entre dinheiro ou itens. Se 
+passar no teste por 10 ou mais, rola nas duas linhas.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio. Quisque a lectus 
+ut mi cursus dictum. Proin nec metus faucibus, ves-
+tibulum diam et, feugiat mi. Nam at odio. Quisque a 
+lectus ut mi cursus dictum. Nam at odio. Quisque a 
+lectus ut mi cursus dictum.
+102

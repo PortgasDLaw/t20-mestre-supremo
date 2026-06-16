@@ -1,0 +1,193 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=119 ---
+Você começa com duas magias de 1º círculo. A 
+cada nível par (2º, 4º etc.), aprende uma magia de 
+qualquer círculo que possa lançar. Você pode lançar 
+essas magias vestindo armaduras leves sem precisar 
+de testes de Misticismo.
+
+--- block x0=71 y0=119 x1=295 y1=147 ---
+Seu atributo-chave para lançar magias é Carisma 
+e você soma seu Carisma no seu total de PM.
+
+--- block x0=71 y0=147 x1=295 y1=199 ---
+Poder de Bárbaro. A partir do 2º nível, você 
+recebe essa habilidade como o bárbaro básico, mas 
+você não pode escolher o poder Totem Espiritual ou 
+que tenham Totem Espiritual como pré-requisito.
+
+--- block x0=71 y0=199 x1=295 y1=264 ---
+Sangue Místico. A partir do 3º nível, você 
+passa a somar seu Carisma no dano das suas magias 
+e recebe +1 nas suas rolagens de dano corpo a corpo 
+e em Misticismo. Para cada círculo de magias que 
+puder lançar além do 1º, esse bônus aumenta em +1.
+
+--- block x0=71 y0=264 x1=295 y1=340 ---
+Tatuagens de Sangue. A partir do 5º nível, 
+você pode, sempre que sofrer dano, gastar uma quan-
+tidade de PM limitada pelo seu Carisma. Para cada 
+PM gasto, você recebe RD 10 contra o dano sofrido. 
+Além disso, no 9º, e a cada quatro níveis seguintes, 
+você recebe resistência a magia +2.
+
+--- block x0=71 y0=340 x1=295 y1=428 ---
+Fúria Explosiva. No 20º nível, ao entrar em 
+Fúria, você gera uma deflagração de energia em uma 
+área de 9m ao seu redor. Criaturas na área sofrem 
+20d12 pontos de dano de essência (Ref CD For reduz 
+à metade). Para cada criatura que falhar no teste, o 
+bônus fornecido pela sua Fúria aumenta em +1 até o 
+fim da cena (limitado pelo seu Carisma). e
+
+--- block x0=71 y0=443 x1=191 y1=480 ---
+xHemófagox
+Psicófago
+
+--- block x0=88 y0=482 x1=231 y1=498 ---
+"Sua mente não lhe pertence mais."
+
+--- block x0=71 y0=498 x1=295 y1=622 ---
+A casta soberana d'o Fim que agora habita Arton 
+são uma evidência recente, e talvez pacífica, de vida 
+extraterrestre, antes de Valkaria se tornar a líder 
+do panteão e relaxar as regras sobre todos os seres, 
+eles viviam isolados n'O Fim, em uma rígida casta 
+formada por vários seres. Mas agora, eles não apenas 
+estão mais ativos no mundo, como buscam espalhar 
+seu extenso e incompreensivo conhecimento com 
+os artonianos. Uma dessas doutrinas foi a arte de 
+"devorar" a mente dos inimigos, a psicofagia.
+
+--- block x0=71 y0=623 x1=295 y1=699 ---
+Psicófagos são como os hemófagos de Umbralar, 
+mas ao invés de consumir a vitalidade dos seres vivos 
+através da absorção de sangue (incluindo o próprio), 
+eles devoram a mente e a energia de criaturas inte-
+ligentes, a sua essência, devorando a mana destes 
+seres. Mas isso tem um alto preço.
+
+--- block x0=309 y0=423 x1=533 y1=523 ---
+Por serem capazes de consumir a mana de outros 
+seres, psicófagos recebem a rejeição da deusa da ma-
+gia, não conseguindo recuperar pontos de mana de 
+maneiras mundanas ou típicas. Ainda assim, eles não 
+são negados de usar a magia, pela generosidade da 
+deusa, ela apenas espera que eles se consumam até o 
+ponto de sumirem... O que cria um ciclo peculiar de 
+devorar, lançar magias e então consumir ainda mais.
+
+--- block x0=309 y0=532 x1=493 y1=571 ---
+Características de 
+Classe
+
+--- block x0=309 y0=572 x1=533 y1=613 ---
+Pontos de Vida. Um psicófago começa com 
+8 pontos de vida + Constituição e ganha 2 PV + 
+Constituição por nível.
+
+--- block x0=326 y0=613 x1=481 y1=629 ---
+Pontos de Mana. 6 PM por nível.
+
+--- block x0=309 y0=628 x1=533 y1=689 ---
+Perícias. Misticismo (Int) e Vontade (Sab), 
+mais 2 a sua escolha entre Atuação (Car), Conhe-
+cimento (Int), Cura (Sab), Iniciativa (Des), Intimi-
+dação (Car), Luta (For), Nobreza (Int), Ofício (Int), 
+Percepção (Sab), Pontaria (Des) e Religião (Sab).
+
+--- block x0=326 y0=689 x1=513 y1=705 ---
+Proficiências. Como o hemófago básico.
+
+--- block x0=347 y0=67 x1=492 y1=86 ---
+Tabela 1-27: O Psicófago
+
+--- block x0=313 y0=89 x1=503 y1=103 ---
+Nível
+Habilidades de Classe
+
+--- block x0=313 y0=105 x1=523 y1=117 ---
+1º
+Magias (1º círculo), psicofagia (1d4), psicofilia
+
+--- block x0=313 y0=120 x1=428 y1=131 ---
+2º
+poder de Hemófago
+
+--- block x0=313 y0=135 x1=492 y1=146 ---
+3º
+Blindar a mente, poder de Hemófago
+
+--- block x0=313 y0=150 x1=428 y1=161 ---
+4º
+poder de Hemófago
+
+--- block x0=313 y0=164 x1=500 y1=176 ---
+5º
+Magias (2º círculo), poder de Hemófago
+
+--- block x0=313 y0=179 x1=491 y1=191 ---
+6º
+poder de Hemófago, psicofagia (1d6)
+
+--- block x0=313 y0=194 x1=506 y1=205 ---
+7º
+Dissonância mental, poder de Hemófago
+
+--- block x0=313 y0=209 x1=428 y1=220 ---
+8º
+poder de Hemófago
+
+--- block x0=313 y0=224 x1=500 y1=235 ---
+9º
+Magias (3º círculo), poder de Hemófago
+
+--- block x0=313 y0=238 x1=491 y1=250 ---
+10º
+poder de Hemófago, psicofagia (2d4)
+
+--- block x0=313 y0=253 x1=512 y1=264 ---
+11º
+Desmantelar a mente, poder de Hemófago
+
+--- block x0=313 y0=268 x1=428 y1=279 ---
+12º
+poder de Hemófago
+
+--- block x0=313 y0=283 x1=500 y1=294 ---
+13º
+Magias (4º círculo), poder de Hemófago
+
+--- block x0=313 y0=297 x1=491 y1=309 ---
+14º
+poder de Hemófago, psicofagia (2d6)
+
+--- block x0=313 y0=312 x1=428 y1=323 ---
+15º
+poder de Hemófago
+
+--- block x0=313 y0=327 x1=428 y1=338 ---
+16º
+poder de Hemófago
+
+--- block x0=313 y0=342 x1=500 y1=353 ---
+17º
+Magias (5º círculo), poder de Hemófago
+
+--- block x0=313 y0=356 x1=491 y1=368 ---
+18º
+poder de Hemófago, psicofagia (4d4)
+
+--- block x0=313 y0=371 x1=428 y1=382 ---
+19º
+poder de Hemófago
+
+--- block x0=313 y0=386 x1=511 y1=397 ---
+20º
+Ápice da mente (5d6), poder de Hemófago
+
+--- block x0=564 y0=756 x1=572 y1=767 ---
+81
+

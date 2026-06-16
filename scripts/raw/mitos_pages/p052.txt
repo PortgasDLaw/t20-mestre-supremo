@@ -1,0 +1,98 @@
+Capítulo Um
+•	 União Impossível. Você pode gastar 1 PM para 
+trocar dano de frio por dano de fogo, dano de trevas 
+para dano de luz e vice-versa. Além disso, os efeitos 
+do treinamento superior do batalhão das sombras 
+ocorrem se estiver sob exposição direta da luz solar. 
+Pré-requisitos: Recruta das Trevas, Sincretismo Bélico 
+(batalhão das bênçãos e das sombras).
+•	 Vínculo dos Beduínos. Você pode fazer a Cerimô-
+nia da Maldição com armaduras leves. Além disso, se 
+estiver empunhando uma arma corpo a corpo leve ou 
+ágil, você soma sua Inteligência, limitada pelo nível, 
+as suas rolagens de dano com a arma. Pré-requisito: 
+Comandante das Trevas (batalhão das bênçãos).
+Batalhões de Umbralar
+Um mirmidão que escolha o poder Recruta das 
+Trevas passa a ter o treinamento de um dos batalhões 
+a seguir. Um batalhão é um conjunto de habilidades 
+que melhora um aspecto do mirmidão.
+Ao escolher seu batalhão, você recebe sua ha-
+bilidade basica, podendo escolher os poderes que 
+fornecem as habilidades as aprimoradas e superiores 
+de cada batalhão posteriormente.
+Batalhão das Armas
+Você foi treinado pelo batalhão de vanguarda da 
+ilha sombria, focado no uso de armas poderosas.
+•	 Básica. Você se torna proficiente com armas 
+exóticas e ao fazer um ataque com uma arma corpo a 
+corpo, você pode gastar 1 PM para rolar dois dados e 
+escolher o melhor resultado.
+•	 Aprimorada. Você recebe +5 nas suas rolagens 
+de dano com armas corpo a corpo. Além disso, você 
+pode gastar +2 PM ao usar a habilidade acima para 
+ela durar até o fim da cena.
+•	 Superior. Uma vez por rodada, ao fazer um 
+ataque onde Força do Oblívio se aplica, você pode 
+gastar 2 PM para fazer um ataque adicional.
+Batalhão das Bênçãos
+Você foi treinado pelo batalhão dos redentores 
+que trazem a luz para as trevas profanas do Oblívio.
+•	 Básica. Você pode aprender magias que cau-
+sam dano de luz e/ou fogo através da sua habilidade 
+Magias. Além disso, suas habilidades de Mirmidão 
+que causam dano de trevas podem ter o tipo de dano 
+mudado para luz — incluindo magias.
+•	 Aprimorada. Se Força do Oblívio estiver cau-
+sando dano de luz, este dano dobra contra mortos-
+-vivos. Além disso, você recebe +2 na Defesa e em 
+testes de resistência contra essas criaturas.
+•	 Superior. Ao causar dano de luz a uma criatura, 
+ela sofre um estigma (Von CD Int evita), não poden-
+do recuperar pontos de vida por 1 rodada.
+Batalhão das Escamas
+Você foi treinado pelo batalhão de arcanistas do 
+gelo que lutam usando o poder elemental.
+•	 Básica. Você pode aprender magias que cau-
+sam dano de frio através da sua habilidade Magias 
+e a escola dessas magias mudam para necromancia. 
+Além disso, quando lança uma magia que causa dano 
+de frio, você pode gastar 1 PM para mudar o tipo de 
+dano da magia para trevas — e vice-versa.
+•	 Aprimorada. Você recebe redução de frio 5 e 
+resistência a magia +2, esses ganhos aumentam 
+baseado na habilidade Principe das Trevas.
+•	 Superior. Você pode mudar o tipo de dano de 
+Força do Oblívio para frio. Além disso, você recebe 
+imunidade a medo e metamorfose.
+Batalhão Das Sombras
+Você foi treinado pelo principal batalhão das 
+forças de Umbralar, temente a deusa das trevas.
+•	 Básica. Você pode aprender magias de ilusão 
+através da sua habilidade Magias. Além disso, se 
+sua arma empunhada causar dano de perfuração, ela 
+recebe +1d6 pontos de dano de frio.
+•	 Aprimorada. Seu dano adicional acima muda 
+para +1d12. Além disso, você recebe visão no escu-
+ro, se já possuir, seu alcance aumenta em um passo.
+•	 Superior. A CD para resistir as suas magias 
+aumenta em +2, esse valor dobra se estiver em uma 
+área sob efeito de escuridão. Além disso, você soma 
+o dano de Força do Oblívio ao de suas magias.
+Batalhão dos Juízes
+Você foi treinado pelo batalhão dos mirmidões 
+que comandam a ilha das sombras.
+•	 Básica. Escolha um tipo de criatura ou duas 
+raças humanoides, uma vez feita, a escolha não pode 
+ser mudada. Força do Oblívio passa a causar perda de 
+vida contra as criaturas escolhidas.
+•	 Aprimorada. Você pode aprender magias de ab-
+juração através da sua habilidade Magias. Se estiver 
+empunhando um escudo, ele fornece RD 5 (cumu-
+lativo com reduções fornecidas por sua armadura).
+•	 Superior. Sempre que sofrer um ataque, você 
+pode gastar 1 PM para fazer o atacante rolar dois 
+dados e escolher o pior resultado. Além disso, toda 
+penalidade de armadura fornecida pelos seus equipa-
+mentos é reduzida à metade.
+52

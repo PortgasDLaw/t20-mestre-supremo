@@ -1,0 +1,111 @@
+Aventureiros de Arton
+PM para dar um ataque desarmado adicional. Kung 
+fu conta como Briga para pré-requisitos e efeitos de 
+poderes de lutador.
+Evasão. No 2º nível, você recebe essa habilidade 
+como o ladino (veja Tormenta20, p. 73).
+Poder de Lutador. A partir do 2º nível, você 
+recebe essa habilidade como o lutador básico.
+Sexto Sentido. A partir do 3º nível, você soma 
+sua Sabedoria na Defesa, limitado pelo nível e apenas 
+se não estiver usando armadura pesada. No 7º nível, e a 
+cada quatro níveis seguintes, você recebe +1 na Defesa.
+Alma de Diamante. No 6º nível, você recebe 
++2 em testes de resistência e redução de dano 5. 
+Esta habilidade exige liberdade de movimentos; você 
+não pode usá-la se estiver de armadura pesada ou na 
+condição imóvel.
+Evasão Aprimorada. No 10º nível, você 
+recebe essa habilidade como o ladino.
+Sete Nuvens. No 12º nível, você recebe +3m 
+de deslocamento e +5 em testes de Acrobacia e 
+Atletismo. Esta habilidade exige liberdade de movi-
+mentos; você não pode usá-la se estiver de armadura 
+pesada ou na condição imóvel.
+Nirvana. No 20º nível, seu dano desarmado 
+se torna 2d8 e você dobra os efeitos de Alma de 
+Diamante e Sete Nuvens. Por fim, você pode, uma 
+vez por rodada, gastar 5 PM para passar automati-
+camente em um teste de resistência, que é evitado 
+completamente independente do tipo de teste ou se 
+ele era parcial. Esta habilidade exige liberdade total 
+de movimentos; você não pode usá-la se estiver de 
+armadura ou sob qualquer condição de movimento.
+xladinox
+Ninja
+"Esse é o meu jeito ninja, tô certo!"
+Considerados a escória tamuraniana, os ninjas 
+empregam técnicas desonradas em combate para se 
+sobressair sobre seus inimigos. São furtivos, engana-
+dores e ardilosos, sabotando e roubando para ter as 
+maiores vantagens possíveis em combate — o que 
+todo devoto de Lin-Wu renega e odeia.
+Embora tenham essa fama de desonrados, não é 
+incomum que Tamu-ra empregue esses combatentes 
+em suas fileiras como obtentor de informações, espi-
+ões ou até mesmo aventureiros. Alguns samurais até 
+mesmo aceitam participar de sentais com um ninja 
+no grupo, mesmo que haja clara discordância entre 
+seus metodos, desde que um não force o outro a agir 
+como o opositor, há uma certa harmonia entre eles.
+Diferente de um ladino comum, o ninja se espe-
+cializa na utilização de armas e técnicas de combate, 
+para lutar na linha de frente caso precise lidar com 
+diversos inimigos. Para eles, táticas de infiltração po-
+dem ser importantes, mas sair vivo quando as coisas 
+dão errado é ainda mais.
+Características de 
+Classe
+Pontos de Vida. Como o ladino básico.
+Pontos de Mana. Como o ladino básico.
+Perícias. Como o ladino básico.
+Proficiências. Armas marciais.
+Habilidades de Classe
+Ataque Furtivo. Como o ladino básico.
+Bukijutsu. Você se torna proficiente com a 
+shuriken e o dano dessa arma e qualquer arma leve 
+corpo a corpo que empunhar aumenta em um passo.
+Tabela 1-22: O Ninja
+Nível
+Habilidades de Classe
+1º
+Ataque furtivo +1d6, bukijutsu
+2º
+Poder de ladino
+3º
+Ataque furtivo +2d6, evasão, poder de ladino
+4º
+Bukijutsu (armadilhas), poder de ladino
+5º
+Ataque furtivo +3d6, poder de ladino, shunin
+6º
+Poder de ladino
+7º
+Ataque furtivo +4d6, poder de ladino
+8º
+Poder de ladino, substituição
+9º
+Ataque furtivo +5d6, poder de ladino
+10º
+Evasão aprimorada, poder de ladino
+11º
+Ataque furtivo +6d6, poder de ladino
+12º
+Poder de ladino
+13º
+Ataque furtivo +7d6, poder de ladino
+14º
+Poder de ladino
+15º
+Ataque furtivo +8d6, poder de ladino
+16º
+Poder de ladino
+17º
+Ataque furtivo +9d6, poder de ladino
+18º
+Poder de ladino
+19º
+Ataque furtivo +10d6, poder de ladino
+20º
+O verdadeiro ninja, poder de ladino
+75

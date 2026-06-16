@@ -1,0 +1,177 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=155 x1=189 y1=189 ---
+xBardox
+capoeirista
+
+--- block x0=68 y0=191 x1=144 y1=207 ---
+"Ubanauê, ubaná."
+
+--- block x0=51 y0=207 x1=275 y1=307 ---
+A capoeira é um estilo de dança mas também 
+uma arte marcial utilizada por povos oprimidos 
+para combate e ativismo contra captores. A arte 
+logo se tornou reconhecida pelo mundo de Arton, 
+principalmente na região de Ubani, onde o estilo 
+é chamado de Ka'a Puêra. Tal fama, fez esta arte se 
+tornar apreciada tanto por aventureiros quanto por 
+pessoas comuns, pelo seu estilo balancante e belo.
+
+--- block x0=289 y0=151 x1=513 y1=227 ---
+A arte da capoeira é rítmica e acrobática, foi 
+desenvolvida por elfos adjuntos a outros escravos 
+de Tiberus, sendo utilizada durante a revolta da 
+lavoura. Normalmente capoeiristas tem consigo um 
+a dois parceiros que tocam tambores, pandeiros e 
+berimbaus.
+
+--- block x0=289 y0=227 x1=513 y1=324 ---
+O rítmo da capoeira torna-a uma dança inspi-
+radora, mas letal. Além disso, seus movimentos 
+rápidos e coordenados são usados por capoeiristas 
+para realizar feitos arcanos impressionantes. 
+Características de 
+Classe
+
+--- block x0=289 y0=323 x1=513 y1=363 ---
+Pontos de Vida. Um capoeirista começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Cons por nível.
+
+--- block x0=306 y0=363 x1=488 y1=379 ---
+Pontos de Mana. Como o bardo básico.
+
+--- block x0=289 y0=379 x1=513 y1=468 ---
+Perícias. Acrobacia (Des) e Atuação (Car) 
+mais 4 a sua escolha entre Atletismo (For), Co-
+nhecimento (Int), Diplomacia (Car), Enganação 
+(Car), Furtividade (Des), Iniciativa (Des), Intuição 
+(Sab), Jogatina (Car), Ladinagem (Des), Luta (For), 
+Misticismo (Int), Nobreza (Int), Percepção (Sab), 
+Reflexos (Des) e Vontade (Sab).
+
+--- block x0=289 y0=468 x1=491 y1=512 ---
+Proficiências. Nenhuma.
+Habilidades de Classe
+
+--- block x0=289 y0=511 x1=513 y1=611 ---
+Ginga. Quando se move 6m ou mais, você 
+recebe +2 em testes de ataque e rolagens de dano e 
+é considerado sob efeito de Inspiração (veja Tormen-
+ta20, p. 44) para fins de efeitos baseados nisso até 
+o início do seu próximo turno. A cada cinco níveis, 
+estes bônus aumentam em +1. Além disso, se não 
+estiver usando armadura, você soma seu Carisma na 
+Defesa, limitado pelo nível.
+
+--- block x0=306 y0=611 x1=441 y1=628 ---
+Magias. Como o bardo básico.
+
+--- block x0=289 y0=628 x1=513 y1=656 ---
+Poder de Bardo. A partir do 2º nível, você 
+recebe esta habilidade como o bardo básico.
+
+--- block x0=289 y0=656 x1=513 y1=708 ---
+Maculelê. A partir do 3º nível, quando sob 
+efeito de Ginga, você recebe +1 dado de dano de 
+impacto com ataques desarmados e armas leves. A 
+cada seis níveis, esse efeito aumenta em +1 dado.
+
+--- block x0=51 y0=50 x1=486 y1=109 ---
+Classes Variantes
+
+--- block x0=87 y0=325 x1=236 y1=344 ---
+Tabela 1-8: O Capoeirista
+
+--- block x0=56 y0=347 x1=246 y1=360 ---
+Nível
+Habilidades de Classe
+
+--- block x0=67 y0=363 x1=190 y1=374 ---
+1º
+Ginga, magias (1º círculo)
+
+--- block x0=67 y0=378 x1=153 y1=389 ---
+2º
+Poder de bardo
+
+--- block x0=67 y0=392 x1=262 y1=415 ---
+3º
+Maculelê (+1 dado), pé de martelo (1 passo), 
+poder de bardo
+
+--- block x0=67 y0=418 x1=153 y1=429 ---
+4º
+Poder de bardo
+
+--- block x0=67 y0=433 x1=153 y1=444 ---
+5º
+Poder de bardo
+
+--- block x0=67 y0=448 x1=226 y1=459 ---
+6º
+Magias (2º círculo), poder de bardo
+
+--- block x0=67 y0=462 x1=153 y1=474 ---
+7º
+Poder de bardo
+
+--- block x0=67 y0=477 x1=153 y1=488 ---
+8º
+Poder de bardo
+
+--- block x0=67 y0=492 x1=266 y1=514 ---
+9º
+Maculelê (+1 dado), pé de martelo (2 passos), 
+poder de bardo
+
+--- block x0=65 y0=517 x1=262 y1=539 ---
+10º
+Chute relâmpago, magias (3º círculo), poder 
+de bardo
+
+--- block x0=65 y0=543 x1=153 y1=554 ---
+11º
+Poder de bardo
+
+--- block x0=65 y0=558 x1=153 y1=569 ---
+12º
+Poder de bardo
+
+--- block x0=65 y0=572 x1=153 y1=584 ---
+13º
+Poder de bardo
+
+--- block x0=65 y0=587 x1=226 y1=598 ---
+14º
+Magias (4º círculo), poder de bardo
+
+--- block x0=65 y0=602 x1=265 y1=624 ---
+15º
+Maculelê (+1 dado), pé de Martelo (3 passos), 
+poder de bardo
+
+--- block x0=65 y0=627 x1=153 y1=639 ---
+16º
+Poder de bardo
+
+--- block x0=65 y0=642 x1=153 y1=654 ---
+17º
+Poder de bardo
+
+--- block x0=65 y0=657 x1=153 y1=668 ---
+18º
+Poder de bardo
+
+--- block x0=65 y0=672 x1=153 y1=683 ---
+19º
+Poder de bardo
+
+--- block x0=65 y0=686 x1=215 y1=698 ---
+20º
+Cordão de ouro, poder de bardo
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+58
+

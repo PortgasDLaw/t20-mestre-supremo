@@ -1,0 +1,112 @@
+Capítulo Um
+de tamanho menores que a sua, invés disso ela lhe 
+considera uma cobertura total.
+Bastião. No 5º nível, você recebe essa habilida-
+de como o cavaleiro básico.
+Resoluto. A partir do 11º nível, você recebe 
+essa habilidade como o cavaleiro básico.
+Bravura Final. No 20º nível, você recebe essa 
+habilidade como o cavaleiro básico, mas com o custo 
+em PM reduzido para 2.
+xCavaleirox
+Dragoeiro
+"Eu não tenho asas, mas posso voar!"
+Em Arton, existem aqueles que caçam dragões, 
+seja por heroísmo ou para saquear seus tesouros, 
+existem ordens inteiras investidas em matá-los, e 
+facções que conspiram em sua completa aniquilação, 
+despertando a ira de Kallyadranoch. Mas existem os 
+poucos que, ao invés de tentar domá-los ou matá-los, 
+preferem estudá-los e assimilar suas técnicas.
+Os dragoeiros são cavaleiros pesados de uma 
+ordem pequena, mas existente, que conseguem 
+investir, soprar e voar como os dragões, utilizando 
+apenas de suas incríveis capacidades físicas. Eles 
+conseguem alçar os céus para atacar do alto, sendo 
+vistos caindo como cometas no campo de batalha. E 
+tudo isso utilizando ostentosas armaduras pesadas 
+moldada na forma dessas majestosas criaturas.
+Diferente do que se possa imaginar, os drago-
+eiros em sua maioria não são devotos do deus dos 
+dragões, ou sequer servem a um, mas também não 
+os antagonizam, na verdade eles parecem ter um tipo 
+de admiração por eles, e se permite estudá-los para 
+entender suas técnicas, ainda assim, aqueles que 
+desejam, acabam devotando-se ao deus dos dragões, 
+ou a algum dragão-rei poderoso. Existem até mesmo 
+dragoeiros viventes de Skcharshantallas.
+Características de 
+Classe
+Pontos de Vida. Como o cavaleiro básico.
+Pontos de Mana. 4 PM por nível.
+Perícias. Como o cavaleiro básico, mas suas 
+perícias iniciais são Atletismo e Luta, e você adiciona 
+Fortitude a sua lista de perícias.
+Proficiências. Como o cavaleiro básico..
+Habilidades de Classe
+Código de Honra. Como o cavaleiro básico.
+Investida Dracônica. Uma vez por rodada, 
+ao fazer uma investida, você pode gastar 2 PM para 
+saltar em direção ao alvo. Faça um teste de Atletis-
+mo, para cada 10 pontos de resultado neste teste, 
+você causa +1d8 pontos de dano ao acertar o ataque. 
+Se estiver empunhando uma arma alongada e/ou 
+possuir deslocamento de voo, você recebe um bônus 
+de +5 neste teste.
+Poder de Cavaleiro. A partir do 2º nível, 
+você recebe essa habilidade como o cavaleiro básico.
+Presa Perfurante. A partir do 2º nível, ao 
+atacar com uma arma alongada, você pode gastar 2 
+PM para atacar todas as criaturas em uma linha com 
+um comprimento igual ao seu alcance natural — faça 
+um único teste de ataque e compare com a Defesa de 
+todas as criaturas na área. Ao usar essa habilidade, 
+seu alcance natural aumenta em +3m até o início do 
+seu próximo turno (após ser dobrado por sua arma).
+Caminho do Dragoeiro. No 5º nível, esco-
+lha entre Corcel ou Sopro. Uma vez feita, a escolha 
+não pode ser mudada.
+Tabela 1-10: O Dragoeiro
+Nível
+Habilidades de Classe
+1º
+Código de Honra, Investida Dracônica
+2º
+Poder de Cavaleiro, Presa Perfurante
+3º
+Poder de Cavaleiro
+4º
+Poder de Cavaleiro
+5º
+Caminho do Dragoeiro, Poder de Cavaleiro
+6º
+Poder de Cavaleiro
+7º
+Poder de Cavaleiro
+8º
+Poder de Cavaleiro
+9º
+Poder de Cavaleiro
+10º
+Poder de Cavaleiro
+11º
+Vento dos Reis, Poder de Cavaleiro
+12º
+Poder de Cavaleiro
+13º
+Poder de Cavaleiro
+14º
+Poder de Cavaleiro
+15º
+Poder de Cavaleiro
+16º
+Poder de Cavaleiro
+17º
+Poder de Cavaleiro
+18º
+Poder de Cavaleiro
+19º
+Poder de Cavaleiro
+20º
+Investida Meteórica, Poder de Cavaleiro
+60

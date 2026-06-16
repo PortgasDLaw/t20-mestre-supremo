@@ -1,0 +1,142 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=95 ---
+que você se mova. Você recebe o poder concedido 
+de um deus maior, mas deve ser obrigatoriamente 
+devoto da divindade do poder escolhido.
+
+--- block x0=71 y0=95 x1=295 y1=188 ---
+Psíquica. Você é operado por mecanismos ex-
+traplanares atrelados a mente coletiva do Fim. Você 
+treina uma perícia a sua escolha, além disso, escolha 
+um atributo mental, você recebe +1 em testes de 
+perícias baseadas no atributo escolhido.
+Maravilhas Mecânicas
+
+--- block x0=71 y0=186 x1=295 y1=239 ---
+Braços Extras. Você recebe a poder Quatro 
+Braços (veja Heróis de Arton, p. 91) e pode escolher o 
+poder Quadriestria como uma maravilha mecânica. 
+Pré-requisito: 5º Nível.
+
+--- block x0=71 y0=239 x1=295 y1=291 ---
+Cabeça Extra. Você recebe o poder Duas Ca-
+beças (veja Heróis de Arton, p. 87) e pode escolher os 
+poderes que tenha Duas Cabeças como pré-requisito 
+como maravilhas mecânicas. Pré-requisito: 5º Nível.
+
+--- block x0=71 y0=291 x1=295 y1=331 ---
+Chassi Reforçado. Você recebe redução de 
+dano 2, no patamar lenda, esse ganho muda para 5. 
+Pré-requisito: 5º Nível.
+
+--- block x0=71 y0=331 x1=295 y1=359 ---
+Compartimento Interno. Você aumenta 
+seu limite de carga em 5 espaços.
+
+--- block x0=71 y0=359 x1=295 y1=436 ---
+Reflexão Elemental. Ao sofrer dano do tipo 
+da sua fonte elemental, você pode, invés de curar-se, 
+devolver o efeito gastando 1 PM. Você causa uma 
+explosão com 3m de raio a partir de você que causa 
+dano igual à metade do sofrido (Ref CD Con reduz à 
+metade). Pré-requisito: Fonte de Energia (elemental).
+
+--- block x0=71 y0=436 x1=295 y1=500 ---
+Desligar a Mente. Você pode gastar 5 PM 
+para receber imunidade a efeitos de medo e mentais 
+até o fim da cena. Ao ativar essa habilidade, você fica 
+incapaz de lançar magias e sustentar efeitos. Pré-re-
+quisito: 11º nível.
+
+--- block x0=71 y0=500 x1=295 y1=552 ---
+Iaikiri. Na primeira vez que sacar sua arma 
+acoplada na cena, você pode gastar 2 PM para realizar 
+um ataque em um alvo no alcance com uma ação 
+livre. Pré-requisito: Arma Acoplada.
+
+--- block x0=71 y0=552 x1=295 y1=592 ---
+Inoxidável. Você recebe redução de ácido 5 e 
+resistência a ácido +2. Você não pode escolher essa 
+maravilha se possuir fonte elemental.
+
+--- block x0=71 y0=592 x1=295 y1=657 ---
+Kentauros. A parte inferior do seu corpo é 
+moldada na forma de um equino, você recebe as ha-
+bilidades Avantajado e Ginete Natural (veja Ameaças 
+de Arton, p. 105). Você só pode pegar essa habilidade 
+como parte da construção de personagem.
+
+--- block x0=71 y0=657 x1=295 y1=697 ---
+Membros Aprimorados. Ao fazer um teste 
+de Força, Atletismo ou manobra, você pode gastar 2 
+PM para somar metade do seu nível no teste.
+
+--- block x0=326 y0=53 x1=375 y1=71 ---
+Proteses
+
+--- block x0=326 y0=72 x1=512 y1=232 ---
+Na Jornada Heróica: Guerra Artoniana existem 
+duas proteses que substituem os braços de 
+um personagem concedendo bônus. Este 
+suplemento tem algo parecido, um jogador 
+que queira aplicar uma maravilha mecânica 
+(ou Protese) no seu personagem pode fazer 
+isso por meio de um teste de Cura (CD 30 
++5 por Implante em seu corpo). Golens e 
+Yidishans trocam esses testes por Ofício 
+(Artesão), Mashins não tem o aumento 
+de CD. Por fim, mortos-vivos não podem 
+aplicar implantes ou próteses — não tem 
+como fazer ligamentos em um corpo morto.
+
+--- block x0=326 y0=233 x1=515 y1=345 ---
+Cada protese custa T$ 72.000, esse valor 
+aumenta em +T$ 36.000 para cada protese 
+já instalada em seu corpo. Além disso, se 
+não for Mashin, para cada duas proteses em 
+seu corpo, você perde –1 de Constituição, 
+representando a rigidez das cirurgias que 
+acabam debilitando sua saúde. Fica a cargo 
+do mestre determinar quais proteses podem 
+ser aplicados aos personagens.
+
+--- block x0=326 y0=345 x1=505 y1=445 ---
+Proteses também podem ser feitas para 
+substituir ou dar de volta o membro 
+perdido de um personagem. Proteses 
+mundanas (sem qualquer efeito mecânico 
+além de substituir um membro) custa 
+T$ 18.000 e não seguem as regras de 
+debilitação e aumento de preço descritas 
+acima.
+
+--- block x0=309 y0=480 x1=533 y1=520 ---
+Nulificar. Uma vez por rodada, se for alvo de 
+um teste de resistência, você pode gastar 5 PM para 
+evitar o efeito em um sucesso. Pré-requisito: 5º Nível.
+
+--- block x0=309 y0=520 x1=533 y1=572 ---
+Redefinir Propósito. Você pode trocar seu 
+poder geral obtido através da habilidade Propósito 
+de Criação, este processo demora 8 horas e pode ser 
+feito como parte de um descanso.
+
+--- block x0=309 y0=572 x1=533 y1=601 ---
+Sensores Aprimorados. Você recebe +2 em 
+Percepção, Iniciativa e Reflexos.
+
+--- block x0=309 y0=600 x1=533 y1=701 ---
+Sopro Elemental. Ao usar a habilidade de 
+sopro da sua fonte de vapor, você pode trocar o tipo 
+de dano para um entre ácido, eletricidade, frio, luz ou 
+trevas. De acordo com o tipo escolhido, a condição 
+aplicada muda: atordoado por 1 rodada (eletricida-
+de), lento (frio), ofuscado (luz), vulnerável (ácido) 
+ou não pode ser curado por 1 rodada (trevas). Pré-re-
+quisito: Fonte de Energia (vapor).
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+23
+

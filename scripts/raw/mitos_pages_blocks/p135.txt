@@ -1,0 +1,131 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=157 x1=292 y1=174 ---
+Ambicioso	
+humano
+
+--- block x0=71 y0=174 x1=295 y1=295 ---
+Você pode treinar (veja Tormenta20, p. 276) junto 
+a um aliado. Se ambos forem bem sucedidos, você 
+recebe um poder que o aliado possua e ele um que 
+você possua. O poder escolhido deve ser geral (exce-
+to poderes da tormenta) ou de uma classe que você 
+tenha pelo menos dois níveis e cujo pré-requisitos 
+cumpra. Esse poder dura até o fim da aventura. Pré-
+-requisitos: Sab 1, Car 1.
+ÂNGULO DE MOVIMENTO	
+Sátiro
+
+--- block x0=71 y0=295 x1=295 y1=367 ---
+Você recebe +10 em testes para escalar. Além 
+disso, se a superfície escalada for levemente inclina-
+da (a critério do mestre), você pode escalar sem usar 
+as mãos.
+Aperto	
+nagah
+
+--- block x0=71 y0=367 x1=295 y1=476 ---
+Você recebe +2 em testes de ataque para Agarrar 
+e a criatura agarrada por você sofre uma quantidade 
+de pontos de dano de impacto igual a 1d8 + sua 
+Força sempre no início do seu turno. A cada quatro 
+níveis após o 1º, o dano da constrição aumenta em 
++1d8. Por utilizar o corpo para agarrar o alvo, você 
+fica imóvel enquanto mantém-se agarrando-o.
+Arma Gloriosa	
+Envar
+
+--- block x0=71 y0=476 x1=295 y1=561 ---
+Qualquer espada de uma mão empunhada por 
+você passa é considerada como favorita da sua divin-
+dade se ela canaliza energia positiva e pode ser usada 
+por devotos do panteão. Pré-requisito: Abençoado ou 
+Devoto Fiel (exceto de Lena ou Marah).
+Arma guardiã	
+valquíria
+
+--- block x0=71 y0=561 x1=295 y1=646 ---
+Quando empunha uma lança, ela se torna ágil e 
+você recebe +1 em testes de ataque e +2 em rolagens 
+de dano com ela se estiver pairando ou voando. Se 
+for proficiente com armas marciais, também recebe 
++1 na margem de ameaça com lanças.
+Arsenal Infernal	
+dagon
+
+--- block x0=71 y0=646 x1=295 y1=710 ---
+Você pode gastar 3 PM para invocar uma arma 
+mágica corpo a corpo em que seja proficiente. A arma 
+surge em sua mão e seu tipo de dano da arma muda 
+para essência. A arma some ao fim da cena ou ao 
+você ficar inconsciente. e
+
+--- block x0=309 y0=157 x1=530 y1=174 ---
+Asas Feéricas	
+eiradaan
+
+--- block x0=309 y0=174 x1=533 y1=247 ---
+Você desenvolve um par de asas similar a de 
+uma borboleta ou libélula. Você pode gastar 1 PM 
+por rodada para receber deslocamento de voo 12m. 
+Enquanto voando dessa forma, você fica vulnerável.
+Asas Guardiãs	
+valquíria
+
+--- block x0=309 y0=247 x1=533 y1=331 ---
+Você pode usar suas asas para fornecer camufla-
+gem total a até duas criaturas adjacentes a você. Se o 
+ataque acertar uma das criaturas, o ataque é redire-
+cionado a você — e então é resolvido normalmente. 
+Pré-requisito: Asas de Aço.
+Assimilação	
+Duplo
+
+--- block x0=309 y0=331 x1=533 y1=416 ---
+Ao passar pelo menos 2 semanas com uma mes-
+ma criatura, você se torna treinado em uma perícia 
+em que ela é treinada. Você só pode fazer isso uma 
+vez por criatura, limitado a duas perícias por pata-
+mar. Pré-requisito: Mimetismo.
+Até o fim!	
+Envar
+
+--- block x0=309 y0=416 x1=533 y1=489 ---
+Ao morrer, você continua consciente até o fim da 
+cena, mas não se beneficia de qualquer tipo de cura. 
+Ao fim da cena, só então você morre por definitivo. 
+Pré-requisito: Inabalável.
+Atirador	
+toskr
+
+--- block x0=309 y0=489 x1=533 y1=538 ---
+Você recebe proficiência com armas de fogo e +2 
+em rolagens de dano com essas armas.
+Bala de Canhão	
+G'rokk
+
+--- block x0=309 y0=538 x1=533 y1=634 ---
+Você recebe deslocamento de escavação 12m. 
+Além disso, ao fazer uma investida enquanto esca-
+vando, você emerge na forma de uma esfera e faz um 
+ataque corpo a corpo. O alvo fica surpreendido e se 
+você acertar o ataque, causa o dano das suas garras 
++4d8 como dano de impacto.
+Bruma do Norte	
+Kappa
+
+--- block x0=309 y0=634 x1=533 y1=710 ---
+Você pode gastar uma ação de movimento e 2 
+PM para cria vapor através da água em sua cabeça e 
+formar uma aura de 9m de raio a partir de você com 
+duração sustentada. Você e aliados dentro da aura 
+recebem camuflagem leve contra inimigos dentro 
+dela, já para criaturas fora da aura, você e seus alia-
+
+--- block x0=100 y0=50 x1=501 y1=109 ---
+Poderes de raça
+
+--- block x0=560 y0=756 x1=575 y1=767 ---
+135
+

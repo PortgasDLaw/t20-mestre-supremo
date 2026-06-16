@@ -468,7 +468,7 @@
     "fonte": "Mitos de Arton",
     "imagem": "",
     "atributos": "Carisma –2",
-    "descricao": "A junção de diversos seres distintos em um único corpo, criando um ser híbrido de diversas espécies. Não são mortos-vivos comuns, pois se sustentam por mecanismos internos e órgãos ainda vivos operados por forças místicas distintas. Surgem quando um cientista decide criar vida sem se preocupar com forma ou beleza.",
+    "descricao": "A junção de diversos seres distintos em um único corpo, criando um ser híbrido de diversas espécies, remendadas e costuradas uma nas outras. Diferente dos mortos-vivos comuns, não são alimentados por energias das trevas, mas se sustentam por mecanismos internos e órgãos ainda vivos operados por forças místicas distintas. Surgem quando um cientista louco decide criar vida sem se preocupar com forma ou beleza.",
     "habilidades": [
       {
         "nome": "Carisma –2",
@@ -476,11 +476,19 @@
       },
       {
         "nome": "Crise Existencial",
-        "descricao": "Seu corpo é formado por inúmeras partes distintas. Você sofre –5 em testes de Carisma e de perícias baseadas em Carisma. Ao entrar em combate, faça teste de Vontade (CD 15 + nível), se falhar, fica alquebrado pela cena e atordoado por 1 rodada."
+        "descricao": "Seu corpo é formado por inúmeras partes distintas, que estão sempre duelando para definir quem é soberana. Você sofre uma penalidade de –5 em testes de Carisma e de perícias baseadas em Carisma. Além disso, ao entrar em uma cena de combate, faça um teste de Vontade (CD 15 + seu nível); se falhar, você fica alquebrado pela cena e atordoado por 1 rodada (mesmo que imune)."
       },
       {
         "nome": "Fonte de Vida",
-        "descricao": "Escolha uma fonte: Divina (espírito, visão na penumbra, +1 Int), Mística (morto-vivo, visão no escuro, imunidade a cansaço/veneno), ou Mecânica (construto, não precisa respirar/dormir, recupera PV através de reparos)."
+        "descricao": "Seu corpo é alimentado e se move através de uma das fontes abaixo, isso define seu tipo de criatura e algumas habilidades só podem ser pegas por amálgamos de fontes específicas. Para propósitos de poderes que interagem com habilidades de raça, você é uma criatura do tipo construto. Fonte Divina: você se move através das energias divinas, sendo uma criatura do tipo espírito; recebe visão na penumbra e +1 em Inteligência. Fonte Mística: você se move através da magia necromântica, sendo uma criatura do tipo morto-vivo; recebe visão no escuro, imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno; além disso, não precisa respirar; por fim, efeitos mágicos de cura de luz causam dano a você, mas dano de trevas recupera seus PV. Fonte Orgânica: você se move através de órgãos vivos e mecanismos, sendo uma criatura do tipo monstro; recebe visão no escuro e +1 em Força ou Constituição."
+      },
+      {
+        "nome": "Legião",
+        "descricao": "Você é muitos para ter uma única origem. Você recebe três benefícios de origens diferentes (veja Tormenta20, p. 85), recebendo os itens de apenas uma delas. No entanto, você não tem direito a escolher uma origem de benefício único."
+      },
+      {
+        "nome": "Partes Enxertadas",
+        "descricao": "Escolha três dos poderes a seguir. Uma vez por patamar, você pode escolher um dos poderes abaixo no lugar de poderes de classe. Alma Devota: Sabedoria +1, pode se tornar devoto de qualquer divindade mesmo que sua classe possua lista de devoções específicas, e recebe +2 em Religião, tornando-se treinado nesta perícia. Armas Naturais: recebe uma arma natural a sua escolha (dano 1d6, crítico x2) entre as disponíveis na tabela da página 374 do Ameaças de Arton; uma vez por rodada, ao usar a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com sua arma natural; pode escolher este poder outras vezes para armas naturais diferentes ou para aumentar o dano de uma já possuída em um passo; pré-requisito: Fonte Orgânica. Asas de Rapina: Destreza +1, pode pairar a 1,5m do chão com deslocamento 9m (ignora terreno difícil, imune a dano de queda exceto se inconsciente), pode gastar 1 PM por rodada para voar com deslocamento 12m; precisa de espaço para abrir as asas, ocupando o espaço de uma criatura uma categoria de tamanho maior. Cérebro Genial: Inteligência +1, torna-se treinado em Misticismo e recebe +2 nesta perícia; se for morto-vivo, pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência), e se aprender novamente essa magia seu custo diminui em –1 PM. Exoesqueleto: redução de dano 2 (aumenta em +1 a cada patamar além do iniciante); pode escolher uma segunda vez para receber imunidade a frio; pré-requisito: Fonte Mística. Identidade Racial: escolha uma raça do seu tipo de criatura (escolha permanente); você é considerado parte dela para pré-requisitos e efeitos relacionados à raça escolhida. Músculos de Gigante: Força +1 e aumenta sua categoria de tamanho em um passo; se for monstro, também recebe +2 nas rolagens de dano corpo a corpo. Partes Metálicas: Constituição +1 e +2 na Defesa, mas com penalidade de armadura –2. Pernas Anômalas: Destreza +1 e pode escolher 10 em testes de Acrobacia ou Atletismo; pode escolher este poder uma segunda vez para receber deslocamento de escalada 9m. Sangue Místico: +1 PM por nível de personagem; a partir do patamar campeão, passa a somar Inteligência no total de pontos de mana; pré-requisito: Fonte Mística. Sexto Sentido: Sabedoria +1, +2 em Intuição e Percepção; se for espírito, pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria), e se aprender novamente essa magia seu custo diminui em –1 PM."
       }
     ],
     "deus": "Megalokk, Nimb, Tanna-Toh, Tenebra",
@@ -489,13 +497,40 @@
     "longevidade": "x0,7"
   },
   {
+    "id": "arachne",
+    "nome": "Arachne",
+    "tipo": "rara",
+    "fonte": "Mitos de Arton",
+    "imagem": "",
+    "atributos": "Constituição +2, Destreza +1, Carisma –1",
+    "descricao": "Nativas da Floresta de Seda, no continente de Galrasia, as arachnes são criaturas com metade do corpo sendo de uma aranha. Sua origem é um tanto obscura, sendo elas referenciadas como filhas de Tenebra, que as criou ao conceder a um habitante da floresta um par para poder perpetuar sua raça, mas que por decreto de Azgher, foram impedidas de apreciar a luz do sol.",
+    "habilidades": [
+      {
+        "nome": "Constituição +2, Destreza +1, Carisma –1",
+        "descricao": "Herança aracnídea que confere resiliência e agilidade, mas afasta a confiança de outros povos."
+      },
+      {
+        "nome": "Criatura Aracnídea",
+        "descricao": "Você é uma criatura do tipo monstro. Recebe visão no escuro, sensibilidade a luz e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo. Além disso, seu tamanho é Grande e você recebe deslocamento de escalada 9m. Por fim, pode escolher 10 em testes de Acrobacia para se equilibrar."
+      },
+      {
+        "nome": "Tecelã de Teias",
+        "descricao": "Você recebe +2 em Ofício (Alfaiate) e pode fazer testes dessa perícia mesmo sem ferramentas ou treinamento. Além disso, aprende e pode lançar Teia (CD Con ou Des) como uma magia simulada e pode aprimorá-la como se tivesse acesso aos mesmos círculos de magias que um bardo com seu nível de personagem."
+      }
+    ],
+    "deus": "Allihanna, Lena, Megalokk, Tenebra",
+    "tamanho": "Grande",
+    "deslocamento": "9m",
+    "longevidade": "Normal"
+  },
+  {
     "id": "averiano",
     "nome": "Averiano",
     "tipo": "rara",
     "fonte": "Mitos de Arton",
     "imagem": "",
     "atributos": "Sabedoria +1, Inteligência –2",
-    "descricao": "A cruza mística de energia de monstros conhecidos como lagartos-serpes e humanoides devotos de Allihanna. São altos e sobrenaturalmente fortes com capacidades monstruosas inatas, possuindo quatro dedos nas mãos, pernas digitigradas e patas no lugar dos pés.",
+    "descricao": "A cruza mística e fantástica da energia ou força de monstros conhecidos como lagartos-serpes e humanoides, normalmente humanos devotos de Allihanna. São seres altos e sobrenaturalmente fortes, com capacidades monstruosas inatas, possuindo quatro dedos nas mãos, pernas digitigradas e patas no lugar dos pés, além de orelhas pontudas e proeminentes.",
     "habilidades": [
       {
         "nome": "Sabedoria +1, Inteligência –2",
@@ -507,7 +542,11 @@
       },
       {
         "nome": "Bênção Selvagem",
-        "descricao": "Escolha dois poderes: Compreensão Selvagem (Sab+1, falar com animais), Empunhadura Poderosa (dano extra em ataques), ou outros poderes inatos de monstro. Uma vez por patamar, pode escolher uma bênção no lugar de um poder de classe."
+        "descricao": "Escolha dois dos poderes a seguir. Uma vez por patamar, você pode escolher uma bênção no lugar de um poder de classe. Compreensão Selvagem: Sabedoria +1, pode falar com animais e monstros livremente (incluindo os não-inteligentes). Empunhadura Poderosa: Força +1 e o poder de mesmo nome; se receber este poder novamente, a penalidade diminui para 0 e você também pode usar armas com até duas categorias de tamanho maiores que a sua com penalidade de –5 nos testes de ataque. Ferrão de Serpe: Constituição +1; ao acertar um ataque corpo a corpo, pode gastar 1 PM para o alvo também perder 1d12 pontos de vida (veneno). Força Monstruosa: Força +1, +2 em testes de manobra e seus ataques corpo a corpo recebem +1 dado de dano do mesmo tipo. Forma Selvagem: recebe o poder de mesmo nome para uma única forma; se receber este poder novamente, o custo para assumir a forma escolhida é reduzido em –1 PM; pode escolher este poder outras vezes para formas diferentes. Mutação Monstruosa: recebe uma Bênção de Megalokk (veja Guerra Artoniana, p. 316), mas anula suas penalidades; bênçãos obtidas através deste poder não podem ser \"purificadas\"; pode escolher esse poder várias vezes. Pele Escamosa: Constituição +1, redução de dano 2 e +2 na Defesa. Pernas de Raptor: Destreza +1 e aumenta seu deslocamento em +3m."
+      },
+      {
+        "nome": "Averianos Druidas",
+        "descricao": "A combinação da natureza monstruosa dos lagartos-serpes e as forças naturais concede ao averiano druida habilidades especiais: ele ignora os pré-requisitos de ser devoto de Megalokk para poderes de druida e admissões, e pode usar Constituição como atributo-chave na CD para resistir às suas habilidades de druida (exceto Magias)."
       }
     ],
     "deus": "Lin-Wu, Megalokk, Tanna-toh, Tenebra",
@@ -521,20 +560,28 @@
     "tipo": "rara",
     "fonte": "Mitos de Arton",
     "imagem": "",
-    "atributos": "Carisma +2, +1 em Outro Atributo, Constituição –1",
-    "descricao": "Nascidos da relação entre humanos e vampíros após o surgimento de Aslothia. São belos e altivos como vampíros, carregando sua mácula sinistra, mas a sede de sangue é mais contida. São sempre pálidos ou acizentados, com cabelos prateados e orelhas pontudas.",
+    "atributos": "Carisma +2, +1 em Outro Atributo (exceto Constituição), Constituição –1",
+    "descricao": "Nascidos da relação entre humanos e vampíros após o surgimento de Aslothia. São exatamente o que se imagina, seres altivos e belos como os vampíros, mas que carregam sua sinistra mácula; a sede de sangue deles é mais contida, pois não sofrem da maldição vampírica, mas detêm suas poderosas capacidades em um âmbito mais limitado. São sempre pálidos ou acizentados, com cabelos prateados e, em grande parte das vezes, orelhas pontudas. A pele é fria, mas eles não estão completamente mortos.",
     "habilidades": [
       {
         "nome": "Carisma +2, +1 em Outro Atributo, Constituição –1",
         "descricao": "A herança vampírica confere beleza sobrenatural mas fragilidade física."
       },
       {
-        "nome": "Herança Vampírica",
-        "descricao": "Você é uma criatura do tipo humanoide (morto-vivo). Recebe visão no escuro, resistência a trevas 5 e +2 em Enganação e Nobreza."
+        "nome": "Bênção das Trevas",
+        "descricao": "Você recebe uma bênção vampírica (veja DB #220, p. 73), exceto Drenar Sangue. A cada seis níveis após o primeiro, você recebe uma bênção vampírica adicional."
       },
       {
-        "nome": "Sede de Sangue",
-        "descricao": "Uma vez por rodada, ao acertar um ataque corpo a corpo, você pode gastar 2 PM para drenar 1d6 PV do alvo e absolvê-los. Se não drenar ao menos 5 PV por cena de combate, fica fraco até o fim da cena."
+        "nome": "Natureza Élfica",
+        "descricao": "Você se torna treinado em uma perícia a sua escolha e recebe uma habilidade de elfo entre Graça de Glórienn ou Sangue Mágico."
+      },
+      {
+        "nome": "Natureza Vampírica",
+        "descricao": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro, resistência a trevas +5 e imunidade a efeitos de cansaço, metabólicos e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, você recebe sensibilidade ao sol (sob exposição direta da luz do sol, você fica ofuscado e perde 1d6 PV por rodada por bênção vampírica que possuir) e não se beneficia de cura de luz."
+      },
+      {
+        "nome": "Ser Tumular",
+        "descricao": "Você precisa dormir no subterrâneo ou em um caixão para ter os benefícios de um descanso normal (você não é afetado por condições boas ou ruins de descanso); do contrário, sofre os efeitos de fome (veja Tormenta20, p. 319) e –1 nos testes de perícia por bênção vampírica que possuir até que descanse."
       }
     ],
     "deus": "Kallyadranoch, Tenebra, Wynna",

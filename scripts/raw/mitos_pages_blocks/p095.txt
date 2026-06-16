@@ -1,0 +1,87 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=95 ---
+campus acadêmico tão amplo e vasto de novos co-
+nhecimentos, você tem uma boa bagagem a dar para 
+seus aliados.
+
+--- block x0=71 y0=95 x1=295 y1=147 ---
+Benefício. Você recebe a habilidade Eclético 
+(veja Tormenta20, p. 45), caso receba essa habilidade 
+novamente, você pode gastar +1 PM ao usá-la para 
+receber +2 no teste.
+
+--- block x0=71 y0=147 x1=292 y1=204 ---
+Itens. Coleção de livros, mochila de aventurei-
+ro, essência de mana x2.
+Vivente entre lendas
+
+--- block x0=71 y0=203 x1=295 y1=291 ---
+Você nasceu em algum lugar famoso e privilegia-
+do, habitado por algum herói ou lenda. Pode ter sido 
+um morador de Vectora ou Lenórienn, ou filho de 
+algum dragão-rei ou arquimago, ou até mesmo já ter 
+visitado mundos divinos desde pequeno. Esses anos 
+incríveis na sua vida lhe inspiraram a ser como eles 
+no futuro, tornar-se um herói, uma lenda!
+
+--- block x0=71 y0=291 x1=295 y1=343 ---
+Benefício. Você é treinado em duas perícias a 
+sua escolha, podendo trocar uma delas por um poder 
+geral. Caso seja humano, você pode escolher um po-
+der de classe e um poder geral no lugar das perícias. 
+
+--- block x0=71 y0=343 x1=295 y1=424 ---
+Itens. Pelúcia ou chaveiro do seu herói favorito, 
+uma arma simples ou marcial com nome pomposo (e 
+nenhuma melhoria), essência de mana x2, mochila 
+de aventureiro.
+Yaksha
+
+--- block x0=71 y0=423 x1=295 y1=511 ---
+Você já foi um dos membros do infame clã de 
+assassinos tamuranianos que trabalham a serviço 
+dos Cheng, os Yaksha. Considerando que a Yaksha 
+elimina aqueles que abandonam a organização, 
+pode-se dizer que sua cabeça está a prêmio, ainda 
+assim, o que você aprendeu te ajuda a se proteger de 
+quem lhe caça.
+
+--- block x0=71 y0=511 x1=295 y1=551 ---
+Benefício. Você é treinado em Furtividade e 
+recebe +2 em rolagens de dano contra alvos despre-
+venidos ou que esteja flanqueado.
+
+--- block x0=71 y0=551 x1=295 y1=620 ---
+Itens. Bomba de fumaça x2, kunai (adaga) x2, 
+uma máscara completa de oni, hannya ou tengu que 
+fornece +1 em Intimidação.
+Zênite
+
+--- block x0=71 y0=619 x1=295 y1=695 ---
+Você é o ápice do que faz, seja você um ferreiro 
+habilidoso capaz de produzir as melhores armas, um 
+curandeiro que faz os mais refinados remédios, você 
+simplesmente é impecável neste ofício. É comum 
+que anões recebam essa mácula, disputando entre 
+eles quem é melhor que quem.
+
+--- block x0=88 y0=695 x1=295 y1=711 ---
+Benefício. Você é treinado Ofício (um a sua 
+
+--- block x0=309 y0=55 x1=533 y1=119 ---
+escolha) e recebe +2 nele. Escolha um dos tipos de 
+itens permitidos a ser fabricado com seu Ofício. Você 
+pode fabricar itens do tipo escolhido com um encanto 
+e uma melhoria (cumulativo com outras habilidades 
+que permitam fabricar itens superiores e mágicos).
+
+--- block x0=309 y0=119 x1=533 y1=159 ---
+Itens. Instrumentos de Ofício aprimorado, um 
+item superior com uma melhoria (exceto material 
+especial) baseado no ofício escolhido.
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+95
+

@@ -1,0 +1,133 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=222 y1=72 ---
+Flechada no Joelho
+
+--- block x0=71 y0=72 x1=295 y1=133 ---
+Ao fazer um acerto crítico com uma arma de ataque 
+à distância, você pode gastar 1 PM para deixar o alvo 
+caído ou lento. Pré-requisitos: Estilo de Disparo, Sab 2.
+Gigante
+
+--- block x0=71 y0=132 x1=295 y1=205 ---
+Seu tamanho aumenta em uma categoria, mas 
+você perde os benefícios do poder Grandão — exceto 
+o ganho de espaços de carga. Pré-requisitos: For 4, Con 5, 
+Empunhadura Poderosa, Grandão.
+Ginete Andarilho
+
+--- block x0=71 y0=205 x1=295 y1=278 ---
+Ações de movimento fornecidas por suas montarias 
+passam a poder ser usadas para sacar e guardar itens 
+e ela pode se beneficiar de um item vestido adicional. 
+Pré-requisitos: Ginete, 5º nível de personagem.
+Investida com Escudo
+
+--- block x0=71 y0=278 x1=295 y1=375 ---
+Ao fazer uma ação de investida, você pode gastar 
+1 PM para fazê-la com seu escudo, ao fazê-lo, escolha 
+entre atacar com o escudo ou fazer uma manobra para 
+derrubar. Se derrubar o alvo, você pode gastar 2 PM para 
+fazer um ataque com uma arma que esteja empunhan-
+do. Pré-requisito: Ataque com Escudo.
+No ritmo da Luta
+
+--- block x0=71 y0=375 x1=295 y1=472 ---
+No início de uma cena de combate, faça um teste 
+oposto de Destreza contra um inimigo em alcance 
+curto, se vencer, você recebe +2 na margem de ameaça 
+contra esse alvo em seus ataques desarmados até o 
+fim da cena. Pré-requisitos: Briga ou Estilo Desarmado, 
+treinado em Acrobacia e Atuação.
+Manuseio Aperfeiçoado
+
+--- block x0=71 y0=472 x1=295 y1=532 ---
+Armas corpo a corpo de uma mão recebem a pro-
+priedade Adaptável. Se já possuir, empunhá-la com as 
+duas mãos fornece +2 na rolagem de dano.
+Manuseio Poderoso
+
+--- block x0=71 y0=532 x1=295 y1=617 ---
+Você pode empunhar uma arma de duas mãos com 
+apenas uma mão, mas sofre uma penalidade de –5 nos 
+seus testes de ataque. Se fizer isso, não pode empunhar 
+escudos na mão livre. Pré-requisitos: Empunhadura Pode-
+rosa, Manuseio Aperfeiçoado, For 3.
+Perfurar A Escama
+
+--- block x0=71 y0=617 x1=295 y1=678 ---
+Quando enfrentando um dragão, você ignora meta-
+de da resistência a magia que ele possui e recebe +2 no 
+teste contra sua Presença Aterradora (se ele possuir). e
+Ponta da Liderança
+
+--- block x0=71 y0=678 x1=295 y1=706 ---
+Enquanto empunhar uma arma alongada que cause 
+dano de perfuração, você pode gastar uma ação padrão 
+
+--- block x0=309 y0=55 x1=533 y1=152 ---
+e 3 PM para somar sua Inteligência em testes de ataque 
+e rolagens de dano (limitado pelo nível, não cumulativo 
+com efeitos que troque para este atributo) até o fim da 
+cena. O efeito também se encerra se for desarmado ou 
+guardar a arma. Pré-requisitos: treinado em Guerra, Int 2, 
+Estilo de Arma Longa.
+Precisão Cruel
+
+--- block x0=309 y0=152 x1=530 y1=200 ---
+Seu multiplicador de crítico aumenta em +1. Pré-re-
+quisitos: Precisão Letal, 17º nível de personagem.
+Quebrar Montanhas
+
+--- block x0=309 y0=200 x1=533 y1=333 ---
+Quando empunha uma arma de duas mãos que 
+cause dano de impacto, você pode gastar uma ação 
+padrão e 3 PM para assumir uma postura destruidora 
+até o fim da cena — ser desarmado ou guardar a arma 
+também encerra o efeito —, passando a ignorar 2 pontos 
+de redução de dano de seus alvos, com +2 adicionais 
+para cada quatro níveis após o 1º. Esse efeito dobra em 
+acertos críticos. Pré-requisitos: treinado em Guerra, Int 2, 
+Estilo de Duas Mãos.
+Rodopiar e Lançar
+
+--- block x0=309 y0=333 x1=533 y1=478 ---
+Ao agarrar uma criatura, você pode gastar 3 PM 
+para arremessar a criatura agarrada com uma ação livre 
+em um ponto em alcance curto, desde que ela seja uma 
+categoria de tamanho menor que você. Você faz um 
+teste de Força, para cada 5 pontos no resultado deste 
+teste, a criatura arremessada sofre 1d6 pontos de dano 
+e fica caída no ponto em que foi arremessada. Se ela 
+for lançada contra uma criatura, ela também recebe o 
+dano e fica caída (Ref CD For reduz à metade e evita a 
+condição). Pré-requisitos: Estilo de Arremesso, For 5.
+Sequência Crítica
+
+--- block x0=309 y0=478 x1=533 y1=575 ---
+Uma vez por rodada, ao realizar dois acertos críti-
+cos com ataques corpo a corpo dentro do mesmo turno, 
+você recebe um terceiro ataque como uma ação livre 
+imediatamente, se esse ataque também for um crítico, o 
+alvo fica desprevenido por 1 rodada. Pré-requisitos: Estilo 
+de Duas Armas, Precisão Letal.
+Tanque Armado
+
+--- block x0=309 y0=575 x1=533 y1=671 ---
+Uma vez por rodada, ao sofrer um ataque e reduzir 
+totalmente seu dano através de redução de dano e habi-
+lidades não mágicas (exceto Evasão), você pode gastar 2 
+PM para realizar um ataque corpo a corpo contra o autor 
+do ataque — se ele estiver no alcance. Pré-requisitos: 
+treinado em Fortitude.
+Um Tiro, uma baixa
+
+--- block x0=309 y0=671 x1=533 y1=711 ---
+Quando realiza um acerto crítico com uma arma de 
+fogo, você pode gastar 2 PM para aumentar seu mul-
+tiplicador de crítico em +1 neste ataque. Pré-requisitos: 
+
+--- block x0=561 y0=756 x1=575 y1=767 ---
+129
+

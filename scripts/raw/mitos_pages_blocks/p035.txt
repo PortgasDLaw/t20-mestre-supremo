@@ -1,0 +1,196 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=246 y1=93 ---
+Características de 
+Classe
+
+--- block x0=71 y0=91 x1=295 y1=132 ---
+Pontos de Vida. Um cultivador começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Constituição por nível.
+
+--- block x0=88 y0=132 x1=243 y1=148 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=71 y0=148 x1=295 y1=260 ---
+Perícias. Luta (For) ou Misticismo (Int) e Re-
+flexos (Des) ou Vontade (Sab), mais 6 a sua escolha 
+entre Acrobacia (Des), Adestramento (Car), Atuação 
+(Car), Atletismo (For), Conhecimento (Int), Cura 
+(Sab), Diplomacia (Car), Fortitude (Con), Guerra 
+(Int), Iniciativa (Des), Intuição (Sab), Investigação 
+(Int), Luta (For), Misticismo (Int), Nobreza (Int), 
+Ofício (Int), Percepção (Sab), Pontaria (Des), Refle-
+xos (Des), Religião (Sab) e Sobrevivência (Sab).
+
+--- block x0=71 y0=260 x1=264 y1=305 ---
+Proficiências. Armas Marciais.
+Habilidades de Classe
+
+--- block x0=71 y0=304 x1=295 y1=380 ---
+Cultivo. Ao realizar sua ação de trabalho 
+interno (p. @@), você recebe 1 carga de chi. Você 
+pode acumular uma quantidade máxima de cargas 
+de chi igual a sua Sabedoria, e elas duram até o fim 
+da cena. Enquanto possuir ao menos 1 carga de chi, 
+você recebe os efeitos da linha Cultivo de seu método.
+
+--- block x0=71 y0=380 x1=295 y1=432 ---
+Nei Gong. Você se fortalece através de uma 
+técnica de trabalho interno, escolha um dos métodos 
+de cultivo disponíveis à partir da página @@. Uma 
+vez feita, a escolha não pode ser mudada.
+
+--- block x0=71 y0=432 x1=295 y1=472 ---
+Poder de Cultivador. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de cultivador a 
+sua escolha. Veja a lista a seguir.
+
+--- block x0=71 y0=472 x1=295 y1=513 ---
+Karma. A partir do 4º nível, você pode gastar 2 
+PM por meridiano aberto, por cena. Para cada 2 PM 
+gastos, você recebe 1 carga de chi.
+
+--- block x0=71 y0=513 x1=295 y1=577 ---
+A partir do 8º nível, você pode, uma vez por 
+aventura, escolher 20 em qualquer teste (exceto 
+testes de ataque e resistência), mas se fizer isso, o 
+mestre pode escolher 0 em qualquer outro teste que 
+fizer até o fim da aventura.
+
+--- block x0=71 y0=577 x1=295 y1=641 ---
+Refinamento. No 10º nível, você refina seu 
+corpo além dos limites carnais. Some sua Sabedoria 
+no seu total de pontos de vida e receba +1 PM por 
+nível de cultivador. Além disso, você recebe +2 em 
+uma perícia a sua escolha por meridiano aberto.
+
+--- block x0=71 y0=640 x1=295 y1=712 ---
+Reino Celestial. No 14º nível, você alcança 
+os seis reinos e eleva seu espírito. A qualquer mo-
+mento fora de combate, você pode gastar 1 carga de 
+chi para escolher 10 nos testes de perícias escolhidas 
+em Refinamento, caso já possa fazer isso de outra 
+forma, pode escolher 20 — apenas uma vez por cena.
+
+--- block x0=309 y0=464 x1=533 y1=581 ---
+Imortal. No 20º nível, você atinge o zênite 
+entre os mortais e a epítome de todos os reinos, 
+tornando-se imortal. Você recebe +1 em todos os 
+seus atributos e recebe a dádiva Imortal (veja Deuses 
+de Arton, p. 235), mesmo sem ser um deus menor. 
+Por fim, não precisa respirar, alimentar-se ou dormir 
+— você se sustenta através da energia do universo.
+Poderes de Classe
+
+--- block x0=309 y0=580 x1=533 y1=632 ---
+•	 Alinhar as Energias. Você reune as sete forças 
+primordias em seu ventre, recebendo redução de 
+ácido, eletricidade, essência, fogo, frio, luz e trevas 
+10. Pré-requisito: 16º nível de cultivador.
+
+--- block x0=309 y0=632 x1=533 y1=684 ---
+•	 Alquimia Espiritual. Você pode fabricar alquí-
+micos espirituais através de um método milenar de 
+alquimia. Veja as regras na página @@. Pré-requisito: 
+treinado em Ofício (alquimista), Int 3, Sab 3. e
+
+--- block x0=309 y0=684 x1=533 y1=713 ---
+•	 Arma de Cultivo Adicional. Você recebe uma 
+segunda arma de cultivo entre uma jian, katana ou 
+
+--- block x0=346 y0=65 x1=493 y1=84 ---
+Tabela 1-3: O Cultivador
+
+--- block x0=315 y0=87 x1=505 y1=101 ---
+Nível
+Habilidades de Classe
+
+--- block x0=326 y0=104 x1=474 y1=115 ---
+1º
+Cultivo (1º meridiano), nei gong
+
+--- block x0=326 y0=118 x1=429 y1=130 ---
+2º
+Poder de cultivador
+
+--- block x0=326 y0=133 x1=429 y1=144 ---
+3º
+Poder de cultivador
+
+--- block x0=326 y0=148 x1=515 y1=159 ---
+4º
+Cultivo (2º meridiano), poder de cultivador
+
+--- block x0=326 y0=163 x1=429 y1=174 ---
+5º
+Poder de cultivador
+
+--- block x0=326 y0=177 x1=470 y1=199 ---
+6º
+Cultivo (3º meridiano), karma, 
+poder de cultivador
+
+--- block x0=326 y0=203 x1=429 y1=214 ---
+7º
+Poder de cultivador
+
+--- block x0=326 y0=218 x1=501 y1=240 ---
+8º
+Cultivo (4º meridiano), karma (roda da 
+fortuna), poder de cultivador
+
+--- block x0=326 y0=243 x1=429 y1=255 ---
+9º
+Poder de cultivador
+
+--- block x0=324 y0=258 x1=519 y1=280 ---
+10º
+Cultivo (5º meridiano), poder de cultivador, 
+refinamento
+
+--- block x0=324 y0=283 x1=429 y1=295 ---
+11º
+Poder de cultivador
+
+--- block x0=324 y0=298 x1=515 y1=310 ---
+12º
+Cultivo (6º meridiano), poder de cultivador
+
+--- block x0=324 y0=313 x1=429 y1=324 ---
+13º
+Poder de cultivador
+
+--- block x0=324 y0=328 x1=519 y1=350 ---
+14º
+Cultivo (7º meridiano), poder de cultivador, 
+reino celestial
+
+--- block x0=324 y0=353 x1=429 y1=365 ---
+15º
+Poder de cultivador
+
+--- block x0=324 y0=368 x1=429 y1=379 ---
+16º
+Poder de cultivador
+
+--- block x0=324 y0=383 x1=429 y1=394 ---
+17º
+Poder de cultivador
+
+--- block x0=324 y0=398 x1=429 y1=409 ---
+18º
+Poder de cultivador
+
+--- block x0=324 y0=412 x1=429 y1=424 ---
+19º
+Poder de cultivador
+
+--- block x0=324 y0=427 x1=461 y1=438 ---
+20º
+Imortal, poder de cultivador
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+35
+

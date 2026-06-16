@@ -1,0 +1,199 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=95 ---
+PM para dar um ataque desarmado adicional. Kung 
+fu conta como Briga para pré-requisitos e efeitos de 
+poderes de lutador.
+
+--- block x0=71 y0=95 x1=295 y1=123 ---
+Evasão. No 2º nível, você recebe essa habilidade 
+como o ladino (veja Tormenta20, p. 73).
+
+--- block x0=71 y0=123 x1=295 y1=151 ---
+Poder de Lutador. A partir do 2º nível, você 
+recebe essa habilidade como o lutador básico.
+
+--- block x0=71 y0=151 x1=295 y1=204 ---
+Sexto Sentido. A partir do 3º nível, você soma 
+sua Sabedoria na Defesa, limitado pelo nível e apenas 
+se não estiver usando armadura pesada. No 7º nível, e a 
+cada quatro níveis seguintes, você recebe +1 na Defesa.
+
+--- block x0=71 y0=204 x1=295 y1=268 ---
+Alma de Diamante. No 6º nível, você recebe 
++2 em testes de resistência e redução de dano 5. 
+Esta habilidade exige liberdade de movimentos; você 
+não pode usá-la se estiver de armadura pesada ou na 
+condição imóvel.
+
+--- block x0=71 y0=268 x1=295 y1=296 ---
+Evasão Aprimorada. No 10º nível, você 
+recebe essa habilidade como o ladino.
+
+--- block x0=71 y0=296 x1=295 y1=360 ---
+Sete Nuvens. No 12º nível, você recebe +3m 
+de deslocamento e +5 em testes de Acrobacia e 
+Atletismo. Esta habilidade exige liberdade de movi-
+mentos; você não pode usá-la se estiver de armadura 
+pesada ou na condição imóvel.
+
+--- block x0=71 y0=360 x1=295 y1=473 ---
+Nirvana. No 20º nível, seu dano desarmado 
+se torna 2d8 e você dobra os efeitos de Alma de 
+Diamante e Sete Nuvens. Por fim, você pode, uma 
+vez por rodada, gastar 5 PM para passar automati-
+camente em um teste de resistência, que é evitado 
+completamente independente do tipo de teste ou se 
+ele era parcial. Esta habilidade exige liberdade total 
+de movimentos; você não pode usá-la se estiver de 
+armadura ou sob qualquer condição de movimento.
+
+--- block x0=71 y0=488 x1=132 y1=522 ---
+xladinox
+Ninja
+
+--- block x0=88 y0=524 x1=231 y1=540 ---
+"Esse é o meu jeito ninja, tô certo!"
+
+--- block x0=71 y0=540 x1=295 y1=616 ---
+Considerados a escória tamuraniana, os ninjas 
+empregam técnicas desonradas em combate para se 
+sobressair sobre seus inimigos. São furtivos, engana-
+dores e ardilosos, sabotando e roubando para ter as 
+maiores vantagens possíveis em combate — o que 
+todo devoto de Lin-Wu renega e odeia.
+
+--- block x0=71 y0=616 x1=295 y1=704 ---
+Embora tenham essa fama de desonrados, não é 
+incomum que Tamu-ra empregue esses combatentes 
+em suas fileiras como obtentor de informações, espi-
+ões ou até mesmo aventureiros. Alguns samurais até 
+mesmo aceitam participar de sentais com um ninja 
+no grupo, mesmo que haja clara discordância entre 
+seus metodos, desde que um não force o outro a agir 
+
+--- block x0=309 y0=420 x1=526 y1=437 ---
+como o opositor, há uma certa harmonia entre eles.
+
+--- block x0=309 y0=437 x1=533 y1=557 ---
+Diferente de um ladino comum, o ninja se espe-
+cializa na utilização de armas e técnicas de combate, 
+para lutar na linha de frente caso precise lidar com 
+diversos inimigos. Para eles, táticas de infiltração po-
+dem ser importantes, mas sair vivo quando as coisas 
+dão errado é ainda mais.
+Características de 
+Classe
+
+--- block x0=326 y0=556 x1=505 y1=572 ---
+Pontos de Vida. Como o ladino básico.
+
+--- block x0=326 y0=572 x1=510 y1=589 ---
+Pontos de Mana. Como o ladino básico.
+
+--- block x0=326 y0=589 x1=469 y1=605 ---
+Perícias. Como o ladino básico.
+
+--- block x0=309 y0=605 x1=510 y1=650 ---
+Proficiências. Armas marciais.
+Habilidades de Classe
+
+--- block x0=326 y0=648 x1=508 y1=665 ---
+Ataque Furtivo. Como o ladino básico.
+
+--- block x0=309 y0=665 x1=533 y1=705 ---
+Bukijutsu. Você se torna proficiente com a 
+shuriken e o dano dessa arma e qualquer arma leve 
+corpo a corpo que empunhar aumenta em um passo.
+
+--- block x0=361 y0=65 x1=478 y1=84 ---
+Tabela 1-22: O Ninja
+
+--- block x0=313 y0=87 x1=503 y1=101 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=103 x1=466 y1=115 ---
+1º
+Ataque furtivo +1d6, bukijutsu
+
+--- block x0=325 y0=118 x1=413 y1=130 ---
+2º
+Poder de ladino
+
+--- block x0=325 y0=133 x1=520 y1=144 ---
+3º
+Ataque furtivo +2d6, evasão, poder de ladino
+
+--- block x0=325 y0=148 x1=502 y1=159 ---
+4º
+Bukijutsu (armadilhas), poder de ladino
+
+--- block x0=325 y0=162 x1=520 y1=174 ---
+5º
+Ataque furtivo +3d6, poder de ladino, shunin
+
+--- block x0=325 y0=177 x1=413 y1=189 ---
+6º
+Poder de ladino
+
+--- block x0=325 y0=192 x1=490 y1=203 ---
+7º
+Ataque furtivo +4d6, poder de ladino
+
+--- block x0=325 y0=207 x1=463 y1=218 ---
+8º
+Poder de ladino, substituição
+
+--- block x0=325 y0=222 x1=490 y1=233 ---
+9º
+Ataque furtivo +5d6, poder de ladino
+
+--- block x0=323 y0=236 x1=489 y1=248 ---
+10º
+Evasão aprimorada, poder de ladino
+
+--- block x0=323 y0=251 x1=490 y1=262 ---
+11º
+Ataque furtivo +6d6, poder de ladino
+
+--- block x0=323 y0=266 x1=413 y1=277 ---
+12º
+Poder de ladino
+
+--- block x0=323 y0=281 x1=490 y1=292 ---
+13º
+Ataque furtivo +7d6, poder de ladino
+
+--- block x0=323 y0=295 x1=413 y1=307 ---
+14º
+Poder de ladino
+
+--- block x0=323 y0=310 x1=490 y1=321 ---
+15º
+Ataque furtivo +8d6, poder de ladino
+
+--- block x0=323 y0=325 x1=413 y1=336 ---
+16º
+Poder de ladino
+
+--- block x0=323 y0=340 x1=490 y1=351 ---
+17º
+Ataque furtivo +9d6, poder de ladino
+
+--- block x0=323 y0=354 x1=413 y1=366 ---
+18º
+Poder de ladino
+
+--- block x0=323 y0=369 x1=495 y1=380 ---
+19º
+Ataque furtivo +10d6, poder de ladino
+
+--- block x0=323 y0=384 x1=486 y1=395 ---
+20º
+O verdadeiro ninja, poder de ladino
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+75
+

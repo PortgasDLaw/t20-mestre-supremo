@@ -1,0 +1,133 @@
+Capítulo Um
+dos tem camuflagem total. Se a água na sua cabeça 
+for derramada, essa habilidade se encerra e não pode 
+ser usada novamente até que encha a tigela. e
+Carapaça Mineral	
+g'rokk
+Uma vez por cena, você pode gastar uma ação 
+completa e 3 PM para ejetar minérios armazenados 
+em seu corpo como espinhos, em uma esfera de 6m 
+de raio a partir de você, que causa uma quantidade 
+de dano de perfuração igual a 6d6 + sua Constituição 
+(Ref CD Con reduz o dano à metade). Pré-requisito: 6º 
+nível de personagem.
+Corpo Avançado	
+forjado
+Seu "corpo" recebe uma melhoria a sua escolha 
+(exceto material especial) que não conta no limite de 
+melhorias. No patamar lenda, você também recebe 
+um encanto no seu "corpo" que não conta no limite.
+Corpo Vazio	
+forjado
+Seu corpo é oco por dentro, não tendo pontos 
+vitais. Você recebe imunidade a acertos críticos.
+Desassombrado	
+Espectro, Dagon
+Você recebe imunidade a medo, +2 em Intimi-
+dação e na CD para resistirem aos seus efeitos de 
+medo. Pré-requisito: 3º nível de personagem.
+Dom Abissal	
+soberano
+Você aprende e pode lançar a magia Orbe do Oce-
+ano (atributo-chave Int) como uma magia simulada. 
+Enquanto sob efeito da magia, você não sofre os efei-
+tos da habilidade Hidrossensibilidade. Pré-requisito: 
+11º nível de personagem.
+Dom Noturno	
+dampíro
+Você recebe +1 em testes de perícia originalmen-
+te baseadas em Destreza e resistência mental +2.
+Einherjär	
+envar
+Você pode gastar uma ação completa e 6 PM 
+para que surjam tatuagens brilhantes pelo seu corpo 
+como um efeito sustentado. Enquanto sustentar 
+este efeito, você recebe cura acelerada 5 e redução 
+de dano 5. Ao atingir o patamar lenda, esses efeitos 
+dobram. Pré-requisito: 11º nível de personagem. e
+Enxertos Mortos	
+homunculus
+Você recebe uma habilidade de uma raça do tipo 
+morto-vivo à sua escolha — exceto habilidades que 
+mudam seu tipo da criatura, se a raça for modular, 
+cada poder é considerado uma habilidade separada. 
+Pré-requisito: 11º nível de personagem.
+Tabela 1-37: Poderes de Raça
+Raça
+Poderes
+Alraune
+Constrição Atroz, Espinhos da Rosa, 
+Fragrância de Rosas, Mãe Natureza, Pele 
+Arbórea, Poder Solar, Pó do Sono, Topor
+Amálgamo
+Duas Cabeças, Dupla Conjuração, 
+Dupla Inteligência, Dupla Prontidão, 
+Quadriestria, Quatro Braços
+Anão
+Ferreiro Inato
+Averiano
+Faro Aprimorado, Predador Sábio, 
+Predador Selvagem, Predador Tenaz
+Dagon
+Arsenal Infernal, Desassombrado
+Dahllan
+Pó do Sono, Topor
+Dampíro
+Dom Noturno, Máscaras, Retrato da 
+Ruína
+Duplo
+Assimilação, Mimetismo
+Eiradaan
+Asas Feéricas, Vitalidade das Fadas
+Eirin
+Metamorfose Celestial, Olhos da Verdade
+Entoma
+Esgrima da Vespa, Expelir Mel
+Envar
+Arma Gloriosa, Até o Fim!, Comandar 
+Aprimorado, Einherjär, Marca Divina
+Forjado
+Corpo Avançado, Corpo Vazio
+Galokk
+Parrudo, Lorde da Tempestade, Troncudo
+Golem
+Oficina Viva
+G'rokk
+Bala de Canhão, Carapaça Mineral, Rocha 
+Vulcânica
+Harpia
+Grito Apavorante, Rasante, Senso de Si
+Homunculus
+Enxertos Mortos, Enxtertos Quiméricos, 
+Gene Recessivo
+Humano
+Ambicioso, Valente
+Jötun
+Reflexos Paracronais, Visão dos Gigantes
+Kappa
+Bruma do Norte, Equilíbrio das Águas, 
+Tartaruga Negra
+Kobolds
+Sangue de Dragão
+Minotauro
+Parrudo, Troncudo
+Moreau do 
+bode
+Ângulo de Movimento, Cascos Poderosos
+Nagah
+Aperto
+Ogro
+Parrudo, Troncudo
+Oni
+Exaltação do Rejeitado, Ogro do Leste
+Orc
+Parrudo, Troncudo
+Sátiro
+Ângulo de Movimento
+Sílfide
+Pó do Sono, Topor
+Soberano
+Dom Abissal, Duas Cabeças, Dupla 
+Conjuração, Dupla Inteligência, Dupla 
+Prontidão, Quadriestria, Quatro Braços
+136

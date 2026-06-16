@@ -1,0 +1,92 @@
+Aventureiros de Arton
+Sangue, Apostas e Navalhas
+Quando fazer um teste de Jogatina, você pode 
+gastar 1 PM para também fazer um teste de Nobreza. 
+Para cada 5 pontos de resultado no teste, você recebe 
++1 no resultado no resultado do teste de Jogatina. 
+Pré-requisito: treinado em Jogatina.
+Sociabilidade Intuitiva
+Ao fazer um teste social, você pode gastar 2 PM 
+para somar sua Sabedoria neste teste. Pré-requisitos: 
+Sab 2, Car 2.
+PALADINO
+Absorver Magia
+Quando usa Égide Sagrada contra uma magia 
+lançada por um inimigo, você pode, invés de lançá-la 
+de volta no conjurador, armazená-la. Você pode soltar 
+ela mais tarde com uma ação padrão (funcionando 
+como descrito normalmente), ou absorver a magia 
+gastando uma ação de movimento. Ao fazer isso, 
+você recupera uma quantidade de PM igual ao círculo 
+da magia que foi armazenada. Você só pode armaze-
+nar uma magia dessa forma por vez. Pré-requisitos: 12º 
+nível de paladino, Égide Sagrada.
+Ataque Conjunto
+Quando um aliado faz um ataque contra uma 
+criatura adjacente a você. Você pode gastar 2 PM para 
+fazer um teste de ataque para Ajudar.
+Aura Gravitacional
+Enquanto sua aura estiver ativa, todo inimigo den-
+tro dela fica lento. Pré-requisito: 6º nível de paladino. e
+Aura Julgadora
+Enquanto sua aura estiver ativa, os inimigos 
+dentro dela sofrem –2 em testes de resistência e ro-
+lagens de dano. Pré-requisito: 5º nível de paladino. e
+Aura Pacificadora
+Enquanto sua aura estiver ativa, animais e 
+monstros dentro dela tem a sua atitude em relação 
+ao grupo aumentada em uma categoria (Vont CD 
+Car evita). Se a criatura afetada for inteligente (Int 
+–3 ou maior), recebe +5 no teste contra esse efeito. 
+Pré-requisito: 5º nível de paladino. e
+Campeão Sincrético
+Você se torna devoto de um segundo deus maior 
+a sua escolha, desde que ela esteja na lista de divin-
+dades da sua classe e canalize a mesma energia da 
+divindade primária. Você não pode ser um devoto 
+brando ou fundamentalista de nenhum destes deu-
+ses, deve seguir as duas obrigações & restrições e 
+recebe apenas um único poder do deus secundário — 
+e não pode escolher outros poderes dele. Pré-requisito: 
+devoto de um deus maior.
+Capa Heróica
+Se lançar Vestimenta da Fé em uma capa que esteja 
+vestindo, ela passa a ser considerada um escudo para 
+suas habilidades de paladino e para acúmulos en-
+quanto a magia durar. Pré-requisito: Manto de Batalha.
+Chama Sagrada
+Quando usa Golpe Divino, você pode gastar +1 
+PM para converter todo o dano causado para fogo 
+e deixar o alvo em chamas. Se o alvo for imune a 
+fogo, não sofre a condição, mas ainda sofre metade 
+do dano causado. Pré-requisito: paladino de Azgher.
+Compartilhar Cura
+Uma vez por rodada, ao usar uma habilidade de 
+cura, você pode gastar +2 PM para ela afetar todas 
+as criaturas escolhidas dentro da sua Aura Sagrada. 
+Pré-requisito: paladino de Lena, 6º nível de paladino.
+Escudo Protetor
+Quando usa Escudo Sagrado, você pode gastar 
++2 PM para compartilhar a RD fornecida pela habi-
+lidade aos aliados adjacentes — ou a 9m se possuir 
+Escudo Fraterno. Pré-requisito: Escudo Sagrado. e
+Golpe Celestial
+Quando usa Golpe Divino empunhando a arma 
+favorita de sua divindade contra um alvo ofuscado, 
+você pode gastar 3 PM para reduzir a Defesa do alvo 
+em –5 contra este ataque. Pré-requisito: Arma Sagrada, 
+Fulgor Divino. e
+Golpe Punitivo
+Quando usa Golpe Divino e acerta o ataque, você 
+pode gastar 3 PM para receber +5 na sua rolagem de 
+dano. Além disso, o alvo do ataque fica atordoado por 
+1 rodada (uma vez por criatura; Fort CD Car evita).
+Julgamento Divino: Culpa
+Você pode gastar 2 PM para marcar uma criatura 
+em alcance curto. Você recebe +1d10 pontos de dano 
+psíquico contra a criatura marcada, de forma cumu-
+lativa, se ela for desonrada, desonesta ou maligna.
+Julgamento Divino: Pureza
+Você pode gastar 2 PM para causar +1d6 pontos 
+de dano de luz adicional em espíritos e mortos-vivos. 
+123

@@ -1,0 +1,96 @@
+Aventureiros de Arton
+Folia
+Ao fazer uma Apresentação, você pode festejar. 
+Invés de ganhar tibares, você gasta uma quantidade 
+igual a 1d10 TO x seu nível. Faça o teste de Atuação, 
+para cada 10 pontos de resultado no teste, você e seus 
+aliados na festa recebem +1 em testes de perícia até 
+o fim do dia (não cumulativo com inspiração).
+Ginga Acrobática
+Você soma sua Destreza em Atuação, limitado 
+pelo nível. Esse efeito exige liberdade de movimen-
+tos; você não pode usá-lo se estiver de armadura 
+pesada ou sob condições de movimento.
+Ginga Distratora
+Você gastar uma ação padrão e 2 PM para fazer 
+um teste de Atuação (CD 20), se passar, fornece +1 
+na Defesa e no teste de ataque de um aliado adjacen-
+te até o fim da rodada, com +1 adicional para cada 10 
+pontos pelos quais o teste exceder a CD.
+Harmonia da dissonância
+Ao usar Acorde Místico, você pode gastar +1 PM 
+para mudar o alvo para uma área de linha com 9m. 
+Criaturas que falhem no teste ficam surdas (em vez 
+de vulneráveis). Pré-requisito: Acorde Místico. e
+Mestre da Roda
+Enquanto sob efeito de Inspiração, seu dano 
+desarmado aumenta em um passo. Se puder lançar 
+magias de 4º círculo, invés disso aumenta em dois 
+passos. Pré-requisito: Esgrima Mágica.
+Musa de Canora
+Você pode usar a habilidade Adereço musical na 
+espada e machado canora. Além disso, essas armas 
+recebem o efeito de um instrumento musical a sua 
+escolha (decidido sempre que obtém a arma, mas 
+uma vez feita, a escolha não pode ser mudada). Pré-
+-requisitos: Adereço Musical, 4º nível de bardo.
+Moshpit
+Ao usar Inspiração, você fornece +1d6 nas 
+rolagens de dano das criaturas afetadas por esta 
+habilidade para cada 2 PM gastos ao usá-la, ou +1d8 
+se uou Bater Cabeça. Esse efeito dura por um núme-
+ro máximo de rodadas igual ao círculo máximo de 
+magias que você pode lançar.
+Música: Canto Mortal
+Você toca e canta uma canção de pura dor e so-
+frência. Criaturas a sua escolha na área ficam esmo-
+recidas e perdem 1d4 PM. Um teste de Vontade (CD 
+Car) reduz para frustrado e anula a perda de PM.
+Música: Cantiga Animada
+Criaturas a sua escolha no alcance recebem um 
+dado de auxílio (d4) em seu próximo teste. Quando 
+usa essa habilidade, você pode gastar mais pontos 
+de mana. Para cada 2 PMs adicionais gastos, o dado 
+extra aumenta em um passo (máx 1d12).
+Música: Ciranda dos Pés
+Quando se move 6m ou mais em direção a uma 
+criatura, você recebe um bônus de +1 em rolagens de 
+dano para cada 1,5m deslocado em seu próximo ata-
+que feito contra esta criatura até o fim do seu turno. 
+Essa música é executada junto ao seu movimento.
+Música: Jogo da Morte
+Você assume uma postura ágil e de gestos rá-
+pidos. Enquanto sustentar a música (uma ação de 
+movimento), você recebe +1 na Defesa e +2 nas 
+rolagens de dano corpo a corpo. Esse ganho acumula 
+com cada ataque bem sucedido, mas você perde 
+todos os acumulos e a habilidade se encerra se você 
+falhar em um teste de ataque.
+Música: Rock N' Roll
+Criaturas a sua escolha no alcance são compeli-
+das a dançar gastando todas as suas ações enquanto 
+você se concentrar (uma ação padrão por rodada). 
+Cada criatura escolhida tem direito a um teste de 
+Vontade (CD Car) para evitar esse efeito por 1 roda-
+da. Se passar no teste de resistência por 10 ou mais, 
+a criatura fica imune a essa música por 1 dia.
+Pé de Martelo
+Caso falhe em um teste de ataque enquanto sus-
+tentando a Música: Jogo da Morte, você pode gastar 
+2 PM para não cancelar a habilidade, mas ainda perde 
+seus acúmulos. Pré-requisito: Música: Jogo da Morte.
+Repertório Completo
+Você aprende uma magia, arcana ou divina, a 
+sua escolha, que seja de 5º círculo, mas que pertença 
+a uma das escolas de magia que você pode lançar. 
+Além disso, você é considerado como tendo acesso 
+a magias de 5º círculo para função de cumprir pré-
+-requisitos (incluindo de magias). Pré-requisitos: 18º 
+nível de bardo, Aumentar Repertório.
+Seresta Melancólica
+A perda de PM causada por Música: Canto Mortal 
+muda para 1d6 e ao usar essa habilidade, você pode 
+gastar uma quantidade de PM extra limitada pelo seu 
+Carisma. Para cada PM gasto, você aumenta a perda 
+de PM em +1d6. Pré-requisito: Música: Canto Mortal.
+101

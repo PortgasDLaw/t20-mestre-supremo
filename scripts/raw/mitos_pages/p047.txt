@@ -1,0 +1,100 @@
+Aventureiros de Arton
+•	 Vacinação. Ao produzir uma seringa curativa, 
+você pode gastar +T$ 500 para que o dado de cura 
+dela aumente em um passo e forneça +5 em testes 
+para resistir a doenças e veneno. Pré-requisitos: 6º 
+nível de inquisidor, Seringueiro.
+•	 Justiceiro. Uma vez por rodada, você pode gas-
+tar 3 PM para marcar uma criatura em alcance curto 
+até o fim da cena. Ela passa a sofrer +1d6 pontos de 
+dano dos seus ataques (ou +1d8 se ela for desones-
+ta). A cada quatro níveis após o 1º, você pode gastar 
++1 PM para aumentar o dano em +1d6. e
+•	 Maleta de Seringas. O limite de seringas que 
+você pode ter ao mesmo tempo aumenta em +5. 
+Pré-requisito: Seringueiro.
+•	 Marca Maldita. Quando faz um acerto crítico 
+em um alvo, você pode gastar 2 PM para marcá-lo 
+com um sigílo. Uma vez por rodada, quando o alvo 
+marcado causa dano a você ou a um aliado em alcance 
+curto, ele sofre 4d6 pontos de dano de essência. Você 
+só pode marcar um alvo por vez e esse efeito dura até 
+o fim da cena. Pré-requisito: 5º nível de inquisidor. e
+•	 Ossos do Ofício. Você tem um trabalho ingrato 
+e difícil, mas já se acostumou com isso. Você recebe 
+resistência mental +2 e redução de dano 2. Pré-requi-
+sito: 6º nível de inquisidor.
+•	 Seringueiro. Você pode fabricar seringas (veja o 
+quadro ao lado) e ao receber esse poder, ganha um 
+número de seringas igual à metade da sua Inteligên-
+cia (mínimo +1). Pré-requisitos: Int 3, Sab 3, treinado 
+em Cura e Ofício (alquimista).
+•	 Tiro de Aviso. Você pode gastar uma ação pa-
+drão e 1 bala para dar um tiro para o alto. Criaturas 
+dentro do alcance da sua arma se jogam no chão e 
+ficam caídas (Von CD Int evita o efeito e a criatura 
+fica imune a esta habilidade por 1 dia). Medo.
+•	 Tiro de Execução. Ao usar Tiro Calculado, você 
+pode gastar +2 PM para receber +1 no seu multipli-
+cador de crítico neste ataque. Pré-requisito: 6º nível de 
+inquisidor.
+•	 Tiro de Incapacitação. Você pode, uma vez por 
+rodada, como reação a um ataque feito por um inimi-
+go, gastar 3 PM e 1 bala para fazer um teste de ataque 
+oposto ao do inimigo, se você vencer, ele perde a ação 
+e você recarrega a arma.
+•	 Tiro Explosivo. Você pode gastar 2 PM e uma 
+ação de movimento para carregar seu próximo tiro 
+com pólvora. Seu próximo ataque com uma arma de 
+fogo contra um alvo, caso acerte, causa metade do 
+dano total as criaturas adjacentes ao alvo. Pré-requisi-
+to: 8º nível de inquisidor.
+•	 Tiro na Cabeça. Ao mirar com uma arma de 
+fogo, você pode gastar 3 PM. Se fizer isso, seu próxi-
+mo ataque feito contra o alvo tem o dano aumentado 
+em dois passos. Se estiver usando a regra de Efeitos 
+Críticos (veja Heróis de Arton, p. 298), o ataque acerta 
+a cabeça com um resultado 9 a 10. Pré-requisito: Sab 3.
+Seringas
+Ao obter o poder Seringueiro, você passa 
+a poder fabricar seringas, preparados com 
+efeitos variados.
+Fabricar uma seringa exige uma maleta de 
+medicamentos, um dia de trabalho e o gasto 
+de T$ 500. Injetar uma seringa é uma ação 
+padrão e por exigir inspeção constante, você 
+só pode ter um número máximo de Seringas 
+fabricadas igual a sua Inteligência (mínimo 
+1). Cada seringa ocupa 0,5 espaço e, exceto 
+quando dito o contrário, seus efeitos são 
+instantâneos.
+A seguir as seringas disponíveis para 
+fabricação e seus efeitos.
+• Seringa Arcana. Contém um líquido 
+arroxeado. O alvo pode lançar uma magia 
+arcana de 1º círculo a sua escolha até o fim 
+da cena (CD Int). e
+• Seringa Curativa. Contém um 
+líquido esverdeado. O alvo recupera 1d4 PV 
+por ponto em Inteligência do fabricante.
+• Seringa Energética. Contém um 
+líquido cerúleo. O alvo recupera 2d4 PM.
+• Seringa Estimulante. Contém um 
+líquido alvo. O alvo recebe uma ação padrão 
+adicional por 1d3 rodadas.
+• Seringa Monstruosa. Contém 
+um líquido carmesim. O alvo entra em 
+fúria, recebendo +2 em testes de ataque e 
+rolagens de dano corpo a corpo até o fim 
+da cena, mas enquanto neste estado, não 
+pode realizar ações que exijam calma ou 
+concentração (Von CD Int evita).
+• Seringa Petrificante. Contém um 
+líquido amarronzado. O alvo recebe um 
+valor de redução de dano igual ao valor de 
+Inteligência do Fabricante até o fim da cena.
+• Seringa Purificante. Contém um 
+líquido dourado. O alvo tem uma condição 
+removida, exceto inconsciente. Essa seringa 
+recupera todo PV perdido por veneno.
+47

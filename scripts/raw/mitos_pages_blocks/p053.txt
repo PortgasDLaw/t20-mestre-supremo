@@ -1,0 +1,78 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=180 y1=82 ---
+Vaqueiro
+
+--- block x0=71 y0=84 x1=295 y1=184 ---
+Seja nas ruas empoeiradas de areia seca de 
+Smokestone, nos prados verdejantes do reino de 
+Namalkah, ou até mesmo na megapóle exótica de 
+Valkaria, sempre há um belo cavalo galgando. A 
+montaria mais comum do reinado pode ser montada 
+por qualquer criatura, mas somente um único grupo 
+de aventureiros saberá usá-las com a dignidade que 
+elas merecem, os vaqueiros.
+
+--- block x0=71 y0=184 x1=295 y1=344 ---
+Alguns podem confundir um vaqueiro com um 
+cavaleiro, outros, até com bandidos pelo seu estilo 
+exótico de combate, mas apenas os atenciosos enten-
+dem que um vaqueiro é singular entre estes ginetes, e 
+o mesmo pode ser dito de suas variantes dentro deles 
+mesmos. O grupo mais comum de vaqueiro é aquele 
+que vem do reino de Petrynia, que preferem ser cha-
+mados pelo título de cangaceiros — ou sertanejos. 
+Um cangaço normalmente tem aquele chamado de 
+mestre lampião, enquanto seus subordinados são 
+os jagunços, mas essa tradição existe apenas 
+entre os vaqueiros de Smokestone, um agru-
+pamento mais abrutalhado e bandido.
+
+--- block x0=71 y0=344 x1=256 y1=444 ---
+O bom vaqueiro, o he-
+róico e benfeitor, prefere 
+ser chamado de bandolei-
+ro, pois é aquele que lidera 
+seu bando. Tropéis com vaqueiros, 
+boiadeiros ou qualquer outro nome caval-
+gando ajuntados sobre as pistas e 
+pastos com alguns 
+
+--- block x0=309 y0=55 x1=533 y1=95 ---
+cavaleiros num é cena rara, eles sabem se misturar, 
+mas enquanto os cavaleiros usam arcos e espadas, 
+vaqueiros são mais diferenciados.
+
+--- block x0=309 y0=95 x1=533 y1=183 ---
+O vaqueiro se distingue dos demais por se espe-
+cializarem no uso de chicotes e até mesmo de armas 
+de fogo, por suas tradições nas terras criminosas de 
+Smokestone, eles até mesmo conseguem galgar por 
+Arton sem o auxílio das mãos, para poder atacar os 
+inimigos com grandes armamentos a base de pólvo-
+ra, sem perder o equilíbrio.
+
+--- block x0=309 y0=183 x1=533 y1=259 ---
+Eles não se especializam em investidas, como 
+um paladino ou cavaleiro, mas a sua montaria luta 
+com eles, com coices poderosos e manobras exóticas. 
+Para um vaqueiro, a simbiose entre ele e a montaria e 
+tão importante quanto qualquer tesouro que estejam 
+buscando.
+
+--- block x0=309 y0=259 x1=533 y1=288 ---
+Devotos. Allihanna, Azgher, Garth, Hippion, 
+Kallyadranoch.
+
+--- block x0=286 y0=631 x1=382 y1=642 ---
+Maria Carolina e sua irmã 
+Maria Carolina e sua irmã 
+
+--- block x0=309 y0=641 x1=357 y1=652 ---
+sem esporas.
+sem esporas.
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+53
+

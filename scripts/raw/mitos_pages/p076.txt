@@ -1,0 +1,113 @@
+Capítulo Um
+A partir do 4º nível, você pode escolher poderes 
+de armadilha do caçador (veja Tormenta20, p. 50) 
+como poderes de ladino, ou poderes que interagem 
+com armadilhas.
+Evasão. Como o ladino básico.
+Poder de Ladino. A partir do 2º nível, você 
+recebe essa habilidade como o ladino básico.
+Shunin. No 5º nível, escolha entre Ninjutsu 
+ou Taijutsu. Uma vez feita, a escolha não pode ser 
+mudada.
+•	 Ninjutsu. O dano do seu Ataque Furtivo é 
+reduzido em uma categoria, mas você aprende três 
+magias arcanas a sua escolha, aprendendo uma nova 
+magia a cada nível impar após o 5º, usando a progres-
+são de círculos de um bardo com seu nível de ladino. 
+Seu atributo-chave para essas magias é Inteligência e 
+você soma sua Inteligência nos seus pontos de mana. 
+Por fim, você pode lançar magias usando armaduras 
+leves sem precisar de testes de Misticismo. e
+•	 Taijutsu. A habilidade Bukijutsu passa a afetar 
+qualquer arma ágil e você se torna proficiente com 
+elas. Além disso, seu dano desarmado muda para 
+1d6 e você pode, uma vez por rodada, gastar 1 PM 
+após um ataque corpo a corpo para dar um ataque 
+desarmado extra.
+Substituição. A partir do 8º nível, ao sofrer 
+dano, gastar 3 PM e fazer um teste de Reflexos (CD 
+20 +5 por uso adicional na mesma cena) uma vez 
+por rodada. Se passar, você surge em um ponto vazio 
+a sua escolha há 3m de sua posição anterior, com 
+seu corpo sendo substituído por um objeto (tronco, 
+boneco, etc.) que sofre o dano no seu lugar. e
+Evasão Aprimorada. No 10º nível, você 
+recebe essa habilidade como o ladino básico.
+O Verdadeiro Ninja. No 20º nível, você re-
+cebe deslocamento de escalada 12m (se já tiver, invés 
+disso aumente-o em +3m), nunca fica surpreendido 
+e, ao fazer um teste de Acrobacia, Atletismo, Engana-
+ção, Furtividade, Ladinagem ou Reflexos, você pode 
+gastar 3 PM para receber +5 nesse teste.
+xFradex
+Ocultista
+"Aprenda, não é seu papel servir aos deuses, mas 
+sim é o deles servir a você."
+Frades e freiras tem sua vida dedicada a servir 
+os deuses, desde da maneira mais simples, porém 
+fiel, até a maneira mais fundamentalista e extremis-
+ta. Mas não ocultistas, estes são mais dedicados a 
+compreender e usar do milagre dado a eles pelas di-
+vindades para seu próprio benefício. Para eles, servir 
+os propósitos de uma divindade, é mais sobre uma 
+troca do que devoção. Eles atendem os desígnios dos 
+deuses, esperando o poder que eles dão.
+Ao compreender que milagres vem da fé, eles se 
+atentam a servir o deus, obter seus milagres e assim 
+formar um tipo de pacto que se mantém enquanto 
+ambas as partes mantém esse ciclo de troca equi-
+valente, não por gostar do deus, mas por saber que 
+o fazendo, terão benefícios, então fazem o mínimo 
+para que mantenham seus poderes.
+Características de 
+Classe
+Pontos de Vida. Como o frade básico.
+Pontos de Mana. Como o frade básico.
+Perícias. Como o frade básico.
+Tabela 1-23: O Ocultista
+Nível
+Habilidades de Classe
+1º
+Devoto fiel, magias (1º círculo), 
+talismã divino (+1d4)
+2º
+Correntes do pacto, poder de frade
+3º
+Poder de frade
+4º
+Poder de frade
+5º
+Correntes do pacto (familiar aprimorado), 
+livro das sombras, magias (2º círculo), 
+poder de frade
+6º
+Poder de frade, talismã divino (+1d6)
+7º
+Poder de frade
+8º
+Poder de frade
+9º
+Magias (3º círculo), poder de frade
+10º
+Poder de frade, talismã divino (+1d8)
+11º
+Poder de frade
+12º
+Poder de frade
+13º
+Magias (4º círculo), poder de frade
+14º
+Poder de frade, talismã divino (+1d10)
+15º
+Poder de frade
+16º
+Poder de frade
+17º
+Magias (5º círculo), poder de frade
+18º
+Poder de frade, talismã divino (+1d12)
+19º
+Poder de frade
+20º
+Poder de frade
+76

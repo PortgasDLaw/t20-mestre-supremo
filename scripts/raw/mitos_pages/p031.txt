@@ -1,0 +1,99 @@
+Aventureiros de Arton
+•	 Fúria Bruxeira. Você pode perder 2 PV (que 
+não podem ser temporários) para ampliar o poder 
+dos químicos em seu corpo, lhe tornando temível 
+em combate. Você recebe +2 em testes de ataque, 
+rolagens de dano e na redução de dano, mas não se 
+beneficia de qualquer efeito de cura. Sustentar esse 
+efeito custa a perda de 2 PV por rodada. A cada qua-
+tro níveis de bruxeiro após o 1º, você pode perder +2 
+PV para aumentar esse ganho em +1.
+•	 Graduação. Você recebe os benefícios de vete-
+rano da sua escola. Pré-requisito: 6º nível de bruxeiro.
+•	 Lendas e Histórias. Você é um arquivo vivo de 
+relatos, canções e folclore. Além de outros benefícios 
+a critério do mestre (como um bônus de +2 nas pe-
+rícias citadas, por exemplo), pode gastar 1 PM para 
+rolar novamente um teste recém realizado de Co-
+nhecimento, Misticismo, Nobreza ou Religião para 
+informação, identificar itens ou identificar criaturas. 
+Pré-requisito: Int 1.
+•	 Lobo Branco. Você pode ficar o dobro do tempo 
+sem respirar, alimentar-se ou dormir e recebe +5 em 
+testes de resistência contra efeitos de cansaço, me-
+tabólicos e venenos. Pré-requisitos: Con 5, Cicatrizes.
+•	 Malandro. Você recebe a habilidade Ataque 
+Furtivo (veja Tormenta20, p. 73), usando seu nível 
+de bruxeiro como níveis de ladino para a progressão 
+desta habilidade, mas não recebe mais o dano adicio-
+nal fornecido por Arma Bruxeira. Pré-requisito: Escola 
+da Capivara ou Gato.
+•	 Masterização. Você recebe os benefícios de um 
+mestre da sua escola. Pré-requisitos: Graduação, 11º 
+nível de bruxeiro.
+•	 Ouro para o Bruxeiro. Toda recompensa e 
+tesouro em tibares que você e seu grupo recebe é 
+aumentada em 10%, com +5% para cada patamar 
+acima de veterano. Pré-requisito: 5º nível de bruxeiro.
+•	 Piromante. Você pode, ao usar o Igni, gastar +4 
+PM para que ele emule a magia Bola de Fogo. Pré-requi-
+sitos: Fogo Focado, 6º nível de bruxeiro. e
+•	 Presas. Sua segunda arma de bruxeiro não 
+precisa ser leve, mas ainda segue qualquer outra 
+limitação. Pré-requisito: Escola da Mantícora.
+•	 Produtor Independente. Você pode fabricar itens 
+superiores com até duas melhorias e poções de 1º e 
+2º círculo de qualquer magia — mas só você pode se 
+beneficiar dos efeitos das suas poções, e seus óleos 
+só afetam armas de bruxeiro. Pré-requisitos: 6º nível 
+de bruxeiro, Armeria do Forte, Alquímia do Forte.
+•	 Purgatório. Toda criatura dentro da área do 
+Yrden sofre 4d6 pontos de dano de impacto no início 
+de seus turnos. Nos níveis 11 e 17, esse dano aumen-
+ta em +4d6. Pré-requisito: 8º nível de bruxeiro. e
+•	 Rasante. Ao realizar uma investida empunhan-
+do sua arma de bruxeiro, o ganho de ataque ao fazer 
+a investida aumenta para +5, e você recebe +2 dados 
+extras de dano do mesmo tipo da sua arma. Pré-requi-
+sito: Escola do Grifo, 7º nível de bruxeiro.
+•	 Rei da Caçada. Ao realizar um acerto crítico 
+com sua arma de bruxeiro, você aumenta os dados de 
+Arma Bruxeira em uma categoria na rolagem de dano 
+deste ataque. Pré-requisito: 17º nível de bruxeiro.
+•	 Sinal Favorito. Escolha um sinal. Seu custo em 
+PM é reduzido em –1 PM (cumulativo com outras 
+reduções de custo). Você pode escolher esse poder 
+outras vezes para sinais diferentes.
+•	 Sinal Poderoso. Escolha um sinal. A CD para 
+resistir a ele aumenta em +2. Você pode escolher 
+esse poder outras vezes para sinais diferentes.
+•	 Sobrepeliz Espinhosa. Ao usar o sinal Quen 
+como uma reação, você pode gastar 2 PM para que 
+todo dano reduzido pelo sinal volte para o agressor 
+como dano de perfuração (Fort CD Int evita). Pré-re-
+quisito: 8º nível de bruxeiro. e
+•	 Sobrepeliz Mística. Ao usar o sinal Quen, você 
+pode gastar +3 PM para receber +5 PV temporários 
+para cada 10 pontos de redução de dano fornecida 
+pelo sinal. Pré-requisito: 4º nível de bruxeiro. e
+•	 Temido. Você se torna imune a medo e cria-
+turas sob um efeito de medo sofrem +1d12 pontos 
+de dano de sua arma de bruxeiro e de seus sinais. 
+Pré-requisito: Apático, 11º nível de bruxeiro.
+•	 Terror Mental. Ao usar sinais que aplicam con-
+dições de medo ou mentais, a CD do sinal aumenta 
+em +2.
+•	 Tirania Elemental. Você pode usar o efeito bá-
+sico da Escola do Dragão no Ignis Ferrum e no dano 
+de Arma Bruxeira até o fim da cena. Além disso, você 
+também pode converter o dano para luz ou trevas. 
+Pré-requisito: Escola do Dragão.
+•	 Troféu. Você tem um troféu que exibe com or-
+gulho, seja as presas de um dragão, a cabeça de uma 
+mantícora ou orelhas de um finntroll. Criaturas que 
+sejam da mesma raça do seu troféu ficam abaladas e 
+vulneráveis. Pré-requisito: 12° nível de bruxeiro.
+•	 Vagabundo. Você recebe um poder de ladino 
+cujo pré-requisitos cumpra, usando seu nível como 
+nível de ladino. Pré-requisito: Malandro.
+31

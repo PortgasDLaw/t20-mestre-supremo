@@ -1,0 +1,192 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=572 x1=275 y1=660 ---
+Nas terras subterrâneas de Alstra, ou em regiões 
+desconhecidas das montanhas sanguinárias, o povo 
+subterrâneo como os entomas ou até mesmo alguns 
+aracnídeos cultivaram uma técnica de tecelagem an-
+cestral que forma caçadores excêntricos por misturar 
+a delicada arte da costura com um combate rápido e 
+frenético, estes são os tecelãos.
+
+--- block x0=51 y0=660 x1=275 y1=712 ---
+Um tecelão é facilmente reconhecido por duas 
+coisas; seus mantos finamente produzidos com ma-
+teriais exóticos e com propriedades além de qualquer 
+outra vestimenta, e suas armas, que são vinculadas a 
+
+--- block x0=289 y0=55 x1=513 y1=163 ---
+um tipo de linha mística conhecida como seda, que 
+os permite se aprimorar e combater inimigos com 
+graciosidade e perfeição notáveis, além de utilizar 
+habilidades especiais somente possíveis com o vín-
+culo com a seda em seus equipamentos.
+Características de 
+Classe
+
+--- block x0=306 y0=162 x1=491 y1=178 ---
+Pontos de Vida. Como o caçador básico.
+
+--- block x0=306 y0=178 x1=496 y1=195 ---
+Pontos de Mana. Como o caçador básico.
+
+--- block x0=289 y0=195 x1=513 y1=283 ---
+Perícias. Ofício (Alfaiate [Int]) e Reflexos 
+(Des), mais 6 a sua escolha entre Acrobacia (Des), 
+Atletismo (For), Conhecimento (Int), Diplomacia 
+(Car), Enganação (Car), Furtividade (Des), Intima-
+dação (Car), Investigação (Int), Ladinagem (Des), 
+Luta (For), Misticismo (Int), Ofício (Int), Percepção 
+(Sab) e Pontaria (Des).
+
+--- block x0=289 y0=283 x1=491 y1=328 ---
+Proficiências. Armas marciais.
+Habilidades de Classe
+
+--- block x0=289 y0=326 x1=513 y1=355 ---
+Arte Ancestral. Você soma sua Sabedoria, 
+limitada pelo nível, em Ofício (alfaiate).
+
+--- block x0=289 y0=355 x1=513 y1=467 ---
+Manto do Caçador. Você começa com um 
+manto especial com os efeitos de dois vestuários à 
+sua escolha. No 6º nível, e a cada quatro níveis se-
+guintes, o manto recebe uma melhoria a sua escolha.
+No 10º nível, e a cada quatro níveis seguintes, seu 
+manto do caçador recebe um encanto a sua escolha. 
+Se perder seu manto ou ele for destruído, você pode 
+fabricar um novo com 1 semana de trabalho e o gasto 
+de T$ 50 em materiais.
+
+--- block x0=306 y0=467 x1=493 y1=483 ---
+Marca da Presa. Como o caçador básico.
+
+--- block x0=289 y0=483 x1=513 y1=608 ---
+Arma do Caçador. No 2º nível, escolha uma 
+arma corpo a corpo leve ou ágil que cause dano 
+de corte ou perfuração. A arma é vinculada a uma 
+linha de seda que lhe permite puxar a arma como 
+uma ação livre ou reação em qualquer ponto que ela 
+esteja em alcance médio e usar uma das habilidades 
+a seguir, a sua escolha, que uma vez feita, não pode 
+ser mudada. Usar essas habilidades gasta 3 PM como 
+parte de uma ação. A cada quatro níveis, você pode 
+escolher uma habilidade adicional para poder usar.
+
+--- block x0=289 y0=608 x1=513 y1=660 ---
+•	 Avanço de Seda. Você faz um ataque à distância 
+contra um alvo em alcance curto arremessando sua 
+arma contra ele. Se acertar, você se impulsiona em 
+direção ao alvo, ficando adjacente a ele.
+
+--- block x0=289 y0=660 x1=513 y1=712 ---
+•	 Flechas de Seda. Você gasta uma ação de movi-
+mento para criar uma quantidade de setas feitas de 
+seda igual a sua Sabedoria (limitado pelo nível). Elas 
+duram até o fim da cena e causam dano de perfuração 
+
+--- block x0=95 y0=65 x1=228 y1=84 ---
+Tabela 1-29: O Tecelão
+
+--- block x0=56 y0=87 x1=246 y1=101 ---
+Nível
+Habilidades de Classe
+
+--- block x0=67 y0=104 x1=223 y1=126 ---
+1º
+Arte ancestral, manto do caçador, 
+marca da presa +1d4
+
+--- block x0=67 y0=129 x1=256 y1=151 ---
+2º
+Arma do caçador (1 habilidade), estilista (1 
+melhoria), poder de caçador
+
+--- block x0=67 y0=155 x1=230 y1=166 ---
+3º
+Manto fortificado, poder de caçador
+
+--- block x0=67 y0=169 x1=161 y1=181 ---
+4º
+Poder de caçador
+
+--- block x0=67 y0=184 x1=261 y1=206 ---
+5º
+Estilista (2 melhorias), marca da presa +1d8, 
+poder de caçador
+
+--- block x0=67 y0=210 x1=248 y1=243 ---
+6º
+Arma do caçador (2 habilidades), marca 
+pessoal, manto do caçador (1 melhoria), 
+poder de caçador
+
+--- block x0=67 y0=246 x1=245 y1=257 ---
+7º
+Estilista (3 melhorias), poder de caçador
+
+--- block x0=67 y0=261 x1=161 y1=272 ---
+8º
+Poder de caçador
+
+--- block x0=67 y0=276 x1=247 y1=298 ---
+9º
+Estilista (menor), marca da presa +1d12, 
+poder de caçador
+
+--- block x0=65 y0=301 x1=261 y1=334 ---
+10º
+Arma do caçador (3 habilidades), estilista (4 
+melhorias), manto do caçador (2 melhorias, 
+menor), poder de caçador
+
+--- block x0=65 y0=337 x1=161 y1=349 ---
+11º
+Poder de caçador
+
+--- block x0=65 y0=352 x1=161 y1=364 ---
+12º
+Poder de caçador
+
+--- block x0=65 y0=367 x1=242 y1=389 ---
+13º
+Estilista (médio), marca da presa +2d8, 
+poder de caçador
+
+--- block x0=65 y0=393 x1=256 y1=425 ---
+14º
+Arma do caçador (4 habilidades), manto 
+do caçador (3 melhorias, médio), poder de 
+caçador
+
+--- block x0=65 y0=429 x1=161 y1=440 ---
+15º
+Poder de caçador
+
+--- block x0=65 y0=444 x1=161 y1=455 ---
+16º
+Poder de caçador
+
+--- block x0=65 y0=458 x1=244 y1=481 ---
+17º
+Estilista (maior), marca da presa +2d10, 
+poder de caçador
+
+--- block x0=65 y0=484 x1=254 y1=517 ---
+18º
+Arma do caçador (5 habilidades), manto 
+do caçador (4 melhorias, maior), poder de 
+caçador
+
+--- block x0=65 y0=520 x1=161 y1=532 ---
+19º
+Poder de caçador
+
+--- block x0=65 y0=535 x1=221 y1=546 ---
+20º
+Mestre da seda, poder de caçador
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+84
+

@@ -1,0 +1,81 @@
+Capítulo Um
+Arcanista
+Apoteose Cósmica
+O seu poder cósmico cresce exponencialmente, 
+mas seu corpo parece menos conectado a matéria. 
+Suas habilidades de herança podem ser usadas 
+mesmo que não esteja sob um céu estrelado, você 
+recebe +1 PM por nível de arcanista e ao lançar uma 
+magia que causa dano, você pode gastar +2 PM para 
+trocar o tipo de dano para essência. Porém, você não 
+é afetado por nenhum efeito ou item de cura, mun-
+dano ou mágico, durante o dia. Pré-requisitos: Herança 
+Superior (linhagem cósmica), 17º nível de arcanista.
+Apoteose Monstruosa
+Seu sangue monstruoso fica mais forte, mas isso 
+torna você menos racional. Suas magias sustentadas 
+tem a duração mudada para cena e você pode gastar 
+5 PM para somar sua Força na CD para resistir a sua 
+próxima magia lançada. Entretanto, sua Inteligência 
+diminui em –1 e você não pode lançar magias de en-
+cantamento e ilusão. Pré-requisitos: Herança Superior 
+(linhagem monstruosa), 17º nível de arcanista.
+Armadura Cósmica
+Quando lança Armadura Arcana enquanto sob um 
+céu estrelado, você recebe +2 PM para gastar em 
+aprimoramentos com essa magia para cada círculo 
+de magias que puder lançar. Pré-requisitos: Armadura 
+Arcana, Herança Básica (linhagem cósmica).
+Bênção Arcana
+Você soma sua Sabedoria no seu total de PM 
+e habilidades de arcanista que somam seu atribu-
+to-chave em uma de suas características também 
+somam sua Sabedoria. Pré-requisitos: Herança Básica 
+(linhagem abençoada), Poder Mágico.
+Compreensão Hereditária
+O sangue místico correndo em suas veias torna 
+mais fácil para você entender as nuances da magia. 
+Você pode usar seu atributo-chave em Misticismo, 
+no lugar de Inteligência. Pré-requisitos: Feiticeiro.
+Concentração Primitiva
+A CD para manter a concentração enquanto 
+lança uma magia diminui em um valor igual a sua 
+Força. Além disso, ao fazer um teste durante uma 
+contramágica, você pode gastar 1 PM para somar sua 
+Força no teste. Pré-requisito: Herança Básica (linha-
+gem monstruosa).
+Correntes Perpétuas
+Você pode prender o espíritos por mais tempo, 
+por um preço. O tempo que você pode manter espíri-
+tos acorrentados muda para 1 semana, mas seus PM 
+máximos são reduzidos em –1 PM por dia adicional 
+ao primeiro em que o faça (que são recuperados ao 
+libertar ou usar todos os espíritos). Pré-requisitos: 
+Agrilhoar os Caídos. e
+Devorar Mente
+Você pode, uma vez por rodada, gastar uma ação 
+padrão e fazer um teste de Misticismo oposto ao teste 
+de um alvo em alcance curto. Se vencer, o alvo perde 
+1d4 PM e você recupera em um valor igual ao que o 
+alvo perdeu. Se o alvo não possuir PM, invés disso 
+ele fica esmorecido e você recupera 1d4 PM. Essa 
+habilidade só pode ser usada uma vez por criatura, 
+por cena. Pré-requisito: 5º nível de arcanista.
+Duas Mentes
+Você pode, uma vez por rodada, gastar +5 PM 
+para lançar duas magias como parte da mesma exe-
+cução. As magias devem ter a mesma execução ou 
+uma diferença de um categoria de execução uma da 
+outra. Pré-requisito: 12º nível de arcanista.
+Familiar Extraplanar
+Seu familiar passa a servir de ponte entre você 
+e os espíritos, lhe dando respostas. No início de 
+cada dia, você recebe uma quantidade de d4 igual ao 
+círculo máximo de magias que você pode lançar. Ao 
+fazer um teste de perícia ou lançar uma magia, você 
+pode gastar 1 PM para rolar 1d4 e somar ao resultado 
+do teste ou a CD para resistir a sua magia. Todos os 
+dados de auxílio são resetados ao fim do dia. Pré-re-
+quisitos: Contato Extraplanar, Familiar Aprimorado.
+Poderes de Classe
+96

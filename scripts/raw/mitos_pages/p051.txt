@@ -1,0 +1,102 @@
+Aventureiros de Arton
+a cada inimigo adjacente a essa criatura. Pré-requisito: 
+5º nível de mirmidão.
+•	 Liberdade dos Beduínos. Você recebe as habilida-
+des Esquiva Sobrenatural e Olho nas Costas. Ambas 
+as habilidades exigem liberdade de movimentos; você 
+não pode utilizá-las se estiver usando armaduras 
+pesadas ou na condição imóvel. Pré-requisito: General 
+das Trevas (batalhão das bênçãos).
+•	 Livramento. Ao aprender uma magia de uma 
+escola que não seja de necromancia, mas que a ha-
+bilidade que permite aprendê-las muda para necro-
+mancia, você pode optar por ela permanecer sendo 
+da escola original.  Pré-requisito: Recruta das Trevas.
+•	 Marca do Sacrifício. Você pode gastar uma ação 
+de movimento e perder 6 PV (que não podem ser 
+temporários) para sua armadura o tornar mais pode-
+roso. Você recebe  um bônus em testes de resistência 
+e na Defesa igual ao círculo máximo de magias que 
+você pode lançar. Sustentar este efeito o faz perder 3 
+PV por rodada. Pontos de vida perdidos dessa forma 
+só podem ser recuperados com descanso. e
+•	 Marcha da Morte. Força do Oblívio passa a 
+aplicar seus efeitos em seus capangas conjurados por 
+magias de necromancia. A partir do 11º nível, eles 
+também recebem +5 na Defesa e +3m de desloca-
+mento. Pré-requisito: Conjurar Mortos-Vivos.
+•	 Metal Pesado. Você pode usar sua Inteligência 
+na Defesa quando usa armadura pesada. Se fizer isso, 
+não pode somar sua Destreza, mesmo que outras 
+habilidades ou efeitos permitam isso. Pré-requisito: 8º 
+nível de mirmidão.
+•	 Morte Rastejante. Ao matar uma criatura do 
+tipo morto-vivo (exceto capangas), você pode fazer 
+um teste de Misticismo (CD 15 + ND da criatura), 
+se passar, recupera PV igual a CD do teste. Pré-requi-
+sito: 5º nível de mirmidão. e
+•	 Obliterar. Você pode gastar uma ação de movi-
+mento e 3 PM para profanar uma arma corpo a corpo 
+que esteja empunhando. Força do Oblívio causa +2 
+dados com a arma empunhada até o fim da cena. e
+•	 Ocultar no Oblívio. Você pode gastar uma ação 
+completa e 3 PM para desequipar sua armadura mal-
+dita e guardá-la no Oblívio, onde ela fica armazenada 
+até você equipá-la novamente gastando 3 PM. Porém, 
+você ainda não pode equipar outras armaduras, se o 
+fizer, a armadura em questão é destruída. Pré-requisi-
+to: Comandante das Trevas (batalhão das sombras).
+•	 Pesadelo. Você recebe um cavalo morto-vivo 
+especial que fornece os mesmos benefícios de um 
+parceiro montaria veterano de um tipo a sua escolha 
+— e aprovado pelo mestre. Vocês tem uma ligação 
+telepática, e ele pode ser conjurado ou dispensado 
+com uma ação de movimento e o gasto de 2 PM. Ao 
+atingir o 11º nível de mirmidão, seu parceiro se torna 
+mestre. Pré-requisito: 5º nível de mirmidão.
+•	 Recruta das Trevas. Você recebe o treinamento 
+de um dos batalhões de Umbralar, veja mais adiante.
+•	 Rei Destruído. Você passa a estar no limiar entre 
+a vida e a morte. Você recebe imunidade aos efeitos 
+que Principe das Trevas lhe dá resistência e ao sofrer 
+dano de trevas, recupera PV igual ao dano sofrido. 
+Além disso, se for uma criatura do tipo morto-vivo, 
+você recebe recebe imunidade a frio e recupera +1 
+PV por dado de dano de trevas sofrido. Por fim, você 
+é considerando como podendo lançar magias de 5º 
+círculo para suas habilidades de mirmidão. Pré-requi-
+sitos: Ascenção das Trevas, 17º nível de Mirmidão. e
+•	 Sacerdote Sombrio. Você recebe um poder de 
+clérigo cujos pré-requisitos cumpra, usando seu 
+nível de mirmidão como nível de clérigo. Se o atribu-
+to-chave do poder for Sabedoria, troque por Inteli-
+gência. Pré-requisitos: treinado em Religião, devoto de 
+um deus maior que canaliza energia negativa.
+•	 Segredos Sombrios. Você aprende duas magias 
+de qualquer círculo que possa lançar. Elas devem 
+pertencer às escolas que você sabe usar, mas podem 
+ser arcanas ou divinas. Você pode escolher este poder 
+quantas vezes quiser.
+•	 Sincretismo Bélico. Você recebe o treinamento 
+de um segundo batalhão de umbralar, mas não pode 
+obter o treinamento aprimorado ou superior para o 
+segundo batalhão. Pré-requisito: Recruta das Trevas.
+•	 Solidez. Se estiver usando um escudo, você 
+soma o bônus na Defesa recebido pelo escudo em 
+testes de resistência.
+•	 Teurgista Necrótico. Você poder aprender ma-
+gias de convocação como se fossem divinas e a escola 
+dessas magias muda para necromancia. Isso altera a 
+aparência e natureza da magia, mas não tem qual-
+quer outro efeito mecânico (além da troca de escola).
+Cerimônia da Maldição
+A maldição em sua armadura pode ser 
+transferida para outras, desde que ela seja 
+pesada. O processo de troca exige 1 dia de 
+rituais e T$ 300 em componentes. A antiga 
+armadura é destruída e a nova se veste em 
+seu corpo automaticamente, recebendo 
+todos os benefícios da habilidade Armadura 
+Maldita — incluindo melhorias e encantos, 
+mas não ignora limites.
+51

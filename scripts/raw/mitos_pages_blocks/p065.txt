@@ -1,0 +1,146 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=119 ---
+grandes figuras imponentes, existem aqueles que 
+se embrenham na linha de frente para coordenar as 
+tropas em conjunto, um exemplo a ser seguido e para 
+inspirar suas tropas. Estes são os generais, figuras 
+que coordenam seus aliados com mão de ferro.
+
+--- block x0=71 y0=119 x1=295 y1=207 ---
+Exemplos de bons generais não faltam no meio 
+artoniano, como a líder da resistência valquíriana 
+de Svalas, o arquiduque marechal de Deheon e até 
+mesmo a antiga líder da ordem dos cavaleiros glorio-
+sos. Ser um aventureiro comandante é saber treinar 
+e disciplinar aqueles que juraram a lealdade deles ao 
+neófito nessa arte inspiradora.
+
+--- block x0=71 y0=207 x1=295 y1=352 ---
+Treinar tropas e menos sobre provar a sí mesmo 
+que é capaz, e mais sobre lutar em unidade com seus 
+aliados e soldados. Um general de respeito sempre 
+tem seu braço direito, um guerreiro disciplinado 
+que luta ao seu lado, demonstrando todas as suas 
+capacidades em combate e coordenando tropas ao 
+lado de seu general, algumas vezes, até mesmo como 
+um casal que dança no campo de guerra.
+Características de 
+Classe
+
+--- block x0=71 y0=351 x1=295 y1=391 ---
+Pontos de Vida. Um comandante começa 
+com 16 pontos de vida + Constituição e ganha 4 PV 
++ Constituição por nível.
+
+--- block x0=71 y0=391 x1=295 y1=419 ---
+Pontos de Mana. Como o treinador básico 
+(veja Heróis de Arton, p. 16).
+
+--- block x0=71 y0=419 x1=295 y1=495 ---
+Perícias. Guerra (Int) e Diplomacia (Car), 
+mais 4 a sua escolha entre Atletismo (For), Cavalgar 
+(Des), Iniciativa (Des), Intimidação (Car), Intuição 
+(Sab), Investigação (Int), Luta (For), Percepção 
+(Sab), Pontaria (Des), Reflexos (Des), Religião (Sab) 
+e Vontade (Sab).
+
+--- block x0=71 y0=495 x1=295 y1=552 ---
+Proficiências. Armas marciais, armaduras 
+pesadas e escudos.
+Habilidades de Classe
+
+--- block x0=71 y0=551 x1=295 y1=627 ---
+Braço Direito. Você recebe um braço direito, 
+um parceiro especial que o acompanha em suas aven-
+turas. Veja o quadro na próxima página para as regras 
+do braço direito. Caso seu braço direito morra, você 
+fica atordoado por 1d4 rodadas. Você pode contratar 
+e treinar um novo com um tempo entre aventuras.
+
+--- block x0=88 y0=627 x1=260 y1=644 ---
+Direcionar. Como o treinador básico.
+
+--- block x0=71 y0=643 x1=295 y1=672 ---
+Poder de Treinador. A partir do 2º nível, 
+você recebe esta habilidade como o treinador básico.
+
+--- block x0=71 y0=672 x1=295 y1=712 ---
+Discurso Motivador. A partir do 3º nível, 
+você pode gastar 5 PM e seu primeiro turno em 
+um combate discursando. Seus aliados e melhores 
+
+--- block x0=309 y0=579 x1=533 y1=631 ---
+amigos em alcance curto recebem +2 em testes de 
+perícia e rolagens de dano até o fim da cena. A cada 
+seis níveis, você pode gastar +5 PM para aumentar 
+esses ganhos em +2.
+
+--- block x0=309 y0=631 x1=533 y1=660 ---
+Tutor de Tropas. No 5º nível, escolha entre 
+Tropas Numerosas ou Tutoria Intensiva.
+
+--- block x0=309 y0=660 x1=533 y1=712 ---
+•	 Tropas Numerosas. Você recebe um Pelotão de 
+Infantaria Mestre (veja Heróis de Arton, p. 241). Eles 
+contam como um único melhor amigo para suas 
+habilidades de treinador e você pode, uma vez por 
+
+--- block x0=326 y0=53 x1=412 y1=71 ---
+O Braço Direito
+
+--- block x0=326 y0=72 x1=510 y1=160 ---
+Para evitar estigmas, o comandante possui, 
+no lugar do Melhor Amigo, o seu Braço 
+Direito. Ele é um melhor amigo para 
+suas habilidades, mas troque o nome de 
+alguns poderes e troque Adestramento por 
+Diplomacia ou Guerra. Um Braço Direito 
+segue as seguinte regras de criação:
+
+--- block x0=326 y0=160 x1=513 y1=177 ---
+Atributos. Como o normal, mas sua Int é 0.
+
+--- block x0=326 y0=177 x1=496 y1=193 ---
+Perícias. Treina 6 perícias à sua escolha.
+
+--- block x0=326 y0=193 x1=434 y1=209 ---
+Deslocamento. 9m (6q).
+
+--- block x0=326 y0=209 x1=513 y1=345 ---
+O Braço Direito não recebe armas naturais 
+e não pode ser do tipo animal. Todo braço 
+direito já começa com os truques (agora 
+chamado de traços) Anatomia Humanoide 
+e Treinamento Marcial, que não conta nos 
+traços iniciais recebidos. O braço direito é 
+um membro de qualquer raça, então fique a 
+vontade para determinar como isso afeta os 
+traços que irá escolher para ele. Se escolher 
+o tipo espírito ou monstro para seu Braço 
+Direito, use os efeitos abaixo:
+
+--- block x0=326 y0=346 x1=506 y1=446 ---
+• Espírito. +1 em Sabedoria e Carisma. A 
+sua natureza planar afeta o comandante 
+de acordo com a energia que ele canaliza 
+(positiva ou negativa, escolhida ao ser 
+criado). Se for positiva, o comandante e o 
+braço direito recebem +1 PV por nível, se 
+for negativa, o comandante recebe +1 PM 
+por nível.
+
+--- block x0=326 y0=446 x1=513 y1=546 ---
+• Monstro. +1 em Força e Destreza. Visão 
+no escuro e uma arma natural (dano 1d8, 
+crítico x2, corte, impacto ou perfuração, 
+escolhido ao criar o braço direito). Uma vez 
+por rodada, quando o braço direito faz uma 
+ação agredir para atacar com outra arma, 
+pode gastar 1 PM para fazer um ataque 
+corpo a corpo extra com sua arma natural.
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+65
+

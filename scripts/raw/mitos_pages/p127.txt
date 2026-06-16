@@ -1,0 +1,98 @@
+Aventureiros de Arton
+Novos Truques
+A seguir novos truques que podem ser escolhidos 
+para seu Melhor Amigo. Se estiver usando um Braço 
+Direito, você pode aumentar a Inteligência dele com 
+Condicionamento Especial.
+•	 Absorção Elemental. Seu melhor amigo se torna 
+imune ao tipo de dano do sopro dele. Ao sofrer dano 
+do tipo ao qual é imune, ele recupera pontos de vida 
+igual metade do dano sofrido — ou todo o dano se 
+ele for mágico. Pré-requisitos: construto, Sopro.
+•	 Aparência Assustadora. Seu melhor amigo 
+tem uma aparência mais ameaçadora. Uma vez por 
+rodada, quando seu melhor amigo faz um teste de 
+Intimidação, você pode gastar 3 PM e fazer um teste 
+de Adestramento e somar o resultado deste teste a 
+Intimidação do seu melhor amigo.
+•	 Aspecto Planar. Seu melhor amigo recebe o 
+poder concedido de um deus maior a sua escolha, 
+representando o mundo divino que ele vivia. Além 
+disso, se seu melhor amigo possuir o truque Sopro, 
+ele pode causar dano de luz ou trevas, de acordo com 
+a energia que ele canaliza. Pré-requisito: espírito.
+•	 Bicho do Mato. Seu melhor amigo recebe a habi-
+lidade natureza vegetal. Além disso, você pode gastar 
+uma quantidade de PM limitada pela Constituição do 
+seu melhor amigo, uma vez por rodada. Para cada 
+PM gasto, seu melhor amigo recupera 5 PV, mas ele 
+não recupera pontos de vida perdidos por dano de 
+fogo. Pré-requisito: animal ou monstro.
+•	 Fome Póstuma. Seu melhor amigo pode gastar 
+uma ação completa devorando um cadáver de uma 
+criatura viva, ao fazê-lo, ele recupera uma quantidade 
+de PV igual a ND da criatura devorada. Pré-requisito: 
+morto-vivo.
+•	 Magia Superior. Escolha uma magia aprendida 
+pelo seu melhor amigo, ele passa a poder aprimorá-la 
+como se tivesse acesso aos mesmos círculos de magia 
+que um arcanista com seu nível. De forma alterna-
+tiva, seu melhor amigo aprende e pode lançar uma 
+magia de 2º círculo a sua escolha. Você pode escolher 
+este truque outras vezes para magias diferentes. Pré-
+-requisitos: 6º nível de treinador, Magia Inata.
+•	 Primor Mecânico. Seu melhor amigo treina uma 
+perícia adicional e recebe uma maravilha mecânica 
+do Mashin. Esse truque pode ser escolhido outras 
+vezes para receber novas maravilhas mecânicas, mas 
+apenas uma vez por patamar. Pré-requisito: construto.
+•	 Sentidos Ecolocalizadores. Seu melhor amigo 
+recebe percepção às cegas (ou, se já tiver, aumenta o 
+alcance da habilidade em um passo). Além disso, se 
+ambos estiverem em alcance curto e fizer um teste 
+de Percepção, o melhor dado  rolado entre você e o 
+melhor amigo é usado no teste de ambos.
+•	 Supersônico. Seu melhor amigo recebe a habi-
+lidade evasão. Você pode escolher este truque uma 
+segunda vez, se estiver no patamar campeão, para ele 
+receber evasão aprimorada. Pré-requisito: Veloz.
+•	 Tornar-se Enxame. Seu melhor amigo pode gas-
+tar uma ação completa e 3 PM para se transformar 
+em um enxame de pequenas criaturas, causando o 
+dano de sua arma natural contra inimigos ocupando 
+o mesmo espaço que elas (se possuir mais de uma, 
+soma os dados de dano), e aumentando sua categoria 
+de tamanho em um passo. Elas seguem todas as 
+regras de um enxame (veja Ameaças de Arton, p. 15). 
+Pré-requisitos: monstro, Convocar Enxame.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+•	 Slot Disponível. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt.
+127

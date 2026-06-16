@@ -1,0 +1,113 @@
+Capítulo Um
+Fera Primal. A partir do 3º nível, quando usa 
+Forma Selvagem, você aumenta um de seus benefí-
+cios em +1 (ou em +3m, ou o dano de uma arma 
+natural em um passo). Além disso, a partir do 7º 
+nível, você passa a somar sua Sabedoria no seu total 
+de pontos de vida.
+Polimorfia Real. A partir do 11º nível, Forma 
+Selvagem e habilidades que interage com este poder 
+tem seu custo reduzido em –1 PM (cumulativo com 
+outras reduções de custo). Além disso, você pode 
+manter sua Forma Selvagem mesmo inconsciente.
+Predador Primal. No 20º nível, ao usar 
+Forma Selvagem, o dano das suas armas naturais 
+aumentam em um passo e passam a ignorar até 5 
+pontos de redução de dano. Esses efeitos dobram 
+quando em terrenos naturais, incluindo os forneci-
+dos por Faro Predatório (exceto o alcance do faro).
+xBárbarox
+Presa de Sangue
+"A magia corre furiosa em meu sangue!"
+Bárbaros da presa de sangue são um espécime 
+raro de guerreiros tribais, é comum ver druidas e 
+xamãs usando magias fornecida pelos seus deuses 
+para defender suas tribos e lutar. Bárbaros comuns 
+também tem um pouco disso, canalizando magia 
+através de totens sagrados, no entanto, são claramen-
+te limitados. Isso não se aplica aos presa de sangue.
+Munidos de um sangue mágico, para eles, a magia 
+é algo natural, assim como é para um feiticeiro que 
+adestrou sua magia interna. Porém, para um presa de 
+sangue, a magia é algo instintivo, primal, eles conse-
+guem canalizar esse poder mágico mesmo sob efeito 
+de sua furia. Através dessas insanas capacidades, eles 
+conseguem lutar em um misto de magia arcana inata 
+e golpes poderosos como um típico bárbaro.
+Características de 
+Classe
+Pontos de Vida. Um presa de sangue começa 
+com 20 pontos de vida + Constituição e ganha 5 PV 
++ Constituição por nível.
+Pontos de Mana. 4 PM por nível.
+Perícias. Luta (For) e Misticismo (Int), mais 4 
+a sua escolha entre Adestramento (Car), Atletismo 
+(For), Cavalgar (Des), Fortitude (Con), Iniciativa 
+(Des), Intimidação (Car), Ofício (Int), Percepção 
+(Sab), Pontaria (Des), Sobrevivência (Sab), Religião 
+(Sab) e Vontade (Sab).
+Proficiências. Armas Marciais e Escudos.
+Habilidades de Classe
+Fúria Mística. Você pode gastar 2 PM para 
+entrar em uma fúria racionalizada pela magia arcana. 
+Até o fim da cena, você recebe um bônus em testes 
+de ataque e rolagens de dano corpo a corpo, além de 
+na CD das suas magias igual a 1 + o círculo máximo 
+de magias que você pode lançar. Essa habilidade 
+conta como Fúria (veja Tormenta20, p. 41) para pré-
+-requisitos e efeitos de poderes de bárbaro. e
+Herança de Sangue. Você recebe a herança 
+básica de uma linhagem do feiticeiro (veja Tormen-
+ta20, p. 39) a sua escolha, que uma vez feita, não 
+pode ser mudada. No 7º nível, recebe a herança 
+aprimorada da linhagem escolhida, e no 15º nível, 
+recebe a herança superior.
+Magias. Você pode lançar magias arcanas de 
+1º círculo. À medida que sobe de nível, pode lançar 
+magias de círculos maiores (2º círculo no 6º nível, 3º 
+círculo no 10º nível e 4º círculo no 14º nível).
+Tabela 1-26: O Presa de Sangue
+Nível
+Habilidades de Classe
+1º
+Fúria mística, herança de sangue, 
+magias (1º círculo)
+2º
+Poder de bárbaro
+3º
+Poder de bárbaro, sangue místico
+4º
+Poder de bárbaro
+5º
+Poder de bárbaro, tatuagens de sangue
+6º
+Magias (2º círculo), poder de bárbaro
+7º
+Herança aprimorada, poder de bárbaro
+8º
+Poder de bárbaro
+9º
+Poder de bárbaro, tatuagens de sangue (+2)
+10º
+Magias (3º círculo), poder de bárbaro
+11º
+Poder de bárbaro
+12º
+Poder de bárbaro
+13º
+Poder de bárbaro, tatuagens de sangue (+4)
+14º
+Magias (4º círculo), poder de bárbaro
+15º
+Herança superior, poder de bárbaro
+16º
+Poder de bárbaro
+17º
+Poder de bárbaro, tatuagens de sangue (+6)
+18º
+Poder de bárbaro
+19º
+Poder de bárbaro
+20º
+Fúria explosiva, poder de bárbaro
+80

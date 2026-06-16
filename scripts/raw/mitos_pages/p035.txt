@@ -1,0 +1,116 @@
+Aventureiros de Arton
+Características de 
+Classe
+Pontos de Vida. Um cultivador começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Constituição por nível.
+Pontos de Mana. 4 PM por nível.
+Perícias. Luta (For) ou Misticismo (Int) e Re-
+flexos (Des) ou Vontade (Sab), mais 6 a sua escolha 
+entre Acrobacia (Des), Adestramento (Car), Atuação 
+(Car), Atletismo (For), Conhecimento (Int), Cura 
+(Sab), Diplomacia (Car), Fortitude (Con), Guerra 
+(Int), Iniciativa (Des), Intuição (Sab), Investigação 
+(Int), Luta (For), Misticismo (Int), Nobreza (Int), 
+Ofício (Int), Percepção (Sab), Pontaria (Des), Refle-
+xos (Des), Religião (Sab) e Sobrevivência (Sab).
+Proficiências. Armas Marciais.
+Habilidades de Classe
+Cultivo. Ao realizar sua ação de trabalho 
+interno (p. @@), você recebe 1 carga de chi. Você 
+pode acumular uma quantidade máxima de cargas 
+de chi igual a sua Sabedoria, e elas duram até o fim 
+da cena. Enquanto possuir ao menos 1 carga de chi, 
+você recebe os efeitos da linha Cultivo de seu método.
+Nei Gong. Você se fortalece através de uma 
+técnica de trabalho interno, escolha um dos métodos 
+de cultivo disponíveis à partir da página @@. Uma 
+vez feita, a escolha não pode ser mudada.
+Poder de Cultivador. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de cultivador a 
+sua escolha. Veja a lista a seguir.
+Karma. A partir do 4º nível, você pode gastar 2 
+PM por meridiano aberto, por cena. Para cada 2 PM 
+gastos, você recebe 1 carga de chi.
+A partir do 8º nível, você pode, uma vez por 
+aventura, escolher 20 em qualquer teste (exceto 
+testes de ataque e resistência), mas se fizer isso, o 
+mestre pode escolher 0 em qualquer outro teste que 
+fizer até o fim da aventura.
+Refinamento. No 10º nível, você refina seu 
+corpo além dos limites carnais. Some sua Sabedoria 
+no seu total de pontos de vida e receba +1 PM por 
+nível de cultivador. Além disso, você recebe +2 em 
+uma perícia a sua escolha por meridiano aberto.
+Reino Celestial. No 14º nível, você alcança 
+os seis reinos e eleva seu espírito. A qualquer mo-
+mento fora de combate, você pode gastar 1 carga de 
+chi para escolher 10 nos testes de perícias escolhidas 
+em Refinamento, caso já possa fazer isso de outra 
+forma, pode escolher 20 — apenas uma vez por cena.
+Imortal. No 20º nível, você atinge o zênite 
+entre os mortais e a epítome de todos os reinos, 
+tornando-se imortal. Você recebe +1 em todos os 
+seus atributos e recebe a dádiva Imortal (veja Deuses 
+de Arton, p. 235), mesmo sem ser um deus menor. 
+Por fim, não precisa respirar, alimentar-se ou dormir 
+— você se sustenta através da energia do universo.
+Poderes de Classe
+•	 Alinhar as Energias. Você reune as sete forças 
+primordias em seu ventre, recebendo redução de 
+ácido, eletricidade, essência, fogo, frio, luz e trevas 
+10. Pré-requisito: 16º nível de cultivador.
+•	 Alquimia Espiritual. Você pode fabricar alquí-
+micos espirituais através de um método milenar de 
+alquimia. Veja as regras na página @@. Pré-requisito: 
+treinado em Ofício (alquimista), Int 3, Sab 3. e
+•	 Arma de Cultivo Adicional. Você recebe uma 
+segunda arma de cultivo entre uma jian, katana ou 
+Tabela 1-3: O Cultivador
+Nível
+Habilidades de Classe
+1º
+Cultivo (1º meridiano), nei gong
+2º
+Poder de cultivador
+3º
+Poder de cultivador
+4º
+Cultivo (2º meridiano), poder de cultivador
+5º
+Poder de cultivador
+6º
+Cultivo (3º meridiano), karma, 
+poder de cultivador
+7º
+Poder de cultivador
+8º
+Cultivo (4º meridiano), karma (roda da 
+fortuna), poder de cultivador
+9º
+Poder de cultivador
+10º
+Cultivo (5º meridiano), poder de cultivador, 
+refinamento
+11º
+Poder de cultivador
+12º
+Cultivo (6º meridiano), poder de cultivador
+13º
+Poder de cultivador
+14º
+Cultivo (7º meridiano), poder de cultivador, 
+reino celestial
+15º
+Poder de cultivador
+16º
+Poder de cultivador
+17º
+Poder de cultivador
+18º
+Poder de cultivador
+19º
+Poder de cultivador
+20º
+Imortal, poder de cultivador
+35

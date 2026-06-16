@@ -1,0 +1,90 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=54 x1=158 y1=82 ---
+Mirmidão
+
+--- block x0=51 y0=84 x1=275 y1=160 ---
+Umbralar, a ilha da noite eterna, um lugar nefasto 
+onde a morte vira não-vida e a mente se perde no 
+oblívio criado pela entidade primordial que lá habita. 
+Esta entidade é uma figura repulsiva, primitiva, 
+criada do ódio pela luz do sol, que tem como 
+único propósito trazer a noite eterna. 
+
+--- block x0=289 y0=55 x1=510 y1=83 ---
+Entidade esta, que está sempre em busca de extermi-
+nar aqueles que são contra o seu culto.
+
+--- block x0=289 y0=87 x1=513 y1=247 ---
+Este é chamado de Culto da Noite Eterna, e que com 
+o passar dos séculos, iniciou a tradição de corromper 
+mentes fortes para atuar ao lado deles durante as 
+guerras centenárias de Umbralar. A poucos cente-
+nários atrás, uma nova forma passou a compor este 
+culto, dentre sacerdotes, vingadores e hemófagos, 
+surgiu os mirmidões. Estas figuras armaduradas até 
+os ossos e de aspectos amedrontadores tinham uma 
+forma considerável e se mostraram extremamen-
+te poderosos contra os heróis que avançavam 
+contra o culto, no entanto, o maior trunfo 
+dos cultistas foi, de certa forma, a ruína 
+deles.
+
+--- block x0=323 y0=252 x1=513 y1=412 ---
+Mirmidões são guerreiros excepcionais, 
+mas também possuem uma força de 
+vontade incorruptível, eles não conse-
+guem ser mantidos no oblívio de suas 
+mentes por tanto tempo pelos cultistas, e 
+eventualmente se libertam de suas amarras 
+sombrias, passando a poder agir livremente 
+dentro de Umbralar. A maioria, abraça estes 
+novos poderes e se mantém por lá, 
+protegendo o culto e servindo a enti-
+dade do Oblívio, mas alguns poucos 
+renegam as sombras e se tornam 
+figuras heróicas; aventureiros.
+
+--- block x0=307 y0=416 x1=513 y1=648 ---
+Ainda assim, os mir-
+midões libertados e 
+heróicos são alvos 
+de 
+uma 
+maldição 
+de ligamento profana, 
+sendo incapazes de re-
+mover suas armaduras por 
+completo. Grande parte 
+dos mirmidões buscam se 
+libertar de tal maldição, e 
+outros, vêem nelas um novo 
+propósito, abraçam as bên-
+çãos do Oblívio e a usam em 
+nome do bem e da justiça, 
+dando a energia profana que 
+correm em seus corpos um 
+novo e glorioso propósito. 
+Pois assim como ditam certos cavaleiros 
+artonianas, das trevas, eles trazem a luz.
+
+--- block x0=289 y0=652 x1=510 y1=681 ---
+Mirmidões Famosos. Arthas Mal'Ach, Dre-
+nir, Jaséric Sharpblade.
+
+--- block x0=289 y0=681 x1=510 y1=709 ---
+Devotos. Arsenal, Azgher, Khalmyr, Kallyadra-
+noch, Tenebra.
+
+--- block x0=31 y0=611 x1=108 y1=623 ---
+"A luz não poderá te 
+"A luz não poderá te 
+
+--- block x0=55 y0=622 x1=83 y1=633 ---
+salvar."
+salvar."
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+48
+

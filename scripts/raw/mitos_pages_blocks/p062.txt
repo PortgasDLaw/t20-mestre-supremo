@@ -1,0 +1,193 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=95 ---
+10 e causa +1 ponto de dano por dado com os tipos 
+de dano escolhidos. Se for devoto de Arton, pode 
+escolher um tipo de dano adicional da lista.
+
+--- block x0=51 y0=95 x1=275 y1=159 ---
+Arma Sazonal. No 5º nível, e a cada seis níveis 
+seguintes, ao empunhar uma foice, gadanho ou arma 
+favorita da sua divindade, ela causa +1d8 pontos de 
+dano de um tipo escolhido em Força Elemental e 
+cumpre os pré-requisitos de Arma Tradicional.
+
+--- block x0=51 y0=159 x1=275 y1=211 ---
+Avatar. No 20º nível, você escolhe todos os 
+tipos de dano descritos em Força Elemental — cujos 
+benefícios são dobrados. Além disso, o dano adicio-
+nal de Arma Sazonal muda para +6d12.
+
+--- block x0=51 y0=224 x1=160 y1=258 ---
+xInquisidorx
+Eminente
+
+--- block x0=68 y0=260 x1=259 y1=276 ---
+"Abra seus olhos, a realidade é só uma ilusão."
+
+--- block x0=51 y0=276 x1=275 y1=340 ---
+O Fim. Uma dimensão alternativa habitada por 
+criaturas além da compreensão mortal, capaz de 
+distorcer a percepção das pessoas sobre o que é a 
+realidade, o que é verdadeiro, irreal, compreensivo 
+ou impossível. Não se tem muitas informações aca-
+
+--- block x0=289 y0=55 x1=513 y1=95 ---
+dêmicas ou precisas sobre o que é esse lugar, além do 
+pouco que foi descoberto com contato com seres de 
+tal dimensão profana.
+
+--- block x0=289 y0=95 x1=513 y1=183 ---
+Com isso, inquisidores passaram a ser enviados 
+para expedições planares rumo ao Fim, mas os 
+poucos que voltavam... Já não eram mais os mesmos. 
+Eles foram tocados pelo fim, transformados, não em 
+corpo, mas em mente, tornando-se uma parcela des-
+te mundo invertido na realidade presente, criaturas 
+eminentes; os inquisidores do fim.
+
+--- block x0=289 y0=183 x1=513 y1=328 ---
+Os eminentes são atordoados pela compreensão 
+maior, e lutam não pela justiça mortal, humana ou 
+divina, mas pela justiça além, pelo que é verdadei-
+ramente certo. Eles possuem um código estrito em 
+relação ao que devem ou não fazer, e manuseiam 
+suas mentes como um arcanista habilidoso manuseia 
+magia. Para eles, tudo na realidade é compreensivo... 
+Basta ser manipulado em favor da justiça.
+Características de 
+Classe
+
+--- block x0=306 y0=327 x1=503 y1=343 ---
+Pontos de Vida. Como o inquisidor básico.
+
+--- block x0=306 y0=343 x1=461 y1=359 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=289 y0=359 x1=513 y1=459 ---
+Perícias. Conhecimento (Int) e Intuição (Sab), 
+mais 4 a sua escolha entre Acrobacia (Des), Atletis-
+mo (For), Cura (Sab), Fortitude (Con), Furtividade 
+(Des), Intimidação (Car), Investigação (Int), Ladi-
+nagem (Des), Luta (For), Misticismo (Int), Nobreza 
+(Int), Ofício (Int), Percepção (Sab), Pilotagem (Des), 
+Pontaria (Des), Reflexos (Des), Religião (Sab), So-
+brevivência (Sab) e Vontade (Sab).
+
+--- block x0=289 y0=459 x1=495 y1=504 ---
+Proficiências. Como o inquisidor básico.
+Habilidades de Classe
+
+--- block x0=289 y0=503 x1=513 y1=567 ---
+Agente do Fim. Como em Agente da Lei 
+Oculta (p. @@), mas além do normal, você também 
+pode usar Sabedoria como atributo-chave de Pontaria 
+(em vez de Destreza). Se já puder fazer isso de outra 
+forma, invés disso recebe +2 em Pontaria.
+
+--- block x0=289 y0=567 x1=513 y1=644 ---
+Código do Vicário. Você não pode atacar 
+criaturas antes delas o fazê-lo, mesmo que ele já 
+tenha atacado seus aliados. Nem atacar alvos caídos, 
+desprevenidos, surpreendidos, vulneráveis ou flan-
+queados. Se violar o código, perde todos os seus PM 
+e só pode recuperá-los a partir do próximo dia.
+
+--- block x0=289 y0=643 x1=513 y1=708 ---
+Eminência. Você soma sua Inteligência em 
+seu total de PM e pode lançar magias divinas de 1º 
+círculo, mas apenas de adivinhação e encantamento. 
+Essa não é uma habilidade mágica e provém da sua 
+capacidade de vislumbrar o fim eminente. À medida 
+
+--- block x0=92 y0=367 x1=231 y1=386 ---
+Tabela 1-12: O Eminente
+
+--- block x0=56 y0=389 x1=246 y1=402 ---
+Nível
+Habilidades de Classe
+
+--- block x0=67 y0=405 x1=259 y1=416 ---
+1º
+Agente do fim, código do vicário, eminência
+
+--- block x0=67 y0=420 x1=228 y1=431 ---
+2º
+Discernimento, poder de inquisidor
+
+--- block x0=67 y0=435 x1=169 y1=446 ---
+3º
+Poder de inquisidor
+
+--- block x0=67 y0=449 x1=169 y1=461 ---
+4º
+Poder de inquisidor
+
+--- block x0=67 y0=464 x1=239 y1=475 ---
+5º
+Apogeu da mente, poder de inquisidor
+
+--- block x0=67 y0=479 x1=169 y1=490 ---
+6º
+Poder de inquisidor
+
+--- block x0=67 y0=494 x1=169 y1=505 ---
+7º
+Poder de inquisidor
+
+--- block x0=67 y0=508 x1=169 y1=520 ---
+8º
+Poder de inquisidor
+
+--- block x0=67 y0=523 x1=169 y1=534 ---
+9º
+Poder de inquisidor
+
+--- block x0=65 y0=538 x1=169 y1=549 ---
+10º
+Poder de inquisidor
+
+--- block x0=65 y0=553 x1=199 y1=564 ---
+11º
+Poder de inquisidor, tributo
+
+--- block x0=65 y0=567 x1=169 y1=579 ---
+12º
+Poder de inquisidor
+
+--- block x0=65 y0=582 x1=169 y1=593 ---
+13º
+Poder de inquisidor
+
+--- block x0=65 y0=597 x1=169 y1=608 ---
+14º
+Poder de inquisidor
+
+--- block x0=65 y0=612 x1=169 y1=623 ---
+15º
+Poder de inquisidor
+
+--- block x0=65 y0=626 x1=169 y1=638 ---
+16º
+Poder de inquisidor
+
+--- block x0=65 y0=641 x1=169 y1=652 ---
+17º
+Poder de inquisidor
+
+--- block x0=65 y0=656 x1=169 y1=667 ---
+18º
+Poder de inquisidor
+
+--- block x0=65 y0=671 x1=169 y1=682 ---
+19º
+Poder de inquisidor
+
+--- block x0=65 y0=685 x1=211 y1=697 ---
+20º
+A verdade, poder de inquisidor
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+62
+

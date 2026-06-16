@@ -1,0 +1,104 @@
+Aventureiros de Arton
+•	 Lampião. Você pode gastar uma ação completa 
+para posicionar 2d6 jagunços (deslocamento 9m, 
+Defesa 20, dano 2d8 de perfuração cada) que surgem 
+em espaços desocupados em alcance médio. Jagunços 
+podem atacar alvos em alcance curto. Um jagunço 
+foge ao "morrer" ou ao fim da cena.
+Bicho Valente. A partir do 11º nível, enquan-
+to montado, sua montaria recebe uma quantidade de 
+pontos de valentia igual a metade do seu Carisma 
+(mínimo 1). Uma vez por rodada, ao sofrer dano, 
+você pode gastar 3 PM para receber 20% (com +10% 
+a cada três níveis) de chance de evitar o dano e a 
+montaria perde 1 ponto de valentia — mesmo que 
+não tenha evitado o dano. Se os pontos de valentia 
+da montaria chegar a 0, ela morre. Ao descansar, a 
+montaria recupera 1 ponto de valentia por patamar.
+Cabra da Peste. No 20º nível, os benefícios de 
+sua montaria aumentam em +3m, em +1 ação, em 
++2 dados, e em um passo (para armas naturais), etc. 
+Se o benefícios forem valores fixos, invés disso eles 
+são dobrados. Além disso, pontos de valentia passam 
+a considerar todo seu Carisma, invés da metade, e a 
+sua montaria pode realizar dois ataques por rodada.
+Poderes de Classe
+•	 Alma Justiceira. Você tem um senso de justiça 
+dentro de você. Você recebe +2 na sua margem de 
+ameaça e em testes de ataque contra corruptos e 
+vilões. Esse ganho aumenta em +1 no 14º nível de 
+vaqueiro. Pré-requisito: 7º nível de vaqueiro.
+•	 Arpéu Improvisado. Se possuir uma corda, você 
+pode laçar superfícies para atravessar precipícios e 
+obstáculos (o que fornece +10 no seu teste). Além 
+disso, você pode ficar pendurado na corda para rece-
+ber os benefícios de terreno elevado contra criaturas 
+abaixo de você. Pré-requisito: treinado em Acrobacia.
+•	 Arrastar pelo Laço. Ao agarrar uma criatura com 
+uma corda ou uma arma afetada por Laçar, você pode 
+fazer uma ação de Corrida montada para arrastar a 
+criatura pelo chão. Para cada 1,5m que você se mover 
+arrastando o alvo, ele sofre 1d6 pontos de dano de 
+impacto, limitado pelo dobro do seu nível. Pré-requi-
+sito: treinado em Atletismo.
+•	 Aumento de Atributo. Você recebe +1 em um atri-
+buto. Você pode escolher esse poder várias vezes, mas 
+apenas uma vez por patamar para um mesmo atributo.
+•	 Bala Cangaceira. Você pode gastar uma ação de 
+movimento, 2 PM e 1 bala para carregar seu próximo 
+tiro com pólvora. Seu próximo ataque à distância 
+com uma arma de fogo explode, causando +2d6 pon-
+tos de dano de fogo ao alvo e criaturas adjacentes. 
+Pré-requisito: 8º nível de vaqueiro.
+•	 Bala e Facão. Ao fazer um ataque à distância 
+com uma arma de fogo contra uma criatura adjacen-
+te, você pode gastar 2 PM para fazer um ataque corpo 
+a corpo extra com uma peixeira — mesmo que não 
+esteja a empunhando. Pré-requisitos: Encostar o Cano, 
+Peixeira, 6º nível de vaqueiro.
+•	 Bicho Amigo. Sua montaria recebe os benefícios 
+de um segundo tipo de parceiro entre ajudante, com-
+batente, fortão, guardião, perseguidor ou vigilante, 
+que evolui de acordo com a progressão de Alazão.
+•	 Bicho Bruto. A arma natural de sua montaria 
+soma seu Carisma nas rolagens de dano. Além disso, 
+você pode agarrar criaturas caídas usando a montaria, 
+ao fazê-lo, você usa Cavalgar no teste de manobra.
+•	 Bicho Manso. Você não sofre a penalidade por 
+montar sem sela, caso use-a, você recebe +2 em 
+Cavalgar. Além disso, enquanto montado, seu limite 
+de carga aumenta em 6 espaços.
+•	 Cavaleiro Fantasma. Sua montaria passa a viver 
+em um mundo divino. Enviar sua montaria para sua 
+morada gasta uma ação completa e 2 PM, e trazê-la 
+de volta gasta uma ação de movimento e 2 PM. Os 
+pontos de valentia da montaria são recuperados ao 
+invocá-la, mas apenas uma vez por dia. Pré-requisito: 
+12º nível de vaqueiro. e
+•	 Chibata Diferenciada. Você adiciona a corrente 
+de espinhos e kusarigama as armas afetadas pela 
+habilidade Laçar. Pré-requisito: 3º nível de vaqueiro.
+•	 Cobrir de Pólvora. Você pode gastar uma ação 
+de movimento, 1 PM e uma bala de arma de fogo 
+para cobrir uma criatura em alcance curto com uma 
+pequena quantidade de pólvora. O alvo fica cego por 
+1 rodada (Ref CD Car evita) e, até o fim da cena, 
+o próximo ataque contra ele causa +1d6 pontos de 
+dano de fogo e deixa-o em chamas.
+•	 Dentes de Ouro. Você recebe +2 em Diplomacia, 
+esse bônus aumenta em +1 a cada quatro níveis após 
+o 5º. Além disso, você aplica adornos dourados em 
+sua montaria, que tem o dano da sua arma natural 
+aumentada em +1 dado do mesmo tipo. Pré-requisito: 
+5º nível de vaqueiro.
+•	 Duelo de Vaqueiros. Você pode gastar 3 PM para 
+desafiar um inimigo em alcance curto para um duelo. 
+Você e o alvo não somam quaisquer bônus em testes 
+feitos contra outras criaturas que não vocês, mas 
+ambos recebem +1 dado em todas as suas rolagens 
+de dano um contra o outro. Além disso, qualquer 
+interferência externa no duelo encerra a habilidade 
+imediatamente. Perde o duelo quem for reduzido a 0 
+PV, e o vencedor recebe uma quantidade de PV e PM 
+temporários igual ao seu Carisma.
+55

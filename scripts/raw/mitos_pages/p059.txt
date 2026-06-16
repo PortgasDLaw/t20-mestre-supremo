@@ -1,0 +1,113 @@
+Aventureiros de Arton
+Pé de Martelo. No 3º nível, e a cada seis 
+níveis seguintes, seu dano desarmado e com armas 
+leves aumenta em um passo.
+Chute Relâmpago. A partir do 10º nível, 
+uma vez por rodada, ao fazer um ataque corpo a 
+corpo, você pode gastar 1 PM para fazer um ataque 
+desarmado como uma ação livre.
+Cordão de Ouro. No 20º nível, você soma 
+seu Carisma Perícias originalmente baseadas em 
+Destreza e no dano dos seus ataques desarmados, 
+com armas leves e de suas magias.
+xCavaleirox
+Defensor
+"Você está a salvo comigo!"
+Defensores são cavaleiros determinados que 
+dedicam suas vidas a protege, pondo-se de frente a 
+qualquer perigo para que outros não precisem tê-lo, 
+são sem tirar nem por, a epítome da proteção.
+Por esse modo de agir, é normal que a maioria dos 
+defensores sejam devotos de Marah, para defender a 
+todos em nome da paz, ou simplesmente o esperado 
+de pessoas assim; são devotos de Khalmyr, Lena 
+ou Thyatis. Ainda assim, nem todos os defensores 
+são bons ou heróicos por causa dos deuses a que 
+servem, eles apenas nutrem um desejo básico de ver 
+todos os seus companheiros seguros, e dedicam suas 
+forças para protegê-los com sua vida. A existência 
+dos defensores faz um paralelo com os minotauros, 
+uma vez que a crença de Tauron parece com a deles, 
+porém, diferente dos legionários, o defensor segue 
+um princípio simples: um homem forte se defende 
+sozinho, um homem mais forte defende os outros.
+Características de 
+Classe
+Pontos de Vida. Um sentinela começa com 
+24 pontos de vida + Constituição e ganha 6 PV + 
+Constituição por nível.
+Pontos de Mana. Como o cavaleiro básico.
+Perícias. Como o cavaleiro básico.
+Proficiências. Armaduras pesadas e escudos.
+Habilidades de Classe
+Código do Defensor. Para um defensor, 
+nada é pior do que permitir que seus aliados se ma-
+chuquem. Você deve sempre empunhar um escudo 
+e não pode atacar com armas, apenas com escudos. 
+Além disso, deve sempre terminar o seu turno com 
+pelo menos um aliado dentro de seu alcance natural. 
+Se violar o código, perde todos os seus PM e só pode 
+recuperá-los a partir do próximo dia.
+Baluarte. Como o cavaleiro básico.
+Ariete. Você pode empunhar dois escudos, um 
+em cada mão, se fizer isso, acumula os efeitos de 
+ambos os escudos e considera um dos escudos uma 
+arma para habilidades baseadas nisso.
+Forte. No 2º nível, se estiver vestindo uma 
+armadura pesada, você soma sua Constituição na 
+Defesa, limitada pelo nível. 
+Poder de Cavaleiro. A partir do 2º nível, 
+você recebe essa habilidade como o cavaleiro básico.
+Barreira. No 3º nível, e a cada seis níveis se-
+guintes, se estiver de armadura pesada, você recebe 
+fortificação +25%.
+Muralha. A partir do 4º nível, você é consi-
+derado uma cobertura leve para quem estiver atrás 
+de você. Se a criatura for duas ou mais categorias 
+Tabela 1-9: O Defensor
+Nível
+Habilidades de Classe
+1º
+Ariete, baluarte +2, código do defensor
+2º
+Forte, poder de cavaleiro
+3º
+Barreira (fortificação 25%), poder de cavaleiro
+4º
+Muralha, poder de cavaleiro
+5º
+Baluarte +4, bastião, poder de cavaleiro
+6º
+Poder de cavaleiro
+7º
+Baluarte (aliados adjacentes), 
+poder de cavaleiro
+8º
+Poder de cavaleiro
+9º
+Baluarte +6, barreira (fortificação 50%), 
+poder de cavaleiro
+10º
+Poder de cavaleiro
+11º
+Poder de cavaleiro, resoluto
+12º
+Poder de cavaleiro
+13º
+Baluarte +8, poder de cavaleiro
+14º
+Poder de cavaleiro
+15º
+Baluarte (aliados em alcance curto), barreira 
+(fortificação 75%), poder de cavaleiro
+16º
+Poder de cavaleiro
+17º
+Baluarte +10, poder de cavaleiro
+18º
+Poder de cavaleiro
+19º
+Poder de cavaleiro
+20º
+Bravura final, poder de cavaleiro
+59

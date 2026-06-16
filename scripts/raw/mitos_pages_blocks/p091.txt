@@ -1,0 +1,138 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=119 ---
+Benefício. Você se torna treinado em Atuação, 
+ou, se já for, recebe +2 nesta perícia. Além disso, 
+você pode usar Sabedoria como atributo-chave de 
+Atuação (em vez de Carisma) e dobra seu ganho de 
+tibares recebidos por uma Apresentação.
+
+--- block x0=71 y0=119 x1=295 y1=176 ---
+Itens. Instrumento musical, trajes nobres, 
+furoshiki (Atuação).
+Consorte de Pas
+
+--- block x0=71 y0=175 x1=295 y1=263 ---
+Dentre as inúmeras criaturas pacíficas e plácidas 
+que vivem em Serena, você caminhava todos os seus 
+dias lado a lado com a própria deusa da paz, seja em 
+festas, baladas, eventos, etc. Porém, com o tempo, 
+quis conhecer o mundo além da calmaria, e desco-
+briu o quão cruel pode ser Arton. Porém, você está 
+determinado a mudar o mundo, trazendo a ele a paz.
+
+--- block x0=71 y0=263 x1=295 y1=327 ---
+Benefício. Você é treinado em Atuação, Diplo-
+macia e Enganação, recebe +5 em testes para Mudar 
+Atitude e aumenta em +1 CD de suas habilidades 
+que apliquem as condições enfeitiçado, fascinado ou 
+pasmo.
+
+--- block x0=71 y0=327 x1=295 y1=400 ---
+Itens. Camisa Bufante, Instrumento Musical, 
+Símbolo Sagrado de Marah.
+Cozinheiro  
+de Masmorra
+
+--- block x0=71 y0=399 x1=295 y1=451 ---
+Você viveu sua vida acompanhando aventureiros 
+em suas expedições, sendo uma espécie de escudeiro, 
+onde montava o acampamento e cozinhava, e suas 
+refeições tinha seus inimigos como ingrediente.
+
+--- block x0=71 y0=451 x1=295 y1=527 ---
+Benefício. Você é treinado em Ofício (Cozi-
+nheiro) e Sobrevivência. Além disso, você recebe +5 
+em testes para Extrair Recursos e, ao cozinhar uma 
+refeição ou bebida especial usando mantimentos e/
+ou ingredientes monstruosos, você reduz a CD do 
+teste em –5.
+
+--- block x0=71 y0=527 x1=295 y1=584 ---
+Itens. Instrumentos de ofício (cozinheiro), 1d6 
+mantimentos veterano.
+Criado Por lobos
+
+--- block x0=71 y0=583 x1=295 y1=671 ---
+Talvez por abandono ou desavenças do destino, 
+você foi largado nas florestas de Arton, onde acabou 
+sendo encontrado e criado com lobos selvagens! 
+Você pode ainda andar de quatro patas e uivar para a 
+lua, ou somente adquiriu aquela ferocidade digna de 
+um lobo. De qualquer modo, você agora não é mais 
+um simples bebê, você é quem lidera a matilha!
+
+--- block x0=71 y0=671 x1=295 y1=711 ---
+Benefício. Você recebe faro e é treinado em 
+Adestramento, Cavalgar e Sobrevivência. Se já pos-
+suir faro, o alcance dele aumenta em um passo.
+
+--- block x0=309 y0=55 x1=533 y1=123 ---
+Itens. Invés de itens, recebe um lobo, um 
+parceiro combatente, fortão ou perseguidor iniciante 
+que não conta no seu limite de parceiros.
+Criança de Lena
+
+--- block x0=309 y0=122 x1=533 y1=210 ---
+Você é fruto do milagre de Lena, isso significa 
+que, de alguma forma, a deusa da vida foi responsável 
+pelo seu nascimento. Seja através do ritual da colhei-
+ta que ocorre para transformar uma sacerdotisa de 
+Lena em uma beneficiária dos seus milagres, seja por 
+ter nascido em Vitália, ou qualquer outro meio que o 
+torne uma de suas crianças, recebendo suas bênçãos.
+
+--- block x0=309 y0=210 x1=533 y1=275 ---
+Benefício. Você recebe os benefícios de 
+Abençoar a Chegada (veja Deuses de Arton, p. 179), 
+mas não pode ser devoto de Aharadak ou Tenebra. 
+Apenas espíritos, monstros ou humanoides podem 
+escolher esta origem.
+
+--- block x0=309 y0=275 x1=533 y1=343 ---
+Itens. Um item associado a Lena (conta como 
+um símbolo sagrado), bálsamo restaurador x3, male-
+ta de medicamentos.
+Cuidador de Animais
+
+--- block x0=309 y0=342 x1=533 y1=419 ---
+Você empregava seu tempo e sua vida a pecuária, 
+criando rebanhos, fazendo pastoreio, e realizando 
+práticas equestres. Dentre quaisuqer outras práticas 
+ligada a criação e convivência com animais. Isso de 
+certa forma aprazeu a deusa da natureza, fazendo ela 
+te abençoar de alguma maneira.
+
+--- block x0=309 y0=418 x1=533 y1=519 ---
+Benefício. Você é treinado em Adestramento, ou, 
+se já for, recebe +2 nesta perícia. Além disso, você pode 
+uma vez por dia, gastar 2 PM para pedir orientação dos 
+espíritos da natureza, faça um teste de Sabedoria (CD 
+10) quando em um ambiente natural — uma floresta, 
+bosque, praia, etc —, se passar, recebe 1 dado de auxílio 
+(d4) até o fim do dia, com um dado adicional para cada 
+5 pontos que o teste exceder a CD.
+
+--- block x0=309 y0=519 x1=530 y1=576 ---
+Itens. Um companheiro animal (veja Tormen-
+ta20, p. 62), apito de caça.
+Cultista Arrependido
+
+--- block x0=309 y0=575 x1=533 y1=651 ---
+Você fazia parte de um culto profano e maligno, 
+como a convenção de Umbralar, uma célula do culto 
+de Aharadak, ou até mesmo do extinto culto de Ss-
+zzaas. Porém, arrependeu-se de tais práticas devido 
+a seus métodos e passou a seguir o caminho do bem 
+quando viu as maldades que seu culto causava.
+
+--- block x0=309 y0=651 x1=533 y1=703 ---
+Benefício. Você é treinado em Religião e 
+recebe +1 PM por nível de personagem. Mas não 
+pode ser devoto de divindades que canalizam apenas 
+energia negativa.
+
+--- block x0=563 y0=756 x1=572 y1=767 ---
+91
+

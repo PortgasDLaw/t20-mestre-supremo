@@ -1,0 +1,90 @@
+Aventureiros de Arton
+Brado Místico
+Uma vez por rodada, quando lança uma magia, 
+você pode usar um de seus poderes de brado como 
+uma ação livre. Pré-requisitos: um poder de brado, 
+Habilidade de Classe Magias ou Totem Espiritual.
+BRado: Provocador
+Você brada e chama a atenção dos inimigos. Eles 
+devem lhe atacar da melhor maneira possivel em 
+seus turnos até o fim da rodada (Von CD Con evita). 
+Pré-requisito: treinado em Intimidação. Mental.
+Campeão Espiritual
+Você pode gastar +3 PM ao usar Fúria para, 
+enquanto ela durar, somar sua Sabedoria em testes 
+de ataque e rolagens de dano em que apliquem seus 
+benefícios (não cumulativo com outros efeitos que 
+somem esse atributo). Pré-requisitos: Espiritualista, 
+12º nível de bárbaro. e
+Corpo Fortificado
+Ao usar Fúria, você recebe fortificação 25% en-
+quanto ela durar. Pré-requisito: 10º nível de bárbaro.
+Ímpeto Furioso
+Ao usar Fúria no seu primeiro turno em um 
+combate, você pode se deslocar até 6m como parte 
+da ativação desta habilidade.
+Provocação Oportunista
+Enquanto o efeito do Brado Provocador durar, 
+você pode gastar 3 PM para atacar qualquer criatura 
+que ataque um aliado e no qual você esteja adjacente. 
+Pré-requisitos: Brado Provocador, 6º nível de bárbaro.
+Provocação Pesada
+Ao usar Brado Provocador, você fica imóvel e 
+resiste a qualquer tentativa de tirá-lo do lugar, mas 
+recebe redução de dano 10 até o início do seu pró-
+ximo turno. Pré-requisitos: Con 3, Brado Provocador.
+Tempestade Furiosa
+Ao usar fúria, você pode pagar +2 PM para criar 
+uma área tempestuosa com 3m de raio a partir de 
+você. Uma criatura que inicie seu turno dentro da 
+área sofre 1d8 pontos de dano de eletricidade por 
+PM gasto ao entrar em fúria (Fort CD Sab reduz à 
+metade). Pré-requisito: Totem Espiritual. e
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. 
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. 
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Novos Animais Totêmicos
+Os novos totens cultuados pelas tribos de 
+Arton. Magias entre parênteses são obtidas 
+com o poder Espiritualista.
+• Aranha. A obscura aranha verte seda nas 
+cavernas que habita. Você pode lançar Teia 
+(Amarras Etéreas).
+• Dragão. Veja DB #200, p. 71 (Metamorfose).
+• Inseto. Os insetos representam o deus 
+da tormenta. Você pode lançar Amedrontar 
+(Desespero Esmagador).
+• Leão. O leão é feroz e autoritário. Você 
+pode lançar Comando (Marca da Obediência).
+• Rinoceronte. O rinoceronte é rigido 
+como pedra. Você pode lançar Proteção 
+Divina (Estampido Feroz de Skavendish).
+• Serpente. A serpente é traiçoeira e atroz. 
+Você pode lançar Jato Corrosivo (Flecha Ácida).
+• Texugo. Veja DB #208, p. 56 (Servos 
+Invisíveis, mas os servos são texugos).
+• Touro. O touro protege os fracos. Você 
+pode lançar Proteção de Tauron (Desafio Corajoso).
+99

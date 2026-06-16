@@ -1,0 +1,148 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=309 y0=644 x1=533 y1=708 ---
+•	 Vacinação. Ao produzir uma seringa curativa, 
+você pode gastar +T$ 500 para que o dado de cura 
+dela aumente em um passo e forneça +5 em testes 
+para resistir a doenças e veneno. Pré-requisitos: 6º 
+nível de inquisidor, Seringueiro.
+
+--- block x0=71 y0=55 x1=295 y1=131 ---
+•	 Justiceiro. Uma vez por rodada, você pode gas-
+tar 3 PM para marcar uma criatura em alcance curto 
+até o fim da cena. Ela passa a sofrer +1d6 pontos de 
+dano dos seus ataques (ou +1d8 se ela for desones-
+ta). A cada quatro níveis após o 1º, você pode gastar 
++1 PM para aumentar o dano em +1d6. e
+
+--- block x0=71 y0=131 x1=295 y1=171 ---
+•	 Maleta de Seringas. O limite de seringas que 
+você pode ter ao mesmo tempo aumenta em +5. 
+Pré-requisito: Seringueiro.
+
+--- block x0=71 y0=171 x1=295 y1=259 ---
+•	 Marca Maldita. Quando faz um acerto crítico 
+em um alvo, você pode gastar 2 PM para marcá-lo 
+com um sigílo. Uma vez por rodada, quando o alvo 
+marcado causa dano a você ou a um aliado em alcance 
+curto, ele sofre 4d6 pontos de dano de essência. Você 
+só pode marcar um alvo por vez e esse efeito dura até 
+o fim da cena. Pré-requisito: 5º nível de inquisidor. e
+
+--- block x0=71 y0=259 x1=295 y1=312 ---
+•	 Ossos do Ofício. Você tem um trabalho ingrato 
+e difícil, mas já se acostumou com isso. Você recebe 
+resistência mental +2 e redução de dano 2. Pré-requi-
+sito: 6º nível de inquisidor.
+
+--- block x0=71 y0=312 x1=295 y1=376 ---
+•	 Seringueiro. Você pode fabricar seringas (veja o 
+quadro ao lado) e ao receber esse poder, ganha um 
+número de seringas igual à metade da sua Inteligên-
+cia (mínimo +1). Pré-requisitos: Int 3, Sab 3, treinado 
+em Cura e Ofício (alquimista).
+
+--- block x0=71 y0=376 x1=295 y1=440 ---
+•	 Tiro de Aviso. Você pode gastar uma ação pa-
+drão e 1 bala para dar um tiro para o alto. Criaturas 
+dentro do alcance da sua arma se jogam no chão e 
+ficam caídas (Von CD Int evita o efeito e a criatura 
+fica imune a esta habilidade por 1 dia). Medo.
+
+--- block x0=71 y0=440 x1=295 y1=492 ---
+•	 Tiro de Execução. Ao usar Tiro Calculado, você 
+pode gastar +2 PM para receber +1 no seu multipli-
+cador de crítico neste ataque. Pré-requisito: 6º nível de 
+inquisidor.
+
+--- block x0=71 y0=492 x1=295 y1=557 ---
+•	 Tiro de Incapacitação. Você pode, uma vez por 
+rodada, como reação a um ataque feito por um inimi-
+go, gastar 3 PM e 1 bala para fazer um teste de ataque 
+oposto ao do inimigo, se você vencer, ele perde a ação 
+e você recarrega a arma.
+
+--- block x0=71 y0=557 x1=295 y1=633 ---
+•	 Tiro Explosivo. Você pode gastar 2 PM e uma 
+ação de movimento para carregar seu próximo tiro 
+com pólvora. Seu próximo ataque com uma arma de 
+fogo contra um alvo, caso acerte, causa metade do 
+dano total as criaturas adjacentes ao alvo. Pré-requisi-
+to: 8º nível de inquisidor.
+
+--- block x0=71 y0=633 x1=295 y1=709 ---
+•	 Tiro na Cabeça. Ao mirar com uma arma de 
+fogo, você pode gastar 3 PM. Se fizer isso, seu próxi-
+mo ataque feito contra o alvo tem o dano aumentado 
+em dois passos. Se estiver usando a regra de Efeitos 
+Críticos (veja Heróis de Arton, p. 298), o ataque acerta 
+a cabeça com um resultado 9 a 10. Pré-requisito: Sab 3.
+
+--- block x0=326 y0=53 x1=375 y1=71 ---
+Seringas
+
+--- block x0=326 y0=72 x1=504 y1=112 ---
+Ao obter o poder Seringueiro, você passa 
+a poder fabricar seringas, preparados com 
+efeitos variados.
+
+--- block x0=326 y0=113 x1=516 y1=225 ---
+Fabricar uma seringa exige uma maleta de 
+medicamentos, um dia de trabalho e o gasto 
+de T$ 500. Injetar uma seringa é uma ação 
+padrão e por exigir inspeção constante, você 
+só pode ter um número máximo de Seringas 
+fabricadas igual a sua Inteligência (mínimo 
+1). Cada seringa ocupa 0,5 espaço e, exceto 
+quando dito o contrário, seus efeitos são 
+instantâneos.
+
+--- block x0=326 y0=225 x1=484 y1=253 ---
+A seguir as seringas disponíveis para 
+fabricação e seus efeitos.
+
+--- block x0=326 y0=253 x1=512 y1=305 ---
+• Seringa Arcana. Contém um líquido 
+arroxeado. O alvo pode lançar uma magia 
+arcana de 1º círculo a sua escolha até o fim 
+da cena (CD Int). e
+
+--- block x0=326 y0=305 x1=514 y1=345 ---
+• Seringa Curativa. Contém um 
+líquido esverdeado. O alvo recupera 1d4 PV 
+por ponto em Inteligência do fabricante.
+
+--- block x0=326 y0=346 x1=501 y1=374 ---
+• Seringa Energética. Contém um 
+líquido cerúleo. O alvo recupera 2d4 PM.
+
+--- block x0=326 y0=374 x1=515 y1=414 ---
+• Seringa Estimulante. Contém um 
+líquido alvo. O alvo recebe uma ação padrão 
+adicional por 1d3 rodadas.
+
+--- block x0=326 y0=414 x1=506 y1=502 ---
+• Seringa Monstruosa. Contém 
+um líquido carmesim. O alvo entra em 
+fúria, recebendo +2 em testes de ataque e 
+rolagens de dano corpo a corpo até o fim 
+da cena, mas enquanto neste estado, não 
+pode realizar ações que exijam calma ou 
+concentração (Von CD Int evita).
+
+--- block x0=326 y0=502 x1=512 y1=554 ---
+• Seringa Petrificante. Contém um 
+líquido amarronzado. O alvo recebe um 
+valor de redução de dano igual ao valor de 
+Inteligência do Fabricante até o fim da cena.
+
+--- block x0=326 y0=555 x1=513 y1=607 ---
+• Seringa Purificante. Contém um 
+líquido dourado. O alvo tem uma condição 
+removida, exceto inconsciente. Essa seringa 
+recupera todo PV perdido por veneno.
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+47
+

@@ -1,0 +1,122 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=199 x1=275 y1=289 ---
+um teste de Inteligência (CD 15), se passar, concede a 
+um aliado em alcance curto +1 ponto em um atributo 
+a sua escolha até o fim da cena (esse ganho não fornece 
+PV, PM ou perícias adicionais). Pré-requisito: Int 3.
+Poderes de Magia
+
+--- block x0=51 y0=294 x1=171 y1=311 ---
+Alterar a Magia
+
+--- block x0=51 y0=311 x1=275 y1=375 ---
+Uma vez por rodada, ao lançar uma magia, você 
+pode gastar PM por círculo da magia e rolar um teste 
+de Misticismo (CD 20 + custo em PM da magia) para 
+alterar uma de suas propriedades dentre as disponíveis 
+a seguir.
+
+--- block x0=51 y0=375 x1=275 y1=427 ---
+•	 Alcance/Alvo (2 PM). Você pode alterar o alvo e 
+alcance da magia, mas não a quantidade de alvos. Po-
+dendo trocar o alvo de um Campo de Força de pessoal/
+você para toque/1 criatura, por exemplo.
+
+--- block x0=51 y0=428 x1=275 y1=468 ---
+•	 Área (1 PM). Muda a área da magia, mas não o 
+seu tamanho. Você pode transformar a área de uma Bola 
+de Fogo de esfera para linha, por exemplo.
+
+--- block x0=51 y0=468 x1=275 y1=541 ---
+•	 Resistência (3 PM). Você pode trocar a perícia de 
+resistência da magia. Como trocar o teste de um Enfeiti-
+çar de Vontade para Fortitude, por exemplo. Pré-requisito: 
+lançar magias de 3º círculo.
+Caos Arcano
+
+--- block x0=51 y0=541 x1=275 y1=581 ---
+Uma vez por rodada, você pode usar Magia Selva-
+gem na magia de uma criatura em alcance curto (Von 
+CD atributo-chave evita). Pré-requisito: Magia Selvagem.
+
+--- block x0=289 y0=55 x1=423 y1=72 ---
+Cálculos Místicos
+
+--- block x0=289 y0=72 x1=513 y1=157 ---
+Uma vez por rodada, ao lançar uma magia com 
+afete uma área, você pode gastar 1 PM por círculo da 
+magia, por criatura, para que os seres escolhidos na área 
+não sofra os efeitos da magia. Pré-requisito: lançar magias 
+de 4º círculo.
+Crítico Arcano
+
+--- block x0=289 y0=156 x1=513 y1=229 ---
+Uma vez por rodada, ao lançar uma magia que 
+causa dano, você pode gastar 2 PM por círculo da magia 
+para, caso o inimigo tire um 1 natural em seu teste de 
+resistência, a magia ter seus dados de dano dobrados.
+MAGIA RÁPIDA	
+aprimoramento
+
+--- block x0=289 y0=229 x1=513 y1=444 ---
+Reduz a execução da magia em um passo — de 
+completa para padrão, de padrão para movimento. 
+Você só pode aplicar este aprimoramento em magias 
+com execução completa ou padrão e só pode usar essa 
+habilidade uma vez por rodada. Custo: +2 PM.
+Magia selvagem	
+aprimoramento
+Uma vez por rodada, a magia executa um dos efei-
+tos de uma área de caos arcano (veja Atlas de Arton, p. 
+114) de forma aleatória, como descrito no quadro. Para 
+selecionar o efeito, é preciso gastar +2 PM por círculo 
+da magia (além do custo do aprimoramento) e você não 
+pode escolher o efeito 8. Custo: +1 PM.
+Poderes
+da tormenta
+
+--- block x0=289 y0=449 x1=418 y1=466 ---
+Alteração óptica
+
+--- block x0=289 y0=466 x1=513 y1=587 ---
+Ao entrar em contato com uma criatura inteligente, 
+ela deve fazer um teste de Vontade (CD Sab), se falhar, 
+ela não percebe que você possui poderes da tormenta e 
+você é considerado como tendo Car 0 para seus testes 
+de perícia contra ela caso ele seja negativo. O efeito se 
+encerra se outras criaturas na cena alertarem da sua ver-
+dadeira natureza. Pré-requisito: treinado em Enganação, 
+quatro outros poderes da tormenta. Mental.
+Anulação Mágica
+
+--- block x0=289 y0=587 x1=513 y1=683 ---
+Uma vez por cena, você pode gastar uma ação 
+padrão e 3 PM por encanto que um item possua e que 
+esteja em alcance curto para anulá-lo até o fim da cena 
+(Von CD Sab evita). Você não pode usar essa habilidade 
+em artefatos e ela tem custo dobrado contra itens mági-
+cos específicos. Pré-requisito: Rejeição Arcana.
+Armamento Bizarro
+
+--- block x0=289 y0=683 x1=513 y1=711 ---
+Ao usar Armamento Aberrante, você pode gastar +2 
+PM para ele vir como sendo feito de materia vermelha, 
+
+--- block x0=68 y0=53 x1=203 y1=71 ---
+Lobo Solitário Revisado
+
+--- block x0=68 y0=72 x1=257 y1=172 ---
+O poder Lobo Solitário é por muitas vezes 
+evitado por ser bem medíocre se comparado 
+aos demais. Por isso, caso deseje algo mais 
+forte, pode optar por esta versão, onde, 
+além do normal, ele também fornece +1 
+nas rolagens de dano, margem de ameaça 
+e redução de dano. Ou os ganhos normais 
+aumentam em +1 por patamar.
+
+--- block x0=5 y0=756 x1=19 y1=767 ---
+132
+

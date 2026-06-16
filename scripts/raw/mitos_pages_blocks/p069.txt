@@ -1,0 +1,146 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=143 ---
+auxiliares até gigantescas máquinas de combate, que 
+irão lutar ao seu lado enquanto eles empunham de 
+bombas a engenhocas complexas. Não possuem um 
+controle tão grande de tecnologia inovadoras quanto 
+um inventor dedicado, mas certamente nada supera 
+seus robôs, dos quais demonstram um grau de inte-
+ligência similar o dos golens de Wynlla.
+
+--- block x0=71 y0=143 x1=295 y1=312 ---
+No entanto, diferente desses mesmos golens, os 
+de um maquinista não possui alma, sendo comple-
+tamente feito a base de códigos e desenvolvimento 
+complexo compreendido somente pelas mentes mais 
+inteligentes, dos quais seguem ordens de maneira 
+precisa e veloz. E por serem construtos, essas me-
+canizações autônomas podem ter as mais variadas 
+formas, desde um típico golem humanoide e sofisti-
+cado, até formatos atípicos, como um trem movido a 
+vapor ou até mesmo um retro-robô escavador.
+Características de 
+Classe
+
+--- block x0=88 y0=310 x1=280 y1=327 ---
+Pontos de Vida. Como o treinador básico.
+
+--- block x0=88 y0=327 x1=243 y1=343 ---
+Pontos de Mana. 5 PM por nível.
+
+--- block x0=71 y0=343 x1=295 y1=419 ---
+Perícias. Ofício (Int) e Vontade (Sab), mais 4 
+a sua escolha entre Conhecimento (Int), Cura (Sab), 
+Diplomacia (Car), Fortitude (Con), Iniciativa (Des), 
+Investigação (Int), Luta (For), Misticismo (Int), 
+Ofício (Int), Pilotagem (Des), Percepção (Sab) e 
+Pontaria (Des).
+
+--- block x0=71 y0=419 x1=272 y1=464 ---
+Proficiências. Nenhuma.
+Habilidades de Classe
+
+--- block x0=71 y0=463 x1=295 y1=491 ---
+Direcionar. Como o treinador básico (mas 
+veja o quadro acima).
+
+--- block x0=71 y0=491 x1=295 y1=615 ---
+Maquinários. Você começa com dois ma-
+quinários, dispositivos que emulam magias de 1º 
+círculo (atributo-chave Int). Cada maquinário ocupa 
+1 espaço, você pode manter uma quantidade máxima 
+de maquinários igual a sua Inteligência (mínimo 2) 
+e fabrica maquinários com 1 semana de trabalho e o 
+gasto de T$ 100 x o custo em PM da magia. Lançar 
+uma magia através de um maquinário exige gastar 
+PM e empunhar o maquinário — cuja mão é conside-
+rada livre para lançar a magia.
+
+--- block x0=71 y0=615 x1=292 y1=644 ---
+Nos níveis 6 e 12, você pode fabricar maquiná-
+rios com magias de 2º e 3º círculo, respectivamente.
+
+--- block x0=71 y0=643 x1=295 y1=684 ---
+Meu Amigo Robô. Você recebe um Autômato 
+(veja Tormenta20, p. 69) que evolui de acordo com seu 
+nível de treinador e é um Melhor Amigo construto.
+
+--- block x0=71 y0=684 x1=295 y1=712 ---
+Poder de Treinador. A partir do 2º nível, 
+você recebe essa habilidade como o treinador básico, 
+
+--- block x0=309 y0=177 x1=530 y1=205 ---
+mas pode pegar poderes de inventor que tenha autô-
+mato como pré-requisito como poderes de treinador.
+
+--- block x0=309 y0=205 x1=533 y1=257 ---
+Código-Fonte. A partir do 3º nível, ao usar 
+um maquinário que tenha como alvo o seu Melhor 
+Amigo, a execução da magia que ele emula é dimi-
+nuida em um passo (mínimo movimento).
+
+--- block x0=309 y0=257 x1=530 y1=285 ---
+Robótica Especializada. No 5º nível, esco-
+lha entre Ás da Robótica ou Servos a Vapor.
+
+--- block x0=309 y0=285 x1=533 y1=362 ---
+•	 Ás da Robótica. O gasto para fabricar maquiná-
+rios é reduzido à metade. Além disso, seu melhor 
+amigo recebe +4 PV por nível de treinador e um 
+truque. No 12º nível, seu melhor amigo recebe RD 
+10 e outro truque. Por fim, no 18º nível, você pode 
+fabricar maquinários com magias de 4º círculo.
+
+--- block x0=309 y0=362 x1=533 y1=426 ---
+•	 Servos a Vapor. Você recebe um grupo de cons-
+trutos com as estatístiticas de um tipo de capanga 
+veterano a sua escolha (veja Heróis de Arton, p. 241), 
+decidido sempre que os posiciona. No 11º nível, eles 
+se tornam mestre.
+
+--- block x0=309 y0=426 x1=533 y1=502 ---
+Aceleração Mecânica. A partir do 10º ní-
+vel, uma vez por rodada, se estiver empunhando dois 
+maquinários, um em cada mão, você pode gastar uma 
+ação completa (ou a execução de uma das magias que 
+vai lançar, o que for maior) e 3 PM para ativar ambos 
+maquinários ao mesmo tempo.
+
+--- block x0=309 y0=502 x1=533 y1=566 ---
+Automatron. No 20º nível, fabricar maqui-
+nários passa a exigir 1 dia de trabalho. Além disso, 
+ao usar um maquinário cuja execução seja padrão ou 
+maior, você pode gastar 5 PM para receber uma ação 
+padrão extra para usar com seu melhor amigo.
+
+--- block x0=309 y0=581 x1=478 y1=616 ---
+xInventorx
+MecÂnopiloto
+
+--- block x0=326 y0=618 x1=485 y1=634 ---
+"Todos os sistemas ativos e operantes!"
+
+--- block x0=309 y0=635 x1=533 y1=711 ---
+Quando houve a Marcha de Arsenal, Coridrian, a 
+cidade dos golens, revelou a todos a sua supremacia 
+magicânica ao fazer parte da cidade se erguer como 
+um enorme colosso, que foi controlado por heróis 
+lendários! Este evento, conhecido como a batalha 
+dos gigantes, acendeu no coração dos inventores 
+
+--- block x0=329 y0=53 x1=472 y1=71 ---
+Interações do Maquinista
+
+--- block x0=329 y0=72 x1=509 y1=148 ---
+Habilidades do treinador que usa Carisma 
+passa a usar Inteligência como atributo-
+chave e as que usam Adestramento usam 
+Ofício (artesão). Além disso, para fins 
+narrativos, habilidades como Convocar 
+Enxame passa a usar robôs, como drones.
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+69
+

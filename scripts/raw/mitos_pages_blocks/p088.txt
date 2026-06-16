@@ -1,0 +1,81 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=289 y0=55 x1=513 y1=119 ---
+Aura Maldita. A partir do 3º nível, você pode 
+gastar 2 PM para gerar uma aura de 9m a partir de 
+você com duração sustentada. A aura emite uma fria 
+luz cerúlea. Além disso, você e os aliados dentro da 
+aura somam seu Carisma nas rolagens de dano. e
+
+--- block x0=289 y0=119 x1=513 y1=159 ---
+Bênção Vingadora. No 5º nível, escolha 
+entre a Dádiva do Pacto ou a Lâmina Maldita. Uma 
+vez feita, essa escolha não pode ser mudada.
+
+--- block x0=289 y0=159 x1=513 y1=283 ---
+•	 Dádiva do Pacto. Você pode lançar magias di-
+vinas de 1º e 2º círculo que sejam de adivinhação, 
+convocação, necromancia ou transmutação. Você 
+aprende um número de magias que pertença a essas 
+escolas igual ao seu valor de Carisma. No início de 
+cada aventura, você pode trocar seu montante de 
+magias aprendidas com uma hora de reflexão. Seu 
+atributo-chave para essas magias é Sabedoria e o 
+poder Orar lhe permite aprender magias de 1º e 2º 
+círculo que pertençam a essas escolas.
+
+--- block x0=289 y0=283 x1=513 y1=384 ---
+•	 Lâmina Maldita. O custo de Golpe Vingador 
+diminui em –1 PM. A partir do 9º nível, o dano de 
+sua arma aumenta em um passo quando usa Golpe 
+Vingador caso ela seja a favorita da sua divindade — 
+se for devoto da justiça, esse efeito se aplica a qual-
+quer espada. Por fim, a partir do 13º nível, o dano do 
+Golpe Vingador aumenta em um passo se usar essa 
+habilidade com a arma favorita da sua divindade.
+
+--- block x0=289 y0=384 x1=513 y1=532 ---
+Algoz Profano. No 20º nível, você pode 
+gastar uma ação completa e 10 PM para cobrir-se de 
+energia negativa, que molda sobre seu corpo uma 
+macabra armadura com motivos cadavéros até o fim 
+da cena. Nesta forma, você pode se teletransportar 
+para qualquer ponto em alcance médio que tenha 
+uma sombra e recebe redução de dano 20. Além 
+disso, o Golpe Vingador fica ativo enquanto a forma 
+durar e causa +6d8 de dano independente do alvo 
+(o dano ainda é cumulativo). Por fim, dano de trevas 
+causado por você nessa forma ignora redução — al-
+vos imunes ainda sofrem metade do dano. e
+
+--- block x0=68 y0=53 x1=181 y1=71 ---
+Clarificando termos
+
+--- block x0=68 y0=72 x1=257 y1=136 ---
+Em algumas partes do livro é citado termos 
+como "pessoas desonradas", "corruptos" e 
+"vilões". Para melhor entendimento desses 
+termos, siga este quadro ou faça como achar 
+apropriado.
+
+--- block x0=68 y0=137 x1=257 y1=189 ---
+Uma criatura desonesta possui a habilidade 
+Ataque Furtivo e/ou é treinada em qualquer 
+uma das seguintes perícias: Enganação, 
+Furtividade, Ladinagem.
+
+--- block x0=68 y0=189 x1=251 y1=253 ---
+Enquanto isso, uma criatura corrupta é 
+alguém que viola leis ou dogmas que o seu 
+personagem defende — o que "corrompe" 
+suas crenças. Por fim, um vilão é a ameaça 
+central da aventura/arco/campanha.
+
+--- block x0=52 y0=384 x1=271 y1=438 ---
+Em Breve
+Em Breve
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+88
+

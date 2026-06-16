@@ -1,0 +1,195 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=309 y0=55 x1=533 y1=107 ---
+•	 Virtude da Temperança. Ao usar Elo Temperado, 
+as criaturas afetadas também recebem +2 em testes 
+de ataque e rolagens de dano. Esse efeito aumenta 
+em +1 a cada quatro níveis de paladino após o 5º.
+
+--- block x0=309 y0=107 x1=533 y1=195 ---
+Zênite Virtuoso. No 20º nível, seu Golpe 
+Corajoso não tem mais limite por rodada, Cura Pa-
+ciente recupera vida a cada 5 pontos de resultado no 
+teste, ao invés de a cada 10 e as criaturas afetadas por 
+Elo Poderoso criam uma aura com 3m de raio que 
+aplicam todos os efeitos da habilidade as criaturas 
+dentro dela.
+
+--- block x0=309 y0=210 x1=417 y1=245 ---
+xLutadorx
+Hanuman
+
+--- block x0=326 y0=246 x1=418 y1=262 ---
+"Eu sou impenetrável."
+
+--- block x0=309 y0=262 x1=533 y1=291 ---
+Ás vezes referidos como vajras, hanuman são 
+lutadores que aprenderam técnicas de cultivo, mas 
+
+--- block x0=71 y0=54 x1=272 y1=77 ---
+Habilidades de Classe
+
+--- block x0=71 y0=75 x1=295 y1=116 ---
+Abençoado. Como o paladino básico, mas 
+você só pode ser um paladino do bem ou de um deus 
+menor.
+
+--- block x0=71 y0=116 x1=295 y1=144 ---
+Código do Herói. Como o paladino básico, 
+mas você também segue o Código de Honra.
+
+--- block x0=71 y0=144 x1=295 y1=244 ---
+Golpe Corajoso. Uma vez por rodada, ao 
+fazer um ataque corpo a corpo, você pode gastar 2 
+PM para golpear com sua vontade. Você soma seu 
+Carisma no teste de ataque e +1d4 na rolagem de 
+dano para cada 2 pontos em Sabedoria (limitado pelo 
+nível, mínimo +1 dado). A cada quatro níveis, você 
+pode gastar +1 PM para aumentar o dado de dano 
+extra em uma categoria. e
+
+--- block x0=71 y0=244 x1=295 y1=308 ---
+Poder de Paladino. A partir do 2º nível, 
+você recebe essa habilidade como o paladino básico. 
+Além disso, você pode escolher missas e poderes que 
+tenham missas como pré-requisito como se fossem 
+poderes de paladino.
+
+--- block x0=71 y0=308 x1=295 y1=397 ---
+Cura Paciente. A partir do 2º nível, você 
+pode gastar uma ação de movimento e 2 PM para 
+somar seu Carisma em Cura e fazer um teste dessa 
+perícia. Para cada 10 pontos de resultado no teste, 
+aliados em alcance curto que possa perceber curam 
+1d4 PV. A cada quatro níveis, você pode gastar +1 
+PM para aumentar o dado de cura em um passo. e
+
+--- block x0=71 y0=397 x1=295 y1=533 ---
+Elo Temperado. A partir do 3º nível, no início 
+de uma cena de combate, você pode gastar 3 PM para 
+criar um elo entre você e até dois aliados em alcance 
+curto como um efeito sustentado. Você e os aliados 
+escolhidos recebem PV temporários igual ao seu Ca-
+risma + Sabedoria pela duração da habilidade. Além 
+disso, quando um aliado sob efeito de Elo Temperado 
+sofre dano, você pode gastar 2 PM para transferir o 
+dano sofrido por ele à você. Seu elo conta como Aura 
+Sagrada (veja Tormenta20, p. 84) para pré-requisitos 
+e efeitos de poderes de paladino. e
+
+--- block x0=71 y0=532 x1=295 y1=582 ---
+Virtudes Gloriosas. No 5º nível, escolha 
+entre a Virtude da Coragem, da Paciência ou da 
+Temperança. Uma vez feita, a escolha não pode ser 
+mudada.
+
+--- block x0=71 y0=582 x1=295 y1=634 ---
+•	 Virtude da Coragem. Ao usar Golpe Corajoso e 
+o resultado do seu teste de ataque passar a Defesa 
+do alvo por 10 ou mais, ele perde suas imunidades a 
+efeitos mentais e de medo por 1 rodada.
+
+--- block x0=71 y0=634 x1=295 y1=711 ---
+•	 Virtude da Paciência. Você soma sua Sabedoria 
+na cura realizada por Cura Paciente e o alcance da ha-
+bilidade muda para médio. Além disso, ao usar Cura 
+Paciente, você pode remover um efeito ou condição 
+afetando uma das criaturas afetadas pela habilidade, 
+entre efeitos de cansaço, medo, mental e sentidos.
+
+--- block x0=350 y0=313 x1=489 y1=332 ---
+Tabela 1-16: O Hanuman
+
+--- block x0=313 y0=335 x1=503 y1=349 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=352 x1=472 y1=363 ---
+1º
+Cultivo (1º meridiano), nei gong
+
+--- block x0=325 y0=366 x1=416 y1=378 ---
+2º
+Poder de lutador
+
+--- block x0=325 y0=381 x1=416 y1=392 ---
+3º
+Poder de lutador
+
+--- block x0=325 y0=396 x1=506 y1=418 ---
+4º
+Cultivo (2º meridiano), poder de lutador, 
+postura imóvel
+
+--- block x0=325 y0=421 x1=416 y1=433 ---
+5º
+Poder de lutador
+
+--- block x0=325 y0=436 x1=493 y1=458 ---
+6º
+Cultivo (3º meridiano), palma afiada, 
+poder de lutador
+
+--- block x0=325 y0=462 x1=416 y1=473 ---
+7º
+Poder de lutador
+
+--- block x0=325 y0=476 x1=511 y1=499 ---
+8º
+Cultivo (4º meridiano), escudo dos reinos, 
+poder de lutador
+
+--- block x0=325 y0=502 x1=416 y1=513 ---
+9º
+Poder de lutador
+
+--- block x0=323 y0=517 x1=503 y1=528 ---
+10º
+Cultivo (5º meridiano), poder de lutador
+
+--- block x0=323 y0=532 x1=416 y1=543 ---
+11º
+Poder de lutador
+
+--- block x0=323 y0=546 x1=492 y1=568 ---
+12º
+Cultivo (6º meridiano), palma brutal, 
+poder de lutador
+
+--- block x0=323 y0=572 x1=416 y1=583 ---
+13º
+Poder de lutador
+
+--- block x0=323 y0=587 x1=516 y1=609 ---
+14º
+Cultivo (7º meridiano), palma divina, poder 
+de lutador
+
+--- block x0=323 y0=612 x1=416 y1=623 ---
+15º
+Poder de lutador
+
+--- block x0=323 y0=627 x1=416 y1=638 ---
+16º
+Poder de lutador
+
+--- block x0=323 y0=642 x1=416 y1=653 ---
+17º
+Poder de lutador
+
+--- block x0=323 y0=656 x1=416 y1=668 ---
+18º
+Poder de lutador
+
+--- block x0=323 y0=671 x1=416 y1=682 ---
+19º
+Poder de lutador
+
+--- block x0=323 y0=686 x1=504 y1=697 ---
+20º
+Destruidor de mundos, poder de lutador
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+67
+

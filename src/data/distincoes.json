@@ -4,15 +4,15 @@
     "nome": "Arcanjo de Batalha",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Anjos de guerra a serviço de Arsenal. Guerreiros moldados para nunca conhecer a derrota, capazes de criar meios de vitória onde não há nenhum.",
-    "admissao": "Para se tornar um arcanjo de batalha, você deve ser devoto de Arsenal, ter ao menos 10 níveis de personagem e receber a benção pessoal de Arsenal ou de um arcanjo de batalha já existente através de uma cerimônia de sagração em Werra.",
+    "resumo": "Anjos de guerra de Werra que passaram a servir Arsenal após sua ascensão ao posto de deus da guerra. Disciplinados pelo próprio Arsenal, são guerreiros versados nas mais exóticas armas e armaduras, incapazes de aceitar a derrota, pois sempre encontram um meio de vencer.",
+    "admissao": "Você deve seguir uma profissão focada em combate (clérigo, cavaleiro ou guerreiro; lutadores raramente são aceitos) e ser devoto de um deus maior dentre Arsenal, Khalmyr ou Valkaria (ou do panteão). Deve conseguir uma audiência com um arcanjo de batalha — viajando até Werra ou tendo sorte de encontrar um em Arton — e então lutar contra ele sem qualquer auxílio externo, sem usar magias de controle. Se o combate for satisfatório, ele inicia um treinamento de no mínimo nove meses, com lutas de avaliação a cada três meses (mínimo três sessões bem-sucedidas), terminando em uma luta final até a morte ou até a aprovação do arcanjo.",
     "marcaDaDistincao": "Treinado para Vencer: Você recebe +2 em Luta ou Pontaria, rolagens de dano com armas e +1 em testes de resistência.",
     "poderes": [
-      "Senhor da Guerra — Qualquer arma marcial é a arma favorita de sua divindade. Ao empunhar uma arma mágica, ela causa +1d8 de eletricidade. Para cada dois outros poderes de Arcanjo, esse dano aumenta em +1d8.",
-      "Aura da Guerra — Aliados em alcance curto recebem +1 em testes de ataque e rolagens de dano. No 15° nível, este bônus aumenta para +2.",
-      "Explosão de Arsenal — Uma vez por cena, ao acertar um ataque, você pode gastar 5 PM para causar +5d8 pontos de dano de eletricidade e deixar o alvo atordoado (Fort CD For evita).",
-      "Forma de Arcanjo — Você pode gastar 3 PM para crescer para o tamanho Grande por 1 minuto. Nesta forma, seus ataques causam +1d8 de dano e você recebe +2 na Defesa.",
-      "Imortalidade Bélica — Uma vez por aventura, ao ser reduzido a 0 PV, você retorna com PV igual ao seu nível × 5 e imune a dano por 1 rodada."
+      "Senhor da Guerra — Para você, qualquer arma marcial é a arma favorita de sua divindade. Além disso, ao empunhar uma arma mágica, ela causa +1d8 pontos de dano de eletricidade. Para cada dois outros poderes de Arcanjo de Batalha que possuir, esse dano aumenta em um passo. Pré-requisitos: treinado em Guerra e Luta, um poder de Estilo.",
+      "Arsenal Vitorioso — Senhor da Guerra também passa a considerar quaisquer armas exóticas como favoritas de sua divindade. Além disso, se estiver usando uma armadura mágica, ela fornece +1 na Defesa por poder de Arcanjo de Batalha que possuir. Pré-requisitos: Senhor da Guerra, proficiente com armas exóticas, armaduras pesadas e escudos.",
+      "Asas da Vitória — Você pode gastar uma ação completa e 2 PM para dar um enorme salto e cair sobre um alvo em alcance curto, executando um ataque em sequência com bônus de +2; se acertar, causa o dano extra de Senhor da Guerra (cumulativo se a arma for mágica). Se possuir asas de qualquer forma, multiplica esse dano adicional em um possível acerto crítico. Pré-requisitos: treinado em Atletismo, Senhor da Guerra.",
+      "Criar um Meio — Você recebe +5 em Guerra. Ao fazer um teste de Guerra para analisar terreno e passar, você também descobre (ou desenvolve, aprovado pelo mestre) uma vulnerabilidade do inimigo, além de encontrar no cenário algum recurso (item mágico ou artifício) que possa ser usado para explorá-la. Pré-requisito: quatro outros poderes de arcanjo de batalha.",
+      "Estância Poderosa — Você pode empunhar duas armas de duas mãos, uma em cada mão, sem sofrer qualquer penalidade, desde que tenham tipos de dano diferentes, sejam mágicas e não desbalanceadas. Pré-requisitos: Arma Secundária Grande, Manuseio Poderoso, Senhor da Guerra."
     ]
   },
   {
@@ -20,15 +20,15 @@
     "nome": "Campeão Hermético",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Um aventureiro solitário que alcançou o pico de suas capacidades através do isolamento e da autoexploração, tornando-se campeão hermético de Arton.",
-    "admissao": "Deve ter passado pelo menos 1 mês em isolamento total e completado um desafio pessoal definido pelo mestre, além de ter 8 níveis de personagem.",
-    "marcaDaDistincao": "Autoconhecimento: Você recebe +1 em todos os testes de resistência e um ponto em um atributo a sua escolha.",
+    "resumo": "Inspirados pelas lendárias conquistas de Elise Bellerose, a Ambiciosa — a primeira campeã hermética —, são guerreiros adaptativos que misturam arte marcial, magia arcana e milagres divinos, capazes de auxiliar seus aliados em qualquer tarefa.",
+    "admissao": "Você não pode se associar a divindades malignas e deve demonstrar versatilidade e adaptação, realizando com sucesso (mesmo que com auxílio externo) tarefas fora do seu papel usual em ao menos cinco cenários diferentes. Deve demonstrar devoção a divindades benignas (principalmente Valkaria e Wynna), algum conhecimento mágico (arcano ou divino) e capacidade marcial com armas básicas. Por fim, deve realizar um ato de grande heroísmo que salve uma quantidade generosa de vidas inocentes.",
+    "marcaDaDistincao": "Campeão das Três Artes: Você recebe o poder Teurgista Místico, mas continua sendo um devoto da sua divindade original. Se já possui este poder, a quantidade de magias por círculo que você pode escolher aumenta em +1.",
     "poderes": [
-      "Foco Hermético — Você pode gastar 2 PM para ignorar penalidades de condições negativas por 1 rodada.",
-      "Impenetrável — Uma vez por cena, você pode declarar que ignora completamente um dano recebido (PM igual ao dano evitado, mín. 5).",
-      "Olho Espiritual — Você enxerga através de ilusões e invisibilidade e recebe +5 em Percepção e Intuição.",
-      "Refúgio Interior — Durante um descanso, você recupera PM adicionais iguais ao dobro do seu nível.",
-      "Campeão das Eras — Você não envelhece e é imune a efeitos de envelhecimento. Além disso, recebe +2 em todos os atributos (não concede PV ou PM adicionais)."
+      "Cadência Heróica — Sempre que lança uma magia de qualquer tipo ou faz uma ação agredir, você recebe uma carga hermética. Você pode acumular um máximo de cargas herméticas igual ao dobro de poderes dessa distinção que possuir e elas duram até o fim da cena. Pré-requisitos: lançar magias de 1º círculo, Herói dos Sete Instrumentos, proficiência com armas marciais.",
+      "Aceleramento Heróico — Uma vez por rodada, você pode gastar 3 PM e 1 carga hermética para reduzir a execução de qualquer habilidade, incluindo magias, em um passo (de completa para padrão, de padrão para movimento, de movimento para livre). Além disso, pode gastar 1 carga hermética ao usar Magia Acelerada ou Magia Rápida para reduzir o custo destes poderes à metade. Pré-requisito: Aperfeiçoar a Arte.",
+      "Aperfeiçoar a Arte — Se não possuir a habilidade de classe Magias ou similar, você aprende uma magia arcana (caso já saiba lançar uma divina) ou divina (caso já saiba lançar uma arcana) de 1º círculo a sua escolha. Além disso, para cada poder que possuir dessa distinção, você aprende e pode lançar uma magia de um círculo a que tenha acesso (1º círculo, se não tiver acesso a círculos de magia). Pré-requisito: Cadência Heróica.",
+      "Fechando as Cortinas — Ao fim de uma cena, se ainda possuir cargas herméticas acumuladas, você recupera 1d4 PM por carga, mas elas ainda são perdidas. Você pode recuperar PM dessa forma uma vez por dia, com uma vez adicional para cada dois outros poderes de campeão hermético que possuir. Pré-requisito: Cadência Heróica.",
+      "Floreio Espetacular — Uma vez por rodada, você pode gastar uma ação completa, 5 PM e 1 carga hermética por criatura em alcance curto que gostaria de atacar (limitado pela quantidade de poderes dessa distinção que possuir). Faça um único teste de ataque comparado à Defesa de cada alvo, recebendo bônus cumulativo de +2 na rolagem de dano por alvo acertado; você se teletransporta para cada inimigo, causa o mesmo dano a todos e retorna ao ponto inicial. Se possuir quatro outros poderes de campeão hermético, o alcance muda para médio. Pré-requisito: Cadência Heróica, dois outros poderes de campeão hermético."
     ]
   },
   {
@@ -36,21 +36,15 @@
     "nome": "Cavaleiro de Merkava",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Ordem dos Cavaleiros da Carruagem Sagrada, fundada em Bielefeld com laços profundos com Khalmyr. Defensores imparáveis que protegem os inocentes e destroem o mal.",
-    "admissao": "Deve ser devoto de Khalmyr, ter 6 níveis de personagem, e comparecer ao Templo de Merkava em Bielefeld onde será testado em combate defensivo e em fé.",
-    "marcaDaDistincao": "Escudo Sagrado: Você recebe +2 na Defesa e em Fortitude enquanto estiver vestindo armadura pesada.",
+    "resumo": "Ordem dos Cavaleiros da Carruagem Sagrada, fundada pela adolescente Sagrada (aspecto de Khalmyr) em Bielefeld. Protetores que caminham com escudo e armadura pesada, hoje vigiados pela tríplice divina de Azgher, Khalmyr e Lin-Wu.",
+    "admissao": "Somente cavaleiros e paladinos podem ingressar (clérigos com prática paladinesca também podem tentar). Você deve demonstrar altruísmo, justiça e honra para ser notado pelos deuses da carruagem, que então lhe revelarão missões a cumprir. Após cumprir os desígnios divinos, você deve viajar sozinho e sem montaria ou transporte até o templo da ordem em Norm, onde clamará pela divindade que o guiou para que ela apareça como aspecto e realize o rito de sagração.",
+    "marcaDaDistincao": "Tabuletas de Merkava: Você segue o Código de Merkava (não pode mentir, trapacear ou roubar, fazer testes de Enganação, Furtividade, Jogatina ou Ladinagem, descumprir promessas ou negar ajuda a inocentes, usar apenas itens mágicos permanentes de devotos de Azgher, Khalmyr ou Lin-Wu, nem usar armas de corte ou perfuração; deve andar descalço e não pode pagar ou aceitar pagamento por conforto/luxo, nem se beneficiar de estruturas — violar o código faz perder todos os PM até o dia seguinte, e violar de novo na mesma semana faz perder acesso à distinção) e recebe +2 na Defesa e em testes de resistência.",
     "poderes": [
-      "Carruagem Sagrada — Uma vez por cena, você pode conjurar uma carruagem mística que lhe permite mover até 2 aliados consigo como ação de movimento.",
-      "Muro de Fé — Ao usar um escudo, você pode gastar 2 PM para criar uma barreira que fornece cobertura parcial a todos os aliados em alcance curto até o início do seu próximo turno.",
-      "Destróier do Mal — Seus ataques causam +2d6 pontos de dano de luz contra criaturas do tipo morto-vivo e demônio.",
-      "Absolvição da Carruagem — Uma vez por aventura, ao sofrer dano mortal, você pode gastar 10 PM para sobreviver com 1 PV.",
-      "Cavaleiro Imparável — Você é imune a condições de movimento (enredado, imóvel, caído) enquanto estiver vestindo armadura pesada."
-    ],
-    "itens": [
-      {
-        "nome": "Escudo de Merkava",
-        "descricao": "Escudo pesado com o símbolo da carruagem sagrada. Fornece +1 na Defesa além do normal e permite lançar Escudo Sagrado como magia divina uma vez por dia (CD Sab)."
-      }
+      "Carruagem Divina — Uma vez por rodada, se estiver empunhando um escudo e um aliado em alcance curto for alvo de um efeito hostil, você pode gastar 3 PM para investir contra a origem deste efeito; se acertar, deixa o alvo caído, ele perde a ação, e é empurrado 3m + 1,5m para cada outro poder de cavaleiro de Merkava que possuir (Fort CD For evita o empurrão). Pré-requisitos: For 3, Con 3, Encouraçado, Estilo de Arma e Escudo.",
+      "Auriga — O poder Ataque com Escudo não tem mais custo de PM. Além disso, você pode empunhar escudos com as duas mãos; se fizer isso, o dano dele aumenta em um passo, mas você ainda é considerado segurando uma arma e um escudo para habilidades baseadas nisso. Pré-requisitos: Carruagem Divina, Ataque com Escudo.",
+      "Biga — Se estiver empunhando um escudo, o bônus de Defesa fornecido por ele aumenta em +1 (mais +1 para cada dois outros poderes de cavaleiro de Merkava que possuir). Além disso, você pode usar Carruagem Divina em aliados em alcance médio. Pré-requisito: Carruagem Divina.",
+      "Continuar Levantando — Seu poder Bloqueio com Escudo não tem mais custo em PM e se torna um efeito passivo. Além disso, sempre que realiza um teste de resistência, você rola dois dados e escolhe o melhor resultado. Pré-requisitos: Carruagem Divina, Bloqueio com Escudo.",
+      "Corcel Divino — Você recebe uma montaria a sua escolha entre um unicórnio (Ameaças de Arton, p. 226) ou pégaso (Deuses de Arton, p. 280) iniciante; se já possuir uma montaria, ela é substituída e você recebe o benefício de um segundo tipo de parceiro (ajudante, guardião ou vigilante). Se possuir dois outros poderes de cavaleiro de Merkava, a montaria se torna veterana; se possuir quatro outros poderes, mestre. Pré-requisitos: treinado em Adestramento e Cavalgar, Car 3, Carruagem Divina."
     ]
   },
   {
@@ -58,15 +52,17 @@
     "nome": "Cavaleiro Glorioso",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Cavaleiros agraciados pelas valquírias de Alstra após demonstrarem valor excepcional em combate. Recebem asas e poderes divinos como símbolo de glória.",
-    "admissao": "Deve ter demonstrado valor excepcional em uma batalha testemunhada por ao menos uma valquíria, ter 10 níveis de personagem e ser devoto de uma divindade que canaliza energia positiva.",
-    "marcaDaDistincao": "Asas de Glória: Após a sagração, você recebe asas divinas que concedem deslocamento de voo de 12m.",
+    "resumo": "Ordem svalana fundada durante a Guerra Artoniana pelo filho de Shivara Sharpblade, dedicada ao extermínio completo da Supremacia Purista. Cavaleiros que abrem suas Asas da Glória para investir em defesa de aliados, sem misericórdia para com puristas.",
+    "admissao": "Você deve peregrinar até a ordem gloriosa em Svalas e ser aprovado em uma fase de provas mentais e táticas (estudo de um semestre seguido de prova escrita) e depois em provas práticas de combate, realizadas na terceira semana dos meses de Caravana ou Prussvia. Após mais um semestre de treinamento e votos (podendo sair em aventuras supervisionado por um cavaleiro formado), você deve responder com sinceridade a uma série de perguntas e, por fim, cumprir uma missão solo desmantelando um acampamento da Supremacia Purista e salvando reféns ou escravos, demonstrando impiedade para com seus inimigos.",
+    "marcaDaDistincao": "Asas de Glória: Você segue o Código de Glória (não pode demonstrar clemência ou inocentar um purista, devendo destruir todos que encontrar; deve libertar qualquer escravo pelos meios necessários; em combate, nunca pode ficar além de alcance curto de um aliado — violar o código faz perder todos os PM até o dia seguinte, e violar de novo na mesma semana faz perder acesso à distinção) e recebe as Asas da Glória, uma capa especial que, quando vestida, fornece o poder Asas Gloriosas. Caso já possua este poder, seu custo diminui em –1 PM. Se as Asas de Glória forem perdidas ou destruídas, você pode requisitar uma nova com 1 semana de espera e o gasto de T$ 500.",
     "poderes": [
-      "Golpe da Glória — Uma vez por rodada, ao acertar um ataque, você pode gastar 3 PM para causar +2d10 de luz e fazer o alvo ficar cego por 1 rodada (Fort CD Car evita).",
-      "Aura da Glória — Aliados em alcance curto recebem +2 em testes de resistência contra efeitos de medo.",
-      "Descida Gloriosa — Ao atacar após mover-se voando, você causa +1d8 de dano extra por 3m de distância percorrida (máx. +5d8).",
-      "Proteção Celestial — Você recebe redução de luz e eletricidade 10 e resistência a magias divinas +2.",
-      "Apoteose Gloriosa — Uma vez por aventura, você pode gastar 15 PM para entrar em um estado de glória total por 1 minuto: +5 em testes de ataque, +3d10 em rolagens de dano e imunidade a condições negativas."
+      "Espada da Glória — Ao empunhar uma espada, ela tem o dano aumentado em um passo e você recebe +1 em testes de ataque com ela (mais +1 para cada dois outros poderes de cavaleiro glorioso que possuir). Ao enfrentar um purista, você rola dois dados e escolhe o melhor resultado ao atacá-lo. Pré-requisitos: treinado em Guerra, Luta e Religião, Foco em Arma (qualquer espada), Encouraçado.",
+      "Asas Protetoras — Ao usar Asas Gloriosas, você pode gastar +2 PM para o aliado que protegeu receber metade de todo dano que sofrer — a outra metade é sofrida por você. Esse efeito dura até você usar Asas Gloriosas em outro aliado. Pré-requisito: Espada da Glória.",
+      "Baluarte Glorioso — Ao usar Asas Gloriosas, você pode gastar +2 PM para mudar o alcance da habilidade para médio e passa a poder usá-la uma vez adicional por rodada. Só pode usá-la dessa forma se estiver vestindo as Asas da Glória. Pré-requisito: Asas Protetoras.",
+      "Figura Importante — Em uma batalha em massa (Jornada Heróica: Guerra Artoniana, p. 370), você e seus aliados recebem +2 em testes para atacar, na CD das suas habilidades e na Defesa (mais +1 para cada dois outros poderes de cavaleiro glorioso que possuir). Contra puristas, o general aliado ganha esses bônus em testes de Guerra. Pré-requisitos: Espada da Glória, ter participado de uma batalha em massa.",
+      "Misericórdia Tem Preço — Flanquear, matar ou mentir para um purista (qualquer criatura com a habilidade Ódio Puro) não configura violação de qualquer código, O&R ou efeito penalizador, mas você deve gastar 2 PM sempre que fizer essas coisas contra esse tipo de inimigo. Pré-requisito: Espada da Glória.",
+      "Presença Impiedosa — Ao entrar em combate contra puristas, você os deixa apavorados por 1 rodada e então abalados (Von CD Car evita a condição apavorado). Para cada dois outros poderes de cavaleiro glorioso que possuir, aumenta a duração do apavorado em +1 rodada. Ignora imunidade a medo (o alvo imune recebe +5 no teste de resistência). Pré-requisito: Misericórdia Tem Preço.",
+      "Turbilhão de Asas — Ao usar Asas Gloriosas, você pode gastar +4 PM para empurrar seus aliados 6m em direções opostas ao alvo do ataque. Gastando +2 PM adicionais, pode usar essa habilidade contra efeitos em área, empurrando o aliado 3m além da área do efeito. Pré-requisito: Baluarte Glorioso."
     ]
   },
   {

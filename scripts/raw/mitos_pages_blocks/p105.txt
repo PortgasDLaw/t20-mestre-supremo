@@ -1,0 +1,96 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=237 y1=72 ---
+Sentidos sobreNaturais
+
+--- block x0=71 y0=72 x1=295 y1=145 ---
+Você recebe visão na penumbra, se já possuir, 
+recebe visão no escuro, e se tiver visão no escuro, 
+aumenta o alcance dela em um passo. Pré-requisitos: 
+Elo com a Natureza Maior, 6º nível de caçador. e
+Slot Disponível
+
+--- block x0=71 y0=144 x1=210 y1=277 ---
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. 
+Maecenas consequat dui 
+felis, dictum rutrum est 
+ultrices tincidunt. Quisque 
+a lectus ut mi cursus dictum. 
+Proin nec metus faucibus, 
+vestibulum diam et, feugiat 
+mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=277 x1=236 y1=403 ---
+Lorem ipsum dolor sit 
+amet, consectetur adipiscing 
+elit. Maecenas consequat dui 
+felis, dictum rutrum est ultrices 
+tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus fauci-
+bus, vestibulum diam et, feugiat mi.
+Cavaleiro
+
+--- block x0=71 y0=408 x1=168 y1=425 ---
+Arma Austera
+
+--- block x0=71 y0=425 x1=264 y1=558 ---
+Você pode gastar 1 hora de trabalho para 
+encaixar um esotérico que afete magias 
+divinas em uma arma, desde que ela seja 
+a favorita de sua divindade. Ao fazer isso, 
+a mão em que empunha a arma é consi-
+derada livre para lançar magias e toda 
+magia lançada através da arma recebe 
+os efeitos do esotérico encaixado. 
+Pré-requisito: Cavaleiro do Panteão.
+Cavaleiro Divino
+
+--- block x0=71 y0=558 x1=295 y1=643 ---
+Você recebe as habilidades Código do Herói e 
+Golpe Divino, que evolui de acordo com seu nível 
+de cavaleiro. Se já possuir Golpe Divino, invés do 
+normal a habilidade passa a causar +1d8 pontos de 
+dano adicional. Pré-requisito: Cavaleiro Sagrado. e
+Cavaleiro do Panteão
+
+--- block x0=71 y0=643 x1=295 y1=707 ---
+Você aprende e pode lançar duas magias divinas 
+de 1º círculo a sua escolha que sejam de abjuração 
+ou transmutação (CD Car). Você tem acesso aos 
+mesmos círculos de magias que um clérigo com seu 
+nível de cavaleiro para propósitos de aprimoramen-
+
+--- block x0=309 y0=55 x1=533 y1=104 ---
+to. Pré-requisitos: treinado em Misticismo e Religião, 
+devoto de um deus maior. e
+Égide Impenetrável
+
+--- block x0=309 y0=103 x1=448 y1=216 ---
+Uma vez por cena, se estiver 
+empunhando um escudo, 
+você 
+pode 
+gastar 
+uma 
+ação completa e 6 PM 
+para dobrar toda 
+RD recebida por 
+habilidades 
+de 
+cavaleiro e poder 
+gastar 3 PM para 
+
+--- block x0=264 y0=270 x1=355 y1=281 ---
+"Eu caçarei até o último 
+"Eu caçarei até o último 
+
+--- block x0=268 y0=280 x1=349 y1=291 ---
+goblinoide de Arton!"
+goblinoide de Arton!"
+
+--- block x0=560 y0=756 x1=576 y1=767 ---
+105
+

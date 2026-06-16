@@ -1,0 +1,98 @@
+Aventureiros de Arton
+Métodos de CUltivo
+Cultivadores utilizam formas diversas para se 
+fortalecer. Cada método se aperfeiçoa a medida que 
+você vai abrindo seus meridianos.
+Método da Arte Celestial
+Você se torna devoto de um deus que canalize 
+apenas energia positiva, sendo considerado um 
+devoto fiel para a divindade escolhida. Se estiver em-
+punhando a arma favorita de sua divindade, o dano 
+da arma aumenta em um passo, com +1 passo para 
+cada meridiano par aberto.
+Ação de Trabalho Interno. Atacar com a 
+arma favorita de sua divindade.
+Cultivo. Você recebe +1d8 pontos de dano 
+de luz em seus ataques com arma favorita da sua 
+divindade por meridiano ímpar aberto.
+Método da Meditação
+Escolha três escolas de magia. Uma vez feita, 
+essa escolha não pode ser mudada. Você pode lan-
+çar magias de 1º círculo que pertençam as escolas 
+escolhidas como se fossem divinas. A medida que 
+abre seus meridianos, pode lançar magias de círculos 
+maiores (2º círculo no terceiro meridiano, 3º círculo 
+no quinto meridiano e 4º círculo no sétimo).
+Você começa com duas magias de 1º círculo. A 
+cada nível, aprende uma magia de qualquer círculo e 
+escola que possa lançar. A cada meridiano par aberto, 
+você libera acesso a uma escola de magia adicional. 
+Seu atributo-chave para lançar magias é Sabedoria e 
+você soma sua Sabedoria no seu total de PM.
+Ação de Trabalho Interno. Lançar magias.
+Cultivo. O limite de PM e a CD das suas 
+magias aumenta em +1 por meridiano ímpar aberto.
+Método da Proteção
+Você se torna treinado em todas as perícias de 
+resistência e recebe +2 nelas. Além disso, ao fazer 
+um teste de resistência, você pode gastar 2 PM para 
+rolar dois dados e escolher o melhor resultado.
+Você soma sua Sabedoria na Defesa, limitado 
+pelo nível e apenas quando não está usando arma-
+dura e/ou escudos. A cada meridiano par aberto, 
+você recebe +1 na Defesa. A partir do 5º meridiano 
+aberto, uma vez por rodada como uma reação a um 
+ataque feito contra um aliado adjacente, você pode 
+gastar 2 PM para se tornar o alvo deste ataque, que 
+então é resolvido normalmente.
+Ação de Trabalho Interno. Ser bem 
+sucedido em um teste de resistência, resistir a uma 
+manobra ou conseguir defender um ataque realizado 
+contra você.
+Cultivo. Você recebe +1 em testes de resistên-
+cia por meridiano ímpar aberto.
+Método das Armas
+Escolha entre a Jian (lâmina) ou Katana (espa-
+da), você recebe proficiência com a arma escolhida 
+e inicia com uma contendo uma melhoria (exceto 
+material especial).
+Para cada novo meridiano aberto após o 1º, você 
+aplica mais uma melhoria a sua arma, passando a 
+poder aplicar encantos a partir do 5º meridiano. Se 
+perder sua arma de cultivo, pode criar uma nova em 
+um ritual que exige T$ 100 em materiais e 1 semana 
+de prece e meditação.
+Ação de Trabalho Interno. Atacar com 
+sua arma de cultivo.
+Cultivo. Você recebe +1 em testes de ataque 
+e rolagens de dano com sua arma de cultivo por 
+meridiano ímpar aberto.
+Método do Demônio Imperial
+Você se torna devoto de um deus que canalize 
+apenas energia negativa, sendo considerado um 
+devoto fiel para a divindade escolhida. Se estiver em-
+punhando a arma favorita de sua divindade, o dano 
+da arma aumenta em um passo, com +1 passo para 
+cada meridiano par aberto.
+Ação de Trabalho Interno. Atacar com a 
+arma favorita de sua divindade.
+Cultivo. Você recebe +1d8 pontos de dano 
+de trevas em seus ataques com arma favorita da sua 
+divindade por meridiano ímpar aberto.
+Método Dos Punhos
+Seu dano desarmado se torna 1d6 e passa a 
+causar dano letal ou não letal de corte, impacto ou 
+perfuração. Além disso, você soma sua Sabedoria nas 
+suas rolagens de dano desarmadas (invés de Força). 
+Você é considerado como tendo a habilidade Briga 
+para cumprir pré-requisitos.
+Para cada meridiano aberto após o 1º, você au-
+menta seu dano desarmado em um passo. No 3º e 
+5º meridiano, você também aumenta o seu alcance 
+natural em +1,5m.
+Ação de Trabalho Interno. Realizar um 
+ataque desarmado.
+Cultivo. Você recebe +1 em testes de ataque 
+e rolagens de dano com golpes desarmados e armas 
+naturais por meridiano ímpar aberto.
+39

@@ -1,0 +1,138 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=54 x1=263 y1=103 ---
+Novas Variantes 
+para Suraggel
+
+--- block x0=51 y0=105 x1=275 y1=190 ---
+As variantes a seguir representam anjos e 
+demônios do cristianismo, as variantes Querubim 
+e Súcubo estão disponíveis em outro suplemento. 
+Substitua as habilidades Luz Sagrada ou Sombras 
+Profanas pelas descritas a seguir.
+Arcanjo
+
+--- block x0=51 y0=189 x1=275 y1=262 ---
+Lâmina Celestial. Armas corpo a corpo de 
+corte causam +1d6 pontos de dano de luz quando 
+empunhadas por você. Você pode gastar 2 PM para 
+mudar esse dano para +1d12 até o fim da cena. e
+Domínios
+
+--- block x0=51 y0=262 x1=275 y1=335 ---
+Voz Celestial. Você recebe +2 em Diploma-
+cia e Intimidação. Além disso, você pode lançar Avi-
+so. Caso aprenda novamente essa magia, seu custo 
+diminui em –1 PM. e
+Serafim
+
+--- block x0=51 y0=335 x1=275 y1=408 ---
+Fogo Celestial. Você aprende uma magia de 
+evocação de 1º círculo a sua escolha (CD Sab). Além 
+disso, sempre que causar dano de fogo, você pode 
+gastar 1 PM para trocar o tipo de dano para luz. e
+Trono
+
+--- block x0=51 y0=408 x1=275 y1=493 ---
+Devoção Celestial. Para cada devoto de um 
+deus que canalize apenas energia positiva em alcance 
+curto, você recebe +1 na Defesa (máx. +5), porém, 
+o contrário se aplica se haver devotos de deuses que 
+canalizam apenas energia negativa. e
+Abissal
+
+--- block x0=51 y0=492 x1=275 y1=553 ---
+Herança Abissal. Você recebe resistência a 
+abissais e devotos de deuses que canalizam apenas 
+energia negativa +2 e redução de fogo 5. e
+Cão do Inferno
+
+--- block x0=51 y0=553 x1=275 y1=662 ---
+Fúria Abissal. Você pode gastar 2 PM para 
+invocar uma fúria infernal, tornando-se temível em 
+combate. Você recebe +2 em testes de ataque e rola-
+gens de dano corpo a corpo, mas não pode executar 
+nenhuma ação que exija paciência ou concentração. 
+A Fúria termina se, ao fim da rodada, você não tiver 
+atacado nem sido alvo de um efeito hostil. e
+Goétio
+
+--- block x0=51 y0=662 x1=275 y1=702 ---
+Magia Abissal. Você recebe +2 em Misticis-
+mo. Além disso, no 1º nível e a cada cinco níveis após 
+o 1º, você aprende e pode lançar uma magia arcana à 
+
+--- block x0=289 y0=55 x1=510 y1=104 ---
+sua escolha usando a progressão de círculos do Bar-
+do. O atributo-chave dessas magias é Inteligência. e
+Pecador
+
+--- block x0=289 y0=103 x1=513 y1=132 ---
+Pecado Abissal. Você recebe +1 ponto em 
+Inteligência e uma das habilidades a seguir.
+
+--- block x0=289 y0=132 x1=513 y1=172 ---
+•	 Avareza. Você recebe a complicação hedonista, 
+mas não um poder geral. Em troca, um descanso lu-
+xuoso recupera quatro vezes o seu nível em PV e PM.
+
+--- block x0=289 y0=172 x1=513 y1=272 ---
+•	 Inveja. Uma vez por criatura, por dia, ao per-
+ceber ela usando uma habilidade, você pode gastar 
+3 PM para forçar o alvo a um teste de Vontade (CD 
+Int). Se o alvo falhar, perde a habilidade que iria usar 
+e você a obtém até o fim da cena. A cada novo uso 
+dessa habilidade, você recebe uma penalidade cumu-
+lativa de –2 em seu teste. A critério do mestre, esse 
+efeito não funciona em passivas e em chefões. e
+
+--- block x0=289 y0=272 x1=513 y1=324 ---
+•	 Ira. Você recebe a complicação Cabeça Quente, 
+mas não um poder geral. Em troca, ao sofrer dano, 
+você recebe +5 em todas as suas rolagens de dano 
+contra esse alvo até o início de seu próximo turno.
+
+--- block x0=289 y0=324 x1=513 y1=365 ---
+•	 Ganância. Todo ganho em tibares dado a você e 
+ao seu grupo aumentam em 20%, mas deve cumprir 
+as O&R de Kally, mesmo sem ser devoto deste deus.
+
+--- block x0=289 y0=365 x1=510 y1=393 ---
+•	 Gula. Todo benefício dado por alimentos au-
+menta em +1 e você recebe +1 PV por nível.
+
+--- block x0=289 y0=393 x1=513 y1=433 ---
+•	 Luxúria. Uma vez por rodada, ao sofrer dano, 
+você pode gastar 3 PM para fazer com que metade 
+do dano sofrido seja causado de volta ao agressor. e
+
+--- block x0=289 y0=433 x1=513 y1=497 ---
+•	 Orgulho. Você recebe a complicação Mimado, 
+mas não um poder geral. Em troca, sempre que passa 
+em um teste social, você recebe um ganho cumulati-
+vo de +1 em todos os testes de perícia até o fim do 
+dia — ou até falhar em outro teste social.
+
+--- block x0=289 y0=497 x1=513 y1=611 ---
+•	 Preguiça. Ao ficar uma rodada sem fazer nada 
+em um combate, você recebe redução de dano 2 até 
+o fim da cena. Esse ganho aumenta em +1 a cada 
+patamar de jogo além do iniciante.
+Raças Variantes
+Alratann
+
+--- block x0=289 y0=610 x1=513 y1=663 ---
+Existem alraunes que surgem no subterrâneo, 
+sem a exposição da luz do sol mas com exposição 
+quase constante com a umidade, o que os dão aspec-
+tos fúngicos, surgindo assim os alratann.
+
+--- block x0=289 y0=663 x1=513 y1=703 ---
+ Bênção das Rochas. Você recebe +2 em 
+testes de Percepção e Sobrevivência feitos no sub-
+terrâneo e visão no escuro. Além disso, você pode 
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+24
+

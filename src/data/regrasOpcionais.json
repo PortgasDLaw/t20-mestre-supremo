@@ -70,7 +70,7 @@
     "categoria": "Efeitos Novos de Poderes",
     "nome": "Suserano",
     "fonte": "Mitos de Arton",
-    "descricao": "Escolha um membro da nobreza aprovado pelo mestre. Você serve a esse nobre como parte de sua corte. +5 em Diplomacia e Intimidação contra vassalos de nível inferior. Nas terras do suserano: alojamento e alimentação gratuita, além de benefícios conforme o suserano.",
+    "descricao": "Escolha um membro da nobreza aprovado pelo mestre. Você serve a esse nobre como parte de sua corte. +5 em Diplomacia e Intimidação contra vassalos de nível inferior. Nas terras do suserano: alojamento e alimentação gratuita, além de benefícios conforme o suserano. Se deixar de servir a seu suserano por qualquer motivo, você perde todos os seus PM e só pode recuperá-los após ser aceito por outro suserano.",
     "conteudo": [
       { "nome": "Conselho de Wynlla", "descricao": "Aprende e pode lançar uma magia arcana de 1º círculo (CD Car). A cada quatro níveis após o 1º, aprende magia adicional. A partir do 9º nível, pode aprender magias arcanas de 2º círculo." },
       { "nome": "Dragão-Rei Sckhar", "descricao": "10% de toda recompensa em tibares deve ser enviada a Sckhar. Uma vez por rodada, gaste 2 PM para receber +5 no próximo teste — exceto testes de ataque." },
@@ -90,17 +90,17 @@
     "categoria": "Efeitos Novos de Poderes",
     "nome": "Título",
     "fonte": "Mitos de Arton",
-    "descricao": "Você adquire um título de nobreza. No início de cada aventura, receba 20 TO por nível ou ajuda de um parceiro veterano, mais benefícios de acordo com o título.",
+    "descricao": "Você adquire um título de nobreza. No início de cada aventura, receba 20 TO por nível ou ajuda de um parceiro veterano, mais benefícios de acordo com o título. De acordo com o mestre, você pode subir de título durante a narrativa, acumulando ou substituindo os efeitos de títulos anteriores.",
     "conteudo": [
       { "nome": "Barão", "descricao": "Enquanto na região de influência: +2 em quaisquer testes de perícia treinados." },
       { "nome": "Visconde", "descricao": "Se possuir domínio não místico, todo ganho de LO aumenta em +1. Ganho de TO muda para 25 por nível." },
       { "nome": "Conde", "descricao": "Ferreiros pessoais que melhoram equipamentos. Escolha uma arma, uma armadura e outro item — cada um recebe uma melhoria gratuita. A partir do 17º nível, um pode receber um encanto gratuito." },
-      { "nome": "Marquês", "descricao": "Escolha uma habilidade de 1º nível de outra classe (exceto Magias). Você recebe a habilidade e ela evolui com seu nível." },
-      { "nome": "Duque", "descricao": "Escolha um parceiro — os benefícios que ele fornece são dobrados." },
+      { "nome": "Marquês", "descricao": "Escolha uma habilidade de 1º nível de uma classe que não a sua e que não possua níveis dela (exceto Magias ou derivados); uma vez feita, essa escolha não pode ser mudada. Você recebe a habilidade e ela evolui de acordo com seu nível." },
+      { "nome": "Duque", "descricao": "Escolha um parceiro — os benefícios que ele fornece são dobrados. Se não possuir um, o que você convoca através de algum poder de forma temporária pode receber este benefício." },
       { "nome": "Arquiduque", "descricao": "Gaste ação de movimento e 3 PM para somar Carisma na Defesa até o fim da cena (cumulativo com outros efeitos)." },
       { "nome": "Grão-Duque", "descricao": "Bônus de Barão muda para +5, +2 em todos os testes de perícia não treinados na região de influência. Se possuir domínio não místico, o nível máximo dele aumenta em 1." },
       { "nome": "Marechal", "descricao": "+5 em Guerra e uma ação padrão adicional para comandar capangas. Ao posicionar mais de um capanga, receba 1 capanga adicional." },
-      { "nome": "Conselheiro", "descricao": "Receba uma habilidade de Suserano. Escolha um item para receber um encanto gratuito." },
+      { "nome": "Conselheiro", "descricao": "Receba uma habilidade de Suserano, de acordo com quem lhe deu seu título. Escolha um item para receber um encanto gratuito; se perder ou descartar este item, pode escolher um novo para receber este benefício." },
       { "nome": "Rei", "descricao": "Se possuir domínio não místico: duas construções gratuitas. Escolha duas habilidades de classe com custo em PM ou quatro magias: custo diminui em –1 PM (cumulativo)." }
     ]
   },
@@ -109,7 +109,7 @@
     "categoria": "Autoridades Feudais",
     "nome": "Autoridade Feudal",
     "fonte": "Mitos de Arton",
-    "descricao": "Você tem certa autoridade em locais onde a sua posição carrega influência. Receba alimentação e acomodação gratuita e pode pedir pequenos favores, mais benefícios conforme o reino ou região. Pré-requisito: 6º nível de cavaleiro ou nobre.",
+    "descricao": "Você tem certa autoridade em locais onde a sua posição carrega influência. Receba alimentação e acomodação gratuita na região onde tem influência e pode pedir favores pequenos a pessoas na região que não possua títulos de nobreza, mais benefícios conforme o reino ou região. Pré-requisito: 6º nível de cavaleiro ou nobre.",
     "conteudo": [
       { "nome": "Ahlen", "descricao": "Escolha duas: Enganação, Furtividade, Jogatina, Ladinagem, Nobreza ou Percepção. Você soma seu Carisma (limitado pelo nível) nessas perícias." },
       { "nome": "Aslothia", "descricao": "Redução de trevas 5, aprende e pode lançar Conjurar Mortos-Vivos (CD Car) e pode usar aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo do seu nível." },
@@ -126,13 +126,13 @@
       { "nome": "Nova Malpetrim", "descricao": "+2 em Acrobacia e Atletismo. O tesouro em dinheiro de uma criatura derrotada nunca é menor que normal." },
       { "nome": "Pondsmânia", "descricao": "Resistência a magia +2 (+5 contra fadas, celestiais e devotos de Nimb ou Wynna). A CD para resistir aos seus efeitos mentais aumenta em +2." },
       { "nome": "Salistick", "descricao": "Resistência a metabolismo e venenos +5, soma Carisma em efeitos mundanos de cura. Penalidade de –2 em testes contra efeitos divinos." },
-      { "nome": "Sambúrdia", "descricao": "10% de desconto ao comprar itens, vende 10% mais caro. Valores dobram em Sambúrdia. +5 em Diplomacia contra comerciantes e negociantes." },
+      { "nome": "Sambúrdia", "descricao": "10% de desconto ao comprar itens, vende 10% mais caro. Valores dobram nas repúblicas livres de Sambúrdia. Esses efeitos não são cumulativos com Barganha (mas você recebe +5 em Diplomacia contra comerciantes e negociantes)." },
       { "nome": "Sckharshantallas", "descricao": "Redução de fogo 5 e +2 nas rolagens de dano contra criaturas maiores. Em Sckharshantallas: resistência a medo +5 contra criaturas dracônicas." },
       { "nome": "Svalas", "descricao": "Soma Sabedoria (limitada pelo nível) em Conhecimento e Nobreza. Gaste 2 PM para fazer testes dessas perícias sem treinamento. +2 em Fortitude e Vontade." },
       { "nome": "Tamu-ra", "descricao": "Enquanto se mantiver honrado (sem Enganação, Furtividade, Ladinagem ou ataques desprevenidos), no início de cada combate receba PV temporários = nível + Carisma. Um ato desonrado interrompe isso até o próximo dia." },
       { "nome": "Trebuck", "descricao": "Ao falhar em um teste, receba +1 cumulativo no próximo teste (exceto ataque/resistência). Ao passar em qualquer teste, os bônus acumulados são perdidos. Dura até o fim da cena (ou do dia em Trebuck)." },
       { "nome": "Ubani", "descricao": "Escolha ácido, eletricidade, fogo, frio, luz ou trevas. Redução 5 e soma Sabedoria (limitada pelo nível) nos testes de resistência contra efeitos desse tipo." },
-      { "nome": "Wynlla", "descricao": "Aprende e pode lançar uma magia arcana de 1º círculo (CD Car). Pode usar aprimoramentos como um arcanista. Pode usar essa magia de armadura sem testes de Misticismo." },
+      { "nome": "Wynlla", "descricao": "Aprende e pode lançar uma magia arcana de 1º círculo (CD Car) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista do seu nível. Pode usar essa magia de armadura sem precisar de testes de Misticismo." },
       { "nome": "Zakharov", "descricao": "Escolha armas leves, simples, marciais, exóticas ou de fogo. +1 nos testes de ataque e +2 nas rolagens de dano. Dobra em Zakharov." }
     ]
   },
@@ -143,9 +143,16 @@
     "fonte": "Mitos de Arton",
     "descricao": "Alternativas para fabricar equipamentos e itens sem ser Inventor. Para fabricar um item, você precisa de um espaço adequado, matéria-prima e um teste de Ofício adequado.",
     "conteudo": [
-      { "nome": "Espaço Adequado", "descricao": "Você não pode fabricar um item em qualquer lugar, precisando de forja, laboratório ou espaço próprio a critério do mestre." },
-      { "nome": "Matéria-Prima", "descricao": "Materiais próprios para produzir o item. Cada conjunto ocupa 1 espaço e custa um terço do valor do item. Materiais especiais ocupam 1 espaço à parte e custam um terço do valor deles." },
-      { "nome": "Teste", "descricao": "1 dia de trabalho (itens consumíveis) ou 1 semana (permanentes). +1 semana por melhoria/encanto. Se passar, fabrica o item; do contrário, gaste +1 semana para tentar novamente." }
+      { "nome": "Espaço Adequado", "descricao": "Você não pode fabricar um item em qualquer lugar, precisando de um espaço adequado como uma forja (para ter água e fogo), um laboratório ou qualquer espaço que, a critério do mestre, seja próprio para passar vários dias fabricando o item." },
+      { "nome": "Matéria-Prima", "descricao": "Materiais próprios para produzir um tipo de item. Cada conjunto de matéria-prima ocupa 1 espaço e custa um terço do valor do item que irá fabricar. Materiais especiais ocupam 1 espaço à parte e custam um terço do valor deles. Melhorias e encantos, para serem aplicados, exigem materiais." },
+      { "nome": "Teste", "descricao": "Uma vez no local apropriado e com a matéria-prima o suficiente, você pode fabricar o item. Isso exige 1 dia de trabalho (itens consumíveis) ou 1 semana (itens permanentes). Para cada melhoria e/ou encanto que for adicionar ao item, aumente o tempo de trabalho em +1 semana. A CD varia conforme o item. Se passar, fabrica o item; do contrário, pode gastar +1 semana de trabalho para tentar de novo." },
+      { "nome": "Pedras da Alma", "descricao": "Em vez de energizar pepitas, pedras e jóias com sua mana ou de criaturas voluntárias, você pode extrair a energia de conjuradores mortos e armazenar em seus materiais. Isso exige um teste de Misticismo contra CD 15 + ND da criatura. Pepitas podem ser energizadas com conjuradores de patamar campeão, e pedras e jóias com conjuradores de patamar lenda." },
+      { "nome": "Criando e Fundindo Materiais", "descricao": "Você pode fundir materiais para fazer uma versão melhorada do mesmo, equivalente a um material de qualidade maior para aplicar mais melhorias ou encantos a um item (por exemplo, pegar duas jóias brutas e fundi-las para criar pedras divinas). O processo exige 1 dia de trabalho e um teste de Ofício (Artesão) contra CD 45. Se falhar, perde um dos seus materiais. O processo de fundição não precisa de um espaço adequado, mas quem estiver tentando fazê-lo deve ser treinado em Misticismo. Você também pode criar materiais, em vez de comprá-los: paga metade do custo em matéria-prima, precisando de um lugar apropriado, 1 semana de trabalho e passar em um teste de Ofício (Artesão) contra CD 45. Se falhar, pode gastar +1 semana de trabalho para tentar novamente, mas se falhar por 10 ou mais, estraga a matéria-prima, precisando comprar mais." },
+      { "nome": "Interações — Afinidade", "descricao": "Caso seja devoto de um deus associado à fabricação de itens, uma raça associada à produção ou seja um conjurador treinado em Misticismo, você pode fabricar itens superiores com uma melhoria (cumulativo com outros efeitos)." },
+      { "nome": "Interações — Oficina de Campo", "descricao": "Caso possua este poder, você dispensa a necessidade de um local adequado para fabricar itens." },
+      { "nome": "Interações — Redução de Valor", "descricao": "Certos benefícios e efeitos dão ao personagem uma redução no valor da fabricação de itens superiores ou mágicos, que pode ser de um quarto ou um quinto. Essa regra passa a valer para materiais, mas a redução é apenas de 10% no seu valor (ou 20% se for um quinto)." },
+      { "nome": "Interações — Cinco Melhorias", "descricao": "Certos efeitos permitem ao personagem adicionar uma quinta melhoria aos itens que fabrica. Nesses casos, fundindo duas peças élficas, o personagem cria peças divinas, que o permite aplicar esta quinta melhoria." },
+      { "nome": "Interações — Quatro Encantos", "descricao": "Certos efeitos permitem ao personagem adicionar um quarto encanto aos itens que fabrica. Nesses casos, fundindo duas pedras dracônicas, o personagem cria uma pallantir divina, que o permite aplicar este quarto encanto. Pallantires não precisam ser energizadas." }
     ],
     "materiais": [
       { "nome": "Jóias Brutas", "preco": "T$ 6.000", "descricao": "Armazene 1 PM para energizá-las. Adiciona um encanto extra a item mágico menor." },

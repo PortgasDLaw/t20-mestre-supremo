@@ -1,0 +1,143 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=54 x1=101 y1=77 ---
+Sinais
+
+--- block x0=51 y0=75 x1=275 y1=188 ---
+Sinais são usados por bruxeiros através de 
+gestos, não usa vocalizações, pode ser usado de 
+armadura leve sem precisar de testes de Misticismo 
+e exige uma mão livre. O atributo-chave dos sinais é 
+Inteligência. Existem cinco sinais básicos que todo 
+bruxeiro conhece, mas exegetas de glifos podem 
+criar novos — ainda assim, está limitado a cinco 
+sinais memorizados por vez, para trocar os sinais 
+memorizados, deve gastar 1 hora de meditação.
+
+--- block x0=51 y0=188 x1=275 y1=228 ---
+Apesar de emular magias, sinais não podem ser 
+aprimorados, mas a menos que dito o contrário, 
+lançar um sinal é uma ação de movimento.
+
+--- block x0=51 y0=228 x1=275 y1=280 ---
+Sinais que emulam magias de 1º círculo custam 
+2 PM para serem lançados, os que emulam magias 
+de 2º círculo custam 5 PM, e os que emulam de 3º 
+círculo custam 9 PM.
+
+--- block x0=51 y0=280 x1=275 y1=332 ---
+• Aard. Um poderoso sinal telecinético. Você 
+emula a magia Soco de Arsenal ou recebe +10 em seu 
+próximo teste de manobra para Desarmar feito até o 
+fim do seu turno.
+
+--- block x0=51 y0=332 x1=275 y1=385 ---
+• Axii. Um sinal encantador, mas ínfame pela sua 
+natureza controladora. Você emula a magia Enfeitiçar 
+ou recebe +5 em seu próximo teste de Diplomacia, 
+Enganação ou Jogatina feito até o fim da cena.
+
+--- block x0=51 y0=385 x1=275 y1=449 ---
+• Igni. Um sinal destrutivo, por ser o seu prin-
+cipal auxílio em combates. Você emula a magia 
+Explosão de Chamas ou deixar uma criatura em alcance 
+curto em chamas (Ref CD Int evita; essa condição é 
+cumulativa com outros efeitos).
+
+--- block x0=51 y0=449 x1=275 y1=489 ---
+• Quen. Sinal útil para tornar o bruxeiro mais resi-
+liente.  Você emula a magia Campo de Força. Diferente 
+de outros sinais, esse pode receber aprimoramentos.
+
+--- block x0=51 y0=489 x1=275 y1=618 ---
+• Yrden. Você gasta uma ação padrão e 6 PM 
+para criar uma área de 3m de raio em um espaço em 
+alcance curto. Criaturas na área ficam imóveis (Fort 
+CD Int evita). No início de cada turno da criatura 
+afetada, ela tem direito a um novo teste para dissipar 
+o efeito e ficar imune a essa habilidade por 1 dia. A 
+área do Yrden é considerada terreno difícil (exceto 
+para o bruxeiro) e tem duração sustentada.
+Escolas de Bruxeiro
+
+--- block x0=51 y0=616 x1=275 y1=666 ---
+Trata-se de fortes para o treino de estilos de com-
+bate que bruxeiros se dedicam a aprender, melho-
+rando suas capacidades e dando habilidades que são 
+desenvolvidas apenas na escola em que treinaram.
+
+--- block x0=51 y0=666 x1=275 y1=706 ---
+Selecione uma das escolas abaixo, você recebe o 
+efeito básico dela, podendo evoluir a sua graduação 
+com poderes de bruxeiro.
+
+--- block x0=289 y0=55 x1=426 y1=72 ---
+escola dA Capivara
+
+--- block x0=289 y0=72 x1=513 y1=112 ---
+Você recebe proficiência com armas de fogo, 
+pode transformá-las em armas de bruxeiro e usá-las 
+com Disparo Oculto se elas forem de uma mão.
+
+--- block x0=289 y0=112 x1=513 y1=188 ---
+•	 Veterano. Enquanto montado, o dano de sua 
+arma de bruxeiro aumenta em um passo e você pode 
+tornar qualquer arma a distância em uma arma de 
+bruxeiro se possuir o poder Exótico. Além disso, se 
+for uma criatura pequena, o Carpeado pode ser uma 
+capivara (veja Ameaças de Arton, p. 211).
+
+--- block x0=289 y0=188 x1=513 y1=249 ---
+•	 Mestre. Você pode flanquear com armas a dis-
+tância em alcance curto e recebe a habilidade Estouro 
+das Capivárias (veja Crônicas do Novo Mundo, p. @@).
+escola dA Mantícora
+
+--- block x0=289 y0=249 x1=513 y1=361 ---
+Você pode escolher um segundo tipo de arma 
+como uma arma de bruxeiro, desde que ela seja leve. 
+Se estiver empunhando duas armas de bruxeiro (e 
+pelo menos uma delas for leve), uma em cada mão, e 
+fizer a ação agredir, você pode fazer dois ataques, um 
+com cada arma. Se fizer isso, sofre –2 em todos os 
+testes de ataque até o seu próximo turno. Se possuir 
+o poder Estilo de Duas Armas, em vez disso não a 
+penalidade de ataque ao usar essa habilidade.
+
+--- block x0=289 y0=361 x1=513 y1=425 ---
+•	 Veterano. Você pode usar Disparo Oculto mes-
+mo se não possuir mãos livres. Além disso, no seu 
+primeiro turno de um combate, caso esteja adjacente 
+a uma criatura, você pode gastar 2 PM para fazer um 
+ataque contra essa criatura com uma ação livre.
+
+--- block x0=289 y0=425 x1=513 y1=510 ---
+•	 Mestre. Ao fazer dois ataques no mesmo turno, 
+você pode fazer um terceiro gastando 1 PM e sofren-
+do –4 no teste de ataque, e então um quarto gastando 
+2 PM e sofrendo –6 no teste de ataque, até errar um 
+ataque ou ficar sem PM.
+Escola dA SERPENTE
+
+--- block x0=289 y0=510 x1=513 y1=574 ---
+Seus sinais têm seu custo reduzido em –1 PM 
+e você passa a poder aprimorar sinais normalmente 
+— para progressão de círculos, você pode usar apri-
+moramentos de 2º círculo ao se tornar veterano e de 
+3º e 4º círculo ao se tornar mestre.
+
+--- block x0=289 y0=574 x1=513 y1=615 ---
+•	 Veterano. Você recebe +1 PM por nível de bru-
+xeiro. Além disso, ao pegar Exegeta de Glifos, você 
+pode escolher magias de 2º círculo.
+
+--- block x0=289 y0=615 x1=513 y1=667 ---
+•	 Mestre. Uma vez por rodada, você pode gastar 
++2 PM para lançar um sinal para reduzir sua exe-
+cução em um passo. Além disso, você pode aplicar 
+catalisadores em sinais.
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+32
+

@@ -1,0 +1,151 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=131 ---
+•	 Afiação. Os dados de dano de Arma Bruxeira 
+tem seu valor aumentado em uma categoria. Se for 
+da escola do lobo, pode escolher este poder uma 
+segunda vez para também aumentar o valor dos 
+dados de dano do Exterminador em uma categoria. 
+Pré-requisito: 11º nível de bruxeiro.
+
+--- block x0=51 y0=131 x1=275 y1=171 ---
+•	 Andarilho. Você pode usar Olhos Laranjas em 
+Cura e Sobrevivência. Pré-requisitos: treinado em Cura 
+e Sobrevivência, Sab 1, 3º nível de bruxeiro.
+
+--- block x0=51 y0=171 x1=275 y1=223 ---
+•	 Apático. O rigor do treinamento lhe tornou 
+uma pessoa cínica. Você recebe resistência a medo 
++5 e pode usar Inteligência como atributo-chave de 
+Intimidação (em vez de Carisma).
+
+--- block x0=51 y0=223 x1=275 y1=288 ---
+•	 Arma Alquímica. Você pode gastar T$ 500 em 
+componentes, 1 hora e 3 PM para fortalecer a alqui-
+mia da sua arma de bruxeiro. Até o fim do dia (ou 
+cena de combate, o que vier primeiro), o dano extra 
+de Arma Bruxeira se torna perda de vida. Veneno.
+
+--- block x0=51 y0=288 x1=275 y1=340 ---
+•	 Armeria do Forte. Trocar sua arma de bruxeiro 
+passa a exigir apenas 1 dia de trabalho e T$ 50. Além 
+disso, bestas leves passam a ser armas de bruxeiro 
+para você. Pré-requisito: treinado em Ofício (armeiro).
+
+--- block x0=51 y0=340 x1=275 y1=392 ---
+•	 Alquimia do Forte. Ao utilizar um óleo mágico 
+(veja Tormenta20, p. 341) em sua arma de bruxeiro, 
+o dano dela aumenta em um passo enquanto o óleo 
+durar. Pré-requisito: treinado em Ofício (alquimista).
+
+--- block x0=51 y0=392 x1=275 y1=432 ---
+•	 Aumento de Atributo. Você recebe +1 em um atri-
+buto. Você pode escolher esse poder várias vezes, mas 
+apenas uma vez por patamar para um mesmo atributo.
+
+--- block x0=51 y0=432 x1=275 y1=509 ---
+•	 Bruxaria. Você pode transformar esotéricos 
+em armas de bruxeiro. Ao fazer isso, os efeitos do 
+esotérico passa a funcionar nos seus sinais e, além 
+dos benefícios do próprio item, você aplica o dano de 
+Arma Bruxeira as rolagens de dano dos seus sinais. 
+Pré-requisito: Escola da Serpente.
+
+--- block x0=51 y0=509 x1=275 y1=549 ---
+•	 Cambalhota. Você pode gastar 1 PM, uma vez 
+por rodada, para se mover 1,5m como uma reação. 
+Essa habilidade não gera reações dos inimigos.
+
+--- block x0=51 y0=549 x1=275 y1=601 ---
+•	 Capivaleiro. Se possuir uma capivara como 
+montaria, ela passa a fornecer os benefícios de ambos 
+os tipos de parceiro (capivara e cavalo). Pré-requisitos: 
+escola da capivara, Carpeado.
+
+--- block x0=51 y0=601 x1=275 y1=701 ---
+•	 Carpeado. Quando em um ambiente aberto, 
+você pode assoviar (ação de movimento) e fazer um 
+teste de Adestramento (CD 20), se passar, um cavalo 
+(ou pônei) de guerra vem galopando em sua direção. 
+Ele é um parceiro montaria veterano que fica com 
+você até morrer ou ser dispensado. No 11º nível, ele 
+se torna mestre. Pré-requisitos: treinado em Adestra-
+mento e Cavalgar, 5º nível de bruxeiro.
+
+--- block x0=289 y0=55 x1=513 y1=95 ---
+•	 Cicatrizes. Você passou por um treino que lhe 
+deixou marcado. Você recebe +2 em Intimidação e 
+redução de dano 2. Pré-requisito: Con 2.
+
+--- block x0=289 y0=94 x1=513 y1=158 ---
+•	 Chama Ígnea. Você pode inflamar sua arma com 
+o poder dos sinais. Gaste uma ação de movimento e 
+5 PM para receber +2d6 pontos de dano de fogo, +1 
+em testes de ataque, rolagens de dano e tornar sua 
+arma mágica até o fim da cena. e
+
+--- block x0=289 y0=158 x1=513 y1=222 ---
+•	 Chamuscar. Você pode gastar uma ação de 
+movimento e 1 fogo alquímico para imbuir sua arma 
+com chamas. Até o fim da cena, ela recebe +1d6 
+pontos de dano de fogo e deixa os seres atingidos em 
+chamas (Ref CD Int evita a condição).
+
+--- block x0=289 y0=222 x1=513 y1=250 ---
+•	 Conhecimento Amplo. Você se torna treinado em 
+duas perícias de bruxeiro a sua escolha.
+
+--- block x0=289 y0=250 x1=513 y1=314 ---
+•	 Couro de Aço. Se estiver usando uma Cota de 
+Bruxeiro (p. @@), você passa a ser considerado 
+como usando uma armadura pesada para qualquer 
+efeito (exceto para liberdade de movimentos). Pré-re-
+quisitos: Escola do Urso, 12º nível de bruxeiro.
+
+--- block x0=289 y0=315 x1=513 y1=379 ---
+•	 Disparo Oculto. Se você possuir uma besta de 
+uma mão no inventário e uma mão livre, você pode, 
+uma vez por rodada, gastar 1 PM após atacar com sua 
+arma de bruxeiro ou lançar um sinal para atirar com 
+ela contra um alvo no alcance da arma.
+
+--- block x0=289 y0=379 x1=513 y1=467 ---
+•	 Entalhador de Runas. Você recebe a habilidade 
+Fabricar Item Mágico (menor), mas demora o dobro 
+do tempo para fazê-lo e paga metade invés de um ter-
+ço do valor do encanto em matéria-prima. No 14º e 
+18º nível, você pode fabricar itens médios e maiores, 
+respectivamente. Pré-requisitos: Armeria do Forte, Int 
+3, treinado em Misticismo, 10º nível de bruxeiro. e
+
+--- block x0=289 y0=467 x1=513 y1=543 ---
+•	 Exegeta de Glifos. Você estuda a escrita arcana 
+para a converter em sinais. Escolha uma magia arca-
+na de 1º círculo, você pode lançar essa magia como 
+um sinal. Você pode pegar esse poder outras vezes 
+para criar sinais com magias diferentes. Pré-requisito: 
+treinado em Misticismo.
+
+--- block x0=289 y0=543 x1=513 y1=583 ---
+•	 Exótico. Você é um bruxeiro comum que lida 
+com qualquer arma, podendo transformar qualquer 
+arma corpo a corpo em uma arma de bruxeiro.
+
+--- block x0=289 y0=584 x1=513 y1=672 ---
+•	 Exterminador. Escolha entre humanoides ou 
+não-humanoides, você pode gastar 2 PM para, até 
+o fim da cena, receber +1d8 pontos de dano contra 
+criaturas do tipo escolhido com sua arma de bruxei-
+ro — uma vez por ataque, por rodada. A cada cinco 
+níveis de bruxeiro após o 1º, você pode gastar +1 PM 
+para aumentar esse dano em +1d8.
+
+--- block x0=289 y0=672 x1=513 y1=712 ---
+•	 Fogo Focado. Ao usar o Igni, você pode gastar 
++1 PM para mudar a área do sinal para uma linha de 
+6m. Pré-requisito: 3º nível de bruxeiro. e
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+30
+

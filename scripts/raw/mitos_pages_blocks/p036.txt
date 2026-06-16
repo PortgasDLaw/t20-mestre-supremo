@@ -1,0 +1,147 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=95 ---
+wakizashi. Você se torna proficiente com a arma (se 
+já não for) e a melhora de acordo com a progressão 
+da arma primária. Pré-requisito: Método das Armas.
+
+--- block x0=51 y0=94 x1=275 y1=146 ---
+•	 Arte da Guerra. Você soma sua Sabedoria em 
+Guerra, limitado pelo nível e pode, uma vez por cena, 
+gastar 2 PM para usar essa perícia no lugar de Diplo-
+macia por um teste. Pré-requisito: treinado em Guerra.
+
+--- block x0=51 y0=144 x1=275 y1=185 ---
+•	 Aumento de Atributo. Você recebe +1 em um atri-
+buto. Você pode escolher esse poder várias vezes, mas 
+apenas uma vez por patamar para um mesmo atributo.
+
+--- block x0=51 y0=183 x1=275 y1=283 ---
+•	 Canalizar Energia Neutra. Você pode gastar uma 
+ação padrão e PM para liberar uma onda de energia 
+espiritual em um cone ou linha de 3m — escolhido 
+ao usar o poder. Para cada PM gasto, você causa 1d6 
+pontos de dano de essência (Ref CD Sab reduz à me-
+tade). Para cada meridiano ímpar aberto além o 1º, 
+a área deste poder aumenta em +3m. Pré-requisito: 
+Método da meditação. e
+
+--- block x0=51 y0=283 x1=275 y1=432 ---
+•	 Cem Petalas de Cerejeira. Você pode gastar uma 
+ação completa e 6 PM para transformar uma arma 
+que esteja empunhando em centenas de pétalas 
+cortantes que voam ao seu redor e afetam uma área 
+de 9m de raio a partir de você como um efeito sus-
+tentado. Criaturas que iniciem seus turnos dentro da 
+área sofrem 1d12 (ou 2d6 se a arma usada for de cul-
+tivo) pontos de dano de corte por meridiano aberto. 
+Enquanto sustentar o efeito, você pode gastar uma 
+ação padrão para atacar uma criatura dentro da área, 
+que sofre o dano da habilidade (Ref CD Sab reduz o 
+dano à metade). Pré-requisito: 12º nível de cultivador. 
+
+--- block x0=51 y0=432 x1=275 y1=484 ---
+•	 Conhecimento Místico. Você pode usar Sabedoria 
+como atributo-chave de Misticismo (invés de Inte-
+ligência). Caso já possa fazer isso de alguma outra 
+forma, recebe +2 nesta perícia.
+
+--- block x0=51 y0=484 x1=275 y1=548 ---
+•	 Constelação Rotatória. Os meridianos circulam 
+ao redor do seu Dantian. Para cada meridiano aberto 
+além do 1º, escolha um atributo e o aumente em +1. 
+Você deve escolher um atributo diferente toda vez. 
+Pré-requisito: 4º nível de cultivador. 
+
+--- block x0=51 y0=548 x1=275 y1=588 ---
+•	 Corpo Espiritual. Você pode usar 1 carga de 
+chi ao fazer um teste de Fortitude para somar sua 
+Sabedoria no teste.
+
+--- block x0=51 y0=587 x1=275 y1=639 ---
+•	 Corpo Vazio. Você pode gastar uma ação de 
+movimento e 1 carga de chi para trocar o tipo de 
+dano dos seus ataques desarmados para essência até 
+o fim da cena. Pré-requisito: Método dos Punhos. e
+
+--- block x0=51 y0=638 x1=275 y1=690 ---
+•	 Corte Espiritual. Ao causar dano de corte ou de 
+essência a uma criatura, você pode gastar 1 carga de 
+chi para ignorar até 10 pontos da redução de dano do 
+alvo. Pré-requisito: 8º nível de cultivador.
+
+--- block x0=68 y0=689 x1=275 y1=705 ---
+•	 Dança das Andorinhas. Você pode gastar uma 
+
+--- block x0=289 y0=55 x1=513 y1=119 ---
+ação completa, 6 PM e 1 carga de chi para conjurar um 
+bambuzal ilusório com 30m de raio como um efeito 
+sustentado. Enquanto dentro da área da habilidade, 
+você recebe +6m de deslocamento e camuflagem 
+total. Pré-requisito: 8º nível de cultivador. e
+
+--- block x0=289 y0=119 x1=513 y1=219 ---
+•	 Dragão de Jade. Você aprende e pode lançar 
+a magia Arma de Jade como se tivesse acesso aos 
+mesmos círculos de magia que um cultivador com 
+o método da meditação. Ao abrir seu 7º meridiano, 
+também aprende e pode lançar a magia Katana Ce-
+lestial (atributo-chave Sabedoria). Caso aprenda uma 
+dessas magias novamente, seu custo diminui em –1 
+PM. Pré-requisito: Devoto de Lin-Wu.
+
+--- block x0=289 y0=219 x1=513 y1=319 ---
+•	 Dragão Guerreiro. Você pode gastar 15 PM 
+para se envolver em energia celestial, virando um 
+guerreiro lendário como um efeito sustentado. Você 
+recebe as imunidades de um dragão celestial e a 
+habilidade Presença Celestial (veja Ameaças de Arton, 
+p. 167). Além disso, todo dano que causar tem o tipo 
+mudado para eletricidade. Pré-requisitos: Método dos 
+Punhos, 18º nível de cultivador. e
+
+--- block x0=289 y0=318 x1=513 y1=382 ---
+•	 Espada Celestial. Se sua arma de cultivo for a 
+favorita de sua divindade, você é considerado como 
+tendo a mesma quantidade de meridianos abertos em 
+ambos os métodos que possuir. Pré-requisito: Método 
+da Arte Celestial, Método das Armas.
+
+--- block x0=289 y0=381 x1=513 y1=433 ---
+•	 Espada da Garça. Sua arma de cultivo recebe o 
+encanto dançarina, que não conta no limite. Se a arma 
+já possuir esse encanto, seu alcance aumenta em um 
+passo. Pré-requisito: Método das Armas. e
+
+--- block x0=289 y0=432 x1=513 y1=532 ---
+•	 Espada de Chi. Ao usar Lâmina de Chi, você 
+pode gastar 1 carga de chi para refiná-la em uma 
+espada. Ela recebe +1 em testes de ataque e rolagens 
+de dano por meridiano aberto após o 3º (conta como 
+um bônus de encanto) e pode usar sua Sabedoria 
+em testes de ataque e rolagens de dano, em vez do 
+atributo padrão (não cumulativo com efeitos que so-
+mam este atributo). Pré-requisito: Lâmina de Chi. e
+
+--- block x0=289 y0=531 x1=513 y1=595 ---
+•	 Espada Meditativa. Sua arma de cultivo passa a 
+ser considerada um esotérico, recebendo os efeitos 
+de um esotérico a sua escolha — mas não é conside-
+rado um esotérico para melhorias e encantos. Pré-re-
+quisitos: Método das Armas, Método da Meditação.
+
+--- block x0=289 y0=595 x1=513 y1=707 ---
+•	 Espada Voadora. Você pode gastar uma ação 
+padrão e 5 PM para saltar sobre sua arma de cultivo 
+e receber deslocamento de voo 12m como um efeito 
+sustentado. Você não pode atacar com a arma desta 
+forma, mas pode, após ativar esse efeito, usar uma 
+ação padrão para chutar o pomo da arma, arremes-
+sando-a contra um alvo em alcance curto — o que 
+exige um teste de ataque e encerra o efeito. Pré-re-
+quisitos: Espada da Garça, 10º nível de cultivador. e
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+36
+

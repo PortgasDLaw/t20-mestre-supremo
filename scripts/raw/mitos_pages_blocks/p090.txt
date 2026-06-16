@@ -1,0 +1,123 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=151 x1=142 y1=173 ---
+Andarilho
+
+--- block x0=51 y0=172 x1=275 y1=224 ---
+Você era um viajante, rastreador ou nômade, no 
+geral, uma pessoa que viaja muito por Arton. Graças 
+a isso, você já conheceu muitos povos, sabe muitas 
+rotas e muitos caminhos úteis em suas aventuras.
+
+--- block x0=51 y0=224 x1=275 y1=276 ---
+Benefício. Seu deslocamento aumenta em 
++3m e você recebe a habilidade Rastreador (veja Tor-
+menta20, p. 50). Se obter essa habilidade novamente, 
+você recebe +2 em Investigação e Ladinagem.
+
+--- block x0=51 y0=276 x1=275 y1=333 ---
+Itens. Mochila de aventureiro, equipamento de 
+viagem, ração de viagem x5.
+Anjo de Guerra
+
+--- block x0=51 y0=332 x1=275 y1=432 ---
+Você viveu em Werra entre os anjos de guerra, 
+recebeu a visita de um, ou, no caso mais imprová-
+vel, você é um deles. Esse encontro foi combinado 
+a um treinamento rígido e intenso, que lhe tornou 
+tão habilidoso com uma arma em punhos quanto os 
+próprios guerreiros de Keenn. Atualmente pode ser 
+que esses anjos te treinem em nome de Arsenal, mas 
+o treinamento permanece tão intenso quanto.
+
+--- block x0=51 y0=432 x1=275 y1=508 ---
+Benefício. Você recebe proficiência com armas 
+marciais (se já tiver, recebe com armas exóticas). 
+Além disso, enquanto empunhando uma arma, você 
+recebe +1 em testes de ataque e rolagens de dano. 
+Esse efeito muda para +2 se você for um devoto fiel 
+de Arsenal ou Keen.
+
+--- block x0=51 y0=508 x1=275 y1=577 ---
+Itens. Arma marcial, brunea, insígnia de Werra 
+(conta como um simbolo sagrado e se vestido, forne-
+ce +1 em Guerra — além do efeito normal).
+Aprendiz de Aventureiro
+
+--- block x0=51 y0=576 x1=275 y1=652 ---
+Seus pais foram ou ainda são aventureiros, ou você 
+foi adotado e cuidado por um. Seja ele famoso ou não, 
+ele o mostrou na prática, desde o berço, como é a vida 
+de aventuras, agora, você segue os passos dele, talvez, 
+querendo até mesmo superá-lo para o dar orgulho e 
+inspirar as próximas gerações!
+
+--- block x0=51 y0=652 x1=275 y1=704 ---
+Benefício. Escolha uma habilidade ou magia 
+da sua classe, você aumenta o limite de PM dela 
+em +2. A cada patamar de jogo, você pode trocar a 
+habilidade afetada e o bônus aumenta em +1.
+
+--- block x0=289 y0=151 x1=510 y1=208 ---
+Itens. T$ 50 (dados pelo seu tutor), arma sim-
+ples ou marcial, mochila de aventureiro.
+Assecla Dracônico
+
+--- block x0=289 y0=207 x1=513 y1=319 ---
+Nos domínios de um dragão-real, você era um 
+dos principais pregadores da sua imponência. Você 
+era um dos adeptos e estudiosos da magia da morte 
+de Tarso, um dos muitos filhos de Sckhar, ou quem 
+sabe um dos poucos que ainda acreditam no retorno 
+de Beluhga. De certa forma essa aproximação com 
+os dragões te fez entender melhor as nuâncias dos 
+elementos, e você utiliza isso para ser melhor que 
+outros conjuradores.
+
+--- block x0=289 y0=319 x1=513 y1=371 ---
+Benefício. Escolha um tipo de dano entre 
+ácido, eletricidade, fogo, frio, luz ou trevas, sempre 
+que causa dano do tipo escolhido, ele aumenta em 
++2 pontos.
+
+--- block x0=289 y0=371 x1=513 y1=428 ---
+Itens. Coleção de livros (Misticismo), escama 
+do dragão-real (espaço 2, T$ 1.000).
+Caixeiro Viajante
+
+--- block x0=289 y0=427 x1=513 y1=527 ---
+Você foi ou ainda é um dos vários caixeiros e 
+comerciantes viajantes que parte de além de Arton 
+para vender suas mercadorias dentro ou fora do 
+Reinado. Ou até um viajante curioso que decidiu se 
+estabelecer em algum reino distante para aprender 
+suas técnicas comerciais e vender produtos exóticos. 
+Seja como for, você estabeleceu uma sólida fortuna 
+na qual será útil em suas aventuras.
+
+--- block x0=289 y0=527 x1=513 y1=567 ---
+Benefício. Você tem uma reserva ou negócios 
+que lhe confere dinheiro de maneira passiva. No 
+início de cada aventura, você recebe 5 TO por nível.
+
+--- block x0=289 y0=567 x1=513 y1=624 ---
+Itens. T$ 100 em itens gerais, placa dourada 
+(fornece +2 em testes de Diplomacia para barganha).
+Cerimonialista
+
+--- block x0=289 y0=623 x1=513 y1=711 ---
+Teatros, orquestras ou casas de prazeres, você 
+atuava com serenidade através de peças teatrais ou 
+performances de instrumentos. Você também podia 
+ser um auxiliador ou backing vocal de uma estrela 
+dos teatros tamuranianos, de qualquer modo, isso 
+lhe mostrou que teatro e performance não é apenas 
+sobre rostos bonitos, mas retidão e disciplina.
+
+--- block x0=108 y0=50 x1=453 y1=109 ---
+Novas Origens
+
+--- block x0=6 y0=756 x1=19 y1=767 ---
+90
+

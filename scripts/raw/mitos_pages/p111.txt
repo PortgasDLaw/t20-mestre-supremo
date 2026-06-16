@@ -1,0 +1,94 @@
+Aventureiros de Arton
+Frade
+Absolvição
+Uma vez por aventura, você pode fazer um teste 
+de Religião (CD 25) para, caso passe, revogar uma 
+violação das obrigações & restrições cometidas por 
+uma criatura que possa perceber, como se ela tivesse 
+feito uma penitência. Pré-requisito: Autoridade Eclesi-
+ástica, 10º nível de frade.
+Alvorada Sagrada
+Quando usa um efeito de cura, a criatura afetada 
+por ele recebe um bônus na Defesa e em testes de 
+resistência igual ao círculo máximo de magias que 
+você pode lançar até o fim do próximo turno dela. 
+Pré-requisitos: Mago Branco, devoto de uma divindade 
+que canaliza energia positiva.
+Amplitude da Fé
+Você recebe +2 PM, ou +4 se for devoto de um 
+deus menor (seguindo a limitação de nível presente 
+na regra de PM adicionais). Além disso, você recebe 
++1 PM por nível de frade. Pré-requisito: frade do pan-
+teão ou devoto de um deus menor.
+Compartilhar a Fé
+Se houver um aliado em alcance curto que seja 
+devoto do mesmo deus que você, você pode gastar 2 
+PM para compartilhar um poder concedido seu com 
+ele. O poder compartilhado afeta ambos até o fim da 
+cena (mas poderes iguais não se acumulam). Pré-re-
+quisitos: 13º nível de frade, devoto de um deus maior.
+Confessionário
+Você pode ouvir as confissões dos seus aliados. 
+Em termos de jogo, um aliado em alcance curto pode 
+gastar uma ação completa confessando algo impor-
+tante. Se o mestre considerar a confissão válida, você 
+alivia essa dor, revigorando-o e fornecendo ao aliado 
+que confessou 1d8 PM temporários até o fim da cena. 
+Esse ganho aumenta em +1d8 para cada seis níveis 
+após o 3º.Pré-requisito: 3º nível de frade.
+Cura Acolhedora
+Cura gentil passa a somar seu Carisma em efeitos 
+mundanos de cura. Além disso, se possuir o poder 
+Médico de Campo, ele também passa a afetar efeitos 
+e itens mágicos de cura. Pré-requisito: frade de Lena.
+Fé Incólume
+Não são crenças individuais que irão lhe impedir 
+de demonstrar sua fé. Você anula qualquer restrição 
+por símbolos sagrados visíveis no ambiente para suas 
+habilidades e itens. Isso inclui efeitos que exigem ser 
+devoto da mesma divindade (de certa forma, você é). 
+Pré-requisito: frade do panteão.
+Palavras de Amor
+ Quando faz um teste de Diplomacia para mudar 
+atitude como uma ação completa, você sofre uma 
+penalidade de –5, em vez de –10. Além disso, você 
+pode gastar 2 PM para seu alvo sofrer uma penalida-
+de nos testes de perícia e nas rolagens de dano igual 
+o círculo máximo de magias que você pode lançar. 
+Independente de você falhar ou não no teste. Pré-re-
+quisito: frade de Marah, treinado em Diplomacia.
+Palpite Divino
+Volta e meia, os deuses sussurram no seu ouvi-
+do. Uma vez por rodada, você pode gastar 1 PM para 
+rolar 1d4 e somar o resultado deste dado a um teste 
+de perícia (exceto testes de ataque e resistência). A 
+cada quatro níveis após o 2º, você pode gastar +1 PM 
+para aumentar este dado em um passo.
+Pequeno Aspecto
+Você recebe um familiar associado a divindade 
+na qual é devoto, discuta com o mestre qual tipo 
+de familiar se associa melhor a sua divindade. Se 
+já possuir um familiar, ele tem um seus benefícios 
+dobrados. Pré-requisito: devoto de um deus maior.
+Prece Matinal
+No início de cada dia, escolha uma magia divina 
+aprendida de 1º círculo. Até o fim do dia você pode, 
+uma vez por rodada, lançá-la em sua forma básica 
+como um truque. Para cada seis níveis após o 3º, 
+você pode escolher magias de 2º e 3º círculo, respec-
+tivamente. Pré-requisito: 3º nível de frade.
+Pregação
+O custo em componentes de Oração é reduzido 
+à metade e Bênção passa a acumular com outras ma-
+gias. Pré-requisitos: Bênção, Oração, 10º nível de frade.
+Sacerdote
+Você recebe um poder de clérigo cujos pré-requi-
+sitos cumpra, usando seu nível de frade como nível 
+de clérigo.
+Sacrário da Determinação
+Um aliado que chegue a 0 PV ou menos dentro 
+deste sacrário se mantém consciente por um número 
+de rodadas igual ao círculo máximo de magias que 
+você pode lançar. Esse sacrário só funciona uma vez 
+por cena, por aliado.
+111

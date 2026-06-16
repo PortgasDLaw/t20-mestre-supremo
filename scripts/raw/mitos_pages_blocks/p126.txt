@@ -1,0 +1,136 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=155 y1=72 ---
+Nômade a dois
+
+--- block x0=51 y0=72 x1=275 y1=169 ---
+Você recebe +5 em testes para Acampar — usan-
+do seu melhor amigo como apoio. Além disso, seu 
+melhor amigo passa a ter um limite de carga de 6 
+espaços, com +2 espaços adicionais a cada 1 ponto 
+que ele possuir em Força. Pré-requisito: melhor amigo 
+Grande ou maior.
+Ordens Conjuntas
+
+--- block x0=51 y0=168 x1=275 y1=265 ---
+Você soma seu Carisma na Defesa de seus capan-
+gas obtidos por habilidades e magias e ao gastar uma 
+ação para dar uma ordem ao seu melhor amigo, você 
+recebe uma ação padrão adicional que pode usar para 
+dar ordens aos seus capangas. Pré-requisito: 6º nível 
+de treinador.
+Simbiose Divina
+
+--- block x0=51 y0=265 x1=275 y1=374 ---
+Quando seu melhor amigo estiver no mundo 
+divino dele, você pode usar metade dos truques que 
+ele tem como se fossem habilidades suas (podendo 
+usar Magia Inata sem o melhor amigo está em cena, 
+por exemplo). Fica a critério do mestre quais truques 
+você pode usar com essa habilidade e como ela se 
+adapta a você. Pré-requisito: Amigo Divino. e
+Transposição PLanar
+
+--- block x0=51 y0=374 x1=275 y1=447 ---
+Ao invocar seu melhor amigo para Arton e 
+escolher onde ele irá surgir, quem surge no lugar 
+escolhido é você! O melhor amigo surge onde você 
+estava. Pré-requisito: Amigo Divino. e
+Treinador Arcano
+
+--- block x0=51 y0=447 x1=275 y1=544 ---
+Você aprende e pode lançar as magias Conjurar 
+Capangas e Conjurar Monstro (atributo-chave Ca-
+risma) e pode usar seus aprimoramentos como se 
+tivesse acesso aos mesmos círculos de magia que 
+um feiticeiro de seu nível. Pré-requisito: 5º nível de 
+treinador. e
+Slot Disponível
+
+--- block x0=51 y0=543 x1=275 y1=616 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt. 
+Slot Disponível
+
+--- block x0=51 y0=615 x1=275 y1=686 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt
+Slot Disponível
+
+--- block x0=51 y0=685 x1=272 y1=712 ---
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+
+--- block x0=289 y0=55 x1=513 y1=148 ---
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt. Maecenas consequat dui felis, 
+dictum rutrum est ultrices tincidunt.
+Slot Disponível
+
+--- block x0=289 y0=146 x1=513 y1=250 ---
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt. 
+Slot Disponível
+
+--- block x0=289 y0=249 x1=513 y1=342 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt. Mae-
+cenas consequat dui felis, dictum rutrum est ultrices 
+tincidunt.
+Slot Disponível
+
+--- block x0=289 y0=341 x1=513 y1=434 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt. Mae-
+cenas consequat dui felis, dictum rutrum est ultrices 
+tincidunt. 
+Slot Disponível
+
+--- block x0=289 y0=433 x1=513 y1=526 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt. Mae-
+cenas consequat dui felis, dictum rutrum est ultrices 
+tincidunt.
+Slot Disponível
+
+--- block x0=289 y0=525 x1=513 y1=617 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Maecenas consequat 
+dui felis, dictum rutrum est ultrices tincidunt. Mae-
+cenas consequat dui felis, dictum rutrum est ultrices 
+tincidunt. 
+Slot Disponível
+
+--- block x0=289 y0=616 x1=513 y1=709 ---
+Lorem ipsum dolor sit amet, consectetur adipis-
+cing elit. Maecenas consequat dui felis, dictum ru-
+trum est ultrices tincidunt. Maecenas consequat dui 
+felis, dictum rutrum est ultrices tincidunt. Maecenas 
+consequat dui felis, dictum rutrum est ultrices tinci-
+dunt. Maecenas consequat dui felis, dictum rutrum 
+est ultrices tincidunt. Maecenas consequat dui felis, 
+dictum rutrum est ultrices tincidunt.
+
+--- block x0=5 y0=756 x1=19 y1=767 ---
+126
+

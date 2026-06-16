@@ -1,0 +1,104 @@
+Capítulo Um
+•	 Encostar o Cano. Quando faz um ataque à dis-
+tância com uma arma de fogo contra uma criatura 
+adjacente, você não sofre a penalidade de –5 no teste 
+de ataque e aumenta seu dano em um passo. Pré-re-
+quisito: treinado em Luta.
+•	 Estragar o Velório. Uma vez por rodada, ao 
+derrubar uma criatura enquanto empunha uma arma 
+de fogo, você pode gastar 2 PM para fazer um ataque 
+à distância com a arma de fogo, mas não sofre a pe-
+nalidade pelo alvo estar caído. Pré-requisito: 12º nível 
+de vaqueiro, Encostar o Cano.
+•	 Gatilho Rápido. Você soma seu Carisma na 
+Iniciativa. Além disso, no seu primeiro turno de um 
+combate, ao sacar uma arma de fogo, você pode gastar 
+3 PM para realizar um ataque à distância como parte 
+da mesma ação e o alvo fica desprevenido contra este 
+ataque. Pré-requisito: 6º nível de vaqueiro.
+•	 Mestre do Laço. Você pode agarrar e desarmar 
+criaturas em alcance curto quando empunhando 
+uma corda ou chicote. Além disso, ao agarrar uma 
+criatura com uma corda ou chicote, você pode gastar 
+1 PM para torná-la adjacente a você.
+•	 Modão de Viola. Se estiver empunhando um 
+instrumento musical de cordas (como um alaúde) 
+com as duas mãos, você pode gastar uma 1 hora 
+tocando músicas para revigorar o seu ânimo e de 
+seus aliados. Eles recuperam +1 PV por nível em seu 
+próximo descanso feito até o fim do dia. Pré-requisito: 
+treinado em Atuação.
+•	 Odeio Gente Barulhenta. Você recebe +5 na Per-
+cepção e nas suas rolagens de dano contra criaturas 
+que tenham feito uma ação muito chamativa na cena. 
+O mestre tem a palavra final sobre o que é uma ação 
+que se enquadre nessa descrição.
+•	 Peixeira. Adagas e espadas são "peixeiras" pra 
+você e são afetadas pela habilidade Chapeu de Va-
+queiro. Além disso, você pode sacar e guardar essas 
+armas como uma ação livre, se já puder fazer isso 
+de outra forma, recebe +2 em testes de ataque com 
+essas armas após sacá-las.
+•	 Pólvora Cangaceira. Ao usar uma bomba, você 
+pode gastar 3 PM para fazer com que ela seja mais 
+potente. Ela causa +3d6 pontos de dano de fogo as 
+criaturas atingidas em chamas. Alvos que passem no 
+teste de Reflexos evitam essa condição. Pré-requisito: 
+Cobrir de Pólvora.
+•	 Puxar pelo Laço. Ao fazer uma manobra desar-
+mar bem sucedida contra uma criatura usando um 
+chicote ou corda, você pode gastar 2 PM para puxar 
+o item até você. Pegar o item é uma reação. Pré-requi-
+sito: Mestre do Laço.
+•	 Rir da Cara do Perigo. Sempre que sofrer dano 
+enquanto montado e usando um chapéu, você pode 
+gastar uma quantidade de PM limitado pelo seu 
+Carisma. Para cada PM gasto, você reduz esse dano 
+em 10. Pré-requisito: 5º nível de vaqueiro.
+•	 Sertanejo. Você está acostumado com lugares 
+áridos e climas quentes, recebendo +5 em testes 
+de resistência contra efeitos relacionados ao calor 
+(incluindo magias) e redução de fogo 5.
+•	 Tempo da Bala. Você pode gastar uma ação 
+completa e 6 PM para que o tempo pareça se mover 
+devagar para você. Todas as criaturas no alcance da 
+arma de fogo que estiver empunhando sofrem um 
+ataque à distância, você gasta balas normalmente e as 
+habilidades usadas vale para todos os ataques, após 
+isso, deve gastar a rodada seguinte recarregando sua 
+arma. Pré-requisito: 17º nível de vaqueiro.
+•	 Tiro de Aviso. Você pode gastar uma ação pa-
+drão e 1 bala para dar um tiro para o alto. Criaturas 
+dentro do alcance da sua arma se jogam no chão e 
+ficam caídas (Von CD Int evita o efeito e a criatura 
+fica imune a esta habilidade por 1 dia). Medo.
+•	 Tiro de Incapacitação. Você pode, uma vez por 
+rodada, como reação a um ataque feito por um inimi-
+go, gastar 3 PM e 1 bala para fazer um teste de ataque 
+oposto ao do inimigo, se você vencer, ele perde a ação 
+e você recarrega a arma.
+•	 Tiro na Cabeça. Ao mirar com uma arma de 
+fogo, você pode gastar 3 PM. Se fizer isso, seu próxi-
+mo ataque feito contra o alvo tem o dano aumentado 
+em dois passos. Se estiver usando a regra de Efeitos 
+Críticos (veja Heróis de Arton, p. 298), o ataque acerta 
+a cabeça com um resultado 9 a 10. Pré-requisito: Sab 3.
+•	 Tomou no Chapéu. Ao sofrer um ataque que lhe 
+reduziria a 0 PV ou menos enquanto estiver vestindo 
+um chapéu, você pode gastar 5 PM para evitar o 
+efeito, mas o seu chapéu é destruído.
+•	 Traje de Vaqueiro. Você soma seu Carisma na 
+Defesa, limitado pelo seu nível, mas apenas quando 
+usando armaduras feitas de couro ou o colete fora da 
+lei. Pré-requisito: 8º nível de vaqueiro.
+•	 Valhacouto. Sempre que fica em uma comu-
+nidade por pelo menos um dia, você recebe hospe-
+dagem e alimentação gratuita — equivalente a um 
+descanso confortável — proporcionada pelos seus 
+jagunços. Pré-requisito: Bandoleiro.
+•	 Vigilante das Estradas. Ao viajar montado (in-
+cluindo Jornadas pelos Ermos), você recebe +2 em 
+todos os seus testes. Além disso, após uma viagem 
+do tipo, você recebe +2 na Defesa e em Percepção e 
+Reflexos até o fim do dia.
+56

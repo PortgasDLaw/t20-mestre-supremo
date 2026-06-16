@@ -1,0 +1,198 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=107 ---
+o foco de sua prática não é com espadas ou com a 
+meditação, mas sim com o aperfeiçoamento de seu 
+corpo a ponto dele se tornar um escudo impenetrável 
+e tão rígido quanto uma armadura de adamante.
+
+--- block x0=51 y0=107 x1=275 y1=266 ---
+É dito que o hanuman mais poderoso conseguia 
+conter um meteoro com o peito nu, mas uma curiosi-
+dade é que o gentílico 'vajra' é para hanumans mulhe-
+res. O motivo é um tanto simples, a postura imóvel 
+de vajra foi criada por uma amazona tamuraniana de 
+mesmo nome. que imaginam ser uma deusa menor 
+(algo extremamente incomum em Tamu-ra, não o 
+fato dela ser mulher, mas deusa menor).
+Características de 
+Classe
+Pontos de Vida. Como o lutador básico.
+
+--- block x0=68 y0=265 x1=256 y1=281 ---
+Pontos de Mana. Como o lutador básico.
+
+--- block x0=68 y0=280 x1=215 y1=296 ---
+Perícias. Como o lutador básico.
+
+--- block x0=51 y0=296 x1=253 y1=341 ---
+Proficiências. Como o lutador básico.
+Habilidades de Classe
+
+--- block x0=51 y0=340 x1=275 y1=368 ---
+Cultivo. Você recebe essa habilidade como o 
+cultivador (p. @@).
+
+--- block x0=51 y0=368 x1=275 y1=396 ---
+Nei Gong. Você recebe essa habilidade como o 
+cultivador, mas escolhe o Método dos Punhos.
+
+--- block x0=51 y0=396 x1=275 y1=425 ---
+Poder de Lutador. A partir do 2º nível, você 
+recebe essa habilidade como o lutador básico.
+
+--- block x0=51 y0=425 x1=275 y1=477 ---
+Postura Imóvel. A partir do 4º nível, enquan-
+to possuir ao menos 1 carga de chi, você recebe +1 
+na Defesa e em testes de resistência por meridiano 
+ímpar aberto. e
+
+--- block x0=51 y0=477 x1=275 y1=505 ---
+Palma Afiada. No 6º nível, você recebe +1 na 
+margem de ameaça com seus ataques desarmados.
+
+--- block x0=51 y0=505 x1=275 y1=545 ---
+Escudo dos Reinos. A partir do 8º nível, se 
+não estiver usando armadura pesada, você soma sua 
+Sabedoria na Defesa, limitado pelo nível.
+
+--- block x0=51 y0=545 x1=275 y1=586 ---
+Palma Contundente. No 12º nível, você re-
+cebe +1 no multiplicador de crítico dos seus ataques 
+desarmados.
+
+--- block x0=51 y0=586 x1=275 y1=650 ---
+Palma Divina. A partir do 14º nível, ao realizar 
+um acerto crítico desarmado, o alvo do ataque fica 
+atordoado por 1 rodada ou sangrando, a sua escolha 
+(Fort CD For evita). Essa habilidade só funciona uma 
+vez por cena, por criatura. e
+
+--- block x0=51 y0=650 x1=275 y1=702 ---
+Destruidor de Mundos. No 20º nível, seu 
+dano desarmado aumenta em mais um passo. Além 
+disso, você pode gastar uma ação completa e 10 PM 
+para convocar dois braços etéreos até o fim da cena. 
+
+--- block x0=289 y0=55 x1=513 y1=119 ---
+Eles não podem empunhar itens. Enquanto manter 
+essa habilidade, seu alcance natural aumenta em 
++3m e você pode gastar 2 PM, uma vez por rodada, 
+por braço, para realizar um ataque desarmado como 
+uma ação livre. e
+
+--- block x0=289 y0=134 x1=418 y1=168 ---
+xTreinadorx
+Maquinista
+
+--- block x0=289 y0=170 x1=513 y1=198 ---
+"Minhas máquinas sairão dos trilhos no meu trem 
+da insanidade!"
+
+--- block x0=289 y0=200 x1=513 y1=288 ---
+Enquanto inventores normais podem até mesmo 
+pilotar veículos com formas humanoides equipados 
+com as mais variadas bugigangas, e treinadores 
+podem domar os mais diversos tipos de criaturas, 
+os maquinistas estão simplesmente preocupados em 
+dar vida aos mais insanos maquinários que puderem 
+comandar e utilizar para lutar ao seu lado.
+
+--- block x0=289 y0=288 x1=513 y1=340 ---
+Dotados de um grande intelecto acima do seu 
+grande carisma, os maquinistas podem passar vários 
+dias produzindo as mais diversas peças de meca-
+nização autônoma, podendo ir de pequenos robôs 
+
+--- block x0=324 y0=357 x1=475 y1=376 ---
+Tabela 1-17: O Maquinista
+
+--- block x0=294 y0=379 x1=484 y1=393 ---
+Nível
+Habilidades de Classe
+
+--- block x0=305 y0=396 x1=489 y1=418 ---
+1º
+Direcionar, maquinários (1º círculo), meu 
+amigo robô
+
+--- block x0=305 y0=421 x1=404 y1=432 ---
+2º
+Poder de treinador
+
+--- block x0=305 y0=436 x1=457 y1=447 ---
+3º
+Código-fonte, poder de treinador
+
+--- block x0=305 y0=451 x1=404 y1=462 ---
+4º
+Poder de treinador
+
+--- block x0=305 y0=465 x1=492 y1=477 ---
+5º
+Poder de treinador, robótica especializada
+
+--- block x0=305 y0=480 x1=497 y1=491 ---
+6º
+Maquinários (2º círculo), poder de treinador
+
+--- block x0=305 y0=495 x1=404 y1=506 ---
+7º
+Poder de treinador
+
+--- block x0=305 y0=510 x1=404 y1=521 ---
+8º
+Poder de treinador
+
+--- block x0=305 y0=524 x1=404 y1=536 ---
+9º
+Poder de treinador
+
+--- block x0=303 y0=539 x1=487 y1=550 ---
+10º
+Aceleração mecânica, poder de treinador
+
+--- block x0=303 y0=554 x1=404 y1=565 ---
+11º
+Poder de treinador
+
+--- block x0=303 y0=569 x1=497 y1=580 ---
+12º
+Maquinários (3º círculo), poder de treinador
+
+--- block x0=303 y0=583 x1=404 y1=595 ---
+13º
+Poder de treinador
+
+--- block x0=303 y0=598 x1=404 y1=609 ---
+14º
+Poder de treinador
+
+--- block x0=303 y0=613 x1=404 y1=624 ---
+15º
+Poder de treinador
+
+--- block x0=303 y0=628 x1=404 y1=639 ---
+16º
+Poder de treinador
+
+--- block x0=303 y0=642 x1=404 y1=654 ---
+17º
+Poder de treinador
+
+--- block x0=303 y0=657 x1=404 y1=668 ---
+18º
+Poder de treinador
+
+--- block x0=303 y0=672 x1=404 y1=683 ---
+19º
+Poder de treinador
+
+--- block x0=303 y0=687 x1=454 y1=698 ---
+20º
+Automatron, poder de treinador
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+68
+

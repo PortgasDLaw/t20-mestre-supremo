@@ -1,0 +1,132 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=141 y1=82 ---
+Frade
+
+--- block x0=71 y0=87 x1=146 y1=104 ---
+Absolvição
+
+--- block x0=71 y0=104 x1=295 y1=201 ---
+Uma vez por aventura, você pode fazer um teste 
+de Religião (CD 25) para, caso passe, revogar uma 
+violação das obrigações & restrições cometidas por 
+uma criatura que possa perceber, como se ela tivesse 
+feito uma penitência. Pré-requisito: Autoridade Eclesi-
+ástica, 10º nível de frade.
+Alvorada Sagrada
+
+--- block x0=71 y0=201 x1=295 y1=298 ---
+Quando usa um efeito de cura, a criatura afetada 
+por ele recebe um bônus na Defesa e em testes de 
+resistência igual ao círculo máximo de magias que 
+você pode lançar até o fim do próximo turno dela. 
+Pré-requisitos: Mago Branco, devoto de uma divindade 
+que canaliza energia positiva.
+Amplitude da Fé
+
+--- block x0=71 y0=298 x1=295 y1=383 ---
+Você recebe +2 PM, ou +4 se for devoto de um 
+deus menor (seguindo a limitação de nível presente 
+na regra de PM adicionais). Além disso, você recebe 
++1 PM por nível de frade. Pré-requisito: frade do pan-
+teão ou devoto de um deus menor.
+Compartilhar a Fé
+
+--- block x0=71 y0=383 x1=295 y1=479 ---
+Se houver um aliado em alcance curto que seja 
+devoto do mesmo deus que você, você pode gastar 2 
+PM para compartilhar um poder concedido seu com 
+ele. O poder compartilhado afeta ambos até o fim da 
+cena (mas poderes iguais não se acumulam). Pré-re-
+quisitos: 13º nível de frade, devoto de um deus maior.
+Confessionário
+
+--- block x0=71 y0=479 x1=295 y1=600 ---
+Você pode ouvir as confissões dos seus aliados. 
+Em termos de jogo, um aliado em alcance curto pode 
+gastar uma ação completa confessando algo impor-
+tante. Se o mestre considerar a confissão válida, você 
+alivia essa dor, revigorando-o e fornecendo ao aliado 
+que confessou 1d8 PM temporários até o fim da cena. 
+Esse ganho aumenta em +1d8 para cada seis níveis 
+após o 3º.Pré-requisito: 3º nível de frade.
+Cura Acolhedora
+
+--- block x0=71 y0=600 x1=295 y1=673 ---
+Cura gentil passa a somar seu Carisma em efeitos 
+mundanos de cura. Além disso, se possuir o poder 
+Médico de Campo, ele também passa a afetar efeitos 
+e itens mágicos de cura. Pré-requisito: frade de Lena.
+Fé Incólume
+
+--- block x0=71 y0=673 x1=295 y1=713 ---
+Não são crenças individuais que irão lhe impedir 
+de demonstrar sua fé. Você anula qualquer restrição 
+por símbolos sagrados visíveis no ambiente para suas 
+
+--- block x0=309 y0=55 x1=533 y1=116 ---
+habilidades e itens. Isso inclui efeitos que exigem ser 
+devoto da mesma divindade (de certa forma, você é). 
+Pré-requisito: frade do panteão.
+Palavras de Amor
+
+--- block x0=309 y0=115 x1=533 y1=236 ---
+ Quando faz um teste de Diplomacia para mudar 
+atitude como uma ação completa, você sofre uma 
+penalidade de –5, em vez de –10. Além disso, você 
+pode gastar 2 PM para seu alvo sofrer uma penalida-
+de nos testes de perícia e nas rolagens de dano igual 
+o círculo máximo de magias que você pode lançar. 
+Independente de você falhar ou não no teste. Pré-re-
+quisito: frade de Marah, treinado em Diplomacia.
+Palpite Divino
+
+--- block x0=309 y0=236 x1=533 y1=333 ---
+Volta e meia, os deuses sussurram no seu ouvi-
+do. Uma vez por rodada, você pode gastar 1 PM para 
+rolar 1d4 e somar o resultado deste dado a um teste 
+de perícia (exceto testes de ataque e resistência). A 
+cada quatro níveis após o 2º, você pode gastar +1 PM 
+para aumentar este dado em um passo.
+Pequeno Aspecto
+
+--- block x0=309 y0=333 x1=533 y1=418 ---
+Você recebe um familiar associado a divindade 
+na qual é devoto, discuta com o mestre qual tipo 
+de familiar se associa melhor a sua divindade. Se 
+já possuir um familiar, ele tem um seus benefícios 
+dobrados. Pré-requisito: devoto de um deus maior.
+Prece Matinal
+
+--- block x0=309 y0=418 x1=533 y1=515 ---
+No início de cada dia, escolha uma magia divina 
+aprendida de 1º círculo. Até o fim do dia você pode, 
+uma vez por rodada, lançá-la em sua forma básica 
+como um truque. Para cada seis níveis após o 3º, 
+você pode escolher magias de 2º e 3º círculo, respec-
+tivamente. Pré-requisito: 3º nível de frade.
+Pregação
+
+--- block x0=309 y0=515 x1=533 y1=575 ---
+O custo em componentes de Oração é reduzido 
+à metade e Bênção passa a acumular com outras ma-
+gias. Pré-requisitos: Bênção, Oração, 10º nível de frade.
+Sacerdote
+
+--- block x0=309 y0=575 x1=533 y1=636 ---
+Você recebe um poder de clérigo cujos pré-requi-
+sitos cumpra, usando seu nível de frade como nível 
+de clérigo.
+Sacrário da Determinação
+
+--- block x0=309 y0=636 x1=533 y1=700 ---
+Um aliado que chegue a 0 PV ou menos dentro 
+deste sacrário se mantém consciente por um número 
+de rodadas igual ao círculo máximo de magias que 
+você pode lançar. Esse sacrário só funciona uma vez 
+por cena, por aliado.
+
+--- block x0=563 y0=756 x1=572 y1=767 ---
+111
+

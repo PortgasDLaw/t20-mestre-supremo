@@ -1,0 +1,101 @@
+Capítulo Um
+Poderes de Classe
+•	 Ameaça das Trevas. Ao usar Obliterar, você pode 
+gastar +2 PM para aumentar sua margem de ameaça 
+com a arma empunhada em +2. Pré-requisitos: Oblite-
+rar, Recruta das Trevas (batalhão das armas).
+•	 Arma da Perdição. Ao fazer um ataque onde 
+Força do Oblívio se aplica, você pode gastar 2 PM 
+para trocar o tipo de dano causado por trevas.
+•	 Arma Profana. Ao usar Obliterar, o dano da 
+arma afetada aumenta em um passo. Pré-requisitos: 
+Obliterar, Recruta das Trevas (batalhão das armas).
+•	 Armas Dracônicas. Suas habilidades de mirmi-
+dão passam a funcionar com ataques desarmados e 
+com armas naturais. Pré-requisito: Recruta das Trevas 
+(batalhão das escamas).
+•	 Armeiro Sombrio. Você recebe proficiência 
+com armas de fogo e suas habilidades de mirmidão 
+passam a funcionar com essas armas. Pré-requisitos: 
+Recruta das Trevas, Sincretismo Bélico (batalhão das 
+armas e das sombras).
+•	 Ascenção das Trevas. Você aprende uma magia 
+de 4º círculo. Além disso, você é considerando como 
+podendo lançar magias de 4º círculo para cumprir 
+pré-requisitos e para suas habilidades de mirmidão. 
+Pré-requisito: 14º nível de Mirmidão. e
+•	 Aumento de Atributo. Você recebe +1 em um atri-
+buto. Você pode escolher esse poder várias vezes, mas 
+apenas uma vez por patamar para um mesmo atributo.
+•	 Coletor da Dor. Uma vez por rodada, para cada 
+10 pontos de trevas causado à uma criatura viva den-
+tro do mesmo efeito, você recebe +1 na Defesa até 
+o início do seu próximo turno, limitado pelo círculo 
+máximo de magias que você pode lançar.
+•	 Comandante das Trevas. Você recebe o treina-
+mento aprimorado do seu batalhão de Umbralar. Pré-
+-requisitos: Recruta das Trevas, 6º nível de Mirmidão.
+•	 Corromper a Luz. Você pode aprender magias 
+que causam dano de luz e/ou fogo como se fossem 
+divinas e alterando sua escola para necromancia. Ao 
+fazer isso, o dano de luz causado por essas magias é 
+convertido para trevas e o de fogo é convertido para 
+frio. Magias que apliquem a condição em chamas 
+muda para a condição lento. Pré-requisito: Recruta das 
+Trevas (batalhão das escamas).
+•	 Descanso Póstumo. Quando vai descansar, você 
+pode transformar sua armadura em um sarcófago de 
+metal que lhe concede descanso confortável — in-
+cluindo para mortos-vivos. Pré-requisito: Recruta das 
+Trevas (batalhão das sombras).
+•	 Destruidor. Quando causa dano com uma arma 
+corpo a corpo de duas mãos, você pode rolar nova-
+mente qualquer resultado 1 ou 2 da rolagem de dano 
+da arma. Pré-requisito: For 1.
+•	 Domínio da Alma. Uma vez por rodada, se esti-
+ver sustentando Conjurar Mortos-Vivos e uma criatura 
+em alcance curto morrer, você pode gastar 1 PM para 
+que ela se torne um capanga do tipo conjurado pela 
+magia. Pré-requisito: Conjurar Mortos-Vivos. e
+•	 Escudeiro das Trevas. Se estiver empunhando 
+um escudo, ele recebe uma quantidade de melhorias 
+e encantos igual à metade do que sua armadura 
+maldita possui. Além disso, Força do Oblívio passa 
+a aplicar seus efeitos em ataques com escudo. Pré-re-
+quisito: Recruta das Trevas (batalhão dos juízes).
+•	 Especialização em Armadura. Você recebe re-
+dução de dano 5 se estiver usando uma armadura 
+pesada (cumulativo com a RD fornecida por Rei 
+Sombrio). Pré-requisito: 12º nível de mirmidão.
+•	 Estrela da Manhã. Se estiver empunhando uma 
+arma corpo a corpo de duas mãos, suas mãos são 
+consideradas livres para lançar magias e, uma vez 
+por rodada, ao lançar uma magia, você pode gastar 
+2 PM para fazer um ataque com a arma empunhada. 
+Pré-requisito: Impacto Sombrio, 6º nível de mirmidão.
+•	 General das Trevas. Você recebe o treinamento 
+superior do seu batalhão de Umbralar. Pré-requisitos: 
+Comandante das Trevas, 11º nível de Mirmidão.
+•	 Golpe do Juíz. Você pode gastar 1 PM para mu-
+dar o tipo de dano de Força do Oblívio para essência 
+por um ataque. Pré-requisito: Comandante das Trevas 
+(batalhão dos juízes).
+•	 Golpe Preciso. Ao fazer um ataque empunhando 
+uma arma corpo a corpo, você pode gastar 2 PM para 
+somar sua Inteligência neste teste.
+•	 Golpe Umbral. Uma vez por cena por criatura, 
+ao realizar um acerto crítico, a criatura atingida fica 
+cega por 1d4 rodadas (Fort CD Int evita). Pré-requisi-
+to: Impacto Sombrio. e
+•	 Impacto Sombrio. Se estiver empunhando uma 
+arma corpo a corpo, você recebe um bônus em testes 
+de ataque e rolagens de dano igual ao círculo máximo 
+de magias que pode lançar. e
+•	 Indestrutível. Uma vez por cena, se estiver ves-
+tindo uma armadura pesada e sofrer um dano que lhe 
+deixaria com 0 PV ou menos, você pode gastar 5 PM 
+para evitá-lo. Pré-requisitos: 13º nível de Mirmidão.
+•	 Inércia do Aço. Quando acerta um ataque com 
+uma arma de duas mãos em uma criatura, você pode 
+gastar 3 PM para causar metade do dano desse ataque 
+50

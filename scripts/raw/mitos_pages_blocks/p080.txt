@@ -1,0 +1,191 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=131 ---
+Fera Primal. A partir do 3º nível, quando usa 
+Forma Selvagem, você aumenta um de seus benefí-
+cios em +1 (ou em +3m, ou o dano de uma arma 
+natural em um passo). Além disso, a partir do 7º 
+nível, você passa a somar sua Sabedoria no seu total 
+de pontos de vida.
+
+--- block x0=51 y0=131 x1=275 y1=195 ---
+Polimorfia Real. A partir do 11º nível, Forma 
+Selvagem e habilidades que interage com este poder 
+tem seu custo reduzido em –1 PM (cumulativo com 
+outras reduções de custo). Além disso, você pode 
+manter sua Forma Selvagem mesmo inconsciente.
+
+--- block x0=51 y0=195 x1=275 y1=271 ---
+Predador Primal. No 20º nível, ao usar 
+Forma Selvagem, o dano das suas armas naturais 
+aumentam em um passo e passam a ignorar até 5 
+pontos de redução de dano. Esses efeitos dobram 
+quando em terrenos naturais, incluindo os forneci-
+dos por Faro Predatório (exceto o alcance do faro).
+
+--- block x0=51 y0=286 x1=244 y1=324 ---
+xBárbarox
+Presa de Sangue
+
+--- block x0=68 y0=325 x1=232 y1=341 ---
+"A magia corre furiosa em meu sangue!"
+
+--- block x0=51 y0=342 x1=275 y1=430 ---
+Bárbaros da presa de sangue são um espécime 
+raro de guerreiros tribais, é comum ver druidas e 
+xamãs usando magias fornecida pelos seus deuses 
+para defender suas tribos e lutar. Bárbaros comuns 
+também tem um pouco disso, canalizando magia 
+através de totens sagrados, no entanto, são claramen-
+te limitados. Isso não se aplica aos presa de sangue.
+
+--- block x0=51 y0=430 x1=275 y1=530 ---
+Munidos de um sangue mágico, para eles, a magia 
+é algo natural, assim como é para um feiticeiro que 
+adestrou sua magia interna. Porém, para um presa de 
+sangue, a magia é algo instintivo, primal, eles conse-
+guem canalizar esse poder mágico mesmo sob efeito 
+de sua furia. Através dessas insanas capacidades, eles 
+conseguem lutar em um misto de magia arcana inata 
+e golpes poderosos como um típico bárbaro.
+
+--- block x0=51 y0=539 x1=235 y1=577 ---
+Características de 
+Classe
+
+--- block x0=51 y0=579 x1=275 y1=619 ---
+Pontos de Vida. Um presa de sangue começa 
+com 20 pontos de vida + Constituição e ganha 5 PV 
++ Constituição por nível.
+
+--- block x0=68 y0=619 x1=223 y1=635 ---
+Pontos de Mana. 4 PM por nível.
+
+--- block x0=51 y0=635 x1=275 y1=712 ---
+Perícias. Luta (For) e Misticismo (Int), mais 4 
+a sua escolha entre Adestramento (Car), Atletismo 
+(For), Cavalgar (Des), Fortitude (Con), Iniciativa 
+(Des), Intimidação (Car), Ofício (Int), Percepção 
+(Sab), Pontaria (Des), Sobrevivência (Sab), Religião 
+(Sab) e Vontade (Sab).
+
+--- block x0=289 y0=429 x1=497 y1=474 ---
+Proficiências. Armas Marciais e Escudos.
+Habilidades de Classe
+
+--- block x0=289 y0=472 x1=513 y1=573 ---
+Fúria Mística. Você pode gastar 2 PM para 
+entrar em uma fúria racionalizada pela magia arcana. 
+Até o fim da cena, você recebe um bônus em testes 
+de ataque e rolagens de dano corpo a corpo, além de 
+na CD das suas magias igual a 1 + o círculo máximo 
+de magias que você pode lançar. Essa habilidade 
+conta como Fúria (veja Tormenta20, p. 41) para pré-
+-requisitos e efeitos de poderes de bárbaro. e
+
+--- block x0=289 y0=573 x1=513 y1=649 ---
+Herança de Sangue. Você recebe a herança 
+básica de uma linhagem do feiticeiro (veja Tormen-
+ta20, p. 39) a sua escolha, que uma vez feita, não 
+pode ser mudada. No 7º nível, recebe a herança 
+aprimorada da linhagem escolhida, e no 15º nível, 
+recebe a herança superior.
+
+--- block x0=289 y0=649 x1=513 y1=701 ---
+Magias. Você pode lançar magias arcanas de 
+1º círculo. À medida que sobe de nível, pode lançar 
+magias de círculos maiores (2º círculo no 6º nível, 3º 
+círculo no 10º nível e 4º círculo no 14º nível).
+
+--- block x0=308 y0=64 x1=491 y1=83 ---
+Tabela 1-26: O Presa de Sangue
+
+--- block x0=294 y0=86 x1=484 y1=99 ---
+Nível
+Habilidades de Classe
+
+--- block x0=293 y0=102 x1=460 y1=124 ---
+1º
+Fúria mística, herança de sangue, 
+magias (1º círculo)
+
+--- block x0=293 y0=128 x1=399 y1=139 ---
+2º
+Poder de bárbaro
+
+--- block x0=293 y0=142 x1=459 y1=154 ---
+3º
+Poder de bárbaro, sangue místico
+
+--- block x0=293 y0=157 x1=399 y1=169 ---
+4º
+Poder de bárbaro
+
+--- block x0=293 y0=172 x1=480 y1=183 ---
+5º
+Poder de bárbaro, tatuagens de sangue
+
+--- block x0=293 y0=187 x1=471 y1=198 ---
+6º
+Magias (2º círculo), poder de bárbaro
+
+--- block x0=293 y0=202 x1=480 y1=213 ---
+7º
+Herança aprimorada, poder de bárbaro
+
+--- block x0=293 y0=216 x1=399 y1=228 ---
+8º
+Poder de bárbaro
+
+--- block x0=293 y0=231 x1=496 y1=243 ---
+9º
+Poder de bárbaro, tatuagens de sangue (+2)
+
+--- block x0=293 y0=246 x1=471 y1=257 ---
+10º
+Magias (3º círculo), poder de bárbaro
+
+--- block x0=293 y0=261 x1=399 y1=272 ---
+11º
+Poder de bárbaro
+
+--- block x0=293 y0=275 x1=399 y1=287 ---
+12º
+Poder de bárbaro
+
+--- block x0=293 y0=290 x1=496 y1=302 ---
+13º
+Poder de bárbaro, tatuagens de sangue (+4)
+
+--- block x0=293 y0=305 x1=471 y1=316 ---
+14º
+Magias (4º círculo), poder de bárbaro
+
+--- block x0=293 y0=320 x1=467 y1=331 ---
+15º
+Herança superior, poder de bárbaro
+
+--- block x0=293 y0=334 x1=399 y1=346 ---
+16º
+Poder de bárbaro
+
+--- block x0=293 y0=349 x1=496 y1=361 ---
+17º
+Poder de bárbaro, tatuagens de sangue (+6)
+
+--- block x0=293 y0=364 x1=399 y1=375 ---
+18º
+Poder de bárbaro
+
+--- block x0=293 y0=379 x1=399 y1=390 ---
+19º
+Poder de bárbaro
+
+--- block x0=293 y0=393 x1=459 y1=405 ---
+20º
+Fúria explosiva, poder de bárbaro
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+80
+

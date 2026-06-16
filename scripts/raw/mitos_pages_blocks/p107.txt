@@ -1,0 +1,132 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=178 y1=72 ---
+Slot Disponível
+
+--- block x0=71 y0=72 x1=295 y1=157 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=156 x1=295 y1=241 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=71 y0=241 x1=295 y1=302 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt.
+Slot Disponível
+
+--- block x0=71 y0=302 x1=295 y1=404 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut 
+mi cursus dictum. Quisque a lectus ut mi cursus 
+dictum. Nam at odio.
+Clérigo
+
+--- block x0=71 y0=409 x1=183 y1=426 ---
+Amplitude da Fé
+
+--- block x0=71 y0=426 x1=295 y1=511 ---
+Você recebe +2 PM, ou +4 se for devoto de um 
+deus menor (seguindo a limitação de nível presente 
+na regra de PM adicionais). Além disso, você recebe 
++1 PM por nível de clérigo. Pré-requisito: clérigo do 
+panteão ou devoto de um deus menor.
+Anjo Guardião
+
+--- block x0=71 y0=511 x1=295 y1=619 ---
+Você passa a ser acompanhado por um celestial 
+invisível enviado por sua divindade para protegê-lo. 
+Quando sofre um efeito que reduz seus pontos de 
+vida a 0 ou menos, você pode fazer com que seu anjo 
+guardião atue em sua proteção. O efeito é evitado 
+mas o anjo fica incapaz de protegê-lo até o início do 
+próximo dia. Pré-requisito: 11º nível de clérigo.
+Anular Milagre
+
+--- block x0=71 y0=619 x1=295 y1=707 ---
+Uma vez por rodada, caso perceba uma criatura 
+devota de uma divindade lançando uma magia divi-
+na, você pode fazer um teste de Religião oposto a 
+Vontade desta criatura. Se ela falhar, a magia não é 
+lançada e você recupera uma quantidade de PM igual 
+ao custo básico da magia que anulou. Pré-requisito: 
+12º nível de clérigo. e
+
+--- block x0=309 y0=55 x1=406 y1=72 ---
+Arma Austera
+
+--- block x0=309 y0=72 x1=533 y1=181 ---
+Você pode gastar 1 hora de trabalho para 
+encaixar um esotérico que afete magias divinas 
+em uma arma, desde que ela seja a favorita de sua 
+divindade. Ao fazer isso, a mão em que empunha a 
+arma é considerada livre para lançar magias e toda 
+magia lançada através da arma recebe os efeitos do 
+esotérico encaixado.
+Arma Divina
+
+--- block x0=309 y0=180 x1=533 y1=277 ---
+Ao usar Abençoar Arma em uma arma obtida 
+através de um poder ou habilidade de clérigo, você 
+permanece somando sua Força ou Destreza aos testes 
+de ataque e rolagens de dano da arma, mesmo que 
+troque o atributo-chave por Sabedoria. Pré-requisitos: 
+Abençoar Arma, Presente dos Deuses. e
+Arma Extraplanar
+
+--- block x0=309 y0=277 x1=533 y1=386 ---
+Escolha uma arma favorita de sua divindade que 
+esteja empunhando, você a vincula ao mundo divino 
+de sua divindade ou no Éter Entre Mundos, fazendo 
+ela não ocupar mais espaços no seu inventário. Você 
+pode invocá-la para sua mão gastando 2 PM, e então 
+dispensá-la com uma ação livre quando quiser. Pré-re-
+quisitos: Presente dos Deuses ou Fanatismo. e
+Arsenal da Ambição
+
+--- block x0=309 y0=386 x1=533 y1=471 ---
+Escolha uma arma, ela passa a ser considerada 
+a favorita da sua divindade (junto as outras). Para 
+cada patamar de jogo acima do iniciante, você pode 
+escolher uma arma favorita adicional. Pré-requisitos: 
+clérigo de Arsenal ou Valkaria.
+Asas da Justiça
+
+--- block x0=309 y0=471 x1=533 y1=568 ---
+Quando em combate contra um dragão, você 
+recebe +1 nos testes de ataque e rolagens de dano 
+contra essa criatura para cada poder concedido que 
+possua da divindade na qual é devoto. Além de +2 
+na Defesa. Pré-requisitos: Santo Guerreiro, clérigo de 
+Khalmyr.
+Aura Consagrada/Profanada
+
+--- block x0=309 y0=567 x1=533 y1=664 ---
+Ao lançar Consagrar ou Profanar, você pode gastar 
++2 PM para mudar a área da magia para uma aura 
+de 9m de raio centrada em você e a duração para 
+sustentada. Se lançar a magia dessa forma, símbolos 
+sagrados visíveis na área não impedem a execução da 
+magia. Pré-requisito: Consagrar ou Profanar. e
+Bênção Paciente
+
+--- block x0=309 y0=664 x1=533 y1=704 ---
+Ao abençoar seu símbolo sagrado, você pode, 
+uma vez por rodada, gastar 2 PM quando lança uma 
+magia divina para somar sua Inteligência, limitada 
+
+--- block x0=560 y0=756 x1=575 y1=767 ---
+107
+

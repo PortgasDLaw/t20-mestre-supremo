@@ -1,0 +1,97 @@
+Capítulo Um
+Habilidades de Classe
+Magias. Você pode lançar magias arcanas e 
+divinas de 1º círculo de adivinhação, encantamento 
+e uma terceira escola a sua escolha como se fossem 
+arcanas. A cada quatro níveis, pode lançar magias de 
+um círculo maior (2º círculo no 5º nível, 3º círculo 
+no 9º nível e assim por diante).
+Você começa com três magias de 1º círculo. A 
+cada nível, aprende uma magia de qualquer círculo 
+que possa lançar. Seu atributo-chave para lançar 
+magias é Inteligência e você soma sua Inteligência 
+no seus pontos de mana.
+Psicofagia. Uma vez por rodada, você pode 
+gastar uma ação padrão para disparar um raio men-
+tal em um inimigo inteligente em alcance curto. Ele 
+sofre 1d4 pontos de dano psíquico e você recupera 
+PM na mesma quantidade (Vont CD Int reduz à me-
+tade). Se o alvo não possuir PM, fica frustrado. No 6º 
+nível, e a cada quatro níveis seguintes, o dano dessa 
+habilidade aumenta conforme a tabela. e
+Psicofilia. Suas habilidades de hemófago que 
+custam perda de vida passam a custar PM — realize 
+apenas a matemática contrária. Porém, você não 
+recupera PM de nenhuma forma além de descanso e 
+habilidades de psicófago — exceto Magias. Poderes 
+de hemófago que armazena ou recupera pontos de 
+vida passa a fazer isso com pontos de mana.
+Poder de Hemófago. A partir do 2º nível, 
+você recebe essa habilidade como o hemófago básico.
+Blindar a Mente. A partir do 3º nível, ao fa-
+zer um teste de resistência contra um efeito mental, 
+você pode gastar 2 PM para somar sua Inteligência, 
+limitada pelo nível, neste teste.
+Dissonância Mental. A partir do 7º nível, 
+ao usar Psicofagia, você pode fazê-lo como uma ação 
+completa para afetar todos os inimigos inteligentes 
+em alcance curto. Se a criatura que falhar na resis-
+tência possuir PM, além do normal, fica frustrada, se 
+não possuir, fica esmorecida.
+Desmantelar a Mente. A partir do 11º nível, 
+você ignora imunidade a efeitos mentais, de medo e 
+de encantamento — mas ainda não afeta criaturas 
+com Inteligência nula. A critério do mestre, certos 
+inimigos podem não ser afetados por essa habilidade.
+Ápice da Mente. No 20º nível, você recebe 
++2 pontos em todos os seus atributos mentais e 
+aumenta o dano de Psicofagia para 5d6. Além disso, 
+para cada criatura frustrada em alcance curto na 
+cena, você recebe +1 PM temporário cumulativo no 
+início de cada um de seus turnos, que dura até o fim 
+da cena (esse ganho dobra por criatura esmorecida). 
+A quantidade de PM ganhos é limitada pelo nível.
+xInventorx
+Sábio
+"Busquem conhecimento."
+Um inventor é uma figura de criatividade prática, 
+que está sempre produzindo os mais variados equi-
+pamentos para si e para seu grupo, são trabalhadores 
+ativos e ocupados. No entanto, existe uma classe 
+de inventores que se baseiam puramente em suas 
+próprias teorias, eles são metódicos, estudiosos, 
+são sábios que podem usar o poder do conheci-
+mento para prova-se tão aptos e poderosos quanto 
+inventores mundanos. Estes se valem de teorias 
+que aprenderam nos anos que passaram dentro de 
+suas salas e torres de conhecimento, por terem tanta 
+teoria em suas mentes, são até mesmo capazes de re-
+alizar atividades que outros inventores não poderiam 
+normalmente.
+Os inventores sábios são engenhosos e ecléticos, 
+podem utilizar seu conhecimento para muitas coisas, 
+desde a descoberta de uma informação simples, até 
+para atuar em combate, tendo capacidades intelectu-
+ais tão elevadas, que são até mesmo capazes de pro-
+ver esse conhecimento na forma de efeitos técnicos 
+e complexos que podem até mesmo ser vistos como 
+magia, mas é simplesmente fundamentos científicos, 
+biológicos e engenhosidade avançada.
+Interações do Psicófago
+Exceto por Aperto Fágico e poderes que 
+interage com PM, poderes de Hemófago 
+tem mudanças com essa variante (outras 
+alterações ficam a critério do mestre).
+• Psicofagia conta como Hemofagia para 
+pré-requisitos e efeitos de poderes de 
+hemófago.
+• Mude ganhos em Fortitude para Vontade 
+e o atributo-chave de Car para Inteligência.
+• Poderes (exceto magias) que causa dano 
+de trevas passam a causar dano psíquico.
+• Poderes que interage com criaturas vivas 
+muda para criaturas inteligentes.
+• Poderes que interage com uma criatura 
+sangrando muda para uma que esteja 
+frustrada ou esmorecida.
+82

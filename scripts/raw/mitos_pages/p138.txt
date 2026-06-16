@@ -1,0 +1,111 @@
+Capítulo Um
+Máscaras	
+dampíro
+Você recebe +2 em Diplomacia, Nobreza e Von-
+tade. Esses bônus mudam para +5 em ambientes 
+aristocráticos. Pré-requisitos: treinado em Nobreza.
+Metamorfose Celestial	
+eirin
+Você pode gastar uma ação completa e 10 PM 
+para assumir a forma de um dragão celestial, mas 
+ainda pode falar e lançar magias. Você recebe Força 
++4, Destreza +5, redução de eletricidade 15, deslo-
+camento de voo 18m e uma arma natural (dano 1d10, 
+crítico 19). Seu tamanho muda para enorme (–5 em 
+Furtividade, +5 em testes de manobra). Pré-requisito: 
+Presença Celestial, 11º nível de personagem. e
+Mimetismo	
+duplo
+Você pode copiar as características de uma criatu-
+ra inteligente (Int –3 ou mais) ao manter-se próximo 
+dela por 1 semana ou mais. Se fizer isso, recebe uma 
+habilidade (se ela for humanoide) ou um poder que 
+ela possua e do qual cumpra os pré-requisitos. Você 
+só pode ter uma habilidade ou poder por vez dessa 
+forma. Pré-requisito: 5º nível de personagem.
+Oficina Viva	
+Golem
+Você conta como de um instrumento a sua es-
+colha e pode empregar seu corpo para que outros o 
+usem como instrumento (se você mesmo fizer, pode 
+usar Constituição no lugar de Inteligência no teste de 
+Ofício). Pré-requisito: Fonte de energia (alquímica).
+Ogro do Leste	
+Oni
+Você recebe proficiência e +2 nas rolagens de 
+dano com clavas, maças, tacapes e tetsubos. Além 
+disso, quando empunhando uma dessas armas, você 
+recebe +2 em Intimidação.
+Olhos da Verdade	
+eirin
+Você fica permanentemente sob efeito da magia 
+Visão da Verdade com todos os seus aprimoramentos. 
+Pré-requisitos: Olhos da Mente, 17º nível de eirin.
+Parrudo	
+Galokk, Minotauro, Ogro, ORc
+Você pode somar sua Força em vez de Destreza 
+na Defesa (mas continua não podendo somar um 
+atributo na Defesa quando usa armadura pesada). 
+Pré-requisitos: Troncudo, 11º nível de personagem.
+PELE Arbórea	
+Alraune
+Você recebe a habilidade Armadura de Allihanna 
+e o poder Gavinhas (veja Heróis de Arton, p. 88), além 
+de ser considerado uma dahllan para efeitos de ma-
+gias. Pré-requisito: 7º nível de personagem.
+Perserverar	
+Valquíria
+Uma vez por cena, ao sofrer um dano que a 
+deixaria com 0 PV ou menos, você pode gastar 3 PM 
+e fazer um teste de Vontade (CD igual o dano). Se 
+passar, você ficar com 1 PV. 
+PODER Solar	
+Alraune
+Você pode lançar Raio Solar (atributo-chave Con) 
+como uma magia simulada, mas só pode lançá-la 
+durante o dia. Pré-requisitos: 5º nível de personagem.
+Presença Natural	
+Vanir
+Você recebe +2 em Sobrevivência, Misticismo e 
+animais são sempre indiferentes em relação a você, a 
+menos que seja atacado. Monstros sem subtipos tem 
+–2 em Vontade para resistir as suas habilidades.
+PÓ do Sono	
+Alraune, Dahllan, Sílfide
+Você aprende e pode lançar Sono como uma ma-
+gia simulada (CD Car) e tendo acesso aos círculos de 
+magias de um bardo com seu nível de personagem.
+PREDADOR Sábio	
+averiano
+Ao fazer um teste de uma perícia baseada em 
+Inteligência, você pode gastar 1 PM para mudar o 
+atributo-chave da perícia do teste para Sabedoria.
+Predador Selvagem	
+averiano
+O custo de habilidades que tenha Forma Selva-
+gem como pré-requisito é reduzido em –1 PM. Pré-
+-requisitos: Forma Selvagem, 8º nível de personagem.
+Predador Tenaz	
+averiano
+Quando usa Forma Selvagem, você pode gastar 
++3 PM para receber +5 na Defesa e na redução de 
+dano enquanto a forma durar. Pré-requisitos: Forma 
+Selvagem, 6º nível de personagem.
+Rasante	
+Harpia
+Ao fazer uma investida voando, você pode gastar 
+2 PM para fazê-la com todas as suas armas. Se acertar 
+o ataque, você causa o dano de sua arma empunhada 
+somado ao dano de suas garras e você continua se 
+movendo até o limite do seu deslocamento.
+Reflexos Paracronais	
+Jötun
+Você pode gastar uma ação completa e 6 PM para 
+receber +2 na Defesa, em Reflexos e uma ação de 
+movimento adicional por turno, tudo até o fim da 
+cena. O bônus em Defesa e Reflexos aumentam em 
++2 no 11º e 17º nível, respectivamente. Pré-requisitos: 
+5º nível de personagem.
+Retrato da Ruína	
+dampíro
+138

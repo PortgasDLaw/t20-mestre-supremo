@@ -1,0 +1,59 @@
+Capítulo Um
+A cada quatro níveis após o 1º, você pode gastar +1 
+PM para aumentar esse dano em um passo. e
+Justiça!
+Você aprende e pode lançar Aplicação da Justiça 
+(atributo-chave Carisma) 
+como se tivesse aces-
+so aos mesmos círculos de magias que um clérigo 
+com seu nível de paladino. Pré-requisito: 9º nível de 
+paladino.
+Libertar Lembrança
+Você pode gastar uma ação de movimento e 6 
+PM para liberar o poder absoluto de sua arma, le-
+vando-a ao seu zênite. Até o fim da cena, os efeitos 
+específicos de uma arma mágica específica que esteja 
+empunhando são dobrados. Se a arma não possuir 
+um, invés disso os bônus fornecidos pelas suas me-
+lhorias e encantos aumentam em +2 (ou em mais 
+um passo). Pré-requisito: 18º nível de paladino.
+Montaria Celeste
+O custo para invocar sua montaria sagrada dimi-
+nui em –1 PM e você aumenta o deslocamento dela 
+em +3m. Além disso, se a montaria fornecer bônus 
+em dano, o aumente em +1 dado (ou em +2 se o 
+dano for fixo). Pré-requisito: Montaria Sagrada.
+Perdão Divino
+Uma vez por aventura, ao violar o Código do He-
+rói ou as obrigações & restrições de sua divindade, 
+você pode fazer um teste de Religião (CD 20 + seu 
+nível de paladino), se passar, é perdoado pela divin-
+dade e não perde seus PM. Você não pode escolher 
+esse poder se for fundamentalista. Sempre que usa 
+esse poder, a CD dele aumenta em +5.
+Sacramentar Ataque
+Uma vez por rodada, você pode gastar 3 PM para 
+somar seu Carisma no próximo teste de ataque 
+de um aliado em alcance curto, mas apenas ele 
+não for desonesto, corrupto nem devoto 
+a uma divindade que canalize apenas 
+energia negativa. Pré-requisito: 6º 
+nível de paladino. e
+Santificado
+Você dobra o PM recebido 
+por virtudes paladinescas e 
+recebe +1 em Sabedoria e Ca-
+risma. Você não pode escolher 
+este poder ou o perde se quebrar ou já tiver quebrado 
+a conduta de uma de suas virtudes. Pré-requisito: cinco 
+poderes de virtude paladinesca.
+Saraivada Celestial
+Ao usar Rajada Divina, você pode gastar +2 
+PM para a habilidade afetar criaturas escolhidas no 
+alcance, desde que elas estejam a 3m uma das outras. 
+Pré-requisitos: Rajada Divina, 5º nível de paladino.
+"Fé é cultivada,  
+"Fé é cultivada,  
+não comprada."
+não comprada."
+124

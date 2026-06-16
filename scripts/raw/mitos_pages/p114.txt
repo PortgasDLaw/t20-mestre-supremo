@@ -1,0 +1,90 @@
+Capítulo Um
+Truque Marcial: Abalar A Fé
+Você pode mexer com a fé de um devoto falando 
+heresias. Faça um teste de Religião oposto a Vontade 
+do alvo, se ele falhar, fica frustrado e não pode fazer 
+ações que exijam calma e concentração até o fim da 
+cena. Se falhar por 10 ou mais, também sofre 1d8 
+pontos de dano psíquico para cada ponto que possuir 
+em Inteligência. Pré-requisitos: treinado em Religião.
+Truque Marcial: Alma de Aço
+Quando sofre dano de um ataque ou magia, você 
+pode evitar demonstrar dor gastando 1 PM. Se fizer 
+isso, o oponente fica abalado (Von CD Int evita).
+Truque Marcial: Golpe de Foco
+Quando faz um ataque com uma arma em que 
+é especialista, para cada 5 pontos que o resultado 
+do seu teste passar a Defesa do seu oponente, você 
+recebe +1 na sua rolagem de dano neste ataque 
+(limitado pela sua Inteligência). Pré-requisito: Espe-
+cialização em Arma.
+Truque Marcial: Redirecionar
+Quando é alvo de um ataque à distância, você 
+pode gastar 2 PM e fazer um teste de ataque. Se o 
+resultado do seu teste for maior que o do oponente, 
+você evita o ataque e o direciona a outra criatura em 
+alcance curto.
+Truque Marcial:  
+Poeira nos Olhos
+Uma vez por rodada, se estiver lutando em um 
+terreno natural e fazer um ataque corpo a corpo, você 
+pode gastar 1 PM para deixar o alvo de seu ataque 
+cego por 1 rodada (Ref CD Int evita).
+Xeque-Mate
+Você e seus aliados recebem +2 nos testes de 
+ataque e +5 nas rolagens de dano contra uma cria-
+tura sob efeito de Xadrez da Batalha. Pré-requisito: 
+Xadrez da Batalha.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Inventor
+Ajuste de Última Hora
+Uma vez por cena, você pode gastar uma ação 
+completa e fazer um teste de Ofício (armeiro) contra 
+CD 15 + metade do seu nível. Se passar, pode trocar 
+uma melhoria ou um encanto que esteja aplicado ao 
+seu utensílio personalíssimo (exceto material espe-
+cial). Pré-requisito: Utensílio Personalíssimo.
+Ápice Mecânizado
+Você aprimora seu autômato ao zênite, dobrando 
+os seus benefícios. Pré-requisito: Autômato, 18º nível 
+de inventor.
+Armadura Rúnica
+Você pode gastar uma ação de movimento e 2 
+PM escrevendo runas de proteção que enrijecem o 
+material de uma armadura que esteja vestindo. Até 
+o fim da cena, a armadura fornece redução de dano 
+igual sua Inteligência (limitado pelo nível). Pré-requi-
+sitos: Blindagem, Runista, 12º nível de inventor. e
+Autômato A Jato
+Você pode gastar uma ação de movimento e 3 
+PM para "equipar" seu autômato o acoplando nas 
+costas. Você perde os benefícios do parceiro, mas 
+recebe deslocamento de voo 12m. Esse efeito dura 
+até o fim da cena ou com uma ação livre. Em ambos 
+os casos, você pousa lentamente antes dele se desa-
+coplar. Pré-requisitos: Autômato, 8º nível de inventor.
+Truques Marciais
+Alguns poderes de guerreiro são Truques 
+Marciais. Esses poderes compartilham as 
+seguintes regras.
+• Para usar um truque marcial, você precisa 
+estar empunhando uma arma.
+• Sempre que realiza um truque marcial de 
+maneira bem sucedida, você recupera 1 PM.
+• Todas as artes marciais tem como pré-
+requisito 5 níveis de guerreiro.
+114

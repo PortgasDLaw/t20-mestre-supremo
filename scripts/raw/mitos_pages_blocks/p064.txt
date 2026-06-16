@@ -1,0 +1,189 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=159 ---
+Proficiências. Armas marciais, armaduras 
+pesadas e escudos.
+Habilidades de Classe
+Barriga de Chumbo. Você soma sua Força 
+em testes de Ofício (armeiro) e sua Constituição na 
+Defesa quando vestindo uma armadura fabricada por 
+você (ambos limitado pelo nível).
+
+--- block x0=51 y0=159 x1=275 y1=200 ---
+Forja Pessoal. Você começa o jogo com instru-
+mentos de armeiro aprimorado e uma arma, armadura 
+ou escudo superior com preço total de até T$ 2.000.
+
+--- block x0=51 y0=200 x1=275 y1=312 ---
+Armeiro Superior. No 2º nível, você recebe 
+uma arma, armadura ou escudo superior com preço 
+total de até T$ 5.000 e passa a poder fabricar armas, 
+armaduras e escudos superiores com até duas me-
+lhorias. Nos níveis 5 e 8, você pode substituir esse 
+item por uma arma, armadura ou escudo superior 
+com três e quatro melhorias, respectivamente, e 
+passa a poder fabricar armas, armaduras e escudos 
+superiores com essa quantidade de melhorias.
+
+--- block x0=51 y0=312 x1=275 y1=340 ---
+Poder de Inventor. A partir do 2º nível, 
+você recebe essa habilidade como o inventor básico.
+
+--- block x0=51 y0=340 x1=275 y1=404 ---
+Martelo e Bigorna. A partir do 3º nível, 
+você recebe proficiência com armas exóticas. Além 
+disso, você soma sua Constituição, limitada pelo 
+nível, em testes de ataque e rolagens de dano quando 
+empunhando armas fabricadas por você.
+
+--- block x0=51 y0=404 x1=275 y1=457 ---
+Disciplina Metalúrgica. A partir do 4º 
+nível, quando empunhando uma arma fabricada por 
+você e fizer um ataque, você pode gastar 1 PM para 
+rolar dois dados e usar o melhor resultado.
+
+--- block x0=51 y0=457 x1=275 y1=509 ---
+A partir do 7º nível, você pode fazer o efeito 
+descrito acima com testes de resistência se estiver 
+empunhando um escudo e/ou vestindo uma arma-
+dura fabricada por você.
+
+--- block x0=51 y0=509 x1=275 y1=609 ---
+Armeiro Mágico. No 9º nível, você recebe 
+uma arma, armadura ou escudo mágico com um 
+encanto e passa a poder fabricar armas, armaduras 
+e escudos mágicos menores. No nível 11 e 13, você 
+pode substituir esse item por uma arma, armadura 
+ou escudo mágico com dois e três encantos e passa a 
+poder fabricar armas, armaduras e escudos mágicos 
+médios e maiores, respectivamente. e
+
+--- block x0=51 y0=609 x1=275 y1=709 ---
+Temperar. A partir do 12º nível, armas fabri-
+cadas por você tem o dano aumentado em um passo 
+e armaduras e escudos fabricados por você tem a de-
+fesa aumentada em +1. Além disso, ao usar Oficina 
+de Campo e poderes que tenham Oficina de Campo 
+como pré-requisito, se o equipamento em que fez a 
+manutenção for um fabricado por você, os benefícios 
+do poder aumentam em +1.
+
+--- block x0=289 y0=55 x1=513 y1=191 ---
+Forjar Consciência. No 20º nível, você pro-
+duz um artefato na forma de uma arma, armadura ou 
+escudo com cinco melhorias e quatro encantos, além 
+de outros efeitos sob aprovação do mestre. O item se 
+torna inteligente (veja Heróis de Arton, p. 269 – 270). 
+A Inteligência do item é igual a sua, a Sabedoria é 
+igual sua Força e o Carisma iqual sua Constituição 
+(limite de 10 pontos para cada atributo). Além disso, 
+ao rolar os ganhos do item, some +20% aos resulta-
+dos — em um resultado maior que 100, arredonde 
+para 100%. O Ego do item é igual ao do criador.
+
+--- block x0=289 y0=206 x1=393 y1=243 ---
+xTreinadorx
+General
+
+--- block x0=289 y0=245 x1=513 y1=273 ---
+"Valkaria gosta de vencedores, e depois desse dia, 
+estará apaixonada por mim."
+
+--- block x0=289 y0=273 x1=513 y1=325 ---
+Em Arton, existem aqueles que mandam e des-
+mandam, mas este papel normalmente é atribuídos 
+aos nobres com vozes poderosas, ou a clérigos com 
+alto poder eclesiástico. No entanto, abaixo dessas 
+
+--- block x0=333 y0=351 x1=466 y1=370 ---
+Tabela 1-14: O General
+
+--- block x0=294 y0=373 x1=484 y1=386 ---
+Nível
+Habilidades de Classe
+
+--- block x0=305 y0=389 x1=461 y1=401 ---
+1º
+Braço direito (2 traços), direcionar
+
+--- block x0=305 y0=404 x1=404 y1=415 ---
+2º
+Poder de treinador
+
+--- block x0=305 y0=419 x1=492 y1=430 ---
+3º
+Discurso motivador +2, poder de treinador
+
+--- block x0=305 y0=433 x1=493 y1=445 ---
+4º
+Braço direito (3 traços), poder de treinador
+
+--- block x0=305 y0=448 x1=464 y1=460 ---
+5º
+Poder de treinador, tutor de tropas
+
+--- block x0=305 y0=463 x1=498 y1=474 ---
+6º
+Estratégias de comando, poder de treinador
+
+--- block x0=305 y0=478 x1=493 y1=489 ---
+7º
+Braço direito (4 traços), poder de treinador
+
+--- block x0=305 y0=492 x1=404 y1=504 ---
+8º
+Poder de treinador
+
+--- block x0=305 y0=507 x1=404 y1=519 ---
+9º
+Poder de treinador
+
+--- block x0=303 y0=522 x1=497 y1=544 ---
+10º
+Braço direito (5 traços), discurso motivador 
++4, poder de treinador
+
+--- block x0=303 y0=548 x1=404 y1=559 ---
+11º
+Poder de treinador
+
+--- block x0=303 y0=562 x1=404 y1=574 ---
+12º
+Poder de treinador
+
+--- block x0=303 y0=577 x1=493 y1=588 ---
+13º
+Braço direito (6 traços), poder de treinador
+
+--- block x0=303 y0=592 x1=404 y1=603 ---
+14º
+Poder de treinador
+
+--- block x0=303 y0=607 x1=404 y1=618 ---
+15º
+Poder de treinador
+
+--- block x0=303 y0=621 x1=493 y1=633 ---
+16º
+Braço direito (7 traços), poder de treinador
+
+--- block x0=303 y0=636 x1=492 y1=647 ---
+17º
+Discurso motivador +6, poder de treinador
+
+--- block x0=303 y0=651 x1=404 y1=662 ---
+18º
+Poder de treinador
+
+--- block x0=303 y0=666 x1=493 y1=677 ---
+19º
+Braço direito (8 traços), poder de treinador
+
+--- block x0=303 y0=680 x1=471 y1=692 ---
+20º
+Mestre da guerra, poder de treinador
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+64
+

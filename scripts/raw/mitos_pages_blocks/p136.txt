@@ -1,0 +1,221 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=289 y0=55 x1=513 y1=116 ---
+dos tem camuflagem total. Se a água na sua cabeça 
+for derramada, essa habilidade se encerra e não pode 
+ser usada novamente até que encha a tigela. e
+Carapaça Mineral	
+g'rokk
+
+--- block x0=289 y0=115 x1=513 y1=224 ---
+Uma vez por cena, você pode gastar uma ação 
+completa e 3 PM para ejetar minérios armazenados 
+em seu corpo como espinhos, em uma esfera de 6m 
+de raio a partir de você, que causa uma quantidade 
+de dano de perfuração igual a 6d6 + sua Constituição 
+(Ref CD Con reduz o dano à metade). Pré-requisito: 6º 
+nível de personagem.
+Corpo Avançado	
+forjado
+
+--- block x0=289 y0=224 x1=513 y1=296 ---
+Seu "corpo" recebe uma melhoria a sua escolha 
+(exceto material especial) que não conta no limite de 
+melhorias. No patamar lenda, você também recebe 
+um encanto no seu "corpo" que não conta no limite.
+Corpo Vazio	
+forjado
+
+--- block x0=289 y0=296 x1=513 y1=344 ---
+Seu corpo é oco por dentro, não tendo pontos 
+vitais. Você recebe imunidade a acertos críticos.
+Desassombrado	
+Espectro, Dagon
+
+--- block x0=289 y0=344 x1=513 y1=405 ---
+Você recebe imunidade a medo, +2 em Intimi-
+dação e na CD para resistirem aos seus efeitos de 
+medo. Pré-requisito: 3º nível de personagem.
+Dom Abissal	
+soberano
+
+--- block x0=289 y0=405 x1=513 y1=490 ---
+Você aprende e pode lançar a magia Orbe do Oce-
+ano (atributo-chave Int) como uma magia simulada. 
+Enquanto sob efeito da magia, você não sofre os efei-
+tos da habilidade Hidrossensibilidade. Pré-requisito: 
+11º nível de personagem.
+Dom Noturno	
+dampíro
+
+--- block x0=289 y0=490 x1=510 y1=539 ---
+Você recebe +1 em testes de perícia originalmen-
+te baseadas em Destreza e resistência mental +2.
+Einherjär	
+envar
+
+--- block x0=289 y0=539 x1=513 y1=635 ---
+Você pode gastar uma ação completa e 6 PM 
+para que surjam tatuagens brilhantes pelo seu corpo 
+como um efeito sustentado. Enquanto sustentar 
+este efeito, você recebe cura acelerada 5 e redução 
+de dano 5. Ao atingir o patamar lenda, esses efeitos 
+dobram. Pré-requisito: 11º nível de personagem. e
+Enxertos Mortos	
+homunculus
+
+--- block x0=289 y0=635 x1=513 y1=700 ---
+Você recebe uma habilidade de uma raça do tipo 
+morto-vivo à sua escolha — exceto habilidades que 
+mudam seu tipo da criatura, se a raça for modular, 
+cada poder é considerado uma habilidade separada. 
+Pré-requisito: 11º nível de personagem.
+
+--- block x0=77 y0=65 x1=247 y1=84 ---
+Tabela 1-37: Poderes de Raça
+
+--- block x0=55 y0=87 x1=160 y1=101 ---
+Raça
+Poderes
+
+--- block x0=55 y0=104 x1=265 y1=137 ---
+Alraune
+Constrição Atroz, Espinhos da Rosa, 
+Fragrância de Rosas, Mãe Natureza, Pele 
+Arbórea, Poder Solar, Pó do Sono, Topor
+
+--- block x0=55 y0=140 x1=251 y1=173 ---
+Amálgamo
+Duas Cabeças, Dupla Conjuração, 
+Dupla Inteligência, Dupla Prontidão, 
+Quadriestria, Quatro Braços
+
+--- block x0=55 y0=176 x1=164 y1=188 ---
+Anão
+Ferreiro Inato
+
+--- block x0=55 y0=191 x1=249 y1=213 ---
+Averiano
+Faro Aprimorado, Predador Sábio, 
+Predador Selvagem, Predador Tenaz
+
+--- block x0=55 y0=217 x1=237 y1=228 ---
+Dagon
+Arsenal Infernal, Desassombrado
+
+--- block x0=55 y0=231 x1=182 y1=243 ---
+Dahllan
+Pó do Sono, Topor
+
+--- block x0=55 y0=246 x1=248 y1=268 ---
+Dampíro
+Dom Noturno, Máscaras, Retrato da 
+Ruína
+
+--- block x0=55 y0=272 x1=204 y1=283 ---
+Duplo
+Assimilação, Mimetismo
+
+--- block x0=55 y0=286 x1=244 y1=298 ---
+Eiradaan
+Asas Feéricas, Vitalidade das Fadas
+
+--- block x0=55 y0=301 x1=266 y1=312 ---
+Eirin
+Metamorfose Celestial, Olhos da Verdade
+
+--- block x0=55 y0=316 x1=224 y1=327 ---
+Entoma
+Esgrima da Vespa, Expelir Mel
+
+--- block x0=55 y0=331 x1=253 y1=353 ---
+Envar
+Arma Gloriosa, Até o Fim!, Comandar 
+Aprimorado, Einherjär, Marca Divina
+
+--- block x0=55 y0=356 x1=223 y1=368 ---
+Forjado
+Corpo Avançado, Corpo Vazio
+
+--- block x0=55 y0=371 x1=268 y1=382 ---
+Galokk
+Parrudo, Lorde da Tempestade, Troncudo
+
+--- block x0=55 y0=386 x1=157 y1=397 ---
+Golem
+Oficina Viva
+
+--- block x0=55 y0=400 x1=270 y1=423 ---
+G'rokk
+Bala de Canhão, Carapaça Mineral, Rocha 
+Vulcânica
+
+--- block x0=55 y0=426 x1=258 y1=437 ---
+Harpia
+Grito Apavorante, Rasante, Senso de Si
+
+--- block x0=55 y0=441 x1=262 y1=463 ---
+Homunculus
+Enxertos Mortos, Enxtertos Quiméricos, 
+Gene Recessivo
+
+--- block x0=55 y0=466 x1=185 y1=478 ---
+Humano
+Ambicioso, Valente
+
+--- block x0=55 y0=481 x1=264 y1=492 ---
+Jötun
+Reflexos Paracronais, Visão dos Gigantes
+
+--- block x0=55 y0=496 x1=257 y1=518 ---
+Kappa
+Bruma do Norte, Equilíbrio das Águas, 
+Tartaruga Negra
+
+--- block x0=55 y0=521 x1=181 y1=533 ---
+Kobolds
+Sangue de Dragão
+
+--- block x0=55 y0=536 x1=183 y1=547 ---
+Minotauro
+Parrudo, Troncudo
+
+--- block x0=55 y0=551 x1=266 y1=573 ---
+Moreau do 
+bode
+Ângulo de Movimento, Cascos Poderosos
+
+--- block x0=55 y0=576 x1=138 y1=588 ---
+Nagah
+Aperto
+
+--- block x0=55 y0=591 x1=183 y1=603 ---
+Ogro
+Parrudo, Troncudo
+
+--- block x0=55 y0=606 x1=254 y1=617 ---
+Oni
+Exaltação do Rejeitado, Ogro do Leste
+
+--- block x0=55 y0=621 x1=183 y1=632 ---
+Orc
+Parrudo, Troncudo
+
+--- block x0=55 y0=635 x1=191 y1=647 ---
+Sátiro
+Ângulo de Movimento
+
+--- block x0=55 y0=650 x1=182 y1=662 ---
+Sílfide
+Pó do Sono, Topor
+
+--- block x0=55 y0=665 x1=259 y1=698 ---
+Soberano
+Dom Abissal, Duas Cabeças, Dupla 
+Conjuração, Dupla Inteligência, Dupla 
+Prontidão, Quadriestria, Quatro Braços
+
+--- block x0=5 y0=756 x1=20 y1=767 ---
+136
+

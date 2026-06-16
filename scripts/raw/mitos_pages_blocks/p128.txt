@@ -1,0 +1,115 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=153 x1=195 y1=202 ---
+Poderes
+de COMBATE
+
+--- block x0=51 y0=208 x1=190 y1=225 ---
+Arremessar Aliado
+
+--- block x0=51 y0=225 x1=275 y1=357 ---
+Você pode gastar uma ação completa e 3 PM para 
+agarrar e arremessar uma criatura voluntária com até 
+uma categoria de tamanho menor que  a sua. A criatura 
+pode ser arremessada para qualquer espaço em alcance 
+curto. Se o espaço em que ela foi arremessada estiver 
+sendo ocupado por um inimigo, o aliado recebe, em seu 
+turno, os benefícios e penalidades de uma investida e 
+por terreno elevado, e tanto a criatura quanto o inimigo 
+ficam caídas. Pré-requisitos: Estilo de Arremesso, For 5.
+Barão Alquímico
+
+--- block x0=51 y0=357 x1=275 y1=442 ---
+Seus preparados e poções que causam dano tem 
+seu dano aumentado em +1 dado. Se possuir alguma 
+habilidade que lhe permita fabricar poções, você tam-
+bém aumenta a sua CD para resistir a alquímicos em 
++1. Pré-requisito: treinado em Ofício (alquimista).
+Chute Rotatório Quadrado
+
+--- block x0=51 y0=442 x1=275 y1=539 ---
+Ao fazer um ataque desarmado, você pode gastar 2 
+PM para acertar todas as criaturas dentro do seu alcance 
+natural — compare o resultado do seu ataque com a 
+Defesa de cada alvo na área. Além do ataque, os alvos 
+ficam caídos e são empurrados por 3m. Pré-requisito: 
+Briga ou Estilo Desarmado.
+Disparo Duplo
+
+--- block x0=51 y0=539 x1=275 y1=636 ---
+Ao fazer um ataque a distância com um arco, você 
+pode gastar 2 flechas, se acertar, faz duas rolagens de 
+dano contra o mesmo alvo — mas só multiplica uma em 
+um acerto crítico. Se fizer isso, recebe –2 em todos os 
+seus testes de ataque até o início do seu próximo turno. 
+Pré-requisitos: Des 2, Disparo Rápido.
+Disparo Triplo
+
+--- block x0=51 y0=636 x1=275 y1=712 ---
+Ao fazer um ataque a distância com um arco, você 
+pode gastar 3 flechas, se acertar, faz três rolagens de 
+dano contra o mesmo alvo — mas só multiplica uma 
+em um acerto crítico. Se fizer isso, recebe –5 em todos 
+os seus testes de ataque até o início do seu próximo 
+turno. Pré-requisitos: Des 4, Disparo Duplo.
+
+--- block x0=289 y0=154 x1=410 y1=171 ---
+Dama de Guerra
+
+--- block x0=289 y0=171 x1=513 y1=268 ---
+Você pode gastar uma ação de movimento e 3 PM 
+quando com Donzela de Ferro ativado para somar sua 
+Constituição nas suas rolagens de dano com armas 
+corpo a corpo até o fim da cena. Esse efeito só funciona 
+se estiver empunhando um escudo. Pré-requisitos: Estilo 
+de Arma e Escudo, Donzela de Ferro. e
+Defensor Exemplar
+
+--- block x0=289 y0=268 x1=513 y1=365 ---
+Se estiver empunhando um escudo, você pode 
+gastar uma ação completa e 3 PM para assumir uma 
+postura de Defesa até o início do seu próximo turno. 
+Aliados adjacentes a você podem, uma vez por rodada, 
+gastar 2 PM para usar seu valor de Defesa contra um 
+ataque feito contra eles.
+Donzela de Ferro
+
+--- block x0=289 y0=364 x1=513 y1=485 ---
+Você pode gastar uma ação completa e 6 PM para 
+reforçar suas proteções, tornando-se impenetrável até o 
+fim da cena. Você recebe redução de dano igual a Defesa 
+base fornecida pela sua armadura ou escudo, mas seu 
+deslocamento é reduzido em –3m. Essa habilidade só 
+pode ser utilizada se estiver vestindo armadura pesada 
+e/ou empunhando um escudo. Pré-requisitos: treinado 
+em Fortitude, Luta, Misticismo e Vontade. e
+Espadachim Exemplar
+
+--- block x0=289 y0=485 x1=513 y1=642 ---
+Se estiver empunhando uma arma corpo a corpo  de 
+corte em uma mão e nada na outra, você pode gastar 
+uma ação padrão e 3 PM para assumir uma postura 
+exemplar até o fim da cena — ser desarmado ou guardar 
+a arma também encerra o efeito. Quando usa essa habi-
+lidade, seus aliados podem, uma vez por rodada, gastar 
+2 PM ao agredir para usar seu valor de Luta. Sempre que 
+isso ocorrer, você recebe um ganho cumulativo de +2 
+na sua próxima rolagem de dano feita até o fim do seu 
+próximo turno com a arma empunhada. Pré-requisitos: 
+treinado em Guerra, Int 2, Estilo de Uma Arma.
+Estilo Matador
+
+--- block x0=289 y0=642 x1=513 y1=706 ---
+Ao usar Firula Inspiradora, você pode gastar +2 
+PM para também receber +1 em rolagens de dano e, 
+ao realizar um acerto crítico em um ataque após o uso 
+dessa habilidade, o dano fornecido por esta habilidade 
+é dobrado neste ataque. Pré-requisito: Firula Inspiradora.
+
+--- block x0=85 y0=50 x1=457 y1=109 ---
+Poderes Gerais
+
+--- block x0=5 y0=756 x1=19 y1=767 ---
+128
+

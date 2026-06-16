@@ -1,0 +1,103 @@
+Capítulo Um
+•	 Encostar o Cano. Quando faz um ataque à dis-
+tância com uma arma de fogo contra uma criatura 
+adjacente, você não sofre a penalidade de –5 no teste 
+de ataque e aumenta seu dano em um passo. Pré-re-
+quisitos: treinado em Luta.
+•	 Entre Facas e Balas. Se estiver empunhando uma 
+arma de fogo em uma mão e uma arma corpo a corpo 
+leve na outra, você recebe +2 na Defesa e pode, uma 
+vez por rodada, fazer um ataque com sua arma corpo 
+a corpo leve com uma ação livre. Pré-requisitos: Des 2, 
+treinado em Acrobacia, Encostar o Cano.
+•	 Estragar o Velório. Uma vez por rodada, ao fazer 
+uma manobra Derrubar contra um alvo empunhando 
+uma arma de fogo, você pode gastar 2 PM para fazer 
+um ataque extra, mas não sofre a penalidade pelo 
+alvo estar caído. Pré-requisito: 12º nível de inquisidor, 
+Encostar o Cano.
+•	 Exorcista. Você pode aplicar a melhoria mate-
+rial especial (prata, veja Ameaças de Arton p. 400) em 
+armas de fogo, armas corpo a corpo leves e em muni-
+ções. Pré-requisito: treinado em Ofício (armeiro).
+•	 Faca na Garganta. Ao atacar um alvo desprevi-
+nido ou surpreendido com uma arma leve que cause 
+dano de corte ou perfuração, você o deixa sangrando. 
+Pré-requisito: treinado em Furtividade.
+•	 Ferramenta de Esfolamento. Suas armas parecem 
+ter serras. Se realizar um acerto crítico contra uma 
+criatura sangrando, você eviscera a ferida, aumenta-
+do o dano causado por essa condição em +1 dado 
+(cumulativo). Pré-requisito: Faca na Garganta.
+•	 Foco em Seringa. Escolha um tipo de seringa. 
+O custo para produzí-la é reduzido à metade e seu 
+dado (caso tenha) é aumentado em um passo. Você 
+pode escolher este poder outras vezes para seringas 
+diferentes. Pré-requisito: Seringueiro.
+•	 Guarda Real. Você tem as costas quentes graças 
+aos seus serviços a nobres — corruptos ou não. Você 
+pode usar Nobreza para interrogar e não gasta di-
+nheiro ao fazê-lo. Pré-requisito: treinado em Nobreza.
+•	 Injeção Milagrosa. Você pode fabricar seringas 
+divinas, funciona exatamente como a arcana, mas 
+para magias divinas. Pré-requisito: Alquimago.
+•	 Injeção Rápida. Uma vez por rodada, você pode 
+injetar uma seringa com uma ação de movimento. 
+Pré-requisito: Seringueiro.
+•	 Jackpot. Uma vez por cena, estiver empu-
+nhando uma arma de fogo que comporta mais de 
+uma bala e fazer um ataque, você pode gastar 3 PM 
+para disparar todas as balas de uma vez. Se acertar, 
+multiplique o dano pelo número de balas gasta (após 
+rolar). Pré-requisito: 17º nível de inquisidor.
+•	 Analise Rápida. A ação para Identificar é redu-
+zida em um passo. Se a ação demorar mais que uma 
+ação completa, fazê-lo como uma tem a penalidade 
+reduzida para –5. Pré-requisito: Absorver História.
+•	 Aumento de Atributo. Você recebe +1 em um atri-
+buto. Você pode escolher esse poder várias vezes, mas 
+apenas uma vez por patamar para um mesmo atributo.
+•	 Autoridade Legal. Você recebe um cargo legis-
+lativo em nome de uma divindade. O mestre define 
+exatamente como esse poder afeta seu personagem, 
+como regra geral, você recebe +5 em testes de Inti-
+midação contra pessoas desonestas, além de hospe-
+dagem gratuita para você e seus aliados em locais em 
+que sua autoridade tenha valor. Pré-requisito: devoto 
+de um deus maior, 10º nível de inquisidor.
+•	 Bala de Sal. Você pode fabricar um pacote de 
+balas de sal com 1 dia de trabalho e T$ 150. Se rea-
+lizar um ataque bem sucedido com uma bala de sal 
+em um conjurador, ele fica sob uma condição terrível 
+para lançar magias (Fort CD Int muda para ruim) até 
+o fim da cena. Pré-requisito: Caçador de Magos.
+•	 Bala Injetora. Você pode injetar seringas à dis-
+tância. Para isso, é necessário recarregar sua arma de 
+fogo com uma seringa e então fazer um ataque contra 
+uma criatura no alcance. Pré-requisito: Seringueiro.
+•	 Caçador de Magos. Você recebe resistência a 
+magia +1. Esse bônus aumenta em +1 no 6º nível e 
+a cada quatro níveis seguintes. Quando em combate 
+contra um conjurador (qualquer criatura capaz de 
+lançar magias), você pode gastar uma ação de movi-
+mento e 3 PM para dobrar esse ganho.
+•	 Caçador de Recompensas. Ao derrotar uma pes-
+soa desonesta, você pode levá-la, viva ou morta, para 
+uma autoridade local. Você recebe 10 TO x ND da 
+criatura como recompensa. Lacaios tem esse ganho 
+reduzido à metade. Você só pode se beneficiar deste 
+poder uma vez por aventura, mas pode levar vários 
+de uma vez. Pré-requisito: 5º nível de inquisidor.
+•	 Cupincha. Você recebe os serviços de um guri, 
+um parceiro especial que não conta no seu limite. Ele 
+reduz a ação de recarga das suas armas de fogo em 
+um passo e sempre que fabrica uma seringa, pode 
+fabricar duas com apenas 1 dia de trabalho (mas paga 
+o custo separadamente). Se seu cupincha morrer, 
+você contrata um novo com o gasto de T$ 250.
+•	 Deslizar na Pista. Você pode deslizar como parte 
+do seu deslocamento ao gastar 1 PM e fazer um teste 
+de Acrobacia (CD 20). Se passar, recebe +1 dado de 
+dano em seu próximo ataque executado até o final do 
+seu turno. Pré-requisito: treinado em Acrobacia.
+46

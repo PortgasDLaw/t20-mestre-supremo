@@ -1,0 +1,120 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=158 y1=72 ---
+Slot Disponível
+
+--- block x0=51 y0=72 x1=275 y1=157 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=51 y0=156 x1=275 y1=241 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=51 y0=241 x1=275 y1=326 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=51 y0=326 x1=275 y1=399 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=51 y0=399 x1=275 y1=500 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. 
+Bardo
+
+--- block x0=51 y0=506 x1=163 y1=523 ---
+Agitar a Platéia
+
+--- block x0=51 y0=523 x1=275 y1=595 ---
+Quando usa Música: Rock n' Roll, criaturas que 
+falharem no teste de resistência por 10 ou mais fi-
+cam enfurecidas, atacando criatura mais próxima 
+dele. Pré-requisito: Música: Rock n' Roll.
+Balada do Arqueiro
+
+--- block x0=51 y0=595 x1=275 y1=680 ---
+Os efeitos do poder Balada do Atirador passa 
+a funcionar com qualquer arco que empunhar e 
+você soma seu Carisma nas rolagens de dano com 
+armas afetadas por Esgrima Mágica. Pré-requisito: 
+Balada do Atirador.
+Canção de Fogueira
+
+--- block x0=51 y0=680 x1=265 y1=708 ---
+Enquanto estiver acampando com seus 
+aliados, você pode fazer um teste de Atuação (CD 
+
+--- block x0=289 y0=55 x1=513 y1=116 ---
+20). Se passar, você e seus aliados tem um momento 
+de descontração antes de dormir, o que aumenta a 
+categoria de descanso em uma categoria.
+Cantiga Inspiradora
+
+--- block x0=289 y0=115 x1=513 y1=188 ---
+Quando usa Música: Cantiga Animada, você 
+pode gastar +2 PM. Se fizer isso, as criaturas afetadas 
+pela música recebem +1d6 pontos de dano psíquico 
+em suas rolagens de dano — além de outros efeitos.
+Ciranda de Rebolo
+
+--- block x0=289 y0=188 x1=513 y1=261 ---
+Ao usar Música: Ciranda dos Pés, você pode 
+gastar +1 PM para aplicar o bônus fornecido pela 
+música no seu teste de ataque. Pré-requisito: Música: 
+Ciranda dos Pés.
+Dar uma Moral
+
+--- block x0=289 y0=260 x1=513 y1=353 ---
+Você pode gastar 1 hora e fazer um teste de 
+Diplomacia ou Enganação oposto a Vontade de uma 
+criatura inteligente (Int –3 ou maior) para falar bem 
+de um aliado ou outra criatura a sua escolha para 
+o alvo. Se passar, a categoria do alvo em relação a 
+criatura que falou sobre aumenta em um passo.
+Discípulo de Canora
+
+--- block x0=289 y0=353 x1=513 y1=438 ---
+Você tem uma voz que emula sons precisamente. 
+Você pode gastar +1 PM quando usa uma música 
+de bardo para fazê-lo sem precisar empunhar um 
+instrumento musical. Pré-requisito: ter recebido um 
+treinamento de um devoto de Canora ou Marah.
+Fazer um Bis
+
+--- block x0=289 y0=438 x1=513 y1=510 ---
+Quando usa um poder de música, você pode 
+gastar +2 PM para usar uma segunda música como 
+parte da mesma ação e manter duas músicas ao 
+mesmo tempo. Pré-requisito: dois poderes de música.
+Foco na Carreira
+
+--- block x0=289 y0=510 x1=513 y1=562 ---
+Você troca conhecimentos amplos para expandir 
+seu repertório. Você perde a habilidade Eclético, mas 
+recebe acesso a uma escola de magias adicional. 
+Pré-requisitos: Eclético, 6º nível de bardo.
+
+--- block x0=4 y0=756 x1=20 y1=767 ---
+100
+

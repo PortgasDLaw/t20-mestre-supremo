@@ -1,0 +1,196 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=83 ---
+igual a 1d8 + sua Sabedoria. Ao acertar um ataque, 
+uma flecha avança contra o alvo, causando dano. e
+
+--- block x0=71 y0=83 x1=295 y1=147 ---
+•	 Fortalecimento de Seda. Você gasta uma ação de 
+movimento para receber +2 em Acrobacia, Atletismo 
+e na Defesa até o fim da cena. Nos níveis 3, 9 e 15, 
+você pode gastar +2 PM ao usar essa habilidade para 
+aumentar esses bônus em +1.
+
+--- block x0=71 y0=147 x1=295 y1=187 ---
+•	 Impulso de Seda. Você faz uma investida envol-
+vendo sua arma em seda, somando sua Sabedoria ao 
+seu teste de ataque e rolagem de dano.
+
+--- block x0=71 y0=187 x1=295 y1=228 ---
+•	 Recuperação de Seda. Você gasta uma ação com-
+pleta e recupera uma quantidade de PV igual a 3d6 
++ sua Sabedoria. e
+
+--- block x0=71 y0=228 x1=295 y1=292 ---
+•	 Turbilhão de Seda. Você faz um ataque que 
+causa o dano da sua arma + sua Sabedoria a todas 
+as criaturas em uma esfera de 3m de raio a partir de 
+você (faça um único teste de ataque e compare com a 
+Defesa de cada criatura na área). e
+
+--- block x0=71 y0=292 x1=295 y1=392 ---
+Estilista. No 2º nível, você recebe um vestu-
+ário superior com preço total de até T$ 500 e passa 
+a poder fabricar vestuários superiores com uma 
+melhoria. Nos níveis 5, 7 e 10, você pode substituir 
+esse item por um vestuário superior com duas, três 
+e quatro melhorias, respectivamente, e passa a poder 
+fabricar vestuários superiores com essa quantidade 
+de melhorias.
+
+--- block x0=71 y0=392 x1=295 y1=468 ---
+No nível 9, este vestuário se torna mágico e 
+recebe um encanto, e você passa a fabricar vestuários 
+mágicos menores. Já no nível 13 e 17, o vestuário 
+recebe um encanto adicional e você passa a poder 
+fabricar vestuários mágicos médios e maiores, res-
+pectivamente. e
+
+--- block x0=71 y0=468 x1=295 y1=497 ---
+Poder de Caçador. A partir do 2º nível, você 
+recebe esta habilidade como o caçador básico.
+
+--- block x0=71 y0=497 x1=295 y1=561 ---
+Manto Fortificado. A partir do 3º nível, se 
+estiver vestindo seu manto do caçador e nenhuma 
+armadura, você soma sua Sabedoria na Defesa. Além 
+disso, você pode adicionar melhorias e encantos 
+exclusivos para armaduras em vestuários.
+
+--- block x0=71 y0=561 x1=295 y1=637 ---
+Marca Pessoal. A partir do 6º nível, quando 
+uma criatura em alcance curto estiver vestindo um 
+vestuário fabricado por você, ele pode gastar 3 PM 
+para dobrar um dos benefícios deste vestuário até o 
+fim da cena (você pode usar essa habilidade apenas 
+com seu manto do caçador).
+
+--- block x0=71 y0=636 x1=295 y1=708 ---
+Mestre da Seda. No 20º nível, Marca da Presa 
+e habilidades de seda que usam ação de movimento 
+podem ser usadas como uma ação livre. Além disso, 
+o custo das suas habilidades de seda são reduzidos à 
+metade e seu manto do caçador recebe os efeitos de 
+um terceiro vestuário a sua escolha.
+
+--- block x0=309 y0=56 x1=447 y1=90 ---
+xArcanistax
+Tecnomago
+
+--- block x0=326 y0=92 x1=490 y1=108 ---
+"Ciência? Magia? Por que não os dois?!"
+
+--- block x0=309 y0=107 x1=533 y1=234 ---
+No mundo de Arton existe uma constante dis-
+puta acerca de dois conceitos que, a primeira vista, 
+parecem opostos; a magia e a ciência. O motivo para 
+isso é um tanto simples, a ciência e tecnologia, não 
+muito diferente da própria magia arcana, requer 
+estudos complexos e teses exatas, porém com um 
+grau maior de complexidade, enquanto que a magia 
+é uma ferramenta (e para alguns uma arte) ampla e 
+que não parece ter qualquer sentido ou lei clara além 
+do gasto de um pouco da sua energia e conhecimento 
+de fórmulas antigas, em alguns casos.
+
+--- block x0=343 y0=258 x1=496 y1=277 ---
+Tabela 1-30: O Tecnomago
+
+--- block x0=313 y0=280 x1=503 y1=294 ---
+Nível
+Habilidades de Classe
+
+--- block x0=325 y0=296 x1=500 y1=318 ---
+1º
+Caminho do tecnomago, lei de asimov, 
+magias (1º círculo)
+
+--- block x0=325 y0=322 x1=523 y1=344 ---
+2º
+Poder de arcanista, transmutar item superior 
+(1 melhoria)
+
+--- block x0=325 y0=347 x1=502 y1=370 ---
+3º
+Autonomia magicânica, lei de asimov 
+(parceiro construto), poder de arcanista
+
+--- block x0=325 y0=373 x1=423 y1=384 ---
+4º
+Poder de arcanista
+
+--- block x0=325 y0=388 x1=500 y1=410 ---
+5º
+Magias (2º círculo), poder de arcanista, 
+transmutar item superior (2 melhorias)
+
+--- block x0=325 y0=413 x1=423 y1=425 ---
+6º
+Poder de arcanista
+
+--- block x0=325 y0=428 x1=423 y1=440 ---
+7º
+Poder de arcanista
+
+--- block x0=325 y0=443 x1=527 y1=476 ---
+8º
+Autonomia magicânica (2 bugigangas 
+vestidas), poder de arcanista, transmutar item 
+superior (3 melhorias)
+
+--- block x0=325 y0=479 x1=496 y1=491 ---
+9º
+Magias (3º círculo), poder de arcanista
+
+--- block x0=323 y0=494 x1=423 y1=505 ---
+10º
+Poder de arcanista
+
+--- block x0=323 y0=509 x1=523 y1=531 ---
+11º
+Poder de arcanista, transmutar item superior 
+(4 melhorias)
+
+--- block x0=323 y0=534 x1=423 y1=546 ---
+12º
+Poder de arcanista
+
+--- block x0=323 y0=549 x1=500 y1=582 ---
+13º
+Autonomia magicânica (3 bugigangas 
+vestidas), magias (4º círculo), poder de 
+arcanista
+
+--- block x0=323 y0=585 x1=423 y1=597 ---
+14º
+Poder de arcanista
+
+--- block x0=323 y0=600 x1=423 y1=612 ---
+15º
+Poder de arcanista
+
+--- block x0=323 y0=615 x1=423 y1=626 ---
+16º
+Poder de arcanista
+
+--- block x0=323 y0=630 x1=496 y1=641 ---
+17º
+Magias (5º círculo), poder de arcanista
+
+--- block x0=323 y0=644 x1=495 y1=667 ---
+18º
+Autonomia magicânica (4 bugigangas 
+vestidas), poder de arcanista
+
+--- block x0=323 y0=670 x1=423 y1=681 ---
+19º
+Poder de arcanista
+
+--- block x0=323 y0=685 x1=492 y1=696 ---
+20º
+Poder de arcanista, sorriso de polaris
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+85
+

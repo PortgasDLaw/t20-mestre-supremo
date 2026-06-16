@@ -1,0 +1,116 @@
+Aventureiros de Arton
+Assim como paladinos de Azgher não se asso-
+ciam e destroem qualquer morto-vivo ou devoto de 
+Tenebra, vingadores de Tenebra destroem os devotos 
+de Azgher que tentam trazer sua luz as trevas que 
+eles protegem. Um pragmático vingador de Nimb 
+aplicará o caos e aleatoriedade a todos os que esbar-
+ra, ou não. A antitese do heroísmo é reinvidicada por 
+esses guerreiros do divino, mas do profano divino, 
+são os campeões das trevas e da noite, os justiceiros, 
+vingadores do bem em prol da própria justiça.
+Características de 
+Classe
+Pontos de Vida. Como o paladino básico.
+Pontos de Mana. Como o paladino básico.
+Perícias. Como o paladino básico.
+Proficiências. Como o paladino básico.
+Habilidades de Classe
+Bênção Maldita. Você soma seu Carisma no 
+seu total de pontos de mana no 1º nível. Além disso, 
+torna-se devoto de um deus disponível para vinga-
+dores (Aharadak, Arsenal, Kallyadranoch, Nimb, 
+Sszzaas, Tenebra, Thwor e Valkaria). Ao contrário de 
+devotos normais, você recebe dois poderes concedi-
+dos por se tornar devoto, em vez de apenas um.
+Como alternativa, você pode ser um vingador da 
+justiça, lutando em prol de seus próprios dogmas e 
+conceitos. Não recebe nenhum poder concedido, mas 
+não precisa seguir nenhuma obrigação & restrição 
+(além do Código da Justiça, abaixo). Ser um vingador 
+da justiça conta como sua devoção.
+Código da Justiça. Você não pode prejudi-
+car, matar, roubar ou negar ajuda a um inocente. Se 
+violar o código, perde todos os seus PM e só pode 
+recuperá-los a partir do próximo dia.
+Golpe vingador. Quando faz um ataque, 
+você pode gastar 3 PM para ceifar o inimigo. Você 
+soma seu Carisma no teste de ataque e causa +1d8 
+pontos de dano de trevas adicional, de forma cumu-
+lativa, contra devotos, espíritos, pessoas desonradas, 
+corruptas e/ou vilões. Metade do dano de trevas 
+causado é convertido em cura para você (se causar).
+A partir do 17º nível, o dano adicional causado 
+por Golpe Vingador passa a ser +2d6 por instância, e 
+você pode gastar +2 PM ao usar essa habilidade para 
+receber cura igual a todo o dano de trevas causado ou 
+transferir a cura para um aliado em alcance curto. e
+Toque da Colheita. A partir do 2º nível, 
+você pode gastar uma ação de movimento e 2 PM 
+para causar 1d12 pontos de dano de trevas em um 
+alvo adjacente (Fort CD Car evita). Você recebe PV 
+temporários igual a metade do dano causado até o 
+fim da cena. A cada quatro níveis, você pode gastar 
++1 PM para aumentar esse dano em +1d12. e
+A partir do 6º nível, você pode gastar +2 PM 
+quando usa Toque da Colheita para aplicar uma 
+condição entre abalado, fraco ou frustrado se o alvo 
+falhar na resistência. A partir do 10º nível, você pode 
+conceder os PV temporários dessa habilidade a um 
+aliado em alcance curto invés de você. e
+Poder de Paladino. A partir do 2º nível, você 
+recebe essa habilidade como o paladino básico, mas 
+não pode escolher poderes de virtude paladinesca.
+Interação com poderes: Poderes de Paladino que causem 
+dano de luz tem seu tipo mudado para trevas. Além disso, 
+Aura Ardente passa a afetar todas as criaturas; Aura Cura-
+tiva faz com que a cura recebida por Golpe Vingador afete 
+você e todos os aliados na área.
+Tabela 1-31: O Vingador
+Nível
+Habilidades de Classe
+1º
+Bênção maldita, código da justiça, golpe 
+vingador (+1d8, cura parcial)
+2º
+Poder de paladino, toque da colheita (1d12)
+3º
+Aura maldita, poder de paladino
+4º
+Poder de paladino
+5º
+Bênção vingadora, poder de paladino
+6º
+Poder de paladino, toque da colheita (2d12, 
+aplica condição)
+7º
+Poder de paladino
+8º
+Poder de paladino
+9º
+Poder de paladino
+10º
+Poder de Paladino, toque da colheita (3d12, 
+PVs temporários para aliado)
+11º
+Poder de paladino
+12º
+Poder de paladino
+13º
+Poder de Paladino
+14º
+Poder de Paladino, toque da colheita (4d12)
+15º
+Poder de paladino
+16º
+Poder de paladino
+17º
+Poder de paladino, golpe vingador (+2d6, 
+cura completa ou para um aliado)
+18º
+Poder de paladino, toque da colheita (5d12)
+19º
+Poder de paladino
+20º
+Algoz profano, poder de paladino
+87

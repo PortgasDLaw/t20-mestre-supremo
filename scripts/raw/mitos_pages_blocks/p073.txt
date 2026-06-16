@@ -1,0 +1,98 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=155 ---
+Muitos já ouviram falar do bardo Senomar, que 
+auxiliou Vanessa Drake na sua jornada rumo ao fim 
+de Crânio Negro, no qual vendeu sua alma para um 
+demônio em troca de poder, e por isso ele conseguia 
+produzir sons únicos, vistos somente nele, mais 
+tarde, descobriu-se a origem de seu som poderoso 
+e metálico, ele era o que os bardos mais clássicos e 
+retintos chamam de 'metaleiro'.
+
+--- block x0=71 y0=155 x1=295 y1=312 ---
+Esse é um ritmo moderno, que usa de sons 
+águdos e "sujos", sua origem é demoníaca, profana, 
+mas muitos aventureiros parecem gostar de ter um 
+metaleiro em suas fileiras, acham esse tipo de mú-
+sica agradável e que combina com o enfronte. Um 
+metaleiro é tipo de um bardo intimidador, que impõe 
+medo invés de inspirar, ele agita aliados e amedronta 
+inimigos, tornando-se o abre-alas de 
+lutas intensas.
+Características 
+de Classe
+
+--- block x0=71 y0=310 x1=258 y1=339 ---
+Pontos de Vida. Como o bardo bá-
+sico.
+
+--- block x0=88 y0=339 x1=270 y1=355 ---
+Pontos de Mana. Como o bardo básico.
+
+--- block x0=71 y0=355 x1=280 y1=383 ---
+Perícias. Como o bardo básico, mas suas 
+perícias iniciais são Atuação e Intimidação.
+
+--- block x0=71 y0=383 x1=272 y1=425 ---
+Proficiências. Como o bardo básico.
+Habilidades de Classe
+
+--- block x0=71 y0=424 x1=295 y1=476 ---
+Magias. Como o bardo básico, mas uma das 
+escolas escolhidas deve ser Necromancia e você 
+pode aprender magias divinas dessa escola como se 
+fossem arcanas.
+
+--- block x0=71 y0=476 x1=292 y1=564 ---
+Sinfonia da Destruição. Você 
+pode gastar uma ação padrão e 2 PM para 
+amedrontar os inimigos em alcance curto 
+com sua arte intimidadora. Eles sofrem –1 em 
+todos os testes de perícia até o fim da cena. A cada 
+quatro quatro níveis, você pode gastar +2 PM para 
+aumentar a penalidade em –1.
+
+--- block x0=71 y0=565 x1=277 y1=653 ---
+A partir do 5º nível, a penalidade também 
+passa a afetar rolagens de dano, a partir do 
+9º nível, também passa a afetar a Defesa 
+dos alvos e a partir do 13º nível, você 
+causa 1d6 pontos de dano de trevas 
+para cada 2 PM gastos ao ativar a 
+habilidade. Necromancia.
+
+--- block x0=71 y0=652 x1=294 y1=713 ---
+Instrumentos que afetam a Inspiração passam a afetar 
+o Sinfonia da Destruição, converse com seu mestre como os 
+efeitos contrários se aplicam e mude o instrumento de acordo. 
+Um alaúde élfico pode virar um baixo que muda a execução 
+da Sinfonia para movimento, por exemplo.
+
+--- block x0=309 y0=55 x1=533 y1=119 ---
+Ás de Espadas. No 2º nível, você recebe uma 
+espada ou machado canora e proficiência com a arma 
+escolhida. Ao empunhar esta arma, você recebe +2 
+em Atuação e é considerado sob efeito de Inspiração 
+para efeitos baseados nisso.
+
+--- block x0=309 y0=119 x1=533 y1=195 ---
+Bater Cabeça. No 3º nível, ao usar Sinfonia 
+da Destruição, você pode gastar +2 PM para con-
+ceder as criaturas escolhidas no alcance uma ação 
+de movimento até o 
+fim da próxima 
+rodada.
+
+--- block x0=374 y0=680 x1=449 y1=691 ---
+"Eu vou tocar como 
+"Eu vou tocar como 
+
+--- block x0=385 y0=690 x1=436 y1=701 ---
+um tornado!"
+um tornado!"
+
+--- block x0=562 y0=756 x1=573 y1=767 ---
+73
+

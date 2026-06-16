@@ -1,0 +1,142 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=238 y1=99 ---
+Itens. Símbolo sagrado, manto pesado.
+Daoista
+
+--- block x0=51 y0=98 x1=275 y1=186 ---
+Você já deu os primeiros passos no caminho do 
+cultivo, seja treinando com um cultivador mais expe-
+riente, algum ancião, ou até mesmo com um imortal. 
+Ou, você decidiu ir pelo caminho autoditada, através 
+de práticas que são comuns entre aspirantes. De 
+uma forma ou de outra, o pouco que você cultivou já 
+despertou seu núcleo central.
+
+--- block x0=51 y0=186 x1=275 y1=239 ---
+Benefício. Você é treinado em Vontade e 
+recebe +2 nesta perícia. Além disso, se possuir a 
+habilidade Cultivo, recebe 1 carga de chi sempre que 
+iniciar um combate.
+
+--- block x0=51 y0=239 x1=190 y1=283 ---
+Itens. Jian, pílula de chi x2.
+Diplomata
+
+--- block x0=51 y0=282 x1=275 y1=383 ---
+Seja entre a chancelaria das repúblicas livres ou 
+no grande senado tapistano, você teve um certo desta-
+que por sua boa influência. Você pode ter trabalhado 
+com a propaganda de um chanceler ou senador, ou 
+até mesmo tentado os cargos citados ás vezes, mas 
+entende que ainda não é notável o suficiente para 
+conquistá-los. Quem sabe, com algumas aventuras, 
+a populi não entenda seu verdadeiro valor?
+
+--- block x0=51 y0=382 x1=275 y1=483 ---
+Benefício. Você é treinado em Diplomacia 
+e Enganação, ou, se já for treinado, recebe +2 na 
+perícia treinada. Além disso, você pode gastar 1 PM 
+para trocar um teste de Nobreza por Diplomacia e, 
+uma vez por rodada, ao usar uma habilidade vocal — 
+exceto magias — com custo em PM, pode fazer um 
+teste de Diplomacia (CD 20). Se passar, o custo da 
+habilidade diminui em –1 PM.
+
+--- block x0=51 y0=483 x1=222 y1=528 ---
+Itens. Capa esvoaçante ou tabardo.
+Discípulo marcial
+
+--- block x0=51 y0=527 x1=275 y1=591 ---
+Meditações com dietas rigorosas a base de arroz 
+e água, andar pelo fogo, suprimir o peso sobre sua 
+cabeça embaixo de uma cachoeira… Essas práticas 
+lhe deram uma tenacidade invejada até mesmo por 
+alguns cultivadores mais experientes.
+
+--- block x0=51 y0=591 x1=275 y1=619 ---
+Benefício. Você é treinado em Atletismo, 
+Fortitude e recebe +1 em testes de resistência.
+
+--- block x0=51 y0=619 x1=257 y1=680 ---
+Itens. Andrajos de aldeão, ração de viagem.
+Estudante da  
+Torre Prateada
+
+--- block x0=51 y0=679 x1=275 y1=707 ---
+As infinitas prateleiras de livros e pergaminhos 
+do obelisco prateado que foram as torres élficas fo-
+
+--- block x0=289 y0=55 x1=513 y1=119 ---
+ram a sua fonte de estudos místicos por muitos anos, 
+uma vez que sua dona nunca expulsa aqueles famin-
+tos pelo conhecimento. Você pode ter sido alguém 
+que viveu lá integralmente estudando, ou um turista 
+ocasional que tinha muito tempo livre para estudar.
+
+--- block x0=289 y0=119 x1=513 y1=171 ---
+Benefício. Você é treinado em Conhecimento 
+e Misticismo. Além disso, itens que fornecem bônus 
+em perícias originalmente baseadas em Inteligência 
+tem esse bônus aumentado em +1.
+
+--- block x0=289 y0=171 x1=513 y1=240 ---
+Itens. Coleção de livros (escolha entre Conhe-
+cimento, Misticismo ou Religião), robe místico ou 
+manto eclesiástico, instrumentos de ofício (escriba).
+Favorito
+
+--- block x0=289 y0=239 x1=513 y1=315 ---
+Você nasceu sob o sorrido dos deuses. Um deus 
+lhe apadrinhou quando você nasceu, talvez por uma 
+profecia de Thyatis, ou pelos milagres de Lena. De 
+qualquer forma, de maneira para garantir que você 
+cumpra seu dever em Arton, este deus lhe deu um 
+belo aprazer e seu favoritismo.
+
+--- block x0=289 y0=315 x1=513 y1=379 ---
+Benefício. Você recebe um poder concedido de 
+um deus maior a sua escolha e aprende e pode lançar 
+uma magia divina de 1º círculo (Atributo-chave Sab). 
+Você precisa ser de uma raça da lista de devotos do 
+deus escolhido para ter seu poder concedido.
+
+--- block x0=289 y0=379 x1=513 y1=436 ---
+Itens. Um item a sua escolha com relação a sua 
+divindade (conta como um símbolo sagrado).
+Filho da Floresta
+
+--- block x0=289 y0=435 x1=513 y1=511 ---
+Você nasceu e cresceu dentro das florestas de 
+Arton, pode ter (sobre)vivido mundo perdido de 
+Galrasia, nas montanhas sanguinárias, na floresta de 
+Tollon ou em outras florestas tão perigosas quanto. 
+O tempo vivido sob o olhar selvagem de Allihanna 
+— ou bruto de Megalokk — o tornou apto para tudo.
+
+--- block x0=289 y0=511 x1=513 y1=551 ---
+Benefício. Você recebe +2 em Sobrevivência, 
++3 PM, +5 PV e descansar ao relento para você é um 
+descanso normal.
+
+--- block x0=289 y0=551 x1=485 y1=596 ---
+Itens. Lança, escudo leve, gibão de peles.
+Forjado por Chacina
+
+--- block x0=289 y0=592 x1=513 y1=668 ---
+Você foi um cosmonauta que teve a infelicidade 
+de sobreviver ao mundo divino do pai-mestre. Não 
+se sabe como você foi, nem como voltou, mas os 
+tempos de luta contra os monstros e até mesmo con-
+tra a própria "bênção" de Megalokk em seu mundo 
+certamente lhe mudaram.
+
+--- block x0=289 y0=668 x1=513 y1=709 ---
+Benefício. Você se torna um monstro, mas 
+retém as características de seu tipo original (veja 
+Tormenta20, p. 284). Além disso, você recebe Força 
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+92
+

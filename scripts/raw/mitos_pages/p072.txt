@@ -1,0 +1,111 @@
+Capítulo Um
+machado enquanto monta um tigre voraz ou um ar-
+queiro extremamente habilidoso com olhos no céu.
+Características de 
+Classe
+Pontos de Vida. Como o caçador básico.
+Pontos de Mana. Como o caçador básico.
+Perícias. Como o caçador básico, mas troque 
+Sobrevivência por Adestramento e adicione Sobrevi-
+vência a lista de perícias de classe.
+Proficiências. Armas Marciais.
+Habilidades de Classe
+Irmão Selvagem. Você recebe o poder Compa-
+nheiro Animal (veja Tormenta20, p. 61). Esse parceiro 
+não conta no seu limite. De forma alternativa, você 
+pode aumentar um dos benefícios de um parceiro 
+animal que já possua em +1 (e valores variáveis em 
+um passo).
+Marca da Presa. Como o caçador básico.
+Poder de Caçador. A partir do 2º nível, você 
+recebe essa habilidade como o caçador básico.
+Matilha. No 3º nível, e a cada seis níveis se-
+guintes, você pode escolher entre receber um compa-
+nheiro animal adicional que não conta no seu limite 
+de parceiros, ou aumentar o benefício de um que já 
+possua em +1 (e valores variáveis em um passo).
+Virar o Bicho. A partir do 5º nível, você pode 
+gastar uma ação completa e 3 PM para assimilar suas 
+capacidades a de um de seus parceiros animais. De 
+acordo com um dos tipos do parceiro escolhido, você 
+recebe as características abaixo até o fim da cena e o 
+parceiro para de te fornecer os benefícios dele.
+•	 Ajudante. Some sua Sabedoria (mínimo +1, 
+limitado pelo nível) as perícias em que seu compa-
+nheiro lhe ajuda.
+•	 Assassino. Receba uma quantidade de dados 
+de ataque furtivo igual a metade da sua Sabedoria 
+(mínimo +1d6, limitado pelo nível).
+•	 Atirador e Fortão. O dano extra é em todos os 
+ataques, em vez de um ataque por rodada.
+•	 Guardião. Some sua Sabedoria (mínimo +1, 
+limitado pelo nível) na Defesa e em Reflexos.
+•	 Montaria. Você recebe uma ação de movimento 
+adicional em seus turnos.
+•	 Perseguidor. Você recebe Faro e os benefícios de 
+um parceiro Vigilante de acordo com o nível do seu 
+parceiro.
+Irmão Aprimorado. No 7º nível, você recebe 
+o poder Companheiro Animal Aprimorado (veja 
+Tormenta20, p. 62).
+Irmão Místico. No 11º nível, você recebe um 
+poder a sua escolha entre Companheiro Aberrante, 
+Elemental ou Mágico (veja Tormenta20, p. 62 e Heróis 
+de Arton, p. 66).
+Irmão Lendário. No 15º nível, você recebe o 
+poder Companheiro Animal Lendário (veja Tormen-
+ta20, p. 62).
+Mestre Caçador. No 20º nível, você recebe 
+essa habilidade como o caçador básico, mas você 
+também passa a somar sua Sabedoria (mínimo +1, 
+limitado pelo nível) em Adestramento e Cavalgar.
+xBardox
+Metaleiro
+"Tá na hora de tocar o terror!"
+Tabela 1-20: O Metaleiro
+Nível
+Habilidades de Classe
+1º
+Magias (1º círculo), sinfonia da destruição –1
+2º
+Ás de espadas, poder de bardo
+3º
+Bater cabeça, poder de bardo
+4º
+Poder de bardo
+5º
+Poder de bardo, 
+sinfonia da destruição –2 (afeta dano)
+6º
+Magias (2º círculo), poder de bardo
+7º
+Poder de bardo
+8º
+Poder de bardo, portador da luz
+9º
+Bater cabeça (ação padrão), poder de bardo, 
+sinfonia da destruição –3 (afeta Defesa)
+10º
+Magias (3º círculo), poder de bardo
+11º
+Poder de bardo
+12º
+Poder de bardo
+13º
+Poder de bardo, sinfonia da destruição –4 
+(causa dano de trevas)
+14º
+Magias (4º círculo), poder de bardo
+15º
+Bater cabeça (sustentado), poder de bardo
+16º
+Poder de bardo
+17º
+Poder de bardo, sinfonia da destruição –5
+18º
+Poder de bardo
+19º
+Poder de bardo
+20º
+Fúria da tempestade, poder de bardo
+72

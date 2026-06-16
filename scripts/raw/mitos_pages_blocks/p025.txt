@@ -1,0 +1,134 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=295 y1=119 ---
+gastar uma ação de movimento e 3 PM para liberar 
+esporos que duram até o fim da cena. Sempre que 
+for alvo de um ataque corpo a corpo, o inimigo perde 
+1d12 PVs, mesmo que tenha errado (Fort CD Con 
+evita). Substitui Bênção da Natureza. Veneno.
+
+--- block x0=71 y0=119 x1=295 y1=212 ---
+Criatura Fúngica. Você recebe sensibilidade 
+à luz e deve ao menos oito horas por dia inerte para 
+ter os benefícios de um descanso normal (alrataans 
+não são afetados por condições de descanso), do con-
+trário, sofre os efeitos de sono. Substitui Fotossíntese.
+Bucentauro
+
+--- block x0=71 y0=211 x1=295 y1=263 ---
+Bucentauros são humanoides meio touro com 
+grandes chifres na cabeça, lendas dizem que eles vem 
+da Floresta de Megalokk, já outros afirmam que são 
+uma espécie vinda de um outro mundo!
+
+--- block x0=88 y0=263 x1=292 y1=279 ---
+Força +2, Constituição +1, Inteligência –1.
+
+--- block x0=71 y0=279 x1=295 y1=372 ---
+Chifres. Você possui uma arma natural de chi-
+fres (dano 1d8, crítico x2, perfuração). Uma vez por 
+rodada, quando usa a ação agredir para atacar com 
+outra arma, pode gastar 1 PM para fazer um ataque 
+corpo a corpo extra com os chifres. Substitui Cascos.
+Envars Cardeais
+
+--- block x0=71 y0=371 x1=295 y1=444 ---
+A página @@ apresenta o envar do leão, mas 
+aqui há outros três tipos de envar para escolher, 
+troque as habilidades Servo da Vitória e Inabalável 
+por uma das disponíveis abaixo.
+Envar do Cervo
+
+--- block x0=71 y0=443 x1=295 y1=484 ---
+Inquestionável. Você recebe +2 em Diplo-
+macia e pode usar Guerra no lugar de Atuação para 
+Impressionar e de Diplomacia para Mudar Atitude.
+
+--- block x0=71 y0=484 x1=295 y1=545 ---
+Servo da Coragem. Você é treinado em 
+Guerra e recebe o poder Comandar, caso obtenha 
+novamente este poder, seu bônus aumenta em +1.
+Envar do Dragão
+
+--- block x0=71 y0=544 x1=295 y1=597 ---
+Implacável. Você recebe +2 em Misticismo 
+e pode fazer testes dessa perícia mesmo sem ser 
+treinado e usando Carisma como atributo-chave (em 
+vez de Inteligência).
+
+--- block x0=71 y0=597 x1=295 y1=670 ---
+Servo da Sabedoria. Você pode lançar uma 
+magia arcana de 1º círculo a sua escolha que cause 
+dano (atributo-chave Car). Caso aprenda novamente 
+esta magia, seu custo diminui em –1 PM. e
+Envar do Lobo
+
+--- block x0=71 y0=669 x1=295 y1=710 ---
+Impenetrável. Você recebe +1 PV por nível 
+e se torna proficiente com armaduras pesadas. Se já 
+for, recebe +1 na Defesa quando usando uma.
+
+--- block x0=309 y0=55 x1=533 y1=123 ---
+Servo do Poder. Se estiver empunhando uma 
+espada ou lança, você recebe +1 em testes de ataque 
+e nas rolagens da dano com a arma.
+Galokks Elementais
+
+--- block x0=309 y0=122 x1=533 y1=231 ---
+ Megalokk é o criador da raça dos gigantes, seres 
+que surgem tanto como criaturas com uma ou duas 
+cabeças e grande tamanho, ou como associações 
+dos elementos. Segue abaixo variantes dos Galokks 
+baseado nos elementos como descrito no Deuses de 
+Arton, mas a minha própria versão — para fazer isso, 
+substitua a habilidade Força dos Titãs.
+GALOKK DAS Rochas
+
+--- block x0=309 y0=231 x1=533 y1=304 ---
+Vigor dos Titãs. Você recebe +3 PV no 1º ní-
+vel, com +1 PV para cada nível seguinte. Além disso, 
+recebe RD 2. A cada novo patamar de jogo alcançado 
+além do iniciante, a redução aumenta em +1.
+GALOKK De Fogo
+
+--- block x0=309 y0=304 x1=533 y1=425 ---
+Explosão dos Titãs. Você recebe resistência 
+a calor +5 e pode, uma vez por rodada, gastar uma 
+ação de movimento e 3 PM para liberar uma explosão 
+de chamas em uma esfera com 3m de raio a partir de 
+você que causa 3d6 pontos de dano de fogo e deixa 
+criaturas na área em chamas (Ref CD For reduz à 
+metade e evita a condição). O dano aumenta em 
++3d6 por patamar além do iniciante. e
+GALOKK De Gelo
+
+--- block x0=309 y0=424 x1=533 y1=521 ---
+Tempestade dos Titãs. Uma vez por rodada, 
+ao fazer um ataque corpo a corpo, você pode gastar 
+3 PM para somar sua Constituição no ataque. Se 
+acertar, você causa +1d6 pontos de dano de frio. A 
+cada cinco níveis após o 1º, você pode gastar +1 PM 
+para aumentar o dano em +1d6. e
+GALOKK DOS MARES
+
+--- block x0=309 y0=521 x1=533 y1=626 ---
+Fluidez dos Titãs. Você recebe resistência a 
+frio +5 e seu deslocamento muda para 12m. Além 
+disso, se estiver em um ambiente de neve, áquatico 
+ou com porções naturais de água, você pode gastar 
+3 PM e uma ação de movimento para receber +2 na 
+Defesa até o fim da cena.
+Gatamigo
+
+--- block x0=309 y0=625 x1=533 y1=701 ---
+Também chamados de Moreau do Gato Anão por 
+poucas pessoas, os gatamigos são criaturas felinas, 
+fofinhas e amistosas viventes das sanguinárias e ou-
+tras regiões selvagens, normalmente acompanhando 
+grupos de caçadores de monstros. Apesar de peque-
+nos e inocentes, são por muitas vezes a maior linha 
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+25
+

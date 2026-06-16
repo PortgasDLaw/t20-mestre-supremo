@@ -1,0 +1,138 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=167 ---
+surgiu uma nova forma de construto que despertou 
+a curiosidade alheia. Os forjados. Essas criaturas são 
+armaduras vivas, animadas com almas de cavaleiros 
+caídos, guerreiros valorosos que morreram em bata-
+lha e não alcançaram a paz em seus mundos divinos e 
+com isso, passaram a habitar a armadura que usavam 
+em vida, mas o corpo desasparece, restando apenas 
+as placas metálicas e cota de malha, isso faz deles 
+construtos animados por espíritos humanos!
+
+--- block x0=51 y0=167 x1=275 y1=195 ---
+Constituição +2, Força +2, Destreza 
+–1, Carisma –1.
+
+--- block x0=51 y0=195 x1=275 y1=319 ---
+Armadura Viva. Você é uma criatura do tipo 
+construto. Recebe visão no escuro e imunidade a 
+cansaço, efeitos metabólicos e veneno. Além disso, 
+não precisa respirar, alimentar-se ou dormir, mas não 
+se beneficia de cura mundana e de itens da categoria 
+alimentação. Você precisa ficar inerte por 8 horas 
+por dia para realizar reparos. Se fizer isso, recupera 
+PV e PM por descanso em condições normais. Por 
+fim, a perícia Cura não funciona em você, mas Ofício 
+(Armeiro) pode ser usada no lugar dela.
+
+--- block x0=51 y0=319 x1=275 y1=456 ---
+Corpo Substituível. Você é proficiente com 
+armaduras pesadas e seu corpo é uma brunea. Você 
+recebe os bônus da armadura e é considerado como 
+vestindo uma armadura pesada (ela não ocupa o 
+espaço de um item vestido, mas você não pode vestir 
+outra armadura). Você pode trocar de "corpo" em 
+um processo que demora 1 hora, desde que ele não 
+esteja sendo vestido e não seja leve. Você não sofre 
+penalidade de armadura e seu deslocamento é 6m, 
+mas não é reduzido por excesso de carga ou uso de 
+armaduras pesadas.
+
+--- block x0=51 y0=456 x1=275 y1=560 ---
+Eu tenho Alma. Você se torna treinado em 
+uma perícia ou recebe um poder geral a sua escolha. 
+Alternativamente, caso seja um forjado com uma 
+alma não-humana, você pode escolher uma habilida-
+de de outra raça humanoide, mas isso não altera sua 
+categoria de tamanho (você é sempre médio).
+G'rokk
+
+--- block x0=51 y0=559 x1=275 y1=683 ---
+G'rokks são um povo aguerrido, beligerante e 
+exótico natural da Montanha da Morte, a maior eleva-
+ção do continente de Alstra. Sua aparência é similar 
+a um pangolim feito de rochas, eles comem pedras 
+e rolam pelas montanhas, sendo um grande desafio 
+para mineradores e aventureiros que tentam extrair 
+metais da montanha. É dito que a própria montanha 
+é um deus, que criou os g'rokks quando decidiu lutar 
+com a própria Alstra e seus golpes teriam feito voar 
+pedras que se tornaram g'rokks.
+
+--- block x0=51 y0=683 x1=272 y1=712 ---
+Constituição +3, Força +2, Inteligên-
+cia –2, Destreza –1, Carisma –1.
+
+--- block x0=289 y0=55 x1=513 y1=107 ---
+Criatura de Pedra. Você é uma criatura do 
+tipo monstro. Seu tamanho é grande e você recebe 
+visão no escuro. Além disso, você recebe +5 PV e +1 
+na Defesa, ambos por patamar de jogo.
+
+--- block x0=289 y0=107 x1=513 y1=231 ---
+Folidotrope. Suas mãos são duas armas 
+naturais de garras (dano 2d6, crítico 19, corte), você 
+é considerado como empunhando duas armas, uma 
+em cada mão, para suas habilidades — que afetará 
+as garras. Porém, não pode empunhar nem vestir 
+itens, a menos que sejam mágicos ou especialmente 
+adaptados para você (o que demora um dia e custa 
+50% do preço do item, sem contar melhorias). Seus 
+itens iniciais, e aqueles fornecidos por sua origem ou 
+habilidades, já são adaptados para você.
+
+--- block x0=289 y0=231 x1=513 y1=360 ---
+Quadrupede. Você é considerado montado 
+para efeito de fazer investidas e pode escolher o 
+poder Carga de Cavalaria mesmo sem cumprir seus 
+pré-requisitos. Entretanto, não pode se beneficiar de 
+uma montaria e, se estiver carregando um cavaleiro, 
+sofre −2 em testes (além das penalidades de sobre-
+carga, se houver) e é considerado em condição ruim 
+para lançar magias.
+Homunculus
+
+--- block x0=289 y0=359 x1=513 y1=447 ---
+Dentro do ramo da química antiga, um dos 
+maiores objetivos de qualquer alquimista é criar vida 
+através de métodos artificiais, sem a necessidade de 
+reprodução ou biologia. Os mais experientes do ramo 
+dedicam sua vida inteira a esse propósito, e através 
+disso, aos poucos, começaram a nascer criaturas 
+espetaculares, os homunculuss.
+
+--- block x0=306 y0=447 x1=482 y1=463 ---
++1 em Dois Atributos Diferentes.
+
+--- block x0=289 y0=463 x1=513 y1=503 ---
+Criatura Artificial. Você é uma criatura do 
+tipo construto, recebe visão no escuro mas não retém 
+qualquer outra característica desse tipo de criatura.
+
+--- block x0=289 y0=503 x1=513 y1=580 ---
+Mistura Genética. Você recebe uma habi-
+lidade de duas raças humanoides diferentes a sua 
+escolha (exceto as que fornecem poderes, como 
+Versátil). Após isso, escolha entre uma das raças, 
+você é considerado como sendo parte dela para 
+pré-requisitos e efeitos relacionados a raça escolhida.
+
+--- block x0=289 y0=580 x1=513 y1=660 ---
+Produzido em Laboratório. Você já nas-
+ceu "pronto" e por isso não tem direito a escolher 
+uma origem, mas recebe +2 em testes para resistir a 
+itens alquímicos e poções.
+Jötun
+
+--- block x0=289 y0=659 x1=513 y1=712 ---
+No gigantesco deserto das rochas, onde vive a 
+gigantesca montanha do pai-pedra, existe um povo 
+nômade de pele escura e olhos brilhantes como 
+cristais. Estes, são os jötnar, ou no síngular; jötun. 
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+20
+

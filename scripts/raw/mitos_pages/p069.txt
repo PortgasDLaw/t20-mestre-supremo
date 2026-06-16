@@ -1,0 +1,96 @@
+Aventureiros de Arton
+auxiliares até gigantescas máquinas de combate, que 
+irão lutar ao seu lado enquanto eles empunham de 
+bombas a engenhocas complexas. Não possuem um 
+controle tão grande de tecnologia inovadoras quanto 
+um inventor dedicado, mas certamente nada supera 
+seus robôs, dos quais demonstram um grau de inte-
+ligência similar o dos golens de Wynlla.
+No entanto, diferente desses mesmos golens, os 
+de um maquinista não possui alma, sendo comple-
+tamente feito a base de códigos e desenvolvimento 
+complexo compreendido somente pelas mentes mais 
+inteligentes, dos quais seguem ordens de maneira 
+precisa e veloz. E por serem construtos, essas me-
+canizações autônomas podem ter as mais variadas 
+formas, desde um típico golem humanoide e sofisti-
+cado, até formatos atípicos, como um trem movido a 
+vapor ou até mesmo um retro-robô escavador.
+Características de 
+Classe
+Pontos de Vida. Como o treinador básico.
+Pontos de Mana. 5 PM por nível.
+Perícias. Ofício (Int) e Vontade (Sab), mais 4 
+a sua escolha entre Conhecimento (Int), Cura (Sab), 
+Diplomacia (Car), Fortitude (Con), Iniciativa (Des), 
+Investigação (Int), Luta (For), Misticismo (Int), 
+Ofício (Int), Pilotagem (Des), Percepção (Sab) e 
+Pontaria (Des).
+Proficiências. Nenhuma.
+Habilidades de Classe
+Direcionar. Como o treinador básico (mas 
+veja o quadro acima).
+Maquinários. Você começa com dois ma-
+quinários, dispositivos que emulam magias de 1º 
+círculo (atributo-chave Int). Cada maquinário ocupa 
+1 espaço, você pode manter uma quantidade máxima 
+de maquinários igual a sua Inteligência (mínimo 2) 
+e fabrica maquinários com 1 semana de trabalho e o 
+gasto de T$ 100 x o custo em PM da magia. Lançar 
+uma magia através de um maquinário exige gastar 
+PM e empunhar o maquinário — cuja mão é conside-
+rada livre para lançar a magia.
+Nos níveis 6 e 12, você pode fabricar maquiná-
+rios com magias de 2º e 3º círculo, respectivamente.
+Meu Amigo Robô. Você recebe um Autômato 
+(veja Tormenta20, p. 69) que evolui de acordo com seu 
+nível de treinador e é um Melhor Amigo construto.
+Poder de Treinador. A partir do 2º nível, 
+você recebe essa habilidade como o treinador básico, 
+mas pode pegar poderes de inventor que tenha autô-
+mato como pré-requisito como poderes de treinador.
+Código-Fonte. A partir do 3º nível, ao usar 
+um maquinário que tenha como alvo o seu Melhor 
+Amigo, a execução da magia que ele emula é dimi-
+nuida em um passo (mínimo movimento).
+Robótica Especializada. No 5º nível, esco-
+lha entre Ás da Robótica ou Servos a Vapor.
+•	 Ás da Robótica. O gasto para fabricar maquiná-
+rios é reduzido à metade. Além disso, seu melhor 
+amigo recebe +4 PV por nível de treinador e um 
+truque. No 12º nível, seu melhor amigo recebe RD 
+10 e outro truque. Por fim, no 18º nível, você pode 
+fabricar maquinários com magias de 4º círculo.
+•	 Servos a Vapor. Você recebe um grupo de cons-
+trutos com as estatístiticas de um tipo de capanga 
+veterano a sua escolha (veja Heróis de Arton, p. 241), 
+decidido sempre que os posiciona. No 11º nível, eles 
+se tornam mestre.
+Aceleração Mecânica. A partir do 10º ní-
+vel, uma vez por rodada, se estiver empunhando dois 
+maquinários, um em cada mão, você pode gastar uma 
+ação completa (ou a execução de uma das magias que 
+vai lançar, o que for maior) e 3 PM para ativar ambos 
+maquinários ao mesmo tempo.
+Automatron. No 20º nível, fabricar maqui-
+nários passa a exigir 1 dia de trabalho. Além disso, 
+ao usar um maquinário cuja execução seja padrão ou 
+maior, você pode gastar 5 PM para receber uma ação 
+padrão extra para usar com seu melhor amigo.
+xInventorx
+MecÂnopiloto
+"Todos os sistemas ativos e operantes!"
+Quando houve a Marcha de Arsenal, Coridrian, a 
+cidade dos golens, revelou a todos a sua supremacia 
+magicânica ao fazer parte da cidade se erguer como 
+um enorme colosso, que foi controlado por heróis 
+lendários! Este evento, conhecido como a batalha 
+dos gigantes, acendeu no coração dos inventores 
+Interações do Maquinista
+Habilidades do treinador que usa Carisma 
+passa a usar Inteligência como atributo-
+chave e as que usam Adestramento usam 
+Ofício (artesão). Além disso, para fins 
+narrativos, habilidades como Convocar 
+Enxame passa a usar robôs, como drones.
+69

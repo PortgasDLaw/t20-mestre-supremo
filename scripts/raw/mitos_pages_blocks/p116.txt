@@ -1,0 +1,96 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=289 y0=55 x1=382 y1=72 ---
+Mecânoficina
+
+--- block x0=289 y0=72 x1=513 y1=169 ---
+Seu autômato/corin dispõe de um espaço inter-
+no e confortável entre as engrenagens. Você pode 
+descansar no interior do seu construto (descanso 
+confortável) ou fabricar e consertar itens — ele tem 
+três tipos diferentes de instrumentos de ofício a sua 
+escolha acoplados. Pré-requisito: Chassi Titânico.
+Runas de sintonia
+
+--- block x0=306 y0=168 x1=513 y1=233 ---
+Você soma sua Inteligência, limitada pelo nível, 
+em Acrobacia, Atletis-
+mo, Diplomacia e 
+Enganação. Pré-re-
+quisito: Runista. e
+
+--- block x0=51 y0=435 x1=275 y1=519 ---
+um parceiro ajudante mestre e guardião veterano. 
+Ao gastar PV para ativar o homunculus, ele aumenta 
+o nível de parceiro guardião dele para mestre. Pré-
+-requisitos: Alquimista Exímio, Homúnculo, Mestre 
+Alquimista, 18º nível de inventor.
+Instrumento Vital
+
+--- block x0=51 y0=519 x1=265 y1=616 ---
+Seu utensílio personalíssimo passa a ter uma 
+quantia de PV igual a metade dos seus. Além dis-
+so, uma vez por rodada, se seu utensílio sofrer 
+dano, você pode gastar 1 PM para transferir o 
+dano que ele receberia para você (ou vice-ver-
+sa). Pré-requisito: Utensílio Personalíssimo. 
+Medicânico
+
+--- block x0=51 y0=616 x1=258 y1=704 ---
+Você pode gastar uma ação completa 
+para reparar um construto adjacente. Faça 
+um teste de Ofício (Artesão) contra CD 20, 
+se passar, você recupera 1d6 PV do constru-
+to, com +1d6 PV adicional para cada 5 pontos 
+que o teste exceder a CD. Pré-requisito: treinado 
+em Ofício (Artesão).
+
+--- block x0=68 y0=53 x1=103 y1=71 ---
+Runas
+
+--- block x0=68 y0=72 x1=253 y1=160 ---
+Quando adquire o poder Runista, você recebe 
+um grimório de runas. Uma "runa" é uma 
+magia arcana (atributo-chave Inteligência) 
+que para ser lançada, exige gestos e escrever 
+a runa em uma superfície com uma mão livre 
+— incluindo no corpo de uma criatura, até 
+mesmo o seu, ou em um equipamento. 
+
+--- block x0=68 y0=161 x1=247 y1=237 ---
+Runas não gastam PM, exceto para 
+aprimoramentos, mas exige um teste de 
+Misticismo (CD 20 + o custo em PM da 
+magia) para ser lançada, porém, você pode 
+lançar runas de armadura sem precisar fazer 
+outro teste de Misticismo.
+
+--- block x0=68 y0=237 x1=249 y1=325 ---
+Escolha três escolas de magia, você começa 
+com duas runas de 1º círculo que seja das 
+escolas escolhidas. A cada nível par além do 
+1º, aprende uma runa adicional. A partir do 
+6º nível, pode aprender runas de 2º círculo e 
+a cada quatro níveis após o 6º, também pode 
+aprender runas de círculos maiores.
+
+--- block x0=68 y0=325 x1=253 y1=401 ---
+Se não tiver seu grimório de runas, você 
+não pode lançá-las — tais inscrições são 
+muito complexas para serem memorizadas. 
+Se perder seu grimório, você pode preparar 
+outro com 1 semana de trabalho e o gasto 
+de T$ 200.
+
+--- block x0=430 y0=680 x1=535 y1=691 ---
+"As melhores invenções são 
+"As melhores invenções são 
+
+--- block x0=431 y0=690 x1=533 y1=701 ---
+as que explodem pessoas!"
+as que explodem pessoas!"
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+116
+

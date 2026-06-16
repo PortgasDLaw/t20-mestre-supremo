@@ -1,0 +1,97 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=54 x1=236 y1=103 ---
+Novas Opções 
+para Golens
+
+--- block x0=51 y0=105 x1=275 y1=157 ---
+A seguir novos chassis, fontes de energia, ma-
+ravilhas mecânicas e regras para golens despertos, 
+mashins e Yidishans (veja Ameaças de Arton, p. 134, 
+160 e 300 para elucidação dessas mecânicas).
+
+--- block x0=177 y0=163 x1=244 y1=185 ---
+Chassis
+
+--- block x0=188 y0=184 x1=275 y1=249 ---
+Você 
+pode 
+permitir que golens 
+apliquem melhorias 
+e encantos aos seus 
+chassis, como se 
+
+--- block x0=289 y0=55 x1=513 y1=131 ---
+ele fosse uma armadura (o tipo varia de acordo com 
+o chassi e sob aprovação do mestre) — inclusive para 
+efeitos de acúmulo. Isso pode abrir alguma brecha 
+para tornar os personagens poderosos, mas você 
+pode limitar quais melhorias podem ser aplicadas ao 
+chassis e as armaduras do golem.
+
+--- block x0=289 y0=131 x1=513 y1=207 ---
+Latéx. +1 em três atributos diferentes. Sua 
+armadura não é acoplada ao seu corpo; você pode re-
+movê-la e colocá-la no tempo normal, mas ela conta 
+em seu limite de itens vestidos. Você recebe +10 em 
+testes para Disfarce para fingir ser um humanoide, 
+mas não pode escolher a fonte de energia vapor.
+
+--- block x0=289 y0=207 x1=513 y1=259 ---
+Mitral. Destreza +2. Seu deslocamento não 
+é reduzido por armaduras pesadas ou excesso de 
+carga. Toda armadura acoplada em seu corpo tem a 
+penalidade reduzida em –2.
+
+--- block x0=289 y0=259 x1=513 y1=312 ---
+Ouro. Carisma +3, Força –1. Seu deslocamento 
+não é reduzido por armaduras pesadas ou excesso de 
+carga. Você é considerado como sempre vestindo um 
+traje da corte, bainha adornada e capa com dragonas.
+
+--- block x0=308 y0=312 x1=513 y1=412 ---
+Pano. Carisma +2, Sabedoria +2, Força 
+–1, Constituição –1. Você não pode acoplar 
+armaduras pesadas em seu corpo e sofre 
++1 ponto de dano por dado de dano de fogo, 
+mas reduz qualquer dano de impacto e dano 
+de queda em –3 dados. Além disso, não podem 
+escolher vapor ou elemental (fogo) como sua 
+fonte de energia.
+
+--- block x0=289 y0=412 x1=513 y1=517 ---
+Porcelana. Inteligência +2, Constitui-
+ção –1. Você não pode acoplar armaduras em seu 
+corpo e sofre +1 ponto de dano por dado de impacto, 
+mas qualquer efeito mágico que forneça Defesa tem 
+o efeito aumentado em +1 por patamar e você recebe 
+resistência a magia +2.
+Fontes de Energia
+
+--- block x0=289 y0=515 x1=513 y1=616 ---
+Arcana. Você foi animado por flutuações de 
+mana concentradas em seu corpo. Você pode lançar 
+uma magia arcana de 1º círculo à sua escolha (atri-
+buto-chave Inteligência). Caso aprenda novamente 
+essa magia, seu custo diminui em –1 PM. Alguém 
+treinado em Misticismo pode trocar essa magia com 
+um ritual que demora um dia e exige o gasto de um 
+pergaminho mágico com outra magia de 1° círculo.
+
+--- block x0=289 y0=616 x1=513 y1=680 ---
+Espiritual. Você é operado por uma alma 
+de verdade. Você perde a habilidade Propósito de 
+Criação e passa a poder ter origens. Além disso, você 
+recebe uma habilidade de uma raça humanoide a sua 
+escolha, mas não muda sua categoria de tamanho.
+
+--- block x0=43 y0=680 x1=513 y1=714 ---
+Onírica. Você se move pelo desejo divino. Uma 
+força poderosa sonha com sua existência, permitindo 
+"3,1415 9265359..."
+"3,1415 9265359..."
+
+--- block x0=7 y0=756 x1=18 y1=767 ---
+22
+

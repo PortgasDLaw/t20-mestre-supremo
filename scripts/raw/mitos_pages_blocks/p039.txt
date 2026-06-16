@@ -1,0 +1,152 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=54 x1=247 y1=77 ---
+Métodos de CUltivo
+
+--- block x0=71 y0=75 x1=295 y1=136 ---
+Cultivadores utilizam formas diversas para se 
+fortalecer. Cada método se aperfeiçoa a medida que 
+você vai abrindo seus meridianos.
+Método da Arte Celestial
+
+--- block x0=71 y0=136 x1=295 y1=212 ---
+Você se torna devoto de um deus que canalize 
+apenas energia positiva, sendo considerado um 
+devoto fiel para a divindade escolhida. Se estiver em-
+punhando a arma favorita de sua divindade, o dano 
+da arma aumenta em um passo, com +1 passo para 
+cada meridiano par aberto.
+
+--- block x0=71 y0=212 x1=295 y1=241 ---
+Ação de Trabalho Interno. Atacar com a 
+arma favorita de sua divindade.
+
+--- block x0=71 y0=241 x1=295 y1=302 ---
+Cultivo. Você recebe +1d8 pontos de dano 
+de luz em seus ataques com arma favorita da sua 
+divindade por meridiano ímpar aberto.
+Método da Meditação
+
+--- block x0=71 y0=301 x1=295 y1=390 ---
+Escolha três escolas de magia. Uma vez feita, 
+essa escolha não pode ser mudada. Você pode lan-
+çar magias de 1º círculo que pertençam as escolas 
+escolhidas como se fossem divinas. A medida que 
+abre seus meridianos, pode lançar magias de círculos 
+maiores (2º círculo no terceiro meridiano, 3º círculo 
+no quinto meridiano e 4º círculo no sétimo).
+
+--- block x0=71 y0=390 x1=295 y1=466 ---
+Você começa com duas magias de 1º círculo. A 
+cada nível, aprende uma magia de qualquer círculo e 
+escola que possa lançar. A cada meridiano par aberto, 
+você libera acesso a uma escola de magia adicional. 
+Seu atributo-chave para lançar magias é Sabedoria e 
+você soma sua Sabedoria no seu total de PM.
+
+--- block x0=88 y0=466 x1=292 y1=482 ---
+Ação de Trabalho Interno. Lançar magias.
+
+--- block x0=71 y0=482 x1=295 y1=531 ---
+Cultivo. O limite de PM e a CD das suas 
+magias aumenta em +1 por meridiano ímpar aberto.
+Método da Proteção
+
+--- block x0=71 y0=531 x1=295 y1=583 ---
+Você se torna treinado em todas as perícias de 
+resistência e recebe +2 nelas. Além disso, ao fazer 
+um teste de resistência, você pode gastar 2 PM para 
+rolar dois dados e escolher o melhor resultado.
+
+--- block x0=71 y0=583 x1=295 y1=683 ---
+Você soma sua Sabedoria na Defesa, limitado 
+pelo nível e apenas quando não está usando arma-
+dura e/ou escudos. A cada meridiano par aberto, 
+você recebe +1 na Defesa. A partir do 5º meridiano 
+aberto, uma vez por rodada como uma reação a um 
+ataque feito contra um aliado adjacente, você pode 
+gastar 2 PM para se tornar o alvo deste ataque, que 
+então é resolvido normalmente.
+
+--- block x0=71 y0=683 x1=295 y1=712 ---
+Ação de Trabalho Interno. Ser bem 
+sucedido em um teste de resistência, resistir a uma 
+
+--- block x0=309 y0=55 x1=533 y1=83 ---
+manobra ou conseguir defender um ataque realizado 
+contra você.
+
+--- block x0=309 y0=83 x1=530 y1=132 ---
+Cultivo. Você recebe +1 em testes de resistên-
+cia por meridiano ímpar aberto.
+Método das Armas
+
+--- block x0=309 y0=132 x1=533 y1=184 ---
+Escolha entre a Jian (lâmina) ou Katana (espa-
+da), você recebe proficiência com a arma escolhida 
+e inicia com uma contendo uma melhoria (exceto 
+material especial).
+
+--- block x0=309 y0=184 x1=533 y1=260 ---
+Para cada novo meridiano aberto após o 1º, você 
+aplica mais uma melhoria a sua arma, passando a 
+poder aplicar encantos a partir do 5º meridiano. Se 
+perder sua arma de cultivo, pode criar uma nova em 
+um ritual que exige T$ 100 em materiais e 1 semana 
+de prece e meditação.
+
+--- block x0=309 y0=260 x1=533 y1=288 ---
+Ação de Trabalho Interno. Atacar com 
+sua arma de cultivo.
+
+--- block x0=309 y0=288 x1=533 y1=349 ---
+Cultivo. Você recebe +1 em testes de ataque 
+e rolagens de dano com sua arma de cultivo por 
+meridiano ímpar aberto.
+Método do Demônio Imperial
+
+--- block x0=309 y0=349 x1=533 y1=425 ---
+Você se torna devoto de um deus que canalize 
+apenas energia negativa, sendo considerado um 
+devoto fiel para a divindade escolhida. Se estiver em-
+punhando a arma favorita de sua divindade, o dano 
+da arma aumenta em um passo, com +1 passo para 
+cada meridiano par aberto.
+
+--- block x0=309 y0=425 x1=533 y1=454 ---
+Ação de Trabalho Interno. Atacar com a 
+arma favorita de sua divindade.
+
+--- block x0=309 y0=454 x1=533 y1=515 ---
+Cultivo. Você recebe +1d8 pontos de dano 
+de trevas em seus ataques com arma favorita da sua 
+divindade por meridiano ímpar aberto.
+Método Dos Punhos
+
+--- block x0=309 y0=515 x1=533 y1=591 ---
+Seu dano desarmado se torna 1d6 e passa a 
+causar dano letal ou não letal de corte, impacto ou 
+perfuração. Além disso, você soma sua Sabedoria nas 
+suas rolagens de dano desarmadas (invés de Força). 
+Você é considerado como tendo a habilidade Briga 
+para cumprir pré-requisitos.
+
+--- block x0=309 y0=591 x1=533 y1=643 ---
+Para cada meridiano aberto após o 1º, você au-
+menta seu dano desarmado em um passo. No 3º e 
+5º meridiano, você também aumenta o seu alcance 
+natural em +1,5m.
+
+--- block x0=309 y0=643 x1=533 y1=671 ---
+Ação de Trabalho Interno. Realizar um 
+ataque desarmado.
+
+--- block x0=309 y0=671 x1=533 y1=711 ---
+Cultivo. Você recebe +1 em testes de ataque 
+e rolagens de dano com golpes desarmados e armas 
+naturais por meridiano ímpar aberto.
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+39
+

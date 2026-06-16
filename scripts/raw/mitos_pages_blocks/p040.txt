@@ -1,0 +1,87 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=54 x1=173 y1=82 ---
+Hemófago
+
+--- block x0=51 y0=84 x1=275 y1=208 ---
+Inicialmente desenvolvida em Arton por magos 
+de Aslothia, a magia de sangue é um tipo diferente 
+e até profano de mágica. Muito diferente daquela 
+apadrinhada por Wynna, a magia de sangue nasceu 
+em um lugar pérfido, as terras sombrias de Umbra-
+lar, onde vivem os demônios antigos e as bruxas da 
+convenção. Dita-se que a primeira usuária desse tipo 
+de magia foi Liandry Lustveil, morta por um herói 
+solitário à centenas de anos atrás. Porém, ela sempre 
+acaba voltando a cada novo eclipse e emprega 
+
+--- block x0=35 y0=649 x1=110 y1=660 ---
+"Isso é só mais uma 
+"Isso é só mais uma 
+
+--- block x0=39 y0=659 x1=104 y1=670 ---
+etapa, bambina."
+etapa, bambina."
+
+--- block x0=289 y0=55 x1=510 y1=83 ---
+novos utentes a esta prática, somente para ser derro-
+tada novamente em um ciclo perpétuo.
+
+--- block x0=289 y0=83 x1=513 y1=171 ---
+Os objetivos de Liandry e de sua convenção de 
+bruxas, até onde se tem conhecimento, é o extermí-
+nio da luz e o império das trevas. Ela diz atuar em 
+nome de Tenebra, mas seus planos atuais é um se-
+gredo bem guardado, mas vigilantes e inquisidores já 
+estão buscando impedí-los, pois lutar contra Liandry 
+e sua convenção é um ciclo, tal qual todos os demais.
+
+--- block x0=289 y0=171 x1=513 y1=331 ---
+Um manipulador da magia profana do sangue é 
+chamado de hemófago, pois eles consomem tanto 
+o próprio sangue quanto o alheio para formar suas 
+magias, demonstrando ser magos poderosos, já que 
+não precisam utilizar de mana para lançar seus feiti-
+ços, mas a utilização do sangue fazem deles de certa 
+forma vulneráveis se não conseguirem usar do 
+sangue alheio para suas conjurações. A magia de 
+sangue pode ser vista sendo usada por vários 
+vilões poderosos e ínfames, gerando uma 
+fama profana aos praticantes dessa arte, e 
+por isso, raramente é vista sendo utilizada 
+por aventureiros.
+
+--- block x0=369 y0=331 x1=513 y1=468 ---
+Desnessário dizer que os vampí-
+ros são os principais condu-
+tores da magia de sangue, 
+principalmente 
+a 
+casta 
+nobre de Aslothia, sendo 
+para eles uma excelente 
+forma de se alimentar. Muito 
+devido a influência dele que 
+os manipuladores do sangue 
+são chamados de hemófagos 
+— devoradores do sangue.
+
+--- block x0=395 y0=468 x1=513 y1=520 ---
+Hemófagos 
+Famo-
+sos. Bartholomeu San-
+guine, Rowena Ravenclaw, 
+Vikar.
+
+--- block x0=382 y0=520 x1=513 y1=560 ---
+Devotos. 
+Kallyadra-
+noch, 
+Megalokk, 
+Sszzaas, 
+Tenebra.
+
+--- block x0=6 y0=756 x1=18 y1=767 ---
+40
+

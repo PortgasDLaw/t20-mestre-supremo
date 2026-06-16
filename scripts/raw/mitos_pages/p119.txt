@@ -1,0 +1,96 @@
+Aventureiros de Arton
+uma manobra empurrar ou derrubar como parte da 
+mesma ação, aplicando o bônus da finta ao seu teste 
+de manobra. Essa arte marcial exige liberdade de mo-
+vimentos; você não pode usá-la ou ela se desativa se 
+estiver de armadura pesada ou na condição imóvel. 
+Pré-requisito: Jogo de Pernas.
+Arte Marcial: Boxe Interno
+Você se torna mais resiliente e agressivo, rece-
+bendo redução de dano igual a sua Força (limitado 
+pelo nível). Além disso, uma vez por cena, ao chegar 
+a 0 PV ou menos sob o efeito dessa arte, você pode 
+gastar 3 PM para retornar seu PV a 1 e recuperar uma 
+quantidade de pontos de vida igual ao seu nível de 
+lutador + sua Força. Pré-requisito: Convencido.
+Arte Marcial: Instinto Superior
+Você gasta 10 PM para receber +5 em todos os 
+seus atributos físicos (que não fornece PV adicio-
+nais) e somar sua Sabedoria na Defesa e em Reflexos. 
+Além disso, habilidades limitadas pelo seu nível ou 
+atributos tem esse limite aumentado em +5. Manter 
+essa arte ativada gasta 3 PM sempre no início dos 
+seus turnos, do contrário, a arte se encerra. Uma 
+vez que a arte seja encerrada, você fica exausto até 
+o fim do dia (mesmo que imune a essa condição). 
+Pré-requisito: Mestre Marcial, 18º nível de lutador. e
+Arte Marcial: Keysi
+Você recebe redução de dano 5, que aumenta em 
++5 para cada rodada que manter essa arte marcial 
+ativa, mas sofre uma penalidade cumulativa de –5 
+em seus testes de ataque. Se cancelar a arte marcial 
+e fizer um ataque desarmado bem sucedido dentro 
+do mesmo turno, toda redução de dano acumulada é 
+perdida e então convertida em dano fixo na rolagem 
+de dano deste ataque.
+Arte Marcial: Krav Maga
+Você assume uma postura defensiva de deflexão. 
+Sempre que for atacado, você pode gastar 2 PM e 
+fazer um teste de ataque desarmado, se o resultado 
+do seu teste for maior que o do seu oponente, você 
+evita o ataque. Se passar por 10 ou mais, você pode 
+redirecionar o ataque para uma criatura adjacente 
+(ou a 9m se o ataque evitado tiver sido a distância).
+Arte Marcial: Luta Livre
+Você passa a mirar onde mata de verdade, rece-
+bendo +1 na margem de ameaça com seus ataques 
+desarmados. Além disso, suas fintas deixa o alvo 
+desprevenido pela rodada (invés de por um ataque), 
+e, por 2 PM, você pode fazer um ataque desarmado 
+contra um alvo no qual acabou de realizar uma finta 
+bem sucedida como parte da mesma ação. Pré-requisi-
+to: Gingado Elusivo.
+Arte Marcial: KickBoxing
+Você recebe redução de dano 2 e +2 na Defe-
+sa. Para cada rodada que manter essa arte ativa, 
+esses bônus aumentam em +1 (Limitado pela sua 
+Destreza). Essa arte marcial exige liberdade de mo-
+vimentos; você não pode usá-la ou ela se desativa se 
+estiver de armadura pesada ou na condição imóvel. 
+Pré-requisito: Balançada Elusiva.
+Arte Marcial: Sumotori
+Você perde a habilidade Golpe Relâmpago en-
+quanto manter essa arte marcial ativa, mas seu dano 
+desarmado aumenta em um passo e seus ataques 
+empurram os alvos a 1,5m. Além disso, você sofre –2 
+na Defesa, mas recebe redução de dano 5 enquanto 
+manter essa arte ativa. Essa arte não pode ser usada 
+se estiver usando armadura ou manopla. Pré-requisi-
+tos: Braços Calejados, Sarado, Golpe Relâmpago.
+Artista Marcial Supremo
+Você soma sua Sabedoria no seu total de pontos 
+de mana e aprende e pode lançar Raio Cósmico (atri-
+buto-chave Sabedoria), podendo usar seus aprimora-
+mentos como se tivesse acesso aos mesmos círculos 
+de magia que um feiticeiro de seu nível. Pré-requisitos: 
+Especialista Marcial, treinado em Misticismo, Sab 2.
+Balançada Elusiva
+Você adota uma postura de combate elusiva e 
+balançante, recebendo +2 na Defesa e em Reflexos. 
+Essa habilidade exige liberdade de movimentos; 
+você não pode usá-la com armadura pesada ou sob a 
+condição imóvel. Pré-requisito: Des 2.
+Artes Marciais
+Alguns poderes de lutador são Artes 
+Marciais. Esses poderes compartilham as 
+seguintes regras.
+• Assumir uma arte marcial gasta uma 
+ação de movimento e 2 PM, mas reduz seu 
+deslocamento em –3m.
+• Todas as artes duram até o fim da cena 
+ou até você desativá-la (ação livre). Você só 
+pode assumir uma arte marcial por vez.
+• Todas as artes marciais tem como pré-
+requisito 10 níveis de lutador e o poder 
+Especialista Marcial.
+119

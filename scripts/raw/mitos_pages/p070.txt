@@ -1,0 +1,100 @@
+Capítulo Um
+uma chama de progresso, a capacidade de um dia 
+criar robôs para pilotar em combate em suas aven-
+turas, foi assim que aos poucos nasceu uma vertente 
+inventista 
+conhecida 
+como mecânopilotos.
+Um mecânopiloto é um inventor que foca os seus 
+esforços na produção de robôs pilotáveis, ou apenas 
+Corins. Eles são um grande exotraje mecânico contro-
+lado por botões, alavancas e sistemas autômotos a 
+base de magia arcana e muitos processos complexos 
+que só o inventor sabe como funciona — e por isso 
+somente o inventor sabe como controlar seu corin. 
+Eles empregam os seus corins em combate e 
+dificilmente é visto fora deles — exceto se for para 
+repará-los — e por muitas vezes só utiliza suas 
+capacidades inventivas quando isso atribui algum 
+aperfeiçoamento ao seu golem-armadura.
+Características de 
+Classe
+Pontos de Vida. Um mecânopiloto começa 
+com 8 pontos de vida + Constituição e ganha 2 PV 
++ Constituição por nível.
+Pontos de Mana. Como o inventor básico.
+Perícias. Ofício (Engenhoqueiro) (Int) e 
+Pilotagem (Des), mais 4 a sua escolha entre Co-
+nhecimento (Int), Cura (Sab), Diplomacia (Car), 
+Fortitude (Con), Iniciativa (Des), Investigação (Int), 
+Luta (For), Misticismo (Int), Ofício (Int), Percepção 
+(Sab), Pontaria (Des) e Vontade (Sab).
+Proficiências. Como o inventor básico.
+Habilidades de Classe
+Corin. Você começa com um Corin, um veículo 
+especial que usará durante sua jornada (veja a próxi-
+ma página). Além disso, começa com instrumentos 
+de engenhoqueiro aprimorado.
+Engenhosidade. Como o inventor básico.
+Automação. A partir do 2º nível, seu corin 
+passa a atuar como um autômato (veja Tormenta20, 
+p. 69) de um tipo a sua escolha quando não está 
+sendo pilotado.  Seu Corin conta como Autômato 
+para pré-requisitos e efeitos de poderes de inventor.
+Poder de Inventor. A partir do 2º nível, 
+você recebe essa habilidade como o inventor básico, 
+mas não pode escolher o poder autômato.
+Robô Superior. No 3º nível, seu corin recebe 
+uma melhoria de até T$ 2.000 aplicada ao chassi. No 
+5º, 7º e 9º nível, ele recebe melhorias adicionais.
+Gigante de Aço. A partir do 5º nível, seu 
+corin, quando desarmado, causa 1d8 pontos de 
+dano, que pode ser letal ou não letal. Além disso, 
+você pode melhorar os punhos do seu corin como se 
+fossem armas corpo a corpo.
+Tabela 1-18: O Mecânopiloto
+Nível
+Habilidades de Classe
+1º
+Corin, engenhosidade
+2º
+Automação, poder de inventor
+3º
+Poder de inventor, robô superior (1 melhoria)
+4º
+Poder de inventor
+5º
+Gigante de aço, poder de inventor, 
+robô superior (2 melhorias)
+6º
+Poder de inventor
+7º
+Mashin, poder de inventor, 
+robô superior (3 melhorias)
+8º
+Poder de inventor
+9º
+Poder de inventor, robô superior (4 melhorias)
+10º
+Poder de inventor
+11º
+Poder de inventor
+12º
+Poder de inventor
+13º
+Golem magibélico (menor), poder de inventor
+14º
+Poder de inventor
+15º
+Golem magibélico (médio), poder de inventor
+16º
+Poder de inventor
+17º
+Golem magibélico (maior), poder de inventor
+18º
+Poder de inventor
+19º
+Poder de inventor
+20º
+Kishin, Poder de Inventor
+70

@@ -1,0 +1,92 @@
+Aventureiros de Arton
+•	 Grimório das Almas. Ao usar uma magia que 
+cause dano, você pode perder +4 PV para que ela 
+cause perda de vida invés de dano, mas a magia 
+passa a afetar apenas criaturas vivas. Se ao usar essa 
+habilidade a criatura falhar na resistência por 10 ou 
+mais, também fica sangrando.
+•	 Interromper Fluxo Sanguíneo. Ao usar Hemofa-
+gia, você pode gastar +1 PM para, em vez de deixar o 
+inimigo fraco, deixá-lo lento (ou imóvel por 1 rodada 
+e então lento se possuir Saciação). Este é um efeito 
+de metabolismo, não de movimento, representando 
+sua capacidade de alterar o fluxo sanguíneo de seu 
+alvo. Pré-requisito: 9º nível de Hemófago.
+•	 Lamento da Inocência. Uma vez por rodada, ao 
+sofrer dano, você pode transferí-lo para sua Orbe de 
+Sangue, uma criatura vinculada ou cadáver reani-
+mado. Pré-requisito: Banco de Sangue, Linhagens de 
+Sangue ou Ventríloquo do Pós-Vida.
+•	 Linhagens de Sangue. Você pode gastar uma 
+ação completa para formar um elo entre você e uma 
+criatura viva voluntária como um efeito sustentado. 
+Enquanto o elo durar, você pode usar os PV da cria-
+tura vinculada para suas habilidades.
+•	 Liquefação. Você pode perder 10 PV para virar 
+uma poça de sangue que ocupa uma área com 3m de 
+raio até o fim da cena — ou até desfazer o efeito com 
+uma ação livre, mas fica caído. Nessa forma, você 
+não sofre dano (exceto de efeitos em área), mas seu 
+deslocamento é reduzido à metade e você não pode 
+fazer outras ações além de deslocar-se. Além disso, 
+você pode ocupar o espaço de outras criaturas e é 
+considerado terreno difícil. Se encerrar o turno com 
+criaturas sobre você, elas sofrem 1d4 pontos de dano 
+de trevas por ponto em Constituição que possuir.
+•	 Maldição da Escuridão. Ao usar Hemofagia, você 
+pode gastar +3 PM para, se o alvo falhar, ter uma 
+praga instalada em seu corpo como uma doença. No 
+início de cada um dos turnos da criatura com a praga, 
+ela deve fazer um teste de Fortitude (CD Car), se 
+falhar, perde 1d12 pontos de vida e 1 de Constitui-
+ção, se passar, evita o efeito pela rodada, se passar 
+três vezes, se livra da praga, mas se ficar com Con 
+–5, morre. Perda de Constituição causada por essa 
+habilidade pode ser revertida pela magia Purificação 
+com o aprimoramento de +7 PM. Pré-requisito: 10º 
+nível de hemófago. Metabolismo. e
+•	 Rondó de Sangue. Você pode gastar uma ação de 
+movimento e 6 PV para fazer uma dança macabra. 
+Faça um teste de Atuação, para cada 10 pontos de 
+resultado neste teste, você recebe +1 na Defesa até o 
+fim da cena. Pré-requisito: treinado em Atuação.
+•	 Saciação. O dano de Hemofagia aumenta em 
++1 dado do mesmo tipo. Além disso, ao usar He-
+mopotência, o primeiro alvo na cena que falhar na 
+resistência contra essa habilidade fica debilitado — 
+em vez de fraco. Se mais de um alvo falhar, escolha 
+um deles para sofrer o efeito. Pré-requisito: 12º nível 
+de Hemófago.
+•	 Sanguessuga. Se usar Hemofagia contra uma 
+criatura sangrando, você pode gastar +2 PM para 
+causar o dobro de dano (após rolar e aplicar todos os 
+bônus) ou impor uma penalidade de –5 no teste de 
+resistência dela. Pré-requisito: 3º nível de Hemófago.
+•	 Sangue Potente. Você recebe +2 em Fortitude e 
+na CD de Hemofagia. Além disso, suas habilidades 
+de hemófago com alcance curto — exceto magias — 
+muda para médio.
+•	 Sedento por Sangue. você ignora camuflagem e 
+cobertura leve contra criaturas sangrando e recebe 
++5 na margem de ameaça contra elas. Além disso, 
+você recebe percepção às cegas contra criaturas 
+vivas — podendo ouvir seus batimentos cardíacos. 
+Pré-requisito: 17º nível de Hemófago.
+•	 Segredos Sombrios. Você aprende duas magias 
+de qualquer círculo que possa lançar. Elas devem 
+pertencer às escolas que você sabe usar, mas podem 
+ser arcanas ou divinas. Você pode escolher este poder 
+quantas vezes quiser.
+•	 Sinfonia da Noite. Escolha quatro magias apren-
+didas, você pode lançá-las gastando pontos de mana. 
+Pré-requisito: Vampirismo, 17º nível de hemófago.
+•	 Vampirismo. Você passa a poder recuperar PV 
+perdidos por habilidades de hemófago usando Toque 
+Vampírico e pode lançar essa magia gastando PM. 
+Pré-requisitos: Toque Vampírico, 5º nível de hemófago.
+•	 Ventríloquo do Pós-Vida. Você pode gastar uma 
+ação padrão e 2 PV para reanimar um cadáver em al-
+cance curto como um capanga com as estatísticas de 
+um esqueleto animado mestre (veja Heróis de Arton, 
+p. 241), mas que causa dano de trevas.
+43

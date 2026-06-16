@@ -1,0 +1,106 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=275 y1=104 ---
+pelo nível, no Limite de PM da magia. Pré-requisito: 
+Símbolo Sagrado Abençoado.
+Canalizar Energia Elemental
+
+--- block x0=51 y0=103 x1=275 y1=200 ---
+Ao usar Canalizar Energia Positiva/Negativa, 
+você pode gastar +1 PM para trocar o tipo de dano 
+causado para um entre ácido, eletricidade, fogo ou 
+frio e você afeta qualquer criatura escolhida na área, 
+viva ou morta (mas não cura ninguém). Pré-requisito: 
+clérigo de Kallyadranoch ou Wynna.
+Clérigo Glorioso
+
+--- block x0=51 y0=200 x1=275 y1=273 ---
+Você pode escolher um poder de paladino entre 
+julgamentos divinos e virtudes paladinescas usando 
+seu nível de clérigo como níveis de paladino. Pré-re-
+quisito: devoto de um deus disponível para paladinos.
+Fagulha dos Reinos
+
+--- block x0=51 y0=273 x1=275 y1=346 ---
+Você recebe uma herança planar do Suraggel 
+(veja Deuses de Arton, p. 36) de acordo com o mundo 
+divino da divindade na qual é devoto. Pré-requisitos: 
+devoto de um deus maior, 12º nível de clérigo. e
+Fé Incólume
+
+--- block x0=51 y0=346 x1=275 y1=434 ---
+Não são crenças individuais que irão lhe impedir 
+de demonstrar sua fé. Você anula qualquer restrição 
+por símbolos sagrados visíveis no ambiente para suas 
+habilidades e itens. Isso inclui efeitos que exigem 
+ser devoto da mesma divindade (de 
+certa forma, você é). Pré-requisito: 
+clérigo do panteão.
+
+--- block x0=289 y0=55 x1=421 y1=72 ---
+Lapso de Coragem
+
+--- block x0=289 y0=72 x1=513 y1=169 ---
+Sempre que passar em um teste de Vontade, você 
+recebe +1 PM temporário cumulativo, ou +2 se o 
+efeito no qual você passou for de medo. Você pode 
+ter uma quantidade máxima de PM temporários 
+dessa forma igual ao seu nível + sua Sabedoria, que 
+são perdidos ao fim da cena.
+Missa: Elevar o Corpo
+
+--- block x0=289 y0=168 x1=510 y1=217 ---
+Os participantes recebem +1 em testes de perí-
+cia baseadas em atributos físicos.
+Missa: Expandir Limites
+
+--- block x0=289 y0=217 x1=513 y1=278 ---
+Cada participante escolhe uma magia que possa 
+lançar para aumentar seu limite de PM em +1 (ou 
+em +2 se a magia escolhida for divina).
+Objetivo Sagrado
+
+--- block x0=289 y0=278 x1=513 y1=387 ---
+Durante um tempo entre aventuras, você pode 
+fazer uma busca sagrada por revelações da sua igreja 
+para atuar melhor em prol da sua fé. Se for bem su-
+cedido na sua busca, até o fim da próxima aventura, 
+você recebe +2 nos seus testes de perícia associadas 
+as áreas de influência ou epíteto da sua divindade (a 
+critério do mestre). Pré-requisito: devoto de um deus.
+Orador do Terceiro
+
+--- block x0=289 y0=387 x1=513 y1=460 ---
+Você passa a aprender magias arcanas de evoca-
+ção como se fossem divinas, desde que elas causem 
+dano de ácido, eletricidade, fogo ou frio. Pré-requisito: 
+clérigo de Kallyadranoch.
+Poder Temperado
+
+--- block x0=289 y0=459 x1=513 y1=556 ---
+Quando usa Abençoar Arma em uma arma 
+superior ou mágica, você pode gastar +2 PM para 
+receber +2 nos testes de ataque (+1 por encanto 
+que a arma possuir) e +1 na rolagem de dano (com 
++1 por melhoria que a arma possuir). Pré-requisito: 
+Abençoar Arma.
+Pregação
+
+--- block x0=289 y0=556 x1=513 y1=617 ---
+O custo em componentes de Oração é reduzido à 
+metade e Bênção passa a acumular com outras magias. 
+Pré-requisitos: Bênção, Oração, 10º nível de clérigo.
+Reza Bendita
+
+--- block x0=289 y0=617 x1=513 y1=693 ---
+Você pode gastar seu primeiro turno em um 
+combate rezando. Se fizer isso, todos os aliados na 
+cena recebem os benefícios de uma única missa que 
+possua, mas por não usar componentes, o benefício 
+só dura até o fim da cena e não é afetado por efeitos 
+que afetam missas. Pré-requisitos: Mestre Celebrante.
+
+--- block x0=5 y0=756 x1=20 y1=767 ---
+108
+

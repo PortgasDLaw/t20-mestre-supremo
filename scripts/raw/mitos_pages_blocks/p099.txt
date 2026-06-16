@@ -1,0 +1,144 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=170 y1=72 ---
+Brado Místico
+
+--- block x0=71 y0=72 x1=295 y1=145 ---
+Uma vez por rodada, quando lança uma magia, 
+você pode usar um de seus poderes de brado como 
+uma ação livre. Pré-requisitos: um poder de brado, 
+Habilidade de Classe Magias ou Totem Espiritual.
+BRado: Provocador
+
+--- block x0=71 y0=144 x1=295 y1=217 ---
+Você brada e chama a atenção dos inimigos. Eles 
+devem lhe atacar da melhor maneira possivel em 
+seus turnos até o fim da rodada (Von CD Con evita). 
+Pré-requisito: treinado em Intimidação. Mental.
+Campeão Espiritual
+
+--- block x0=71 y0=217 x1=295 y1=314 ---
+Você pode gastar +3 PM ao usar Fúria para, 
+enquanto ela durar, somar sua Sabedoria em testes 
+de ataque e rolagens de dano em que apliquem seus 
+benefícios (não cumulativo com outros efeitos que 
+somem esse atributo). Pré-requisitos: Espiritualista, 
+12º nível de bárbaro. e
+Corpo Fortificado
+
+--- block x0=71 y0=314 x1=292 y1=363 ---
+Ao usar Fúria, você recebe fortificação 25% en-
+quanto ela durar. Pré-requisito: 10º nível de bárbaro.
+Ímpeto Furioso
+
+--- block x0=71 y0=363 x1=295 y1=424 ---
+Ao usar Fúria no seu primeiro turno em um 
+combate, você pode se deslocar até 6m como parte 
+da ativação desta habilidade.
+Provocação Oportunista
+
+--- block x0=71 y0=423 x1=295 y1=496 ---
+Enquanto o efeito do Brado Provocador durar, 
+você pode gastar 3 PM para atacar qualquer criatura 
+que ataque um aliado e no qual você esteja adjacente. 
+Pré-requisitos: Brado Provocador, 6º nível de bárbaro.
+Provocação Pesada
+
+--- block x0=71 y0=496 x1=295 y1=569 ---
+Ao usar Brado Provocador, você fica imóvel e 
+resiste a qualquer tentativa de tirá-lo do lugar, mas 
+recebe redução de dano 10 até o início do seu pró-
+ximo turno. Pré-requisitos: Con 3, Brado Provocador.
+Tempestade Furiosa
+
+--- block x0=71 y0=569 x1=295 y1=666 ---
+Ao usar fúria, você pode pagar +2 PM para criar 
+uma área tempestuosa com 3m de raio a partir de 
+você. Uma criatura que inicie seu turno dentro da 
+área sofre 1d8 pontos de dano de eletricidade por 
+PM gasto ao entrar em fúria (Fort CD Sab reduz à 
+metade). Pré-requisito: Totem Espiritual. e
+Slot Disponível
+
+--- block x0=71 y0=666 x1=295 y1=706 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+
+--- block x0=309 y0=394 x1=533 y1=443 ---
+cursus dictum. Proin nec metus faucibus, vestibulum 
+diam et, feugiat mi. Nam at odio.
+Slot Disponível
+
+--- block x0=309 y0=442 x1=533 y1=515 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum. 
+Slot Disponível
+
+--- block x0=309 y0=515 x1=533 y1=576 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. 
+Slot Disponível
+
+--- block x0=309 y0=576 x1=533 y1=649 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+Slot Disponível
+
+--- block x0=309 y0=649 x1=533 y1=701 ---
+Lorem ipsum dolor sit amet, consectetur adi-
+piscing elit. Maecenas consequat dui felis, dictum 
+rutrum est ultrices tincidunt. Quisque a lectus ut mi 
+cursus dictum.
+
+--- block x0=328 y0=52 x1=472 y1=69 ---
+Novos Animais Totêmicos
+
+--- block x0=328 y0=71 x1=503 y1=111 ---
+Os novos totens cultuados pelas tribos de 
+Arton. Magias entre parênteses são obtidas 
+com o poder Espiritualista.
+
+--- block x0=328 y0=111 x1=513 y1=151 ---
+• Aranha. A obscura aranha verte seda nas 
+cavernas que habita. Você pode lançar Teia 
+(Amarras Etéreas).
+
+--- block x0=328 y0=151 x1=510 y1=168 ---
+• Dragão. Veja DB #200, p. 71 (Metamorfose).
+
+--- block x0=328 y0=167 x1=506 y1=208 ---
+• Inseto. Os insetos representam o deus 
+da tormenta. Você pode lançar Amedrontar 
+(Desespero Esmagador).
+
+--- block x0=328 y0=208 x1=505 y1=236 ---
+• Leão. O leão é feroz e autoritário. Você 
+pode lançar Comando (Marca da Obediência).
+
+--- block x0=328 y0=236 x1=494 y1=276 ---
+• Rinoceronte. O rinoceronte é rigido 
+como pedra. Você pode lançar Proteção 
+Divina (Estampido Feroz de Skavendish).
+
+--- block x0=328 y0=276 x1=515 y1=305 ---
+• Serpente. A serpente é traiçoeira e atroz. 
+Você pode lançar Jato Corrosivo (Flecha Ácida).
+
+--- block x0=328 y0=304 x1=489 y1=333 ---
+• Texugo. Veja DB #208, p. 56 (Servos 
+Invisíveis, mas os servos são texugos).
+
+--- block x0=328 y0=333 x1=514 y1=361 ---
+• Touro. O touro protege os fracos. Você 
+pode lançar Proteção de Tauron (Desafio Corajoso).
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+99
+

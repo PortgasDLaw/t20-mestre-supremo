@@ -1,0 +1,112 @@
+Aventureiros de Arton
+Enxertos Quiméricos	
+homunculus
+Você recebe uma habilidade de uma raça do tipo 
+monstro à sua escolha — exceto habilidades que 
+muda seu tipo de criatura, se a raça for modular, 
+cada poder é considerado uma habilidade separada. 
+Pré-requisito: 11º nível de personagem.
+Equilíbrio das águas	
+Kappa
+Se estiver com água na cabeça, você soma sua 
+Constituição nos seus efeitos de cura (conta como 
+um bônus de item para magias). Além disso, você 
+precisa falhar por 10 ou mais nos testes para derru-
+bar a água de sua cabeça.
+Esgrima da vespa	
+entoma
+Se estiver empunhando uma arma corpo a corpo 
+leve ou ágil, você pode usar Acrobacia no lugar de 
+Luta em seus testes de ataque.
+Espinhos da Rosa	
+alraune
+Você pode gastar uma ação de movimento e 2 
+PM para produzir espinhos pelo seu corpo. Armas 
+que empunhar recebem +2 nas rolagens de dano e 
+criaturas adjacentes a você sofrem 1d6 pontos de 
+dano de perfuração no início do seu turno. A cada 
+quatro níveis após o 1º, você pode gastar +1 PM para 
+aumentar o bônus em +1 (e +1d6).
+Essência vital	
+várias
+Você recebe +2 PM por patamar e resistência a 
+magia +2. Além disso, preparados que recuperam 
+PM tem esse efeito aumentado em +1 dado. Pré-re-
+quisito: homunculus ou raça do tipo espírito.
+Expelir Mel	
+entoma
+Você pode gastar uma ação padrão e 3 PM para 
+vomitar uma dose de mel. Este é um item que ocupa 
+0,5 espaços no inventário e quando consumido por 
+uma criatura que não seja você com uma ação pa-
+drão, ele recupera 2d4+4 pontos de vida. O mel pode 
+ser usado como ingrediente culinário, substituindo o 
+açúcar. Pré-requisito: Familia Hymenoptera.
+Falso Devoto	
+Vanir
+Você passa a poder escolher poderes concedidos 
+de um deus maior a sua escolha, ignorando o pré-re-
+quisito de ser devoto — exceto Aharadak. Você só 
+pode escolher um poder concedido por patamar.
+Favor Divino	
+várias
+Para cada poder concedido que possuir, você 
+recebe +1 PV e +1 PM. Pré-requisito: devoto de um 
+deus maior, ser de uma raça humanoide.
+Ferreiro Inato	
+Anão
+Você pode fabricar armas, armaduras e escudos 
+superiores com uma melhoria. Se puder fazer isso 
+através de outra habilidade, você o faz na metade do 
+tempo. Pré-requisito: treinado em Ofício (Armeiro).
+Gene recessivo	
+homunculus
+Você recebe uma habilidade de uma raça huma-
+noide. Ao escolher esse poder pela 1ª vez, escolha 
+uma segunda raça humanoide para receber os efeitos 
+de Mistura Genética. Você pode escolher esse poder 
+outras vezes, mas só uma vez por patamar além do 
+veterano. Pré-requisito: 5º nível de personagem.
+Grito Apavorante	
+Harpia
+Você pode gastar uma ação padrão e 3 PM para 
+emitir um grito apavorante. Criaturas em alcance 
+curto ficam surdas, apavoradas por 1d4 rodadas e 
+então abaladas (Von CD Car evita a condição apavo-
+rado). Pré-requisito: 11º nível de personagem.
+Lorde da tempestade	
+Galokk
+Os dados de Tempestade dos Titãs muda para d8. 
+Pré-requisitos: Galokk de Gelo, 12º nível de persona-
+gem, Sab 3. e
+Mãe Natureza	
+alraune
+Quando em um bioma de floresta, você recebe 
++2 no limite de PM e na CD das magias aprendidas 
+com Bênção da Floresta. Além disso, recebe o poder 
+Saraivada Florestal (veja Heróis de Arton, p. 91). Pré-
+-requisitos: Pele Arbórea, 14º nível de personagem.
+Marca Divina	
+envar
+Se escolheu um atributo para somar no seu total 
+de PV, ele também passa a ser somado (ainda limi-
+tado pelo nível) no seu total de PM. Se escolheu ser 
+marcado por Glória, você recebe +3 PV por patamar.
+Tabela 1-37: Poderes de Raça 
+(Continuação)
+Raça
+Poderes
+Sulfure
+Sete Pecados
+Toskr
+Atirador, Atração pela Pólvora, Roedor
+Valquíria
+Arma Guardiã, Asas de Ferro, Asas Guardiãs, 
+Comandar Aprimorado, Conforto do Aço, 
+Duro como Aço, Perserverar, Völundr
+Vanir
+Falso Devoto, Fragrância de Rosas, 
+Presença Natural, Vitalidade das Fadas
+Várias
+Essência Vital, Favor Divino, Sangue Vital
+137

@@ -1,0 +1,133 @@
+--- block x0=368 y0=737 x1=530 y1=753 ---
+Aventureiros de Arton
+
+--- block x0=71 y0=55 x1=214 y1=72 ---
+Auxílio Emergencial
+
+--- block x0=71 y0=72 x1=295 y1=169 ---
+Uma vez por cena, ao ser alvo de um efeito 
+que lhe causaria dano, você pode gastar 5 PM para 
+direcionar este efeito para o seu autômato ou ao seu 
+corin se ele estiver em alcance curto. Se o alvo for um 
+autômato, ele é destruido. Pré-requisitos: Autômato 
+ou Corin, 6º nível de inventor.
+Chassi Automático
+
+--- block x0=71 y0=168 x1=295 y1=253 ---
+Seu Corin/Autômato passa a fornecer os benefí-
+cios de mais um tipo de parceiro mestre a sua escolha 
+entre ajudante, assassino, atirador, combatente, des-
+truidor, guardião, médico ou vigilante. Pré-requisitos: 
+Autômato ou Corin, 16º nível de Inventor.
+Chassi Mecanizado
+
+--- block x0=71 y0=253 x1=295 y1=338 ---
+Você pode acoplar engenhocas em seu autôma-
+to/corin. Ele possui espaço para acoplar no máximo 
+duas engenhocas, mas você só pode ativá-las se esti-
+ver adjacente ao mesmo — ou estiver pilotando-o, no 
+caso do Corin. Pré-requisito: Armadura Mecanizada.
+Chassi Montado
+
+--- block x0=71 y0=338 x1=295 y1=447 ---
+O corin passa a fornecer os benefícios de um 
+parceiro montaria a escolha do inventor (e aprovado 
+pelo mestre) e tem seu deslocamento mudado de 
+acordo com o tipo de montaria escolhida. Já autôma-
+tos do tipo montaria cujo inventor escolha este poder 
+tem o deslocamento dele aumentado em +6m. Pré-
+-requisitos: Autômato ou Corin, 12º nível de Inventor.
+Chassi Rúnico
+
+--- block x0=71 y0=447 x1=295 y1=544 ---
+Você pode desenhar runas de proteção em seu 
+autômato ou corin, tornando-o mais resistente. Se 
+aplicado a um autômato, ele passa a lhe fornecer RD 
+5 (além de quaisquer outros benefícios de parceiro). 
+Se aplicado a um corin, ele soma sua Inteligência na 
+redução de dano dele. Pré-requisito: Armadura Rúnica.
+Chassi Titânico
+
+--- block x0=71 y0=543 x1=295 y1=652 ---
+Seu corin se torna um veículo Enorme, receben-
+do +5 de Defesa, redução de dano e passa a poder 
+armazenar até 20 espaços de item. O autômato 
+aumenta sua categoria de tamanho em um passo. 
+Quando não tripulado, o corin/autômato fornece +1 
+na Defesa e em testes de resistência. Pré-requisitos: 
+Autômato ou Corin, 8º nível de Inventor.
+Chassi Veloz
+
+--- block x0=71 y0=651 x1=295 y1=711 ---
+Você pode gastar uma ação padrão e 5 PM para 
+transformar seu autômato/corin em uma maquina 
+ágil. Em termos de jogo, o autômato fornece a ha-
+bilidade Ataque Extra e +3m de deslocamento. Um 
+corin (quando pilotado) recebe +2 na Defesa, +3m 
+
+--- block x0=309 y0=55 x1=533 y1=115 ---
+de deslocamento e você pode gastar 2 PM, uma vez 
+por rodada, para dar um ataque extra com ele. Pré-
+-requisitos: Autômato ou Corin, 6º nível de Inventor.
+Cinzel de Runas
+
+--- block x0=309 y0=114 x1=533 y1=223 ---
+Armas corpo a copro fabricadas por você são 
+consideradas esotéricos para suas runas e ao lançar 
+uma runa através dessas armas, você soma sua 
+Inteligência na rolagem de dano da magia. Além 
+disso, runas que tenham como alvo sua arma tem a 
+execução reduzida em um passo (até movimento). 
+Pré-requisitos: Ferreiro, Runista. e
+Engenharia Versátil
+
+--- block x0=309 y0=223 x1=533 y1=332 ---
+Quando fabrica uma engenhoca, você pode optar 
+por fabricar uma bugiganga ou maquinário, usando 
+as regras desses itens invés das de uma engenhoca 
+padrão. Bugigangas e maquinários fabricados por 
+você seguem as regras de limite de suas engenhocas 
+e são afetados por habilidades e poderes que afetam 
+engenhocas. Pré-requisito: Engenhoqueiro.
+Engenhoca Favorita
+
+--- block x0=309 y0=332 x1=533 y1=405 ---
+Escolha uma engenhoca que emula uma magia 
+de 1º círculo, você pode ativar ela uma vez por cena 
+sem precisar fazer testes (mas as demais regras ainda 
+se aplicam). Pré-requisitos: Engenhoqueiro.
+Engenhosidade Combativa
+
+--- block x0=309 y0=405 x1=533 y1=478 ---
+Você pode, uma vez por rodada, usar Engenhosi-
+dade em testes de ataque. Você gasta +1 PM e a arma 
+deve ter sido fabricada por você. Pré-requisitos: Estilo 
+Próprio, 11º nível de inventor.
+Estilo Próprio
+
+--- block x0=309 y0=478 x1=533 y1=562 ---
+Escolha um poder de estilo (exceto Estilo de Dis-
+paro) que possua, ele e poderes que o tenham como 
+pré-requisito passam a funcionar enquanto estiver 
+empunhando qualquer arma corpo a corpo que tenha 
+fabricado. Pré-requisitos: um poder de Estilo, Armeiro.
+Homem de Ferro
+
+--- block x0=309 y0=562 x1=533 y1=671 ---
+Você pode gastar uma ação completa e 10 PM 
+para vestir seu autômato como um efeito sustenta-
+do. Você recebe +10 na Defesa (conta como uma 
+armadura pesada), deslocamento de voo 18m e seus 
+ataques desarmados se tornam ataques à distância 
+(dano 4d12, crítico 19/x3, essência). Pré-requisito: 
+Autômato, 18º nível de inventor.
+Homunculus
+
+--- block x0=309 y0=671 x1=533 y1=711 ---
+Você evolui o seu homúnculo magistralmente, 
+transformando-o em um ser vivo consciente e espe-
+cial. O homúnculo passa a fornecer os benefícios de 
+
+--- block x0=562 y0=756 x1=574 y1=767 ---
+115
+

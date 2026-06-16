@@ -1,0 +1,120 @@
+Aventureiros de Arton
+igual a 1d8 + sua Sabedoria. Ao acertar um ataque, 
+uma flecha avança contra o alvo, causando dano. e
+•	 Fortalecimento de Seda. Você gasta uma ação de 
+movimento para receber +2 em Acrobacia, Atletismo 
+e na Defesa até o fim da cena. Nos níveis 3, 9 e 15, 
+você pode gastar +2 PM ao usar essa habilidade para 
+aumentar esses bônus em +1.
+•	 Impulso de Seda. Você faz uma investida envol-
+vendo sua arma em seda, somando sua Sabedoria ao 
+seu teste de ataque e rolagem de dano.
+•	 Recuperação de Seda. Você gasta uma ação com-
+pleta e recupera uma quantidade de PV igual a 3d6 
++ sua Sabedoria. e
+•	 Turbilhão de Seda. Você faz um ataque que 
+causa o dano da sua arma + sua Sabedoria a todas 
+as criaturas em uma esfera de 3m de raio a partir de 
+você (faça um único teste de ataque e compare com a 
+Defesa de cada criatura na área). e
+Estilista. No 2º nível, você recebe um vestu-
+ário superior com preço total de até T$ 500 e passa 
+a poder fabricar vestuários superiores com uma 
+melhoria. Nos níveis 5, 7 e 10, você pode substituir 
+esse item por um vestuário superior com duas, três 
+e quatro melhorias, respectivamente, e passa a poder 
+fabricar vestuários superiores com essa quantidade 
+de melhorias.
+No nível 9, este vestuário se torna mágico e 
+recebe um encanto, e você passa a fabricar vestuários 
+mágicos menores. Já no nível 13 e 17, o vestuário 
+recebe um encanto adicional e você passa a poder 
+fabricar vestuários mágicos médios e maiores, res-
+pectivamente. e
+Poder de Caçador. A partir do 2º nível, você 
+recebe esta habilidade como o caçador básico.
+Manto Fortificado. A partir do 3º nível, se 
+estiver vestindo seu manto do caçador e nenhuma 
+armadura, você soma sua Sabedoria na Defesa. Além 
+disso, você pode adicionar melhorias e encantos 
+exclusivos para armaduras em vestuários.
+Marca Pessoal. A partir do 6º nível, quando 
+uma criatura em alcance curto estiver vestindo um 
+vestuário fabricado por você, ele pode gastar 3 PM 
+para dobrar um dos benefícios deste vestuário até o 
+fim da cena (você pode usar essa habilidade apenas 
+com seu manto do caçador).
+Mestre da Seda. No 20º nível, Marca da Presa 
+e habilidades de seda que usam ação de movimento 
+podem ser usadas como uma ação livre. Além disso, 
+o custo das suas habilidades de seda são reduzidos à 
+metade e seu manto do caçador recebe os efeitos de 
+um terceiro vestuário a sua escolha.
+xArcanistax
+Tecnomago
+"Ciência? Magia? Por que não os dois?!"
+No mundo de Arton existe uma constante dis-
+puta acerca de dois conceitos que, a primeira vista, 
+parecem opostos; a magia e a ciência. O motivo para 
+isso é um tanto simples, a ciência e tecnologia, não 
+muito diferente da própria magia arcana, requer 
+estudos complexos e teses exatas, porém com um 
+grau maior de complexidade, enquanto que a magia 
+é uma ferramenta (e para alguns uma arte) ampla e 
+que não parece ter qualquer sentido ou lei clara além 
+do gasto de um pouco da sua energia e conhecimento 
+de fórmulas antigas, em alguns casos.
+Tabela 1-30: O Tecnomago
+Nível
+Habilidades de Classe
+1º
+Caminho do tecnomago, lei de asimov, 
+magias (1º círculo)
+2º
+Poder de arcanista, transmutar item superior 
+(1 melhoria)
+3º
+Autonomia magicânica, lei de asimov 
+(parceiro construto), poder de arcanista
+4º
+Poder de arcanista
+5º
+Magias (2º círculo), poder de arcanista, 
+transmutar item superior (2 melhorias)
+6º
+Poder de arcanista
+7º
+Poder de arcanista
+8º
+Autonomia magicânica (2 bugigangas 
+vestidas), poder de arcanista, transmutar item 
+superior (3 melhorias)
+9º
+Magias (3º círculo), poder de arcanista
+10º
+Poder de arcanista
+11º
+Poder de arcanista, transmutar item superior 
+(4 melhorias)
+12º
+Poder de arcanista
+13º
+Autonomia magicânica (3 bugigangas 
+vestidas), magias (4º círculo), poder de 
+arcanista
+14º
+Poder de arcanista
+15º
+Poder de arcanista
+16º
+Poder de arcanista
+17º
+Magias (5º círculo), poder de arcanista
+18º
+Autonomia magicânica (4 bugigangas 
+vestidas), poder de arcanista
+19º
+Poder de arcanista
+20º
+Poder de arcanista, sorriso de polaris
+85

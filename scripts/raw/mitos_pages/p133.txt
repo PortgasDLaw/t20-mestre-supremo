@@ -1,0 +1,117 @@
+Aventureiros de Arton
+recebendo assim seus efeitos (cumulativo com a própria 
+matéria vermelha). Para cada quatro outros poderes da 
+tormenta, você pode gastar +3 PM para adicionar uma 
+melhoria adicional a seu Armamento Aberrante além de 
+matéria vermelha. Pré-requisito: Armamento Aberrante.
+Elitra Resistente
+Suas asas insetóides se tornam maiores e mais 
+resistentes, permitindo voos mais longos. A duração do 
+deslocamento de voo ganho por Asas Insetóides dura 
+até o início do seu próximo turno, mas voar com essas 
+asas exige liberdade de movimentos; você não pode 
+fazê-lo se estiver de armadura ou sob algum efeito de 
+movimento. Pré-requisito: Asas Insetóides.
+Feto Abissal
+Você pode gastar 6 PM e uma ação completa para 
+conceber de maneira macabra uma criatura rubra 
+similar a um inseto composto de matéria vermelha. Ele 
+atua como um parceiro iniciante de um tipo a sua esco-
+lha — exceto montaria — até o fim da cena ou até ser 
+morto. Se possuir quatro outros poderes da tormenta, 
+ele se torna um parceiro veterano, se possuir oito outros 
+poderes da tormenta, se torna um parceiro mestre. Você 
+só pode conceber um feto por vez. Pré-requisito: outro 
+poder da tormenta.
+Humanidade PErdida
+Você passa a ser considerado um lefou para efeitos 
+e pré-requisitos de raça, mas ainda é parte da sua "raça 
+original". Se for lefou ou kaijin, obter esse poder lhe 
+dá resistência a tormenta +5. Pré-requisito: oito outros 
+poderes da tormenta.
+Imitar a Realidade
+Você recebe uma habilidade de raça humanoide a 
+sua escolha. Você pode trocar a habilidade no início de 
+cada aventura. Pré-requisito: Desprezar a Realidade.
+Imitar a Sociedade
+Você pode lançar Metamorfose como uma magia si-
+mulada (atributo-chave Sab), mas apenas em você mes-
+mo e só pode se transformar em criaturas humanoides 
+com a sua categoria de tamanho — e não transforma 
+seus equipamentos e itens. Porém, a duração da habi-
+lidade muda para 1 dia. Pré-requisito: Imitar a Realidade.
+Implantar Simbionte
+Ao agarrar uma criatura com a arma natural obtida 
+por Dentes Afiados, você pode gastar 6 PM para forçar 
+a criatura agarrada a fazer um teste de Fortitude (CD 
+Sab), se ele falhar, tem um simbionte manipulador colo-
+cado em seu cérebro através do pescoço e passa a seguir 
+suas ordens — como no efeito básico de Marionete. No 
+início de cada um dos turnos da criatura controlada, ela 
+pode fazer um teste de Vontade para sair do controle 
+mental, vomitando o simbionte, mas ao fazer isso, sofre 
+1d6 pontos de dano de ácido para cada rodada que 
+passou sendo controlada e fica enjoada (Fort CD Sab 
+evita a condição). Esse efeito só funciona em lacaios. 
+Pré-requisitos: Larva Explosiva, Quelíceras. Mental.
+Jardim Fúngico
+Você pode gastar uma ação de movimento e 1 PM 
+para fazer brotar vários fungos macabros em diferentes 
+partes de seu corpo, que exalam um feromônio corro-
+sivo e venenoso. Sempre que uma criatura iniciar seu 
+turno adjacente a você, ela perde 1d6 pontos de vida. 
+Para cada dois outros poderes da tormenta que possuir, 
+a perda de vida aumenta em +1d6, e para cada quatro 
+outros poderes da tormenta que possuir, o alcance da 
+habilidade aumenta em +1,5m. Veneno.
+Tabela 1-36: 
+Poderes da Tormenta
+Poder
+Pré-requisitos
+Alteração Óptica
+Enganação, quatro poderes 
+da tormenta
+Anulação Mágica
+Rejeição arcana
+Armamento Bizarro
+Armamento aberrante
+Elitra Resistente
+Asas insetóides
+Feto Abissal
+Um poder da tormenta
+Humanidade Perdida
+Oito poderes da tormenta
+Imitar a Realidade
+Desprezar a realidade
+Imitar a Sociedade
+Imitar a realidade
+Implantar Simbionte
+Larva explosiva, quelíceras
+Jardim Fúngico
+—
+Membros Aracnídeos
+Membros extras
+Olhos Demais
+Olhos vermelhos
+Palavra Impronunciável
+—
+Pesadelo Vivo
+—
+Quelíceras
+Dentes afiados
+Rejeição Arcana
+Tempo místico
+Revoada de Espinhos
+Sangue ácido
+Sopro Repulsivo
+Sangue ácido, visco rubro
+Substituição Macabra
+Implantar símbionte, seis 
+poderes da tormenta
+Tentáculos
+—
+Ventriloquismo Arcano
+Tempo Místico
+Vislumbre Impossível
+—
+133

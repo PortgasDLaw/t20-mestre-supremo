@@ -1,0 +1,132 @@
+--- block x0=51 y0=737 x1=137 y1=753 ---
+Capítulo Um
+
+--- block x0=51 y0=55 x1=272 y1=92 ---
+proficiência com armas de fogo, 5º nível de personagem.
+Varar a Cabeça
+
+--- block x0=51 y0=91 x1=275 y1=214 ---
+Ao realizar um acerto crítico com uma arma de 
+fogo, você pode gastar 2 PM para que uma criatura em 
+alcance curto do alvo primário sofra metade do dano 
+do seu ataque. O segundo alvo precisa estar atrás do 
+primeiro. Pré-requisitos: proficiência com armas de fogo.
+Poderes
+de Destino
+
+--- block x0=51 y0=219 x1=188 y1=236 ---
+Adepto dos Ermos
+
+--- block x0=51 y0=236 x1=275 y1=309 ---
+Você recebe +2 em testes relacionados a natureza 
+(como clima, orientar-se, etc.), o mestre tem a palavra 
+final sobre o que é um teste relacionado a natureza. 
+Pré-requisitos: treinado em Sobrevivência, Sab 2.
+Alma de Aventureiro
+
+--- block x0=51 y0=309 x1=275 y1=418 ---
+Você recebe um poder de uma classe que não a 
+sua cujo pré-requisitos cumpra (para pré-requisitos 
+de nível, considere seu nível de personagem –5). Para 
+propósitos de limite de PM, considere que seu nível 
+na classe do poder escolhido é metade do seu nível de 
+personagem (arredondado para cima). Pré-requisitos: 6º 
+nível de personagem.
+Amigo Espiritual
+
+--- block x0=51 y0=418 x1=275 y1=479 ---
+Seu alikunhá se torna um parceiro veterano. Ao 
+chegar ao 15º nível, se torna um parceiro mestre. Pré-re-
+quisitos: 7º nível de personagem, parceiro alikunhá.
+Bicho do mato
+
+--- block x0=51 y0=479 x1=275 y1=551 ---
+Não importa o quão profunda a floresta ou o quão 
+escarpo seja o ermo... Você está em casa. Se estiver em 
+um ambiente ermo e longe de uma comunidade, você 
+recebe +2 na Defesa, em Atletismo e em Sobrevivência.
+Carinho no bicho
+
+--- block x0=51 y0=551 x1=275 y1=636 ---
+Uma vez por cena, você pode gastar uma ação com-
+pleta acariciando um parceiro animal, ou, a critério do 
+mestre, uma criatura peluda que esteja adjacente. Você 
+e o alvo recuperam 2d4 PMs. Pré-requisitos: treinado em 
+Adestramento, Car 2.
+Cozinha Campestre
+
+--- block x0=51 y0=636 x1=275 y1=712 ---
+Você pode gastar 1 PM ao fazer um teste de Ofício 
+(cozinheiro) para usar Sabedoria como atributo-chave 
+desta pericia. Além disso, uma vez por tempo entre 
+aventuras, você pode fazer um teste de Ofício (Co-
+zinheiro) ou Sobrevivência, o resultado é do teste é a 
+quantidade de tibares que você obtém como ingre-
+
+--- block x0=289 y0=55 x1=513 y1=116 ---
+dientes — exemplo, em um resultado 25, você recebe 
+T$ 25 em ingredientes. Pré-requisito: Foco em Ofício 
+(Cozinheiro).
+Crise de Meia-Idade
+
+--- block x0=289 y0=115 x1=513 y1=212 ---
+Você recebe os benefícios de uma segunda origem 
+— exceto treinamentos em perícia — ou um poder úni-
+co de origem, representando outras coisas que você fez 
+em vida antes de se tornar aventureiro, mas recebe uma 
+complicação de idade adicional. Pré-requisito: Maduro 
+(veja Heróis de Arton, p. 282).
+Destino Perpétuo
+
+--- block x0=289 y0=212 x1=513 y1=297 ---
+Você não pode se beneficiar de pergaminhos, 
+poções, itens encantados usado por outrem, efeitos má-
+gicos usados por você e nem aprender ou lançar magias. 
+Em troca, todos os benefícios de Ao Sabor do Destino 
+são dobrados. Pré-requisito: Ao Sabor do Destino.
+EntuSIASTA DE ITENS MÁGICOS
+
+--- block x0=289 y0=297 x1=513 y1=394 ---
+Você pode se beneficiar de dois itens vestidos 
+adicionais, desde que sejam mágicos. Além disso, para 
+cada item mágico que estiver vestindo ou empunhando, 
+você recebe +1 PM máximo até que o item vá para a 
+posse de outra criatura ou seja destruido (após 1 dia de 
+uso). Pré-requisitos: Int 3, Car 3.
+FAGULHA dos deuses
+
+--- block x0=289 y0=394 x1=513 y1=455 ---
+Você recebe a influência de um mundo divino atra-
+vés do contato com deuses ou o próprio mundo em si. 
+Você recebe uma herança planar do suraggel. e
+Fingir de Morto
+
+--- block x0=289 y0=455 x1=513 y1=527 ---
+Ao ficar indefeso, você pode gastar 2 PM para fingir-
+-se de morto (desacelerando seu coração, ficando mais 
+frio, etc). Ao fazer isso, você não pode ser alvo de um 
+golpe de misericórdia até ter pelo menos 1 PV.
+Nacionalista
+
+--- block x0=289 y0=527 x1=513 y1=624 ---
+Quando estiver na região em que nasceu ou passou 
+seus anos formativos, você recebe +1 em testes de perí-
+cia. Fora da região, esse bônus é fornecido se o teste for 
+associado a esta região — um namalkahniano sempre 
+tem +1 em Adestramento e Cavalgar, independente de 
+onde estiver. Pré-requisito: ter uma origem regional.
+Otimismo
+
+--- block x0=289 y0=624 x1=513 y1=685 ---
+Nada te abala, pois você sabe que sempre há um 
+amanhã melhor! Você recebe resistência a medo e men-
+tal +2. Pré-requisito: Vontade de Ferro.
+Professoral
+
+--- block x0=289 y0=685 x1=513 y1=713 ---
+Você extrai o potencial dos seus aliados através de 
+lições, uma vez por cena, você pode gastar 2 PM e fazer 
+
+--- block x0=4 y0=756 x1=20 y1=767 ---
+130
+

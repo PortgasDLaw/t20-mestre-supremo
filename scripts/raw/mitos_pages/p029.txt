@@ -1,0 +1,113 @@
+Aventureiros de Arton
+Bruxeiros Famosos. Artyom D. Zechts, 
+Enkhantryx de Wynna, Ricardo, Wilson Slayblade.
+Devotos. Arsenal, Azgher, Tenebra, Wynna.
+Características de 
+Classe
+Pontos de Vida. Um bruxeiro começa com 
+16 pontos de vida + Constituição e ganha 4 PV + 
+Constituição por nível.
+Pontos de Mana. 4 PM por nível.
+Perícias. Luta (For) e Vontade (Sab), mais 4 
+a sua escolha entre Adestramento (Car), Atletismo 
+(For), Cavalgar (Des), Conhecimento (Int), Cura 
+(Sab), Fortitude (Con), Guerra (Int), Iniciativa 
+(Des), Intimidação (Car), Misticismo (Int), Ofício 
+(Int), Percepção (Sab), Pontaria (Des), Reflexos 
+(Des) e Sobrevivência (Sab).
+Proficiências. Armas Marciais.
+Habilidades de Classe
+Arma Bruxeira. Você recebe uma arma alqui-
+micamente tratada para lidar com ameaças chamada 
+Arma de Bruxeiro. Ela é uma espada a sua escolha 
+entre a bastarda, curta, longa ou uma montante que 
+causa +1d4 pontos de dano, que aumenta em +1d4 
+a cada quatro níveis. Você pode substituir sua arma 
+de bruxeiro realizando um processo que demora 1 
+semana e custa T$ 150 em materiais.
+Sinais. Você soma sua Inteligência no seu total 
+de pontos de mana no 1º nível. Além disso, aprende 
+seus primeiros sinais (veja a página @@). e
+Teste das Ervas. Você treinou e se formou 
+em uma escola de bruxeiro. Escolha uma entre as 
+disponíveis nas páginas @@ a @@, uma vez feita, 
+essa escolha não pode ser mudada. Além disso, pelos 
+químicos aplicados em seu sangue, sua longevidade 
+aumenta em +1 (arredondado para cima, máx. x5).
+Poder de Bruxeiro. No 2º nível, e a cada 
+nível seguinte, você recebe um poder de bruxeiro a 
+sua escolha. Veja a lista a seguir.
+Olhos Laranjas. A partir do 3º nível, você 
+pode gastar 2 PM para somar sua Inteligência, li-
+mitada pelo nível, em seu próximo teste de ataque 
+com sua arma de bruxeiro, Percepção ou Reflexos 
+realizado até o fim do seu turno.
+Formação Versátil. No 6º nível, você recebe 
+o efeito básico de uma segunda escola de bruxeiro. 
+Mas não pode escolher os poderes Graduação e Mas-
+terização para essa escola.
+Mestre Bruxeiro. No 20º nível, quando 
+empunhando sua arma de bruxeiro, você rola dois 
+dados e usa o melhor resultado em testes de ataque, 
+rola novamente qualquer resultado 1 ou 2 em rola-
+gens de dano e dobra os dados de Arma Bruxeira.
+Poderes de Classe
+•	 Abrir a Guarda. Uma vez por rodada, ao reali-
+zar um ataque com sua arma de bruxeiro, você pode 
+gastar 3 PM para fazer um ataque adicional com a 
+mesma arma. Pré-requisito: 6º nível de bruxeiro.
+•	 Aço e Prata. Você recebe uma segunda arma 
+de bruxeiro dentre as disponíveis em Arma Bruxei-
+ra — se não possuir. Ela afeta não-humanoides ou 
+humanoides ao usar Exterminador de acordo com 
+a escolha oposta com a primeira arma de bruxeiro. 
+Pré-requisito: Exterminador, 5º nível de bruxeiro.
+•	 Adepto Solitário. Enquanto não receber ne-
+nhum efeito benéfico de seus aliados (como cura, 
+bônus, etc.) e não possuir parceiros, você reduz o 
+custo das suas habilidades de bruxeiro em –1 PM 
+(cumulativo com outras reduções de custo).
+Tabela 1-2: O Bruxeiro
+Nível
+Habilidades de Classe
+1º
+Arma bruxeira (+1d4), sinais, teste das ervas
+2º
+Poder de bruxeiro
+3º
+Olhos laranjas, poder de bruxeiro
+4º
+Poder de bruxeiro
+5º
+Arma bruxeira (+2d4), poder de bruxeiro
+6º
+Formação versátil, poder de bruxeiro
+7º
+Poder de bruxeiro
+8º
+Poder de bruxeiro
+9º
+Arma bruxeira (+3d4), poder de bruxeiro
+10º
+Poder de bruxeiro
+11º
+Poder de bruxeiro
+12º
+Poder de bruxeiro
+13º
+Arma bruxeira (+4d4), poder de bruxeiro
+14º
+Poder de bruxeiro
+15º
+Poder de bruxeiro
+16º
+Poder de bruxeiro
+17º
+Arma bruxeira (+5d4), poder de bruxeiro
+18º
+Poder de bruxeiro
+19º
+Poder de bruxeiro
+20º
+Mestre bruxeiro (+10d4), poder de bruxeiro
+29

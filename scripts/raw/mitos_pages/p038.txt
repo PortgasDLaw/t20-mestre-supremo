@@ -1,0 +1,102 @@
+Capítulo Um
+•	 Selar os Meridianos. Você pode gastar uma ação 
+padrão e 1 carga de chi para gerar o efeito de Selo de 
+Mana em uma criatura adjacente como uma magia 
+simulada (CD Sab), golpeando pontos específicos do 
+corpo do alvo. Pré-requisito: 8º nível de cultivador.
+•	 Sete Pilares do Céu. Você pode gastar 1 dia 
+meditando para criar sete pilares que flutuam ao seu 
+redor, cada pilar armazena uma magia lançada como 
+um ritual (veja Tormenta20, p. 131) e você gasta os PM 
+normalmente, podendo lançar as magias com uma 
+ação padrão a qualquer momento após armazená-las. 
+Os pilares se mantém por uma aventura. Pré-requisi-
+tos: 18º nível de cultivador, Método da meditação. e
+•	 Talismãs. Você pode criar talismãs, papéis com 
+as mesmas funções de um pergaminho. Porém, criar 
+talismãs exige gastar PM (invés de tibares; você 
+gasta o custo em PM padrão da magia) e 1 hora de 
+trabalho, mas eles só duram por 1 dia. Pré-requisitos: 
+treinado em Ofício (escriba), Método da meditação.
+•	 Tornar-se Abissal. Você se alinha com o abismo 
+do reino dos mortos, tornando-se um akumushi gas-
+tando uma ação completa e 10 PM. Você recebe um 
+poder da tormenta por meridiano aberto, que não 
+conta para a perda de Carisma. Para cada poder da 
+tormenta que possuir, você recebe +2 em rolagens 
+de dano e +1 na Defesa. Este é um efeito sustentado 
+que gasta 2 PM por rodada. Pré-requisitos: Método do 
+demônio imperial, 12º nível de cultivador. e
+•	 Tornar-se Celestial. Você se conecta aos seis rei-
+nos para atingir uma forma superior gastando uma 
+ação completa e 10 PM. Você recebe +2 em testes de 
+resistência e não é considerado um tipo de criatura 
+específico para magias. Além disso, o custo de suas 
+magias diminui em –1 PM e você causa +1d6 pon-
+tos de dano de essência, ambos por meridiano par 
+aberto. Este é um efeito sustentado que gasta 2 PM 
+por rodada. Pré-requisitos: Método da arte celestial, 
+Método da meditação, 16º nível de cultivador. e
+•	 Velocidade do Trovão. Você se torna mais ágil e 
+elusivo, recebendo evasão aprimorada. Pré-requisitos: 
+Método da proteção, 12º nível de cultivador.
+•	 Voo da Andorinha. Uma vez por rodada, quando 
+sob efeito de Wushu e fizer um ataque com sua arma 
+de cultivo, você pode gastar 2 PM para fazer um ata-
+que extra com a mesma arma. Pré-requisito: Wushu.
+•	 Wushu. Você se torna treinado no estilo wushu, 
+podendo gastar uma ação de movimento e 3 PM para 
+aumentar seu deslocamento em +1,5m e receber +1 
+na Defesa, testes de ataque e Reflexos por meridiano 
+aberto após o 2º. Este é um efeito sustentado que 
+gasta 2 PM por rodada. Pré-requisitos: Método das 
+armas, 6º nível de cultivador.
+mandalas e sua Sabedoria na quantidade de man-
+dalas que pode manter. Pré-requisitos: um poder de 
+Mandala, 12º nível de cultivador.
+•	 Onimusha. Você é um cultivador que caça aos 
+demônios em nome de Lin-Wu. Ao enfrentar criatu-
+ras da tormenta, cultistas de Aharadak ou abissais, 
+você recebe +1 em testes de perícia e rolagens de 
+dano por meridiano aberto após o 2º. Pré-requisitos: 
+Devoto de Lin-Wu, 8º nível de cultivador.
+•	 Pashupati. Você recebe um espírito etéreo na 
+forma de animal que lhe acompanha em sua jornada. 
+Ele é um parceiro iniciante de um tipo a sua escolha 
+que não conta no seu limite de parceiros. No 6º 
+nível, ele se torna um parceiro veterano, e no 12º, se 
+torna mestre. Caso seu pashupati morra, ele ressurge 
+novamente no início da próxima cena. e
+•	 Punho do Grande Sábio. Ao realizar um ataque 
+desarmado, você pode gastar 3 PM para somar sua 
+Sabedoria no ataque e se acertar, causar +1d8 pontos 
+de dano de essência extra. A cada meridiano aberto 
+após o 1º, você pode gastar +1 PM para receber 
++1d8 pontos de dano adicional. Pré-requisito: Método 
+dos punhos. e
+•	 Regeneração Meditativa. Uma vez por cena, 
+você pode gastar uma ação de movimento e cargas 
+de chi para recuperar PV, limitado pela quantidade 
+de meridianos abertos. Para cada carga de chi gasta, 
+você recupera 1d12 PV.
+•	 Revitalização Espiritual. Uma vez por cena, você 
+pode gastar uma ação de movimento e cargas de chi 
+para recuperar PM, limitado pela quantidade de me-
+ridianos abertos. Para cada carga de chi gasta, você 
+recupera 1d4 PM seu ou de uma criatura adjacente.
+•	 Roda dos Seis Reinos. Você pode gastar uma 
+ação completa e 10 PM para invocar 6 esferas dou-
+radas que surgem flutuando nas suas costas. Ao 
+causar dano, você pode gastar 1 esfera para dobrar 
+o dano causado, se acertar (exceto valores fíxos e 
+adicionais). Pré-requisito: 17º nível de cultivador. e
+Jian
+Uma espada curta, de guarda ornamentada, 
+gravuras circulares e lâmina reta. Sendo 
+levemenente fina e tendo dois gumes. É 
+a arma de cultivo tradicional usada pela 
+maioria dos cultivadores.
+Arma Exótica • Corpo a Corpo • Leve
+T$ 200 • Dano 1d6 • Crítico 17
+Corte • 1 Espaço
+38
