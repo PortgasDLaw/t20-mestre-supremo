@@ -383,6 +383,16 @@
     "descricao": "Gaste 2 PM para gerar um fruto feito da sua própria carne (dura uma cena). Qualquer criatura pode comê-lo com ação padrão: recupera 6d6+6 PV, mas deve fazer Fortitude — falha: fica esmorecida; sucesso: frustrada; falha por 10+: esmorecida e perde 2d4 PM (recupera só com descanso)."
   },
   {
+    "id": "pc-furia-vulcanica",
+    "nome": "Fúria Vulcânica",
+    "divindade": [
+      "Tauron"
+    ],
+    "fonte": "Mitos de Arton",
+    "prereq": "Fúria ou Fúria Divina",
+    "descricao": "Ao entrar em Fúria, gaste +1 PM para expelir chamas. Você causa +1 ponto de dano de fogo por dado em seus ataques corpo a corpo."
+  },
+  {
     "id": "pc-gatuno-sombrio",
     "nome": "Gatuno Sombrio",
     "divindade": [
@@ -850,13 +860,13 @@
       "Maaka"
     ],
     "fonte": "Mitos de Arton",
-    "descricao": "Uma vez por rodada, ao realizar um ataque desarmado, gaste 2 PM (ou 1 carga de chi) para canalizar energia espiritual. Aplique seu nível como bônus no teste de ataque; se acertar, causa +1d8 de essência, deixa o alvo atordoado (Fort CD Sab evita) e o empurra 3m. A cada quatro níveis após o 1º, gaste +2 PM para aumentar o dano e os efeitos."
+    "descricao": "Uma vez por rodada, ao realizar um ataque desarmado, você pode gastar 2 PM (ou 1 carga de chi) para canalizar energia espiritual na sua mão. Aplique seu nível como bônus no teste de ataque; se acertar, você causa +1d8 pontos de dano de essência ao alvo, o deixa atordoado (apenas uma vez por criatura; Fort CD Sab evita) e o empurra 3m em uma direção oposta a sua. A cada quatro níveis após o 1º, você pode gastar +2 PM (ou +1 Chi) para aumentar o dano em +1d8."
   },
   {
     "id": "pc-espirito-vinganca",
     "nome": "Espírito de Vingança",
     "divindade": [
-      "Dukkaan"
+      "Deus da Vingança"
     ],
     "fonte": "Mitos de Arton",
     "descricao": "Gaste ação de movimento e 2 PM para analisar um alvo em alcance curto, tornando-o seu alvo de vingança até o fim da cena. O alvo tem –2 em todos os testes de perícia contra você. A penalidade aumenta em 1 cumulativamente para cada 50 pontos de dano ou mais causado ao alvo em uma rodada (máx. –5)."
@@ -886,7 +896,7 @@
       "Seele"
     ],
     "fonte": "Mitos de Arton",
-    "descricao": "Você recebe o poder Comandar e pode fazer testes de Guerra mesmo sem ser treinado nessa perícia, se for, recebe +2 nela."
+    "descricao": "Você recebe o poder Comandar (veja Tormenta20, p. 130) e pode fazer testes de Guerra mesmo sem ser treinado nessa perícia — se for treinado, recebe +2 nela. Além disso, caso já possua o poder Comandar, o bônus fornecido por ele aumenta em +1."
   },
   {
     "id": "pc-favor-vinte",
@@ -896,5 +906,77 @@
     ],
     "fonte": "Mitos de Arton",
     "descricao": "Uma vez por cena, faça um teste de Religião (CD 20 +5 por uso adicional no mesmo dia). Se passar, até o fim da cena você recebe um poder concedido a escolha do mestre e de acordo com a situação. Se falhar, não pode usar esse poder até o próximo dia e fica alquebrado pela cena. Exclusivo de sacerdotes do panteão."
+  },
+  {
+    "id": "pc-faces-metamorfa",
+    "nome": "Faces da Metamorfa",
+    "divindade": [
+      "Alex"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "Você aprende e pode lançar Disfarce Ilusório. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, você pode aprender Metamorfose como uma magia divina."
+  },
+  {
+    "id": "pc-lamina-negra-morte",
+    "nome": "Lâmina Negra da Morte",
+    "divindade": [
+      "Arthas"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "A CD para resistir aos seus efeitos de morte instantânea aumenta em +2 e você pode realizar golpes de misericórdia com uma ação padrão (em vez de completa)."
+  },
+  {
+    "id": "pc-esfolar",
+    "nome": "Esfolar",
+    "divindade": [
+      "Banta"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "Você recebe +1d6 pontos de dano com armas contra alvos sangrando. O ganho é cumulativo (se o alvo estiver perdendo 2d6 PV por sangramento, você recebe +2d6 pontos de dano, por exemplo)."
+  },
+  {
+    "id": "pc-martirio-vingativo",
+    "nome": "Martírio Vingativo",
+    "divindade": [
+      "Dukkaan"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "Uma vez por rodada, por aliado, se ele estiver adjacente e for alvo de um efeito hostil (ataque, magia, etc.), você pode gastar 3 PM para se tornar o novo alvo do efeito no lugar dele. Se ele estiver em alcance curto, gaste 5 PM (em vez de 3) para ficar adjacente ao aliado e então sofrer o efeito. Ao usar esta habilidade, você falha em qualquer tentativa de reduzir ou evitar o efeito, mas para cada 10 pontos de dano sofrido, recebe +1 em testes de ataque e rolagens de dano até o fim do seu próximo turno (não cumulativo; escolha o maior se usar mais de uma vez)."
+  },
+  {
+    "id": "pc-revide-rebelde",
+    "nome": "Revide Rebelde",
+    "divindade": [
+      "Frier"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "Uma vez por rodada, ao ser alvo de um ataque corpo a corpo enquanto empunha a arma favorita de sua divindade, você pode gastar 5 PM para fazer um ataque contra seu agressor como uma reação."
+  },
+  {
+    "id": "pc-estrela-guia",
+    "nome": "Estrela-Guia",
+    "divindade": [
+      "Laurina"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "No início da aventura, role 1d6 e anote o resultado. Durante uma cena, gaste 2 PM para rolar 1d6: se cair o número anotado, você recebe +2 em todos os testes de perícia até o fim da cena; se cair um número diferente, anote-o também. Os números anotados são perdidos e devem ser rolados novamente no início de cada aventura ou ao ativar o bônus deste poder."
+  },
+  {
+    "id": "pc-invencoes-tecnomagicas",
+    "nome": "Invenções Tecnomágicas",
+    "divindade": [
+      "Polaris"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "Você pode fabricar engenhocas mágicas, podendo manter uma por patamar. Elas funcionam como engenhocas padrão, mas são mágicas, só podem ser de magias divinas e não precisam ser ativadas — você gasta PM normalmente em vez disso. Inventores ou tecnomagos que usem essas engenhocas aumentam o limite de PM das magias lançadas através delas em +2."
+  },
+  {
+    "id": "pc-adaptacao-primal",
+    "nome": "Adaptação Primal",
+    "divindade": [
+      "Ryuusei"
+    ],
+    "fonte": "Mitos de Arton",
+    "descricao": "Uma vez por rodada, você pode gastar 5 PM ao ser alvo de um efeito para reduzi-lo à metade. Nas próximas vezes que usar este poder contra o mesmo efeito feito pela mesma fonte, você passa a evitá-lo até o fim do dia."
   }
 ]
