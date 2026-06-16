@@ -137,56 +137,56 @@
     "nome": "Laurina",
     "epiteto": "Deusa das Estrelas",
     "fonte": "Mitos de Arton",
-    "statusDivino": 2,
-    "tipo": "mortal ascendida",
-    "historia": "O último e mais famoso ato de Laurina em Arton foi, após a batalha de Tamu-ra, doar seu coração a um bardo que tocou uma balada em sua homenagem. Este coração se tornou um artefato disputado. Guia-se pelas estrelas e sonha alcançá-las.",
-    "crencasEObjetivos": "Reverenciar e estudar as estrelas. Guiar-se pelos pontos cardeais. Explorar o desconhecido do éter e do espaço. Tentar alcançar as estrelas.",
+    "statusDivino": 4,
+    "tipo": "entidade primordial",
+    "historia": "Uma das milenares deusas menores criadas no início dos tempos, junto a Ragnar, Hynnin e tantos outros, mas que, diferente deles, não teve a chance de ascender como divindade maior, sendo lançada ao esquecimento, ofuscada pelos vinte. Recentemente seu culto voltou a crescer. Tem traços élficos e singulares — por vezes confundida com uma possível filha de Glórienn (nunca comprovado); ela julga todos os elfos como seus filhos. A teoria mais aceita é que tenha sido feita pelo Nada durante o início da criação, mas há quem defenda que seria fruto da união improvável de Azgher e Tenebra. Seu último e mais famoso ato em Arton foi, após a batalha de Tamu-ra, doar seu coração a um bardo que tocou uma balada em sua homenagem; o Coração de Laurina tornou-se um artefato disputado, de paradeiro hoje desconhecido.",
+    "crencasEObjetivos": "Reverenciar as estrelas e estudá-las. Guiar-se através das estrelas e dos pontos cardeais. Explorar o desconhecido do éter e do espaço. Tentar alcançar as estrelas.",
     "simboloSagrado": "Uma estrela azul",
     "canalizarEnergia": "Qualquer",
     "armaPreferida": "Maça-estrela",
-    "devotos": "Aggelus, centauros, elfos, exploradores, astrônomos, viajantes",
-    "obrigacoesERestricoes": "Um devoto de Laurina deve sempre guiar outros que estejam perdidos. Nunca pode mentir sobre a localização de algo.",
+    "devotos": "Aggelus, centauros, dahllans, eiradaans, elfos, qareens, golens, klirens, osteons, sátiros, sereias/tritões, sílfides, sulfures, arcanistas, bardos, bucaneiros, caçadores, druidas, paladino",
+    "obrigacoesERestricoes": "Um devoto de Laurina nunca pode negar uma oportunidade de guiar e orientar pessoas em uma jornada, devendo sempre se voluntariar a fazê-lo. Além disso, uma vez por semana (ou por aventura, o que demorar mais), deve ser bem-sucedido em um teste para se Orientar com CD 15 + metade do seu nível, uma jornada pelos ermos ou ato similar.",
     "poderConcedido": {
-      "nome": "Luz das Estrelas",
-      "descricao": "Uma vez por cena, você pode gastar 2 PM para invocar a luz das estrelas. Você recebe +5 em Sobrevivência e Investigação por 10 minutos e pode ver perfeitamente no escuro absoluto. Além disso, pode lançar um raio de luz estelar (1d8+Sab de luz, alcance longo) como ação padrão."
+      "nome": "Estrela-Guia",
+      "descricao": "No início da aventura, role 1d6 e anote o resultado. Durante uma cena, você pode gastar 2 PM para rolar 1d6: se cair o número anotado, recebe +2 em todos os testes de perícia até o fim da cena; se cair um número diferente, anote-o também (passando a contar para o efeito). Os números anotados são perdidos e devem ser rolados novamente no início de cada aventura ou ao ativar o bônus deste poder."
     }
   },
   {
     "id": "maaka",
     "nome": "Maaka",
-    "epiteto": "Deus do Espírito Marcial",
+    "epiteto": "Deusa do Cultivo",
     "fonte": "Mitos de Arton",
-    "statusDivino": 2,
-    "tipo": "mortal ascendido",
-    "historia": "Maaka Wu-Cheng, uma ryuujin, que junto a Kong Wu-Sun apresentou a arte do cultivo aos tamuranianos. Deus do espírito marcial e da honra, encarna os princípios do cultivo e da força interior.",
-    "crencasEObjetivos": "Vencer pela estratégia. Mente forte e ágil como o vento. Vigor como um dragão. Nunca ser o primeiro a atacar.",
-    "simboloSagrado": "Um dragão em espiral ao redor de um fio de chi",
+    "statusDivino": 1,
+    "tipo": "mortal ascendida",
+    "historia": "Maaka Wu-Cheng, ou Lilith Maaka (nome antes de liderar o monastério espiritual de Shirokita), é a primeira cultivadora a se tornar imortal, tendo virado deusa menor por decreto do próprio Lin-Wu. Ryuujin nascida no vilarejo inóspito de Oborozuki, dedicou-se às artes marciais e à meditação desde os cinco anos e fez a peregrinação sagrada ao monastério aos sete. Tornou-se imortal aos 16 anos e desde então deixou de envelhecer, refinando o corpo com seu chi quase infinito. Foi a primeira a mostrar que era possível cultivar dois métodos diferentes, tornando-se deusa tanto da arte da lâmina quanto da meditação. Junto a Kong Wu-Sun, ensinou as técnicas de trabalho interno, antes um segredo milenar.",
+    "crencasEObjetivos": "Pregar a paz e a serenidade, só erguendo os punhos se ergueram armas contra você. Meditar e se autodescobrir para atingir a imortalidade. Ser paciente e em grande harmonia com os espíritos e a natureza, pois são parte de um único ciclo.",
+    "simboloSagrado": "Um yin yang",
     "canalizarEnergia": "Positiva",
-    "armaPreferida": "Katana",
-    "devotos": "Cultivadores, monges, ryuujins, tamuranianos, artistas marciais",
-    "obrigacoesERestricoes": "Um devoto de Maaka nunca deve atacar primeiro. Nunca pode falhar mais de duas vezes em testes de resistência na mesma cena.",
+    "armaPreferida": "Leque",
+    "devotos": "Kallyanachs, qualquer raça do tipo espírito, ryuujins, cultivadores, lutadores, samurais",
+    "obrigacoesERestricoes": "Um devoto de Maaka nunca deve atacar primeiro, sendo hostil apenas a quem for hostil a si (atacar um inimigo que tenha sido hostil a um aliado não constitui violação). Deve ser sereno, ter mente forte, ser ágil como o vento e vigoroso como um dragão, nunca podendo falhar mais do que duas vezes em testes de resistência na mesma cena (na 3ª falha não perde PM, mas fica esmorecido até o fim da cena).",
     "poderConcedido": {
       "nome": "Palma do Dragão Celeste",
-      "descricao": "Uma vez por rodada, ao realizar um ataque desarmado, você pode gastar 2 PM (ou 1 carga de chi) para canalizar energia espiritual. Aplique seu nível como bônus no teste de ataque, se acertar, causa +1d8 pontos de dano de força e o alvo fica atordoado por 1 rodada (Fort CD Sab evita)."
+      "descricao": "Uma vez por rodada, ao realizar um ataque desarmado, você pode gastar 2 PM (ou 1 carga de chi) para canalizar energia espiritual na mão. Aplique seu nível como bônus no teste de ataque; se acertar, causa +1d8 pontos de dano de essência, deixa o alvo atordoado (apenas uma vez por criatura; Fort CD Sab evita) e o empurra 3m numa direção oposta à sua. A cada quatro níveis após o 1º, pode gastar +2 PM (ou +1 Chi) para aumentar o dano em +1d8."
     }
   },
   {
     "id": "ryuusei",
     "nome": "Ryuusei",
-    "epiteto": "Deus da Guerra Ordenada",
+    "epiteto": "Deus dos Predadores",
     "fonte": "Mitos de Arton",
     "statusDivino": 2,
     "tipo": "mortal ascendido",
-    "historia": "Filho do pai-mestre de Sora, Ryuusei criou fama ao lutar na guerra artoniana de forma selvagem e primal, ganhando a alcunha D'vorah Kinn. Passou a ser adorado por suas alianças estratégicas. Em Arton, promove a guerra ordenada e tática.",
-    "crencasEObjetivos": "Vencer pela estratégia e coordenação. Não deixar prisioneiros, apenas corpos. Promover a guerra ordenada e tática. Reverenciar o general e obedecer suas ordens.",
-    "simboloSagrado": "Uma árvore com doze galhos e uma coroa de louros",
-    "canalizarEnergia": "Qualquer",
-    "armaPreferida": "Lança",
-    "devotos": "Anões, envars, golens, hobgoblins, cavaleiros, guerreiros, nobres",
-    "obrigacoesERestricoes": "Devotos de Ryuusei devem demonstrar aptidão para estratégia ao menos uma vez por dia. Teste de Guerra CD 15 + metade do nível.",
+    "historia": "Nascido da união atípica entre um aspecto de Megalokk e uma humana tamuriana, Ryuusei é um averiano sem muitas ligações com tribos de sua espécie. Criado em uma tribo de adoradores de Megalokk próxima ao trono do pai-mestre, só conheceu o resto do mundo após a morte dos pais. Em Arton criou fama notória ao lutar na guerra artoniana de modo selvagem e primal, ganhando a alcunha D'vorah Kinn por consumir suas vítimas como um canibal faminto. Uniu-se a heróis épicos para formar um exército que destituiu Sckhar e derrubou Urazyel. Hoje habita as montanhas Sanguinárias em sua forma absoluta: um kaiju mutante com mais de meio quilômetro de altura.",
+    "crencasEObjetivos": "Caçar, predar, consumir e se adaptar. Formar seu território, alimentar sua prole e fortalecer seu grupo. Destruir tudo o que se opõe à natureza. Ser o predador perfeito.",
+    "simboloSagrado": "Uma montanha rachada",
+    "canalizarEnergia": "Negativa",
+    "armaPreferida": "Machado de Batalha",
+    "devotos": "Averianos, centauros, dahllans, entomas, g'rokks, kallyanachs, lefous, medusas, trogs, bárbaros, caçadores, druidas, guerreiros, lutadores",
+    "obrigacoesERestricoes": "Um devoto do deus dos predadores deve agir como se fosse um dos seus. Você não pode fazer testes de Carisma ou de perícias baseadas em Carisma (exceto Adestramento e Intimidação), só pode se alimentar de criaturas que tenha abatido e não pode descansar em construções civilizadas — exceto barracas, tendas e similares.",
     "poderConcedido": {
-      "nome": "Mente Tática",
-      "descricao": "Uma vez por cena, você pode gastar uma ação de movimento e 3 PM para analisar o campo de batalha. Por 3 rodadas, você e seus aliados em alcance médio recebem +2 na Iniciativa e nas jogadas de dano, e você pode usar Guerra no lugar de qualquer perícia de combate."
+      "nome": "Adaptação Primal",
+      "descricao": "Uma vez por rodada, você pode gastar 5 PM ao ser alvo de um efeito para reduzi-lo à metade. Nas próximas vezes que usar este poder contra o mesmo efeito realizado pela mesma fonte, você passa a evitá-lo por completo até o fim do dia."
     }
   },
   {
@@ -194,18 +194,18 @@
     "nome": "Seele",
     "epiteto": "Deusa da Estratégia",
     "fonte": "Mitos de Arton",
-    "statusDivino": 2,
+    "statusDivino": 1,
     "tipo": "mortal ascendida",
-    "historia": "Estrategista incomparável que planejava cada detalhe com precisão cirúrgica. Ascendeu ao panteão através de vitórias conquistadas pela mente, não pela força bruta.",
-    "crencasEObjetivos": "Planejar cada detalhe. Não deixar prisioneiros. Ser impiedosa e ter voz firme para comandar.",
-    "simboloSagrado": "Um tabuleiro de xadrez com uma peça de rei dourado",
+    "historia": "Uma das primeiras alstranis a pisar em Arton. Seele Lodern era outrora uma envar de constituição frágil, mas com mente brilhante e enorme percepção estratégica, general exímia da ordem gloriosa. Durante o massacre da ordem pelos puristas, Thyatis salvou sua alma redimida e a guardou em um golem recém-construído em Coridrian. Estabeleceu uma guilda goblinoide wynllana para armar artonianos e povos oprimidos, comandando-os à vitória sobre os puristas. Após falhar no dever na batalha do Iorväen, isolou-se temendo ser reprogramada por Von Krauser. Ascendeu como deusa menor em 1414, durante a queda de Tiberus — sem se saber se por acaso ou por plano frio dela mesma.",
+    "crencasEObjetivos": "Vencer pela estratégia e coordenação, planejando cada detalhe. Não deixar prisioneiros, apenas corpos de seus inimigos. Promover a guerra ordenada e tática. Reverenciar seu general e obedecer suas ordens. Ser impiedosa e ter voz firme para comandar suas tropas.",
+    "simboloSagrado": "Uma árvore com doze galhos e uma coroa de louros ao redor",
     "canalizarEnergia": "Qualquer",
-    "armaPreferida": "Arco longo",
-    "devotos": "Estrategistas, generais, mestres de xadrez, espias",
-    "obrigacoesERestricoes": "Devotos de Seele devem sempre ter um plano antes de agir. Nunca podem agir impulsivamente sem ao menos 1 rodada de planejamento.",
+    "armaPreferida": "Lança",
+    "devotos": "Anões, envars, golens, hobgoblins, minotauros, osteons, cavaleiros, guerreiros, nobres",
+    "obrigacoesERestricoes": "Devotos de Seele devem demonstrar uma vez por dia (ou por sessão de jogo, o que demorar mais) aptidão para montar estratégias, comandar e coordenar ações — em termos de jogo, uma ação exigindo um teste de Guerra com CD mínima 15 + metade do seu nível.",
     "poderConcedido": {
-      "nome": "Xeque-Mate",
-      "descricao": "Uma vez por aventura, ao iniciar um combate, você pode declarar uma estratégia. Se sua estratégia for executada com sucesso (a critério do mestre), todos os aliados recebem +5 em testes de ataque e rolagens de dano durante toda a batalha."
+      "nome": "Voz de Comando",
+      "descricao": "Você recebe o poder Comandar e pode fazer testes de Guerra mesmo sem ser treinado nessa perícia; se for treinado, recebe +2 nela. Além disso, caso já possua o poder Comandar, o bônus fornecido por ele aumenta em +1."
     }
   },
   {
@@ -213,18 +213,18 @@
     "nome": "Yllib",
     "epiteto": "Deus das Coisas Perdidas",
     "fonte": "Mitos de Arton",
-    "statusDivino": 1,
-    "tipo": "espírito ascendido",
-    "historia": "Entidade misteriosa que cuida das coisas perdidas de Arton. Diz-se que qualquer objeto perdido acaba chegando às mãos de Yllib eventualmente.",
+    "statusDivino": 3,
+    "tipo": "entidade primordial",
+    "historia": "Outrora a rainha das fadas, Thantalla-Dhaedelin, perdeu algo em sua mansão na árvore das fadas; um súdito duende disse que estaria 'na casa do Yllib, pois tudo que é perdido vai parar lá' — e estava certo. Desde então diz-se que qualquer coisa perdida acaba na casa de Yllib. As pessoas passaram a oferecer-lhe itens perdidos para guardar, e seus primeiros devotos (duendes e sílfos) o transformaram em divindade. Tanna-Toh o visita frequentemente. Recentemente, num ato controverso, Yllib esqueceu a própria divindade em algum lugar de casa e, ao sair para passear, não se lembrou mais de ser deus — hoje, embora mantenha seus poderes, anda por Arton dizendo chamar-se 'Billy'.",
     "crencasEObjetivos": "Encontrar o que foi perdido. Guardar as coisas preciosas. Nunca esquecer onde guarda suas coisas. Dar três pulinhos.",
     "simboloSagrado": "Um baú",
     "canalizarEnergia": "Qualquer",
     "armaPreferida": "Adaga",
-    "devotos": "Duendes, elfos, golens, klirens, qareens, sílfides, caçadores, inventores",
-    "obrigacoesERestricoes": "Um devoto de Yllib nunca pode recusar um pedido para encontrar um item perdido. Deve sempre andar com duas unidades de cada item não consumível.",
+    "devotos": "Duendes, elfos, golens, klirens, qareens, sílfides, arcanistas, caçadores, inventores",
+    "obrigacoesERestricoes": "Um devoto de Yllib nunca pode recusar um pedido para encontrar um item perdido. Além disso, deve sempre andar com duas (não mais que duas) unidades de um mesmo item que não seja consumível (duas espadas, duas armaduras...), pois nunca se sabe quando se pode perder algo.",
     "poderConcedido": {
       "nome": "Três Pulinhos",
-      "descricao": "Uma vez por rodada, você pode gastar uma ação de movimento dando três pulinhos. Se fizer isso, recebe +3m de deslocamento extra neste turno e pode mover-se através de terreno difícil como se fosse normal."
+      "descricao": "Uma vez por rodada, você pode gastar uma ação de movimento dando três pulinhos; se fizer isso, recebe +5 em seu próximo teste de Intuição, Investigação e Percepção realizado até o fim da cena."
     }
   },
   {
