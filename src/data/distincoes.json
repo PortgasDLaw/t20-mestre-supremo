@@ -204,15 +204,13 @@
     "nome": "Arquimago",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "A epítome da magia arcana. O arquimago se torna insuperável, tornando-se praticamente irresistível para qualquer criatura.",
-    "admissao": "Deve ser um arcanista de 15° nível, ter ao menos 5 magias de 5° círculo e ser reconhecido por um arquimago ou pela Academia Arcana.",
-    "marcaDaDistincao": "Supremacia Arcana: A CD para resistir a suas magias arcanas aumenta em +2 permanentemente.",
+    "resumo": "O zênite da magia arcana em Arton: figuras excêntricas e reverenciadas, citadas em conversas cotidianas sobre o tema, que alcançaram esse patamar através de feitos arcanos de grande notoriedade.",
+    "admissao": "Apenas arcanistas podem se tornar arquimagos (embora um frade de Wynna dedicado o suficiente também possa, com mais dificuldade), pois é necessário ter as graças da deusa da magia. O candidato deve realizar um feito arcano de grande notoriedade — desde a criação de uma magia ostentosa até a fundação de um item de grande nome, um artefato ou mesmo um reino inteiro erguido com magia.",
+    "marcaDaDistincao": "Supremacia Arcana: A CD para resistir às suas magias arcanas aumenta em +2, ganho que aumenta em +1 para cada poder de Arquimago que possuir.",
     "poderes": [
-      "Magia Aprimorada — Você pode lançar qualquer magia como se tivesse gasto +3 PM adicionais sem custo extra (1× por cena).",
-      "Resistência Arcana — Você recebe resistência a magias +10 e imunidade a contramágica.",
-      "Domínio da Escola — Escolha uma escola de magia. O custo em PM das suas magias dessa escola diminui em –2.",
-      "Foco Arcano Supremo — Seu atributo-chave arcano aumenta em +2 permanentemente.",
-      "Onisciência Arcana — Uma vez por aventura, você pode lançar qualquer magia do jogo como se a conhecesse, sem PM."
+      "Feito Registrado — Escolha uma magia que tenha criado, um domínio místico em que seja regente ou um item mágico maior que tenha fabricado para receber um benefício correspondente (Feito da Ambição, Feito da Magia, Feito da Regência ou Feito do Artesão); se não tiver nenhum desses, recebe o Feito da Ambição (+5 PM por poder de Arquimago que possuir e recupera metade dos PM gastos em uma magia arcana sempre que ela reduzir uma criatura, exceto capangas e lacaios, a 0 PV ou menos).",
+      "Autoridade Arcana — Você recebe influência política em reinos ligados à magia e influência eclesiástica em igrejas de deuses associados à magia (efeitos específicos a combinar com o mestre); como regra geral, +5 em Diplomacia e Nobreza em locais com essa influência, além de acomodação e refeição gratuitas para você e seus aliados. Pré-requisitos: Feito Registrado, treinado em Nobreza.",
+      "Magia Inata — Você pode usar Magia Acelerada uma segunda vez na mesma rodada (uma terceira vez se possuir dois outros poderes de Arquimago). Além disso, reduz à metade (mínimo 0) o custo de componentes ou sacrifício de PM ao lançar ou aprimorar uma magia, e lança magias apenas com gestos. Pré-requisitos: Feito Registrado, Magia Acelerada."
     ]
   },
   {
@@ -220,15 +218,15 @@
     "nome": "Burgomestre",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Senhores feudais que emergiram das guerras artonianas. Governantes de domínios com tropas e recursos sob seu comando.",
-    "admissao": "Deve ter estabelecido controle sobre ao menos uma cidade ou feudo, ter 8 níveis e ser reconhecido como lorde por ao menos um reino.",
-    "marcaDaDistincao": "Regência: Você possui um domínio. Suas tropas recebem +1 em testes de ataque e resistência.",
+    "resumo": "Aventureiros únicos que, após a guerra artoniana, conseguem administrar um feudo ou reino enquanto seguem em aventuras por Arton, provando-se regentes dignos em vez de meros castelões ou tiranos.",
+    "admissao": "Você precisa de um domínio não místico, com boa popularidade, corte exemplar, boas construções e território considerável (se o domínio tiver um conselho, apenas um membro pode ser o burgomestre, atuando como castelão com voz mais alta). Deve demonstrar capacidade diplomática, bélica e comercial: obter impostos e recursos generosos das construções, sobreviver a eventos e guerras contra o feudo e formar alianças com feudos vizinhos. Alcançando um domínio em nível de ducado, é oficializado pelas leis do reinado (e possivelmente pela própria rainha-imperatriz Shivara) como burgomestre, com a promessa de que seu feudo um dia se torne um reino independente.",
+    "marcaDaDistincao": "Coroação: Você soma seu Carisma em testes de domínio e recebe +1 LO por nível de domínio durante sua rolagem de impostos.",
     "poderes": [
-      "Marcha no Progresso — Seu domínio cresce. Você pode controlar até 3 domínios simultaneamente.",
-      "Força Militar — As tropas do seu domínio têm PV e dano aumentados em +10% e +2 respectivamente.",
-      "Tributação — A cada aventura, você recebe T$ 1.000 × nível em impostos do seu domínio.",
-      "Fortaleza — Você pode construir estruturas no seu domínio com custo 25% menor.",
-      "Senhor Absoluto — Uma vez por aventura, você pode mobilizar o exército completo do seu domínio para auxiliar em uma batalha."
+      "Regência — Suas construções que fornecem LO têm o dado aumentado em um passo (máximo d12) e você pode cobrar impostos altos sem afetar a popularidade do domínio (extorquir ou construir pedágio ainda a reduz). Pré-requisitos: Autoridade Feudal, Senescal, domínio de nível 3 ou maior.",
+      "General Eficiente — Uma vez por rodada, você pode deslocar seus capangas ou atacar com eles sem usar ações. O custo de manutenção de suas unidades é reduzido à metade (mínimo 0,25) e, para cada dois outros poderes de Burgomestre que possuir, o custo de recrutamento de novas unidades é reduzido em –1 LO (mínimo 1). Pré-requisito: Instrutor de Tropas.",
+      "Instrutor de Tropas — O dano das suas tropas aumenta em um passo, com +1 ponto de dano para cada outro poder de Burgomestre que possuir; enquanto estiverem no seu domínio, suas tropas têm o poder aumentado em +1. Pré-requisito: Regência.",
+      "Marcha no Progresso — O custo das suas construções de domínio é reduzido em –1 LO (–1 adicional para cada dois outros poderes de Burgomestre, mínimo 1 LO) e a quantidade de construções que pode ter passa a ser quatro vezes o nível do seu domínio. Pré-requisitos: três outros poderes de Burgomestre, domínio de nível 4 ou maior.",
+      "Monarca de Ferro — O custo de manutenção da sua corte é reduzido em –1 LO (mínimo 0) e os bônus de perícia das suas construções aumentam em +1. Se possuir uma construção de Castelo, ela passa a atuar como uma Base Formidável (Heróis de Arton, p. 242) com cinco cômodos à escolha e custo de manutenção de 1,5 LO por turno de domínio. Pré-requisitos: quatro outros poderes de Burgomestre, domínio de nível 5 ou maior."
     ]
   },
   {
@@ -236,15 +234,13 @@
     "nome": "Simulacro",
     "tipo": "distinção",
     "fonte": "Mitos de Arton",
-    "resumo": "Seres que abriram mão de sua identidade pessoal para se tornarem mestres da ilusão e do disfarce, capazes de assumir a forma de qualquer ser.",
-    "admissao": "Deve ter enganado com sucesso ao menos 5 pessoas através de disfarces em jogo, ter 8 níveis e completar um ritual de dissolução de identidade.",
-    "marcaDaDistincao": "Identidade Nula: Você pode gastar uma ação padrão para mudar completamente sua aparência (incluindo voz) por tempo ilimitado.",
+    "resumo": "Duplos sem qualquer identidade ou ego próprios, crias de Hyninn que vivem vidas múltiplas assumindo identidades alheias sem empregar qualquer traço de magia — a epítome da ilusão, indetectáveis até para os próprios deuses.",
+    "admissao": "Você deve se desprender completamente da própria personalidade e individualidade, aceitando que nada do que acredita ser é real. Precisa assumir e viver a vida de outras pessoas de forma convincente — bajulando, mesclando-se e se transformando nelas — convencendo amigos, familiares, autoridades e até sacerdotes de que é quem diz ser, sem gerar qualquer desconfiança. Tendo se mostrado capaz de assumir ao menos meia dúzia de identidades diferentes dessa forma (não precisa ser de modo criminoso ou secreto), você se torna um simulacro perfeito.",
+    "marcaDaDistincao": "\"Quem sou eu?\": Você recebe +10 em testes de Enganação para disfarce, mas fica alquebrado se não estiver transformado ou disfarçado em alguma criatura.",
     "poderes": [
-      "Cópia Perfeita — Você pode copiar as perícias treinadas de uma criatura que observe por ao menos 1 minuto por 1 hora.",
-      "Memória Roubada — Uma vez por cena, ao tocar uma criatura, você acessa suas memórias recentes (última semana).",
-      "Duplicata — Você pode criar um simulacro de si mesmo com PV iguais a metade dos seus que persiste por 1 hora.",
-      "Forma Perfeita — Você pode imitar qualquer criatura de tamanho Médio ou Pequeno perfeitamente, incluindo habilidades raciais básicas.",
-      "Mil Faces — Você nunca é reconhecido como o mesmo ser por duas criaturas diferentes a menos que você permita."
+      "Crise de Identidade — Enquanto transformado ou disfarçado em uma criatura através de um efeito não mágico, você recebe +1 em testes de perícia baseadas em Carisma por poder de Simulacro que possuir; esse benefício se torna penalidade se não estiver transformado. Pré-requisitos: Impostor, Metamorfose como magia simulada.",
+      "O Verdadeiro Camaleão — Uma vez por semana, gaste ação completa e 6 PM para copiar por completo as características de uma criatura inteligente com ND igual ou menor que seu nível (PV, PM, atributos, habilidades etc.), perdendo as suas próprias enquanto o efeito durar. Dura 3d6 dias, até ficar inconsciente por chegar a 0 PV ou menos, ou até desfazer com uma ação livre. Pré-requisito: dois outros poderes de Simulacro.",
+      "Visão Falsa — Uma vez por cena, por criatura, gaste 2 PM como reação a um ataque contra você para assumir a forma de alguém por quem seu agressor tenha afeto (mesmo sem saber quem é); ele faz um teste de Vontade (CD Carisma) ou perde a ação, fica pasmo por 1 rodada e então frustrado. A CD aumenta em +1 por outro poder de Simulacro que possuir e +2 se possuir Aparência Inofensiva. Pré-requisito: Crise de Identidade. Mental."
     ]
   },
   {
