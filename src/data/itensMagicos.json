@@ -3,13 +3,13 @@
     { "id": "enc-arma-alinhada", "nome": "Alinhada", "fonte": "Mitos de Arton", "descricao": "A arma é encantada para ter o balanço perfeito. Ela fornece +4 em testes de manobras." },
     { "id": "enc-arma-aperfeicoada", "nome": "Aperfeiçoada", "fonte": "Mitos de Arton", "prereq": "magnífica", "descricao": "A arma recebe +1 dado extra de dano do mesmo tipo, que é multiplicado em acertos críticos." },
     { "id": "enc-arma-deicida", "nome": "Deicida", "fonte": "Mitos de Arton", "descricao": "A arma causa +2d8 pontos de dano contra devotos, cultistas, aspectos, avatares e celestiais. Você não se beneficia deste encanto se possuir uma devoção." },
-    { "id": "enc-arma-gelida", "nome": "Gélida", "fonte": "Mitos de Arton", "prereq": "congelante", "descricao": "O dano adicional do encanto congelante muda para +2d8. Além disso, a arma deixa o alvo imóvel por 1 rodada." },
+    { "id": "enc-arma-gelida", "nome": "Gélida", "fonte": "Mitos de Arton", "prereq": "congelante", "descricao": "O dano adicional do encanto congelante muda para +2d8. Além disso, a arma deixa o alvo enredado e imóvel por 1 rodada." },
     { "id": "enc-arma-incendiaria", "nome": "Incendiária", "fonte": "Mitos de Arton", "prereq": "flamejante", "descricao": "O dano adicional do encanto flamejante muda para +2d8. O dano da bola de fogo lançada muda para 6d12." },
     { "id": "enc-arma-metamorfa", "nome": "Metamorfa", "fonte": "Mitos de Arton", "descricao": "Gaste 2 PM para dar à arma uma habilidade que ela não tenha até o fim do dia — exceto alongada. Gaste 1 PM para trocar o tipo de dano para corte, impacto ou perfuração até o fim da cena." },
     { "id": "enc-arma-solvente", "nome": "Solvente", "fonte": "Mitos de Arton", "prereq": "corrosiva", "descricao": "O dano adicional do encanto corrosiva muda para +2d8. O dano causado pelo efeito ativo da arma muda para 4d6." },
     { "id": "enc-arma-tempestuosa", "nome": "Tempestuosa", "fonte": "Mitos de Arton", "prereq": "elétrica", "descricao": "O dano adicional do encanto elétrica muda para +2d8. Ao usar o efeito ativo, você atinge todas as criaturas escolhidas em alcance curto." },
     { "id": "enc-arma-turva", "nome": "Turva", "fonte": "Mitos de Arton", "descricao": "Um campo de distorção é criado ao redor da arma. Você recebe +2 em testes para resistir a manobras, podendo gastar 2 PM para aumentar esse bônus para +5 por um teste." },
-    { "id": "enc-arma-vorpal", "nome": "Vorpal", "fonte": "Mitos de Arton", "prereq": "ameaçadora", "descricao": "Ao acertar um ataque e tirar 20 natural, role 1d10, em resultado 10 você decapita o alvo, matando-o instantaneamente. Só pode ser aplicado em armas corpo a corpo de corte." }
+    { "id": "enc-arma-vorpal", "nome": "Vorpal", "fonte": "Mitos de Arton", "prereq": "ameaçadora", "descricao": "Ao acertar um ataque e tirar 20 natural, role 1d10, em resultado 10 você decapita o alvo, matando-o instantaneamente. Só pode ser aplicado em armas corpo a corpo de corte. Em uma espada visír, a decapitação ocorre em um resultado 9 ou 10." }
   ],
   "armasEspecificas": [
     {
@@ -18,15 +18,15 @@
     },
     {
       "id": "ae-martelo-justica", "nome": "Martelo da Justiça", "categoria": "Média", "preco": "T$ 55.000", "fonte": "Mitos de Arton",
-      "descricao": "Marrão aumentado atroz maciço de mitral piedoso sagrado. Fornece +3 na Defesa (bônus de escudo), –3 de penalidade de armadura. Você é considerado empunhando arma e escudo para suas habilidades."
+      "descricao": "Marrão aumentado atroz maciço de mitral piedoso sagrado. Fornece +3 na Defesa (bônus de escudo), –3 de penalidade de armadura. Você é considerado empunhando arma e escudo para suas habilidades. Pode ser empunhado por criaturas médias ou pequenas sem penalidades, desde que sigam um código de conduta."
     },
     {
       "id": "ae-martelo-tempestades", "nome": "Martelo das Tempestades", "categoria": "Maior", "preco": "T$ 125.000", "fonte": "Mitos de Arton",
-      "descricao": "Martelo de guerra de adamante maciço gélido excruciante. Gaste ação padrão e 2 PM para criar tempestade de neve em 60m de raio, causando 2d6 de frio a criaturas escolhidas no início de seus turnos."
+      "descricao": "Martelo de guerra de adamante maciço gélido excruciante. Gaste ação padrão e 2 PM para criar tempestade de neve em 60m de raio, causando 2d6 de frio a criaturas escolhidas no início de seus turnos (Fort CD For ou Des reduz à metade)."
     },
     {
       "id": "ae-rapieira-crepusculo", "nome": "Rapieira do Crepúsculo", "categoria": "Maior", "preco": "T$ 86.000", "fonte": "Mitos de Arton",
-      "descricao": "Rapieira de adamante precisa profana sepulcral. Mortos-vivos que a empunharem recebem um encanto adicional: horrenda (lichs), vampírica (vampiros) ou brumosa (espectros)."
+      "descricao": "Rapieira de adamante precisa profana sepulcral. Mortos-vivos que a empunharem recebem um encanto adicional: horrenda (lichs), vampírica (vampiros) ou brumosa (espectros). Se empunhada por uma criatura viva, não tem qualquer efeito adicional."
     },
     {
       "id": "ae-sabre-energia", "nome": "Sabre de Energia", "categoria": "Média", "preco": "T$ 60.000", "fonte": "Mitos de Arton",
@@ -39,15 +39,15 @@
   ],
   "encantosArmaduras": [
     { "id": "enc-arm-acelerado", "nome": "Acelerado", "fonte": "Mitos de Arton", "descricao": "Você recebe o poder Surto Heróico, só podendo usá-lo com este item. Se já o possui, o custo diminui em –2 PM." },
-    { "id": "enc-arm-cristalizado", "nome": "Cristalizado", "fonte": "Mitos de Arton", "descricao": "Aspecto cristalino como espelhos. Redução de corte e frio 10. Uma vez por cena, ao ser atingido por uma magia, gaste 2 PM por círculo dela para poder lançá-la até o fim da cena (CD Car)." },
-    { "id": "enc-arm-diapazor", "nome": "Diapazor", "fonte": "Mitos de Arton", "descricao": "Você pode lançar a magia Despedaçar (CD Car), inclusive como reação a um ataque defendido — apenas uma vez por rodada." },
+    { "id": "enc-arm-cristalizado", "nome": "Cristalizado", "fonte": "Mitos de Arton", "descricao": "Aspecto cristalino como espelhos. Redução de corte e frio 10. Uma vez por cena, ao ser atingido por uma magia, gaste 2 PM por círculo dela para poder lançá-la até o fim da cena (CD Car). Se já conhece a magia copiada, o custo para lançá-la diminui em –1 PM." },
+    { "id": "enc-arm-diapazor", "nome": "Diapazor", "fonte": "Mitos de Arton", "descricao": "Você pode lançar a magia Despedaçar (CD Car), inclusive como reação a um ataque defendido — apenas uma vez por rodada. Se já conhece essa magia, o custo para lançá-la diminui em –1 PM." },
     { "id": "enc-arm-eletrostatico", "nome": "Eletroestático", "fonte": "Mitos de Arton", "descricao": "Aura magnética que dificulta equipamentos metálicos. Redução de eletricidade 10. Ataques a menos de 9m sofrem –5 se usarem armas metálicas, –2 além desse alcance." },
     { "id": "enc-arm-gargolitica", "nome": "Gargolítica", "fonte": "Mitos de Arton", "descricao": "Feita de pedra marmorizada que absorve magia. Uma vez por rodada, ao sofrer dano mágico, gaste 2 PM para reduzi-lo à metade." },
     { "id": "enc-arm-manafago", "nome": "Manáfago", "fonte": "Mitos de Arton", "prereq": "abascanto", "descricao": "O escudo absorve energia de ataques. Uma vez por rodada, ao passar no teste de resistência contra magia, recupere PM igual ao círculo da magia." },
     { "id": "enc-arm-salvador", "nome": "Salvador", "fonte": "Mitos de Arton", "prereq": "zeloso", "descricao": "O encanto zeloso passa a poder ser usado em criaturas em alcance curto, gastando +1 PM." },
-    { "id": "enc-arm-uivante", "nome": "Uivante", "fonte": "Mitos de Arton", "descricao": "Peles etéreas de yake na composição. Redução de frio 10 e pode lançar a magia Sopro das Uivantes (CD Con)." },
+    { "id": "enc-arm-uivante", "nome": "Uivante", "fonte": "Mitos de Arton", "descricao": "Peles etéreas de yake na composição. Redução de frio 10 e pode lançar a magia Sopro das Uivantes (CD Con). Se já conhece essa magia, o custo para lançá-la diminui em –1 PM." },
     { "id": "enc-arm-voltaico", "nome": "Voltáico", "fonte": "Mitos de Arton", "descricao": "Arcos de energia reduzem eficácia de certos ataques. Redução de eletricidade e perfuração 10. Uma vez por cena, gaste 3 PM e faça teste de Percepção; para cada 10 pontos, +1 na Defesa e RD 2 até o fim da cena." },
-    { "id": "enc-arm-vulcanico", "nome": "Vulcânico", "fonte": "Mitos de Arton", "descricao": "Aspecto pedregoso com veios flamejantes. Redução de fogo e impacto 10. Pode lançar a magia Fúria Vulcânica (CD For)." }
+    { "id": "enc-arm-vulcanico", "nome": "Vulcânico", "fonte": "Mitos de Arton", "descricao": "Aspecto pedregoso com veios flamejantes. Redução de fogo e impacto 10. Pode lançar a magia Fúria Vulcânica (CD For). Se já conhece essa magia, o custo para lançá-la diminui em –1 PM." }
   ],
   "armadurasEspecificas": [
     {
@@ -74,7 +74,7 @@
     }
   ],
   "encantosEsotericos": [
-    { "id": "enc-esot-conservador", "nome": "Conservador", "fonte": "Mitos de Arton", "descricao": "O esotérico tem espaço mágico para guardar um catalisador. Sempre que lança uma magia, o catalisador é aplicado automaticamente; role 1d20 — em resultado 1, o catalisador é gasto." },
+    { "id": "enc-esot-conservador", "nome": "Conservador", "fonte": "Mitos de Arton", "descricao": "O esotérico tem espaço mágico para guardar um catalisador. Sempre que lança uma magia, o catalisador é aplicado automaticamente; role 1d20 — em resultado 1, o catalisador é gasto, exigindo uma ação de movimento para colocar um novo." },
     { "id": "enc-esot-marcial", "nome": "Marcial", "fonte": "Mitos de Arton", "prereq": "bélico", "descricao": "Ao lançar uma magia que cause dano, gaste +1 PM para mudar todo o tipo de dano para corte, impacto ou perfuração." },
     { "id": "enc-esot-ofidico", "nome": "Ofídico", "fonte": "Mitos de Arton", "prereq": "traiçoeiro", "descricao": "Quando lança uma magia que causa dano, gaste +3 PM para o alvo perder 1d10 PV por círculo da magia como efeito de veneno." },
     { "id": "enc-esot-sulfurico", "nome": "Sulfúrico", "fonte": "Mitos de Arton", "descricao": "Adornado com esmeraldas, emite gases tóxicos. Magias que causam dano de ácido causam um dado extra e os alvos sofrem 2d4 de ácido na próxima rodada." },
@@ -153,7 +153,7 @@
       "descricao": "Vergalhões mecanizados runomagicamente instalados sobre o corpo ou armadura. Ativar custa 2 PM (efeito sustentado), fornece Força e Destreza +1. Para devotos de Arsenal: ganho dobra e +5 em Acrobacia, Atletismo e Reflexos."
     },
     {
-      "id": "lit-keren-or", "nome": "Keren Or", "divindade": "Azgher", "tipo": "acessório", "categoria": "Maior", "preco": "inestimável", "fonte": "Mitos de Arton",
+      "id": "lit-keren-or", "nome": "Keren Or", "divindade": "Azgher", "tipo": "acessório", "categoria": "Maior", "preco": "sem valor comercial", "fonte": "Mitos de Arton",
       "descricao": "Máscara ofertada pelo avatar de Azgher. +5 em Diplomacia e Intimidação. Para devotos de Azgher: pode mudar para elmo, fornecendo Fortif. +25% e imunidade a cego/ofuscado, enxerga em qualquer escuridão. Se for da linhagem karnalach, gaste 6 PM para invocar alfange flamejante sagrada (4d6 fogo)."
     },
     {
@@ -166,11 +166,11 @@
     },
     {
       "id": "lit-oratriz", "nome": "Oratriz Mecânica de Análise Cardinal", "divindade": "Khalmyr", "tipo": "acessório", "categoria": "Maior", "preco": "T$ 55.555", "fonte": "Mitos de Arton",
-      "descricao": "Balança de prata com símbolo de Khalmyr. Lança Círculo da Justiça sem gastar PM (CD Sab). Para devotos com Abençoado/Devoto Fiel: gaste ação completa e 5 PM para julgar criaturas em alcance curto, aplicando penalidade cumulativa de –1 em testes, dano e Defesa a devotos malignos, desonrados e criaturas da tormenta."
+      "descricao": "Balança de prata com símbolo de Khalmyr. Lança Círculo da Justiça sem gastar PM (CD Sab). Para devotos com Abençoado/Devoto Fiel: gaste ação completa e 5 PM para julgar criaturas em alcance curto, aplicando penalidade cumulativa de –1 em testes de perícia, rolagens de dano e Defesa a criaturas devotas de deuses malignos (incluindo Nimb), desonradas, desonestas, malignas e/ou da tormenta, até o fim da cena."
     },
     {
       "id": "lit-cesta-lena", "nome": "Cesta de Provisões", "divindade": "Lena", "tipo": "acessório", "categoria": "Menor", "preco": "T$ 18.000", "fonte": "Mitos de Arton",
-      "descricao": "Cesta de palha com provisões infinitas. Para devotos de Lena: gaste 3 PM para tirar alimento especial que dura 1 dia, concedendo benefícios de descanso normal a quem o consumir."
+      "descricao": "Cesta de palha com provisões infinitas (sem benefício mecânico). Para devotos de Lena: gaste 3 PM para tirar alimento especial que dura 1 dia, concedendo benefícios de descanso normal a quem o consumir (uma vez por dia; ainda precisa dormir; não beneficia quem não se beneficia de itens de alimentação). No patamar campeão, o alimento fornece os benefícios de um descanso confortável."
     },
     {
       "id": "lit-hanakiri", "nome": "Hanakiri", "divindade": "Lin-Wu", "tipo": "arma", "categoria": "Média", "preco": "T$ 60.000", "fonte": "Mitos de Arton",
@@ -210,7 +210,7 @@
     },
     {
       "id": "lit-anuladora-thyatis", "nome": "Anuladora do Destino", "divindade": "Thyatis", "tipo": "arma", "categoria": "Maior", "preco": "T$ 110.000", "fonte": "Mitos de Arton",
-      "descricao": "Espada longa de aço-rubi com guarda em asas de fênix. Para devotos de Thyatis: espada longa flamejante magnífica que permite matar uma criatura maligna inteligente por dia sem violar obrigações e restrições."
+      "descricao": "Espada longa de aço-rubi com guarda em asas de fênix. Para devotos de Thyatis: espada longa flamejante magnífica que permite matar uma criatura maligna inteligente por dia sem violar obrigações e restrições. Com Abençoado/Devoto Fiel: pode matar criaturas da tormenta e cultistas de Aharadak livremente, sem violar obrigações e restrições."
     },
     {
       "id": "lit-capa-valkaria", "nome": "Capa do Andarilho", "divindade": "Valkaria", "tipo": "acessório", "categoria": "Maior", "preco": "T$ 90.000", "fonte": "Mitos de Arton",
@@ -218,7 +218,7 @@
     },
     {
       "id": "lit-cajado-wynna", "nome": "Cajado dos Sete Reinos", "divindade": "Wynna", "tipo": "esotérico", "categoria": "Médio", "preco": "T$ 77.000", "fonte": "Mitos de Arton",
-      "descricao": "Cajado arcano de prata com seis anéis representando os elementos mágicos. Para devotos de Wynna: dobra benefícios do esotérico e aumenta o dano elemental de magias em +7d8."
+      "descricao": "Cajado arcano de prata com seis anéis representando os elementos mágicos. Para devotos de Wynna: dobra os benefícios do esotérico e, ao usar uma magia que cause dano de ácido, eletricidade, essência, fogo, frio, luz ou trevas, o dano aumenta em +7d8."
     }
   ],
   "liturgiaDosRaidos": [
@@ -275,9 +275,9 @@
     {
       "id": "arte-espada-mestra", "nome": "A Espada-Mestra", "fonte": "Mitos de Arton",
       "descricao": "Espada bastarda de aço-rubi e mitral precisa pungente ameaçadora magnífica aperfeiçoada com dano base de 4d12. Espírito inteligente — filha das três deusas. Reduz custo do Golpe Divino à metade e dobra dados de dano contra criaturas corruptas. Contra vilões, desperta e maximiza os dados do Golpe Divino.",
-      "requisitos": "Raça espírito ou humanoide 15°+ nível em classe com código de conduta e devoção apenas positiva. Teste estendido (Religião, Nobreza e Guerra CD 30), sacrifique 1 Con e 5–20 PM.",
-      "ego": "39 (Int 2, Sab 2, Car 8, 32 PM). Magias: Benção, Círculo da Justiça, Soco de Arsenal (CD 30). Comunicação por empatia. Personalidade implacável contra corruptos.",
-      "modificadores": "Para cada 5 PM sacrificados: +1 na margem de ameaça. 10 PM+: ignora imunidades e RD de corruptos. 20 PM: +2 no multiplicador de crítico quando desperta."
+      "requisitos": "Raça do tipo espírito ou humanoide com 15+ níveis em classe com código de conduta, devoto de deus que canaliza apenas energia positiva. Teste estendido de Religião, Nobreza e Guerra (CD 30), obtendo sucesso em cada perícia antes de três falhas. Se passar, sacrifique 1 de Constituição e de 5 a 20 PM para definir o nível de poder da espada.",
+      "ego": "Artefato (nível 20); Ego 39, Int 2, Sab 2, Car 8 e 32 PM. Perícias: Intuição +18, Religião +18. Magias: Benção, Círculo da Justiça, Soco de Arsenal (CD 30, atributo-chave Carisma). Comunica-se por empatia e tem Percepção às Cegas em alcance médio. Personalidade implacável contra corruptos e vilões — se o usuário poupar inimigos, o Ego dela aumenta em +11.",
+      "modificadores": "Para cada 5 PM sacrificados ao empunhar pela primeira vez: +1 na margem de ameaça. Se sacrificou 10 PM: ignora imunidades e reduções de dano de criaturas corruptas e vilões. Se sacrificou 20 PM no total: +2 no multiplicador de crítico quando desperta."
     },
     {
       "id": "arte-tres-virtudes", "nome": "As Três Virtudes", "fonte": "Mitos de Arton",
@@ -286,14 +286,14 @@
       "virtudes": {
         "temperanca": "RD 20/essência e luz, +2 em testes de resistência, +1 em atributos físicos. Se morrer, retorna após 3 dias (destruição definitiva apenas pela Espada-Mestra).",
         "paciencia": "Apenas para portadores com habilidade Magias. Lança magias sem concentração, gestos ou vocalização. Aprende magia adicional por nível, +1 em atributos mentais e +20 PM.",
-        "coragem": "Imunidade a medo (inclui imunidade-ignorante). Lança Heroísmo e Potência Divina sem PM. Reduz CD para empunhar A Espada-Mestra em –5 e não sacrifica Constituição."
+        "coragem": "Imunidade a medo, incluindo fobias raciais — efeitos que ignoram imunidade a medo não funcionam contra o portador. Lança Heroísmo e Potência Divina sem gastar PM. Reduz a CD do teste para empunhar A Espada-Mestra em –5 e não sacrifica Constituição para saca-la."
       },
-      "poder_unido": "Ao reunir as três Virtudes, portadores podem abdica-las para formar A Verdadeira Virtude, concedendo um único Desejo irrestrito ao portador da Coragem."
+      "poder_unido": "Ao reunir as três Virtudes em um único ambiente, os portadores podem abdicar voluntariamente delas, formando A Verdadeira Virtude, que concede um único Desejo (sem sacrifício de PM, não pode ser mal interpretado) ao portador da Virtude da Coragem. Depois, as Virtudes se separam e voltam a surgir em novos ambientes, que ficam selados por 1d10 séculos."
     },
     {
       "id": "arte-armadura-mirmidao", "nome": "Armadura do Mirmidão-Rei", "fonte": "Mitos de Arton",
-      "descricao": "Armadura completa de adamante blindada macabra reforçada selada guardiã invulnerável opaca. Ao vestir, teste de Vontade CD 40 ou você torna-se vassalo de Drenir (perde o personagem). Repetir o teste a cada semana.",
-      "poderes": "Imunidade a efeitos de cansaço, metabólicos, sentidos, trevas e venenos. Dados de dano de Força do Oblívio, Arma Bruxeira, sinais e magias de necromancia aumentam em uma categoria (máx. d20). +20 PV e percepção às cegas.",
+      "descricao": "Armadura completa de adamante blindada macabra reforçada selada guardiã invulnerável opaca. Ao vestir, teste de Vontade CD 40 ou você torna-se vassalo de Drenir (perde o personagem). Se passar, repita o teste a cada semana para se manter são. Matar uma criatura que Drenir julgue valiosa reduz a CD em –10 no próximo teste.",
+      "poderes": "Imunidade a efeitos de cansaço, metabólicos, sentidos, trevas e venenos. Dados de dano de Força do Oblívio, Arma Bruxeira, dos sinais e de magias de necromancia aumentam em uma categoria (máx. d20). +20 PV e percepção às cegas — ou, se já possuir, aumenta o alcance dela em um passo, até longo.",
       "destruicao": "Deve ser atacada e destruída por algoz da tormenta ou lekael. Usar a Armadura de Crânio Negro (Heróis de Arton) também qualifica para destruí-la. Indestrutível para outros meios."
     },
     {
@@ -304,20 +304,20 @@
     },
     {
       "id": "arte-gungnir", "nome": "Gungnir", "fonte": "Mitos de Arton",
-      "descricao": "Lança valquíriana de azurita e prata banhada a ouro pungente aperfeiçoada de arremesso magnífica. Em vez de voltar para o usuário, fixa-se no que acerta. Pode ser usada como plataforma acrobática ou para explodir. Crie nova lança em mão gastando 1 PM (máximo igual ao bônus de treinamento).",
-      "poderes": "Explodir lanças: ação de movimento + 2 PM, 6d12+6 dano de luz a criaturas em até 3m, ofuscadas (Ref CD Des/Int evita). Para valquírias: dano convertido para luz, ignora RD, dobro de dano contra mortos-vivos, corruptos e vilões. Indestrutível."
+      "descricao": "Lança valquíriana de azurita e prata banhada a ouro pungente aperfeiçoada de arremesso magnífica. Em vez de voltar para o usuário, fixa-se no que acerta (só se fixa se o ataque acertar; senão desaparece e surge uma nova na mão). Pode ser usada como plataforma acrobática (se fixada em superfície vertical) ou para explodir (se fixada em criatura). Crie nova lança na mão gastando 1 PM, mantendo no máximo uma quantidade de lanças igual ao seu bônus de treinamento em perícias.",
+      "poderes": "Explodir lanças: ação de movimento + 2 PM, 6d12+6 dano de luz a todas as criaturas em até 3m da lança, que ficam ofuscadas (Ref CD Des ou Int reduz o dano à metade e evita a condição). Para valquírias: dano convertido para luz, ignora reduções de dano e causa o dobro de dano contra mortos-vivos, criaturas corruptas e vilões (incluindo o dano extra de Coletora dos Mortos). Indestrutível."
     },
     {
       "id": "arte-mjolnir", "nome": "Martelo do Deus das Tempestades (Mjölnir)", "fonte": "Mitos de Arton",
       "descricao": "Martelo de guerra de mitral e rocha-matriz maciço pungente de arremesso tempestuoso trovejante. Permite lançar Relâmpago sem gastar PM (CD For/Con).",
       "requisitos": "Força 5+, seguir divindade guerreira e/ou possuir código de conduta. Cada vez que empunhar: teste de Vontade CD 25 para se provar digno (falha: cai e não pode ser empunhado até o fim da cena).",
-      "especial": "Para jötuns: aumenta categoria de tamanho do usuário em um passo. Para g'rokks: fragmenta-se e aplica dano às armas naturais. Indestrutível."
+      "especial": "Forjado com vanirita, tem interações especiais com raças alstrani. Para jötuns: aumenta a categoria de tamanho do usuário em um passo (o próprio martelo aumenta de acordo). Para g'rokks: vira fragmentos que envolvem as garras, aplicando o dano e efeitos do martelo às armas naturais dessa raça. Indestrutível e não pode ser avariado."
     },
     {
       "id": "arte-sina-flagelo", "nome": "Sina do Flagelo", "fonte": "Mitos de Arton",
       "descricao": "Armadura completa espinhosa macabra reforçada de rocha-matriz e zalcarita selada fortificada guardiã invulnerável e protetora.",
-      "poderes": "Em cada cena de combate: imunidade a efeitos mentais e de medo, PV temporários = (nível × 2) por rodada. Ao falhar em teste de resistência, gaste 2 PM para rolar novamente. +4 em todos os atributos físicos (não fornece PV/PM adicionais).",
-      "custo": "Ao entrar em combate: teste de Vontade CD (25 + metade do nível) — falha: mestre controla suas ações (fúria ensandecida, não diferencia aliados). Após o combate: fatigado cumulativamente. Con 4 ou menor: você morre e seu corpo é consumido. Uma vez vestida, só pode ser removida por desejos, intervenções divinas ou Purificação (+7 PM). Indestrutível."
+      "poderes": "Em cada cena de combate: imunidade a efeitos mentais e de medo, PV temporários = (nível × 2) por rodada. Ao falhar em teste de resistência, gaste 2 PM para rolar novamente. +4 em todos os atributos físicos (não fornece PV/PM adicionais e não é cumulativo com magias).",
+      "custo": "Ao entrar em cena de combate vestindo a armadura: teste de Vontade CD (25 + metade do nível) — se falhar, o mestre controla suas ações até o fim da cena (fúria ensandecida, sem diferenciar aliados de inimigos). Após o fim do combate: fica fatigado (cumulativo) pelo dia, mesmo que imune a essa condição; se Constituição 4 ou menor, você morre e seus restos mortais são consumidos pela armadura, destruindo seu corpo para sempre. Uma vez vestida, só pode ser removida por desejos, intervenções divinas ou a magia Purificação com aprimoramento de +7 PM. Indestrutível, não pode ser avariada."
     }
   ]
 }

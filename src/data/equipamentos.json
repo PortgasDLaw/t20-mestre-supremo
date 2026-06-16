@@ -1121,6 +1121,150 @@
       "espacos": "5",
       "fonte": "Mitos de Arton",
       "descricao": "Versão maior da fuziladora leve. 10 balas. Reduz deslocamento em –3m (exceto For 5+). Arma de expedição."
+    },
+    {
+      "id": "baculo",
+      "nome": "Báculo",
+      "categoria": "arma",
+      "proficiencia": "simples",
+      "tipo": "À distância",
+      "empunhadura": "Uma mão",
+      "preco": "T$ 50",
+      "dano": "1d8",
+      "critico": "x2",
+      "alcance": "Curto",
+      "tipoDano": "Essência",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Vareta com cristal na extremidade; arma improvisada sem a habilidade de classe Magias. Se você possuir Magias, desperta suas capacidades e permite atacar com Misticismo (conjurador arcano) ou Religião (conjurador divino)."
+    },
+    {
+      "id": "espada-ramo",
+      "nome": "Espada-Ramo",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 4.000",
+      "dano": "3d6",
+      "critico": "x4",
+      "alcance": "—",
+      "tipoDano": "Corte",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Espada de lâmina extensa com seis lâminas curvas adicionais. Criaturas sofrem –2 na Defesa ao sofrerem o primeiro ataque dela. Alvos atingidos ficam sangrando em um acerto crítico."
+    },
+    {
+      "id": "machado-canora",
+      "nome": "Machado Canora",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 75",
+      "dano": "2d6",
+      "critico": "x3",
+      "alcance": "—",
+      "tipoDano": "Corte",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Versão de duas mãos da espada canora, com cordas metálicas presas da lâmina ao cabo, servindo de alaúde. Conta como instrumento musical para bardos."
+    },
+    {
+      "id": "yushara",
+      "nome": "Yushara",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 3.000",
+      "dano": "1d6",
+      "critico": "19",
+      "alcance": "Curto",
+      "tipoDano": "Impacto",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Conjunto de esferas metálicas; sintonize-se a elas (ação de movimento, 3 PM) para atacar à distância como se as arremessasse — elas retornam e flutuam ao redor do usuário até o fim da cena, até desativar (ação livre) ou ficar inconsciente. Cada esfera conta como arma separada para saque e arremesso. Não é possível empunhar outros itens enquanto as usa."
+    },
+    {
+      "id": "berrante-de-exploracao",
+      "nome": "Berrante de Exploração",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 200",
+      "dano": "3d6",
+      "critico": "x3",
+      "alcance": "—",
+      "tipoDano": "Impacto",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Grande marreta em forma de gaita de foles com partes metálicas robustas. Conta como instrumento musical para bardos. Arma de expedição exclusiva da distinção Explorador da Frota."
+    },
+    {
+      "id": "glaive-entomatica",
+      "nome": "Glaive Entomática",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 1.000",
+      "dano": "2d10",
+      "critico": "19/x3",
+      "alcance": "—",
+      "tipoDano": "Corte",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Glaive grossa e pesada com mecanismo de propulsão na haste. Arma ágil que dá +5 em Atletismo para saltar e mantém o usuário no ar até o início do próximo turno. Atacar enquanto no ar concede +2d8 na próxima rolagem de dano bem-sucedida. Arma de expedição exclusiva da distinção Explorador da Frota."
+    },
+    {
+      "id": "laminachado",
+      "nome": "Lâminachado",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 800",
+      "dano": "Especial",
+      "critico": "Especial",
+      "alcance": "Especial",
+      "tipoDano": "Especial",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Égide que se mecaniza em um grande machado. Exige proficiência com escudos, do contrário sofre –5 em testes de ataque. Arma híbrida: modo espada e escudo (dano 1d8, crítico 19, corte; +2 na Defesa) e modo machado (dano 1d12, crítico x3, corte). No modo machado, gaste 2 PM para mudar ao modo espada e escudo e fazer um ataque adicional uma vez por rodada. Arma de expedição exclusiva da distinção Explorador da Frota."
+    },
+    {
+      "id": "lancanhao",
+      "nome": "Lançanhão",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 2.000",
+      "dano": "Especial",
+      "critico": "Especial",
+      "alcance": "Especial",
+      "tipoDano": "Especial",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Lança de cavalaria grande e pesada com mecanismo de disparo. Arma alongada e desbalanceada que armazena até quatro balas em municiador especial (recarregar é ação completa). Uma vez por rodada, ao acertar um ataque, pode gastar 1 bala para causar +2d8 de dano de perfuração adicional. Arma de expedição exclusiva da distinção Explorador da Frota."
+    },
+    {
+      "id": "montanchado",
+      "nome": "Montanchado",
+      "categoria": "arma",
+      "proficiencia": "exótica",
+      "tipo": "Corpo-a-corpo",
+      "empunhadura": "Duas mãos",
+      "preco": "T$ 1.500",
+      "dano": "Especial",
+      "critico": "Especial",
+      "alcance": "Especial",
+      "tipoDano": "Especial",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Machado híbrido com dois modos: espada de duas mãos (dano 1d12, crítico 19, corte) e machado de duas mãos (dano 2d6, crítico x3, corte). Alternar é ação livre (com Saque Rápido, +2 em testes de ataque). Após mudar de modo, gaste 2 PM para um ataque adicional com o novo modo, ganhando +1 cumulativo em dano até o fim do turno; pode gastar mais PM (+4, depois +6) para novos ataques adicionais até errar ou ficar sem mana. Arma de expedição exclusiva da distinção Explorador da Frota."
     }
   ],
   "municoes": [
@@ -1158,6 +1302,42 @@
       "categoria": "municao",
       "preco": "2 T$",
       "espacos": 1
+    },
+    {
+      "id": "balas-atordoantes-20",
+      "nome": "Balas Atordoantes (20)",
+      "categoria": "municao",
+      "preco": "T$ 250",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Esfera metálica oca com componente de tópor interno que se espalha ao contato. Ao causar dano com arma carregada com essa munição, o alvo fica atordoado por 1 rodada (Fort CD Des evita). Independente do resultado, fica imune a essa bala por um dia. Metabolismo."
+    },
+    {
+      "id": "balas-flamejantes-20",
+      "nome": "Balas Flamejantes (20)",
+      "categoria": "municao",
+      "preco": "T$ 100",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Esferas metálicas com alta concentração de fogo alquímico. Ataques com armas carregadas com essa munição causam +1d6 de dano de fogo e deixam o alvo em chamas (Fort CD Des evita). Bacamartes aumentam o dano extra para 2d6."
+    },
+    {
+      "id": "balas-eletrizantes-20",
+      "nome": "Balas Eletrizantes (20)",
+      "categoria": "municao",
+      "preco": "T$ 200",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Dardo metálico com dispositivo de eletrificação rudimentar. Armas carregadas com essa munição causam +1d8+1 de dano de eletricidade, que se espalha para criaturas adjacentes ao alvo. Em bacamartes, o dano adicional aumenta para +2d8+2, mas não se espalha para alvos adjacentes."
+    },
+    {
+      "id": "balas-pesadas-20",
+      "nome": "Balas Pesadas (20)",
+      "categoria": "municao",
+      "preco": "T$ 120",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Esfera de metal denso e potente. Arma carregada com essa munição tem seu dano aumentado em +1 dado do mesmo tipo, mas você sofre –2 em testes de ataque."
     }
   ],
   "armaduras": [
@@ -1295,25 +1475,73 @@
       "id": "cota-bruxeiro",
       "nome": "Cota de Bruxeiro",
       "categoria": "armadura",
-      "tipo": "Média",
-      "preco": "T$ 800",
-      "defesa": "4",
+      "tipo": "Leve",
+      "preco": "T$ 750",
+      "defesa": "5",
       "penalidade": "–3",
       "espacos": "2",
       "fonte": "Mitos de Arton",
-      "descricao": "Placas segmentadas em rede, couro curtido e rebites. Perfeito meio-termo entre leve e pesada. Conta como armadura pesada para o poder Encouraçado."
+      "descricao": "Placas segmentadas em formação quadriculada de rede, couro curtido e rebites. Perfeito meio-termo entre armadura leve e pesada. Vestir exige treinamento em armadura pesada, do contrário a penalidade dobra e você é considerado não proficiente. Conta como armadura pesada para o poder Encouraçado e pré-requisitos que exijam Encouraçado."
     },
     {
       "id": "cota-cristal",
       "nome": "Cota de Cristal",
       "categoria": "armadura",
       "tipo": "Leve",
-      "preco": "T$ 2.000",
-      "defesa": "1",
-      "penalidade": "0",
-      "espacos": "1",
+      "preco": "T$ 1.000",
+      "defesa": "2",
+      "penalidade": "–1",
+      "espacos": "2",
       "fonte": "Mitos de Arton",
-      "descricao": "Rede perolada com jóias e cristais. +2 em Diplomacia e Enganação. Manufatura delicada."
+      "descricao": "Rede perolada e adornada com jóias, cristais e bijuterias sob tecido fino e nobre das alfaiatarias sambur. +2 em Diplomacia e Enganação (cumulativo com melhorias e encantos). Por sua manufatura delicada, não pode receber as melhorias material especial e reforçado."
+    },
+    {
+      "id": "couraca-selvagem",
+      "nome": "Couraça Selvagem",
+      "categoria": "armadura",
+      "tipo": "Leve",
+      "preco": "T$ 500",
+      "defesa": "5",
+      "penalidade": "–4",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Segmentação de madeira reforçada com magia druídica na forma de um peitoral adornado com vinhas e folhas, apreciada por druidas e paladinos da mãe natureza. Pode ser usada por devotos de Allihanna sem violar suas obrigações e restrições, mas não pode receber a melhoria material especial para materiais metálicos ou matéria vermelha."
+    },
+    {
+      "id": "gibao-invernal",
+      "nome": "Gibão Invernal",
+      "categoria": "armadura",
+      "tipo": "Leve",
+      "preco": "T$ 100",
+      "defesa": "4",
+      "penalidade": "–4",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Versão mais pesada e encourada do gibão de peles convencional, com um enorme casaco com feltro de lobo e capuz com viseira, usada por nômades das montanhas uivantes. Reduz seu deslocamento em –3m, mas você não é afetado por terreno difícil natural criado por gelo ou neve e recebe resistência a frio +5."
+    },
+    {
+      "id": "armadura-de-talas",
+      "nome": "Armadura de Talas",
+      "categoria": "armadura",
+      "tipo": "Pesada",
+      "preco": "T$ 245",
+      "defesa": "7",
+      "penalidade": "–3",
+      "espacos": "5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Confeccionada por armeiros tamurianos, vestimenta frequente no corpo de samurais da guarda pessoal de daimyos. Fornece +1 em Intimidação a quem vestir, mudando para +2 se for devoto de Lin-Wu e/ou samurai (cumulativo com melhorias e encantos)."
+    },
+    {
+      "id": "armadura-dos-recifes",
+      "nome": "Armadura dos Recifes",
+      "categoria": "armadura",
+      "tipo": "Pesada",
+      "preco": "T$ 650",
+      "defesa": "8",
+      "penalidade": "–4",
+      "espacos": "5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Usada principalmente pela milícia de elite de Khubar, confeccionada com placas ósseas e lanajuste, formando uma paródia coralina das armaduras metálicas de Bielefeld. Pode ser usada por devotos de Oceano sem violar suas obrigações e restrições, mas não pode receber a melhoria material especial para materiais metálicos e não fornece penalidades ao nadar."
     },
     {
       "id": "armadura-valquiriana",
@@ -1321,23 +1549,23 @@
       "categoria": "armadura",
       "tipo": "Pesada",
       "preco": "T$ 5.000",
-      "defesa": "7",
+      "defesa": "12",
       "penalidade": "–5",
-      "espacos": "3",
+      "espacos": "5",
       "fonte": "Mitos de Arton",
-      "descricao": "Armadura dourada das valquírias com máscara feminina no elmo. Requer raça alada com asas naturais. Reduz voo em –6m, mas as asas contam como escudo."
+      "descricao": "Marca registrada das valquírias de Alstra, com elmo de máscara em forma de rosto feminino. Requer raça alada com asas naturais (exceto harpias e pteros), pois tem um encaixe específico para as asas. Reduz seu deslocamento de voo em 6m, mas suas asas passam a contar como um escudo para habilidades que exigem escudos."
     },
     {
       "id": "armadura-tecnologica",
       "nome": "Armadura Tecnomágica",
       "categoria": "armadura",
       "tipo": "Pesada",
-      "preco": "T$ 15.000",
-      "defesa": "10",
+      "preco": "T$ 10.000",
+      "defesa": "15",
       "penalidade": "–20 (–10 sincronizada)",
       "espacos": "5",
       "fonte": "Mitos de Arton",
-      "descricao": "Engenho de tecnologia e aço. Deve gastar ação completa e 6 PM para sincronizar (penalidade –10). Sem sincronizar, fica paralisado. Sem melhorias possíveis. Já conta como 2 melhorias."
+      "descricao": "Engenho de pura tecnologia e aço desenvolvido por devotos da deusa menor da tecnomagia. Gaste uma ação completa e 6 PM para sincronizá-la à sua mente, reduzindo a penalidade para –10 e tornando-se proficiente com ela; sem sincronizar, se tentar vestí-la sem proficiência com armaduras pesadas, fica paralisado. Reduz o deslocamento à metade em vez de em 3m, não pode receber materiais especiais e já conta como tendo duas melhorias."
     }
   ],
   "escudos": [
@@ -1372,28 +1600,52 @@
       "espacos": 2
     },
     {
+      "id": "escudo-de-ataque",
+      "nome": "Escudo de Ataque",
+      "categoria": "escudo",
+      "tipo": "Pesado",
+      "preco": "T$ 100",
+      "defesa": "3",
+      "penalidade": "–5",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Escudo gigantesco, ligeiramente maior que um escudo torre e feito totalmente de metal, deve ser empunhado com as duas mãos. Atacar com ele não reduz sua Defesa (dano 1d8, crítico x2, impacto). Você é considerado empunhando uma arma e escudo para efeitos de habilidades e, se possuir o poder Ataque com Escudo, em vez do normal, realiza um ataque adicional com este escudo. RD 15, PV 50."
+    },
+    {
       "id": "escudo-reflexivo",
       "nome": "Escudo Reflexivo",
       "categoria": "escudo",
       "tipo": "Médio",
-      "preco": "T$ 3.000",
-      "defesa": "3",
-      "penalidade": "–1",
-      "espacos": "1",
+      "preco": "T$ 150",
+      "defesa": "2",
+      "penalidade": "–2",
+      "espacos": "2",
       "fonte": "Mitos de Arton",
-      "descricao": "Se alvo de magia, pode gastar uma reação para fazer teste de resistência com Destreza. Êxito: evita o efeito. Êxito por 10+: a fonte sofre o efeito."
+      "descricao": "Escudo redondo com extremidades adornadas em ouro e superfície reflexiva, usado por caçadores de górgonas e basilíscos. Ao ser alvo de um efeito ocular empunhando-o, gaste 1 PM para somar seu bônus de defesa no teste de resistência: se passar, evita o efeito por completo; se passar por 10 ou mais, a fonte do efeito o sofre em seu lugar (fazendo o teste com sua própria CD). Pode ser usado para atacar como um escudo leve. RD 5, PV 10."
     },
     {
       "id": "escudo-retratil",
       "nome": "Escudo Retrátil",
       "categoria": "escudo",
       "tipo": "Leve",
-      "preco": "T$ 1.500",
+      "preco": "T$ 25",
       "defesa": "2",
-      "penalidade": "0",
-      "espacos": "1",
+      "penalidade": "–2",
+      "espacos": "2",
       "fonte": "Mitos de Arton",
-      "descricao": "Parece um bracelete. Vestido como acessório. Como reação a um ataque, abre causando –2 no teste do atacante (1×/criatura/cena)."
+      "descricao": "À primeira vista é apenas um bracelete metálico simples; por ser um item vestido, você não é considerado empunhando-o para qualquer efeito. Como reação a um ataque, pode abrir o escudo e receber seu bônus de defesa, causando –2 no teste de ataque do agressor pelo fator surpresa (1×/criatura/cena). Se estiver empunhando uma arma não-leve no braço vestido, solta-a como parte da reação. Não pode ser usado para atacar nem receber o encanto animado. RD 10, PV 20."
+    },
+    {
+      "id": "espaldar",
+      "nome": "Espaldar",
+      "categoria": "escudo",
+      "tipo": "Leve",
+      "preco": "T$ 15",
+      "defesa": "1",
+      "penalidade": "–1",
+      "espacos": "2",
+      "fonte": "Mitos de Arton",
+      "descricao": "Braçadeira longa que se estende das costas da mão até o ombro, fornecendo defesa extra. É um item vestido — você não é considerado empunhando-o para qualquer efeito. Não pode ser usado para atacar nem receber o encanto animado. RD 10, PV 20."
     }
   ],
   "alimentacao": [
@@ -1450,40 +1702,170 @@
       "nome": "Aguardente Selvagem",
       "categoria": "itemGeral",
       "tipo": "bebida",
-      "preco": "T$ 15",
+      "preco": "T$ 51",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "Redução de frio 5 até o fim da cena. CD 25 para fabricar."
+      "descricao": "Muito consumida entre hynnes e tribos bárbaras das montanhas uivantes, deixa o corpo quente mesmo em climas frios. Você recebe redução de frio 5. CD 25 para fabricar."
     },
     {
       "id": "cabaça-sake",
       "nome": "Cabaça de Saquê",
       "categoria": "itemGeral",
       "tipo": "bebida",
-      "preco": "T$ 20",
+      "preco": "T$ 30",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "+2 na Defesa até o fim da cena. CD 20 para fabricar."
+      "descricao": "Garrafa larga de cerâmica com misturado à base de arroz fermentado e álcool, consumida por muitos tamuranianos. Você recebe +2 em Defesa. CD 20 para fabricar."
     },
     {
       "id": "cerveja-gigante",
       "nome": "Cerveja Gigante",
       "categoria": "itemGeral",
       "tipo": "bebida",
-      "preco": "T$ 25",
+      "preco": "T$ 20",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "+10 PV temporários. CD 25 para fabricar."
+      "descricao": "Grande caneca de madeira com cerveja feita nos alpes sanguinários por tribos de galokks. Você recebe +10 PV temporários. CD 25 para fabricar."
     },
     {
       "id": "champanhe-nobre",
       "nome": "Champanhe Nobre",
       "categoria": "itemGeral",
       "tipo": "bebida",
-      "preco": "T$ 500",
+      "preco": "T$ 200",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "Bebida élfica refinada. +2 em Diplomacia e Nobreza por 1 hora."
+      "descricao": "Bebida ilustre composta por uvas verdes ou maçãs das mais refinadas adegas, fermentada por centenas de anos; muito consumida entre a nobreza élfica e hoje atende a demanda nobre. Você recebe +2 em Diplomacia e Nobreza. CD 20 para fabricar."
+    },
+    {
+      "id": "drink-violeta",
+      "nome": "Drink Violeta",
+      "categoria": "itemGeral",
+      "tipo": "bebida",
+      "preco": "T$ 69",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Servido nos mais finos bordéis e casas de prazeres de Valkaria, bebida colorida em tons vibrantes. Você recebe +2 em Atuação e Fortitude. CD 30 para fabricar."
+    },
+    {
+      "id": "biscoitos",
+      "nome": "Biscoitos",
+      "categoria": "itemGeral",
+      "tipo": "prato especial",
+      "preco": "T$ 90",
+      "espacos": "-",
+      "fonte": "Mitos de Arton",
+      "descricao": "Massa assada com gotas de gorad, popular entre crianças. Seu sabor doce e revitalizante dá cura acelerada 1. Ingredientes: açúcar das fadas, farinha, gorad, leite. CD 20."
+    },
+    {
+      "id": "carne-de-dragao",
+      "nome": "Carne de Dragão",
+      "categoria": "itemGeral",
+      "tipo": "prato especial",
+      "preco": "T$ 250",
+      "espacos": "-",
+      "fonte": "Mitos de Arton",
+      "descricao": "Carne assada de um dragão celestial, tabu em Tamu-ra, mas alguns cultivadores amam seu sabor, capaz de revitalizar o chi. Você recebe +5 cargas de chi temporárias. Ingredientes: carne de caça, molho tamuraniano, óleo. CD 25."
+    },
+    {
+      "id": "cha-ginseng",
+      "nome": "Chá Ginseng",
+      "categoria": "itemGeral",
+      "tipo": "prato especial",
+      "preco": "T$ 100",
+      "espacos": "-",
+      "fonte": "Mitos de Arton",
+      "descricao": "Chá quente e agradável feito com ervas cultivadas em climas amenos. Seu sabor revitalizante fornece +2 cargas de chi temporárias. Ingredientes: especiarias. CD 20."
+    },
+    {
+      "id": "maca-do-amor",
+      "nome": "Maçã do Amor",
+      "categoria": "itemGeral",
+      "tipo": "prato especial",
+      "preco": "T$ 50",
+      "espacos": "-",
+      "fonte": "Mitos de Arton",
+      "descricao": "Maçã suculenta e caramelizada, popular em feiras de festivais camponeses, que desperta o amor e senso de altruísmo. Ao rolar um teste para ajudar, você aumenta o bônus final em +1. Ingredientes: açúcar das fadas, fruta. CD 15."
+    },
+    {
+      "id": "pao-doce",
+      "nome": "Pão Doce",
+      "categoria": "itemGeral",
+      "tipo": "prato especial",
+      "preco": "T$ 50",
+      "espacos": "-",
+      "fonte": "Mitos de Arton",
+      "descricao": "Pão caseiro enfeitado com recheio doce à base de frutas e muito açúcar, iguaria popular em banquetes de nobres. Fornece +2 em Nobreza. Ingredientes: açúcar das fadas, farinha, fruta, leite, gorad. CD 15."
+    },
+    {
+      "id": "skooma",
+      "nome": "Skooma",
+      "categoria": "itemGeral",
+      "tipo": "prato especial",
+      "preco": "T$ 100",
+      "espacos": "-",
+      "fonte": "Mitos de Arton",
+      "descricao": "Bebida à base de açúcar muito popular entre habitantes do deserto da perdição, que dá energia para jornadas nômades. Você recebe +3m em todas as formas de deslocamento que possuir. Ingredientes: açúcar das fadas, avela de norba, cogumelos. CD 20."
+    },
+    {
+      "id": "bomba-de-lampinsetos",
+      "nome": "Bomba de Lampinsetos",
+      "categoria": "itemGeral",
+      "tipo": "item de expedição",
+      "preco": "T$ 350",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item exclusivo da distinção Explorador da Frota. Bomba à base de um composto extraído de insetos-trovão. Gaste uma ação padrão para lançá-la em um ponto em alcance curto; explode em esfera de 3m de raio. Criaturas na área ficam pasmas e cegas por 1 rodada e então ofuscadas (Ref CD Des muda para ofuscado)."
+    },
+    {
+      "id": "energetico",
+      "nome": "Energético",
+      "categoria": "itemGeral",
+      "tipo": "item de expedição",
+      "preco": "T$ 250",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item exclusivo da distinção Explorador da Frota. Líquido à base de ervas revigorantes e mel. Consumir é uma ação padrão e recupera 4d8+8 PV. Após consumido, você se move até 6m como uma ação livre."
+    },
+    {
+      "id": "lampiao-de-luminsetos",
+      "nome": "Lampião de Luminsetos",
+      "categoria": "itemGeral",
+      "tipo": "item de expedição",
+      "preco": "T$ 15",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item exclusivo da distinção Explorador da Frota. Lampião em forma de rede que guarda um pequeno enxame de luminsetos. Não precisa de óleo para se manter aceso e não pode ser apagado, iluminando uma área de 6m de raio e fornecendo +2 em testes para rastrear."
+    },
+    {
+      "id": "prendedora",
+      "nome": "Prendedora",
+      "categoria": "itemGeral",
+      "tipo": "item de expedição",
+      "preco": "T$ 135",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item exclusivo da distinção Explorador da Frota. Vestuário em forma de bracelete com gancho embutido. Possui as mesmas funções de um arpéu e pode ser usada para se pendurar em criaturas maiores que o usuário (teste de Pontaria oposto ao Reflexos da criatura). Também pode ser usada como arma de ataque à distância, com as estatísticas de uma besta leve."
+    },
+    {
+      "id": "remedio-supremo",
+      "nome": "Remédio Supremo",
+      "categoria": "itemGeral",
+      "tipo": "item de expedição",
+      "preco": "T$ 25.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item exclusivo da distinção Explorador da Frota. Cartela de remédios mágicos produzidos por poucos exploradores, de grande complexidade (CD para fabricar aumenta em +10). Consumir gasta uma ação completa e recupera todos os PV e PM, além de remover todas as condições que o estejam afetando."
+    },
+    {
+      "id": "sonifero",
+      "nome": "Sonífero",
+      "categoria": "itemGeral",
+      "tipo": "item de expedição",
+      "preco": "T$ 250",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item exclusivo da distinção Explorador da Frota. Bomba de fumaça rosa lançada sobre monstros na tentativa de capturá-los. Gaste uma ação padrão para lançá-la em um espaço em alcance curto; explode em um cubo de 6m de lado. Criaturas na área ficam exaustas (Fort CD Des muda para fatigado). É cumulativa com ela mesma."
     }
   ],
   "animais": [
@@ -1616,6 +1998,56 @@
       "tipo": "Catalisador - Alquímico",
       "preco": "150 T$",
       "espacos": 0.5
+    },
+    {
+      "id": "droga-benta",
+      "nome": "Droga Benta",
+      "categoria": "itemGeral",
+      "tipo": "catalisador",
+      "preco": "T$ 125",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Composto à base de sangue de celestiais e água benta. Para bruxeiros: o sinal usado com este catalisador causa o dobro de dano contra mortos-vivos e abissais (após rolar)."
+    },
+    {
+      "id": "droga-ferica",
+      "nome": "Droga Feérica",
+      "categoria": "itemGeral",
+      "tipo": "catalisador",
+      "preco": "T$ 325",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Composto à base de partes da flora e fauna de ambientes com grande densidade de mana. Para bruxeiros: o sinal usado com este catalisador tem a CD para resistir a ele aumentada em +2."
+    },
+    {
+      "id": "droga-profana",
+      "nome": "Droga Profana",
+      "categoria": "itemGeral",
+      "tipo": "catalisador",
+      "preco": "T$ 250",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Composto à base de sangue de demônios e carne apodrecida. Para bruxeiros: os sinais usados com este catalisador causam +2 dados de dano do mesmo tipo."
+    },
+    {
+      "id": "fruta-amarga",
+      "nome": "Fruta Amarga",
+      "categoria": "itemGeral",
+      "tipo": "catalisador",
+      "preco": "T$ 200",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Fruta esverdeada e semilíquida de gosto azedo e amargo. Ao usar uma magia que fornece PV temporários, role novamente qualquer resultado 1 ou 2 da magia. Se a magia não possuir dados, em vez disso receba +5 PV temporários (além dos fornecidos pela magia)."
+    },
+    {
+      "id": "raiz-de-moli",
+      "nome": "Raiz de Móli",
+      "categoria": "itemGeral",
+      "tipo": "catalisador",
+      "preco": "T$ 900",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Raiz dourada que cresce do corpo de celestiais, extremamente rara e dificilmente comercializada. Ao usar uma magia que convoca uma criatura ou capangas, você recebe uma quantidade de PM para gastar em aprimoramentos igual ao seu atributo-chave (limitado pelo nível)."
     }
   ],
   "equipamentoAnimal": [
@@ -1770,20 +2202,20 @@
       "nome": "Crânio de Sangue",
       "categoria": "itemGeral",
       "tipo": "esotérico",
-      "preco": "T$ 800",
+      "preco": "T$ 600",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Crânio alquimicamente tratado. Escolha uma magia: pode lançá-la gastando PM em vez de PV. Trocar a magia custa T$ 300 e 1 dia."
+      "descricao": "Crânio humanoide alquimicamente tratado para pagar o preço no seu lugar. Escolha uma magia: passa a poder lançá-la gastando pontos de mana, em vez de pontos de vida. Você pode trocar a magia afetada em um ritual que exige 1 dia e o gasto de T$ 300 em componentes."
     },
     {
       "id": "faixas-sinaleiro",
       "nome": "Faixas do Sinaleiro",
       "categoria": "itemGeral",
       "tipo": "esotérico",
-      "preco": "T$ 600",
+      "preco": "T$ 150",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Faixas brancas com sinais. Para bruxeiros: aumenta o limite de PM dos sinais em +2."
+      "descricao": "Conjunto de faixas brancas inscritas com sinais diversos. Para bruxeiros: aumenta o limite de PM de sinais que pode aprimorar em +1."
     },
     {
       "id": "ídolo-sobrescrito",
@@ -1793,7 +2225,7 @@
       "preco": "T$ 2.250",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Estatueta entalhada com runas divinas. +2 no CD de poderes concedidos de divindades menores."
+      "descricao": "Ídolo de uma divindade esculpido em prata, ouro ou outro material valioso. Ao lançar magias afetadas por símbolos sagrados visíveis ou devoções diferentes, você pode gastar +4 PM como um aprimoramento para ignorar esses requisitos (um devoto de Tenebra poderia lançar Profanar em um local com símbolo de Khalmyr visível, por exemplo). Não funciona se o símbolo/devoto for um claro rival do esculpido no ídolo, ou se o ídolo for de uma divindade da qual não é devoto."
     },
     {
       "id": "pingente-uivante",
@@ -1803,7 +2235,7 @@
       "preco": "T$ 800",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Pingente que emite som ao detectar perigo. Você recebe +2 em Iniciativa e nunca é surpreendido."
+      "descricao": "Anel prateado com um pingente de ferro na forma de algum animal, normalmente um lobo. O dano dos seus sinais de bruxeiro aumenta em +1d6."
     },
     {
       "id": "luva-harmonizada",
@@ -1813,7 +2245,7 @@
       "preco": "T$ 350",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Luva que harmoniza com chi. Para cultivadores: +1 carga de chi por descanso."
+      "descricao": "Anéis de ouro interligados por correntes douradas, com runas arcanas alquimicamente tratadas. Escolha uma magia arcana: seu custo é reduzido em –1 PM. Você pode trocar a magia escolhida com um ritual que exige 1 dia e o gasto de T$ 150. Se este item receber a melhoria harmonizado, o custo é reduzido em –2 PM (ou uma segunda magia tem seu custo reduzido)."
     },
     {
       "id": "cartao-aventureiro",
@@ -1823,17 +2255,97 @@
       "preco": "T$ 100",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Credencial que identifica aventureiro registrado. +2 em Nobreza para trato com guildas e autoridades."
+      "descricao": "Fino pedaço de metal prateado que precisa ficar em posse do usuário por ao menos 1 dia; após esse período, exibe as informações do usuário (foto, nome, nível, atributos...). Também pode ser usado para se comunicar por texto com outras pessoas que o possuam, mas apenas se ambos estiverem no mesmo plano."
     },
     {
       "id": "batuta-controle",
       "nome": "Batuta de Controle",
       "categoria": "itemGeral",
       "tipo": "instrumento",
-      "preco": "T$ 8",
+      "preco": "T$ 850",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Batuta mágica. Para bardos: +1 PM em magias de encantamento lançadas enquanto a usa como instrumento."
+      "descricao": "Vareta grossa usada para guiar uma grande percussão. A primeira ação que usar na rodada para comandar uma convocação mágica será livre — após isso usa ações normalmente. Considerado um instrumento musical para bardos, mas apesar de ser empunhado com uma mão, é necessário ter a outra mão livre para utilizá-lo."
+    },
+    {
+      "id": "berimbau-ubaneri",
+      "nome": "Berimbau Ubaneri",
+      "categoria": "itemGeral",
+      "tipo": "instrumento",
+      "preco": "T$ 700",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Arco de biriba com corda estirada, tocado com um graveto fino auxiliado por uma esfera oca semiaberta. Quando usa Inspiração, todas as criaturas afetadas recebem +2 em rolagens de dano. Pode ser usado como uma arma à distância com as mesmas estatísticas de um arco curto com a propriedade desbalanceado."
+    },
+    {
+      "id": "castanholas-sambur",
+      "nome": "Castanholas Sambur",
+      "categoria": "itemGeral",
+      "tipo": "instrumento",
+      "preco": "T$ 400",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Par de conchas metálicas que emitem um som estalado e dançante. Aumenta a CD das suas magias de encantamento em um valor igual ao bônus fornecido pela sua Inspiração."
+    },
+    {
+      "id": "guitarra-kliren",
+      "nome": "Guitarra Kliren",
+      "categoria": "itemGeral",
+      "tipo": "instrumento",
+      "preco": "T$ 600",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Haste com região central grande e cordas metálicas que produzem um som elétrico e \"sujo\". Ao usar Inspiração, todas as criaturas afetadas recebem +1 dado adicional de dano nas suas magias."
+    },
+    {
+      "id": "ocarina-lunar",
+      "nome": "Ocarina Lunar",
+      "categoria": "itemGeral",
+      "tipo": "instrumento",
+      "preco": "T$ 350",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Esfera pontuda e oca com pino de sopro e buracos para entoar notas, com som melódico e etéreo apreciado por fadas. Seus efeitos de cura lançados através da ocarina lunar recebem +1 dado."
+    },
+    {
+      "id": "shamisen-cerimonias",
+      "nome": "Shamisen de Cerimônias",
+      "categoria": "itemGeral",
+      "tipo": "instrumento",
+      "preco": "T$ 450",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Instrumento cerimonial tamuraniano que lembra um alaúde, tocado com um bashi e com três a quarenta cordas. Uma vez por rodada, ao usar uma habilidade de bardo, você pode gastar +2 PM para somar sua Sabedoria na CD para resistir ao efeito (limitado pelo nível)."
+    },
+    {
+      "id": "caixa-de-bijuterias",
+      "nome": "Caixa de Bijuterias",
+      "categoria": "itemGeral",
+      "tipo": "equipamento",
+      "preco": "T$ 50",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Pequena caixa de madeira com forro simples, usada para guardar o que é valioso. Você pode armazenar joias e tibares na caixa para que não ocupem espaços no inventário, limitado a 500 unidades de joias e moedas."
+    },
+    {
+      "id": "conjunto-de-higiene",
+      "nome": "Conjunto de Higiene",
+      "categoria": "itemGeral",
+      "tipo": "equipamento",
+      "preco": "T$ 12",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Bolsa descartável com produtos de higiene pessoal (sabonete, toalha, roupas íntimas). Gaste alguns minutos se higienizando em uma região com água para receber +1 em perícias originalmente baseadas em Carisma (exceto Adestramento e Intimidação) e em testes de resistência contra a condição enjoado. É consumido após o uso."
+    },
+    {
+      "id": "mecanismo-de-injecao",
+      "nome": "Mecanismo de Injeção",
+      "categoria": "itemGeral",
+      "tipo": "equipamento",
+      "preco": "T$ 75",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Mecanismo composto por anéis metálicos, tubos flexíveis e agulhas finas para injetar itens alquímicos direto no sangue, agilizando seus efeitos. Gaste uma ação padrão para armazenar até duas doses de um item alquímico ou poção neste item. Uma vez por rodada, você pode usar o mecanismo para injetar um dos itens armazenados em você ou em um alvo adjacente com uma ação livre."
     },
     {
       "id": "presa-vampirica",
@@ -1843,7 +2355,7 @@
       "preco": "T$ 300",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Prótese dental de vampiro. +2 em Intimidação. Para dampíros: a Sede de Sangue concede +1d6 extra de dano."
+      "descricao": "Varinha feita com presas de vampiros mortos. Ao lançar uma magia arcana que cause dano perdendo PV, para cada 10 pontos de dano que causar, você recupera 1 PV perdido por lançá-la — mesmo se possuir Hemofilia."
     }
   ],
   "itensEsotericos": [
@@ -1955,17 +2467,27 @@
       "preco": "T$ 200",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Soa quando criaturas com intenções hostis se aproximam a 9m. Não pode ser enganado por ilusões."
+      "descricao": "Sino metálico disposto na ponta de uma corrente, segurado em uma mão auxiliar, emitindo som à medida que é segurado. Quando empunhando o sino, você recebe +5 em testes de resistência para manter a concentração em algum efeito."
+    },
+    {
+      "id": "fole",
+      "nome": "Fole",
+      "categoria": "itemGeral",
+      "tipo": "ferramenta",
+      "preco": "T$ 150",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Duas grandes massas de madeira conectadas por um bolsão de ar de couro, usado para aumentar o fogo de forjas e agilizar a produção de itens à base de metal. Quando usa um fole durante a fabricação de uma arma, armadura ou escudo, você diminui o tempo de produção deste item em uma categoria."
     },
     {
       "id": "colar-bruxeiro",
       "nome": "Colar de Bruxeiro",
       "categoria": "itemGeral",
       "tipo": "esotérico",
-      "preco": "T$ 500",
+      "preco": "T$ 100",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Para bruxeiros com 2+ níveis: +1 em rolagens de dano e funciona como símbolo sagrado (não visível)."
+      "descricao": "Colar de ferro elegante com um pingente na forma de algum animal referenciado nas escolas de bruxeiro. Quando vestido por um personagem com pelo menos dois níveis de bruxeiro, fornece +1 em rolagens de dano e conta como um símbolo sagrado (incluindo o aumento em testes de resistência). Porém, não é considerado um símbolo sagrado visível para efeitos que citem isso."
     },
     {
       "id": "pelúcia",
@@ -1975,17 +2497,17 @@
       "preco": "T$ 15",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Boneco de tecido com função especial. Ao realizar um descanso segurando a pelúcia, recupera +1 PM extra."
+      "descricao": "Animal ou figura famosa na forma de decoração felpuda e fofa. Pode ocultar itens que ocupem 1 espaço ou menos sem levantar suspeitas, ou fornecer +2 em Diplomacia em testes contra crianças. Se dormir abraçado a uma pelúcia, sua condição de descanso sempre será no mínimo normal."
     },
     {
       "id": "pérola-do-fim",
       "nome": "Pérola do Fim",
       "categoria": "itemGeral",
       "tipo": "esotérico",
-      "preco": "T$ 5.000",
+      "preco": "—",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "Pérola negra com aspecto místico. Uma vez por aventura, pode ser destruída para negar completamente um efeito mágico que te afete."
+      "descricao": "Artefato perfeitamente esférico que parece absorver a luz, com uma tênue luz arroxeada em seu centro. Pode ser arremessada em alcance curto (ação padrão) reproduzindo o efeito básico de Salto Dimensional, ou quebrada entre os dedos (ação de movimento) usando o efeito básico de Localização. Também pode ser consumida (ação padrão) para recuperar 4d4+4 pontos de mana, mas você recebe a habilidade Hidrossensibilidade até o fim da cena. Não pode ser fabricada ou comercializada — só é encontrada no corpo de criaturas d'O Fim (sem preço de venda)."
     },
     {
       "id": "tenda",
@@ -1995,7 +2517,7 @@
       "preco": "T$ 50",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Tenda resistente para até 4 pessoas. Fornece condições de descanso normais mesmo em terrenos difíceis."
+      "descricao": "Versão mais sofisticada de uma barraca qualquer, feita de lona, adornada com tecidos e heráldicas; pode ser usada para passar o tempo ou dormir. Montá-la aumenta a CD do teste de Sobrevivência para Acampar em +5, mas se passar, você tem um descanso confortável e +2 em testes de perícia associadas a montar estratégias e estudar inimigos e locais."
     },
     {
       "id": "relógio-anacronico",
@@ -2005,7 +2527,7 @@
       "preco": "T$ 4.500",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Relógio que flui de forma estranha. Uma vez por cena, pode ser usado para rerollar um dado de qualquer tipo, usando o melhor resultado."
+      "descricao": "Mecanismo complexo usado para contar as horas, mas que reduz o tempo futuro. Escolha uma magia arcana (a escolha não pode ser mudada depois). Uma vez por rodada, ao lançar essa magia, seu tempo de execução é reduzido em um passo (de completa para padrão e de padrão para movimento)."
     },
     {
       "id": "totem-lunar",
@@ -2015,17 +2537,47 @@
       "preco": "T$ 650",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Para druidas e devotos de Allihanna: +1 PM em poderes concedidos e magias de natureza usados durante a noite."
+      "descricao": "Pequeno totem de madeira na forma de algum animal, flor ou astro, sendo o mais frequente a lua. Ao lançar uma magia divina de cura, você aumenta essa cura em +1 ponto por dado."
     },
     {
-      "id": "cajado-runico",
-      "nome": "Cajado Rúnico",
+      "id": "cajado-eclesiastico",
+      "nome": "Cajado Eclesiástico",
       "categoria": "itemGeral",
       "tipo": "esotérico",
-      "preco": "T$ 1.200",
+      "preco": "T$ 1.000",
       "espacos": "1",
       "fonte": "Mitos de Arton",
-      "descricao": "Cajado de madeira com adornos rúnicos. +1 no limite de PM e na CD de magias divinas. Deve ser empunhado com duas mãos."
+      "descricao": "Cajado simples de madeira com adornos na forma de runas que potencializa milagres. O limite de PM e a CD para resistir as suas magias divinas aumentam em +1. Precisa ser empunhado com as duas mãos. Pode ser usado como uma arma com as mesmas estatísticas de um bordão."
+    },
+    {
+      "id": "ampulheta-cardeal",
+      "nome": "Ampulheta Cardeal",
+      "categoria": "itemGeral",
+      "tipo": "esotérico",
+      "preco": "T$ 1.500",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Ampulheta contendo quatro frascos, dois cheios de uma areia cerúlea que flui como água. Para cada círculo de magia que puder lançar, você não paga o custo de uma magia sustentada que tenha lançado por 1 rodada (um conjurador de 3º círculo não paga o custo de sustento por 3 rodadas)."
+    },
+    {
+      "id": "bracelete-serpentino",
+      "nome": "Bracelete Serpentino",
+      "categoria": "itemGeral",
+      "tipo": "esotérico",
+      "preco": "T$ 800",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Bracelete de couro costurado em rebites de ferro com uma víbora serpenteando até os dedos. A CD para resistir aos seus sinais de bruxeiro aumenta em +1."
+    },
+    {
+      "id": "grilhoes-da-megera",
+      "nome": "Grilhões da Megéra",
+      "categoria": "itemGeral",
+      "tipo": "esotérico",
+      "preco": "T$ 250",
+      "espacos": "1",
+      "fonte": "Mitos de Arton",
+      "descricao": "Correntes escuras e pesadas com a cabeça metálica de uma víbora na ponta, que verte fumaça verde pela boca. Você aumenta a área dos seus sinais em +3m (um sinal com área de 6m terá 9m de área)."
     }
   ],
   "ferramentas": [
@@ -2199,7 +2751,7 @@
       "preco": "T$ 200",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "Cura 2d8+nível PV quando aplicado. Também remove uma condição negativa a sua escolha."
+      "descricao": "Composto à base de ervas medicinais misturado com um líquido natural extraído de árvores do mundo divino da deusa da magia. Consumir é uma ação completa e fornece 4d6+4 PV temporários até o fim da cena."
     },
     {
       "id": "droga-avancada",
@@ -2249,7 +2801,137 @@
       "preco": "T$ 2.000",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "+2 na margem de ameaça e +1 no multiplicador de crítico até o fim da cena."
+      "descricao": "Você recebe +2 na margem de ameaça e +1 no multiplicador de crítico. O efeito acaba ao realizar um acerto crítico ou ao fim da cena (o que vier primeiro). Consumir é uma ação padrão."
+    },
+    {
+      "id": "essencia-duradoura",
+      "nome": "Essência Duradoura",
+      "categoria": "itemGeral",
+      "tipo": "preparado",
+      "preco": "T$ 150",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Versão de longa duração de uma essência de mana, ficando no organismo por mais tempo. Consumir gasta uma ação completa e recupera 1d4 pontos de mana por 1d3+1 rodadas."
+    },
+    {
+      "id": "extrato-maximo-de-mana",
+      "nome": "Extrato Máximo de Mana",
+      "categoria": "itemGeral",
+      "tipo": "preparado",
+      "preco": "T$ 500",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Feito com as ervas mais finas e produtos de maior concentração mágica de Wynlla; acesso extremamente limitado, visto apenas em grandes cidades. Consumir gasta uma ação completa e recupera 2d6 pontos de mana."
+    },
+    {
+      "id": "feromonios",
+      "nome": "Feromônios",
+      "categoria": "itemGeral",
+      "tipo": "preparado",
+      "preco": "T$ 15",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Composto que imita o odor que animais liberam ao procurar um casal para a cópula, usado por caçadores para atrair presas. Pode ser usado durante um teste para Rastrear para receber +5 no teste, mas caso encontre a criatura, ela terá +2 de dano contra você."
+    },
+    {
+      "id": "po-verde",
+      "nome": "Pó Verde",
+      "categoria": "itemGeral",
+      "tipo": "preparado",
+      "preco": "T$ 200",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Pedras de vitarium extraídas de Galrasia processadas em pó, que pode ser consumido ou inalado gastando uma ação completa para recuperar o corpo de dentro para fora. Você recupera 4d8+8 pontos de vida e remove uma condição metabólica que esteja o afetando."
+    },
+    {
+      "id": "ambrosia",
+      "nome": "Ambrósia",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 20.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Coquetel raro produzido com ingredientes de cada mundo divino de Arton, incluindo Nivenciuén e Skerry, extremamente valioso. Consumi-la demora alguns minutos e coloca você em sono profundo, transportando sua alma para o mundo divino de um deus aleatório (role 1d20 para decidir a divindade visitada). A divindade concede uma bênção, maldição ou desafio, que pode acarretar sequelas no corpo. Após consumir, só pode tomar outra daqui a 2d6 aventuras."
+    },
+    {
+      "id": "balsamo-dourado",
+      "nome": "Bálsamo Dourado",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 6.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Pasta rica em nutrientes, componentes curativos e cheiro doce. Passá-la nos ferimentos gasta uma ação completa e recupera todos os seus PV."
+    },
+    {
+      "id": "elixir-de-chi",
+      "nome": "Elixir de Chi",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 150",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Líquido marrom consumido em doses com uma ação completa. Ao fazer isso, você recebe 1d4+1 cargas de chi."
+    },
+    {
+      "id": "elixir-de-mana",
+      "nome": "Elixir de Mana",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 15.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Líquido cerúleo produzido com as mais finas ervas extraídas de Magika. Consumir é uma ação completa e recupera todos os seus pontos de mana."
+    },
+    {
+      "id": "elixir-de-poder",
+      "nome": "Elixir de Poder",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 500",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Pílula dourada com composto avermelhado. Consumir gasta uma ação de movimento e fornece +5 em rolagens de dano até o fim da cena."
+    },
+    {
+      "id": "oleo-protetor",
+      "nome": "Óleo Protetor",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 3.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Composto líquido em frasco prateado. Passá-lo na pele gasta uma ação completa e fornece +2 na Defesa e em testes de resistência até o fim da cena."
+    },
+    {
+      "id": "pilula-de-aprendizado",
+      "nome": "Pílula de Aprendizado",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 1.500",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Pílula dourada com composto esverdeado. Consumir gasta uma ação completa e fornece +2 em duas perícias à sua escolha por um dia — ou fornece treinamento em duas perícias, também por um dia."
+    },
+    {
+      "id": "pilula-de-chi",
+      "nome": "Pílula de Chi",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 300",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Pequenas pílulas marrons consumidas em porções gastando uma ação padrão. Ao fazer isso, você recebe 1 carga de chi."
+    },
+    {
+      "id": "pilula-de-treino",
+      "nome": "Pílula de Treino",
+      "categoria": "itemGeral",
+      "tipo": "espiritual",
+      "preco": "T$ 1.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Item alquímico espiritual (exige poder Alquimia Espiritual para fabricar; CD de fabricação +5, tempo de fabricação 1 semana, requer área de forte concentração mágica; item mágico). Pílula vermelha usada por cultivadores antes ou depois de treinamentos intensos. Consumir gasta uma ação completa e fornece +1 em um atributo à sua escolha até o fim da cena (esse aumento não fornece PV, PM ou perícias adicionais)."
     }
   ],
   "servicos": [
@@ -2470,10 +3152,30 @@
       "nome": "Sangue de Basilísco",
       "categoria": "itemGeral",
       "tipo": "veneno",
-      "preco": "T$ 3.000",
+      "preco": "T$ 15.000",
       "espacos": "0,5",
       "fonte": "Mitos de Arton",
-      "descricao": "Contato: alvo fica petrificado (imóvel por 3 rodadas). A CD para fabricar e resistir aumenta em +5."
+      "descricao": "Sangue tratado de um basilisco junto com seus olhos, inoculado no corpo das pessoas como veneno petrificante. Contato: vítima fica petrificada (imóvel por 3 rodadas). A CD para fabricar e para resistir a esse veneno aumenta em +5."
+    },
+    {
+      "id": "beijo-da-mae-noite",
+      "nome": "Beijo da Mãe-Noite",
+      "categoria": "itemGeral",
+      "tipo": "veneno",
+      "preco": "T$ 30.000",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Veneno mortal produzido com flores venenosas cultivadas no mundo divino de Tenebra, tratadas e inoculadas em um líquido letal. Contato: perde 20d12 PV, fica debilitada e não é afetada por efeitos de cura de qualquer natureza. A CD para fabricar e para resistir a esse veneno aumenta em +10."
+    },
+    {
+      "id": "po-retalhador",
+      "nome": "Pó Retalhador",
+      "categoria": "itemGeral",
+      "tipo": "veneno",
+      "preco": "T$ 1.800",
+      "espacos": "0,5",
+      "fonte": "Mitos de Arton",
+      "descricao": "Pó brilhante e prateado similar a ferro, que causa reações cortantes no corpo de quem inala. Inalação: vítima fica 3 rodadas (1 rodada se resistir) gastando uma ação completa para se coçar, causando seu dano desarmado em si mesma."
     }
   ],
   "vestuario": [
@@ -2644,6 +3346,96 @@
       "tipo": "Vestuário",
       "preco": "100 T$",
       "espacos": 1
+    },
+    {
+      "id": "arma-natural-artificial",
+      "nome": "Arma Natural Artificial",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 300",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Versão metálica e vestida de uma arma natural. Causa 1d6 pontos de dano com crítico x2, mas impõe penalidade de armadura de –2. Uma vez por rodada, ao fazer uma ação agredir para atacar com outra arma, pode gastar 2 PM para fazer um ataque corpo a corpo extra com esta arma. Pode ser vestida sobre uma arma natural já existente, aumentando o dano dela em +2. Pode receber melhorias e encantos de armas."
+    },
+    {
+      "id": "bracelete-de-utensilios",
+      "nome": "Bracelete de Utensílios",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 550",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Pequeno bracelete com compartimento para armazenar até cinco itens alquímicos ou poções. Usar um item armazenado gasta uma ação de movimento, independente do item, mas apenas se forem consumíveis — como essências de mana e poções de cura."
+    },
+    {
+      "id": "collant",
+      "nome": "Collant",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 25",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Vestuário de corpo inteiro em tecido preto e fino que se ajusta ao corpo, oferecendo mais liberdade de movimentos mesmo sob peças pesadas de metal. Ao vestir um collant, você diminui em 1 a penalidade de armadura de uma armadura que estiver vestindo (cumulativo com outros efeitos de itens)."
+    },
+    {
+      "id": "contas-de-rosarios",
+      "nome": "Contas de Rosários",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 120",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Tira de rosários vestida sobre o pescoço ou enrolada nas mãos para rezar preces eclesiásticas. Fornece +1 em Religião e Vontade. Para clérigos e frades: ao gastar +1 hora fazendo qualquer cerimônia, missa ou ritual, você reduz a CD dele em –5."
+    },
+    {
+      "id": "estola-mistica",
+      "nome": "Estola Mística",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 450",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Faixa de pano grosso com rebites de metal. Gaste 3 PM para se conectar à estola, transformando-a em uma arma corpo a corpo dupla e ágil que causa 1d8 pontos de dano de impacto com crítico x2, ficando ativa até o fim da cena, até desativá-la (ação livre) ou até ficar inconsciente. Precisa estar com as mãos livres para atacar com este vestuário; se ficar uma rodada sem atacar após ativá-la, ela fornece +1 na Defesa."
+    },
+    {
+      "id": "lancador-de-ombro",
+      "nome": "Lançador de Ombro",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 1.000",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Dispositivo conectado a um mecanismo móvel encaixado no ombro, que pode armazenar até duas bombas. Uma vez por rodada, como ação de movimento, você pode gastar uma bomba e lançá-la em um ponto em alcance médio. Recarregar o lançador de ombro requer duas ações completas."
+    },
+    {
+      "id": "manopla-pesada",
+      "nome": "Manopla Pesada",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 35",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Versão mais poderosa de uma manopla convencional, adornada com anéis metálicos e rebites de ferro. Impõe penalidade de –2 em ataques corpo a corpo, mas aumenta o dano desarmado em +1 dado do mesmo tipo. Esse dado extra é multiplicado em caso de acerto crítico."
+    },
+    {
+      "id": "mascara-de-cacador",
+      "nome": "Máscara de Caçador",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 1.500",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Máscara metálica com dispositivos de localização. Aumenta o alcance do faro, percepção às cegas e/ou visão na penumbra ou escuro em um passo (máx. longo). Exige treinamento especial: é necessário Int e Sab 5 ou maior, ou recebe –5 em Percepção vestindo a máscara."
+    },
+    {
+      "id": "sapatilhas-marciais",
+      "nome": "Sapatilhas Marciais",
+      "categoria": "itemGeral",
+      "tipo": "Vestuário",
+      "preco": "T$ 350",
+      "espacos": 1,
+      "fonte": "Mitos de Arton",
+      "descricao": "Par de sapatilhas, tamancos, botas ou outro vestuário para os pés. Ao fazer um ataque desarmado, pode optar por atacar com este vestuário, que revela lâminas causando 1d8 pontos de dano de corte com crítico 19. Pode receber melhorias e encantos para armas e é considerada uma arma leve para efeitos que interagem com essas armas."
     }
   ],
   "pocoesEPergaminhos": [

@@ -1,0 +1,4450 @@
+
+=== PAGE 233 ===
+Capítulo Três 
+Guan Dao. Uma versão maior do sabre Dao, 
+trata-se de um extenso cabo ornamentado com uma 
+lâmina curva na ponta, sendo utilizada normalmente 
+por generais de guerra montados. O Guan Dao é uma 
+arma alongada que pode ser empunhada com apenas 
+uma mão quando o seu portador está montado.
+Kusarigama. Uma foice unida a um peso 
+metálico por uma corrente fina, fazendo com que a 
+arma possa projetar movimentos elusivos e precisos. 
+A kusarigama é uma arma ágil, dupla e versátil que 
+fornece +2 em testes para derrubar e desarmar. Seu 
+alcance natural aumenta em +3m usando a kusari-
+gama, pois pode propulsionar a arma e retorná-la 
+puxando a corrente.
+Lajatang. Um cabo extenso de madeira cujas 
+extremidades contêm lâminas em formato de lua. 
+O lajatang é uma arma ágil e alongada. Por ser uma 
+fabricação tamuriana, a lajatang é uma arma exótica 
+que por vezes é carregado por devotos de Lena pelo 
+seu formato.
+Lâminas de Pulso. Uma versão cruel e des-
+trutiva da serrilheira montada sobre um bracelete 
+de metal para ser sacada com facilidade mortal. As 
+lâminas de pulso são uma arma ágil e surpreendente 
+que deixa seus alvos sangrando em um acerto crítico. 
+Sacar ou guardar as lâminas de pulso é uma ação 
+livre (se tiver o poder Saque Rápido, recebe +2 em 
+testes de ataque com essa arma por 1 rodada após 
+sacar a mesma).
+Lança Valquíriana. Uma lança polída e de 
+acabamento quase divino, produzida sob medida 
+para ser usada por valquírias. Se for treinado em 
+Guerra, você recebe +1 em testes de ataque com essa 
+arma. Uma lança valquíriana pode ser arremessada.
+Machado Canora. Uma versão de duas mãos 
+da espada canora, contendo cordas metálicas presas 
+da lâmina ao cabo para servir de alaúde. Conta como 
+um instrumento musical para bardos.
+Mosquete-Tambor. Uma versão alongada 
+e superior da infame pistola-tambor, desenvolvida 
+pelo exército do reinado após estudar seus engenhos. 
+Assim como a pistola, possui um compartimento que 
+armazena até quatro disparos antes de precisar ser 
+recarregada — uma ação completa. Pela sua comple-
+xidade mecânica, conta como já tendo uma melhoria.
+Nodachi. Uma versão maior e mais potente 
+da tradicional katana, usada por guerreiros tamura-
+nianos que buscam uma alternativa extensa e mais 
+letal. A nodachi é uma arma ágil e é considerada 
+uma katana para efeitos de habilidades. Devido a sua 
+manufatura atípica, exige treinamento especial, por 
+isso, é uma arma exótica.
+Tarasca. Uma espada de lâmina longa e on-
+dulada como chamas, tornando-a uma arma elusiva 
+e atípica. Ao empunhar uma tarasca, você recebe 
++1 na Defesa e em testes para resistir a manobra 
+desarmar.
+Tonfa. Um bastão com uma empunhadura 
+lateral, permitindo ataques precisos sem abrir sua 
+guarda. A tonfa pode causar dano letal ou não letal, a 
+sua escolha. Ao empunhar duas tonfas, uma em cada 
+mão, você recebe +2 na Defesa.
+Wagasa. A primeira vista, o Wagasa é como um 
+guarda-sol tamuraniano qualquer, mas demonstra 
+suas verdadeiras capacidades quando empunhado 
+por um mestre marcial. O wagasa é uma arma 
+adaptável, ágil, alongada e ocultável que fornece +2 em 
+Enganação para fintar e quando aberto, fornece +1 
+na Defesa contra ataques a distância.
+Yushara. Esse conjunto de esferas metálicas 
+exige que seu usuário se sintonize a elas gastando 
+uma ação de movimento e 3 PM, ao fazer isso, poderá 
+fazer ataques a distância com elas como se estivesse 
+as arremessando, mas elas voltam após o ataque e 
+ficam flutuando ao redor do usuário. Esse efeito dura 
+até o fim da cena, até desativá-lo (ação livre) ou até 
+ficar inconsciente. Cada esfera conta como uma arma 
+separada para efeitos de saque e arremesso. Você não 
+pode empunhar itens enquanto usa as Yushara.
+Armas de Expedição
+Essa sessão apresenta armas que são exclusivas 
+da distinção Explorador da Frota (p. @@). Toda 
+arma de expedição é uma arma exótica.
+Berrante de Exploração. Esta grande 
+marreta em forma de gaita de foles tem partes 
+metálicas robustas que permite ataques poderosos 
+mesmo com espaços ocos para o vento fluir. Conta 
+como um instrumento musical para bardos.
+Fuziladora Leve. Um engenho de potência e 
+alcance sublimes, capaz de suportar uma quantidade 
+generosa de balas antes de precisar ser recarregado. 
+A fuziladora leve comporta até cinco balas, recarre-
+gá-lo é uma ação completa.
+Fuziladora Pesada. Uma versão maior e 
+mais potente da fuziladora leve, capaz de suportar 
+até dez balas antes de precisar ser recarregada (uma 
+ação completa). Empunhar a fuziladora pesada reduz 
+seu deslocamento em –3m, mas essa penalidade é 
+reduzida à metade se possuir For 5 ou maior.
+Glaive Entomática. Uma das armas mais 
+complexas da manufatura dos exploradores é esta. 
+Trata-se de uma glaive grossa e pesada com um 
+232
+
+=== PAGE 234 ===
+Arsenal dos Mitos
+Tabela 3-1: Armas
+Armas Simples
+Preço
+Dano
+Crítico
+Alcance
+Tipo
+Espaços
+Corpo a Corpo - Leves
+Adaga Oculta
+T$ 10
+1d4
+19
+—
+Perfuração
+1
+Ataque à Distância - Uma Mão
+Báculo
+T$ 50
+1d8
+x2
+Curto
+Essência
+1
+Besta Oculta
+T$ 75
+1d6
+19
+Curto
+Perfuração
+1
+Virotes (20)
+T$ 2
+—
+—
+—
+—
+1
+Armas Marciais
+Preço
+Dano
+Crítico
+Alcance
+Tipo
+Espaços
+Corpo a Corpo - Uma Mão
+Lâminas de Pulso
+T$ 50
+1d6
+19
+—
+Corte
+1
+Lança Valquíriana
+T$ 100
+1d8
+x2
+Curto
+Perfuração
+1
+Tonfa
+T$ 25
+1d6
+x2
+—
+Impacto
+1
+Corpo a Corpo - Duas Mãos
+Tarasca
+T$ 80
+2d6
+19
+—
+Corte
+1
+Armas Exóticas
+Preço
+Dano
+Crítico
+Alcance
+Tipo
+Espaços
+Corpo a Corpo - Uma Mão
+Dao
+T$ 200
+1d10/1d12
+19
+—
+Corte
+1
+Espada Gancho
+T$ 150
+1d8
+19
+—
+Corte
+1
+Wagasa
+T$ 1.000
+1d8/1d10
+19
+—
+Corte/Perfuração
+1
+Corpo a Corpo - Duas Mãos
+Aro Laminado
+T$ 150
+2d6
+x3
+Curto
+Corte
+2
+Espada-Ramo
+T$ 4.000
+3d6
+x4
+—
+Corte
+2
+Fu
+T$ 300
+2d10
+x3
+—
+Corte
+2
+Guan Dao
+T$ 250
+1d12
+19
+—
+Corte
+2
+Kusarigama
+T$ 16
+1d8/1d6
+x2
+—
+Corte/Impacto
+2
+Lajatang
+T$ 50
+1d8/1d8
+x2
+—
+Corte
+2
+Machado Canora
+T$ 75
+2d6
+x3
+—
+Corte
+2
+Nodachi
+T$ 250
+1d12
+19
+—
+Corte
+2
+Yushara
+T$ 3.000
+1d6
+19
+Curto
+Impacto
+2
+Ataque à Distância - Duas Mãos
+Arco Arbóreo
+T$ 800
+1d12
+x3
+Médio
+Perfuração
+2
+Flechas (20)
+T$ 1
+—
+—
+—
+—
+1
+Arco das Serpes
+T$ 500
+3d6
+x3
+Médio
+Perfuração
+2
+Azagaia (1)
+T$ 1
+—
+—
+—
+—
+1
+Armas de Fogo*
+Preço
+Dano
+Crítico
+Alcance
+Tipo
+Espaços
+Ataque à Distância - Duas Mãos
+Arcabuz Pesada
+T$ 9.000
+2d12
+18/x4
+Longo
+Perfuração
+5
+Bacamarte-Tambor
+T$ 5.000
+4d6
+19/x3
+Especial
+Perfuração
+2
+Mosquete-Tambor
+T$ 4.000
+2d8
+19/x3
+Médio
+Perfuração
+2
+*Todas as armas de fogo usam balas (veja Tormenta20, p. 151) como munição.
+233
+
+=== PAGE 235 ===
+Capítulo Três 
+mecanismo de propulsão na extremidade inferior da 
+haste. A glaive entomática é uma arma ágil que lhe dá 
++5 em testes de Atletismo para saltar e te mantém 
+no ar até o início do seu próximo turno. Atacar com 
+esta arma enquanto no ar lhe fornece +2d8 na sua 
+próxima rolagem de dano bem sucedida.
+Lâminachado. Este armamento pode ser 
+considerado complexo, trata-se de uma égide que 
+pode se mecanizar em um grande machado. Usar a 
+lâminachado exige proficiência com escudos, do con-
+trário, sofrerá uma penalidade de –5 em seus testes 
+de ataque com a arma. A lâminachado é uma arma 
+híbrida que assume duas formas; espada e escudo 
+(dano 1d8, crítico 19, corte) e machado (dano 1d12, 
+crítico x3, corte). Quando no modo espada e escudo, 
+a lâminachado fornece +2 na Defesa, e quando no 
+modo machado, permite mudar rapidamente para 
+o modo espada e escudo gastando 2 PM e fazer um 
+ataque adicional uma vez por rodada.
+Lançanhão. Trata-se de uma lança de cavala-
+ria grande e pesada com um mecanismo de disparo 
+em seu interior, anexado a um gatilho próximo da 
+empunhadura. A lançanhão é uma arma alongada e 
+desbalanceada que pode armazenar até quatro balas 
+em um municiador especial — recarregá-lo é uma 
+ação completa. Uma vez por rodada, ao realizar um 
+ataque bem sucedido com a lançanhão, você pode 
+gastar 1 bala para causar +2d8 pontos de dano de 
+perfuração no alvo atingido.
+Montanchado. Um enorme machado com 
+mecanismos de retração utilizado para fazer ataques 
+combinados. O montanchado é uma arma híbrica 
+com dois modos; uma espada de duas mãos (dano 
+1d12, crítico 19, corte) e um machado de duas mãos 
+(dano 2d6, crítico x3, corte). Alternar os modos da 
+arma é sempre uma ação livre, se possuir o poder 
+Saque Rápido, recebe +2 em testes de ataque com 
+essa arma. Após mudar a forma do montanchado, 
+você pode gastar 2 PM para fazer um ataque adicio-
+nal com o novo modo da arma, recebendo um ganho 
+cumulativo de +1 em rolagens de dano até o fim do 
+seu turno. Você pode dar mais ataques 
+adicionais gastando +4 PM, então +6 
+PM, até errar um ataque ou até acabar 
+os seus pontos de mana.
+Tabela 3-1: Armas ( Continuação )
+Armas de Expedição
+Preço
+Dano
+Crítico
+Alcance
+Tipo
+Espaços
+Corpo a Corpo - Duas Mãos
+Berrante de Exploração
+T$ 200
+3d6
+x3
+—
+Impacto
+2
+Glaive Entomática
+T$ 1.000
+2d10
+19/x3
+—
+Corte
+2
+Lâminachado
+T$ 800
+**
+**
+**
+**
+2
+Lançanhão
+T$ 2.000
+**
+**
+**
+**
+2
+Montanchado
+T$ 1.500
+**
+**
+**
+**
+2
+Ataque à Distância - Duas Mãos
+Fuziladora Leve
+T$ 2.500
+2d8
+18/x3
+Médio
+Perfuração
+2
+Balas (20)
+T$ 20
+—
+—
+—
+—
+1
+Fuziladora Pesada
+T$ 5.000
+2d12
+19/x4
+Médio
+Perfuração
+5
+Balas (20)
+T$ 20
+—
+—
+—
+—
+1
+**Veja a descrição da arma
+234
+
+=== PAGE 236 ===
+Arsenal dos Mitos
+restrições, mas não pode receber a melhoria material 
+especial para materiais metálicos e não fornece pena-
+lidades ao nadar.
+Armadura Tecnomágica. Este engenho de 
+pura tecnologia e aço foi desenvolvido por devotos 
+da deusa menor da tecnomagia, sendo utilizada 
+frequentemente por guerreiros imparáveis que são 
+bastiões do campo de batalha. Alguns dizem que a 
+principal inspiração para criação de tal equipamento 
+foi o infame Mestre Arsenal e sua opulenta armadu-
+ra. Para usar plenamente a armadura, você precisa 
+gastar uma ação completa e 6 PM sincronizando-a a 
+sua mente, para reduzir sua penalidade de armadura 
+para –10 e ser considerado proficiente com ela. Por 
+ser uma armadura excêntrica e raríssima, mesmo 
+tendo proficiência com armaduras pesadas, você não 
+é considerado proficiente com ela, e se não possuir, 
+sequer consegue vestí-la, se tentar, fica paralisado. 
+Seu deslocamento é reduzido à metade por essa 
+armadura pesada, em vez de em 3m, ela não pode 
+receber materiais especiais e já conta como tendo 
+duas melhorias.
+Armadura Valquíriana. A marca registrada 
+das valquírias de alstra são suas opulentas armaduras 
+douradas com elmos com uma máscara na forma de 
+um rosto feminino. Para usar a armadura valquíriana, 
+você deve ser de uma raça alada com asas naturais 
+(exceto harpias e pteros), pois tal armadura tem um 
+encaixe específico para as asas. Quando vestindo a 
+armadura valquíriana, seu deslocamento de voo é re-
+duzido em 6m, mas suas asas passam a contar como 
+um escudo para habilidades que exigem escudos 
+para serem usadas.
+Cota de Bruxeiro. Apesar do nome, essa 
+armadura não foi originalmente empregada por bru-
+xeiros, porém, atualmente é extremamente comum 
+ser usada por eles. Trata-se de um conjunto delicado 
+de placas segmentadas em formação quadriculada de 
+rede, couro curtido e rebites para facilitar a locomo-
+ção. Sendo o perfeito meio-termo entre armadura leve 
+e pesada. Vestir a cota de bruxeiro exige treinamento 
+em armadura pesada, do contrário, a penalidade 
+fornecida pela armadura dobra e você é considerado 
+Munições
+Balas Atordoantes. Uma esfera metálica 
+oca com um componente de topor interno que se 
+espalha ao contato, inoculando pelo ar. Ao causar 
+dano com uma arma carregada com essa munição, 
+a criatura que sofreu o dano fica atordoada por 1 
+rodada (Fort CD Des evita). Independente do alvo 
+falhar ou não no teste de resistência, ele fica imune a 
+essa bala por um dia. Metabolismo.
+Balas Flamejantes. Essas esferas metálicas 
+contém uma alta concentração de fogo alquímico 
+em seu interior, fazendo seus ataques com armas 
+carregadas com essas munições causar +1d6 pontos 
+de dano de fogo e deixar o alvo em chamas (Fort CD 
+Des evita). Bacamartes aumentam o dano extra dessa 
+munição para 2d6.
+Balas Eletrizantes. Um dardo metálico 
+com uma espécie de dispositivo de eletrificação 
+rudimentar desenvolvido por algum povo tecnolo-
+gicamente avançado. Armas carregadas com essa 
+munição causam +1d8+1 pontos de dano de ele-
+tricidade. Além disso, o dano adicional se espalha, 
+afetando criaturas adjacentes ao alvo e causando o 
+dano extra nelas. Em bacamartes, o dano adicional 
+aumenta para +2d8+2, mas não se espalha para 
+alvos adjacentes dentro da área do ataque.
+Balas Pesadas. Uma esfera de metal denso e 
+potente que causa ferimentos terríveis ao contato. 
+Uma arma carregada com essa munição tem seu 
+dano aumentado em +1 dado do mesmo tipo, mas 
+você sofre uma penalidade de –2 em testes de ataque.
+Armaduras
+& Escudos
+Armadura de Talas. Sendo confeccionada 
+por armeiros tamurianos e vistas como vestimentas 
+frequente no corpo de samurais da guarda pessoal 
+de daimyos, a armadura de talas é uma complexa 
+confecção ornamentada que distribui imponência e 
+dever. A armadura de talas fornece +1 em Intimida-
+ção a quem vestir, com esse bônus mudando para +2 
+se for devoto de Lin-Wu e/ou samurai (cumulativo 
+com melhorias e encantos aplicados a este item.
+Armadura dos Recifes. Sendo usada prin-
+cipalmente pela milícia de elite de Khubar, essas 
+armaduras são confeccionadas com placas ósseas 
+e lanajuste para formar uma paródia coralina das 
+armaduras metálicas vistas trajadas por cavaleiros 
+de Bielefeld. A armadura dos recifes pode ser usada 
+por devotos de Oceano sem violar suas obrigações e 
+Tabela 3-2: Munições
+Item
+Preço
+Espaços
+Balas Atordoantes (20)
+T$ 250
+1
+Balas Flamejantes (20)
+T$ 100
+1
+Balas Eletrizantes (20)
+T$ 200
+1
+Balas Pesadas (20)
+T$ 120
+1
+235
+
+=== PAGE 237 ===
+Capítulo Três 
+como sendo não proficiente com a armadura. A cota 
+de bruxeiro conta como uma armadura pesada para o 
+poder Encouraçado e que tenham Encouraçado como 
+pré-requisito.
+Cota de Cristal. Uma rede perolada e ador-
+nada com jóias, cristais e bijuterias elegantes sob um 
+tecido fino e nobre das alfaiatarias sambur, de fato, 
+é um artifício extremamente elegante para ser usado 
+por algum nobre abastado e demonstrar seu status. 
+Como armadura, não fornece muita defesa, mas te 
+dá uma aparência elegante o suficiente para receber 
+a simpatia dos que conversa com — e também de 
+alguns bandidos gananciosos... Enquanto vestindo 
+a cota de cristal, você recebe +2 em Diplomacia e 
+Enganação (cumulativo com melhorias e encantos 
+aplicados a este item). Por sua manufatura delicada, 
+a cota de cristal não pode receber as melhorias mate-
+rial especial e reforçado.
+Couraça Selvagem. Uma segmentação de 
+madeira reforçada com magia druídica na forma de 
+um peitoral adornado com vinhas e folhas, muito 
+apreciada por druidas e paladinos da mãe natureza. 
+A couraça selvagem pode ser usada por devotos de 
+Allihanna sem violar suas obrigações e restrições, 
+mas não pode receber a melhoria material especial 
+para materiais metálicos ou matéria vermelha.
+Escudo de Ataque. Este escudo gigantesco 
+é ligeiramente maior que um escudo torre e feito to-
+talmente de metal. Pelo seu enorme peso e formato 
+prismático, o escudo de ataque deve ser empunhado 
+com as duas mãos. Atacar com o escudo não reduz 
+a sua defesa (dano 1d8, crítico x2, impacto). Você é 
+considerado empunhando uma arma e escudo para 
+efeitos de habilidades e se possuir o poder Ataque 
+com Escudo, invés do normal, você realiza um ata-
+que adicional com este escudo.
+Escudo Reflexivo. Um escudo redondo e 
+simples, com extremidades adornadas em ouro e 
+uma superfície reflexiva, frequentemente usado por 
+caçadores de górgonas e basilíscos. Ao ser alvo de 
+um efeito ocular empunhando o escudo reflexivo, 
+você pode gastar 1 PM para somar o bônus de defesa 
+Tabela 3-3: Armaduras & Escudos
+Armaduras e Escudos
+Preço
+Bônus 
+na Defesa
+Penalidade 
+de Armadura
+Espaços
+Armaduras Leves
+Cota de bruxeiro
+T$ 750
++5
+–3
+2
+Cota de cristal
+T$ 1.000
++2
+–1
+2
+Couraça selvagem
+T$ 500
++5
+–4
+2
+Gibão invernal
+T$ 100
++4
+–4
+2
+Armaduras Pesadas
+Armadura de talas
+T$ 245
++7
+–3
+5
+Armadura dos recifes
+T$ 650
++8
+–4
+5
+Armadura tecnomágica
+T$ 10.000
++15
+–20
+5
+Armadura valquíriana
+T$ 5.000
++12
+–5
+5
+Escudos
+Escudo de ataque
+T$ 100
++3
+–5
+2
+Escudo reflexivo
+T$ 150
++2
+–2
+2
+Escudo retrátil
+T$ 25
++2
+–2
+2
+Espaldar
+T$ 15
++1
+–1
+2
+Item
+RD
+PV
+Escudo de ataque
+15
+50
+Escudo reflexivo
+5
+10
+Escudo retrátil
+10
+20
+Espaldar
+10
+20
+Estatísticas de Escudos
+Os novos escudos apresentados aqui 
+possuem as seguintes estatísticas.
+236
+
+=== PAGE 238 ===
+Arsenal dos Mitos
+dele no seu teste de resistência. Se passar, evita o 
+efeito por completo, e se passar por 10 ou mais, a 
+fonte do efeito o sofre no seu lugar! Ela deverá fazer 
+o teste como o normal, usando a CD dela. Um es-
+cudo reflexivo pode ser usado para atacar como um 
+escudo leve.
+Escudo Retrátil. A primeira vista este escu-
+do é apenas um bracelete metálico simples, e por ser 
+um item vestido, ocupa o espaço de um, mas você não 
+é considerado como empunhando-o para qualquer 
+efeito. Como reação a um ataque, você pode abrir 
+o escudo e receber seu bônus de defesa, causando 
+uma penalidade de –2 no teste de ataque do agressor 
+devido ao fator surpresa. Esse efeito só funciona uma 
+vez por criatura, por cena. Se estiver empunhando 
+uma arma no braço que o escudo está vestido, você a 
+solta como parte da reação, exceto se a arma for leve. 
+Um escudo retrátil não pode ser usado para atacar e 
+não pode receber o encanto animado.
+Espaldar. Uma braçadeira longa que se esten-
+de das costas da mão até o ombro, fornecendo defesa 
+extra ao seu usuário. O espaldar é um item vestido, 
+ocupando o espaço de um, e você não é considerado 
+como empunhando-o para qualquer efeito. O es-
+paldar não pode ser usado para atacar e não pode 
+receber o encanto animado.
+Gibão Invernal. Uma versão mais pesada e 
+encourada do gibão de peles convencional, acom-
+panhando um enorme casaco com feltro de lobo e 
+capuz com viseira. Sendo frequentemente visto sen-
+do usado por nômades que passam pelas montanhas 
+uivantes. Pelo seu enorme volume e peso, o Gibão 
+Invernal reduz seu deslocamento em –3m, mas você 
+não é afetado por terreno difícil natural criado por 
+gelo ou neve e recebe resistência a frio +5.
+Itens Gerais
+Equipamento
+de aventura
+Caixa de Bijuterias. Uma pequena caixa 
+de madeira com forro simples, no qual costuma-se 
+guardar o que é valioso. Você pode armazenar jóias e 
+tibares na caixa para que não ocupem espaços no in-
+ventário, limitado a 500 unidades de jóias e moedas.
+Cartão de Aventureiro. Este fino pedaço 
+de metal prateado precisa ficar em posse do usuário 
+por ao menos 1 dia. Após esse período, as infor-
+mações do usuário vão aparecer no cartão, como 
+foto, nome, nível, atributos... Não se sabe quem 
+criou tal tecnologia, mas anda se tornando comum 
+no Reinado entre os aventureiros mais exóticos. O 
+cartão de aventureiro também pode ser usado para se 
+comunicar com outras pessoas que o tenha por texto, 
+mas apenas se ambos estiverem no mesmo plano.
+Conjunto de Higiene. Uma bolsa des-
+cartável contendo produtos de higiene pessoal, 
+como sabonete, toalha e roupas íntimas, sendo 
+extremamente útil para aventureiros que não param 
+em tavernas. Você pode gastar alguns minutos se 
+higienizando em uma região com água para receber 
++1 em perícias originalmente baseadas em Carisma 
+(exceto Adestramento e Intimidação) e em testes de 
+resistência contra a condição enjoado. O conjunto de 
+higiene é um consumido após usado.
+Mecanismo de Injeção. Este estranho meca-
+nismo composto por anéis metálicos, tubos flexíveis 
+e agulhas finas serve para injetar itens alquímicos 
+diretos no seu sangue, agilizando seus efeitos. Você 
+pode gastar uma ação padrão para armazenar até duas 
+doses de um item alquímico ou poção neste item. 
+Uma vez por rodada, você pode usar o mecanismo 
+para injetar um dos itens armazenados em você ou 
+em um alvo adjacente com uma ação livre.
+Pelúcia. Um animal ou figura famosa na forma 
+de uma decoração felpuda e fofa. Uma pelúcia pode 
+ter os mais variados usos, como ocultar itens que 
+ocupem 1 espaço ou menos, sem levantar suspeitas, 
+ou fornecer +2 em Diplomacia em testes contra 
+crianças. Se dormir abraçado a uma pelúcia, sua con-
+dição de descanso sempre será no mínimo normal.
+Pérola do Fim. Este artefato perfeitamente 
+esférico parece absorver a luz e forma uma tênue luz 
+arroxeada em seu centro, contendo capacidades mís-
+ticas sublimes. Você pode arremessar a pérola do fim 
+em alcance curto usando uma ação padrão, reprodu-
+zindo o efeito básico da magia Salto Dimensional, ou 
+quebrá-la entre os dedos com uma ação de movimen-
+to e usar o efeito básico da magia Localização. Um 
+outro efeito da pérola do fim é poder ser consumida 
+com uma ação padrão para recuperar 4d4+4 pontos 
+de mana, mas você recebe a habilidade Hidrossensi-
+bilidade (p. @@) até o fim da cena. Uma pérola do 
+fim não pode ser fabricada ou comercializada, sendo 
+encontrada apenas no corpo de criaturas d'O Fim.
+Tenda. Uma versão e mais sofisticada de uma 
+barraca qualquer. Feita de lona, adornada com teci-
+dos e heráldicas, pode ser usada tanto para passar 
+o tempo quanto para dormir. Montar uma tenda 
+aumenta a CD do teste de Sobrevivência para Acam-
+par em +5, mas se passar, você tem um descanso 
+confortável e +2 em testes de perícia associadas a 
+montar estratégias e estudar inimigos e locais.
+237
+
+=== PAGE 239 ===
+Capítulo Três 
+Ferramentas
+Gerais
+Dados Magnéticos. Um conjunto de dados 
+feitos de um material metálico em cores alternadas. 
+Fornece +2 em testes de Jogatina para jogos envol-
+vendo dados, mas ao tirar 1 natural, as pessoas des-
+cobrem a manipulação dos dados, o que pode gerar 
+confusão. O verdadeiro poder dos dados magnéticos 
+se manifesta em combate, onde sempre que é ataca-
+do, há uma chance de 5% (resultado 20 em 1d20), do 
+ataque ser completamente anulado.
+Diagrama. Existem diagramas para quase 
+qualquer item fabricável que for imaginável, nor-
+malmente utilizado para planejamento dos próximos 
+passos na produção de um item ou para criar uma 
+nova invenção. Ao usar um diagrama de um item 
+específico durante a fabricação do mesmo, o tempo 
+de produção dele é reduzido em uma categoria (de 1 
+mês para 1 semana e de 1 semana para 1 dia). Você 
+não pode usar diagramas para armas, armaduras e 
+escudos (mas veja o Fole, abaixo).
+Fole. Duas grandes massas de madeira conec-
+tada por um bolsão de ar feito de couro, usado para 
+aumentar o fogo de forjas e agilizar a produção de 
+itens a base de metal. Quando usa um fole durante 
+a fabricação de uma arma, armadura ou escudo, você 
+diminui o tempo de produção deste item em uma 
+categoria.
+Sino Protetor. Um sino metálico disposto 
+na ponta de uma corrente que é segurado em uma 
+mão auxiliar, emitindo seu sonido a medida que é 
+segurado. Quando empunhando o sino, você recebe 
++5 em testes de resistência para manter a concentra-
+ção em algum efeito.
+instrumentos Musicais
+Batuta de Controle. Apesar de não ser ne-
+cessariamente um instrumento musical, é algo muito 
+visto nas mãos dos maiores mestres dela. Trata-se 
+de uma simples vareta grossa utilizada para guiar 
+uma grande percursão. A primeira ação que usar na 
+rodada para comandar uma convocação mágica será 
+livre — após isso você usa ações normalmente. Este 
+item é considerado um instrumento musical para 
+bardos, mas apesar de ser empunhado com uma 
+mão, é necessário a outra mão livre para utilizá-lo.
+Berimbau Ubaneri. Um arco de biriba com 
+uma corda estirada, apesar do visual marcial, trata-
+-se de um instrumento, no qual é tocado com um 
+grande graveto fino com o auxílio de uma esfera oca 
+semiaberta, sendo comum de ser tocado nas rodas 
+de dança ubaneri juntamente aos espíritos. Quando 
+usa Inspiração, todas as criaturas afetadas por essa 
+habilidade recebe +2 em rolagens de dano. Um 
+berimbau pode ser usado como uma arma á distância 
+com as mesmas estatísticas de um arco curto com a 
+propriedade desbalanceado.
+Castanholas Sambur. Um par de conchas 
+metálicas usadas para emitir um som estalado e 
+dançante, usada em festas hynne para entreter nas 
+grandes apresentações populares. Pelo seu uso fácil e 
+elusividade adjunto a sons frequentes, aumenta a CD 
+das suas magias de encantamento em um valor igual 
+ao bônus fornecido pela sua Inspiração.
+Guitarra Kliren. Produzida nos mais varia-
+dos formados mas seguindo uma regra simples, uma 
+haste com uma região central grande, com cordas 
+metálicas que produzem um som elétrico e "sujo", 
+muito apreciado por metaleiros e aventureiros que 
+gostam de uma música mais agitada em seus com-
+bates. Ao usar Inspiração, todas as criaturas afetadas 
+recebem +1 dado adicional de dano nas suas magias.
+Ocarina Lunar. Uma esfera pontuda e oca 
+com um pequeno pino de sopro e buracos para entoar 
+notas. Seu som melódico e etéreo é muito apreciado 
+por fadas. Seus efeitos de cura lançados através da 
+ocarina lunar recebem +1 dado.
+Shamisen de Cerimônias. Um instrumento 
+cerimonal tamuraniano, usado principalmente por 
+mulheres da corte imperial. O instrumento lembra 
+um alaúde, mas tocado por um bashi (um tipo de 
+palheta) e tendo de três a quarenta cordas. Uma vez 
+por rodada, ao usar uma habilidade de bardo, você 
+pode gastar +2 PM para somar sua Sabedoria na CD 
+para resistir ao efeito (limitado pelo nível).
+Vestuário
+Arma Natural Artificial. Existe uma ver-
+são metálica e vestida de cada arma natural existente. 
+Independente da forma, elas causam 1d6 pontos de 
+dano com crítico x2, mas pelo seu peso e forma, im-
+põe uma penalidade de armadura de –2. Uma vez por 
+rodada, quando faz uma ação agredir para atacar com 
+outra arma, pode gastar 2 PM para fazer um ataque 
+corpo a corpo extra com sua arma natural artificial. 
+Você pode vestir este item sobre uma arma natural 
+que já possua, aumentando o dano dela em +2. Esse 
+item pode receber melhorias e encantos de armas, 
+que são aplicados a arma natural.
+Bracelete de Utensílios. Um pequeno 
+bracelete com um compartimento que pode armaze-
+nar até cinco itens alquímicos ou poções. Usar um 
+dos itens armazenados neste compartimento gasta 
+238
+
+=== PAGE 240 ===
+Arsenal dos Mitos
+uma ação de movimento, independente do item 
+armazenado, mas apenas se forem consumíveis — 
+como essências de mana e poções de cura.
+Colar de Bruxeiro. Esse colar de ferro 
+elegante tem um pingente na forma de algum ani-
+mal referenciado nas escolas de bruxeiro. Quando 
+vestido por um personagem com pelo menos dois 
+níveis de bruxeiro, fornece +1 em rolagens de dano 
+e conta como um símbolo sagrado (incluindo o au-
+mento em testes de resistência). Porém, o item não é 
+considerado um símbolo sagrado visível para efeitos 
+que citem isso.
+Collant. Utilizado por cavaleiras e guerreiras 
+que buscam o conforto do aço, esse vestuário de 
+corpo inteiro é uma camada de tecido preto e fino 
+que se ajusta ao corpo, oferecendo mais liberdade de 
+movimentos mesmo dentro de peças pesadas de me-
+tal. Ao vestir um collant, você diminui a penalidade 
+de armadura de uma armadura que estiver vestindo 
+em 1 (cumulativo com outros efeitos de itens).
+Contas de Rosários. Uma tira de rosários 
+vestida sobre o pescoço, ou enrolada nas mãos para 
+regidir preces eclesiásticas. Fornece +1 em Religião 
+e Vontade. Este item tem um efeito poderoso nas 
+mãos de clérigos e frades, onde, ao gastar +1 hora 
+fazendo qualquer tipo de cerimônia, missa ou ritual, 
+você reduz a sua CD em –5.
+Estola Mística. Uma faixa de pano grosso 
+com rebites de metal, usada para disfarçar seu po-
+tencial. Você pode gastar 3 PM para se conectar a 
+estola mística, transformando-a em uma arma corpo 
+a corpo dupla e ágil que causa 1d8 pontos de dano de 
+impacto com crítico x2, na qual fica ativa até o fim 
+da cena, até você desativá-la (ação livre) ou até ficar 
+inconsciente. Você precisa estar com as mãos livres 
+para atacar com este vestuário, e caso fique uma 
+rodada sem atacar após ativar a estola, ela fornece 
++1 na Defesa.
+lançador de Ombro. Um dispositivo revolu-
+cionário usado por criaturas d'O Fim e com versões 
+alternativas produzidas por goblins e klirens. Trata-se 
+de um tipo de lançador conectado a um mecanismo 
+móvel encaixado no ombro, que pode armazenar até 
+duas bombas. Uma vez por rodada, como uma ação 
+de movimento, você pode gastar uma bomba e lançar 
+o item em um ponto em alcance médio. Recarregar 
+o lançador de ombro requer duas ações completas.
+Manopla pesada. Uma versão mais poderosa 
+de uma manopla convencional, adornada com anéis 
+metálicos e rebites de ferro. Pelo seu peso e tamanho, 
+impõe uma penalidade de –2 em seus ataques corpo 
+a corpo, mas aumenta seu dano desarmado em +1 
+dado do mesmo tipo. Esse dado extra é multiplicado 
+em caso de um acerto crítico.
+Máscara de Caçador. Uma máscara me-
+tálica com vários dispositivos de localização, muito 
+apreciada por caçadores inventivos. Quando vestindo 
+a máscara, seus sentidos são aguçados, aumentado o 
+alcance do seu faro, percepção ás cegas e/ou visão na 
+penumbra ou escuro em um passo (máx. longo), po-
+rém, pela sua técnologia exótica e pouco divulgada, 
+exige treinamento especial para ser utilizada. Você 
+precisa ter Int e Sab 5 ou maior ou recebe –5 em 
+Percepção vestindo essa máscara.
+Sapatilhas Marciais. Um par de sapatilhas, 
+tamancos, botas ou outro vestuário para os pés. Ao 
+fazer um ataque desarmado, você pode optar por 
+atacar com esse vestuário, que revela lâminas que 
+causam 1d8 pontos de dano de corte com crítico 19. 
+As sapatilhas marciais podem receber melhorias e 
+encantos para armas e é considerado uma arma leve 
+para efeitos que interagem com essas armas.
+Esotéricos
+Ampulheta Cardeal. Uma ampulheta con-
+tendo quatro frascos, com dois deles estando cheios 
+de uma áreia cerúlea que flui como água. Para cada 
+círculo de magia que puder lançar, você não paga o 
+custo de uma magia sustentada que tenha lançado 
+por 1 rodada (uma magia de sustento lançada por um 
+conjurador capaz de lançar magias de 3º círculo não 
+tem o custo pago por ele por 3 rodadas).
+Bracelete Serpentino. Trata-se de um bra-
+celete de couro costurado em rebites de ferro com 
+uma grande víbora semperteando até os dedos. A 
+CD para resistir aos seus sinais de bruxeiro (p. @@) 
+aumenta em +1.
+Cajado Eclesiástico. Um cajado simples de 
+Regra Opcional:  
+Instrumentos Vestidos
+Um bardo pode dançar em vez de tocar, 
+fazendo isso ao vestir instrumentos 
+musicais. A forma do item varia, um alaúde 
+élfico pode virar sapatilhas élficas, um 
+tambor das profundezas pode ser um par 
+de braceletes doheritas, etc. (decida isso 
+entre você e o mestre). Ao fazê-lo, suas 
+músicas de bardo se tornam coreografias, 
+representando o ato de dançar (e você 
+precisa estar com as duas mãos livres para 
+executar as músicas).
+239
+
+=== PAGE 241 ===
+Capítulo Três 
+Tabela 3–3: Itens Gerais
+Item
+Preço
+Espaços
+Item
+Preço
+Espaços
+Equipamento de Aventura
+Esotéricos (Continuação)
+Caixa de bijuterias
+T$ 50
+1
+Ídolo sobrescrito
+T$ 2.250
+1
+Cartão de aventureiro
+T$ 100
+1
+Luva harmonizada
+T$ 350
+1
+Conjunto de higiene
+T$ 12
+1
+Pingente uivante
+T$ 800
+1
+Mecanismo de injeção
+T$ 75
+1
+Presa vampírica
+T$ 300
+1
+Pelúcia
+T$ 15
+1
+Relógio anacrônico
+T$ 4.500
+1
+Pérola do fim
+—
+0,5
+Totem lunar
+T$ 650
+1
+Tenda
+T$ 50
+1
+Alquímicos — Preparados
+Ferramentas — Gerais
+Bálsamo cerúleo
+T$ 200
+0,5
+Dados magnéticos
+T$ 300
+1
+Droga avançada
+T$ 550
+0,5
+Diagrama
+T$ 50
+1
+Droga espiritual
+T$ 200
+0,5
+Fole
+T$ 150
+1
+Droga monstruosa
+T$ 180
+0,5
+Sino protetor
+T$ 200
+1
+Droga necrótica
+T$ 1.500
+0,5
+Ferramentas — Instrumentos Musicais
+Droga selvagem
+T$ 2.000
+0,5
+Batuta de controle
+T$ 850
+1
+Essência duradoura
+T$ 150
+0,5
+Berimbau ubaneri
+T$ 700
+1
+Extrato máximo de mana
+T$ 500
+0,5
+Castanholas sambur
+T$ 400
+1
+Feromônios
+T$ 15
+0,5
+Guitarra kliren
+T$ 600
+1
+Pó verde
+T$ 200
+0,5
+Ocarina lunar
+T$ 350
+1
+Alquímicos — Catalisadores
+Shamisen de cerimônias
+T$ 450
+1
+Droga benta
+T$ 125
+0,5
+Vestuário
+Droga feérica
+T$ 325
+0,5
+Arma natural artificial
+T$ 300
+1
+Droga profana
+T$ 250
+0,5
+Bracelete de utensílios
+T$ 550
+1
+Fruta amarga
+T$ 200
+0,5
+Colar de bruxeiro
+T$ 100
+1
+Raiz de móli
+T$ 900
+0,5
+Collant
+T$ 25
+1
+Alquímicos — Venenos
+Contas de rosários
+T$ 120
+1
+Beijo da mãe-noite
+T$ 30.000
+0,5
+Estola mística
+T$ 450
+1
+Pó retalhador
+T$ 1.800
+0,5
+Lançador de ombro
+T$ 1.000
+1
+Sangue de basilisco
+T$ 15.000
+0,5
+Manopla pesada
+T$ 35
+1
+Alquímicos — Espirituais
+Máscara de caçador
+T$ 1.500
+1
+Ambrósia
+T$ 20.000
+0,5
+Sapatilhas marciais
+T$ 350
+1
+Bálsamo dourado
+T$ 6.000
+0,5
+Esotéricos
+Elixir de chi
+T$ 150
+0,5
+Ampulheta cardeal
+T$ 1.500
+1
+Elixir de mana
+T$ 15.000
+0,5
+Bracelete serpentino
+T$ 800
+1
+Elixir de poder
+T$ 500
+0,5
+Cajado eclesiástico
+T$ 1.000
+1
+Óleo protetor
+T$ 3.000
+0,5
+Crânio de sangue
+T$ 600
+1
+Pílula de aprendizado
+T$ 1.500
+0,5
+Faixas do sinaleiro
+T$ 150
+1
+Pílula de chi
+T$ 300
+0,5
+Grilhões da megéra
+T$ 250
+1
+Pílula de treino
+T$ 1.000
+0,5
+240
+
+=== PAGE 242 ===
+Arsenal dos Mitos
+madeira contendo adornos na forma de runas que 
+potencializa milagres. O limite de PM e a CD para 
+resistir as suas magias divinas aumenta em +1. Para 
+fornecer seus benefícios, o cajado precisa ser empu-
+nhado com as duas mãos. Ele pode ser usado como 
+uma arma com as mesmas estatísticas de um bordão.
+Crânio de Sangue. Um crânio humanoide 
+manchado de sangue seco e alquimicamente tratado 
+para pagar o preço no seu lugar. Escolha uma magia, 
+você passa a poder lançar ela gastando pontos de 
+mana, invés de pontos de vida. Você pode trocar a 
+magia afetada pelo crânio em um ritual que exige 1 
+dia e o gasto de T$ 300 em componentes.
+Faixas do Sinaleiro. Um conjunto de faixas 
+brancas inscritas com sinais diversos, permitindo o 
+uso deles com mais eficácia. Você aumenta o limite 
+de PM de sinais que pode aprimorar em +1.
+Grilhões da Megéra. Um ajuntamento de 
+correntes escuras e pesadas com a cabeça metálica 
+de uma víbora na ponta, que verte uma fumaça verde 
+pela boca. Você aumenta a área do seus sinais em 
++3m (um sinal com área de 6m terá 9m de área).
+Ídolo Sobrescrito. Um ídolo de uma di-
+vindade esculpido em prata, ouro ou outro material 
+valioso, utilizado para demonstrar a presença abso-
+luta daquela divindade no recinto. Ao lançar magias 
+que são afetadas por símbolos sagrados visíveis ou 
+devoções diferentes, você pode gastar +4 PM como 
+um aprimoramento para ignorar esses requisitos 
+(um devoto de Tenebra poderia lançar Profanar em 
+um local com um símbolo de Khalmyr visível por 
+exemplo). Esse ídolo não funciona caso o símbolo ou 
+devoto seja um claro rival do esculpido no ídolo ou 
+se o ídolo for de uma divindade no qual não é devoto.
+Luva Harmonizada. Aneis de ouro interli-
+gados por correntes douradas, contendo runas com 
+inscrições arcanas alquímicamente tratadas. Escolha 
+uma magia arcana, o custo da magia escolhido é 
+reduzido em –1 PM. Você pode trocar a magia esco-
+lhida com um ritual que exige um dia e o gasto de T$ 
+150. Se este item receber a melhoria harmonizado, a 
+magia escolhida tem seu custo diminuido em –2 PM 
+(ou uma segunda magia tem seu custo diminuido).
+Pingente Uivante. Um anel prateado com 
+um pingente de ferro na forma de algum animal, 
+normalmente um lobo. O dano dos seus sinais de 
+bruxeiro aumenta em +1d6.
+Presa Vampírica. Uma varinha feita com  pre-
+sas de vampíros mortos. Ao lançar uma magia arcana 
+que cause dano perdendo PV, para cada 10 pontos 
+de dano que causar, você recupera 1 PV perdido por 
+lançá-la — mesmo se possuir Hemofilia.
+Relógio Anacrônico. Um complexo me-
+canismo usado para contar as horas, mas que aqui, 
+reduz o tempo futuro. Escolha uma magia arcana, 
+uma vez feita, a escolha não pode ser mudada. Uma 
+vez por rodada, ao lançar essa magia, seu tempo de 
+execução é reduzido em um passo (de completa para 
+padrão e de padrão para movimento).
+Totem Lunar. Um pequeno totem de madeira 
+na forma de algum animal, flor ou astro, sendo o 
+mais frequente a lua. Ao lançar uma magia divina de 
+cura, você aumenta essa cura em +1 ponto por dado.
+Alquímicos
+Preparados
+Bálsamo Cerúleo. Este composto a base de 
+ervas medicinais é misturado com um líquido natu-
+ral extraído de árvores do mundo divino da deusa 
+da magia. Consumir este item é uma ação completa 
+e fornece 4d6+4 PV temporários até o fim da cena.
+Tabela 3–3: Itens Gerais
+(Continuação)
+Item
+Preço
+Espaços
+Alimentação — Pratos Especiais
+Biscoitos
+T$ 90
+—
+Carne de dragão
+T$ 250
+—
+Chá ginseng
+T$ 100
+—
+Maçã do amor
+T$ 50
+—
+Pão doce
+T$ 50
+—
+Skooma
+T$ 100
+—
+Alimentação — Bebidas
+Aguardente selvagem
+T$ 51
+0,5
+Cabaça de saquê
+T$ 30
+0,5
+Cerveja gigante
+T$ 20
+0,5
+Champanhe nobre
+T$ 200
+0,5
+Drink violeta
+T$ 69
+0,5
+Itens de Expedição
+Bomba de lampinsetos
+T$ 350
+0,5
+Energético
+T$ 250
+0,5
+Lampião de luminsetos
+T$ 15
+1
+Prendedora
+T$ 135
+1
+Remédio supremo
+T$ 25.000
+0,5
+Sonífero
+T$ 250
+0,5
+241
+
+=== PAGE 243 ===
+Capítulo Três 
+Droga Avançada. Você recebe +1 na Defesa, 
+em testes de resistência e na redução de dano até o 
+fim da cena. Consumir este item é uma ação padrão.
+Droga Espiritual. Ao usar um sinal de bru-
+xeiro, role 1d4, em um resultado 4, você recupera 1 
+PM. Consumir este item gasta uma ação completa e 
+dura até o fim da cena.
+Droga Monstruosa. Ao usar Fulgor Furio-
+so, você perde apenas metade dos pontos de vida 
+necessários para ativar a habilidade. Consumir este 
+item gasta uma ação completa e deve ser feito antes 
+de usar a habilidade citada.
+Droga Necrótica. Você recebe redução de 
+frio e trevas 5 e resistência a magia +2 até o fim da 
+cena. Consumir este item gasta uma ação completa.
+Droga Selvagem. Você recebe +2 na margem 
+de ameaça e +1 no multiplicador de crítico. O efeito 
+dessa droga acaba ao realizar um acerto crítico ou 
+ao fim da cena (o que vier primeiro). Consumir este 
+item é uma ação padrão.
+Essência Duradoura. Uma versão de 
+longa duração de uma essência de mana, ficando no 
+organismo por mais tempo. Consumir a essência 
+duradoura gasta uma ação completa e recupera 1d4 
+pontos de mana por 1d3+1 rodadas.
+Extrato Máximo de Mana. Este item é 
+feito com as ervas mais finas e produtos com maior 
+concentração mágica de Wynlla, e por isso seu acesso 
+é extremamente limitado, sendo visto apenas em 
+grandes cidades. Consumir este item gasta uma ação 
+completa e recupera 2d6 pontos de mana.
+Feromônios. Um composto que imita o odor 
+que animais liberam ao procurar um casal para a 
+cópula, usado por caçadores para atrair suas presas. 
+Você pode usar os feromônios durante um teste para 
+Rastrear para receber +5 no teste, mas caso encontre 
+a criatura, ela terá +2 de dano contra você.
+Pó Verde. Pedras de vitarium extraídas de 
+Galrasia e processadas na forma de um pó que 
+pode ser consumido ou inalado gastando uma ação 
+completa para recuperar o corpo de dentro para fora. 
+Você recupera 4d8+8 pontos de vida e remove uma 
+condição metabólica que esteja o afetando.
+Catalisadores
+Droga Benta. Um composto a base de sangue 
+de celestiais e água benta. Seu sinal usado com este 
+catalisador causa o dobro de dano contra mortos-vi-
+vos e abissais (após rolar).
+Droga Feérica. Um composto a base de partes 
+da flora e fauna de ambientes com grande densidade 
+de mana. Seu sinal usado com este catalisador tem a 
+CD para resistir a ele aumenta em +2.
+Droga Profana. Um composto a base de 
+sangue de demônios e carne apodrecida. Seus sinais 
+causam +2 dados de dano do mesmo tipo.
+Fruta Amarga. Uma fruta esverdeada e semi-
+-líquida que tem um gosto azedo e amargo. Ao usar 
+uma magia que fornece PV temporários, você rola 
+novamente qualquer resultado 1 ou 2 da magia. Se a 
+magia não possuir dados, invés disso receba +5 PV 
+temporários (além dos fornecidos pela magia).
+Raiz de Móli. Uma raiz dourada que cresce 
+do corpo de celestiais, sendo extremamente rara e 
+dificilmente comercializada. Ao usar uma magia que 
+convoca uma criatura ou capangas,  você recebe uma 
+quantidade de PM para gastar em aprimoramentos 
+igual ao seu atributo-chave (limitado pelo nível).
+Venenos
+Beijo da Mãe-Noite. Este veneno mortal é 
+produzido utilizando flores venenosas cultivadas no 
+próprio mundo divino de Tenebra, e então tratadas e 
+inoculadas em um líquido letal. Contato, perde 20d12 
+PV, fica debilitada e não é afetada por efeitos de cura de qual-
+quer natureza (perde 20d12 pontos de vida). A CD para 
+fabricar e para resistir a esse veneno aumenta em +10.
+Pó Retalhador. Um pó brilhante e prate-
+ado similar a ferro, que causa reações cortantes no 
+corpo de quem inala. Inalação, vítima fica 3 rodadas (1 
+rodada) gastando uma ação completa para se coçar, causan-
+do o dano desarmado dela em si mesma.
+Drogas de Bruxeiro
+Itens alquímicos que iniciam com "Droga" 
+só podem ser produzidos por personagens 
+com o poder Alquimia do Forte e apenas 
+comprados de comerciantes bruxeiros.
+242
+
+=== PAGE 244 ===
+Arsenal dos Mitos
+Sangue de Basilísco. Sangue tratado de um 
+basilísco junto com seus olhos, inoculado no corpo 
+das pessoas como um veneno petrificante. Contato, 
+vítima fica petrificada (imóvel por 3 rodadas). A CD para 
+fabricar e para resistir a esse veneno aumenta em +5.
+Espirituais
+Os itens alquímicos espirituais é uma categoria 
+exclusiva do Mitos de Arton, que só podem ser fabrica-
+dos por quem possui o poder Alquimia Espiritual (p. 
+@@). Por serem itens mais complexos, a CD para fa-
+bricá-los aumenta em +5 e o tempo para fabricá-los 
+muda 1 semana (em vez de 1 dia). Por fim, produzir 
+alquímicos espirituais exige estar em uma área com 
+forte concentração mágica e os itens dessa categoria 
+são mágicos.
+Ambrósia. Este coquetel raro é apenas comer-
+cializado em locais específicos do reinado e além e 
+quando achado a venda, é extremamente valioso, 
+podendo até mesmo ser alvo de leilões. Trata-se de 
+uma bebida produzida com ingredientes coletados 
+em cada mundo divino de Arton, incluindo Niven-
+ciuén e Skerry. Consumir a ambrósia é um processo 
+que demora alguns minutos e lhe coloca em um 
+sono profundo, onde sua alma é transportada para 
+o mundo divino de um deus aleatório — role 1d20 
+para decidir qual divindade você irá visitar.
+A divindade que você visitar irá conceder-te uma 
+bênção, maldição ou desafio, que poderá acarretar em 
+sequelas no seu corpo. Após o consumo da ambrósia, 
+você só poderá tomar outra daqui a 2d6 aventuras.
+Bálsamo Dourado. Uma pasta rica em nu-
+trientes, componentes curativos e com cheiro doce. 
+Passar o bálsamo dourado em seus ferimentos gasta 
+uma ação completa e recupera todos os seus PV.
+Elixir de Chi. Um líquido marrom consumi-
+do em doses com uma ação completa. Ao fazer isso, 
+você recebe 1d4+1 cargas de chi.
+Elixir de Mana. Esse líquido cerúleo foi pro-
+duzido com as mais finas ervas extraídas diretamente 
+de Magika. Consumir o elixir de mana é uma ação 
+completa e recupera todos os seus pontos de mana.
+Elixir de Poder. Uma pílula dourada com um 
+composto avermelhado em seu interior. Consumir 
+uma pílula de poder gasta uma ação de movimento 
+e fornece +5 em rolagens de dano até o fim da cena.
+Óleo Protetor. Um composto líquido reser-
+vado em um pequeno frasco de cor prateada. Passar 
+o óleo protetor na pele gasta uma ação completa e 
+fornece +2 na Defesa e em testes de resistência até 
+o fim da cena.
+Pílula de Aprendizado. Uma píula doura-
+da com um composto esverdeado em seu interior. 
+Consumir uma pílula de aprendizado gasta uma ação 
+completa e lhe fornece +2 em duas perícias a sua 
+escolha por um dia — ou fornece treinamento em 
+duas perícias, também por um dia.
+Pílula de Chi. Pequenas pílulas marrons que 
+são consumidas em porções gastando uma ação 
+padrão. Ao fazer isso, você recebe 1 carga de chi.
+Pílula de Treino. Uma pílula vermelha usada 
+pelos cultivadores antes ou depois de treinamentos 
+intensos. Consumir uma pílula de treino gasta uma 
+ação completa e fornece +1 em um atributo a sua 
+escolha até o fim da cena (esse aumento não fornece 
+PV, PM ou perícias adicionais).
+Alimentação
+Pratos Especiais
+Biscoitos. Uma massa assada com gotas de 
+gorad e muito popular entre crianças. O sabor doce 
+e revitalizante dos biscoitos lhe dão cura acelerada 1. 
+Ingredientes; açúcar das fadas, farinha, gorad, leite. CD 20.
+Carne de Dragão. Carne assada de um dra-
+gão celestial, sendo um tabu de ser consumida em 
+Tamu-ra, alguns cultivadores amam o sabor dessa 
+carne, capaz de revitalizar seu chi. Você recebe +5 
+cargas de chi temporárias. Ingredientes; carne de caça, 
+molho tamuraniano, óleo. CD 25.
+Chá Ginseng. Um chá quente e agradável 
+feito com ervas selecionadas e cultivadas sob climas 
+amenos. Seu sabor revitalizante fornece +2 cargas de 
+chi temporárias. Ingredientes; especiarias. CD 20.
+Maçã do Amor. Uma maçã suculenta e 
+caramelizada, muito popular em feiras de festivais 
+camponenses. Seu sabor agradável e sentido cultural 
+desperta o amor e senso de altruísmo das pessoas. 
+Ao rolar um teste para ajudar, você aumenta o bônus 
+final em +1. Ingredientes; açúcar das fadas, fruta. CD 15.
+Pão Doce. Um pão caseiro simples, mas enfei-
+tado com um recheio doce a base de frutas e muito 
+açúcar, despertando um sabor infantil e caracterís-
+tico. Sendo uma iguaria popular em banquetes de 
+nobres, fornece +2 em Nobreza. Ingredientes; açúcar 
+das fadas, farinha, fruta, leite, gorad. CD 15.
+Skooma. Essa bebida a base de açúcar é muito 
+popular entre habitantes do deserto da perdição, pois 
+lhe dão energia para as jornadas nômades que costu-
+mam trilhar. Você recebe +3m em todas as formas 
+de deslocamento que possuir. Ingredientes; açúcar das 
+fadas, avela de norba, cogumelos. CD 20.
+243
+
+=== PAGE 245 ===
+Capítulo Três 
+Bebidas
+Aguardente Selvagem. Muito consumida 
+entre hynnes e tribos bárbaras das montanhas uivan-
+tes, esse composto ardente deixa seu corpo quente 
+mesmo nos climas mais frios. Você recebe redução 
+de frio 5. CD 25
+Cabaça de Saquê. Uma garrafa larga de 
+cerâmica contendo um misturado à base de arroz 
+fermentado e álcool, sendo consumida por muitos 
+tamuranianos. Você recebe +2 em Defesa. CD 20
+Cerveja Gigante. Uma grande caneca de 
+madeira contendo uma cerveja feita nos alpes san-
+guinários por tribos de galokks. Você recebe +10 
+PVs temporários. CD 25
+Champanhe Nobre. Uma bebida ilustre, 
+composta por uvas verdes ou maças das mais refina-
+das adegas e fermentado por centenas de anos, sendo 
+algo que era muito consumido entre a nobreza élfica 
+e hoje atende a demanda nobre. Você recebe +2 em 
+Diplomacia e Nobreza. CD 20
+Drink Violeta. Servido nos mais finos bordéis 
+e casas de prazeres por toda cidade de Valkaria, essa 
+bebida colorida em tons vibrantes tornam as noites 
+ainda mais divertidas. Você recebe +2 em Atuação e 
+Fortitude. CD 30
+Itens de Expedição
+Essa sessão apresenta itens que são exclusivos 
+da distinção Explorador da Frota.
+Bomba de Lampinsetos. Uma bomba a base 
+um composto extraído de insetos-trovão. Você pode 
+gastar uma ação padrão para lançar a bomba de lam-
+pinsetos em um ponto em alcance curto, que explode 
+em uma esfera de 3m de raio. Criaturas na área ficam 
+pasmas e cegas por 1 rodada e então ofuscadas (Ref 
+CD Des muda para ofuscado).
+Energético. Um líquido a base de ervas revi-
+gorantes e mel, capaz de energizar quem consome. 
+Consumir um energético é uma ação padrão e recu-
+pera 4d8+8 PVs. Após consumido, você se move até 
+6m como uma ação livre.
+Lampião de Luminsetos. Um lampião em 
+forma de rede que guarda um pequeno enxame de 
+luminsetos. O lampião não precisa de óleo ou qual-
+quer artifício para se manter acesso, mas não pode 
+ser apagado, iluminando uma área de 6m de raio e 
+fornecendo +2 em testes para rastrear.
+Prendedora. Esse vestuário na forma de um 
+bracelete com um gancho embutido é a marca regis-
+trada dos exploradores. Ele possui as mesmas fun-
+ções de um arpéu e pode ser usado para se pendurar 
+em criaturas maiores que o usuário (faça um teste 
+de Pontaria oposto ao Reflexos da criatura). Para 
+melhor uso da prendedora, veja a regra de Escalando 
+Criaturas em Heróis de Arton, p. 300. Você também 
+pode usar a prendedora como uma arma de ataque à 
+distância, com as estatísticas de uma besta leve.
+Remédio Supremo. Uma cartela de remédios 
+mágicos produzidos por poucos exploradores, por 
+sua grande complexidade (A CD para fabricá-lo 
+aumenta em +10). Consumir um remédio supremo 
+gasta uma ação completa e recupera todos os seus 
+pontos de vida e mana, além de remover todas as 
+condições que o esteja afetando.
+Sonífero. Uma bomba de fumaça rosa que é 
+lançada sobre monstros na tentativa de capturá-los. 
+Você pode gastar uma ação padrão para lançar o 
+sonífero em um espaço em alcance curto, que explo-
+de em um cubo com 6m de lado. Criaturas na área 
+ficam exaustas (Fort CD Des muda para fatigado). O 
+sonífero é cumulativo com ele mesmo.
+Itens Superiores
+Novas Melhorias
+Afiada. A munição é pontuda, o que a permite 
+penetrar com mais facilidade os alvos. Uma arma 
+carregada com uma munição afiada tem seu dano 
+aumentado em +1 dado do mesmo tipo.
+Armadurada. Essa melhoria só pode ser 
+aplicada em armas de fogo de duas mãos. A arma 
+ganha um escudo frontal entre a empunhadura e o 
+cano, fornecendo +1 na Defesa de quem empunhar. 
+Se estiver caído, esse ganho muda para +2.
+Armado. O esotérico ganha extremidades 
+letais. Você pode usar o esotérico como uma arma 
+corpo a corpo com as estatísticas de uma maça.
+Bipé. Essa melhoria só pode ser aplicada em 
+armas de fogo de duas mãos. A arma ganha pe-
+quenas hastes metálicas próximo a ponta do cano, 
+que podem ser utilizadas para apoiar a arma sobre 
+uma superfície. Usar o bipé exige estar adjacente a 
+uma cobertura leve (um muro, escudo...) ou caído. 
+Enquanto usa o bipé, você recebe +1 em testes de 
+ataque, cumulativo com outras melhorias.
+Blindada. Placas mais densas e um metal 
+mais forte é utilizado na armadura, fornecendo uma 
+defesa incomparável. Você recebe redução de dano 2. 
+Você só pode aplicar essa melhoria em armaduras e 
+escudos feitos de metal. Pré-requisito: Reforçada.
+244
+
+=== PAGE 246 ===
+Arsenal dos Mitos
+Decorada. A armadura tem ligaduras e enta-
+lhes para encaixar adereços decorativos. Você pode 
+se beneficiar de um item vestido adicional, no qual 
+é encaixado na armadura. Pré-requisito: Sob medida.
+Gloriosa. A armadura tem entalhes dignos 
+de serem vestidos por uma figura heróica, com um 
+elmo em formação de máscara e entalhes curvilíneos 
+que impõe sua presença. Você recebe Carisma +1 
+(esse aumento não fornece PV ou PM adicionais). 
+Pré-requisitos: Deslumbrante, outra melhoria.
+Prismático. O esotérico recebe pedras colo-
+ridas e potentes que estimulam seu dano mágico. 
+Você recebe +2 em rolagens de dano com magias. 
+Pré-requisito: Poderoso.
+Rápida. A arma possui um peso balanceado 
+dentre outros mecanismos úteis para empunhá-la 
+mais rápido. Você pode sacar ou guardar esta arma 
+com uma ação livre (se possuir o poder Saque Rápi-
+do, invés disso ganha +1 em testes de ataque com a 
+arma, cumulativo com outras melhorias).
+Materiais Especiais
+Azurita
+Também chamado de cobalto, esse mineral é 
+famoso entre mineradores de Alstra que buscam a 
+vida de luxo, pois ele é um material extremamente 
+valioso por conter essência vanar em seu interior, 
+extraída diretamente do corpo adormecido do grande 
+gigante máximo Pai-Pedra.
+Arma. Causa +1d6 de dano de essência extra. Se 
+tirar um 20 natural em seu teste de ataque, recupera 
+PM igual o dano extra causado por este material.
+Armadura. Sua penalidade de armadura passa 
+a não afetar testes de Misticismo para lançar magias. 
+Escudo. Seu escudo é considerado uma mão 
+livre para lançar magias.
+Esotérico. Quando lança uma magia de es-
+sência que causa dano, você pode rolar novamente 
+qualquer 1 na rolagem de dano dela.
+Estelarita
+Também chamado de aço-estelar, este material 
+de propriedades minerais na cor negra com pequenos 
+pontilhos brancos e azulados é extremamente raro, 
+tanto quanto o adamante. Tudo que se sabe é que 
+surge de tempos em tempos dentro de meteoritos. A 
+origem do material é desconhecida, o mais aceito é 
+que venha de outros mundos. Todo item de estelarita 
+é considerado um artefato para efeitos que afetam 
+itens e para resistências.
+Arma (exige duas peças). Você ignora qual-
+quer chance de falha e fortificação e sua arma causa 
++2 dados de dano extra de essência.
+Armadura leve e Escudos (exige duas 
+peças). Fornece +2 em testes de resistência e redu-
+ção de essência 10.
+Armadura pesada (exige quatro pe-
+ças). Fornece +5 em testes de resistência e redução 
+de essência 20.
+Esotérico (exige duas peças). Quando 
+lança uma magia que causa dano, ela recebe +2 
+dados de dano do mesmo tipo de essência e ignora 
+quaisquer reduções de dano e chances de falha.
+Rocha-Matriz
+Uma pedra escura e pesada glifada com as mais 
+numerosas runas. A origem delas é algo estranho, 
+e suas capacidades ainda mais, podendo ser consi-
+derada a uma versão mais poderosa do adamante. 
+Aventureiros as encontram normalmente em corpos 
+de g'rokks mortos ou ao derrotar o temível Rhan-
+domm. Armaduras de pedra (veja Heróis de Arton, p. 
+224) podem ser feitas deste material.
+Arma (requer uma peça). Aumenta o dano 
+em um passo e o multiplicador de crítico em +1. 
+Armadura e Escudo (requer três pe-
+ças). Fornece Defesa e redução de dano: armaduras 
+leves e escudos, redução 5 e Defesa +2; armaduras 
+pesadas, redução 10 e Defesa +5.
+Tabela 3–4: Novas Melhorias
+Melhoria
+Efeito
+Melhorias para armas
+Afiada
+Munição aumenta o dano da arma
+Armadurada
++1 na Defesa, +2 quando caído
+Bipé
++1 em testes de ataque em 
+coberturas e caído
+Rápida
+Pode sacar a arma com uma ação 
+livre (ou +1 em testes de ataque)
+Melhorias para armaduras e escudos
+Blindada
+Redução de dano 2
+Decorada
+Se beneficia de item vestido
+Gloriosa
+Carisma +1
+Melhorias para esotéricos
+Armado
+Esotérico pode virar arma
+Prismático
++2 em rolagens de dano
+245
+
+=== PAGE 247 ===
+Capítulo Três 
+Esotérico (requer uma peça). Quando 
+lança uma magia que causa dano, ela recebe +2 
+pontos de dano por dado e a CD para resistir a ela 
+aumenta em +2.
+Thantalla-Shaed
+Também chamada de madeira arbórea, ela é en-
+contrado apenas em reinos feéricos ou em Arbória. 
+Sua casca branca e retorcida é muito cobicada por 
+druidas da mãe-natureza, que dizem ouvir os espíri-
+tos ecoando dentro dela.
+Arma. Causa +1d6 de dano psíquico extra. 
+Contra criaturas inteligentes, esse dano é multiplica-
+do em acertos críticos.
+Armadura. Permite somar até três pontos 
+de Sabedoria na Defesa, mesmo que outros efeitos 
+digam que não pode somar nenhum outro atributo.
+Esotérico. Quando lança uma magia de cura 
+ou que cause dano, você pode gastar 2 PM para so-
+mar sua Sabedoria, limitada pelo nível, na rolagem 
+do efeito dela.
+Zalcarita
+Esse metal escuro e hiperdenso é quente ao 
+toque, mesmo após refinado. As únicas formas de 
+obter este valioso metal é sendo presenteado pelo 
+próprio Zalcanas ou tendo a sorte de coletar um 
+fragmento de seu corpo. Por ser um metal denso, 
+itens de zalcarita ocupam 1 espaço adicional.
+Arma (requer uma peça). Causa +1 dado 
+de dano extra e fornece +1 em testes de ataque e 
+rolagens de dano.
+Armadura leve e Escudo (requer 
+duas peças). Fornece +1 na Defesa, em testes de 
+resistência e redução de dano 2.
+Armadura pesada (requer três pe-
+ças). Fornece +2 na Defesa, em testes de resistência 
+e redução de dano 5.
+Tabela 3–5: Novos Materiais Especiais
+Material*
+Arma
+Armadura leve
+Armadura pesada
+Escudo
+Esotérico
+Azurita
++T$ 6.000
++T$ 3.000
++T$ 9.000
++T$ 1.500
++T$ 1.500
+Thantalla-Shaed
++T$ 1.500
++T$ 6.000
++T$ 12.000
+—
++T$ 3.000
+ * Materiais não listados são raros e não são encontrados à venda.
+Novos efeitos  
+para madeira Tollon
+Você pode aplicar esse material a qualquer 
+item se for devoto de Allihanna e puder 
+fabricar itens superiores. Por isso, este 
+material recebe novos efeitos.
+Armaduras e Escudos. Armaduras leves e 
+escudos fornecem resistência a magia +2; 
+armaduras pesadas +5.
+Esotéricos. Magias com alcance pessoal 
+tem o custo reduzido em –1 PM. Se aplicado 
+a um medalhão de prata, o efeito acumula.
+246
+
+=== PAGE 248 ===
+Arsenal dos Mitos
+Estruturas
+Novas 
+Construções
+Antro de Contrabando. Um local secreto 
+logo abaixo das suas instalações mundanas de 
+taverna, onde contrabandistas e piratas se reunem 
+e podem ensinar uma coisa ou outra ao regente do 
+domínio que os aceitam de bom grado... Você recebe 
+um poder de bucaneiro. Pré-requisito: taverna.
+Campo Selvagem. Um pasto amplo onde 
+diversos animais vivem pacificamente em bandos e 
+permite que pessoas, incluindo o próprio regente, 
+melhore suas capacidades de comando de criaturas 
+não-inteligentes. Você recebe um poder de treinador. 
+Pré-requisito: terreno planície.
+Cemitério. Infelizmente, tudo que vive, uma 
+hora morre, e por isso é necessário dar o descanso 
+merecido aos mortos após o momento chegar, afinal, 
+pessoas morrem, e tá tudo bem... A menos que você 
+seja um regente tirano que nem um certo arquilich 
+e use esse cemitério para experimentos. Aumenta a 
+CD de seus efeitos de trevas em +2.
+Circo. Uma grande e imponente lona cônica 
+onde são realizadas as mais lúdicas apresentações 
+para entretenimento do público. É muito esperado 
+durante festivais e adorado por crianças. Você recebe 
++5 em testes da ação festival.
+Circuito de Treinamento. Salas dispostas 
+dentro de um salão fechado, onde soldados e até mes-
+mo o regente pode atravessar grandes pistas repletas 
+de obstáculos para treinar seu corpo e melhorar seu 
+físico. Seu primeiro Golpe Relâmpago na cena não 
+possui custo de PM. Pré-requisito: Dojo.
+Coliseu. Embora não tão imponente como 
+o coliseu de Tiberus ou a Arena de Valkaria, este 
+humilde coliseu de lutas é usado para entreter o 
+regente, sua população ou transeuntes com eventos 
+violentos, servindo um espetáculo sangrento. Tam-
+bém pode ser usado como circuito de justa, quem 
+sabe? De qualquer forma, os eventos realizados 
+neste local lhe inspira, lhe fornecendo +2 em testes 
+de ataque e rolagens de dano.
+Dojo. Uma enorme edificação formada por 
+mosteiros e casebres de treino marcial para o ensino 
+dessa arte milenar. Um regente também pode apren-
+der essa arte com mestres lendários. Você recebe um 
+poder de lutador — ou, se possuir o poder Estilo 
+Desarmado, a habilidade Briga.
+Embaixada. Uma grande construção austera e 
+bem organizado feita para realizar assuntos diplomá-
+ticos entre reinos e discutir o futuro de seus domí-
+nios. Você recebe +5 em testes para Empréstimo.
+Escola da Capivara. Um campo vasto com 
+um grande lago e uma casebre tradicional, habitada 
+por vários goblins harrie capivaleiros. Permite recru-
+tar capivaleiros (mesmas estátisticas de uma milícia, 
+mas com dano 2d8+2²).
+Escola de Música. Uma instalação para o 
+emprego de uma das artes mais adoradas por devo-
+tos de Marah, onde o regente pode até mesmo a tocar 
+um pouco de um dos vários instrumentos dispostos 
+aqui. Você recebe um poder de bardo.
+Estátua Celestial. Uma escultura finamen-
+te trabalhada feita com mármore ou jade, contendo 
+a forma de um dragão celestial ou da principal divin-
+dade de Tamu-ra, muito apreciada por qualquer um 
+interessado em conectar-se com o chi. Você recebe 
+um poder de cultivador.
+Forja Goblin. Um negócio recente que vem 
+crescendo dentro de Arton são goblins trabalhadores 
+com altas capacidades inventivas que produzem 
+equipamentos de extrema qualidade utilizando pou-
+cos recursos. Ter um destacamento dessa guilda no 
+seu domínio lhe proverá equipamentos ainda melho-
+res, permitindo que você possa colocar um encanto 
+em um de seus itens sem custo, esse encanto pode 
+ser trocado no início de cada aventura. Pré-requisito: 
+Oficina.
+Guilda dos Ladrões. Uma instalação que 
+fica em partes ocultas do seu domínio, normalmente 
+no subterrâneo abaixo de um ponto estratégico para 
+fugas rápidas. Em troca de abrigo, os membros dessa 
+organização podem até mesmo lhe fornecer alguns 
+ensinamentos. Você recebe um poder de ladino. 
+Pré-requisito: Esconderijo.
+247
+
+=== PAGE 249 ===
+Capítulo Três 
+Tabela 3–6: Novas Construções
+Construção
+Custo
+Benefício
+Construções de Nobreza
+Campo selvagem
+12 LO
+Fornece um poder de treinador
+Circo
+8 LO
++5 em testes de festival
+Embaixada
+35 LO
++5 em testes de empréstimo
+Forja Goblin
+100 LO
+Adiciona um encanto a um item (pré-requisito adicional: sede da guilda)
+Guindastes
+5 LO
++5 em testes de construir
+Hospital
+60 LO
++2 em Cura, reduz a perda de unidades militares
+Laboratório
+15 LO
+Fornece um poder de inventor
+Normas de Segurança
+10 LO
+Pode encaixar dois aparatos em uma engenhoca
+Linha Comercial
+25 LO
+Aumenta o ganho de tibares com habilidades
+Pasto
+10 LO
++1d8 LO por turno
+Salão de Conselheiros
+35 LO
+Fornece um poder de nobre
+Sistema de Irrigação
+10 LO
+Aumenta o ganho da fazenda em +1 dado (pré-requisito adicional: aqueduto)
+Torre de Exploração
+18 LO
+Fornece um poder de caçador
+Construções de Enganação
+Antro de Contrabando
+25 LO
+Fornece um poder de bucaneiro
+Escola da Capivara
+4 LO
+Recruta capivaleiros
+Escola de Música
+15 LO
+Fornece um poder de bardo
+Guilda dos Ladrões
+18 LO
+Fornece um poder de ladino
+Quadro de Missões
+8 LO
+Diminui o custo dos Mercenários
+Rede de Informações
+13 LO
++2 em testes de obter informações
+Teatro
+6 LO
++5 em testes de apresentação
+Construções de Guerra
+Coliseu
+50 LO
++2 em testes de ataque e rolagens de dano
+Dojo
+20 LO
+Fornece um poder de lutador
+Circuito de Treinamento
+32 LO
+Anula o custo do Golpe Relâmpago
+Salão de Duelos
+15 LO
+Fornece um poder de guerreiro
+Sede da Guarda Real
+26 LO
+Fornece um poder de inquisidor
+Construções de Religião
+Estátua Celestial
+30 LO
+Fornece um poder de cultivador
+Totem Espiritualista
+27 LO
+Fornece um poder de bárbaro
+Ídolo Heróico
+35 LO
+Fornece um poder de paladino
+Construções de Misticismo
+Cemitério
+15 LO
+Aumenta a CD dos seus efeitos de trevas em +2
+Mausoléu
+20 LO
+Redução de trevas 5
+Relógio Arcano
+95 LO
+Diminui o custo de suas habilidades mágicas em –1 PM
+248
+
+=== PAGE 250 ===
+Arsenal dos Mitos
+Guindastes. Hastes e cordas de grande esta-
+tura que permite mover grandes blocos de pedra e 
+fardos de madeira com facilidade para construir mais 
+rápido as edificações e casas do feudo. Você recebe 
++5 em testes para Construir.
+Hospital. Tendas e casas grandes para diag-
+nosticar pacientes, acolher feridos e prover cura 
+e tratamento. Reduz a perda de unidades em uma 
+derrota pela metade (mínimo 1) e fornece +2 em 
+Cura. Se o regente for salistiense, o hospital também 
+provém normas de saúde, programa de vacinação e 
+medicina diária, fornecendo +5 em testes de resis-
+tência contra doenças.
+Ídolo Heróico. Uma estátua feita de mate-
+riais nobres que enaltece uma figura heróica que já 
+passou pelo seu domínio, ou até mesmo você caso 
+você se considere heróico o suficiente, lhe dando 
+inspiração para realizar atos de bondade e altruísmo. 
+Você recebe um poder de paladino, mas se for devoto 
+de um deus maligno, sofre –5 em testes sociais (ex-
+ceto Intimidação).
+Laboratório. Uma edificação composta por 
+ferramentas engenhosas e tanques alquímicos, onde 
+o regente pode desenvolver suas ideias com calma. 
+Você recebe um poder de Inventor.
+Linha Comercial. Você desenvolve uma 
+linha de comércio entre domínios, pode ser um outro 
+reino ou um feudo vizinho, podendo até mesmo ser 
+uma rota entre vários reinos e feudos. Suas habili-
+dades e testes que fornecem Tibares tem esse ganho 
+aumentado em 20% (após quaisquer rolagens, se 
+houver). Pré-requisito: Caravançará.
+Normas de Segurança. Regras e leis para 
+manter a segurança de seu domínio, como normas 
+trabalhistas e equipamentos de proteção individual, 
+assim permitindo trabalhos mais perigosos — mas 
+com segurança! Escolha uma de suas engenhocas, 
+ela passa a poder ter um aparato adicional anexado a 
+ela. Pré-requisito: Laboratório.
+Mausoléu. Uma sinistra construção ao centro 
+do cemitério que dá acesso a grandes túneis subter-
+râneos onde os mortos são colocados para prover 
+seu descanso eterno... Mitos podem rondar sobre 
+mortos-vivos no local, mas seus clérigos dizem que 
+está tudo bem. Pela alta concentração de energia 
+negativa nesses locais, você recebe redução de trevas 
+5. Pré-requisito: Cemitério.
+Pasto. Um extenso campo gramado cercado 
+para pastoreiro de ovelhas e criação de gado, sendo 
+um negócio lucrativo por fornecer lã, carne e ferti-
+lizante. Fornece +1d8 LO por turno de domínio. 
+Pré-requisito: Terreno de Planícies.
+Clarificando Construções
+• Poderes de Classe. Para pré-requisitos 
+de nível e limite de PM, considere o nível 
+do domínio +3 como o seu nível na classe 
+do poder fornecido pela estrutura. Você 
+como mestre também pode permitir que o 
+seu jogador obtenha poderes gerais através 
+de construções específicas, desde que 
+aprovados por você.
+• Magias. Você aprende a magia de 
+1º círculo ou de um círculo que tenha 
+acesso — mas não pode lançar ela se não 
+tiver capacidade. Você não é considerado 
+um conjurador mesmo que tenha magias 
+aprendidas por estruturas.
+Nova Ação de Domínio: 
+Empréstimo
+Você pede auxílio de outros domínios 
+para obter fundos. Você recebe 1d4+1 LO 
+por nível de domínio. Sempre que fizer 
+um empréstimo, você deve cumprir uma 
+exigência de seu empreendedor, o que 
+exatamente é essa exigência fica a critério 
+do mestre — normalmente será pagar o 
+valor emprestado após algumas aventuras. 
+Perícia: Diplomacia (CD 20 + o dobro do 
+nível do domínio). Custo: —. Você só pode 
+realizar esta ação uma vez por turno.
+Novos Níveis de Corte
+Você só pode aumentar a sua corte para os 
+níveis seguintes se seu domínio for nível 5 
+ou maior.
+• Suntuosa. Uma pequena parte de 
+domínio passa a ser ocupada pelas diversas 
+construções que formam a sede sua corte, 
+a burocracia é intensa, com centenas de 
+conselheiros, guardas e consortes prontos 
+para auxiliar uns aos outros. Você só toma 
+a palavra quando seu domínio está em jogo. 
+Manutenção: 10 LO. Fornece seis conselheiros e 
+uma ação de domínio extra por turno.
+• Magnífica. Pelo menos mil membros 
+atuam em sua corte, espalhados em vários 
+prédios que ocupam seu domínio, suas 
+ordens serão realizadas com rapidez e 
+diligência. Manutenção: 20 LO. Fornece nove 
+conselheiros, duas ações de domínio extra por 
+turno e +3 em testes de domínio (cumulativo).
+249
+
+=== PAGE 251 ===
+Capítulo Três 
+Quadro de Missões. As tavernas e estradas de 
+seu domínio possuem quadros de madeira contendo 
+contratos e requisições de moradores e transeuntes, 
+facilitando o contato com aventureiros. O preço para 
+contratar um mercenário por uma aventura muda 
+para o dobro do valor (invés de o triplo). Pré-requisito: 
+Estradas ou Taverna.
+Rede de Informações. Um esconderijo 
+mundano e colocado em um ambiente discreto do 
+seu domínio, onde patifes e bandidos podem lhe dar 
+informações se forem bem pagos. Você recebe +2 em 
+testes para obter informações. Esse bônus muda para 
++5 se o regente for de uma raça marginalizada (como 
+kobolds, goblins, lefous...). Pré-requisito: Taverna.
+Relógio Arcano. Esse mecanismo mágico 
+tem propriedades específicas além de somente 
+medir as horas através de engrenagens circulares 
+complexas. O relógio é capaz de auxiliar no fluxo de 
+mana do regente e concentrar suas energias de forma 
+mais eficiente, reduzindo o custo de suas habilidades 
+mágicas em –1 PM.
+Salão de Conselheiros. Seu domínio dis-
+põe de uma sala austera e forrada de mobilia onde 
+o regente e seus conselheiros podem discutir como 
+melhorar suas terras e governar com mão de ferro, 
+lhe dando mais expertise em relação a nobreza. Você 
+recebe um poder de nobre. Pré-requisito: Forte.
+Salão de Duelos. Um ringe marmorizado que 
+fica em um ponto baixo ou alto de seus domínios, 
+onde combatentes podem se reunir para treinar uns 
+com os outros e trocar ensinamentos, incluindo até o 
+próprio regente. Você recebe um poder de guerreiro. 
+Pré-requisito: Pátio de Treinamento. 
+Sede da Guarda Real. Seu domínio agora é 
+protegido pela inquisição que luta contra todo tipo 
+de ameaça planar, e até mesmo tem aval para usar 
+armas de fogo nas dependências do reinado, estes 
+que acreditam que um regente bem treinado é tão 
+poderoso quanto toda sua sede. Você recebe um 
+poder de inquisidor.
+Sistema de Irrigação. Um sistema com-
+plexo de irrigação a base de aquedutos que mantém 
+suas plantações sempre regadas na medida e tempo 
+certo através de manuseio manual. A eficiência deste 
+engenho aumenta o ganho da fazenda em +1 dado. 
+Pré-requisito: Fazenda.
+Teatro. Uma grande casa de shows teatrais, 
+também pode ser usado para apresentações de can-
+to, poesias épicas ou apresentações carnavalescas, 
+deixando o público sempre animado e contente com 
+o seu regente por ter entretenimento aos montes. 
+Fornece +5 em testes para Apresentação.
+Torre de Exploração. Construída próximo 
+a choupana, essa torre possui mapas e guias sobre 
+territórios e criaturas variadas para serem estudadas 
+e melhor suas habilidades de caça. Você recebe um 
+poder de caçador. Pré-requisito: Cabana de Caça.
+Totem Espiritualista. Um enorme totem 
+de madeira adornado com gravuras de diferentes 
+animais associados a deusa da natureza, conectando 
+os habitantes do domínio as energias ancestrais de 
+seus antepassados tribais. Você recebe um poder de 
+bárbaro.
+Novos Cômodos
+Berçário. Muitas vezes aventureiros podem 
+acabar tendo ou adotando crianças, e elas precisam 
+de um lugar para ficar. Ao descansar na sua base, 
+você recupera +1 PM por nível, caso tenha ao menos 
+uma criança sua vivendo neste cômodo, você recebe 
++1 em Vontade.
+Motor de Tração. Uma grande caldeira 
+à vapor, dispositivo arcano de energia ou outra 
+parafernalha motora que consiga imaginar. Quando 
+construído em sua base, aumenta o deslocamento 
+dela em +6m (e o deslocamento fornecido para os 
+residentes muda para +3m). Pré-requisito: base móvel.
+Perfumaria. Uma grande estufa de ervas, 
+flores e plantas utilizadas para seus itens alquímicos. 
+Ao fabricar itens alquímicos e poções nas depe-
+dências da base, você fabrica um item adicional do 
+mesmo tipo sem pagar custos adicionais. Se passar 
+no teste de fabricação por 10 ou mais, fabrica dois 
+itens adicionais do mesmo tipo.
+Saguão de Jornadas. Uma grande sala con-
+tendo mapas de várias partes de Arton e além, com 
+ferramentas de cartografia e geografia, na intenção 
+Tabela 3–7: Novos Cômodos
+Cômodo
+Benefício
+Berçario
++1 PM por nível ao descansar
+Motor de tração
++6m de deslocamento da base
+Perfumaria
+Produz alquímicos adicionais
+Saguão de 
+jornadas
++5 na resistência contra marcha 
+forçada e para se orientar
+Sala de planos
+Fornece um poder de grupo
+Sala de troféus
+Fornece diferentes bônus elementais
+Sala Zen
+Fornece diferentes bônus físicos
+250
+
+=== PAGE 252 ===
+Arsenal dos Mitos
+dos residentes criarem as melhores rotas antes 
+de viajar. Se um residente passar uma ação entre 
+aventuras dentro dessa sala estudando-a, todos os 
+residentes recebem, durante a próxima aventura, +5 
+em testes de resistência para Marcha Forçada e para 
+se Orientar.
+Sala de Planos. Uma sala de disciplina tática 
+para melhor coordenar seu grupo de aventureiros, 
+contendo os pontos fracos e fortes do grupo em 
+grandes papéis e determinando suas funções. Caso 
+os residentes passem uma ação entre aventuras dis-
+cutindo suas táticas, podem melhor coordenar suas 
+ações no futuro. Durante a próxima aventura, todos 
+recebem um poder de grupo (veja Heróis de Arton, p. 
+92) até o fim da aventura.
+Sala de Troféus. Uma sala dedicada a guardar 
+pedaços de criaturas mortas, mais especificamente 
+dragões, como suas presas, chifres e couro. Uma vez 
+por aventura, você pode adornar um item que possua 
+com um pingente, penduricálio ou broche feito com 
+peças de um dragão de um elemento que já tenha 
+matado. Se o item escolhido for uma arma ou esoté-
+rico, você recebe +1d6 pontos de dano do elemento 
+do dragão derrotado em suas rolagens de dano, se for 
+uma armadura ou escudo, fornece redução 5 contra o 
+elemento dele. Esse efeito dura até você o trocar por 
+outro elemento.
+Sala Zen. Uma grande sala forrada por tata-
+mes, contendo fontes para peixes koi nadar, um 
+jardim de areia para meditar, e incensos para relaxar. 
+Ficar nessa sala eleva sua paz de espírito e permite-o 
+cultivar com mais conexão com os kami. Se passar 
+uma ação entre aventuras meditando, recebe um dos 
+benefícios entre +2 em testes de manobra, +1 em 
+testes de resistência ou um dado extra do mesmo 
+tipo em seus ataques desarmados (cumulativo).
+251
+
+=== PAGE 253 ===
+Capítulo Três 
+Novas Magias
+Aplicação da Justiça 
+Divina 3 (Evocação)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 criatura; Duração: instantânea; 
+Resistência: Vontade reduz à metade.
+Você lança o julgamento de seu deus 
+sobre o alvo no alcance. Ele sofre 4d12 
+pontos de dano de luz, que aumenta em 
++2d12 de forma cumulativa se; ele for 
+devoto de uma divindade que canaliza 
+energia negativa, for devoto de uma 
+divindade rival a sua, for desonrado, 
+desonesto ou maligno. Apenas devotos 
+fieis de deuses que canalizam energia 
+positiva podem aprender essa magia.
++4 PM: muda a resistência para Von-
+tade parcial. Além do normal, se o alvo 
+falhar na resistência, fica atordoado 
+(apenas uma vez por dia) e cego por 1 
+rodada e então ofuscado pela cena. Re-
+quer 4º círculo.
+Arma Rúnica 
+Arcana 1 (Transmutação)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 arma empunhada; Duração: 
+cena.
+Você enfeitiça o alvo com runas mís-
+ticas que emitem energia cerúlea. A 
+arma recebe +1d4 pontos de dano.
++2 PM: aumenta o dano em +1d4 (ou 
++1d6; quantidade máxima de dados li-
+mitada pelo círculo máximo de magia 
+que você pode lançar).
++5 PM: muda os dados de dano para 
+d6. Requer 3º círculo.
+Artilharia Suprema 
+Arcana 4 (Convocação)
+Execução: completa; Alcance: médio; 
+Área: esfera com 18m de raio; Dura-
+ção: 1d4+1 rodadas; Resistência: Re-
+flexos parcial.
+Você invoca uma artilharia bélica com-
+posta por dezenas de soldados e ca-
+nhões, e então as comanda a atacar a 
+área no alcance. Criaturas na área so-
+frem 12d12 pontos de dano, divididos 
+entre impacto, perfuração e fogo, além 
+de ficarem em chamas, surdas e ofus-
+cadas até o fim da cena. Passar na re-
+sistência anula o dano de fogo e evita a 
+condição em chamas. O dano causado 
+se repete no início de cada rodada, exi-
+gindo novos testes de resistência.
++2 PM: aumenta o dano em +3d12.
++5 PM: muda a área para cilindro com 
+18m de raio e 9m de altura.
+Bainha Ilusória 
+Univesal 1 (Ilusão)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 arma; Duração: 1 dia ou até 
+ser descarregada.
+Você toca uma arma e a torna invisível, 
+aplicando-a a propriedade surpreenden-
+te. Ao atacar com essa arma, a magia é 
+descarregada. Se a arma afetada já for 
+surpreendente, você recebe +2 no seu 
+teste de ataque e +1 dado na sua rola-
+gem de dano com ela.
+Ceticismo de Raziel 
+Divina 3 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 criatura inteligente; Duração: 
+cena; Resistência: Vontade evita.
+Você implanta no alvo a sensação de 
+ser invencível. O alvo sofre –2 na De-
+fesa, Fortitude e Reflexos. A cada nova 
+rodada, o alvo pode repetir o teste de 
+Vontade para cancelar a magia.
++3 PM: além do normal, se o alvo fa-
+lhar em três testes seguidos, passa a 
+subestimar seus inimigos ao ponto de 
+desistir do combate.
++4 PM: muda as penalidade para –5. 
+Requer 4º círculo.
++9 PM: além do normal, uma vez por 
+rodada, o alvo é forçado a escolher 0 em 
+um teste de resistência for realizar. Re-
+quer 5º círculo.
+Chama Frenética 
+Arcana 2 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 criatura; Duração: instantâ-
+nea; Resistência: Vontade parcial.
+Você implanta na mente do alvo visões 
+infernais de chamas e dor profunda, 
+que o causa 3d8 pontos de dano psíqui-
+co e o deixa frustrado. Passar no teste 
+de resistência reduz o dano à metade e 
+evita a condição.
++2 PM: aumenta o dano em +1d8.
++4 PM: invés do normal, o alvo fica 
+esmorecido se falhar no teste de resis-
+tência e frustrado se passar.
++5 PM: além do normal, o alvo fica 
+confuso se falhar no teste de resistên-
+cia. Requer 3º círculo.
+Conquistar 
+Arcana 1 (Convocação)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 arma mundana; Duração: ins-
+tantânea; Resistência: Veja texto.
+Como parte da execução desta magia, 
+você realiza uma manobra desarmar 
+usando seu Misticismo no lugar de 
+Luta. Se passar, a arma que o alvo esta-
+va empunhando voa até sua mão, pegá-
+-la é uma reação. Se o alvo não estiver 
+sendo empunhado, ele apenas voa até 
+sua mão normalmente.
++2 PM: muda o alvo para 1 arma mági-
+ca. Requer 2º círculo.
++5 PM: muda o alvo para 1 item mun-
+dano ou mágico. Requer 3º círculo.
+Conjurar Capangas 
+Arcana 1 (Convocação)
+Execução: completa; Alcance: curto; 
+Efeito: capangas conjurados; Duração: 
+sustentada.
+Você convoca dois capangas e os po-
+sicionam em espaços desocupados no 
+alcance (deslocamento 6m, Def 15, 
+1d6 pontos de dano de um tipo a sua 
+escolha entre corte, impacto ou perfu-
+ração). Eles seguem todas as regras de 
+capangas descritas no Heróis de Arton.
++2 PM: aumenta o deslocamento dos 
+capangas em +3m.
++2 PM: aumenta o número de capan-
+gas convocados em +1 (valor máximo 
+limitado pelo dobro do círculo máximo 
+de magia que você pode lançar).
++3 PM: aumenta o dano dos capangas 
+em +1 dado do mesmo tipo (valor má-
+ximo limitado pelo círculo máximo de 
+magia que você pode lançar).
+252
+
+=== PAGE 254 ===
+Arsenal dos Mitos
++3 PM: aumenta a Defesa dos capan-
+gas em +1. Requer 2º círculo.
++5 PM: invés de capangas normais, 
+você conjura elementais; o tipo de dano 
+causado muda para ácido, eletricidade, 
+fogo ou frio e eles recebem desloca-
+mento de voo 6m. Requer 3º círculo.
++5 PM: invés de capangas normais, 
+você conjura monstros; o dano dos ca-
+pangas muda para d8 e os PV mudam 
+para 25. Requer 3º círculo.
+CronoÊstase 
+dE Aura Weiser 
+ARcana 5 (Transmutação)
+Execução: 1 minuto; Alcance: pesso-
+al; Área: cubo com 30m de lado; Dura-
+ção: instantânea (mas veja texto).
+Ao executar a magia, você cria uma 
+área de êstase temporal a partir de 
+você. Para quem estiver fora da área, 
+passa-se apenas alguns segundos, mas 
+para quem está dentro da área, passa-
+-se 1 semana, no entanto, quem estiver 
+dentro da área da magia não pode afe-
+tar o lado de fora. Essa magia só pode 
+ser usada uma vez por dia. Exige com-
+ponente material (ampulheta finamen-
+te produzida no valor de T$ 25.000).
++5 PM: aumenta a duração do êstase 
+temporal em +1 semana.
+Dilúvio 
+Divina 5 (Transmutação)
+Execução: completa; Alcance: pesso-
+al; Área: Cone de 30m; Duração: veja 
+texto; Resistência: Reflexos parcial.
+Você evoca uma grande onda oceânica 
+que causa 10d12 pontos de dano de frio 
+e impacto (metade de cada) nas criatu-
+ras dentro da área e as deixam caídas e 
+lentas. Após isso, uma esfera de 30m 
+de raio se forma na mesma área que se 
+torna um grande lago com 90m de pro-
+fundidade que dura até o fim da cena, 
+onde criaturas na área ficam submersas 
+e devem fazer testes de Atletismo para 
+nadar (mesmo se possuir deslocamento 
+de nado). Nenhuma criatura submersa 
+pode respirar embaixo d´água, mesmo 
+que possa. Você não sofre os efeitos 
+dessa magia se estiver dentro da área.
++5 PM: aumenta o dano em +5d12.
++5 PM (Apenas devotos de OCe-
+ano): muda o raio da esfera para 1km.
+Disparo Arcano 
+dE Aura Weiser 
+ARcana 2 (Evocação)
+Execução: padrão; Alcance: pessoal; 
+Área: linha de 9m; Duração: instan-
+tânea; Resistência: Reflexos reduz à 
+metade.
+Essa magia criada para matar demônios 
+dispara um raio de pura energia arcana, 
+causando 6d6 pontos de dano de essên-
+cia nas criaturas na área. Este dano é 
+dobrado contra abissais.
++2 PM: aumenta o dano em +2d6.
+Éden de Yvernith 
+Divina 5 (Convocação)
+Execução: completa; Alcance: pesso-
+al; Área: Quadrado de 90m; Duração: 
+sustentada; Resistência: veja texto.
+Você conjura um bioma vegetal a sua 
+escolha com diversos efeitos. Animais 
+e monstros na área se tornam presta-
+tivos e parceiros de tipos apropriados 
+que não contam no seu limite (Von evi-
+ta), se ele for o parceiro de uma cria-
+tura, ela faz um teste de Adestramento 
+oposto a CD da magia. A área se torna 
+terreno difícil e causa 10d6 pontos de 
+dano de corte, impacto e perfuração no 
+início do turno de uma criatura dentro 
+dela (exceto o conjurador e seus alia-
+dos, Ref reduz à metade).
++5 PM: aumenta o dano em +3d12.
++5 PM (Apenas devotos de 
+Allihanna): muda o tamanho do 
+quadrado para 1km.
+Escudo Glorioso 
+Divina 1 (Transmutação)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 escudo empunhado ou vestido; 
+Duração: cena.
+Você empodera seu escudo com ener-
+gia sagrada, aumentando sua Defesa 
+em +1 (conta como um bônus de en-
+canto). Além disso, o escudo pode ser 
+usado mesmo que não seja proficiente.
++2 PM: aumenta o bônus de Defesa 
+em +1 (bônus máximo limitado pelo 
+círculo máximo de magia que você 
+pode lançar).
++5 PM: além do normal, o escudo pas-
+sa a fornecer cobertura leve a quem 
+estiver adjacente a quem o empunhar. 
+Requer 2º círculo.
+Estampido  
+de Skavendish 
+Divina 1 (Transmutação)
+Execução: completa; Alcance: pesso-
+al; Alvo: você; Duração: instantânea; 
+Resistência: Reflexos parcial.
+Como parte da execução da magia, você 
+realiza uma investida contra um alvo. 
+Durante o percurso, criaturas no cami-
+nho são empurradas 3m, ficam caídas e 
+sofrem 2d6 pontos de dano de impac-
+to. Passar na resistência reduz o dano 
+a metade e evita a queda. Ao atacar um 
+alvo após a investida, ele sofre +2d6 
+pontos de dano com seu ataque  e tam-
+bém fica caído — se acertar, ele não faz 
+um teste de resistência.
++2 PM: aumenta o dano em +1d6.
+Flash Negro 
+Arcana 3 (Transmutação)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: instantânea; Re-
+sistência: Fortitude parcial.
+Como parte da execução da magia, você 
+concentra energia pura no seu punho e 
+faz um ataque desarmado contra uma 
+criatura recebendo +3 no seu teste de 
+ataque e na sua rolagem de dano. Se 
+acertar, o tipo do seu dano desarmado é 
+convertido para essência e então tripli-
+cado. Se o alvo passar na resistência, o 
+dano é apenas dobrado.
++2 PM: aumenta o bônus de ataque e 
+dano em +1 (bônus máximo limitado 
+pelo círculo máximo de magia que você 
+pode lançar).
++4 
+PM 
+(Apenas 
+Feiticeiros 
+Amaldiçoados): você pode gastar 
+uma quantidade máxima de pontos de 
+maldição igual a de poderes que possui 
+dessa distinção. Para cada ponto gasto, 
+você aumenta seu dano desarmado em 
+um passo.
+Flor Rubra De Nike 
+Divina 3 (Necromancia)
+Execução: reação; Alcance: pessoal; 
+Área: esfera com 18m de raio; Dura-
+ção: instantânea; Resistência: Fortitu-
+de parcial.
+Você lança essa magia como uma rea-
+ção ao ficar com 0 PV ou menos. Uma 
+flor gigantesca formada por pétalas de 
+energia negativa desabrocha. Criaturas 
+na área ficam cegas e sofrem 8d8 pon-
+tos de dano de trevas. Passar na resis-
+tência evita a condição e reduz o dano 
+à metade. Metade do dano causado a 
+criaturas mortas por essa magia são 
+convertidos em cura para você.
+Furacão De Fogo 
+Arcana 1 (Evocação)
+Execução: completa; Alcance: médio; 
+Área: esfera com 3m de raio; Duração: 
+instantânea; Resistência: Reflexos re-
+duz à metade.
+Você cria uma pequena esfera flamejan-
+te e rodopia no ar, chutando-a em um 
+253
+
+=== PAGE 255 ===
+Capítulo Três 
+espaço no alcance. Criaturas na área so-
+frem 3d6 pontos de dano de fogo.
++1 PM: aumenta o dano em +1d6.
++2 PM: você rodopia com mais inten-
+sidade e forma um dragão flamejante. 
+O dados de dano da magia muda para 
+d8 e a área para uma esfera com 6m de 
+raio. Requer 2º círculo.
+Fúria Vulcânica 
+Divina 2 (Evocação)
+Execução: completa; Alcance: pesso-
+al; Área: esfera com 6m de raio; Du-
+ração: instantânea; Resistência: Refle-
+xos parcial.
+Você golpeia o chão com força em sequ-
+ência, fazendo lava e rochas voar pela 
+área. Criaturas na área (exceto você)
+sofrem 4d6 pontos de dano de impac-
+to e 4d6 pontos de dano de fogo, além 
+de ficarem caídas. Passar na resistência 
+evita o dano de fogo e a condição.
++1 PM: além do normal, a área afetada 
+se torna terreno difícil.
++2 PM: aumenta o dano de fogo e o de 
+impacto em +1d6.
++2 PM: além do normal, a área afetada 
+fica encandecida, causando 1d6 pontos 
+de dano de fogo a toda criatura que pas-
+sar por ela.
+Garra Da Tempestade 
+Arcana 3 (Evocação)
+Execução: padrão; Alcance: pessoal; 
+Área: cone de 9m; Duração: instan-
+tânea; Resistência: Reflexos reduz à 
+metade.
+Você gesticula no ar como se estivesse 
+atacando com garras afiadas. Criaturas 
+na área sofrem 9d12 pontos de dano de 
+eletricidade.
++2 PM: aumenta o dano em +1d12.
++5 PM: como parte da execução da ma-
+gia, você faz um ataque corpo a corpo 
+contra o alvo (que não tem direito a um 
+teste de resistência). Se acertar, causa o 
+dano do ataque e da magia. A área da 
+magia se mantém, mas inicia do alvo 
+atacado. Requer 4º círculo.
+Jardim Floral  
+De Yvernith 
+Divina 1 (Convocação)
+Execução: padrão; Alcance: pessoal; 
+Área: quadrado com 9m de lado; Du-
+ração: 1 dia.
+Você faz a vegetação crescer na área a 
+partir de você. Essa magia não tem ne-
+nhum efeito prático, servindo somente 
+para formar vegetação em uma área.
+Truque: muda a duração para perma-
+nente. Você pode criar uma pequena 
+quantidade de flores sobre suas mãos, 
+de uma simples rosa até um buquê.
++2 PM: aumenta a duração em +1 dia.
++3 PM: o jardim passa a exalar um 
+cheiro encantador de rosas e flores do 
+campo, fornecendo +2 em Diplomacia 
+as criaturas na área.
++5 PM: muda a duração para perma-
+nente e adiciona componente material 
+(pacote de sementes exóticas no valor 
+de T$ 200). Requer 2º círculo.
+Kombate Mortal 
+Universal 2 (Convocação)
+Execução: completa; Alcance: curto; 
+Alvo: 1 criatura; Duração: até ser des-
+carregada; Resistência: Vontade evita.
+Você e o alvo são teletransportados 
+para um espaço vazio com 1km de lado, 
+sem teto ou paredes, apenas um solo 
+escuro. Cada um surge a 9m do outro e 
+devem lutar até a morte, ou até que de 
+forma voluntária, ambos decidam sair 
+da área. Em ambos os casos, as cria-
+turas afetadas pela magia voltam para 
+suas posições antigas no mundo físico. 
+Não é possível cancelar ou dissipar a 
+magia após lançada.
++2 PM: aumenta a quantidade de alvos 
+em +2.
++3 PM: além do normal, a área passa a 
+apresentar um tipo de perigo ou arma-
+dilha a sua escolha.
++4 PM: aumenta a quantidade de pe-
+rigos ou armadilhas acima em +1. Re-
+quer 3º círculo.
+Mão Divina 
+Divina 5 (Convocação)
+Execução: completa; Alcance: médio; 
+Alvo: 1 criatura; Duração: instantâ-
+nea; Resistência: Reflexos parcial.
+O membro do seu deus surge dos céus 
+e esmaga o alvo, causando 20d12+20 
+pontos de dano de luz (se a divindade 
+que lhe atendeu canaliza energia positi-
+va) ou trevas (se canaliza energia nega-
+tiva) e deixando o alvo atordoado por 1 
+rodada (apenas uma vez por cena). Um 
+alvo que passe na resistência sofre me-
+tade do dano e fica imóvel por 1 rodada.
++2 PM: aumenta a quantidade de alvos 
+em +1.
++5 PM: muda a duração para sustenta-
+da. Além do normal, a criatura atingida 
+fica agarrada e é erguida à 6m do solo, 
+podendo se soltar ao ser bem sucedida 
+em um teste de Atletismo (CD igual a 
+da magia).
+Membro Etéreo 
+Arcana 2 (Convocação)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: 1 hora.
+Você substitui um membro faltan-
+te com uma massa de essência que o 
+emula. Você sente tudo que este mem-
+bro fantasmagórico sente e ao fazer um 
+ataque desarmado com ele, seu tipo de 
+dano muda para essência.
++1 PM: muda o alcance para toque e o 
+alvo para 1 criatura.
+Mochila do mascate 
+Arcana 1 (Transmutação)
+Execução: 1 minuto; Alcance: toque; 
+Alvo: 1 mochila; Duração: 1 dia.
+Você amplia a capacidade do alvo, lhe 
+concedendo +2 espaços de carga. Exige 
+componente material (couro curtido no 
+valor de T$ 100).
++2 PM: aumenta o bônus de carga em 
++2 (bônus máximo limitado pelo do-
+bro do círculo máximo de magias que 
+você pode lançar).
++3 PM: muda a duração para 1 semana.
++4 PM: além do normal, você pode 
+gastar 2 PM para convocar um instru-
+mento de um Ofício do qual é treinado. 
+Requer 2º círculo.
++7 PM: como acima, mas você pode 
+gastar 5 PM para o instrumento invo-
+cado vir aprimorado. Requer 3º círculo.
++9 PM: muda a duração para perma-
+nente e adiciona sacrífico de 2 PM. Exi-
+ge componente material (bandoleira de 
+couro especial no valor de T$ 1.000). 
+Requer 4º círculo.
+Morada Umbral 
+Universal 3 (Convocação)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 sombra; Duração: sustentada.
+Você entra na sombra de uma criatura 
+ou objeto. Nessa forma, você recebe 
+cobertura total e não pode ser alveja-
+do por nenhuma magia ou efeito, mas 
+fica imóvel e só pode realizar ações 
+puramente mentais — exceto sair da 
+sombra. Se a sombra se mover, você 
+se move junto a ela, mas se ela for dis-
+persada, você é arrancado da sombra e 
+sofre 6d6 pontos de dano de impacto.
++2 PM: além do normal, você pode sair 
+de outra sombra da qual entrou, desde 
+que ela esteja em alcance curto.
++5 PM: como acima, mas você pode 
+sair de sombras em alcance médio. Re-
+quer 4º círculo.
+254
+
+=== PAGE 256 ===
+Arsenal dos Mitos
++10 PM: além do normal, a criatura na 
+qual você entrou na sombra fica parali-
+sado até que você saia dela. Ela tem di-
+reito a um teste de Fortitude (CD igual 
+ao da magia) para evitar a condição, 
+podendo repetir este teste sempre no 
+início do turno dela. Requer 5º círculo.
+Necrose De Rowena 
+Divina 2 (Necromancia)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: sustentada.
+Você corrompe o próprio corpo, dei-
+xando-o com um aspecto cadavérico e 
+póstumo. Você não pode lançar magias 
+enquanto sustenta essa, mas recebe 
++2d10 pontos de dano de trevas em 
+todos os seus ataques corpo a corpo e 
+recupera PV igual metade de todo dano 
+de trevas causado pela magia. Essa ma-
+gia não pode ser usada por construtos e 
+mortos-vivos.
++1 PM: muda o alcance para toque e o 
+alvo para 1 criatura viva.
++2 PM: aumenta o dano em +1d10 
+(quantidade máxima de dados limitada 
+pelo círculo máximo de magia que você 
+pode lançar).
++3 PM (apenas mortos-vivos e 
+devotos de Tenebra): invés da 
+metade, você recupera todo dano de 
+trevas que causar com essa magia e 
+pode usar essa magia em você mesmo 
+que seja um morto-vivo.
++4 PM: além do normal, você recebe 
+imunidade a cansaço, metabolismo, 
+trevas e veneno, mas cura de luz passa 
+a lhe causar dano. Requer 3º círculo.
+Olhos Do Infinito 
+Arcana 3 (Transmutação)
+Execução: reação; Alcance: pessoal; 
+Alvo: você; Duração: instantânea.
+Esta magia pode ser lançada como rea-
+ção a um ataque feito contra você. Seus 
+olhos brilham em azul, e uma aura de 
+desasceleração é criada ao seu redor. 
+Faça um teste de Percepção oposto ao 
+dano causado pelo seu agressor (se ele 
+causar), você reduz o dano sofrido pelo 
+resultado deste teste. Criaturas imunes 
+a efeitos mágicos não são afetados por 
+essa magia, e você sofre penalidade no 
+seu teste de Percepção igual a resistên-
+cia a magia do alvo (se ele possuir).
++4 PM: muda a execução para padrão e 
+a duração para cena. Faça um único tes-
+te de Percepção e use-o pela duração da 
+magia para reduzir os danos que sofrer. 
+Requer 4º círculo.
+Pandemônio  
+de Ryuusei 
+Divina 5 (Convocação)
+Execução: completa; Alcance: pesso-
+al; Área: linha de 30m com 9m de lado; 
+Duração: cena; Resistência: Reflexos 
+parcial.
+Você rasga a realidade, abrindo um por-
+tal macabro e monstruoso para Chaci-
+na, de onde uma infinidade de mons-
+tros surgem, com bocarras enormes 
+e garras afiadas golpeando qualquer 
+coisa na área. No início de cada roda-
+da após abrir o pandemônio, criaturas 
+na área sofrem 12d12 pontos de dano 
+de corte, impacto e perfuração e ficam 
+agarradas. Passar na resistência evita 
+ser agarrado. Uma criatura agarrada 
+deve ser bem sucedida em um teste de 
+Atletismo (CD igual a da magia) para 
+se libertar, mas se falhar em três testes 
+seguidos após ser agarrada, é devorada 
+pelo pandemônio.
++5 PM: aumenta o dano em +4d12.
++5 PM (Apenas devotos de Me-
+galokk): muda a área para uma es-
+fera de 1km de raio. Além do normal, 
+criaturas devoradas, ao invés de mor-
+rer, são enviadas para Chacina.
+Passos Do Fim 
+Universal 2 (Convocação)
+Execução: livre; Alcance: pessoal; 
+Alvo: você; Duração: até ser descarre-
+gada.
+Você se torna etéreo (como na magia 
+Forma Etérea) ao transitar entre mun-
+dos, mas ainda pode afetar o mundo fí-
+sico e não tem sua percepção reduzida. 
+Além disso, sentidos especiais não lhe 
+afetam. A magia termina ao fim do seu 
+turno ou ao se deslocar 9m.
++3 PM: aumenta o deslocamento má-
+ximo em +3m.
+Portões De Werra 
+Divina 4 (Evocação)
+Execução: completa; Alcance: pesso-
+al; Alvo: você; Duração: sustentada; 
+Resistência: Reflexos reduz à metade.
+Essa magia criada pelos anjos de guerra 
+permitem ao conjurador abrir um por-
+tão entre Werra e seu mundo. No início 
+de cada um de seus turnos após lançar 
+a magia, você pode gastar uma ação pa-
+drão para disparar armas em um cone 
+de 18m. Criaturas na área sofrem 4d12 
+pontos de dano de corte, 4d12 pontos 
+de dano de impacto e 4d12 pontos de 
+dano de perfuração.
++5 PM: além do normal, você convo-
+ca uma arma na qual é proficiente em 
+suas mãos, com dano base mudado 
+para 2d12.
++5 PM: aumenta um dos tipos de dano 
+causado em +4d12.
+Raio Cósmico 
+Arcana 2 (Evocação)
+Execução: completa; Alcance: pesso-
+al; Área: linha de 9m; Duração: ins-
+tantânea; Resistência: Reflexos reduz 
+à metade.
+Essa magia exige as duas mãos livres 
+para ser conjurada. Você concentra o 
+poder arcano bruto em suas mãos e o 
+dispara ao movê-las para frente. Essa 
+rajada causa 4d6+4 pontos de dano de 
+essência a todas as criaturas na área.
++2 PM: aumenta o dano em +1d6+1 
+(ou +1d8+1).
++3 PM: muda o dano para 4d8+4.
++7 PM: muda o alcance para Médio e o 
+a área para Alvo: criaturas escolhidas. 
+Invés do normal, você dispara peque-
+nos disparos concentrados que causam 
+o dano da magia. Requer 3º círculo.
+Sopro Cósmico  
+de Ryuusei 
+Universal 4 (Transmutação)
+Execução: 2 rodadas; Alcance: pesso-
+al; Área: linha de 15m; Duração: ins-
+tantânea; Resistência: Reflexos reduz 
+à metade.
+Você acumula energia mágica em seu 
+peitoral inflando os pulmões com puro 
+poder. Ao fim da execução da magia, 
+você dispara um raio concentrado de 
+energia contra todas as criaturas na 
+área, causando 20d10 pontos de dano 
+de essência.
++3 PM: aumenta a execução da magia 
+em +1 rodada e o dano em +5d10.
++5 PM (apenas devotos de Me-
+galokk): muda a área para cone de 
+18m e a resistência para Reflexos par-
+cial. Além do normal, criaturas que 
+falharem na resistência também ficam 
+enjoadas (apenas uma vez por cena) e 
+debilitadas por 1d4 rodadas.
+Toque Cadavérico 
+Divina 1 (Necromancia)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 criatura viva; Duração: cena; 
+Resistência: Fortitude evita.
+O alvo é postumerizado, passando a 
+não se beneficiar de itens da categoria 
+alimentação nem de cura de luz, que 
+255
+
+=== PAGE 257 ===
+Capítulo Três 
+passa a causar dano ao alvo. No início 
+de cada rodada do alvo, ele tem direito 
+a um novo teste de resistência para re-
+sistir a essa magia.
++2 PM: muda a duração para susten-
+tada. O alvo não pode mais fazer novos 
+testes para cancelar a magia.
++5 PM (apenas devotos de Tene-
+bra): além do normal, o alvo recebe 
+imunidade a trevas e passa a ser cura-
+do ao sofrer dano de trevas. Requer 3º 
+círculo.
+Vislumbre De Azgher 
+Divina 5 (Evocação)
+Execução: 1d3+1 rodadas; Alcance: 
+pessoal; Área: esfera com 18m de raio; 
+Duração: instantânea; Resistência: 
+Reflexos parcial.
+Você concentra uma pequena partícula 
+de luz na ponta dos dedos que cresce a 
+cada rodada. Ao fim da execução, você 
+estala os dedos expandindo a esfera em 
+um tipo de supernova, engolfando to-
+das as criaturas na área (exceto você) 
+na luz do próprio sol. Quem estiver na 
+área sofre 20d12+20 pontos de dano 
+de luz e fogo, além de ficarem cegas e 
+em chamas. Passar na resistência evita 
+a condição cego e o dano de fogo.
++5 PM: aumenta o dano em +5d12+5.
++5 PM: além do normal, a área da ex-
+plosão é iluminada por uma luz similar 
+ao sol até o fim da cena.
++5 PM (apenas devotos de Az-
+gher): além do normal, mortos-vivos 
+e devotos de Tenebra na área sofrem –5 
+na resistência contra essa magia.
+256
+
+=== PAGE 258 ===
+Arsenal dos Mitos
+257
+
+=== PAGE 259 ===
+Capítulo Três 
+Novos Itens Mágicos
+Armas
+Encantos Para Armas
+Alinhada. A arma é encantada para ter o balan-
+ço perfeito. Ela fornece +4 em testes de manobras.
+Aperfeiçoada. A arma recebe +1 dado extra 
+de dano do mesmo tipo, que é multiplicado em acer-
+tos críticos. Pré-requisito: magnífica.
+Deicida. A arma causa +2d8 pontos de dano 
+contra devotos, cultistas, aspectos, avatares e celes-
+tiais. Você não se beneficia deste encanto se possuir 
+uma devoção.
+Gélida. O dano adicional fornecido pelo encan-
+to congelante muda para +2d8. Além disso, além da 
+arma deixar o alvo enredado, ela o deixa imóvel por 
+1 rodada. Pré-requisito: congelante.
+Incendiária. O dano adicional fornecido pelo 
+encanto flamejante muda para +2d8. Além disso, o 
+dano causado pela bola de fogo lançada através deste 
+encanto muda para 6d12. Pré-requisito: flamejante.
+Metamorfa. Você pode gastar 2 PM para dar a 
+arma uma habilidade que ela não tenha até o fim do 
+dia — exceto alongada. Além disso, você pode gastar 
+1 PM para trocar o tipo de dano da arma para outro 
+entre corte, impacto ou perfuração, a sua escolha, até 
+o fim da cena. Uma arma metamorfa parece líquida e 
+capaz de se moldar.
+Solvente. O dano adicional fornecido pelo 
+encanto corrosiva muda para +2d8. Além disso, o 
+dano causado pelo efeito ativo da arma muda para 
+4d6. Pré-requisito: corrosiva.
+Tempestuosa. O dano adicional fornecido pelo 
+encanto elétrica muda para +2d8. Além disso, ao usar 
+o efeito ativo da arma, você atinge todas as criaturas 
+escolhidas em alcance curto, invés de apenas uma. 
+Pré-requisito: elétrica.
+Turva. Um campo de distorção é criado ao 
+redor da arma, dificultando a percepção precisa dos 
+inimigos. Você recebe +2 em testes para resistir a 
+manobra feitas contra a arma, podendo gastar 2 PM, 
+uma vez por rodada, para aumentar esse bônus para 
++5 por um teste.
+Vorpal. A arma tem um fio tão afiado que corta 
+ossos como manteiga. Ao acertar um ataque e tirar 
+20 natural, role 1d10, em um resultado 10, você 
+decapita o alvo, o matando instantaneamente. Esse 
+encanto só pode ser aplicado em armas corpo a corpo 
+de corte. Se aplicar esse encanto em uma espada 
+visír, a decapitação ocorre em um resultado 9 ou 10. 
+Pré-requisito: ameaçadora.
+Armas Específicas
+Hanazono. A primeira samurai mulher em 
+Tamu-ra recebeu do próprio Tekametsu o primeiro 
+exemplar dessa espada, que passou a ser forjada e 
+entregue a outras samurais que demonstravam 
+honra em combate. Esta katana pungente elétrica 
+projeta pétalas de cerejeira sempre que é brandida, 
+tão cortantes quanto sua lâmina, permitindo atacar 
+alvos em alcance curto através destas pétalas. Você 
+também pode, uma vez por rodada, gastar uma ação 
+padrão e 2 PM para atacar todas as criaturas em uma 
+linha de 9m a partir de você (faça um único teste de 
+ataque e compare com todas as criaturas na área).
+Martelo da Justiça. O primeiro exemplar 
+deste marrão aumentado atroz maciço de mitral piedoso 
+sagrado foi empunhado por um aspecto de Khalmyr 
+que fundou a ordem dos cavaleiros da carruagem 
+sagrada, e desde então é usado por guerreiros santos 
+que buscam proteger e punir. Enquanto empunhar 
+o martelo da justiça, você recebe +3 na Defesa (conta 
+como um bônus de escudo), –3 de penalidade de 
+armadura e é considerado como empunhando uma 
+arma e um escudo para suas habilidades. Além disso, 
+o martelo da justiça pode ser empunhado por criaturas 
+médias ou pequenas sem aplicar penalidades, desde 
+que o usuário siga algum código de conduta.
+Martelo das Tempestades. Criado em 
+homenagem a uma das primeiras e mais imponentes 
+armas usadas pelo Mestre Arsenal, este martelo de 
+guerra de adamante maciço gélido excruciante pode formar 
+uma tempestade glacial onde quer que seu usuário 
+esteja. Você pode gastar uma ação padrão e 2 PM 
+para criar uma área de tempestade de neve em uma 
+área de 60m de raio, que além dos efeitos dessas 
+precipitações, também causa 2d6 pontos de dano de 
+frio a todas as criaturas escolhidas na área sempre no 
+258
+
+=== PAGE 260 ===
+Arsenal dos Mitos
+início dos seus turnos (Fort CD For ou Des reduz à 
+metade). 
+Rapieira do Crepúsculo. Forjada pelos 
+armeiros de Tenebra, essa rapieira de adamante precisa 
+profana sepulcral tem uma guarda ornamentada com 
+o formato de um pentagrama. A depender do tipo 
+de morto-vivo que empunhar a rapieira do crepúsculo, 
+ela recebe um encanto adicional entre horrenda (lichs, 
+osteons, etc.), vampírica (vampíros e derivados) ou 
+brumosa (espectros). Se empunhado por uma criatura 
+viva, esta arma não tem qualquer efeito adicional.
+Sabre de Energia. Esta espada longa pungente 
+energética possui uma lâmina que pode ser "desligada" 
+(ação livre ou reação), mantendo apenas a empunha-
+dura e a guarda. Você recebe +5 em testes para fintar 
+e enquanto a lâmina estiver desligada, você se torna 
+imune a manobras que tenha a arma como alvo. Se 
+for treinado em Misticismo e possuir Int ou Car 4 ou 
+maior, você pode gastar 1 PM para fazer as manobras 
+agarrar, empurrar e desarmar em alcance curto.
+Vaiehi. Uma arma com uma extensa história 
+familiar, mas que após ser destruída em um embate 
+divino, passou a ser reforjada em massa por ferreiros 
+poderosos. Esta alfange banhada a ouro de mitral ameaça-
+dora flamejante formidável deixa as criaturas atingidas 
+pelos seus ataques cegas por 1 rodada e ofuscadas 
+pela cena (Fort CD For ou Des evita a condição cego). 
+Além disso, você pode, uma vez por cena, gastar 2 
+PM para fazer a espada brilhar como o sol, ao fazê-lo, 
+criaturas escolhidas na área ficam desprevenidas por 
+1 rodada (Ref CD For ou Des evita).
+Tabela 3–8: Armas Específicas
+Arma
+Categoria
+Preço
+Hanazono
+Menor
+T$ 30.000
+Martelo da Justiça
+Média
+T$ 55.000
+Martelo das Tempestades
+Maior
+T$ 125.000
+Rapieira do Crepúsculo
+Maior
+T$ 86.000
+Sabre de Energia
+Média
+T$ 60.000
+Vaiehi
+Maior
+T$ 90.000
+259
+
+=== PAGE 261 ===
+Capítulo Três 
+Armaduras 
+& Escudos
+Encantos Para 
+Armaduras & Escudos
+Acelerado. Você recebe o poder Surto Herói-
+co, mas só pode usá-lo enquanto veste este item. Se 
+já o possui, em vez disso, o custo para usá-lo vestindo 
+essa armadura diminui em –2 PM.
+Cristalizado. O item tem aspecto cristalino 
+como se fossem feito de espelhos. Você recebe re-
+dução de corte e frio 10 e, uma vez por cena, ao ser 
+atingido por uma magia, você pode gastar 2 PM por 
+círculo dela para poder lançá-la até o fim da cena (CD 
+Car). Caso já conheça a magia copiada, o custo para 
+lançá-la diminui em –1 PM.
+Diapazor. Você pode lançar a magia Despedaçar 
+(CD Car), incluindo como reação a um ataque que 
+tenha conseguido defender — mas apenas uma vez 
+por rodada. Caso já conheça essa magia, o custo para 
+lançá-la diminui em –1 PM.
+Eletroestático. A armadura projeta uma 
+aura magnética que dificulta o uso de equipamentos 
+metálicos. Você recebe redução de eletricidade 10 e 
+ataques feitos contra você sofrem uma penalidade de 
+–5 se o agressor estiver a menos de 9m de você, mas 
+apenas se a arma que ele estiver usando for metálica. 
+Criaturas além desse alcance sofrem apenas uma 
+penalidade de –2.
+Gargolítica. O item parece ser feito de uma 
+pedra marmorizada que absorve magia. Uma vez por 
+rodada, ao sofrer dano mágico, você pode gastar 2 
+PM para reduzí-lo à metade.
+Manáfago. O escudo absorve a energia de 
+ataques feitos contra você. Uma vez por rodada, ao 
+passar no teste de resistência contra uma magia, você 
+recupera pontos de mana igual ao círculo da magia 
+lançada sobre você. Pré-requisito: abascanto.
+Salvador. O encanto zeloso passa a poder ser 
+usado em criaturas em alcance curto, mas se o fizer, 
+gasta +1 PM ativando o encanto. Pré-requisito: zeloso.
+Uivante. O item tem peles etéreas de yake 
+na sua composição. Você recebe redução de frio 10 
+e pode lançar a magia Sopro das Uivantes (CD Con). 
+Caso já conheça essa magia, o custo para lançá-la 
+diminui em –1 PM.
+Voltáico. O item possui arcos de energia que 
+reduzem a eficácia de certos ataques. Você recebe 
+redução de eletricidade e perfuração 10 e pode, uma 
+vez por cena, gastar 3 PM e fazer um teste de Per-
+cepção. Para cada 10 pontos de resultado neste teste, 
+você recebe +1 na Defesa e RD 2 até o fim da cena.
+Vulcânico. O item tem o aspecto pedregoso 
+com veios flamejantes. Você recebe redução de fogo 
+e impacto 10 e pode lançar a magia Fúria Vulcânica 
+(CD For). Caso já conheça essa magia, o custo para 
+lançá-la diminui em –1 PM.
+Armaduras Específicas
+Armadura da Bailarina. Usada como um 
+instrumento de tortura por alguns demônios sádi-
+cos, ela foi ressignificada para ser usada por bardos 
+ousados. Esta armadura de couro banhada a ouro deslum-
+brante gloriosa polida ilusória tem a aparência de um 
+simples collant de balé, porém seu tutu tem lâminas 
+poderosas. Você recebe +5 em Atuação e pode gastar 
+uma ação padrão e 2 PM para fazer um ataque corpo 
+a corpo contra todas as criaturas adjacentes (dano 
+2d8, crítico x2, corte). Você faz um único teste de 
+ataque e compara com a Defesa de cada criatura.
+Armadura do Herói. Dizem que o primeiro 
+envar criado por Glória foi também uma das primei-
+ras profecias de Thyatis na terra dos heróis. Este 
+possuia inúmeros artefatos, mas o mais imponente 
+era sua armadura. Trata-se de uma armadura completa 
+de adamante e aço-rubi reforçada selada guardiã zelosa que 
+tem todo seu potencial liberado quando vestida por 
+um paladino. Se você for um paladino, recebe +5 na 
+Defesa e o custo da sua habilidade Égide Sagrada é 
+reduzido em –1 PM. Além disso, sua Aura Sagrada 
+ou Ladainha de Combate não tem mais custo para 
+ser sustentada.
+Couraça de Tachygloss. Este gibão de peles 
+espinhoso assustador é feito com o couro pontiagudo de 
+uma criatura das montanhas Sanguinárias. O dano 
+de perfuração causado pela melhoria espinhoso afeta 
+também criaturas que fizerem ataques corpo a corpo 
+contra você e ignora reduções de dano. Além disso, 
+você pode gastar 3 PM sempre que sofrer um ataque 
+para aumentar o dano da melhoria em +1d6 por 
+ponto de Defesa que a armadura fornece.
+Escudos Específicos
+Escudo das Górgonas. Este escudo reflexivo 
+banhado a ouro de mitral abascanto anulador manáfago 
+tem a cabeça de uma górgona gravurada em uma face 
+de desespero. Ao usar o efeito do escudo, a diferença 
+entre os testes para ativar o efeito especial muda para 
+5. Além disso, a CD para o inimigo passar no próprio 
+efeito aumenta para +2. Por fim, você pode usar esse 
+escudo contra qualquer efeito mágico gastando +2 
+260
+
+=== PAGE 262 ===
+Arsenal dos Mitos
+PM, se fizer isso, o alvo fica paralisado por 1 rodada 
+(apenas uma vez por cena).
+Muralha das Uivantes. Este escudo de ataque 
+colossal de adamante e gelo eterno reforçado guardião gélido 
+tem a face frontal na forma de um carneiro, tendo seu 
+primeiro exemplar fabricado por um lendário ferreiro 
+das Uivantes. Seu enorme tamanho apenas permite 
+que ele seja empunhado por criaturas enormes ou 
+colossais, criaturas menores que isso precisam ter 
+For 6 ou maior, ou são incapazes de levantá-lo. No 
+entanto, o Muralha das Uivantes permite ao usuário 
+lançar as magias Erupção Glacial e Muralha Elemental 
+(gelo, CD For). Caso aprenda novamente uma dessas 
+magias, seu custo é diminuido em –1 PM.
+Tabela 3–9: Armaduras 
+& Escudos Específicos
+Arma
+Categoria
+Preço
+Armadura da bailarina
+Menor
+T$ 27.000
+Armadura do herói
+Maior
+T$ 200.000
+Couraça de Tachygloss
+Médio
+T$ 52.000
+Escudo das górgonas
+Maior
+T$ 118.000
+Muralha das uivantes
+Maior
+T$ 98.000
+261
+
+=== PAGE 263 ===
+Capítulo Três 
+Esotéricos
+Encantos
+Para Esotéricos
+Conservador. O esotérico tem um espaço 
+mágico em que você pode guardar um catalisador. 
+Sempre que lança uma magia através deste esotéri-
+co, o efeito do catalisador armazenado é aplicado a 
+magia, mas sempre que o fizer, role 1d20, em um 
+resultado 1, o catalisador é gasto, exigindo o gasto 
+de uma ação de movimento para colocar um novo.
+Marcial. Ao lançar uma magia que cause dano 
+através deste esotérico, você pode gastar +1 PM para 
+mudar todo o tipo de dano da magia para um entre 
+corte, impacto ou perfuração. Pré-requisito: bélico.
+Ofídico. O esotérico é frio ao toque e tem uma 
+textura escamosa. Quando lança uma magia que cau-
+sa dano através deste esotérico, você pode gastar +3 
+PM para, além do dano, o alvo perder 1d10 pontos de 
+vida por círculo da magia como um efeito de veneno. 
+Pré-requisito: traiçoeiro.
+Sulfúrico. O esotérico é adornado com 
+esmeraldas e emite gases tóxicos. Suas magias que 
+causam dano de ácido causam um dado extra de 
+dano do mesmo tipo e os alvos sofrem 2d4 pontos de 
+dano de ácido na próxima rodada.
+Vitorioso. Ao vencer em uma cena de comba-
+te, você recupera uma quantidade de PM igual a de 
+magias que lançou através deste esotérico durante a 
+cena. Pré-requisito: outro encanto.
+Esotéricos Específicos
+Ampulheta da Relatividade. Esta ampu-
+lheta com hastes de ouro tem uma áreia prateada 
+em seu interior, que flue em um ritmo exótico. Ao 
+lançar uma magia através deste esotérico, você pode 
+aumentar ou reduzir sua execução em um número 
+de passos (a partir de completa, a execução aumenta 
+em +1 rodada) igual ao círculo máximo de magias 
+que você pode lançar. Para cada passo que aumentar 
+a execução da magia, a CD para resistir a ela au-
+menta em +2 ou você recebe +1 PM para gastar em 
+aprimoramentos, mas para cada passo que reduzir a 
+execução da magia, a CD para resistir a ela é reduzida 
+em –2 ou ela custa +2 PM para lançar.
+Correntes da Megera. Estes grilhões da 
+megera de mitral ofídico traiçoeiro é uma versão muito 
+superior dos esotéricos usados por bruxeiros da 
+escola da serpente. Você pode usar este item como 
+uma arma corpo a corpo alongada (dano 1d12, crítico 
+19, impacto) que funciona como uma arma bruxeira. 
+É dito que bruxeiros que queriam imitar o artefato 
+de Tryx forjavam estas correntes como uma home-
+nagem a ela.
+Acessórios
+Encantos  
+Para ACessórios
+Adaptativo. O item se molda as vontades do 
+usuário. Você pode trocar o atributo-chave de uma 
+perícia na qual o item fornece bônus por um outro, 
+desde que ele permaneça sendo físico ou mental, de 
+acordo com a perícia (por exemplo, se o item com 
+este encanto fornece bônus em Cura, você pode tro-
+car o atributo-chave para Inteligência ou Carisma).
+Arrochado. O vestuário é tão compacto em 
+seu corpo que nem parece que está ali, ainda assim, 
+fornece seus benefícios. O item não conta no limite 
+de itens vestidos, mas você só pode se beneficiar de 
+um item arrochado por vez. Pré-requisito: compacto.
+Aterrorizante. O vestuário emana uma aura 
+de medo e terror e possui adornos na forma de crâ-
+nios e ossos. Você recebe +2 em seus testes contra 
+alvos sob um efeito de medo. Pré-requisito: autoritário.
+Élfico. Este item foi fabricado com uma perfei-
+ção quase élfica, como se tivesse passado anos sendo 
+perfeitamente polido. Sempre que fizer um teste um 
+teste de uma perícia que o item forneça bônus, você 
+pode gastar 1 PM para rolar 1d4 e somar o resultado 
+no seu teste. Pré-requisito: dois outros encantos.
+Táurico. O vestuário potencializa o físico do 
+usuário, lhe dando a força de um minotauro. Você 
+recebe +2 em Atletismo, Fortitude (cumulativo com 
+outros bônus de itens) e nas suas rolagens de dano 
+corpo a corpo.
+Acessórios Específicos
+Brincos da Coragem. Um par de brincos 
+prateados adornados com esmeraldas no formato de 
+três círculos unidos. Você recebe imunidade a qual-
+Tabela 3–10: Esotéricos Específicos
+Arma
+Categoria
+Preço
+Ampulheta 
+da Relatividade
+Maior
+T$ 150.000
+Correntes da Megera
+Médio
+T$ 27.000
+262
+
+=== PAGE 264 ===
+Arsenal dos Mitos
+quer efeito de medo, incluindo fobias raciais. Se já 
+for imune a medo de alguma forma e for alvo de um 
+efeito de medo enquanto usa os Brincos da Coragem, 
+você recebe +2 PM temporários cumulativos que du-
+ram até o fim da cena (limitado pela sua Sabedoria).
+Colar da Paciência. Um colar de prata ador-
+nado com um pingente de três arcos lunares unidos. 
+Apesar da aparência simples, é extremamente pode-
+roso, fornecendo ao seu usuário +5 PM por patamar 
+de jogo (somente após uma semana de uso).
+Coroa da Temperança. Uma diadema de 
+ouro adornada com rubis no formato de três ondas 
+unidas no meio. Você recebe redução de fogo, im-
+pacto e luz 10. Além disso, se sofrer dano de um 
+dos tipos em que recebeu redução através deste 
+item, você recebe um bônus cumulativo de +1 nas 
+suas rolagens de dano que duram até o fim da cena 
+(limitado pela sua Força).
+Faixas do Titã. Essas faixas de couro revesti-
+das por rebites de adamante e correntes de ferro dão 
+ao seu usuário um vigor sobrehumano. Você recebe 
++4 em Constituição (somente após um dia de uso). 
+Além disso, uma vez por cena, pode gastar 5 PM para 
+receber +5 PV temporários por ponto que possuir 
+em Constituição que são perdidos ao fim da cena.
+Flauta Do Espírito Ecoante. Uma flauta 
+transversal simples de bambu, adornada com ouro 
+e pequenas gravuras que se traduzem para “Eco da 
+Melodia Espiritual”. Esse item conta como um ins-
+trumento musical que fornece +5 em testes de atua-
+ção, +2 na CD para resistir às habilidades de bardo e 
+reduz o custo de mana da habilidade Inspiração pela 
+metade (após aplicar quaisquer outras reduções).
+Grevas do Velocista. Essas botas prateadas 
+de mitral são incrivelmente leves e fornece ao seu 
+usuário uma velocidade sobrehumana. Você recebe 
++4 em Destreza (somente após um dia de uso). 
+Além disso, uma vez por cena, pode gastar 5 PM para 
+dobrar seu deslocamento e receber +4 na Defesa e 
+em Reflexos por 1 rodada.
+Luvas do Oportunista. Essas luvas feitas de 
+um tecido leve tem a gravura de uma raposa no seu 
+tecido. Ao usar Ladinagem para obter tibares (como 
+Punga ou Sustento), você recebe +1d4 TO para cada 
+10 pontos de resultado no seu teste.
+Manto da Dragoa-Rainha. O primeiro 
+exemplar deste item foi fabricado com a pele de um 
+leão mágico por uma lendária guerreira shamiri, mas 
+passou a ser fabricado por outros ferreiros com a 
+pele de dragões nativos do deserto. Ao vestir o Manto 
+da Dragoa-Rainha, você recebe redução de dano igual 
+a sua Força e +5 na Defesa.
+Rosa Negra. Este broche em formato de uma 
+rosa escura com ramos espinhentos é cultivado por 
+jardineiros monstruosos. Ele funciona como um 
+parasita que se aloja no corpo, necessitando de um 
+teste de Cura (CD 30) para remover posteriormente. 
+Quando vestido, a Rosa Negra desabrocha, reduzindo 
+seus pontos de vida máximos em –2 por nível, mas 
+lhe fornecendo +1 PM por nível.
+Túnica Élfica. Esta peça de vestuário élfico 
+é feito de uma seda delicada e adornos em prata e 
+ouro, com pequenas costuras arredondadas em pa-
+drões impossíveis para humanos reproduzirem sem 
+morrer de velhice. Cada fio é encantado com palavras 
+élficas que potencializa as capacidades do seu usu-
+ário. Você recebe +2 em Acrobacia, Reflexos e em 
+testes de ataque com armas leves, ágeis e a distância.
+Tabela 3–11: Acessórios Específicos
+Arma
+Categoria
+Preço
+Brincos da Coragem
+Maior
+T$ 150.000
+Colar da Paciência
+Maior
+T$ 140.000
+Coroa da Temperança
+Maior
+T$ 130.000
+Faixas do Titã
+Maior
+T$ 120.000
+Flauta do Espírito 
+Ecoante
+Maior
+T$ 87.000
+Grevas do Velocista
+Maior
+T$ 120.000
+Luvas do Oportunista
+Menor
+T$ 4.500
+Manto da Dragoa-Rainha
+Médio
+T$ 25.500
+Rosa Negra
+Menor
+T$ 3.000
+Túnica Élfica
+Médio
+T$ 25.500
+263
+
+=== PAGE 265 ===
+Capítulo Três 
+Itens Litúrgicos
+Gaa'ol	
+aharadak
+Esta corrente de espinhos de materia vermelha 
+possui olhos macabros pela sua extensão e um for-
+mato peculiar de apêndice, com anzóis feitos do que 
+parece ser carne. Quando empunhado por um devoto 
+de Aharadak, ele se torna uma corrente de espinhos atroz 
+macabra de materia vermelha lancinante que se enrola 
+nos braços do usuário, enfiando agulhas na carne e 
+fazendo uma conexão. O usuário passa a ouvir uma 
+voz em sua mente, que o humilha constantemente, o 
+deixando frustrado, mas essa humilhação lhe causa 
+um ódio que o fornece +5 em rolagens de dano e por 
+ela está impregnada em seu corpo, impede-o de ser 
+desarmado. Arma específica média, preço T$ 44.000.
+Colar Sazonal	
+Allihanna
+Este simples colar feito de vinhas e folhas secas 
+tem um brasão de madeira com um entalhe na forma 
+de uma árvore. Quando vestido por um devoto de 
+Allihanna, fornece +5 em Sobrevivência, com +5 
+de Adestramento se o devoto for de patamar cam-
+peão ou maior. Caso o usuário possua a habilidade 
+Abençoado ou Devoto Fiel, o colar também fornece 
+Constituição e Sabedoria +1 (após 1 dia de uso, 
+cumulativo com outros itens litúrgicos). Acessório 
+médio, preço T$ 35.500.
+Exoesqueleto	
+arsenal
+Esse mecânismo rúnico são vergalhões mecani-
+zados alimentados por magias é instalado sobre o 
+corpo ou uma armadura (ocupando o espaço de um 
+item vestido). Ativar o exoesqueleto custa 2 PM e 
+mantê-lo ativado é um efeito sustentado, mas for-
+nece Força e Destreza +1. Se for devoto de Arsenal, 
+esse ganho dobra e você recebe +5 em Acrobacia, 
+Atletismo e Reflexos. Acessório maior, preço T$ 77.450.
+Keren or	
+azgher
+Essa máscara é ofertada pelo próprio avatar do 
+deus-sol a devotos que realizaram grandes feitos, e 
+por isso seu valor é inestimável. Seu nome é shamiri, 
+e significa "raio de sol". Trata-se de uma máscara 
+completa que fornece +5 em Diplomacia e Intimi-
+dação. Quando vestida por um devoto de Azgher, 
+também pode mudar sua forma para tornar-se um 
+elmo, fornecendo fortificação +25% e imunidade as 
+condições cego, ofuscado e permitindo enxergar em 
+qualquer tipo de escuridão (incluindo mágica).
+Se o usuário da máscara for da linhagem kar-
+nalach (p. @@), ele pode gastar 6 PM para invocar 
+uma alfange atroz pungente de mitral magnífica flamejante 
+sagrada com dano base de 4d6 (fogo). Manter a espa-
+da é um efeito sustentado. Acessório maior, sem valor 
+comercial.
+Almofada de Pum	
+Hynnin
+Este pequeno saco de couro contém um gás 
+mágico armazenado em seu interior que emite um 
+som de flatulência quando apertado. Você pode 
+plantar a almofada em um assento ou superfície na 
+qual uma pessoa está indo se sentar com um teste de 
+Ladinagem oposto a Percepção das criaturas na cena 
+(devoto de Hynnin tem +5 no teste). Uma criatura 
+que ative a almofada fica constrangida e passa a ter 
+–5 em testes de perícias sociais até o fim da cena. 
+Acessório menor, preço T$ 9.000.
+Manto Dracônico	
+Kallyadranoch
+Esta capa com dragonas em forma de cabeças de 
+dragões possui uma textura escamosa, como se feito 
+com a pele de uma dessas criaturas lendárias. Aquele 
+que vestir a capa recebe redução 10 contra um tipo 
+de dano a sua escolha entre ácido, eletricidade, fogo, 
+frio, luz ou trevas. Se for devoto de Kallyadranoch, 
+pode escolher três tipos de dano, invés de apenas 
+um. Se for de patamar campeão ou maior, a redução 
+muda para 20. Acessório médio, preço T$ 35.000.
+Oratriz Mecânica
+de Análise Cardinal	
+Khalmyr
+Uma balança de prata perfeitamente simétrica 
+contendo o símbolo de Khalmyr gravado na base. A 
+Oratriz pode ser empunhada com as duas mãos para 
+que o usuário possa lançar a magia Círculo da Justiça 
+sem gastar PM (atributo-chave Sabedoria). Se for um 
+devoto de Khalmyr com a habilidade Abençoado ou 
+Devoto fiel, você pode gastar uma ação completa e 5 
+PM para julgar todas as criaturas em alcance curto. 
+As criaturas julgadas sofrem uma penalidade cumu-
+lativa de –1 em testes de perícia, rolagens de dano e 
+na Defesa se; forem devotas de deuses malignos (in-
+clui Nimb), desonradas, desonestas, forem malignas 
+264
+
+=== PAGE 266 ===
+Arsenal dos Mitos
+e/ou forem criaturas da tormenta. Essa penalidade 
+dura até o fim da cena. Acessório maior, preço T$ 55.555.
+Cesta de Provisões	
+Lena
+Uma cesta simples feita de palha com um 
+tampo de tecido, contendo em seu interior uma 
+quantidade significativa de comida. A cesta remove 
+a necessidade de se alimentar do usuário e de seu 
+grupo, pois a mesma fornece provisões infinitas — 
+mas que não fornece qualquer benefício mecânico. 
+Se for um devoto de Lena, você pode gastar 3 PM e 
+tirar um alimento especial da cesta que dura por 1 
+dia. Uma criatura que consuma o alimento recebe os 
+benefícios de um descanso normal (apenas uma vez 
+por dia), mas ainda precisa dormir se precisar. Uma 
+criatura que não se beneficie de itens da categoria 
+alimentação não recebe os benefícios deste item. No 
+patamar campeão, esse alimento especial fornece 
+os benefícios de um descanso confortável. Acessório 
+menor, preço T$ 18.000.
+Hanakiri	
+Lin-wu
+A verdadeira hanakiri foi uma katana precisa 
+empunhada por um dos libertadores, mas que logo 
+foi replicada pela igreja de Lin-Wu para ser dada para 
+outros samurais. Quando empunhada por um devoto 
+de Lin-Wu, hanakiri se torna uma katana precisa ame-
+açadora veloz que, ao realizar um acerto crítico com 
+ela, o dano da arma aumenta em dois passos e ela 
+causa +4d6 pontos de dano de eletricidade adicional. 
+Se possuir a habilidade Abençoado ou Devoto Fiel, o 
+dano de eletricidade extra aumenta para 4d8. Arma 
+específica média, preço T$ 60.000.
+Armadura Atraente	
+Marah
+Esta armadura sensual ligeira é bem reveladora 
+e vulgar, contendo panos diáfanos ornamentando 
+as poucas partes metálicas. Quando vestida por 
+um devoto de Marah, revela-se como uma armadura 
+sensual de adamante banhada a ouro cravejada de gemas 
+gloriosa ligeira reanimadora que soma o efeito do poder 
+Atraente na CD para resistir aos seus efeitos que 
+causa as condições enfeitiçado, fascinado e pasmo e 
+nos seus efeitos mágicos de cura. Armadura específica 
+média, preço T$ 69.000.
+Andrajos do 
+Predador Primal	
+Megalokk
+Um manto feito de uma carapaça emplumada e 
+adornado com presas. Quando vestido por um drui-
+da, ao usar Forma Selvagem, o vestuário se adapta a 
+nova forma, aumentando o bônus de Defesa forne-
+cido pela Forma Selvagem em +1, fornecendo um 
+bônus de +1 rolagem de dano com armas naturais 
+e +2 em Atletismo (cumulativo com outros itens). 
+Se o druida vestindo o item for devoto de Megalokk, 
+suas armas naturais tem o dano aumentado em dois 
+passos. Acessório médio, preço T$ 20.000.
+Nuvem de Al-gazara	
+Nimb
+Este "item" é na verdade um parceiro especial 
+que normalmente é obtido ao ser comprado dentro 
+de uma garrafa, quando libertado, a fumaça sai da 
+garrafa e se revela uma montaria que ajusta seu 
+próprio tamanho para poder carregar o seu agora 
+amigo de jornada. A nuvem de Al-Gazara fornece a 
+habilidade Sorrelfliflo Galunflante (veja Deuses de Ar-
+ton, p. 195) e aumenta seu deslocamento em +7.5m. 
+Acessório maior, preço T$ 177.777.
+Concha do Retorno	
+Oceano
+Uma fina corda de cânhamo segurando uma con-
+cha similar ao símbolo do Grande Oceano. Quando 
+vestido, o usuário passa a poder respirar embaixo 
+d'água. Se vestido por um devoto de Oceano, além 
+do efeito acima, o usuário pode gastar 1 minuto e 
+5 PM para se teletransportar imediatamente para a 
+costa mais próxima da sua posição. Esse efeito só 
+pode ser usado uma vez por dia. Acessório menor, preço 
+T$ 15.000.
+Sobretudo Síbiloso	
+Sszzaas
+Este sobretudo é formado por um couro escamo-
+so, escuro e escorregadio, que fornece +2 em Furti-
+vidade. Se usado por um devoto de Sszzaas, o bônus 
+em Furtividade muda para +5 e o usuário pode gastar 
+2 PM para receber camuflagem leve até o fim da cena. 
+Se possuir a habilidade Bênção Maldita ou Devoto 
+Fiel e for devoto de Sszzaas, você recebe a habilidade 
+Trocar de Pele (veja Deuses de Arton, p. 203), mas deve 
+gastar 5 PM para usá-la e usa Destreza para cálculo 
+de CD. Acessório maior, preço T$ 222.222.
+Registros de Prata	
+Tanna-Toh
+Esta bolsa de couro surrada contém uma 
+camarilha considerável de pergaminhos e livros 
+informativos. Uma vez por dia, você pode gastar 1 
+hora estudando os livros na bolsa para receber +1 
+em testes de perícia originalmente baseadas em 
+Inteligência ou Sabedoria. Se for um devoto de Tan-
+na-Toh, você pode, uma vez por rodada, gastar uma 
+ação de movimento e rolar 1d4-1 para tentar tirar um 
+pergaminho contendo uma magia arcana ou divina 
+a sua escolha cujo círculo seja igual ou menor que 
+o resultado da rolagem (atributo-chave Sabedoria). 
+Em um resultado 0, você não tira nada de útil da 
+bolsa. Acessório médio, preço T$ 55.000.
+265
+
+=== PAGE 267 ===
+Capítulo Três 
+Batom Fatal	
+Tenebra
+Esta maquiagem para os lábios na cor roxa tem a 
+capacidade de escurecer, tornando-se preta, quando 
+seu usário fica sob influência de uma forte emoção. 
+Se for um devoto de Tenebra, você pode gastar 1 
+minuto aplicando o batom, que dura até o fim do dia. 
+Você pode beijar criaturas adjacentes, desde que elas 
+estejam enfeitiçadas ou fascinadas — do contrário ela 
+pode resistir ao beijo com um teste de Reflexos (CD 
+Des). O alvo do beijo perde 6d6+6 PV por veneno e 
+fica fraco. Acessório menor, preço T$ 20.000.
+Punho do Istmo	
+Thwor
+Essa manopla atroz de engenharia goblinoide é 
+um item, misteriosamente, mundano. Porém quando 
+vestido por um devoto de Thwor, um mecanismo de 
+reconhecimento abre um compartimento que revela 
+um olho macabro. Este olho modifica a manopla, 
+tornando-a uma manopla atroz pungente magnífica que 
+permite o usuário lançar Dissipar Magia, uma vez por 
+rodada, sem custo de PM, podendo fazê-lo como 
+uma reação. Acessório médio, preço T$ 50.000.
+Anuladora do destino	
+Thyatis
+Essa espada longa de aço-rubi possui uma guar-
+da na forma das asas de uma fênix, além da inscrição 
+"Laa fursun thaaniya" pela lâmina, escrita em uma al-
+fabeto antigo. Um devoto de Thyatis que empunhar 
+a espada a transforma em uma espada longa de aço-rubi 
+flamejante magnífica que permite que seu usuário pos-
+sa, uma vez por dia, matar uma criatura inteligente 
+sem violar suas obrigações & restrições, desde que 
+ela seja maligna. Se for devoto de Thyatis e possuir 
+a habilidade Abençoado ou Devoto Fiel, você pode 
+matar criaturas da tormenta e cultistas de Aharadak 
+livremente, sem violar suas obrigações & restrições. 
+Arma específica maior, preço T$ 110.000.
+Capa do Andarilho	
+Valkaria
+A primeira vista, esta capa surrada e rasgada 
+com um capuz gasto e com diversas marcas de uso 
+seria usado apenas por camponeses miseráveis, no 
+entanto, quando vestido por um devoto de Valkaria, 
+ele revela suas capacidades. Você recebe +20 em 
+testes de Acrobacia e Atletismo e dobra todas as suas 
+formas de deslocamento. No entanto, se falhar em 
+qualquer teste de resistência contra uma condição de 
+movimento, a capa para de fornecer seus efeitos até o 
+início do próximo dia. Acessório maior, preço T$ 90.000.
+Cajado dos sete reinos	
+Wynna
+Este cajado arcano de prata possui um grande 
+anel com seis outros anéis menores o adornando, 
+com cada anel menor tendo uma cor diferente e 
+feito de materiais distintos, representando os seis 
+elementos da magia. Quando empunhado por um 
+devoto de Wynna, o cajado dobra os benefícios do 
+esotérico e, ao usar uma magia que cause dano de 
+ácido, eletricidade, essência, fogo, frio, luz ou trevas, 
+o dano aumenta em +7d8. Esotérico específico médio, 
+preço T$ 77.000.
+Liturgia
+dos Caídos
+O
+s itens nesta categoria são perten-
+cente a deuses atualmente caídos, 
+e perdem seus efeitos por completo 
+quando usados em um tempo em que 
+a divindade caiu, tornando-se mundanos.
+A ideia é que estes itens possam ser usados em 
+campanhas e aventuras onde essas divindades ainda 
+estejam atuando como deuses maiores, como A 
+Libertação de Valkaria ou Guerra Artoniana.
+Arco Esmeril	
+glórienn
+Este arco élfico formidável é produzido com 
+uma madeira única extraída de Nivenciuén, e por 
+isso pode somar Sabedoria nas rolagens de dano, 
+invés de Inteligência (ou Carisma se for de uma raça 
+élfica). Se for devoto de Glórienn, este item se torna 
+um arco élfico caçador magnífico que tem seu tipo de 
+dano convertido para luz, não precisa de munição e 
+está sempre sob efeito da magia Flecha de Luz com o 
+aprimoramento exclusivo de arqueiros de Lenórienn. 
+Arma específica maior, preço T$ 145.000.
+Sabre Florido	
+glórienn
+Este sabre élfico (mesmas estatísticas de uma 
+katana) preciso possui lâmina prateada e bainha es-
+verdeada com detalhes floridos. Quando empunhado 
+por uma raça élfica, permite somar o Carisma nas 
+rolagens de dano, mas quando empunhado por um 
+devoto de Glórienn, se torna um sabre élfico preciso 
+pungente defensor magnífico que soma seu Carisma em 
+testes de ataque. Os efeitos são cumulativos. Arma 
+específica maior, preço T$ 91.000.
+Túnica da Eternidade	
+glórienn
+Esta vestimenta na forma de um robe longo pos-
+sui tecido fino e uma estamparia e qualidade digna 
+de mãos que passariam milênios a fazendo. Quando 
+vestido por um elfo, você recebe +5 PV e +2 PM, ou, 
+se estiver usando a regra opcional de idades variadas, 
+pode remover uma complicação de idade afetando 
+seu personagem. Você recebe +PV e PM adicional, 
+ou remove uma complicação adicional, se for de-
+266
+
+=== PAGE 268 ===
+Arsenal dos Mitos
+voto de Glórienn. Se também possuir a habilidade 
+Abençoado ou Devoto Fiel, recebe esse ganho uma 
+terceira vez. Acessório maior, preço T$ 150.000.
+Armadura Viva	
+Keenn
+Essa armadura completa reforçada escura e 
+de aspecto sombrio contém diversos espinhos em 
+seu interior que estimula o seu usuário a seguir as 
+intenções genocidas de Keenn. Você recebe –5 em 
+Diplomacia, mas sempre que mata uma criatura viva 
+de forma violenta, recupera 1d6 PV. Se for devoto 
+de Keenn, este item se revela uma armadura completa 
+de adamante reforçada guardiã que aumenta a cura por 
+matar para 1d12 PV. Armadura específica média, preço 
+T$ 45.000.
+Genocídio	
+Keenn
+Esta espada longa atroz de lâmina escura e 
+guarda alaranjada é empunhada juntamente a outra 
+arma pela maioria dos anjos de guerra. Se for devoto 
+de Keenn, ela se torna uma espada longa atroz farpada 
+sanguinária que tem o bônus do atroz aumentado 
+para +5 contra criaturas vivas. Se for devoto de 
+Keenn e possuir a habilidade Bênção Maldita ou 
+Devoto Fiel, o dano da arma aumenta em um passo 
+para cada d6 de vida que um alvo sangrando tenha 
+acumulado quando é acertado. Arma específica menor, 
+preço T$ 34.000.
+Massacre	
+Keenn
+Esta maça de guerra maçica completamente es-
+cura e de pontas afiadas é normalmente vista sendo 
+empunhada por devotos de Keenn excepcionalmente 
+crueis. Quando empunhada por um devoto de Keenn, 
+se torna uma maça de guerra de adamante maçica lanci-
+nante que tem o multiplicador de crítico aumentado 
+em +1 contra criaturas vivas. Se for devoto de Keenn 
+e possuir a habilidade Bênção Maldita ou Devoto 
+Fiel, o multiplicador de crítico da arma aumenta em 
++1 ponto adicional contra criaturas sangrando. Arma 
+específica média, preço T$ 43.000.
+Algoz de Glórienn	
+Ragnar
+Este gadanho macabro foi feito usando ossos e 
+tendões de elfos mortos violentamente na tentativa 
+de passar uma mensagem. Quando empunhado por 
+um devoto de Ragnar, ele se torna um gadanho atroz 
+macabro tumular que tem o dano aumentado em dois 
+passos contra elfos. Porém, este item fornece –5 em 
+Diplomacia e se for visto empunhando e efetivamen-
+te usando este item por um elfo, ele fica automatica-
+mente hostil em relação a você. Arma específica menor, 
+preço T$ 44.000.
+Foice da Passagem	
+Ragnar
+Esta foice de adamante macabra possui uma 
+corrente em seu cabo que é enrolado ao braço do 
+usuário. O usuário pode arremessar a foice em alcan-
+ce curto, e então puxa o alvo atingido até que fique 
+adjacente como uma reação (Fort CD For evita). Se 
+for devoto de Ragnar, a foice passa a causar dano de 
+trevas e o dano muda para 1d12. Além disso, criatu-
+ras atingidas pela foice ficam abaladas. Arma específica 
+curta, preço T$ 14.000.
+Crânio Póstumo	
+Ragnar
+Esse crânio envelhecido parece ter pertencido 
+a algum humanoide. Quando empunhado por um 
+devoto de Ragnar com a habilidade Magias, suas ma-
+gias que causam dano deixam os inimigos abalados 
+se o alvo falhar na resistência. Se for um devoto de 
+Ragnar com a habilidade Hemofilia, este item tam-
+bém recebe os efeitos de uma Presa Vampírica (p. 
+@@). Esotérico específico menor, preço T$ 34.000.
+Cinturão do Poder	
+Tauron
+Este cinturão de couro e rebites pesados de ferro 
+adornado com símbolos sagrados só pode ser vestido 
+por uma criatura com Força 4 ou maior. Quando 
+vestido por um devoto de Tauron, o dano das suas 
+armas naturais e ataques desarmados aumenta em 
+dois passos, com um passo adicional se o devoto for 
+um minotauro. Acessório médio, preço T$ 58.000.
+Escudo da Legião	
+Tauron
+Este escudo torre reforçado tem a heráldica de 
+Tiberus estampado e costuma ser usado por legioná-
+rios do império. Quando empunhado por um devoto 
+de Tauron e encaixado no chão, aqueles que forem 
+aliados do usuário e ficar adjacente ao mesmo — e 
+o usuário adjacente do escudo — recebem cobertura 
+total. Além disso, se o devoto em questão for um 
+minotauro, o escudo se torna um escudo torre reforçado 
+guardião. Escudo específico médio, preço T$ 70.000.
+Machado Vulcânico	
+Tauron
+Este machado táurico maciço parece ter sido 
+feito de uma rocha vulcânica extraída diretamente 
+de Kundali. Quando empunhado por um minotauro 
+devoto de Tauron, o machado perde a propriedade 
+desbalanceada e passa a causar +1d8 pontos de dano 
+de fogo adicional — esse dano é multiplicado em 
+acertos críticos. Se o usuário em questão também 
+possuir a habilidade Abençoado ou Devoto Fiel, o 
+machado se torna um machado táurico maciço de rocha-
+-matriz flamejante cujo dano do encantamento muda 
+para d8. Arma específica menor, preço T$ 80.000.
+267
+
+=== PAGE 269 ===
+Capítulo Três 
+Artefatos
+A Espada-Mestra
+Existe poucos registros de como era o antigo 
+mundo das deusas exteriores que criou o continente 
+de Alstra, nem mesmo os próprios habitantes da 
+terra dos heróis sabe sobre seu antigo mundo, todos, 
+exceto uma única entidade; a deusa Glória. Ela foi 
+a primeira guerreira daquele antigo mundo, e a que 
+também lutou em nome das deusas usando seu mais 
+poderoso artefato, A Espada-Mestra. Trata-se de uma 
+lâmina prateada com gravuras em uma língua morta 
+que cintila em dourado, com uma guarda e cabo dou-
+rado, tendo a guarda em formato de asas e um pomo 
+rubra, com uma forma pontuda. É dito que apenas 
+um verdadeiro herói pode empunhar este artefato, e 
+até o momento, isso nunca se provou mentira.
+A espada é na verdade um espírito inteligente, 
+a filha única das três deusas, cujo nome é desconhe-
+cido, mas que assume a forma de uma espada para 
+ser utilizada por heróis poderosos na luta contra as 
+forças do mal, o que inclui os demônios da tormenta, 
+as forças puristas e até mesmo uma recente infecção 
+que está se alastrando não apenas por Arton, mas 
+também por Alstra. A espada reconhece qualquer 
+criatura que é verdadeiramente maligna, e assim 
+como sua primeira portadora, não demonstra pieda-
+de sobre estes inimigos. No entanto, por não ter a 
+capacidade plena de falar, ela nunca disse sobre seu 
+antigo mundo, assim como Glória não o faz, por ter 
+se tornado um conceito.
+Porém, não é qualquer herói que pode empunhar 
+a espada, ou sequer encontrá-la onde quer que ela 
+esteja para poder tê-la em suas mãos. Somente raças 
+do tipo espírito ou humanoides com pelo menos 15 
+níveis em classes que possuam um código de conduta 
+e que sejam devotos de deuses que canalizam apenas 
+energia positiva podem tentar empunhar a espada. 
+Para isso, ela deve removê-la do pedestal fazendo 
+um teste estendido de Religião, Nobreza e Guerra 
+(CD 30), devendo obter um sucesso com cada perícia 
+antes de três falhas. Se passar, você também deve sa-
+crificar 1 de Constituição e de 5 a 20 PM, para definir 
+o nível de poder da espada enquanto desperta — um 
+estado em que ela se põem quando está enfrentando 
+criaturas que considera como sendo vilões.
+A Espada-Mestra é sempre considerada como 
+sendo favorita de qualquer divindade benigna na 
+qual você for devoto, se trata de uma espada bastarda 
+de aço-rubi e mitral precisa pungente ameaçadora magnífica 
+aperfeiçoada com dano base de 4d12 que reduz o cus-
+to do Golpe Divino à metade (após aplicar quaisquer 
+outras reduções) e dobra os dados de dano dessa ha-
+bilidade contra criaturas corruptas. Contra vilões, ela 
+desperta, maximizando os dados de dano do Golpe 
+Divino — além de dobrá-los.
+Para cada 5 PM sacrificado ao empunhar A Es-
+pada-Mestra pela primeira vez, a margem de ameaça 
+dela aumenta em +1, se sacrificou 10 PM, ela tam-
+bém passa a ignorar imunidades e reduções de dano 
+de criaturas corruptas e vilões. Se você sacrificou 20 
+PM ao todo, ela também recebe +2 no multiplicador 
+de crítico quando esta desperta.
+Por fim, A Espada–Mestra é uma arma inteligente 
+com as seguintes características: Artefato (nível 20); 
+Ego 39, Int 2, Sab 2, Car 8 e 32 PM; Perícias: Intuição 
++18, Religião +18; Magias: Benção, Círculo da Justiça, 
+Soco de Arsenal (CD 30, atributo-chave Carisma). Ela 
+se comunica por empatia e tem Percepção ás Cegas 
+em alcance médio.
+A Espada-Mestra tem uma personalidade impie-
+dosa, sempre mostrando desaprovação quando seu 
+usuário não mata criaturas corruptas ou vilões, pois 
+não acredita na redenção. Se poupar inimigos, ela irá 
+desaprovar sua atitude, e irá ativamente ser contra 
+qualquer forma de piedade contra demônios da 
+tormenta, nesses casos, o Ego dela aumenta em +11.
+As Três Virtudes
+As deusas exteriores possuiam consigo o que 
+seria equivalente em Arton aos rubis da virtudes, um 
+objeto de imenso poder bruto formado pela essência 
+de tais divindades. Cada um destes artefatos tomou 
+a forma de um triangulo dourado e gravurado com 
+o símbolo de cada uma das deusas, com o tamanho 
+aproximado de um punho fechado. Cada um fornecia 
+a quem empunhasse capacidades extraordinárias, e 
+quando unidas, conseguiam realizar feitos que rivali-
+zavam com os próprios deuses maiores da Criação, e 
+quiça até mesmo com o Nada e o Vazio. Este artefato 
+ficou conhecido como As Três Virtudes.
+268
+
+=== PAGE 270 ===
+Arsenal dos Mitos
+Diferente dos rubis da virtude originais, as vir-
+tudes não eram parte da essência vital das deusas, 
+e por isso não tinha a capacidade de matá-las caso 
+destruídas. No entanto, as virtudes são verdadeira-
+mente indestrutíveis, nada na Criação é capaz de as 
+destruir, e caso algo consiga este feito impossível, 
+elas se reconstroem em um passe de mágica. É dito 
+que a única coisa que consegue verdadeiramente 
+destruir as virtudes é o próprio Nada e Vazio. Cada 
+virtude é empregada a uma figura que represente o 
+máximo de cada deusa, empregando uma profecia 
+cíclica que se repete até os dias de hoje.
+Cada Virtude fica oculta em ambientes específi-
+cos, e quando empunhadas, são absorvidas por quem 
+a tocou e passa a fornecer suas capacidades, mas o 
+ser que o fez deve ser bem sucedido em um teste de 
+Vontade (CD 25), se falhar, passa a atender os de-
+sejos de cada Virtude, podendo se tornar, de acordo 
+com a Virtude obtida, um vilão ou um herói certinho, 
+de acordo com as motivações de cada deusa — Veja 
+mais na página @@. Uma vez absorvida, a Virtude 
+só pode ser removida do portador quando ele morre.
+A Virtude da Temperança fornece ao portador 
+redução de dano 20/essência e luz, +2 em testes 
+de resistência e +1 em seus atributos físicos. Além 
+disso, se morrer, o portador retorna a vida após 3 
+dias, só morrendo por definitivo caso seja destruído 
+pel'A Espada-Mestra.
+A Virtude da Paciência só aceita portadores com a 
+habilidade de classe Magias, o que permite o portador 
+lançar magias sem precisar de concentração, gestos 
+ou vocalizações. Além disso, o portador aprende 
+uma magia adicional por nível, recebe +1 em seus 
+atributos mentais e +20 PM.
+A Virtude da Coragem fornece ao portador imuni-
+dade a medo, incluindo contra fobias raciais, efeitos 
+que ignoram imunidade a medo não funcionam con-
+tra o portador deste artefato. Além disso, o portador 
+pode lançar as magias Heroísmo e Potência Divina sem 
+gastar PM. Por fim, o usuário reduz a CD do teste 
+para empunhar A Espada-Mestra em –5 e não sacrifica 
+Constituição para poder sacar ela de onde esteja.
+Quando As Três Virtudes se reunem em um único 
+ambiente, seus portadores podem abdicar volun-
+tariamente de tais artefatos, fazendo os triângulos 
+formarem um maior chamado de A Verdadeira Virtude, 
+que concede um único Desejo àquele que portava a 
+Virtude da Coragem. O desejo não exige sacrifício de 
+PM ou pode ser mal interpretado. Após isso, ela se 
+separa e surgem novamente em novos ambientes 
+para ser descoberta, mas cada ambiente em que as 
+virtudes se confinam ficam selados por 1d10 séculos.
+Armadura  
+do Mirmidão-Rei
+Antes de se tornar quem é hoje, o morto-vivo 
+conhecido como Drenir já foi um valoroso e altivo 
+elfo da cidade de Lenórienn, sendo parte da cavalaria 
+élfica do reino. Acredita-se que ele caiu em desgraça 
+pouco depois da queda de seu lar, e então se afogou 
+em uma espiral declinante que o levou ao Oblívio. 
+Abraçado pela mãe-noite, ele se tornou um servo de 
+Tenebra, recebendo suas bênçãos e tornando-se um 
+dos seres mais poderosos que atualmente governa a 
+ilha isolada e enevoada de Umbralar.
+Drenir passou a ter um interesse particulamente 
+macabro por almas, para ele, quanto mais inocente 
+e pura a alma que estiver sob seus dominios, mais 
+poder e mais valor ela tem. Através dessa absorção 
+e armazenamento de almas, ele se tornou um dos 
+poucos ceifadores de essência existentes. Através 
+desse poder, ele criou artefatos poderosos que estão 
+diretamente vinculados a sua própria alma, que são 
+destruídos apenas sob circunstâncias e ordens espe-
+cíficas, e um deles é a sua própria armadura. Mas foi 
+um dos últimos artefatos vitais criados por ele.
+Se de alguma forma você conseguir obter a 
+Armadura do Mirmidão-Rei e a vestir, deve passar em 
+um teste de Vontade (CD 40), ou sua mente será 
+dominada por Drenir e você se tornará um de seus 
+vassalos — perdendo seu personagem no processo. 
+Mas se passou no teste, deverá repetí-lo a cada se-
+mana para se manter são. Matar uma criatura cujo 
+Drenir julgue como valioso faz a CD abaixar em –10 
+no próximo teste.
+Esta armadura completa de adamante blindada maca-
+bra reforçada selada guardiã invulnerável opaca fornece ao 
+usuário imunidade a efeitos de cansaço, metabólicos, 
+sentidos, trevas e venenos, além de aumentar os 
+dados de dano de Força do Oblívio, Arma Bruxeira, 
+de seus sinais e de magias de necromancia em uma 
+categoria (máx. d20). Além disso, o usuário também 
+recebe +20 PV e percepção às cegas — ou se já pos-
+suir, aumente seu alcance em um passo, até longo.
+Embora não possa ser avariada, a Armadura 
+do Mirmidão-Rei pode ser destruída ao realizar atos 
+específicos, tal qual todos os seus outros artefatos. 
+Para destruir por definitivo a armadura e enfraquecer 
+o seu criador, ela deve ser atacada e destruída por 
+um algoz da tormenta ou lekael. Estar vestindo a Ar-
+madura de Crânio Negro (veja Heróis de Arton, pg. 274) 
+enquanto luta com alguém vestindo este artefato 
+também configura como estando apto para destruir a 
+Armadura do Mirmidão-Rei.
+269
+
+=== PAGE 271 ===
+Capítulo Três 
+Dagnir
+Forjada nos primórdios da civilização por um 
+digníssimo anão na ideia de lutar contra goblinoides 
+que invadiam seu vilarejo subterrâneo, no qual era 
+dividido com humanos. A espada foi posteriormente 
+entregue a um solitário cavaleiro que se vestia com 
+uma armadura de pedra, e então a espada se tornou 
+lendária com o passar dos anos. É dito que o anão que 
+a forjou tinha acesso a materiais exóticos e especiais 
+que não eram populares em sua época, ou sequer 
+poderiam ser obtidos na região em que ele vivia.
+O cavaleiro de pedra, a entidade que levou esta 
+espada a glória que a tornou um poderoso artefato, 
+utilizou a espada a exaustão, até depois da sua mor-
+te, quando seu corpo se recusou a morrer e tornou-se 
+um dos primeiros osteons a caminhar pelas terras 
+de Arton. Sua fama passou a serví-lo, e não apenas a 
+sua espada mas sua própria existência se tornou len-
+dária, e o cavaleiro de pedra se revelou como sendo 
+Jaséric Sharpblade, um dos primeiros membros da 
+linhagem da Rainha-Imperatriz Shivara.
+Jaséric era, e ainda é, pois recuperou seu corpo 
+mortal e vivo após um pacto com uma divindade, um 
+guerreiro poderoso, servo de Kallyadranoch e também 
+um de seus tiranos, tendo até mesmo conquistado 
+uma coisa que poucos seres em Arton conquistaram, 
+a capacidade de tornar-se um dragão verdadeiro. Sua 
+espada foi fortalecida pelo poder divino, tornando-se 
+Dagnir, um artefato de grande poder, uma lâmina 
+gigantesca que, apesar dos materiais aparentemente 
+simples, pois não há metal em sua composição, é tão 
+poderosa quanto qualquer outra espada.
+O que antes era uma simples espada poderosa de 
+pedra se tornou Dagnir, uma espada bastarda gigante 
+atroz maciça de madeira tollon e rocha-matriz aperfeiçoada 
+excruciante magnífica que conta como uma arma alon-
+gada e desbalanceada que duplica todos os bônus de 
+dano da arma, fixos ou variáveis, e de seus materiais 
+especiais. Além disso, o efeito do encanto excruciante 
+afeta qualquer criatura, não  apenas as vivas. Por fim, 
+ao atacar com Dagnir, você pode gastar 3 PM para 
+ignorar qualquer forma de imunidade, invulnerabi-
+lidade ou resistência que poderia reduzir ou evitar o 
+dano de seus golpes.
+Não só letal, Dagnir é uma arma extremamente 
+pesada, sendo necessário ter pelo menos 5 de Força 
+para brandi-la, do contrário você sequer é capaz de 
+levanta-la do chão. Ainda assim, é necessário ter pelo 
+menos 10 de Força para usá-la apropriadamente, ou 
+você sofre –10 em seus testes de ataque com ela. 
+Essa arma é indestrutível, não pode ser avariada e, 
+diferente do normal, ocupa 5 espaços de item.
+gungnir
+Em Alstra, armas específicas tem significados 
+específicos, a lança por exemplo, é um símbolo de 
+realeza e autoridade, e por mais que todos possam 
+utilizar essa arma, somente aqueles reconhecidos 
+como governantes ou generais tem prestígio ao 
+empunhar este armamento em combate. É sempre 
+fácil reconhecer generais alstranis em um campo de 
+batalha, pois eles estarão empunhandos lanças nas 
+quais ornamentam com estandartes de suas nações. 
+Tal cultura segue imutável desde antes de Alstra 
+fazer parte do continente artoniano.
+Cada raça vivente em Alstra tem seu represen-
+tante máximo, seja ele um general ou rei, entre as 
+valquírias, existiu Fjörna, a primeira valquíria criada 
+pela deusa Glória, que mais tarde veio a falecer du-
+rante o conflito que destruiu o antigo mundo onde os 
+alstranis viviam. Desde então, a lança da rainha das 
+valquírias passou a ser empunhada por sua general, 
+Nike, que recebeu esse nome da própria Fjörna, sua 
+rainha e mãe. A lança então se manteve com a val-
+quíria por um longo periodo, tendo sido vagamente 
+empunhada pela filha da general valquíriana, antes 
+de voltar para suas mãos.
+Gungnir se trata de uma lança valquíriana de azurita 
+e prata banhada a ouro pungente aperfeiçoada de arremesso 
+magnífica que ao invés de voar de volta para o usuário, 
+se fixa no que acerta, podendo ser usado tanto como 
+plataforma acrobática (caso jogada contra uma su-
+perfície vertical) quanto para explodir (se fixada em 
+uma criatura). Gungnir só se fixa em uma criatura se 
+você acertar o ataque, do contrário, ela desasparece, 
+e uma nova lança surge em sua mão. Uma vez fixada, 
+você pode criar uma nova lança em sua mão gastando 
+1 PM, podendo manter uma quantidade máxima de 
+lanças igual o seu bônus de treinamento em perícias.
+Explodir as lanças gasta uma ação de movimento 
+e 2 PM, causando 6d12+6 pontos de dano de luz a 
+todas as criaturas em até 3m da lança e as deixam 
+ofuscadas (Ref CD Des ou Int reduz o dano à metade 
+e evita a condição).
+O fato de Gungnir poder se multiplicar vem de 
+um material na qual ela é feita, que existia apenas no 
+mundo natal dos alstranis, chamado vanarita. Esse 
+metal reage a raças específicas, por isso, se este arte-
+fato for empunhado por uma valquíria, todo o dano 
+que a arma causa é convertido para luz, ela ignora 
+reduções de dano e causa o dobro de dano contra 
+mortos-vivos, criaturas corruptas e vilões — incluin-
+do o dano extra causado por Coletora dos Mortos. 
+Gungnir é indestrutível e não pode ser avariada.
+270
+
+=== PAGE 272 ===
+Arsenal dos Mitos
+Martelo do Deus  
+das Tempestades
+Alstra tem como um de seus aspectos conhecidos 
+a existência de divindades menores conhecidas como 
+vanirs, entre eles existe a deusa Glória, o Pai-Pedra e 
+até o ínfame Zalcanas. Mas antes de Alstra, o mundo 
+antigo dos vanirs tinham vários outros deuses. Entre 
+eles existia o deus das tempestades, relâmpagos e 
+trovões, um gigantesco urso branco chamado Vo-
+jäard. Este deus forjava poderosos artefatos para seu 
+uso pessoal, mas somente um veio para Arton junto 
+de alguns mortais que se devotavam a este deus, 
+que foi o seu martelo, que passou a ser chamado por 
+alguns de Mjölnir.
+O Martelo do Deus das Tempestades se trata de um 
+martelo de guerra de mitral e rocha-matriz maciço pungente 
+de arremesso tempestuoso trovejante que permite ao seu 
+usuário lançar a magia Relâmpago sem gastar PM (CD 
+For ou Con). No entanto, somente aqueles que se 
+provam dignos podem empunhar o martelo, para 
+isso, devem ter 5 ou mais pontos em Força, seguir 
+alguma divindade guerreira e/ou possuir um código 
+de conduta. Também é necessário fazer um teste de 
+Vontade (CD 25) sempre que empunhar o martelo 
+para se provar digno, do contrário, ele cai no chão, e 
+não pode ser empunhado até o fim da cena.
+Por ser um artefato originário do mundo antigo a 
+Alstra, ele também é forjado com vanirita, e por isso 
+tem interações especiais com raças alstrani. Quando 
+empunhado por um jötun, o martelo aumenta a cate-
+goria de tamanho do usuário em um passo, o próprio 
+martelo aumenta de acordo. No entanto, quando 
+empunhado por um g'rokk, o martelo vira fragmen-
+tos que envolvem suas garras, aplicando o dano do 
+martelo e seus efeitos as armas naturais desta raça. O 
+Mjölnir é indestrutível e não pode ser avariado.
+Sina do flagelo
+Sempre que Arton entrava em guerra, desde as 
+batalhas antigas até a recente Guerra Artoniana, pes-
+soas de qualquer lugar com o senso de vitória, buscava 
+qualquer meio para se fortalecer, seja mentalmente 
+quanto fisicamente. Quando este pensamento surgiu 
+durante o Chamado às Armas de Doherimm, uma 
+milenar elfa viúva transformou a alma e os desejos de 
+seu ex-marido, um anão, no principal material para 
+forjar um equipamento que se alimentava da fúria 
+dos guerreiros e da chama da guerra, para aprimorar 
+seu exército de maneira sem igual.
+A ideia de uma lenda sobre uma elfa doherita 
+que teria forjado a verdadeira Sina é a mais comum, 
+mas a lenda continua, diz o mito entre os próprios 
+flagelos que esta elfa, pelo seu conhecimento mágico 
+superior, teria extraído a essência de Megalokk de 
+uma medusa e a armazenou no elmo da Sina, e com 
+um ritual eclesiástico proibido, teria atraído uma 
+maldição de Tenebra para que a sobrepeliz profana 
+fosse maculada com suas trevas. Teria sido assim que 
+a Sina do Flagelo foi forjada.
+Esta se trataria de uma armadura completa espi-
+nhosa macabra reforçada de rocha-matriz e zalcarita selada 
+fortificada guardiã invulnerável e protetora. Sempre que 
+você entrar em uma cena de combate enquanto veste 
+esta armadura, faça um teste de Vontade (CD 25 
++ metade de seu nível), se falhar, o mestre passa a 
+controla suas ações até o fim da cena, enquanto você 
+entra em um estado de fúria ensandecida, perdendo 
+todo o seu controle e não mais diferenciando aliados 
+de inimigos. 
+No entanto, a Sina do Flagelo recompensa os 
+ousados, em toda cena de combate, você recebe imu-
+nidade a efeitos mentais e de medo e PV temporários 
+igual o dobro do seu nível por rodada. Além disso, 
+sempre que falhar em um teste de resistência, você 
+pode gastar 2 PM para rolar o teste novamente. Por 
+fim, a armadura, enquanto vestida, fornece ao alvo 
++4 em todos os seus atributos físicos (este aumento 
+não fornece PV ou PM adicionais e não é cumulativo 
+com magias). 
+Tamanho poder não vem sem custo. Após o fim 
+do combate, você fica fatigado (cumulativo) pelo 
+dia, mesmo que seja imune a essa condição, mas 
+se possuir Constituição 4 ou menor, você morre e 
+seu restos mortais são consumidos pela armadura, 
+destruindo seu corpo para sempre. Além disso, uma 
+vez vestida, a Sina do Flagelo não pode ser removida, 
+exceto por meio de desejos, intervenções divinas 
+ou a magia Purificação com o aprimoramento de +7 
+PM, representando a complexidade da maldição nela 
+imposta. Essa armadura é indestrutível e não pode 
+ser avariada.
+271
+
+=== PAGE 273 ===
+ DeuseS
+DeuseS
+e Devotos
+Devotos
+CAPÍTULO
+CAPÍTULO
+4
+
+=== PAGE 274 ===
+Deuses e Devotos
+Novos Druidas
+A
+ssim como foram apresentados novos 
+tipos de druidas no Deuses de Arton, 
+aqui será apresentado também novas 
+escolhas para druidas.
+Nas próximas páginas serão apresentados três 
+novas opções de druida — Azgher, Kallyadranoch e 
+Lena —, representando novos aspectos de adoração e 
+preservação da natureza. Um druida de Lena preserva 
+a vida de todos os seres, enquanto o de Azgher está 
+lá como um irmão maior de Allihanna na proteção da 
+natureza, provendo a luz e a calmaria... E o mesmo 
+pode ser dito de seus devotos.
+Druida de Azgher
+Enquanto os sacerdotes e paladinos de Azgher 
+defendem o mundo civilizado das injustiças e crimes 
+cometidos sob o olhar do Olho Vigilante, druidas 
+tem um papel fundamental na manutenção do ciclo 
+da vida. Nenhuma planta germina, se prolifera e 
+repete seus ciclos sem a presença da luz dourada 
+que existe nas manhãs e tardes, Azgher, Allihanna e 
+Oceano são indispensáveis neste ciclo, e por isso de-
+votos do deus-sol dedicam suas vidas como druidas 
+para garantir essa manutenção do ciclo da vida e a 
+proliferação da vida verdadeira.
+Não é novidade de que, devido a isto, eles são 
+prontamente contra druidas de divindades que 
+perturbam este ciclo; Aharadak e Tenebra. Aharadak 
+por um princípio simples, ele não é vida, é corrupção 
+e desgraça, e sua presença não deve ser tolerada na 
+natureza, seus devotos são aberrações que abusam 
+do poder profano e aberrante para corromper a re-
+alidade e destruir a natureza verdadeiramente bela, 
+onde há Aharadak, não há ciclo, e por tal, ele deve 
+ser uma ameaça a ser combatida pelos devotos das 
+divindades naturais da realidade.
+Quanto a Tenebra, os druidas de Azgher não 
+a odeia rivalidades frivolas, mas pela deusa ser 
+claramente opositora ao ciclo da vida. Ela protege 
+mortos-vivos, criaturas que não deveriam existir 
+pois não fazem parte do ciclo da vida, são entidades 
+além do ciclo natural, que não devem ser associadas 
+a natureza, e por tal, sua existência é abominada por 
+qualquer devoto do deus-sol.
+Richas constantes existem entre druidas de tais 
+divindades, porém Tenebra institui que seu ambien-
+te ao qual tais doutrinas deveriam ser cultivadas é 
+longe do olhar de seu odiado rival, em cavernas e 
+subterrâneos, e por isso Azgher e seus devotos mais 
+brandos e heróicos buscam expulsar da maneira 
+mais pacífica que lhe forem permitidas, os druidas 
+e outros devotos de Tenebra, assim como mortos-
+-vivos, para longe da superfície. Esses devotos que 
+são ostracizados são chamados de "espreitadores do 
+brilho cálido", e buscam um dia tomar a superfície 
+novamente e prover a noite eterna.
+Azgher e seus druidas são principalmente uma 
+vanguarda para a proteção e manutenção da natureza 
+verde e iluminada, não é incomum que haja até certo 
+sincretismo entre Allihanna e Azgher por seus valo-
+res parecidos a respeito deste aspecto de Arton. Ser 
+um portador da luz do sol para prover aos animais 
+e plantas é o verdadeiro propósito do deus-sol para 
+com seus devotos mais selvagens.
+Indumentária. As roupas destes devotos são 
+sempre feitas de couro ou tecidos leves e naturais, 
+como seda ou linho, com tiras que servem para pren-
+der odres de água, lamparinas e bolsas de semente. 
+As máscaras são sempre produzidas com madeira 
+contendo gravuras shamiri.
+Obrigações & Restrições. O devoto de 
+Azgher deve manter o rosto sempre coberto. Sua 
+face pode ser revelada apenas ao sumo-sacerdote ou 
+em seu funeral. Devotos do Sol também devem se 
+manter sempre em ambientes iluminados, não po-
+dendo ficar mais do que uma cena em um ambiente 
+sob escuridão leve ou total.
+Considerações Mecânicas. O druida de 
+Azgher, como outros devotos, tem acesso aos pode-
+res concedidos de sua divindade.
+Brando. Devem apenas manter o rosto sempre 
+coberto, só podendo revelar sua face ao sumo-sacer-
+dote ou em cerimônias dedicadas ao seu deus.
+Fundamentalista. Não apenas são proibidos 
+de se associar a mortos-vivos, necromantes, cultistas 
+de Aharadak ou Tenebra, como, caso sejam corrup-
+tos ou vilões, devem atacar e destruir todos os que 
+encontrar.
+273

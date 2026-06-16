@@ -1708,36 +1708,151 @@
     "tipo": "divina",
     "escola": "Evocação",
     "circulo": 3,
-    "pm": 6,
+    "pm": 3,
     "execucao": "Padrão",
     "alcance": "Curto",
     "area": "1 criatura",
     "duracao": "Instantânea",
     "resistencia": "Vontade reduz à metade",
-    "descricao": "Você lança o julgamento de seu deus sobre o alvo. Ele sofre 4d12 pontos de dano de luz, que aumenta em +2d12 cumulativamente se: for devoto de divindade rival, for devoto de divindade de energia negativa, for desonrado, desonesto ou maligno. Apenas devotos fieis de deuses de energia positiva podem aprender esta magia.",
+    "descricao": "Você lança o julgamento de seu deus sobre o alvo no alcance. Ele sofre 4d12 pontos de dano de luz, que aumenta em +2d12 de forma cumulativa se: ele for devoto de uma divindade que canaliza energia negativa, for devoto de uma divindade rival a sua, for desonrado, desonesto ou maligno. Apenas devotos fieis de deuses que canalizam energia positiva podem aprender essa magia.",
     "aprimoramentos": [
-      "+4 PM: muda resistência para Vontade parcial. Se falhar, o alvo também fica atordoado por 1 rodada."
+      "+4 PM: muda a resistência para Vontade parcial. Além do normal, se o alvo falhar na resistência, fica atordoado (apenas uma vez por dia) e cego por 1 rodada e então ofuscado pela cena. Requer 4º círculo."
     ]
   },
   {
-    "id": "invocar-capangas",
-    "nome": "Invocar Capangas",
+    "id": "arma-runica",
+    "nome": "Arma Rúnica",
     "fonte": "Mitos de Arton",
     "tipo": "arcana",
-    "escola": "Conjuração",
+    "escola": "Transmutação",
     "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 arma empunhada",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você enfeitiça o alvo com runas místicas que emitem energia cerúlea. A arma recebe +1d4 pontos de dano.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +1d4 (ou +1d6; quantidade máxima de dados limitada pelo círculo máximo de magia que você pode lançar).",
+      "+5 PM: muda os dados de dano para d6. Requer 3º círculo."
+    ]
+  },
+  {
+    "id": "artilharia-suprema",
+    "nome": "Artilharia Suprema",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Convocação",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Completa",
+    "alcance": "Médio",
+    "area": "Esfera com 18m de raio",
+    "duracao": "1d4+1 rodadas",
+    "resistencia": "Reflexos parcial",
+    "descricao": "Você invoca uma artilharia bélica composta por dezenas de soldados e canhões, e então as comanda a atacar a área no alcance. Criaturas na área sofrem 12d12 pontos de dano, divididos entre impacto, perfuração e fogo, além de ficarem em chamas, surdas e ofuscadas até o fim da cena. Passar na resistência anula o dano de fogo e evita a condição em chamas. O dano causado se repete no início de cada rodada, exigindo novos testes de resistência.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +3d12.",
+      "+5 PM: muda a área para cilindro com 18m de raio e 9m de altura."
+    ]
+  },
+  {
+    "id": "bainha-ilusoria",
+    "nome": "Bainha Ilusória",
+    "fonte": "Mitos de Arton",
+    "tipo": "universal",
+    "escola": "Ilusão",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 arma",
+    "duracao": "1 dia ou até ser descarregada",
+    "resistencia": "—",
+    "descricao": "Você toca uma arma e a torna invisível, aplicando-a a propriedade surpreendente. Ao atacar com essa arma, a magia é descarregada. Se a arma afetada já for surpreendente, você recebe +2 no seu teste de ataque e +1 dado na sua rolagem de dano com ela.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "ceticismo-de-raziel",
+    "nome": "Ceticismo de Raziel",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Encantamento",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 criatura inteligente",
+    "duracao": "Cena",
+    "resistencia": "Vontade evita",
+    "descricao": "Você implanta no alvo a sensação de ser invencível. O alvo sofre –2 na Defesa, Fortitude e Reflexos. A cada nova rodada, o alvo pode repetir o teste de Vontade para cancelar a magia.",
+    "aprimoramentos": [
+      "+3 PM: além do normal, se o alvo falhar em três testes seguidos, passa a subestimar seus inimigos ao ponto de desistir do combate.",
+      "+4 PM: muda as penalidades para –5. Requer 4º círculo.",
+      "+9 PM: além do normal, uma vez por rodada, o alvo é forçado a escolher 0 em um teste de resistência for realizar. Requer 5º círculo."
+    ]
+  },
+  {
+    "id": "chama-frenetica",
+    "nome": "Chama Frenética",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Encantamento",
+    "circulo": 2,
     "pm": 2,
     "execucao": "Padrão",
     "alcance": "Curto",
-    "area": "Área de 6m",
-    "duracao": "Cena",
-    "resistencia": "—",
-    "descricao": "Você conjura 1d4+1 capangas (Def 12, PV 10, dano 1d4 de corte ou impacto, Des +1) em espaços desocupados em alcance curto. Os capangas obedecem suas ordens e atuam na sua iniciativa.",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Vontade parcial",
+    "descricao": "Você implanta na mente do alvo visões infernais de chamas e dor profunda, que o causa 3d8 pontos de dano psíquico e o deixa frustrado. Passar no teste de resistência reduz o dano à metade e evita a condição.",
     "aprimoramentos": [
-      "+2 PM: conjura +1d4 capangas adicionais.",
-      "+3 PM: aumenta a Defesa dos capangas em +1. Requer 2° círculo.",
-      "+5 PM: conjura elementais (dano muda para ácido, eletricidade, fogo ou frio, com deslocamento de voo 6m). Requer 3° círculo.",
-      "+5 PM: conjura monstros (dano muda para d8, PV mudam para 25). Requer 3° círculo."
+      "+2 PM: aumenta o dano em +1d8.",
+      "+4 PM: invés do normal, o alvo fica esmorecido se falhar no teste de resistência e frustrado se passar.",
+      "+5 PM: além do normal, o alvo fica confuso se falhar no teste de resistência. Requer 3º círculo."
+    ]
+  },
+  {
+    "id": "conquistar",
+    "nome": "Conquistar",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Convocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Curto",
+    "area": "1 arma mundana",
+    "duracao": "Instantânea",
+    "resistencia": "Veja texto",
+    "descricao": "Como parte da execução desta magia, você realiza uma manobra desarmar usando seu Misticismo no lugar de Luta. Se passar, a arma que o alvo estava empunhando voa até sua mão, pegá-la é uma reação. Se o alvo não estiver sendo empunhado, ele apenas voa até sua mão normalmente.",
+    "aprimoramentos": [
+      "+2 PM: muda o alvo para 1 arma mágica. Requer 2º círculo.",
+      "+5 PM: muda o alvo para 1 item mundano ou mágico. Requer 3º círculo."
+    ]
+  },
+  {
+    "id": "conjurar-capangas",
+    "nome": "Conjurar Capangas",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Convocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Completa",
+    "alcance": "Curto",
+    "area": "Capangas conjurados",
+    "duracao": "Sustentada",
+    "resistencia": "—",
+    "descricao": "Você convoca dois capangas e os posicionam em espaços desocupados no alcance (deslocamento 6m, Def 15, 1d6 pontos de dano de um tipo a sua escolha entre corte, impacto ou perfuração). Eles seguem todas as regras de capangas descritas no Heróis de Arton.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o deslocamento dos capangas em +3m.",
+      "+2 PM: aumenta o número de capangas convocados em +1 (valor máximo limitado pelo dobro do círculo máximo de magia que você pode lançar).",
+      "+3 PM: aumenta o dano dos capangas em +1 dado do mesmo tipo (valor máximo limitado pelo círculo máximo de magia que você pode lançar).",
+      "+3 PM: aumenta a Defesa dos capangas em +1. Requer 2º círculo.",
+      "+5 PM: invés de capangas normais, você conjura elementais; o tipo de dano causado muda para ácido, eletricidade, fogo ou frio e eles recebem deslocamento de voo 6m. Requer 3º círculo.",
+      "+5 PM: invés de capangas normais, você conjura monstros; o dano dos capangas muda para d8 e os PV mudam para 25. Requer 3º círculo."
     ]
   },
   {
@@ -1747,35 +1862,162 @@
     "tipo": "arcana",
     "escola": "Transmutação",
     "circulo": 5,
-    "pm": 10,
+    "pm": 5,
     "execucao": "1 minuto",
     "alcance": "Pessoal",
     "area": "Cubo com 30m de lado",
     "duracao": "Instantânea (mas veja texto)",
     "resistencia": "—",
-    "descricao": "Você cria uma área de êstase temporal a partir de você. Para quem estiver fora da área, passa apenas uma fração de segundo. Dentro da área, você e todos os presentes podem agir por até 1 minuto completo. Ao fim, tudo retorna ao estado normal. Criaturas hostis dentro da área sofrem confusão temporal (Vontade CD Int evita).",
+    "descricao": "Ao executar a magia, você cria uma área de êstase temporal a partir de você. Para quem estiver fora da área, passa-se apenas alguns segundos, mas para quem está dentro da área, passa-se 1 semana, no entanto, quem estiver dentro da área da magia não pode afetar o lado de fora. Essa magia só pode ser usada uma vez por dia. Exige componente material (ampulheta finamente produzida no valor de T$ 25.000).",
     "aprimoramentos": [
-      "+5 PM: a êstase dura 5 minutos.",
-      "+10 PM: a êstase dura 1 hora."
+      "+5 PM: aumenta a duração do êstase temporal em +1 semana."
     ]
   },
   {
-    "id": "dragao-flamejante",
-    "nome": "Dragão Flamejante",
+    "id": "diluvio",
+    "nome": "Dilúvio",
     "fonte": "Mitos de Arton",
     "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 5,
+    "pm": 5,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Cone de 30m",
+    "duracao": "Veja texto",
+    "resistencia": "Reflexos parcial",
+    "descricao": "Você evoca uma grande onda oceânica que causa 10d12 pontos de dano de frio e impacto (metade de cada) nas criaturas dentro da área e as deixam caídas e lentas. Após isso, uma esfera de 30m de raio se forma na mesma área que se torna um grande lago com 90m de profundidade que dura até o fim da cena, onde criaturas na área ficam submersas e devem fazer testes de Atletismo para nadar (mesmo se possuir deslocamento de nado). Nenhuma criatura submersa pode respirar embaixo d'água, mesmo que possa. Você não sofre os efeitos dessa magia se estiver dentro da área.",
+    "aprimoramentos": [
+      "+5 PM: aumenta o dano em +5d12.",
+      "+5 PM (Apenas devotos de Oceano): muda o raio da esfera para 1km."
+    ]
+  },
+  {
+    "id": "disparo-arcano-aura-weiser",
+    "nome": "Disparo Arcano de Aura Weiser",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
     "escola": "Evocação",
     "circulo": 2,
-    "pm": 4,
+    "pm": 2,
     "execucao": "Padrão",
     "alcance": "Pessoal",
-    "area": "Cone de 6m",
+    "area": "Linha de 9m",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Essa magia criada para matar demônios dispara um raio de pura energia arcana, causando 6d6 pontos de dano de essência nas criaturas na área. Este dano é dobrado contra abissais.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +2d6."
+    ]
+  },
+  {
+    "id": "eden-de-yvernith",
+    "nome": "Éden de Yvernith",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Convocação",
+    "circulo": 5,
+    "pm": 5,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Quadrado de 90m",
+    "duracao": "Sustentada",
+    "resistencia": "Veja texto",
+    "descricao": "Você conjura um bioma vegetal a sua escolha com diversos efeitos. Animais e monstros na área se tornam prestativos e parceiros de tipos apropriados que não contam no seu limite (Von evita), se ele for o parceiro de uma criatura, ela faz um teste de Adestramento oposto a CD da magia. A área se torna terreno difícil e causa 10d6 pontos de dano de corte, impacto e perfuração no início do turno de uma criatura dentro dela (exceto o conjurador e seus aliados, Ref reduz à metade).",
+    "aprimoramentos": [
+      "+5 PM: aumenta o dano em +3d12.",
+      "+5 PM (Apenas devotos de Allihanna): muda o tamanho do quadrado para 1km."
+    ]
+  },
+  {
+    "id": "escudo-glorioso",
+    "nome": "Escudo Glorioso",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 escudo empunhado ou vestido",
+    "duracao": "Cena",
+    "resistencia": "—",
+    "descricao": "Você empodera seu escudo com energia sagrada, aumentando sua Defesa em +1 (conta como um bônus de encanto). Além disso, o escudo pode ser usado mesmo que não seja proficiente.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o bônus de Defesa em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).",
+      "+5 PM: além do normal, o escudo passa a fornecer cobertura leve a quem estiver adjacente a quem o empunhar. Requer 2º círculo."
+    ]
+  },
+  {
+    "id": "estampido-de-skavendish",
+    "nome": "Estampido de Skavendish",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Você",
     "duracao": "Instantânea",
     "resistencia": "Reflexos parcial",
-    "descricao": "Você rodopia liberando chamas em um cone de 6m. Criaturas na área sofrem 3d6 pontos de dano de fogo.",
+    "descricao": "Como parte da execução da magia, você realiza uma investida contra um alvo. Durante o percurso, criaturas no caminho são empurradas 3m, ficam caídas e sofrem 2d6 pontos de dano de impacto. Passar na resistência reduz o dano a metade e evita a queda. Ao atacar um alvo após a investida, ele sofre +2d6 pontos de dano com seu ataque e também fica caído — se acertar, ele não faz um teste de resistência.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +1d6."
+    ]
+  },
+  {
+    "id": "flash-negro",
+    "nome": "Flash Negro",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descricao": "Como parte da execução da magia, você concentra energia pura no seu punho e faz um ataque desarmado contra uma criatura recebendo +3 no seu teste de ataque e na sua rolagem de dano. Se acertar, o tipo do seu dano desarmado é convertido para essência e então triplicado. Se o alvo passar na resistência, o dano é apenas dobrado.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o bônus de ataque e dano em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).",
+      "+4 PM (Apenas Feiticeiros Amaldiçoados): você pode gastar uma quantidade máxima de pontos de maldição igual a de poderes que possui dessa distinção. Para cada ponto gasto, você aumenta seu dano desarmado em um passo."
+    ]
+  },
+  {
+    "id": "flor-rubra-de-nike",
+    "nome": "Flor Rubra de Nike",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Reação",
+    "alcance": "Pessoal",
+    "area": "Esfera com 18m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descricao": "Você lança essa magia como uma reação ao ficar com 0 PV ou menos. Uma flor gigantesca formada por pétalas de energia negativa desabrocha. Criaturas na área ficam cegas e sofrem 8d8 pontos de dano de trevas. Passar na resistência evita a condição e reduz o dano à metade. Metade do dano causado a criaturas mortas por essa magia são convertidos em cura para você.",
+    "aprimoramentos": []
+  },
+  {
+    "id": "furacao-de-fogo",
+    "nome": "Furacão de Fogo",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Completa",
+    "alcance": "Médio",
+    "area": "Esfera com 3m de raio",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Você cria uma pequena esfera flamejante e rodopia no ar, chutando-a em um espaço no alcance. Criaturas na área sofrem 3d6 pontos de dano de fogo.",
     "aprimoramentos": [
       "+1 PM: aumenta o dano em +1d6.",
-      "+2 PM: você rodopia com mais intensidade e forma um dragão flamejante. O dado de dano muda para d8 e a área para esfera com 6m de raio. Requer 2° círculo."
+      "+2 PM: você rodopia com mais intensidade e forma um dragão flamejante. O dados de dano da magia muda para d8 e a área para uma esfera com 6m de raio. Requer 2º círculo."
     ]
   },
   {
@@ -1785,16 +2027,156 @@
     "tipo": "divina",
     "escola": "Evocação",
     "circulo": 2,
-    "pm": 4,
+    "pm": 2,
     "execucao": "Completa",
     "alcance": "Pessoal",
     "area": "Esfera com 6m de raio",
     "duracao": "Instantânea",
     "resistencia": "Reflexos parcial",
-    "descricao": "Você golpeia o chão em sequência, fazendo lava e rochas voarem pela área. Criaturas na área (exceto você) sofrem 4d6 de impacto e 4d6 de fogo, além de ficarem caídas. Passar na resistência evita as condições mas não o dano.",
+    "descricao": "Você golpeia o chão com força em sequência, fazendo lava e rochas voar pela área. Criaturas na área (exceto você) sofrem 4d6 pontos de dano de impacto e 4d6 pontos de dano de fogo, além de ficarem caídas. Passar na resistência evita o dano de fogo e a condição.",
     "aprimoramentos": [
-      "+2 PM: aumenta o dano em +2d6 de cada tipo.",
-      "+4 PM: área aumenta para esfera com 12m de raio."
+      "+1 PM: além do normal, a área afetada se torna terreno difícil.",
+      "+2 PM: aumenta o dano de fogo e o de impacto em +1d6.",
+      "+2 PM: além do normal, a área afetada fica encandecida, causando 1d6 pontos de dano de fogo a toda criatura que passar por ela."
+    ]
+  },
+  {
+    "id": "garra-da-tempestade",
+    "nome": "Garra da Tempestade",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Cone de 9m",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Você gesticula no ar como se estivesse atacando com garras afiadas. Criaturas na área sofrem 9d12 pontos de dano de eletricidade.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +1d12.",
+      "+5 PM: como parte da execução da magia, você faz um ataque corpo a corpo contra o alvo (que não tem direito a um teste de resistência). Se acertar, causa o dano do ataque e da magia. A área da magia se mantém, mas inicia do alvo atacado. Requer 4º círculo."
+    ]
+  },
+  {
+    "id": "jardim-floral-de-yvernith",
+    "nome": "Jardim Floral de Yvernith",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Convocação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Quadrado com 9m de lado",
+    "duracao": "1 dia",
+    "resistencia": "—",
+    "descricao": "Você faz a vegetação crescer na área a partir de você. Essa magia não tem nenhum efeito prático, servindo somente para formar vegetação em uma área.",
+    "aprimoramentos": [
+      "Truque: muda a duração para permanente. Você pode criar uma pequena quantidade de flores sobre suas mãos, de uma simples rosa até um buquê.",
+      "+2 PM: aumenta a duração em +1 dia.",
+      "+3 PM: o jardim passa a exalar um cheiro encantador de rosas e flores do campo, fornecendo +2 em Diplomacia as criaturas na área.",
+      "+5 PM: muda a duração para permanente e adiciona componente material (pacote de sementes exóticas no valor de T$ 200). Requer 2º círculo."
+    ]
+  },
+  {
+    "id": "kombate-mortal",
+    "nome": "Kombate Mortal",
+    "fonte": "Mitos de Arton",
+    "tipo": "universal",
+    "escola": "Convocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Completa",
+    "alcance": "Curto",
+    "area": "1 criatura",
+    "duracao": "Até ser descarregada",
+    "resistencia": "Vontade evita",
+    "descricao": "Você e o alvo são teletransportados para um espaço vazio com 1km de lado, sem teto ou paredes, apenas um solo escuro. Cada um surge a 9m do outro e devem lutar até a morte, ou até que de forma voluntária, ambos decidam sair da área. Em ambos os casos, as criaturas afetadas pela magia voltam para suas posições antigas no mundo físico. Não é possível cancelar ou dissipar a magia após lançada.",
+    "aprimoramentos": [
+      "+2 PM: aumenta a quantidade de alvos em +2.",
+      "+3 PM: além do normal, a área passa a apresentar um tipo de perigo ou armadilha a sua escolha.",
+      "+4 PM: aumenta a quantidade de perigos ou armadilhas acima em +1. Requer 3º círculo."
+    ]
+  },
+  {
+    "id": "mao-divina",
+    "nome": "Mão Divina",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Convocação",
+    "circulo": 5,
+    "pm": 5,
+    "execucao": "Completa",
+    "alcance": "Médio",
+    "area": "1 criatura",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos parcial",
+    "descricao": "O membro do seu deus surge dos céus e esmaga o alvo, causando 20d12+20 pontos de dano de luz (se a divindade que lhe atendeu canaliza energia positiva) ou trevas (se canaliza energia negativa) e deixando o alvo atordoado por 1 rodada (apenas uma vez por cena). Um alvo que passe na resistência sofre metade do dano e fica imóvel por 1 rodada.",
+    "aprimoramentos": [
+      "+2 PM: aumenta a quantidade de alvos em +1.",
+      "+5 PM: muda a duração para sustentada. Além do normal, a criatura atingida fica agarrada e é erguida à 6m do solo, podendo se soltar ao ser bem sucedida em um teste de Atletismo (CD igual a da magia)."
+    ]
+  },
+  {
+    "id": "membro-etereo",
+    "nome": "Membro Etéreo",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Convocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Padrão",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "1 hora",
+    "resistencia": "—",
+    "descricao": "Você substitui um membro faltante com uma massa de essência que o emula. Você sente tudo que este membro fantasmagórico sente e ao fazer um ataque desarmado com ele, seu tipo de dano muda para essência.",
+    "aprimoramentos": [
+      "+1 PM: muda o alcance para toque e o alvo para 1 criatura."
+    ]
+  },
+  {
+    "id": "mochila-do-mascate",
+    "nome": "Mochila do Mascate",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Transmutação",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "1 minuto",
+    "alcance": "Toque",
+    "area": "1 mochila",
+    "duracao": "1 dia",
+    "resistencia": "—",
+    "descricao": "Você amplia a capacidade do alvo, lhe concedendo +2 espaços de carga. Exige componente material (couro curtido no valor de T$ 100).",
+    "aprimoramentos": [
+      "+2 PM: aumenta o bônus de carga em +2 (bônus máximo limitado pelo dobro do círculo máximo de magias que você pode lançar).",
+      "+3 PM: muda a duração para 1 semana.",
+      "+4 PM: além do normal, você pode gastar 2 PM para convocar um instrumento de um Ofício do qual é treinado. Requer 2º círculo.",
+      "+7 PM: como acima, mas você pode gastar 5 PM para o instrumento invocado vir aprimorado. Requer 3º círculo.",
+      "+9 PM: muda a duração para permanente e adiciona sacrífico de 2 PM. Exige componente material (bandoleira de couro especial no valor de T$ 1.000). Requer 4º círculo."
+    ]
+  },
+  {
+    "id": "morada-umbral",
+    "nome": "Morada Umbral",
+    "fonte": "Mitos de Arton",
+    "tipo": "universal",
+    "escola": "Convocação",
+    "circulo": 3,
+    "pm": 3,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 sombra",
+    "duracao": "Sustentada",
+    "resistencia": "—",
+    "descricao": "Você entra na sombra de uma criatura ou objeto. Nessa forma, você recebe cobertura total e não pode ser alvejado por nenhuma magia ou efeito, mas fica imóvel e só pode realizar ações puramente mentais — exceto sair da sombra. Se a sombra se mover, você se move junto a ela, mas se ela for dispersada, você é arrancado da sombra e sofre 6d6 pontos de dano de impacto.",
+    "aprimoramentos": [
+      "+2 PM: além do normal, você pode sair de outra sombra da qual entrou, desde que ela esteja em alcance curto.",
+      "+5 PM: como acima, mas você pode sair de sombras em alcance médio. Requer 4º círculo.",
+      "+10 PM: além do normal, a criatura na qual você entrou na sombra fica paralisado até que você saia dela. Ela tem direito a um teste de Fortitude (CD igual ao da magia) para evitar a condição, podendo repetir este teste sempre no início do turno dela. Requer 5º círculo."
     ]
   },
   {
@@ -1804,35 +2186,150 @@
     "tipo": "divina",
     "escola": "Necromancia",
     "circulo": 2,
-    "pm": 4,
+    "pm": 2,
     "execucao": "Padrão",
     "alcance": "Pessoal",
     "area": "Você",
     "duracao": "Sustentada",
     "resistencia": "—",
-    "descricao": "Você corrompe o próprio corpo com aspecto cadavérico. Não pode lançar outras magias enquanto sustenta esta. Recebe +2d10 de trevas em todos os ataques corpo a corpo e recupera PV igual a metade do dano de trevas causado.",
+    "descricao": "Você corrompe o próprio corpo, deixando-o com um aspecto cadavérico e póstumo. Você não pode lançar magias enquanto sustenta essa, mas recebe +2d10 pontos de dano de trevas em todos os seus ataques corpo a corpo e recupera PV igual metade de todo dano de trevas causado pela magia. Essa magia não pode ser usada por construtos e mortos-vivos.",
     "aprimoramentos": [
-      "+2 PM: os dados de dano mudam para d12.",
-      "+4 PM: o bônus de dano aumenta para +3d10."
+      "+1 PM: muda o alcance para toque e o alvo para 1 criatura viva.",
+      "+2 PM: aumenta o dano em +1d10 (quantidade máxima de dados limitada pelo círculo máximo de magia que você pode lançar).",
+      "+3 PM (apenas mortos-vivos e devotos de Tenebra): invés da metade, você recupera todo dano de trevas que causar com essa magia e pode usar essa magia em você mesmo que seja um morto-vivo.",
+      "+4 PM: além do normal, você recebe imunidade a cansaço, metabolismo, trevas e veneno, mas cura de luz passa a lhe causar dano. Requer 3º círculo."
     ]
   },
   {
-    "id": "entrar-na-sombra",
-    "nome": "Entrar na Sombra",
+    "id": "olhos-do-infinito",
+    "nome": "Olhos do Infinito",
     "fonte": "Mitos de Arton",
     "tipo": "arcana",
     "escola": "Transmutação",
     "circulo": 3,
-    "pm": 5,
-    "execucao": "Padrão",
-    "alcance": "Curto",
-    "area": "1 criatura",
-    "duracao": "Sustentada",
-    "resistencia": "Reflexos anula",
-    "descricao": "Você mergulha na sombra de uma criatura em alcance curto, habitando-a. Enquanto na sombra, é invisível e imaterial (imune a dano físico). A criatura começa a tomar dano ao início de cada turno igual à metade do seu nível de conjurador.",
+    "pm": 3,
+    "execucao": "Reação",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Instantânea",
+    "resistencia": "—",
+    "descricao": "Esta magia pode ser lançada como reação a um ataque feito contra você. Seus olhos brilham em azul, e uma aura de desasceleração é criada ao seu redor. Faça um teste de Percepção oposto ao dano causado pelo seu agressor (se ele causar), você reduz o dano sofrido pelo resultado deste teste. Criaturas imunes a efeitos mágicos não são afetados por essa magia, e você sofre penalidade no seu teste de Percepção igual a resistência a magia do alvo (se ele possuir).",
     "aprimoramentos": [
-      "+3 PM: o dano causado à criatura aumenta para total de seu nível.",
-      "+10 PM: a criatura fica paralisada enquanto você está na sombra (Fort CD para evitar, pode repetir no início de cada turno). Requer 5° círculo."
+      "+4 PM: muda a execução para padrão e a duração para cena. Faça um único teste de Percepção e use-o pela duração da magia para reduzir os danos que sofrer. Requer 4º círculo."
+    ]
+  },
+  {
+    "id": "pandemonio-de-ryuusei",
+    "nome": "Pandemônio de Ryuusei",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Convocação",
+    "circulo": 5,
+    "pm": 5,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Linha de 30m com 9m de lado",
+    "duracao": "Cena",
+    "resistencia": "Reflexos parcial",
+    "descricao": "Você rasga a realidade, abrindo um portal macabro e monstruoso para Chacina, de onde uma infinidade de monstros surgem, com bocarras enormes e garras afiadas golpeando qualquer coisa na área. No início de cada rodada após abrir o pandemônio, criaturas na área sofrem 12d12 pontos de dano de corte, impacto e perfuração e ficam agarradas. Passar na resistência evita ser agarrado. Uma criatura agarrada deve ser bem sucedida em um teste de Atletismo (CD igual a da magia) para se libertar, mas se falhar em três testes seguidos após ser agarrada, é devorada pelo pandemônio.",
+    "aprimoramentos": [
+      "+5 PM: aumenta o dano em +4d12.",
+      "+5 PM (Apenas devotos de Megalokk): muda a área para uma esfera de 1km de raio. Além do normal, criaturas devoradas, ao invés de morrer, são enviadas para Chacina."
+    ]
+  },
+  {
+    "id": "passos-do-fim",
+    "nome": "Passos do Fim",
+    "fonte": "Mitos de Arton",
+    "tipo": "universal",
+    "escola": "Convocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Livre",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Até ser descarregada",
+    "resistencia": "—",
+    "descricao": "Você se torna etéreo (como na magia Forma Etérea) ao transitar entre mundos, mas ainda pode afetar o mundo físico e não tem sua percepção reduzida. Além disso, sentidos especiais não lhe afetam. A magia termina ao fim do seu turno ou ao se deslocar 9m.",
+    "aprimoramentos": [
+      "+3 PM: aumenta o deslocamento máximo em +3m."
+    ]
+  },
+  {
+    "id": "portoes-de-werra",
+    "nome": "Portões de Werra",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Evocação",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Você",
+    "duracao": "Sustentada",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Essa magia criada pelos anjos de guerra permitem ao conjurador abrir um portão entre Werra e seu mundo. No início de cada um de seus turnos após lançar a magia, você pode gastar uma ação padrão para disparar armas em um cone de 18m. Criaturas na área sofrem 4d12 pontos de dano de corte, 4d12 pontos de dano de impacto e 4d12 pontos de dano de perfuração.",
+    "aprimoramentos": [
+      "+5 PM: além do normal, você convoca uma arma na qual é proficiente em suas mãos, com dano base mudado para 2d12.",
+      "+5 PM: aumenta um dos tipos de dano causado em +4d12."
+    ]
+  },
+  {
+    "id": "raio-cosmico",
+    "nome": "Raio Cósmico",
+    "fonte": "Mitos de Arton",
+    "tipo": "arcana",
+    "escola": "Evocação",
+    "circulo": 2,
+    "pm": 2,
+    "execucao": "Completa",
+    "alcance": "Pessoal",
+    "area": "Linha de 9m",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Essa magia exige as duas mãos livres para ser conjurada. Você concentra o poder arcano bruto em suas mãos e o dispara ao movê-las para frente. Essa rajada causa 4d6+4 pontos de dano de essência a todas as criaturas na área.",
+    "aprimoramentos": [
+      "+2 PM: aumenta o dano em +1d6+1 (ou +1d8+1).",
+      "+3 PM: muda o dano para 4d8+4.",
+      "+7 PM: muda o alcance para Médio e o a área para Alvo: criaturas escolhidas. Invés do normal, você dispara pequenos disparos concentrados que causam o dano da magia. Requer 3º círculo."
+    ]
+  },
+  {
+    "id": "sopro-cosmico-de-ryuusei",
+    "nome": "Sopro Cósmico de Ryuusei",
+    "fonte": "Mitos de Arton",
+    "tipo": "universal",
+    "escola": "Transmutação",
+    "circulo": 4,
+    "pm": 4,
+    "execucao": "2 rodadas",
+    "alcance": "Pessoal",
+    "area": "Linha de 15m",
+    "duracao": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descricao": "Você acumula energia mágica em seu peitoral inflando os pulmões com puro poder. Ao fim da execução da magia, você dispara um raio concentrado de energia contra todas as criaturas na área, causando 20d10 pontos de dano de essência.",
+    "aprimoramentos": [
+      "+3 PM: aumenta a execução da magia em +1 rodada e o dano em +5d10.",
+      "+5 PM (apenas devotos de Megalokk): muda a área para cone de 18m e a resistência para Reflexos parcial. Além do normal, criaturas que falharem na resistência também ficam enjoadas (apenas uma vez por cena) e debilitadas por 1d4 rodadas."
+    ]
+  },
+  {
+    "id": "toque-cadaverico",
+    "nome": "Toque Cadavérico",
+    "fonte": "Mitos de Arton",
+    "tipo": "divina",
+    "escola": "Necromancia",
+    "circulo": 1,
+    "pm": 1,
+    "execucao": "Padrão",
+    "alcance": "Toque",
+    "area": "1 criatura viva",
+    "duracao": "Cena",
+    "resistencia": "Fortitude evita",
+    "descricao": "O alvo é postumerizado, passando a não se beneficiar de itens da categoria alimentação nem de cura de luz, que passa a causar dano ao alvo. No início de cada rodada do alvo, ele tem direito a um novo teste de resistência para resistir a essa magia.",
+    "aprimoramentos": [
+      "+2 PM: muda a duração para sustentada. O alvo não pode mais fazer novos testes para cancelar a magia.",
+      "+5 PM (apenas devotos de Tenebra): além do normal, o alvo recebe imunidade a trevas e passa a ser curado ao sofrer dano de trevas. Requer 3º círculo."
     ]
   },
   {
@@ -1842,16 +2339,17 @@
     "tipo": "divina",
     "escola": "Evocação",
     "circulo": 5,
-    "pm": 10,
+    "pm": 5,
     "execucao": "1d3+1 rodadas",
     "alcance": "Pessoal",
     "area": "Esfera com 18m de raio",
     "duracao": "Instantânea",
     "resistencia": "Reflexos parcial",
-    "descricao": "Você concentra uma partícula de luz que cresce a cada rodada. Ao fim da execução, você libera uma explosão de luz dourada que cega todos os inimigos na área por 1d4 rodadas e causa 8d8 de luz. Passar na resistência reduz o dano à metade e evita a cegueira.",
+    "descricao": "Você concentra uma pequena partícula de luz na ponta dos dedos que cresce a cada rodada. Ao fim da execução, você estala os dedos expandindo a esfera em um tipo de supernova, engolfando todas as criaturas na área (exceto você) na luz do próprio sol. Quem estiver na área sofre 20d12+20 pontos de dano de luz e fogo, além de ficarem cegas e em chamas. Passar na resistência evita a condição cego e o dano de fogo.",
     "aprimoramentos": [
-      "+5 PM: a área aumenta para 36m de raio.",
-      "+5 PM: a cegueira dura 1 cena em vez de rodadas."
+      "+5 PM: aumenta o dano em +5d12+5.",
+      "+5 PM: além do normal, a área da explosão é iluminada por uma luz similar ao sol até o fim da cena.",
+      "+5 PM (apenas devotos de Azgher): além do normal, mortos-vivos e devotos de Tenebra na área sofrem –5 na resistência contra essa magia."
     ]
   }
 ]
