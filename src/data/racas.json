@@ -506,8 +506,8 @@
     "descricao": "Nativas da Floresta de Seda, no continente de Galrasia, as arachnes são criaturas com metade do corpo sendo de uma aranha. Sua origem é um tanto obscura, sendo elas referenciadas como filhas de Tenebra, que as criou ao conceder a um habitante da floresta um par para poder perpetuar sua raça, mas que por decreto de Azgher, foram impedidas de apreciar a luz do sol.",
     "habilidades": [
       {
-        "nome": "Constituição +2, Destreza +1, Carisma –1",
-        "descricao": "Herança aracnídea que confere resiliência e agilidade, mas afasta a confiança de outros povos."
+        "nome": "Constituição +2, Sabedoria +1, Carisma –1",
+        "descricao": "Herança aracnídea que confere resiliência e acuidade, mas afasta a confiança de outros povos."
       },
       {
         "nome": "Criatura Aracnídea",
@@ -627,11 +627,7 @@
     "habilidades": [
       {
         "nome": "Famílias",
-        "descricao": "Escolha uma família: Blattodea (Con+1, carapaça, mente coletiva), Coleoptera (Con+1, chifre, elitras), Mantodea (For+1, garras, profeta marcial), ou Megaloptera (For+1, tamanho Grande, mordida, nadador)."
-      },
-      {
-        "nome": "Criatura Insetoide",
-        "descricao": "Você é uma criatura do tipo monstro e recebe visão na penumbra."
+        "descricao": "Escolha uma das famílias a seguir. Ela determina sua anatomia e suas demais habilidades de raça. Além disso, você é uma criatura do tipo monstro e recebe visão na penumbra. • Blattodea (Con+1, +1 em dois atributos): Carapaça Impenetrável, Mente Coletiva, Vigor Sobrenatural. • Coleoptera (Con+1, +1 em dois atributos): Chifre de Rinoceronte, Elitras, Quitina. • Diptera (Sab+1, +1 em dois atributos): Picada, Sentidos Evasivos, Visão Acelerada. • Embioptera (Int+1, +1 em dois atributos): Criatura dos Túneis, Tecelão Natural, Técnica de Fuga. • Hymenoptera (Des+1, +1 em dois atributos): Antenas, Asas de Inseto, Ferrão."
       }
     ],
     "deus": "Allihanna, Megalokk, Sszzaas, Tenebra",
@@ -649,16 +645,24 @@
     "descricao": "Do continente divino de Alstra. Extremamente parecidos com humanos, possuem porte altivo, cabelos sempre louros e olhos em tons claros, às vezes com orelhas pontudas. Exalam poder divino exuberante e carregam símbolos de divindades exteriores em suas mãos ou face.",
     "habilidades": [
       {
-        "nome": "+1 em Três Atributos",
+        "nome": "+1 em Três Atributos Diferentes",
         "descricao": "Herança divina equilibrada que se manifesta em múltiplas capacidades."
       },
       {
-        "nome": "Herança Divina de Alstra",
-        "descricao": "Você recebe +2 em testes de resistência contra magias e efeitos divinos. Além disso, pode detectar a presença de divindades menores em alcance médio."
+        "nome": "Criação Exterior",
+        "descricao": "Você é uma criatura do tipo espírito. Além disso, escolha um atributo entre Inteligência, Sabedoria ou Carisma. Uma vez feita, a escolha não pode ser mudada. Você soma o atributo escolhido no seu total de PV, limitado pelo nível. De forma alternativa, você pode escolher ser marcado por Glória, se fizer isso, não soma nenhum atributo no seu total de pontos de vida, mas recebe +2 PM por patamar de jogo."
       },
       {
-        "nome": "Marca dos Vanirs",
-        "descricao": "Você possui uma marca natural em sua pele que brilha ao usar poderes concedidos, fornecendo +1 PM em poderes concedidos de divindades maiores."
+        "nome": "Inabalável",
+        "descricao": "Ao chegar a 0 PV, você não fica inconsciente, mas fica exausto, esmorecido e sangrando (mesmo que imune a essas condições) até voltar a ter pelo menos 1 PV. Você ainda morre se chegar em um valor negativo igual à metade de seus PV máximos."
+      },
+      {
+        "nome": "Servo da Vitória",
+        "descricao": "Você recebe um poder concedido a sua escolha de um deus maior que canalize apenas energia positiva ou a habilidade Golpe Divino. Caso obtenha essa habilidade novamente, seu custo é reduzido em –1 PM."
+      },
+      {
+        "nome": "Vida sob um Código",
+        "descricao": "Você deve ter um código de conduta ou seguir alguma obrigação e restrição, do contrário, sofre –5 em testes de perícia, rolagens de dano e suas habilidades de raça param de funcionar."
       }
     ],
     "deus": "Azgher, Khalmyr, Lin-Wu, Thyatis",
@@ -707,20 +711,20 @@
     "descricao": "Guardiãs de Vanasi, o templo dos deuses em Alstra. Mulheres de porte viril e altura elevada com maestria na lança e asas metálicas. Após a guerra artoniana, passaram a ser vistas em exércitos e locais estratégicos de Arton.",
     "habilidades": [
       {
-        "nome": "Força +2, Sabedoria +1, Carisma +1",
-        "descricao": "Constituição guerreira e presença imponente."
+        "nome": "Destreza +2, Constituição +1, Carisma –1",
+        "descricao": "Agilidade guerreira e resistência física, mas presença pouco cativante."
       },
       {
-        "nome": "Asas Metálicas",
-        "descricao": "Você possui asas de metal que concedem deslocamento de voo de 9m. As asas podem ser usadas como escudos para habilidades que exijam escudos."
+        "nome": "Asas de Ferro",
+        "descricao": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua, mas você recebe +2 na Defesa e em Reflexos."
       },
       {
-        "nome": "Guerreira de Vanasi",
-        "descricao": "Você é treinada com lanças e armaduras pesadas desde o nascimento. Recebe +2 em testes de ataque com lanças e +1 na Defesa quando veste armadura pesada."
+        "nome": "Coletora dos Mortos",
+        "descricao": "Você é uma criatura do tipo espírito, recebe visão no escuro e seus ataques contra mortos-vivos causam +1d12 pontos de dano de luz."
       },
       {
-        "nome": "Devoção aos Vanirs",
-        "descricao": "Você recebe +1 PM por nível nos poderes concedidos de divindades de Alstra (Glória, Aegis, etc.)."
+        "nome": "Sacrifício aos Caídos",
+        "descricao": "Uma vez por rodada, por aliado, se ele ficar com 0 PV ou menos, você pode perder 1d4 PV (que não podem ser temporários) por nível para que seu aliado cure uma quantidade de PV igual aos pontos de vida que você perdeu. Pontos de vida perdidos dessa forma só são recuperados com descanso."
       }
     ],
     "deus": "Glória, Aegis, Frier",
@@ -862,12 +866,16 @@
         "descricao": "Força demoníaca com presença intimidante mas repulsiva."
       },
       {
-        "nome": "Aversão à Desonra",
-        "descricao": "Você recebe +2 em testes de resistência contra encantamento e ilusão. Além disso, quando atingido por uma traição de aliado, recebe +2 em testes de ataque contra o traidor até o fim da cena."
+        "nome": "Aversão a Desonra",
+        "descricao": "Você causa +1d8 pontos de dano de eletricidade contra criaturas desonradas, desonestas e devotas de divindades que canalizam energia negativa."
       },
       {
-        "nome": "Chifres de Demônio",
-        "descricao": "Arma natural de chifres (1d8, impacto). Uma vez por rodada, ao acertar com outra arma, pode gastar 1 PM para atacar com os chifres como ataque livre."
+        "nome": "Chifres Venenosos",
+        "descricao": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando faz uma ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres. Criaturas atingidas pelos seus chifres perdem +1d12 PV por veneno."
+      },
+      {
+        "nome": "De Outro Mundo",
+        "descricao": "Você é uma criatura do tipo espírito. Recebe visão na penumbra e imunidade a doenças, fogo e veneno."
       }
     ],
     "deus": "Qualquer",
