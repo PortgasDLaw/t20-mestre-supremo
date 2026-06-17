@@ -221,7 +221,7 @@
       "dano": "1d6",
       "critico": "x2",
       "alcance": "-",
-      "tipoDano": "Corte",
+      "tipoDano": "Impacto",
       "espacos": 1
     },
     {
@@ -372,8 +372,8 @@
       "tipo": "Corpo-a-corpo",
       "empunhadura": "Uma Mão",
       "preco": "100 T$",
-      "dano": "1d10",
-      "critico": "x3",
+      "dano": "1d8/1d10",
+      "critico": "19",
       "alcance": "-",
       "tipoDano": "Corte",
       "espacos": 1
@@ -517,6 +517,20 @@
       "alcance": "-",
       "tipoDano": "Impacto",
       "espacos": 1
+    },
+    {
+      "id": "marreta",
+      "nome": "Marreta",
+      "categoria": "Marcial",
+      "proficiencia": "Marcial",
+      "tipo": "Corpo a Corpo",
+      "empunhadura": "Duas Mãos",
+      "preco": "T$ 20",
+      "dano": "3d4",
+      "critico": "x2",
+      "alcance": null,
+      "tipoDano": "Impacto",
+      "espacos": 2
     },
     {
       "id": "martelo-de-guerra",
@@ -1427,7 +1441,7 @@
       "categoria": "armadura",
       "tipo": "pesada",
       "preco": "150 T$",
-      "defesa": "+5",
+      "defesa": "+6",
       "penalidade": "-2",
       "espacos": 5
     },
@@ -1437,7 +1451,7 @@
       "categoria": "armadura",
       "tipo": "pesada",
       "preco": "250 T$",
-      "defesa": "+6",
+      "defesa": "+7",
       "penalidade": "-3",
       "espacos": 5
     },
@@ -1447,7 +1461,7 @@
       "categoria": "armadura",
       "tipo": "pesada",
       "preco": "600 T$",
-      "defesa": "+7",
+      "defesa": "+8",
       "penalidade": "-4",
       "espacos": 5
     },
