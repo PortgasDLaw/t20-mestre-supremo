@@ -1,20 +1,6 @@
 {
   "armas": [
     {
-      "id": "acoite-fintroll",
-      "nome": "Açoite Fintroll",
-      "categoria": "arma",
-      "proficiencia": "exótica",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Uma Mão",
-      "preco": "30 T$",
-      "dano": "1d8",
-      "critico": "x2",
-      "alcance": "-",
-      "tipoDano": "Corte",
-      "espacos": 1
-    },
-    {
       "id": "adaga",
       "nome": "Adaga",
       "categoria": "arma",
@@ -97,20 +83,6 @@
       "alcance": "Médio",
       "tipoDano": "Perfuração",
       "espacos": 2
-    },
-    {
-      "id": "arpao",
-      "nome": "Arpão",
-      "categoria": "arma",
-      "proficiencia": "exótica",
-      "tipo": "Ataque à Distância",
-      "empunhadura": "Uma Mão",
-      "preco": "30 T$",
-      "dano": "1d10",
-      "critico": "x3",
-      "alcance": "Curto",
-      "tipoDano": "Perfuração",
-      "espacos": 1
     },
     {
       "id": "azagaia",
@@ -281,20 +253,6 @@
       "espacos": 1
     },
     {
-      "id": "espada-vespa",
-      "nome": "Espada Vespa",
-      "categoria": "arma",
-      "proficiencia": "exótica",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Uma Mão",
-      "preco": "75 T$",
-      "dano": "2d4",
-      "critico": "18",
-      "alcance": "-",
-      "tipoDano": "Corte ou Perfuração",
-      "espacos": 1
-    },
-    {
       "id": "florete",
       "nome": "Florete",
       "categoria": "arma",
@@ -351,20 +309,6 @@
       "espacos": 2
     },
     {
-      "id": "gladio",
-      "nome": "Gládio",
-      "categoria": "arma",
-      "proficiencia": "marcial",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Uma Mão",
-      "preco": "12 T$",
-      "dano": "1d6",
-      "critico": "19/x3",
-      "alcance": "-",
-      "tipoDano": "Perfuração",
-      "espacos": 1
-    },
-    {
       "id": "katana",
       "nome": "Katana",
       "categoria": "arma",
@@ -391,20 +335,6 @@
       "alcance": "Curto",
       "tipoDano": "Perfuração",
       "espacos": 1
-    },
-    {
-      "id": "lanca-de-fogo",
-      "nome": "Lança de Fogo",
-      "categoria": "arma",
-      "proficiencia": "exótica",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Duas Mãos",
-      "preco": "1000 T$",
-      "dano": "Especial",
-      "critico": "Especial",
-      "alcance": "Especial",
-      "tipoDano": "Perfuração",
-      "espacos": 2
     },
     {
       "id": "lanca-montada",
@@ -561,20 +491,6 @@
       "espacos": 2
     },
     {
-      "id": "mordida-do-diabo",
-      "nome": "Mordida do Diabo",
-      "categoria": "arma",
-      "proficiencia": "exótica",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Uma Mão",
-      "preco": "30 T$",
-      "dano": "1d4",
-      "critico": "x2",
-      "alcance": "-",
-      "tipoDano": "Perfuração",
-      "espacos": 1
-    },
-    {
       "id": "mosquete",
       "nome": "Mosquete",
       "categoria": "arma",
@@ -587,20 +503,6 @@
       "alcance": "Médio",
       "tipoDano": "Perfuração",
       "espacos": 2
-    },
-    {
-      "id": "neko-te",
-      "nome": "Neko-te",
-      "categoria": "arma",
-      "proficiencia": "marcial",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Leve",
-      "preco": "10 T$",
-      "dano": "1d4",
-      "critico": "19",
-      "alcance": "-",
-      "tipoDano": "Corte",
-      "espacos": 1
     },
     {
       "id": "picareta",
@@ -642,34 +544,6 @@
       "critico": "19/x3",
       "alcance": "Curto",
       "tipoDano": "Perfuração",
-      "espacos": 1
-    },
-    {
-      "id": "pistola-punhal",
-      "nome": "Pistola Punhal",
-      "categoria": "arma",
-      "proficiencia": "exótica",
-      "tipo": "Especial",
-      "empunhadura": "Uma Mão",
-      "preco": "300 T$",
-      "dano": "Especial",
-      "critico": "Especial",
-      "alcance": "Especial",
-      "tipoDano": "Perfuração",
-      "espacos": 1
-    },
-    {
-      "id": "porrete",
-      "nome": "Porrete",
-      "categoria": "arma",
-      "proficiencia": "simples",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Leve",
-      "preco": "2 T$",
-      "dano": "1d6",
-      "critico": "x2",
-      "alcance": "-",
-      "tipoDano": "Impacto",
       "espacos": 1
     },
     {
@@ -729,34 +603,6 @@
       "espacos": 2
     },
     {
-      "id": "tetsubo",
-      "nome": "Tetsubo",
-      "categoria": "arma",
-      "proficiencia": "marcial",
-      "tipo": "Corpo-a-corpo",
-      "empunhadura": "Duas Mãos",
-      "preco": "20 T$",
-      "dano": "1d10",
-      "critico": "x2",
-      "alcance": "-",
-      "tipoDano": "Impacto",
-      "espacos": 2
-    },
-    {
-      "id": "traque",
-      "nome": "Traque",
-      "categoria": "arma",
-      "proficiencia": "fogo",
-      "tipo": "Ataque à Distância",
-      "empunhadura": "Leve",
-      "preco": "75 T$",
-      "dano": "2d6",
-      "critico": "19/x3",
-      "alcance": "Curto",
-      "tipoDano": "Perfuração",
-      "espacos": 1
-    },
-    {
       "id": "tridente",
       "nome": "Tridente",
       "categoria": "arma",
@@ -765,20 +611,6 @@
       "empunhadura": "Uma Mão",
       "preco": "15 T$",
       "dano": "1d8",
-      "critico": "x2",
-      "alcance": "Curto",
-      "tipoDano": "Perfuração",
-      "espacos": 1
-    },
-    {
-      "id": "zarabatana",
-      "nome": "Zarabatana",
-      "categoria": "arma",
-      "proficiencia": "simples",
-      "tipo": "Ataque à Distância",
-      "empunhadura": "Uma Mão",
-      "preco": "5 T$",
-      "dano": "1d3",
       "critico": "x2",
       "alcance": "Curto",
       "tipoDano": "Perfuração",
@@ -1284,24 +1116,17 @@
   "municoes": [
     {
       "id": "balas-de-arma-20",
-      "nome": "Balas de Arma (20)",
+      "nome": "Balas (20)",
       "categoria": "municao",
       "preco": "20 T$",
       "espacos": 1
     },
     {
       "id": "balas-de-funda-20",
-      "nome": "Balas de Funda (20)",
+      "nome": "Pedras (20)",
       "categoria": "municao",
       "preco": "0,5 T$",
       "espacos": 1
-    },
-    {
-      "id": "dardos-20",
-      "nome": "Dardos (20)",
-      "categoria": "municao",
-      "preco": "—",
-      "espacos": 0.5
     },
     {
       "id": "flechas-20",
@@ -1701,14 +1526,6 @@
       "categoria": "itemGeral",
       "tipo": "Alimentação",
       "preco": "2 T$",
-      "espacos": 0.5
-    },
-    {
-      "id": "goard-quente",
-      "nome": "Goard quente",
-      "categoria": "itemGeral",
-      "tipo": "Alimentação",
-      "preco": "5 T$",
       "espacos": 0.5
     },
     {
@@ -2685,7 +2502,7 @@
     },
     {
       "id": "alaude-elfico",
-      "nome": "Alaúde elfico",
+      "nome": "Alaúde élfico",
       "categoria": "itemGeral",
       "tipo": "Ferramenta",
       "preco": "300 T$",
@@ -3422,16 +3239,6 @@
       "descricao": "Dispositivo conectado a um mecanismo móvel encaixado no ombro, que pode armazenar até duas bombas. Uma vez por rodada, como ação de movimento, você pode gastar uma bomba e lançá-la em um ponto em alcance médio. Recarregar o lançador de ombro requer duas ações completas."
     },
     {
-      "id": "manopla-pesada",
-      "nome": "Manopla Pesada",
-      "categoria": "itemGeral",
-      "tipo": "Vestuário",
-      "preco": "T$ 35",
-      "espacos": 1,
-      "fonte": "Mitos de Arton",
-      "descricao": "Versão mais poderosa de uma manopla convencional, adornada com anéis metálicos e rebites de ferro. Impõe penalidade de –2 em ataques corpo a corpo, mas aumenta o dano desarmado em +1 dado do mesmo tipo. Esse dado extra é multiplicado em caso de acerto crítico."
-    },
-    {
       "id": "mascara-de-cacador",
       "nome": "Máscara de Caçador",
       "categoria": "itemGeral",
@@ -3517,22 +3324,8 @@
       "espacos": 1
     },
     {
-      "id": "primar-atletico",
-      "nome": "Primar Atlético",
-      "categoria": "pocaoOuPergaminho",
-      "preco": "30 T$",
-      "espacos": 1
-    },
-    {
       "id": "protecao-divina",
       "nome": "Proteção Divina",
-      "categoria": "pocaoOuPergaminho",
-      "preco": "30 T$",
-      "espacos": 1
-    },
-    {
-      "id": "resistencia-a-energia",
-      "nome": "Resistência à Energia",
       "categoria": "pocaoOuPergaminho",
       "preco": "30 T$",
       "espacos": 1
@@ -3694,13 +3487,6 @@
     {
       "id": "fisico-divino-aprimoramento-para-3-atributos",
       "nome": "Físico Divino (aprimoramento para 3 atributos)",
-      "categoria": "pocaoOuPergaminho",
-      "preco": "1080 T$",
-      "espacos": 1
-    },
-    {
-      "id": "invisibilidade-aprimoramento-para-cena",
-      "nome": "Invisibilidade (aprimoramento para cena)",
       "categoria": "pocaoOuPergaminho",
       "preco": "1080 T$",
       "espacos": 1
