@@ -1375,61 +1375,207 @@
     "habilidades_classe": [
       {
         "nivel": 1,
-        "nome": "Escola do Bruxeiro",
-        "descricao": "Escolha uma escola: Lobo (combate ágil e furtivo), Grifo (combate aéreo e à distância), ou Urso (resistência e combate pesado). Cada escola oferece progressões de habilidades únicas."
-      },
-      {
-        "nivel": 1,
         "nome": "Arma Bruxeira",
-        "descricao": "Escolha uma arma marcial como sua arma bruxeira. Você recebe proficiência e bônus especiais com ela, que aumentam conforme sobe de nível."
+        "descricao": "Você recebe uma espada alquimicamente tratada como sua Arma de Bruxeiro — escolha entre bastarda, curta, longa ou montante. Ela causa +1d4 de dano extra (+2d4 no 5º, +3d4 no 9º, +4d4 no 13º, +5d4 no 17º, +10d4 no 20º). Substituir demora 1 semana e custa T$150."
       },
       {
         "nivel": 1,
         "nome": "Sinais",
-        "descricao": "Você conhece 5 sinais (gestos arcanos que emulam magias sem vocalização). Podem ser usados com armadura leve sem testes de Misticismo. Custo: 2 PM para 1° círculo, 4 PM para 2°, etc."
+        "descricao": "Você soma sua Inteligência ao total de PM no 1º nível. Você conhece os cinco sinais básicos (Aard, Axii, Igni, Quen e Yrden). Sinais são gestos que não usam vocalização, podem ser usados com armadura leve sem testes de Misticismo e exigem uma mão livre. Atributo-chave: Inteligência. Lançar um sinal é ação de movimento. Sinais não podem ser aprimorados (exceto o Quen). Custo: 2 PM para sinais que emulam 1º círculo, 5 PM para 2º círculo, 9 PM para 3º círculo. Você pode manter até 5 sinais memorizados; trocar requer 1 hora de meditação."
       },
       {
         "nivel": 1,
-        "nome": "Olhos Laranjas",
-        "descricao": "Seus olhos de gato permitem visão na penumbra. Além disso, você pode usar Misticismo no lugar de Percepção e Investigação."
+        "nome": "Teste das Ervas",
+        "descricao": "Você se formou em uma escola de bruxeiro (veja Escolas de Bruxeiro). Escolha uma; essa escolha não pode ser mudada. Você recebe o efeito básico da escola. Além disso, pelos químicos aplicados em seu sangue, sua longevidade aumenta em +1 (arredondado para cima, máx. x5)."
       },
       {
-        "nivel": 5,
-        "nome": "Veterano da Escola",
-        "descricao": "Você recebe os benefícios de veterano da sua escola, aprimorando suas habilidades de bruxeiro."
+        "nivel": 3,
+        "nome": "Olhos Laranjas",
+        "descricao": "Gaste 2 PM para somar sua Inteligência (limitada pelo nível) em seu próximo teste de ataque com a arma de bruxeiro, Percepção ou Reflexos realizado até o fim do seu turno."
+      },
+      {
+        "nivel": 6,
+        "nome": "Formação Versátil",
+        "descricao": "Você recebe o efeito básico de uma segunda escola de bruxeiro. Mas não pode escolher os poderes Graduação e Masterização para essa escola."
+      },
+      {
+        "nivel": 20,
+        "nome": "Mestre Bruxeiro",
+        "descricao": "Ao empunhar sua arma de bruxeiro, você rola dois dados e usa o melhor resultado em testes de ataque, rola novamente qualquer resultado 1 ou 2 em rolagens de dano e dobra os dados de Arma Bruxeira."
       }
     ],
     "progressao": [
       {
         "nivel": 1,
-        "habilidade": "Escola do bruxeiro, arma bruxeira, sinais, olhos laranjas"
+        "habilidade": "Arma bruxeira (+1d4), sinais, teste das ervas"
       },
       {
         "nivel": 2,
         "habilidade": "Poder de bruxeiro"
       },
       {
+        "nivel": 3,
+        "habilidade": "Olhos laranjas, poder de bruxeiro"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
         "nivel": 5,
-        "habilidade": "Veterano da escola, poder de bruxeiro"
+        "habilidade": "Arma bruxeira (+2d4), poder de bruxeiro"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Formação versátil, poder de bruxeiro"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Arma bruxeira (+3d4), poder de bruxeiro"
       },
       {
         "nivel": 10,
-        "habilidade": "Mestre da escola, poder de bruxeiro"
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 12,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Arma bruxeira (+4d4), poder de bruxeiro"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Arma bruxeira (+5d4), poder de bruxeiro"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Poder de bruxeiro"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Poder de bruxeiro"
       },
       {
         "nivel": 20,
-        "habilidade": "Bruxeiro Lendário, poder de bruxeiro"
+        "habilidade": "Mestre bruxeiro (+10d4), poder de bruxeiro"
       }
     ],
     "poderes": [
-      "Afiação — dados de dano da Arma Bruxeira aumentam em uma categoria (11° nível)",
-      "Andarilho — usa Olhos Laranjas em Cura e Sobrevivência",
-      "Apático — resistência a medo +5, pode usar Int em Intimidação",
-      "Arma Alquímica — cria poções e venenos alquímicos com a arma",
-      "Exterminador — ataque especial que causa dano extra ao tipo de monstro escolhido",
-      "Fúria Bruxeira — perde PV para receber bônus em ataque, dano e RD",
-      "Graduação — recebe benefícios de veterano extra (6° nível)",
-      "Sinais Avançados — aprende sinais de 2° e 3° círculo"
+      "Abrir a Guarda — ataque adicional com arma bruxeira (3 PM, 1×/rodada); pré-req: 6º nível",
+      "Aço e Prata — segunda arma bruxeira (oposta a Exterminador); pré-req: Exterminador, 5º nível",
+      "Adepto Solitário — custo de habilidades de bruxeiro –1 PM enquanto sem aliados e sem efeitos benéficos de aliados",
+      "Afiação — dados de Arma Bruxeira +1 categoria (Escola do Lobo pode pegar 2x para incluir Exterminador); pré-req: 11º nível",
+      "Alquimia do Forte — óleo mágico na arma bruxeira aumenta dano um passo enquanto durar; pré-req: Ofício (alquimista)",
+      "Andarilho — usa Olhos Laranjas em Cura e Sobrevivência; pré-req: Cura e Sobrevivência treinados, Sab 1, 3º nível",
+      "Apático — resistência a medo +5; pode usar Inteligência como atributo-chave de Intimidação",
+      "Arma Alquímica — T$500, 1h, 3 PM: dano de Arma Bruxeira vira perda de vida (veneno) até fim do dia ou cena",
+      "Armeria do Forte — substituir arma leva 1 dia e T$50; bestas leves viram arma bruxeira; pré-req: Ofício (armeiro)",
+      "Aumento de Atributo — +1 em atributo; repetível (1×/patamar/atributo)",
+      "Bruxaria — transforma esotéricos em arma bruxeira; aplica dano de Arma Bruxeira nos sinais; pré-req: Escola da Serpente",
+      "Cambalhota — 1 PM, 1×/rodada: move 1,5m como reação sem gerar ataques de oportunidade",
+      "Capivaleiro — capivara fornece benefícios de capivara e cavalo; pré-req: Escola da Capivara, Carpeado",
+      "Carpeado — assoviar (ação de movimento, CD 20 Adestramento) para invocar cavalo de guerra parceiro veterano (mestre no 11º); pré-req: Adestramento e Cavalgar treinados, 5º nível",
+      "Chama Ígnea — ação de movimento, 5 PM: +2d6 fogo, +1 ataque/dano, arma mágica até fim da cena",
+      "Chamuscar — ação de movimento, 1 fogo alquímico: +1d6 fogo e deixa em chamas (Ref CD Int) até fim da cena",
+      "Cicatrizes — +2 Intimidação e redução de dano 2; pré-req: Con 2",
+      "Conhecimento Amplo — fica treinado em duas perícias de bruxeiro à escolha",
+      "Couro de Aço — Cota de Bruxeiro conta como armadura pesada para todos os efeitos (exceto movimentos livres); pré-req: Escola do Urso, 12º nível",
+      "Disparo Oculto — 1×/rodada: 1 PM para atirar besta de uma mão após atacar ou lançar sinal",
+      "Entalhador de Runas — Fabricar Item Mágico (menor), dobro do tempo, metade em matéria-prima; escala médio (14º) e maior (18º); pré-req: Armeria do Forte, Int 3, Misticismo, 10º nível",
+      "Exegeta de Glifos — aprende sinal que emula magia arcana de 1º círculo; repetível; pré-req: Misticismo treinado",
+      "Exótico — pode transformar qualquer arma corpo a corpo em arma bruxeira",
+      "Exterminador — 2 PM: +1d8 contra humanoides ou não-humanoides até fim da cena (+1d8 por 5 níveis após o 1º, 1×/ataque/rodada)",
+      "Fogo Focado — Igni pode ser lançado em linha de 6m (+1 PM); pré-req: 3º nível",
+      "Fúria Bruxeira — perde 2 PV (não temporários): +2 ataque/dano/RD mas sem benefícios de cura; custo 2 PV/rodada; +1 por 4 níveis (+2 PV por ampliação)",
+      "Graduação — recebe benefícios de veterano da escola; pré-req: 6º nível",
+      "Lendas e Histórias — 1 PM: rerola teste de Conhecimento, Misticismo, Nobreza ou Religião recém realizado; pré-req: Int 1",
+      "Lobo Branco — dobro do tempo sem respirar/comer/dormir; +5 contra cansaço, metabólicos e venenos; pré-req: Con 5, Cicatrizes",
+      "Malandro — ganha Ataque Furtivo usando nível de bruxeiro como ladino (sem dano de Arma Bruxeira); pré-req: Escola da Capivara ou Gato",
+      "Masterização — recebe benefícios de mestre da escola; pré-req: Graduação, 11º nível",
+      "Ouro para o Bruxeiro — tesouro do grupo +10% (+5%/patamar além de veterano); pré-req: 5º nível",
+      "Piromante — Igni emula Bola de Fogo (+4 PM); pré-req: Fogo Focado, 6º nível",
+      "Presas — segunda arma bruxeira não precisa ser leve; pré-req: Escola da Mantícora",
+      "Produtor Independente — fabrica itens superiores até 2 melhorias e poções 1º-2º (só você usa as poções; óleos apenas para armas bruxeiras); pré-req: Armeria do Forte, Alquimia do Forte, 6º nível",
+      "Purgatório — criaturas na área do Yrden sofrem 4d6 impacto no início de seus turnos (+4d6 no 11º e 17º); pré-req: 8º nível",
+      "Rasante — investida com arma bruxeira: bônus de ataque +5, +2 dados de dano extra; pré-req: Escola do Grifo, 7º nível",
+      "Rei da Caçada — acerto crítico com arma bruxeira: dados de Arma Bruxeira +1 categoria nessa rolagem; pré-req: 17º nível",
+      "Sinal Favorito — sinal escolhido: custo –1 PM; repetível para sinais diferentes",
+      "Sinal Poderoso — sinal escolhido: CD +2; repetível para sinais diferentes",
+      "Sobrepeliz Espinhosa — ao usar Quen como reação: 2 PM para devolver dano reduzido como perfuração (Fort CD Int evita); pré-req: 8º nível",
+      "Sobrepeliz Mística — ao usar Quen: +3 PM para +5 PV temporários por cada 10 pontos de RD fornecida; pré-req: 4º nível",
+      "Temido — imune a medo; criaturas sob medo sofrem +1d12 da arma bruxeira e sinais; pré-req: Apático, 11º nível",
+      "Terror Mental — sinais que aplicam condições de medo ou mentais: CD +2",
+      "Tirania Elemental — usa efeito básico da Escola do Dragão no Ignis Ferrum e no dano de Arma Bruxeira; pode converter para luz ou trevas; pré-req: Escola do Dragão",
+      "Troféu — exibe troféu; raça do troféu fica abalada e vulnerável; pré-req: 12º nível",
+      "Vagabundo — recebe 1 poder de ladino cujos pré-requisitos cumpra (usando nível como ladino); pré-req: Malandro"
+    ],
+    "linhagens": [
+      {
+        "nome": "Escola da Capivara",
+        "descricao": "Básico: proficiência com armas de fogo; pode transformá-las em arma bruxeira; pode usar Disparo Oculto com elas se de uma mão. Veterano: montado, dano da arma bruxeira +1 passo; pode tornar qualquer arma à distância em arma bruxeira (com Exótico); criaturas pequenas podem invocar capivara no Carpeado. Mestre: flanquear com armas à distância em alcance curto; recebe Estouro das Capivárias."
+      },
+      {
+        "nome": "Escola da Mantícora",
+        "descricao": "Básico: segunda arma bruxeira leve; se empunhando duas armas bruxeiras (ao menos uma leve), pode fazer dois ataques ao agredir (–2 em todos os ataques até o próximo turno; com Estilo de Duas Armas, sem penalidade). Veterano: pode usar Disparo Oculto sem mão livre; no 1º turno em combate, se adjacente a criatura, pode gastar 2 PM para atacá-la como ação livre. Mestre: ao fazer dois ataques, pode fazer terceiro (1 PM, –4) e quarto (2 PM, –6) até errar ou ficar sem PM."
+      },
+      {
+        "nome": "Escola da Serpente",
+        "descricao": "Básico: sinais com –1 PM; pode aprimorar sinais normalmente (2º círculo como veterano; 3º e 4º como mestre). Veterano: +1 PM por nível de bruxeiro; ao pegar Exegeta de Glifos, pode escolher magias de 2º círculo. Mestre: 1×/rodada, gaste +2 PM para reduzir execução do sinal em um passo; pode aplicar catalisadores em sinais."
+      },
+      {
+        "nome": "Escola do Leão",
+        "descricao": "Básico: arma bruxeira causa +1d8 luz (+1d12 contra mortos-vivos); +2d8 (+2d12) contra criaturas desonradas, corruptas ou vilões. Veterano: pode usar Olhos Laranjas em Intuição; proficiência com armaduras pesadas e escudos; redução de trevas 5. Mestre: 1×/rodada, ao sofrer ataque ou teste de resistência, gaste 2 PM para somar Int (limitada pelo nível) na Defesa e em testes de resistência contra esse efeito."
+      },
+      {
+        "nome": "Escola do Lobo",
+        "descricao": "Básico: arma bruxeira +1 na margem de ameaça por etapa de graduação possuída. Veterano: multiplicador de crítico +1 e dado de Arma Bruxeira +1 categoria. Mestre: melhorias e encantos da arma bruxeira têm bônus numéricos +1; se sem bônus numérico, +1 em testes de ataque e dano (cumulativo)."
+      },
+      {
+        "nome": "Escola do Urso",
+        "descricao": "Básico: proficiência com armaduras pesadas; sem redução de deslocamento por armaduras pesadas ou excesso de carga; lançar sinais com armadura pesada não exige testes de Misticismo. Veterano: pode aprimorar o Quen como bardo do mesmo nível; +3 PV no 1º nível (+1 PV por nível seguinte). Mestre: com armadura pesada, RD 5 e pode somar Int na Defesa (não soma Des, mesmo se outro efeito permitir)."
+      },
+      {
+        "nome": "Escola do Cervo",
+        "descricao": "Básico: aprende sinal Helle (emula Curar Ferimentos); com Exegeta de Glifos, pode aprender sinais de magias divinas de 1º círculo. Veterano: Exegeta de Glifos pode incluir magias divinas de 2º círculo; soma Int em efeitos mágicos de cura. Mestre: pode aprimorar sinais de magias divinas como druida do mesmo nível; ao usar Helle, pode gastar +4 PM para trocar por Sopro da Salvação."
+      },
+      {
+        "nome": "Escola do Dragão",
+        "descricao": "Básico: pode aprimorar o Igni como bardo do mesmo nível; gaste +1 PM para trocar tipo de dano do Igni para ácido, eletricidade ou frio. Veterano: habilidades de bruxeiro que interagem com o Igni podem ser alteradas pelo efeito acima; +2 PM para gastar em aprimoramentos do Igni. Mestre: contra criaturas do tipo monstro de categoria de tamanho maior, +1 em testes de perícia e na Defesa."
+      },
+      {
+        "nome": "Escola do Gato",
+        "descricao": "Básico: treinado em Furtividade e Ladinagem (ou +2 se já treinado); bestas e armas leves têm dano +1 passo. Veterano: recebe Esquiva Sobrenatural ou Evasão; 1 PM para não sofrer –5 ao arrombar sem gazua (com gazua: +2 no teste). Mestre: sem armadura pesada, soma Int (limitada pelo nível) na Defesa e em Furtividade; recebe Olho nas Costas ou Evasão Aprimorada."
+      },
+      {
+        "nome": "Escola do Grifo",
+        "descricao": "Básico: +3m em todas as formas de deslocamento; aprende e pode lançar Salto Dimensional como magia simulada (aprimora como bardo do mesmo nível). Veterano: pode realizar investidas mesmo lento ou em terreno difícil (movimento normal, não dobrado; se lento ou terreno difícil ao correr, –5 no teste). Mestre: 2 PM para usar Primor Atlético com aprimoramento de saltar sobre inimigo, +2 na rolagem de dano do ataque seguinte."
+      }
     ]
   },
   {
@@ -1451,61 +1597,193 @@
     "habilidades_classe": [
       {
         "nivel": 1,
-        "nome": "Método de Cultivo",
-        "descricao": "Escolha um método: Armas (potencia ataques com chi), Corpo (fortalece fisicamente), Meditação (aumenta PM e controle de energia), ou Espírito (poderes espirituais e de cura)."
+        "nome": "Cultivo",
+        "descricao": "Ao realizar sua ação de trabalho interno (definida pelo método escolhido), você recebe 1 carga de chi. Você pode acumular no máximo cargas de chi iguais à sua Sabedoria, e elas duram até o fim da cena. Enquanto possuir ao menos 1 carga de chi, você recebe os efeitos da linha Cultivo do seu método de cultivo."
       },
       {
         "nivel": 1,
-        "nome": "Chi",
-        "descricao": "Você possui cargas de chi iguais ao seu nível. Recarga ao descansar. Chi pode ser gasto no lugar de PM em habilidades de cultivador."
+        "nome": "Nei Gong",
+        "descricao": "Escolha um método de cultivo: Arte Celestial, Meditação, Proteção, Armas, Demônio Imperial ou Dos Punhos. Uma vez feita, a escolha não pode ser mudada."
       },
       {
-        "nivel": 1,
-        "nome": "Regeneração Meditativa",
-        "descricao": "Uma vez por cena, como ação completa, você pode meditar para recuperar PV iguais a 1d8 + Sab."
-      },
-      {
-        "nivel": 5,
-        "nome": "Meridiano Aberto",
-        "descricao": "Você abre um meridiano, recebendo uma habilidade específica do seu método de cultivo."
+        "nivel": 4,
+        "nome": "Karma",
+        "descricao": "Você pode gastar 2 PM por meridiano aberto, por cena; para cada 2 PM gastos, você recebe 1 carga de chi. A partir do 8º nível, uma vez por aventura, você pode escolher 20 em qualquer teste (exceto testes de ataque e resistência), mas se fizer isso, o mestre pode escolher 0 em qualquer outro teste que você fizer até o fim da aventura."
       },
       {
         "nivel": 10,
-        "nome": "Fluxo de Chi Perfeito",
-        "descricao": "Seu chi flui perfeitamente. Você pode usar chi no lugar de PM em qualquer habilidade de personagem."
+        "nome": "Refinamento",
+        "descricao": "Você refina seu corpo além dos limites carnais. Some sua Sabedoria no seu total de pontos de vida e receba +1 PM por nível de cultivador. Além disso, você recebe +2 em uma perícia à sua escolha por meridiano aberto."
+      },
+      {
+        "nivel": 14,
+        "nome": "Reino Celestial",
+        "descricao": "Você alcança os seis reinos e eleva seu espírito. A qualquer momento fora de combate, você pode gastar 1 carga de chi para escolher 10 nos testes das perícias escolhidas em Refinamento; caso já possa fazer isso de outra forma, pode escolher 20 — apenas uma vez por cena."
+      },
+      {
+        "nivel": 20,
+        "nome": "Imortal",
+        "descricao": "Você atinge o zênite entre os mortais. Você recebe +1 em todos os seus atributos e recebe a dádiva Imortal, mesmo sem ser um deus menor. Além disso, não precisa respirar, alimentar-se ou dormir — você se sustenta através da energia do universo."
       }
     ],
     "progressao": [
       {
         "nivel": 1,
-        "habilidade": "Método de cultivo, chi, regeneração meditativa"
+        "habilidade": "Cultivo (1º meridiano), nei gong"
       },
       {
         "nivel": 2,
         "habilidade": "Poder de cultivador"
       },
       {
+        "nivel": 3,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Cultivo (2º meridiano), poder de cultivador"
+      },
+      {
         "nivel": 5,
-        "habilidade": "Meridiano aberto, poder de cultivador"
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Cultivo (3º meridiano), karma, poder de cultivador"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Cultivo (4º meridiano), karma (roda da fortuna), poder de cultivador"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Poder de cultivador"
       },
       {
         "nivel": 10,
-        "habilidade": "Fluxo de chi perfeito, poder de cultivador"
+        "habilidade": "Cultivo (5º meridiano), poder de cultivador, refinamento"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 12,
+        "habilidade": "Cultivo (6º meridiano), poder de cultivador"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Cultivo (7º meridiano), poder de cultivador, reino celestial"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Poder de cultivador"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Poder de cultivador"
       },
       {
         "nivel": 20,
-        "habilidade": "Mestre do Cultivo, poder de cultivador"
+        "habilidade": "Imortal, poder de cultivador"
       }
     ],
     "poderes": [
-      "Arte da Guerra — soma Sabedoria em Guerra, pode usá-la por Diplomacia (1×/cena)",
-      "Canalizar Energia Neutra — onda de chi em cone ou linha de 3m",
-      "Espírito Gentil — Regeneração Meditativa em aliados adjacentes",
-      "Expansão Metodológica — segundo método de cultivo (6° nível)",
-      "Focar o Dantian — soma Sabedoria na cura e dano das habilidades de cultivador",
-      "Jigoku — abre portal infernal de Sora (15 PM, ação completa)",
-      "Selar os Meridianos — efeito de Selo de Mana em criatura adjacente (8° nível)",
-      "Sete Pilares do Céu — cria 7 pilares que armazenam magias (18° nível)"
+      "Alinhar as Energias — RD 10 contra ácido, eletricidade, essência, fogo, frio, luz e trevas; pré-req: 16º nível",
+      "Alquimia Espiritual — fabrica alquímicos espirituais; pré-req: Ofício (alquimista), Int 3, Sab 3",
+      "Arma de Cultivo Adicional — segunda arma de cultivo (jian, katana ou wakizashi); pré-req: Método das Armas",
+      "Arte da Guerra — soma Sab em Guerra (limitado pelo nível); 1×/cena, 2 PM para usar no lugar de Diplomacia; pré-req: Guerra treinado",
+      "Aumento de Atributo — +1 em atributo; repetível (1×/patamar/atributo)",
+      "Canalizar Energia Neutra — ação padrão + PM: cone ou linha 3m; 1d6 essência/PM (Ref CD Sab reduz); área +3m por meridiano ímpar; pré-req: Método da Meditação",
+      "Cem Pétalas de Cerejeira — ação completa, 6 PM, 1 chi: arma → pétalas em 9m raio sustentado; 1d12 (2d6 se cultivo)/meridiano, ação padrão para atacar; pré-req: 12º nível",
+      "Conhecimento Místico — usa Sab como atributo-chave de Misticismo; se já puder, +2",
+      "Constelação Rotatória — +1 em atributo diferente por meridiano além do 1º; pré-req: 4º nível",
+      "Corpo Espiritual — 1 carga de chi ao fazer Fortitude: soma Sab no teste",
+      "Corpo Vazio — ação de movimento, 1 chi: dano desarmado → essência até fim da cena; pré-req: Método dos Punhos",
+      "Corte Espiritual — 1 chi ao causar dano de corte ou essência: ignora até 10 de RD; pré-req: 8º nível",
+      "Dança das Andorinhas — ação completa, 6 PM, 1 chi: bambuzal 30m raio sustentado; +6m deslocamento e camuflagem total; pré-req: 8º nível",
+      "Dragão de Jade — aprende Arma de Jade (Sab); no 7º meridiano, aprende Katana Celestial; custo –1 PM se aprender novamente; pré-req: Devoto de Lin-Wu",
+      "Dragão Guerreiro — 15 PM: forma lendária sustentada; imunidades de dragão celestial, Presença Celestial, dano → eletricidade; pré-req: Método dos Punhos, 18º nível",
+      "Espada Celestial — conta meridianos de ambos os métodos igualmente; pré-req: Método da Arte Celestial, Método das Armas",
+      "Espada da Garça — arma de cultivo recebe encanto dançarina (não conta no limite); se já tiver, alcance +1 passo; pré-req: Método das Armas",
+      "Espada de Chi — ao usar Lâmina de Chi, 1 chi para refiná-la: +1 ataque/dano por meridiano após o 3º (bônus encanto); pode usar Sab em ataque/dano; pré-req: Lâmina de Chi",
+      "Espada Meditativa — arma de cultivo passa a ser esotérico (mas sem melhorias/encantos por isso); pré-req: Método das Armas, Método da Meditação",
+      "Espada Voadora — ação padrão, 5 PM: voo 12m montado na arma (sustentado); pode chutar o pomo para lançá-la como ataque; pré-req: Espada da Garça, 10º nível",
+      "Espírito Gentil — Regeneração Meditativa em criaturas vivas em alcance curto; cura de luz +1 PV/dado; pré-req: Revitalização Espiritual",
+      "Expansão Metodológica — segundo método de cultivo (–2 meridianos para efeitos); pré-req: 6º nível",
+      "Focar o Dantian — soma Sab na cura e no dano das habilidades de cultivador",
+      "Jigoku — ação completa, 15 PM: correntes capturam criatura adjacente (Ref CD Sab evita); próximo turno repete teste — falha → desaparece; pré-req: Método do Demônio Imperial, 17º nível",
+      "Kyudo — ao usar Mestre das Armas, pode escolher arcos; Espada da Garça fornece encanto caçadora; pré-req: Mestre das Armas",
+      "Lâmina de Chi — ação de movimento, 5 PM: lâmina de energia (1d12, 19/x3, essência) sustentada; mágica, ignora 5 RD/meridiano após o 3º, emite luz; pré-req: Método das Armas, 8º nível",
+      "Lâminas dos Sete Céus — ação padrão, PM limitado por Sab: espadas de energia (1d8+1, x2, essência) sustentadas; ação padrão + 1 chi para atacar até Sab alvos",
+      "Magia Moldada — ao lançar magia em área: 1 chi/criatura para excluí-la da área; pré-req: Método da Meditação, 6º nível",
+      "Mandala: Abismo e Paraíso — reação, 2 PM: alvo sofre 1d6 luz ou trevas/mandala; explodir → 1d12/mandala + abalado (trevas) ou ofuscado (luz) adjacentes (Fort reduz); sem resistência",
+      "Mandala: Reino Bestial — condição ruim para lançar magias (terrível se falhar Von); explodir → surdo por nº de mandalas rodadas (Von evita); pré-req: 6º nível",
+      "Mandala: Reino Deva — sem efeito contínuo; explodir → alvo perde 1d12 PV/mandala (Fort reduz), convertidos em cura para você; pré-req: 14º nível",
+      "Mandala: Reino Mortal — –1 perícia e Defesa/mandala (Von remove uma); explodir → desprevenido por rodadas = mandalas (Von → vulnerável); pré-req: 8º nível",
+      "Mestre das Armas — 1×/aventura, 1 dia e T$100: troca arma de cultivo por outra arma corpo a corpo leve ou ágil proficiente; pré-req: Método das Armas",
+      "Mestre das Mandalas — soma meridianos na CD das mandalas e na quantidade que pode manter; pré-req: poder de Mandala, 12º nível",
+      "Meditar — aprende 2 magias de qualquer círculo e escola que possa lançar; repetível; pré-req: Método da Meditação",
+      "Onimusha — contra criaturas da tormenta/cultistas de Aharadak/abissais: +1 perícia e dano/meridiano após o 2º; pré-req: Devoto de Lin-Wu, 8º nível",
+      "Pashupati — espírito animal parceiro (iniciante, não conta no limite); lv6 → veterano, lv12 → mestre; ressurge no início da próxima cena se morrer",
+      "Punho do Grande Sábio — 3 PM ao atacar desarmado: soma Sab no ataque, +1d8 essência; +1d8 por meridiano após o 1º (+1 PM); pré-req: Método dos Punhos",
+      "Regeneração Meditativa — 1×/cena, ação de movimento, cargas de chi (limite = meridianos abertos): recupera 1d12 PV/chi gasto",
+      "Revitalização Espiritual — 1×/cena, ação de movimento, cargas de chi (limite = meridianos): recupera 1d4 PM seu ou de criatura adjacente/chi gasto",
+      "Roda dos Seis Reinos — ação completa, 10 PM: 6 esferas douradas; ao causar dano, gaste 1 esfera para dobrar (exceto valores fixos e adicionais); pré-req: 17º nível",
+      "Selar os Meridianos — ação padrão, 1 chi: efeito de Selo de Mana em criatura adjacente como simulada (CD Sab); pré-req: 8º nível",
+      "Sete Pilares do Céu — 1 dia meditando: 7 pilares armazenam magias lançadas como rituais; podem ser lançadas como ação padrão; duram 1 aventura; pré-req: Método da Meditação, 18º nível",
+      "Talismãs — cria talismãs como pergaminhos (gasta PM em vez de tibares, 1h de trabalho, duram 1 dia); pré-req: Ofício (escriba), Método da Meditação",
+      "Tornar-se Abissal — ação completa, 10 PM: akumushi sustentado (2 PM/rodada); 1 poder da tormenta/meridiano (sem perda de Car), +2 dano e +1 Defesa/poder; pré-req: Método do Demônio Imperial, 12º nível",
+      "Tornar-se Celestial — ação completa, 10 PM: forma superior sustentada (2 PM/rodada); +2 resistência, sem tipo específico para magias, –1 PM nas magias, +1d6 essência (por meridiano par); pré-req: Método da Arte Celestial, Método da Meditação, 16º nível",
+      "Velocidade do Trovão — recebe evasão aprimorada; pré-req: Método da Proteção, 12º nível",
+      "Voo da Andorinha — 1×/rodada sob efeito de Wushu ao atacar com arma de cultivo: 2 PM para ataque extra; pré-req: Wushu",
+      "Wushu — ação de movimento, 3 PM: +1,5m deslocamento, +1 Defesa/ataque/Reflexos por meridiano após o 2º (sustentado, 2 PM/rodada); pré-req: Método das Armas, 6º nível"
+    ],
+    "linhagens": [
+      {
+        "nome": "Método da Arte Celestial",
+        "descricao": "Você se torna devoto de um deus que canaliza apenas energia positiva (devoto fiel). Empunhando a arma favorita da divindade, seu dano aumenta um passo (+1 passo por meridiano par aberto). Ação de Trabalho Interno: atacar com a arma favorita. Cultivo: +1d8 luz nos ataques com essa arma por meridiano ímpar aberto."
+      },
+      {
+        "nome": "Método da Meditação",
+        "descricao": "Escolha três escolas de magia (imutável). Lança magias de 1º círculo dessas escolas como divinas. Progresso: 2º círculo no 3º meridiano, 3º no 5º, 4º no 7º. Começa com 2 magias de 1º círculo; aprende 1/nível. Meridiano par → escola adicional. Atributo-chave: Sabedoria; soma Sab em PM. Ação de Trabalho Interno: lançar magias. Cultivo: limite de PM e CD das magias +1 por meridiano ímpar."
+      },
+      {
+        "nome": "Método da Proteção",
+        "descricao": "Treinado em todas as perícias de resistência (+2). Ao fazer resistência: 2 PM para rolar 2 dados e usar o melhor. Soma Sab na Defesa (limitado pelo nível, apenas sem armadura/escudo). +1 Defesa por meridiano par. No 5º meridiano: 1×/rodada, reação a ataque em aliado adjacente, 2 PM para se tornar o alvo. Ação de Trabalho Interno: passar em resistência, resistir manobra ou defender ataque. Cultivo: +1 resistência por meridiano ímpar."
+      },
+      {
+        "nome": "Método das Armas",
+        "descricao": "Escolha Jian ou Katana (proficiência + arma com 1 melhoria). +1 melhoria por meridiano após o 1º; encantos a partir do 5º meridiano. Substituir: T$100 e 1 semana. Ação de Trabalho Interno: atacar com a arma de cultivo. Cultivo: +1 ataque e dano com a arma de cultivo por meridiano ímpar."
+      },
+      {
+        "nome": "Método do Demônio Imperial",
+        "descricao": "Você se torna devoto de um deus que canaliza apenas energia negativa (devoto fiel). Empunhando a arma favorita, seu dano aumenta um passo (+1 passo por meridiano par aberto). Ação de Trabalho Interno: atacar com a arma favorita. Cultivo: +1d8 trevas nos ataques com essa arma por meridiano ímpar aberto."
+      },
+      {
+        "nome": "Método Dos Punhos",
+        "descricao": "Seu dano desarmado se torna 1d6 e causa dano letal ou não letal de corte, impacto ou perfuração. Soma Sab nas rolagens de dano desarmadas (em vez de Força). Conta como habilidade Briga para pré-requisitos. +1 passo de dano por meridiano após o 1º. No 3º e 5º meridiano, alcance natural +1,5m. Ação de Trabalho Interno: realizar ataque desarmado. Cultivo: +1 ataque e dano com golpes desarmados e armas naturais por meridiano ímpar."
+      }
     ]
   },
   {
@@ -1514,7 +1792,7 @@
     "fonte": "Mitos de Arton",
     "imagem": "",
     "descricao": "Praticantes da magia de sangue desenvolvida em Aslothia. Um tipo profano de magia que drena e manipula o sangue alheio. A primeira usuária foi Liandry Lustveil, que retorna a cada eclipse para empregar novos discípulos.",
-    "atributo": "Constituição",
+    "atributo": "Carisma",
     "pv_inicial": "24 + Constituição",
     "pv_por_nivel": "6 + Constituição",
     "pm_por_nivel": 3,
@@ -1528,53 +1806,156 @@
       {
         "nivel": 1,
         "nome": "Hemofagia",
-        "descricao": "Uma vez por rodada, ação padrão e 2 PM: force uma criatura adjacente a sangrar, causando 1d6 de dano de perfuração e deixando-a fraca. A cada 4 níveis, +1d6."
+        "descricao": "Você pode, uma vez por rodada, gastar uma ação padrão e 2 PM para disparar um raio de sangue em um inimigo vivo em alcance curto. Ele sofre 2d4 pontos de dano de trevas e você recupera PV na mesma quantidade (Fort CD Car reduz à metade). Um alvo afetado que falhe na resistência não pode receber efeitos de cura por 1 rodada. No 6º nível, e a cada quatro níveis seguintes, você pode gastar +1 PM para aumentar o dano em +1d4."
       },
       {
         "nivel": 1,
-        "nome": "Magia de Sangue",
-        "descricao": "Você pode lançar magias arcanas pagando parte do custo em PV em vez de PM (1 PM = 2 PV)."
+        "nome": "Hemofilia",
+        "descricao": "Você não gasta PM para usar habilidades — em vez disso, perde PV (que não podem ser temporários). Para cada 1 PM que a habilidade custar, você perde 2 PV. A menos que dito o contrário, PV perdidos dessa forma só podem ser recuperados com cura acelerada, descanso ou habilidades de hemófago (exceto magias). Seu limite de PV é igual ao dobro do seu nível de hemófago; efeitos que afetam o limite de PM afetam o de PV (mas sempre duplicando-o)."
+      },
+      {
+        "nivel": 1,
+        "nome": "Magias",
+        "descricao": "Você pode lançar magias arcanas e divinas de 1º círculo de necromancia, transmutação e uma terceira escola à sua escolha como se fossem arcanas. A cada quatro níveis, pode lançar magias de um círculo maior (2º no 5º, 3º no 9º, etc.). Começa com três magias de 1º círculo; aprende uma magia de qualquer círculo acessível por nível. Atributo-chave: Carisma. Soma Carisma no total de PV."
       },
       {
         "nivel": 5,
-        "nome": "Saciação",
-        "descricao": "Ao drenar sangue suficiente (10+ dano com Hemofagia), você fica saciado, recebendo +2 em testes de ataque e resistência por 1 cena."
+        "nome": "Caminho do Sangue",
+        "descricao": "Escolha entre Acúmulo Sanguíneo (PV sobressalente de Hemofagia → PV temporários limitados pelo Carisma, duram até fim da cena, podem ser gastos com habilidades) ou Penetração Sanguínea (dano de Hemofagia → perda de vida e +1 dado do mesmo tipo)."
       },
       {
-        "nivel": 10,
-        "nome": "Ressurreição Sanguínea",
-        "descricao": "Se morrer e restar ao menos uma gota de sangue, você volta à vida em 1d10 dias."
+        "nivel": 9,
+        "nome": "Hemopotência",
+        "descricao": "Ao usar Hemofagia, você pode gastar +5 PM para mudar o alvo para todos os inimigos vivos no alcance. Além disso, um alvo que falhe na resistência fica fraco."
+      },
+      {
+        "nivel": 13,
+        "nome": "Regeneração Sanguínea",
+        "descricao": "Você recebe cura acelerada 10/mágico."
+      },
+      {
+        "nivel": 20,
+        "nome": "Banho de Sangue",
+        "descricao": "Você recebe imunidade a trevas e se torna imortal. Os dados de Hemofagia mudam para d6. Se você morrer e ainda restar ao menos uma gota de seu sangue, você volta à vida em 1d10 dias."
       }
     ],
     "progressao": [
       {
         "nivel": 1,
-        "habilidade": "Hemofagia, magia de sangue"
+        "habilidade": "Hemofagia (2d4), hemofilia, magias (1º círculo)"
       },
       {
         "nivel": 2,
         "habilidade": "Poder de hemófago"
       },
       {
+        "nivel": 3,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Poder de hemófago"
+      },
+      {
         "nivel": 5,
-        "habilidade": "Saciação, poder de hemófago"
+        "habilidade": "Caminho do sangue, magias (2º círculo), poder de hemófago"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Hemofagia (3d4), poder de hemófago"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Hemopotência, magias (3º círculo), poder de hemófago"
       },
       {
         "nivel": 10,
-        "habilidade": "Ressurreição sanguínea, poder de hemófago"
+        "habilidade": "Hemofagia (4d4), poder de hemófago"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 12,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Magias (4º círculo), poder de hemófago, regeneração sanguínea"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Hemofagia (5d4), poder de hemófago"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Poder de hemófago"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Magias (5º círculo), poder de hemófago"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Hemofagia (6d4), poder de hemófago"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Poder de hemófago"
       },
       {
         "nivel": 20,
-        "habilidade": "Senhor do Sangue, poder de hemófago"
+        "habilidade": "Banho de sangue (6d6), poder de hemófago"
       }
     ],
     "poderes": [
-      "Adrenalina — perde 10 PV para +1 em perícias e +3m deslocamento por 1 cena (5° nível)",
-      "Aperto da Não-Vida — garra de sangue que puxa criaturas em linha de 6m e causa dano",
-      "Ária de Dor — canto que causa dano de sangue em área",
-      "Grimório das Almas — magia que causa dano vira perda de vida (afeta apenas vivos)",
-      "Interromper Fluxo Sanguíneo — hemofagia deixa alvo lento em vez de fraco (9° nível)",
-      "Lamento da Inocência — drena PM do alvo ao acertar Hemofagia"
+      "Adrenalina — perde 10 PV: +1 perícia e +3m deslocamento até fim da cena (dobra no 17º); pré-req: 5º nível",
+      "Aperto da Não-Vida — 1×/rodada, perde 6 PV: linha 6m puxa criaturas para adjacência, –4d6 PV e fracas (Fort CD Car evita); metabolismo",
+      "Aperto Fágico — 1×/rodada, ao usar Hemofagia em alvo agarrado: não gasta PM",
+      "Ária de Dor — 1×/cena ao chegar a 0 PV: fica consciente até o fim do próximo turno (sem habilidades que gastem PV); morre se PV negativo ≥ metade da vida máxima; pré-req: 12º nível",
+      "Aristocrata Póstumo — soma Car em Nobreza; pode falar com mortos-vivos como sob Voz Divina",
+      "Arma de Sangue — ação de movimento, 6 PV: arma de sangue (1d6/1d8, x2, trevas) até fim da cena; +1 dado/círculo além do 1º; soma Car em dano (em vez de For)",
+      "Arma de Ferro — ao usar Arma de Sangue: +6 PV → arma de ferro de sangue; usa Misticismo para atacar; +1 melhoria/círculo além do 1º; pré-req: Arma de Sangue, 5º nível",
+      "Arma Vampírica — 1×/rodada ao atacar com Arma de Sangue: usa Hemofagia como parte da ação (causa dano da arma + da habilidade; recupera vida apenas pela Hemofagia); pré-req: Arma de Sangue, 8º nível",
+      "Aumento de Atributo — +1 em atributo; repetível (1×/patamar/atributo)",
+      "Aurora da Dor — a cada 20 PV perdidos por dano: +1 cumulativo nas rolagens de dano das magias até fim da cena (limitado pelo Car)",
+      "Banco de Sangue — esfera rubra armazena dano causado pela Hemofagia (máx 5×Con); pode gastar PV armazenados em vez dos seus. Esfera tem Defesa = sua e PV = dano armazenado; reconstrói no próximo dia se destruída",
+      "Couraça de Espinhos — ao usar Couraça do Defunto, dano absorvido pela RD retorna ao agressor como trevas (1×/rodada); pré-req: Couraça do Defunto, 8º nível",
+      "Couraça do Defunto — ação de movimento, 8 PV: RD 5 até fim da cena (RD 10 com +8 PV no 17º). Requer sem armadura",
+      "Doação — ação padrão, 2 PV/ponto em Con: para cada 2 PV perdidos, cura 1d4 PV de criatura viva em alcance curto",
+      "Explosão de Cadáver — ação padrão, 2 PV: explode cadáver em alcance curto; 1d4 trevas/Con do alvo em área 3m raio (Ref CD Car evita)",
+      "Explosão em Cadeia — ao usar Explosão de Cadáver: +2 PV para um alvo adicional dentro da área; pré-req: Explosão de Cadáver",
+      "Explosão Grotesca — área +3m, dano → d6, alvo fica enjoado por 1 rodada se falhar; pré-req: Explosão de Cadáver, 8º nível",
+      "Flechas de Sangue — ao usar Arma de Sangue: +2 PV para produzir arma à distância alcance médio (1d10, x3, trevas); 1 PV por ataque (munição)",
+      "Graal Profano — ao matar criatura viva: 3 PM → frasco de sangue (0,5 espaços, ação padrão, recupera 1d4 PV/Con da criatura); pré-req: Ofício (alquimista)",
+      "Grimório das Almas — ao usar magia de dano: +4 PV → dano → perda de vida (apenas criaturas vivas); falha na resistência por 10+: alvo fica sangrando",
+      "Interromper Fluxo Sanguíneo — ao usar Hemofagia: +1 PM para deixar alvo lento (em vez de fraco); com Saciação → imóvel por 1 rodada depois lento; pré-req: 9º nível",
+      "Lamento da Inocência — 1×/rodada ao sofrer dano: pode transferi-lo para Orbe de Sangue, criatura vinculada ou cadáver reanimado; pré-req: Banco de Sangue, Linhagens de Sangue ou Ventríloquo do Pós-Vida",
+      "Linhagens de Sangue — ação completa: elo com criatura viva voluntária (sustentado); pode usar PV da criatura vinculada para habilidades",
+      "Liquefação — perde 10 PV: vira poça de sangue 3m raio (sem dano exceto área, deslocamento ½, só pode deslocar-se, pode ocupar espaços); criaturas sobre você sofrem 1d4 trevas/Con ao fim do turno",
+      "Maldição da Escuridão — ao usar Hemofagia: +3 PM → praga no alvo (Fort CD Car: –1d12 PV e –1 Con/turno; 3 sucessos curam; Con –5 → morte; reversível por Purificação +7 PM); pré-req: 10º nível; metabolismo",
+      "Rondó de Sangue — ação de movimento, 6 PV: teste de Atuação; +1 Defesa/10 no resultado até fim da cena; pré-req: Atuação treinada",
+      "Saciação — Hemofagia +1 dado do mesmo tipo; com Hemopotência, 1º alvo que falhar → debilitado (em vez de fraco); pré-req: 12º nível",
+      "Sanguessuga — Hemofagia contra alvo sangrando: +2 PM → dobro do dano (após bônus) ou –5 no teste de resistência do alvo; pré-req: 3º nível",
+      "Sangue Potente — +2 Fort e CD de Hemofagia; habilidades de hemófago com alcance curto (exceto magias) → alcance médio",
+      "Sedento por Sangue — ignora camuflagem e cobertura leve contra alvos sangrando; +5 margem de ameaça contra eles; percepção às cegas contra criaturas vivas; pré-req: 17º nível",
+      "Segredos Sombrios — aprende 2 magias de qualquer círculo acessível (das escolas que usa); repetível",
+      "Sinfonia da Noite — escolha 4 magias aprendidas para poder lançá-las gastando PM; pré-req: Vampirismo, 17º nível",
+      "Vampirismo — pode recuperar PV por Toque Vampírico e pode lançar essa magia gastando PM; pré-req: Toque Vampírico, 5º nível",
+      "Ventríloquo do Pós-Vida — ação padrão, 2 PV: reanima cadáver em alcance curto como capanga (estatísticas de esqueleto animado mestre, dano de trevas)"
     ]
   },
   {
@@ -1583,7 +1964,7 @@
     "fonte": "Mitos de Arton",
     "imagem": "",
     "descricao": "Agentes da lei oculta que usam métodos proibidos para fazer o trabalho que a lei oficial não faz. Nasceram em Salistick após a morte do último rei. Especialistas em armas de fogo e investigação.",
-    "atributo": "Destreza",
+    "atributo": "Inteligência",
     "pv_inicial": "12 + Constituição",
     "pv_por_nivel": "3 + Constituição",
     "pm_por_nivel": 3,
@@ -1597,52 +1978,155 @@
       {
         "nivel": 1,
         "nome": "Agente da Lei Oculta",
-        "descricao": "Começa com uma pistola e 20 balas. Além disso, pode fabricar 5 seringas curativas por descanso (cura 2d6+nível PV)."
+        "descricao": "Você começa o jogo com uma pistola e 20 balas. Além disso, tem permissão para comprar e utilizar itens à base de pólvora e armas de fogo dentro dos limites do Reinado."
       },
       {
         "nivel": 1,
-        "nome": "Seringueiro",
-        "descricao": "Você pode fabricar e usar seringas especiais. Seringas podem conter poções, venenos ou preparados alquímicos."
+        "nome": "Coronhada",
+        "descricao": "Você pode realizar ataques corpo a corpo com armas de fogo (dano 1d6, crítico x2, impacto). Se a arma for de duas mãos, aumente o dano em um passo. Melhorias e encantos aplicados à arma que afetem armas corpo a corpo também afetam a sua coronhada."
+      },
+      {
+        "nivel": 1,
+        "nome": "Tiro Calculado",
+        "descricao": "Quando faz um ataque à distância com uma arma de fogo, você pode gastar 2 PM para calcular seu disparo. Você soma sua Inteligência no teste de ataque e ignora 2 pontos de RD do alvo. A cada quatro níveis, você pode gastar +1 PM para ignorar +2 de RD."
+      },
+      {
+        "nivel": 3,
+        "nome": "Técnicas Inquisitivas",
+        "descricao": "Você recebe +2 em Cura e Investigação e pode usar Inteligência como atributo-chave de Cura. A cada seis níveis, esse bônus aumenta em +1 (máx. +4 no 15º)."
       },
       {
         "nivel": 5,
-        "nome": "Justiceiro",
-        "descricao": "Uma vez por rodada, gasta 3 PM para marcar um alvo. Ele sofre +1d6 de dano dos seus ataques (ou +1d8 se desonesto)."
+        "nome": "Pacto Sagrado",
+        "descricao": "Escolha entre Bênção Antiga (soma Int em PV, +1 PV/nível de inquisidor, imunidade a doenças e venenos) ou Bênção Áurea (soma Int em PM, +1 PM/nível de inquisidor, imunidade a medo)."
       },
       {
-        "nivel": 10,
-        "nome": "Detetive Master",
-        "descricao": "Você nunca pode ser enganado em investigações. Recebe +10 em Investigação e Intuição."
+        "nivel": 11,
+        "nome": "Melhorias Pessoais",
+        "descricao": "O dano de uma arma de fogo empunhada por você aumenta em +1 dado do mesmo tipo e a ação necessária para recarregá-la diminui em uma categoria."
+      },
+      {
+        "nivel": 20,
+        "nome": "Gatilho Desenfreado",
+        "descricao": "Você recebe um turno adicional — role a iniciativa duas vezes. Esse efeito exige liberdade de movimentos; você não pode usá-lo se estiver de armadura pesada ou sob qualquer condição de movimento."
       }
     ],
     "progressao": [
       {
         "nivel": 1,
-        "habilidade": "Agente da lei oculta, seringueiro"
+        "habilidade": "Agente da lei oculta, coronhada, tiro calculado (RD 2)"
       },
       {
         "nivel": 2,
         "habilidade": "Poder de inquisidor"
       },
       {
+        "nivel": 3,
+        "habilidade": "Poder de inquisidor, técnicas inquisitivas +2"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
         "nivel": 5,
-        "habilidade": "Justiceiro, poder de inquisidor"
+        "habilidade": "Pacto sagrado, poder de inquisidor, tiro calculado (RD 4)"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Poder de inquisidor, técnicas inquisitivas +3, tiro calculado (RD 6)"
       },
       {
         "nivel": 10,
-        "habilidade": "Detetive master, poder de inquisidor"
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Melhorias pessoais, poder de inquisidor"
+      },
+      {
+        "nivel": 12,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Poder de inquisidor, tiro calculado (RD 8)"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Poder de inquisidor, técnicas inquisitivas +4"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Poder de inquisidor, tiro calculado (RD 10)"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Poder de inquisidor"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Poder de inquisidor"
       },
       {
         "nivel": 20,
-        "habilidade": "Inquisidor Supremo, poder de inquisidor"
+        "habilidade": "Gatilho desenfreado, poder de inquisidor"
       }
     ],
     "poderes": [
-      "Encostar o Cano — ataque corpo a corpo com arma de fogo sem penalidade, +1 passo de dano",
-      "Entre Facas e Balas — +2 Defesa com arma de fogo + arma leve, ataque livre 1×/rodada",
-      "Vacinação — seringas de cura com dado melhorado e +5 contra doenças/veneno (6° nível)",
-      "Marca Maldita — marca persiste mesmo após a cena",
-      "Maleta de Seringas — +5 no limite de seringas simultâneas"
+      "Absorver História — +5 em testes de Identificar; ao passar, +1 informação adicional; pré-req: Int 3, Conhecimento/Misticismo/Religião/Sobrevivência treinados",
+      "Alquimago — ao fabricar seringa arcana: +T$500 → criatura pode lançar magia de 1º ou 2º círculo; pré-req: 6º nível, Seringueiro",
+      "Analise Rápida — ação de Identificar –1 categoria; se demorar mais que ação completa, fazê-la como completa reduz penalidade para –5; pré-req: Absorver História",
+      "Aumento de Atributo — +1 em atributo; repetível (1×/patamar/atributo)",
+      "Autoridade Legal — cargo legislativo em nome de divindade; +5 Intimidação contra desonestos; hospedagem gratuita para você e aliados; pré-req: devoto de deus maior, 10º nível",
+      "Bala de Sal — fabrica balas de sal (1 dia, T$150); ataque bem sucedido em conjurador → condição terrível para lançar magias até fim da cena (Fort CD Int → ruim); pré-req: Caçador de Magos",
+      "Bala Injetora — pode injetar seringas à distância recarregando a arma com uma seringa; pré-req: Seringueiro",
+      "Caçador de Magos — resistência a magia +1 (aumenta +1 no 6º e a cada 4 níveis); ação de movimento, 3 PM → dobra esse ganho contra conjurador em combate",
+      "Caçador de Recompensas — ao derrotar pessoa desonesta: 10 TO × ND (metade para lacaios); 1×/aventura; pré-req: 5º nível",
+      "Cupincha — parceiro guri (não conta no limite): reduz ação de recarga –1 passo; ao fabricar seringa, fabrica 2 (paga custo separado). Se morrer: T$250 para contratar novo",
+      "Deslizar na Pista — 1 PM, CD 20 Acrobacia: deslize como parte do deslocamento; se passar, +1 dado de dano no próximo ataque até fim do turno; pré-req: Acrobacia treinada",
+      "Encostar o Cano — ataque à distância com arma de fogo contra alvo adjacente: sem penalidade –5 e dano +1 passo; pré-req: Luta treinado",
+      "Entre Facas e Balas — arma de fogo + arma corpo a corpo leve: +2 Defesa e 1×/rodada ataque extra com a leve (ação livre); pré-req: Des 2, Acrobacia treinada, Encostar o Cano",
+      "Estragar o Velório — 1×/rodada ao usar Derrubar com arma de fogo: 2 PM para ataque extra sem penalidade por alvo caído; pré-req: 12º nível, Encostar o Cano",
+      "Exorcista — pode aplicar material especial prata em armas de fogo, armas leves e munições; pré-req: Ofício (armeiro) treinado",
+      "Faca na Garganta — ataque em alvo desprevenido/surpreendido com arma leve de corte/perfuração → alvo fica sangrando; pré-req: Furtividade treinada",
+      "Ferramenta de Esfolamento — acerto crítico contra alvo sangrando: evisceração aumenta dano da condição +1 dado (cumulativo); pré-req: Faca na Garganta",
+      "Foco em Seringa — seringa escolhida: custo reduzido à metade e dado +1 passo; repetível para seringas diferentes; pré-req: Seringueiro",
+      "Guarda Real — usa Nobreza para interrogar sem gastar dinheiro; pré-req: Nobreza treinada",
+      "Injeção Milagrosa — pode fabricar seringas divinas (igual à arcana, mas para magias divinas); pré-req: Alquimago",
+      "Injeção Rápida — 1×/rodada, pode injetar seringa como ação de movimento; pré-req: Seringueiro",
+      "Jackpot — 1×/cena com arma de múltiplas balas ao atacar: 3 PM → dispara todas as balas; se acertar, dano × nº de balas gastas (após rolar); pré-req: 17º nível",
+      "Justiceiro — 3 PM, 1×/rodada: marca criatura em alcance curto até fim da cena; +1d6 dano dos ataques (+1d8 se for desonesta); +1d6 por 4 níveis após o 1º (+1 PM)",
+      "Maleta de Seringas — limite de seringas simultâneas +5; pré-req: Seringueiro",
+      "Marca Maldita — acerto crítico: 2 PM para marcar com sigilo; 1×/rodada quando o alvo causa dano a você ou aliado em alcance curto → 4d6 essência; 1 alvo por vez até fim da cena; pré-req: 5º nível",
+      "Ossos do Ofício — resistência mental +2 e RD 2; pré-req: 6º nível",
+      "Seringueiro — pode fabricar seringas (T$500, 1 dia, maleta de medicamentos; injetar é ação padrão; limite = Int, cada uma ocupa 0,5 espaços); recebe ao adquirir seringas = Int/2 (mín 1); pré-req: Int 3, Sab 3, Cura e Ofício (alquimista) treinados",
+      "Tiro de Aviso — ação padrão, 1 bala: criaturas no alcance ficam caídas (Von CD Int evita; imunes por 1 dia se passarem). Medo",
+      "Tiro de Execução — ao usar Tiro Calculado: +2 PM para +1 no multiplicador de crítico; pré-req: 6º nível",
+      "Tiro de Incapacitação — 1×/rodada, reação a ataque inimigo: 3 PM + 1 bala → teste de ataque oposto; se vencer, inimigo perde a ação e você recarrega",
+      "Tiro Explosivo — ação de movimento, 2 PM: próximo tiro com pólvora; se acertar, metade do dano total para criaturas adjacentes ao alvo; pré-req: 8º nível",
+      "Tiro na Cabeça — ao mirar: 3 PM → dano +2 passos no próximo ataque ao alvo; com Efeitos Críticos, acerta cabeça com resultado 9-10; pré-req: Sab 3",
+      "Vacinação — ao produzir seringa curativa: +T$500 → dado de cura +1 passo e +5 em testes para resistir a doenças e veneno; pré-req: 6º nível, Seringueiro"
     ]
   },
   {
@@ -1651,7 +2135,7 @@
     "fonte": "Mitos de Arton",
     "imagem": "",
     "descricao": "Guerreiros corrompidos pelo Culto da Noite Eterna de Umbralar. Vestem armaduras amaldiçoadas e lutam com o poder das trevas, organizados em batalhões sombrios.",
-    "atributo": "Força",
+    "atributo": "Inteligência",
     "pv_inicial": "20 + Constituição",
     "pv_por_nivel": "5 + Constituição",
     "pm_por_nivel": 3,
@@ -1665,53 +2149,175 @@
       {
         "nivel": 1,
         "nome": "Armadura Maldita",
-        "descricao": "Começa vestindo uma armadura completa com uma melhoria a sua escolha. Nos níveis 4, 7 e 10, pode adicionar mais uma melhoria."
+        "descricao": "Você inicia com uma armadura completa contendo uma melhoria à sua escolha (exceto material especial). Nos níveis 4, 7 e 10, escolha uma nova melhoria; nos níveis 9, 13 e 17, escolha um encanto. A maldição não pode ser quebrada: você não pode remover a armadura por completo; quando destruída, ela se reconstrói no início do próximo dia (e você perde todos os PM). Dormir nela não causa fadiga, mas seu descanso nunca supera 'normal'. Se morrer e não for preservado ou ressuscitado em até 1 semana, você desaparece, tragado por Umbralar."
       },
       {
         "nivel": 1,
-        "nome": "Batalhão das Trevas",
-        "descricao": "Escolha um batalhão: das Armas (potencia ataques), das Escamas (resistência dracônica), das Bênçãos (suporte), ou das Sombras (furtividade e trevas)."
+        "nome": "Força do Oblívio",
+        "descricao": "Você causa +1d6 pontos de dano de trevas adicional quando empunha armas corpo a corpo. A cada quatro níveis, o dano aumenta: +1d8 no 5º, +1d10 no 9º, +1d12 no 13º e +3d6 no 17º. No 20º nível (Rei Sombrio), muda para 2d12."
       },
       {
         "nivel": 1,
-        "nome": "Obliterar",
-        "descricao": "Uma vez por rodada, ao acertar um ataque, gasta PM para causar dano adicional de trevas."
+        "nome": "Magias",
+        "descricao": "Você pode lançar magias de 1º círculo de necromancia. A cada nível, progride: 2º círculo no 6º, 3º no 10º. Começa com duas magias de 1º círculo; aprende uma magia de necromancia de qualquer círculo acessível a cada nível par (2º, 4º, 6º...). Pode aprender magias arcanas e divinas, mas todas são lançadas como divinas. Atributo-chave: Inteligência. Soma Inteligência no total de PM."
       },
       {
         "nivel": 5,
-        "nome": "Força do Oblívio",
-        "descricao": "Seus ataques com Obliterar ignoram redução de dano mundana."
+        "nome": "Príncipe das Trevas",
+        "descricao": "Você recebe redução de trevas 5 e resistência a cansaço, metabolismo, trevas e veneno +2. A cada quatro níveis após o 5º, esses ganhos aumentam em 5 e em +1, respectivamente (RD 10/resistência +3 no 9º; RD 15/+4 no 13º; RD 20/+5 no 17º)."
+      },
+      {
+        "nivel": 20,
+        "nome": "Rei Sombrio",
+        "descricao": "O custo das suas magias de mirmidão é reduzido em –2 PM (cumulativo). Força do Oblívio muda para 2d12. Sua Armadura Maldita fornece redução de dano 10 e recebe uma melhoria e um encanto adicionais à sua escolha, que não contam no limite."
       }
     ],
     "progressao": [
       {
         "nivel": 1,
-        "habilidade": "Armadura maldita, batalhão das trevas, obliterar"
+        "habilidade": "Armadura maldita (1 melhoria), força do oblívio +1d6, magias (1º círculo)"
       },
       {
         "nivel": 2,
         "habilidade": "Poder de mirmidão"
       },
       {
+        "nivel": 3,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 4,
+        "habilidade": "Armadura maldita (2 melhorias), poder de mirmidão"
+      },
+      {
         "nivel": 5,
-        "habilidade": "Força do oblívio, poder de mirmidão"
+        "habilidade": "Força do oblívio +1d8, poder de mirmidão, príncipe das trevas 5/+2"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Magias (2º círculo), poder de mirmidão"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Armadura maldita (3 melhorias), poder de mirmidão"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Armadura maldita (1 encanto), força do oblívio +1d10, poder de mirmidão, príncipe das trevas 10/+3"
       },
       {
         "nivel": 10,
-        "habilidade": "Cerimônia da maldição aprimorada, poder de mirmidão"
+        "habilidade": "Armadura maldita (4 melhorias), magias (3º círculo), poder de mirmidão"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 12,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Armadura maldita (2 encantos), força do oblívio +1d12, poder de mirmidão, príncipe das trevas 15/+4"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Armadura maldita (3 encantos), força do oblívio +3d6, poder de mirmidão, príncipe das trevas 20/+5"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Poder de mirmidão"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Poder de mirmidão"
       },
       {
         "nivel": 20,
-        "habilidade": "Senhor das Trevas, poder de mirmidão"
+        "habilidade": "Rei sombrio (+2d12), poder de mirmidão"
       }
     ],
     "poderes": [
-      "Ameaça das Trevas — ao usar Obliterar, margem de ameaça +2 (req. batalhão das armas)",
-      "Arma da Perdição — ataque com Obliterar pode trocar tipo de dano por trevas",
-      "Arma Profana — Obliterar aumenta dano da arma em um passo",
-      "Liberdade dos Beduínos — Esquiva Sobrenatural e Olho nas Costas (req. batalhão bênçãos)",
-      "União Impossível — troca tipo de dano (frio↔fogo, trevas↔luz) gastando 1 PM",
-      "Vínculo dos Beduínos — soma Int nas rolagens de dano com armas ágeis"
+      "Ameaça das Trevas — ao usar Obliterar: +2 PM → margem de ameaça +2; pré-req: Obliterar, Recruta das Trevas (batalhão das armas)",
+      "Arma da Perdição — ao atacar onde Força do Oblívio se aplica: 2 PM para trocar tipo de dano para trevas",
+      "Arma Profana — ao usar Obliterar: dano da arma +1 passo; pré-req: Obliterar, Recruta das Trevas (batalhão das armas)",
+      "Armas Dracônicas — habilidades de mirmidão funcionam com ataques desarmados e armas naturais; pré-req: Recruta das Trevas (batalhão das escamas)",
+      "Armeiro Sombrio — proficiência com armas de fogo; habilidades de mirmidão funcionam com elas; pré-req: Recruta das Trevas, Sincretismo Bélico (batalhão das armas e das sombras)",
+      "Ascenção das Trevas — aprende magia de 4º círculo; conta como podendo lançar 4º círculo para pré-requisitos e habilidades; pré-req: 14º nível",
+      "Aumento de Atributo — +1 em atributo; repetível (1×/patamar/atributo)",
+      "Coletor da Dor — 1×/rodada por 10 pontos de trevas causados a criatura viva no mesmo efeito: +1 Defesa até início do próximo turno (máx = círculo máximo que pode lançar)",
+      "Comandante das Trevas — treinamento aprimorado do batalhão; pré-req: Recruta das Trevas, 6º nível",
+      "Corromper a Luz — pode aprender magias de dano de luz/fogo como divinas (escola → necromancia); luz → trevas, fogo → frio; em chamas → lento; pré-req: Recruta das Trevas (batalhão das escamas)",
+      "Descanso Póstumo — ao descansar: transforma armadura em sarcófago de metal → descanso confortável (inclui mortos-vivos); pré-req: Recruta das Trevas (batalhão das sombras)",
+      "Destruidor — ao causar dano com arma de duas mãos: rola novamente resultado 1 ou 2 da rolagem de dano da arma; pré-req: For 1",
+      "Domínio da Alma — 1×/rodada, ao sustentar Conjurar Mortos-Vivos e criatura morrer em alcance curto: 1 PM → ela vira capanga do tipo conjurado; pré-req: Conjurar Mortos-Vivos",
+      "Escudeiro das Trevas — escudo recebe metade das melhorias/encantos da armadura; Força do Oblívio aplica-se a ataques com escudo; pré-req: Recruta das Trevas (batalhão dos juízes)",
+      "Especialização em Armadura — RD 5 com armadura pesada (cumulativo com Rei Sombrio); pré-req: 12º nível",
+      "Estrela da Manhã — arma de duas mãos: mãos livres para magias; 1×/rodada ao lançar magia: 2 PM para atacar com a arma; pré-req: Impacto Sombrio, 6º nível",
+      "General das Trevas — treinamento superior do batalhão; pré-req: Comandante das Trevas, 11º nível",
+      "Golpe do Juíz — 1 PM para mudar tipo de dano de Força do Oblívio para essência por um ataque; pré-req: Comandante das Trevas (batalhão dos juízes)",
+      "Golpe Preciso — ao atacar com arma corpo a corpo: 2 PM para somar Int no teste de ataque",
+      "Golpe Umbral — 1×/cena por criatura, ao fazer acerto crítico: criatura fica cega por 1d4 rodadas (Fort CD Int evita); pré-req: Impacto Sombrio",
+      "Impacto Sombrio — empunhando arma corpo a corpo: +1 ataque e dano = círculo máximo de magias que pode lançar",
+      "Indestrutível — 1×/cena, se armadura pesada e dano que te deixaria a 0 PV ou menos: 5 PM para evitá-lo; pré-req: 13º nível",
+      "Inércia do Aço — ao acertar arma de duas mãos em criatura: 3 PM → metade do dano a cada inimigo adjacente; pré-req: 5º nível",
+      "Liberdade dos Beduínos — recebe Esquiva Sobrenatural e Olho nas Costas (exigem liberdade de movimentos; não funciona com armaduras pesadas ou imóvel); pré-req: General das Trevas (batalhão das bênçãos)",
+      "Livramento — ao aprender magia fora de necromancia que foi convertida: pode optar por manter a escola original; pré-req: Recruta das Trevas",
+      "Marca do Sacrifício — ação de movimento, perde 6 PV (não temporários): bônus em resistência e Defesa = círculo máximo (sustentado, –3 PV/rodada; PV só recuperam com descanso)",
+      "Marcha da Morte — Força do Oblívio aplica-se a capangas conjurados por necromancia; no 11º: +5 Defesa e +3m deslocamento para eles; pré-req: Conjurar Mortos-Vivos",
+      "Metal Pesado — usa Int na Defesa com armadura pesada (não soma Des mesmo se outros efeitos permitirem); pré-req: 8º nível",
+      "Morte Rastejante — ao matar morto-vivo (exceto capanga): teste de Misticismo (CD 15 + ND) → recupera PV = CD se passar; pré-req: 5º nível",
+      "Obliterar — ação de movimento, 3 PM: profana arma corpo a corpo empunhada; Força do Oblívio causa +2 dados com ela até fim da cena",
+      "Ocultar no Oblívio — ação completa, 3 PM: desequipa armadura para o Oblívio; reequipar custa 3 PM. Não pode usar outras armaduras; pré-req: Comandante das Trevas (batalhão das sombras)",
+      "Pesadelo — cavalo morto-vivo especial (parceiro montaria veterano, ligação telepática); conjura/dispensa com ação de movimento e 2 PM; mestre no 11º; pré-req: 5º nível",
+      "Recruta das Trevas — recebe o treinamento básico de um batalhão de Umbralar (veja Batalhões)",
+      "Rei Destruído — limiar entre vida e morte: imunidade ao que Príncipe das Trevas dá resistência; dano de trevas → recupera PV igual; morto-vivo: imune a frio e +1 PV/dado de trevas sofrido; conta como lançador de 5º círculo; pré-req: Ascenção das Trevas, 17º nível",
+      "Sacerdote Sombrio — 1 poder de clérigo com pré-req cumprido (nível de mirmidão = nível de clérigo; Sab → Int); pré-req: Religião treinada, devoto de deus maior que canaliza energia negativa",
+      "Segredos Sombrios — aprende 2 magias de qualquer círculo acessível (das escolas que usa); repetível",
+      "Sincretismo Bélico — treinamento básico de um segundo batalhão (sem aprimorado/superior para o segundo); pré-req: Recruta das Trevas",
+      "Solidez — com escudo: soma bônus de Defesa do escudo em testes de resistência",
+      "Teurgista Necrótico — pode aprender magias de convocação como divinas (escola → necromancia; sem outros efeitos mecânicos)",
+      "União Impossível — 1 PM: troca frio↔fogo e trevas↔luz; efeitos do superior das sombras ativam sob luz solar direta; pré-req: Recruta das Trevas, Sincretismo Bélico (batalhão das bênçãos e das sombras)",
+      "Vínculo dos Beduínos — Cerimônia da Maldição com armaduras leves; com arma corpo a corpo leve ou ágil: soma Int (limitada pelo nível) nas rolagens de dano; pré-req: Comandante das Trevas (batalhão das bênçãos)"
+    ],
+    "linhagens": [
+      {
+        "nome": "Batalhão das Armas",
+        "descricao": "Básico: proficiência com armas exóticas; ao atacar com arma corpo a corpo: 1 PM para rolar 2 dados e usar o melhor. Aprimorado: +5 nas rolagens de dano com armas corpo a corpo; +2 PM para o efeito durar até fim da cena. Superior: 1×/rodada ao fazer ataque onde Força do Oblívio se aplica: 2 PM para ataque adicional."
+      },
+      {
+        "nome": "Batalhão das Bênçãos",
+        "descricao": "Básico: pode aprender magias de luz/fogo através de Magias; habilidades de mirmidão de trevas podem mudar tipo para luz. Aprimorado: Força do Oblívio de luz dobra contra mortos-vivos; +2 Defesa e resistência contra eles. Superior: ao causar dano de luz: alvo sofre estigma (Von CD Int) — não recupera PV por 1 rodada."
+      },
+      {
+        "nome": "Batalhão das Escamas",
+        "descricao": "Básico: pode aprender magias de frio (escola → necromancia); ao lançar magia de frio: 1 PM para trocar para trevas (e vice-versa). Aprimorado: RD frio 5 e resistência a magia +2 (escalam com Príncipe das Trevas). Superior: pode mudar tipo de Força do Oblívio para frio; imunidade a medo e metamorfose."
+      },
+      {
+        "nome": "Batalhão das Sombras",
+        "descricao": "Básico: pode aprender magias de ilusão; arma de perfuração empunhada: +1d6 frio. Aprimorado: dano adicional → +1d12; recebe visão no escuro (ou alcance +1 passo). Superior: CD das magias +2 (dobra em área de escuridão); soma dano de Força do Oblívio ao dano das magias."
+      },
+      {
+        "nome": "Batalhão dos Juízes",
+        "descricao": "Básico: escolha tipo de criatura ou duas raças humanoides (imutável); Força do Oblívio causa perda de vida contra elas. Aprimorado: pode aprender magias de abjuração; escudo fornece RD 5 (cumulativo). Superior: ao sofrer ataque: 1 PM para o atacante rolar 2 dados e usar o pior; penalidades de armadura reduzidas à metade."
+      }
     ]
   },
   {
@@ -1734,52 +2340,160 @@
       {
         "nivel": 1,
         "nome": "Alazão",
-        "descricao": "Começa com um parceiro montaria iniciante (normalmente um cavalo de guerra). A montaria tem um vínculo especial com o vaqueiro."
+        "descricao": "Você começa com um parceiro montaria iniciante, normalmente um cavalo (ou pônei) de guerra. No 5º nível, ele se torna veterano; no 11º, mestre. Se sua montaria morrer, você pode treinar uma nova com um tempo entre aventuras e T$75 (ou mais, a critério do mestre)."
       },
       {
         "nivel": 1,
-        "nome": "Duelo",
-        "descricao": "Você pode desafiar um oponente para duelo. O alvo tem –2 em testes de ataque contra alvos que não sejam você. Você recebe +2 em testes de ataque contra o alvo do duelo."
+        "nome": "Bicho Arretado",
+        "descricao": "Enquanto montado, você pode usar uma arma natural (dano 1d8, crítico x2) de acordo com sua montaria. Uma vez por rodada, quando usa a ação agredir ou faz uma investida montada com outra arma, pode gastar 1 PM para fazer um ataque extra com essa arma natural. Se já possuir habilidade similar, em vez disso o dano da arma natural da montaria aumenta em um passo."
+      },
+      {
+        "nivel": 1,
+        "nome": "Boiadeiro",
+        "descricao": "Você recebe +1 em Adestramento e Cavalgar (aumenta +1 a cada quatro níveis). Além disso, passa automaticamente em testes de Cavalgar para não cair ao sofrer dano e não sofre penalidades para atacar à distância ou lançar magias quando montado. Centauros e g'rokks não sofrem penalidades por carregá-lo (exceto sobrecarga). Conta como a habilidade Ginete para pré-requisitos."
+      },
+      {
+        "nivel": 2,
+        "nome": "Laçar",
+        "descricao": "Você se torna proficiente com chicote, boleadeira e rede. Além disso, ao fazer um ataque com essas armas, pode gastar 1 PM para fazer uma manobra agarrar como ação livre, usando o resultado do teste de ataque. Se conseguir agarrar, pode usar uma ação de movimento para tornar a criatura adjacente a você."
+      },
+      {
+        "nivel": 3,
+        "nome": "Chapéu de Vaqueiro",
+        "descricao": "Enquanto vestindo um chapéu emplumado (ou qualquer chapéu), você recebe +1 nos testes de ataque e rolagens de dano com armas de fogo e com armas afetadas por Laçar. A cada seis níveis, esse bônus aumenta em +1 (máx. +3 no 15º)."
       },
       {
         "nivel": 5,
-        "nome": "Bicho Valente",
-        "descricao": "A partir do 11° nível, enquanto montado, sua montaria recebe pontos de valentia iguais a metade do seu Carisma."
+        "nome": "Caboclo",
+        "descricao": "Escolha entre Cabra da Peste (sem outros parceiros além da montaria: dobra efeitos do Chapéu de Vaqueiro; usa ações de movimento da montaria para recarregar; montaria pode ter item vestido adicional) ou Lampião (ação completa: posiciona 2d6 jagunços em alcance médio — Def 20, 2d8 perfuração cada, atacam em alcance curto; fogem ao 'morrer' ou fim da cena)."
       },
       {
-        "nivel": 10,
-        "nome": "Gatilho Rápido",
-        "descricao": "Soma Carisma na Iniciativa. No primeiro turno, ao sacar arma de fogo, pode gastar 3 PM para realizar um ataque extra."
+        "nivel": 11,
+        "nome": "Bicho Valente",
+        "descricao": "Enquanto montado, sua montaria recebe pontos de valentia iguais à metade do seu Carisma (mínimo 1). Uma vez por rodada ao sofrer dano: 3 PM para 20% de chance de evitar (+10% a cada 3 níveis); a montaria perde 1 ponto de valentia mesmo que não evite. Se chegar a 0, morre. Ao descansar, recupera 1 ponto de valentia por patamar."
+      },
+      {
+        "nivel": 20,
+        "nome": "Cabra da Peste",
+        "descricao": "Os benefícios da montaria aumentam em +3m, +1 ação, +2 dados e +1 passo (armas naturais); valores fixos são dobrados. Pontos de valentia passam a usar o Carisma inteiro. A montaria pode realizar dois ataques por rodada."
       }
     ],
     "progressao": [
       {
         "nivel": 1,
-        "habilidade": "Alazão, duelo"
+        "habilidade": "Alazão, bicho arretado, boiadeiro +1"
       },
       {
         "nivel": 2,
+        "habilidade": "Laçar, poder de vaqueiro"
+      },
+      {
+        "nivel": 3,
+        "habilidade": "Chapéu de vaqueiro +1, poder de vaqueiro"
+      },
+      {
+        "nivel": 4,
         "habilidade": "Poder de vaqueiro"
       },
       {
         "nivel": 5,
-        "habilidade": "Montaria aprimorada, poder de vaqueiro"
+        "habilidade": "Boiadeiro +2, caboclo, poder de vaqueiro"
+      },
+      {
+        "nivel": 6,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 7,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 8,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 9,
+        "habilidade": "Boiadeiro +3, chapéu de vaqueiro +2, poder de vaqueiro"
       },
       {
         "nivel": 10,
-        "habilidade": "Gatilho rápido, poder de vaqueiro"
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 11,
+        "habilidade": "Bicho valente (20%), poder de vaqueiro"
+      },
+      {
+        "nivel": 12,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 13,
+        "habilidade": "Boiadeiro +4, poder de vaqueiro"
+      },
+      {
+        "nivel": 14,
+        "habilidade": "Bicho valente (30%), poder de vaqueiro"
+      },
+      {
+        "nivel": 15,
+        "habilidade": "Chapéu de vaqueiro +3, poder de vaqueiro"
+      },
+      {
+        "nivel": 16,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 17,
+        "habilidade": "Bicho valente (40%), boiadeiro +5, poder de vaqueiro"
+      },
+      {
+        "nivel": 18,
+        "habilidade": "Poder de vaqueiro"
+      },
+      {
+        "nivel": 19,
+        "habilidade": "Poder de vaqueiro"
       },
       {
         "nivel": 20,
-        "habilidade": "Lenda do Oeste, poder de vaqueiro"
+        "habilidade": "Bicho valente (50%), cabra da peste, poder de vaqueiro"
       }
     ],
     "poderes": [
-      "Lampião — invoca 2d6 jagunços (Def 20, 2d8 perfuração cada) em alcance médio",
-      "Encostar o Cano — ataque corpo a corpo com arma de fogo sem penalidade",
-      "Estragar o Velório — ataque com arma de fogo contra alvo derrubado, sem penalidade",
-      "Gatilho Rápido — Carisma na Iniciativa, ataque extra no primeiro turno",
-      "Corcel — recebe um corcel de Kally com +5 em Adestramento e Cavalgar"
+      "Alma Justiceira — +2 margem de ameaça e ataque contra corruptos e vilões (aumenta +1 no 14º); pré-req: 7º nível",
+      "Arpéu Improvisado — laça superfícies com corda (+10 no teste); pode ficar pendurado para benefício de terreno elevado; pré-req: Acrobacia treinada",
+      "Arrastar pelo Laço — ao agarrar com corda ou arma de Laçar: ação de Corrida montada para arrastar; 1d6 impacto/1,5m movido (máx 2× nível); pré-req: Atletismo treinado",
+      "Aumento de Atributo — +1 em atributo; repetível (1×/patamar/atributo)",
+      "Bala Cangaceira — ação de movimento, 2 PM, 1 bala: próximo tiro explode; +2d6 fogo ao alvo e adjacentes; pré-req: 8º nível",
+      "Bala e Facão — ao atacar à distância com arma de fogo contra alvo adjacente: 2 PM para ataque corpo a corpo extra com peixeira (sem empunhar); pré-req: Encostar o Cano, Peixeira, 6º nível",
+      "Bicho Amigo — montaria recebe benefícios de segundo tipo de parceiro (ajudante/combatente/fortão/guardião/perseguidor/vigilante); evolui com Alazão",
+      "Bicho Bruto — arma natural da montaria soma Car em dano; pode agarrar criaturas caídas usando a montaria (usa Cavalgar no teste)",
+      "Bicho Manso — sem penalidade por montar sem sela (com sela: +2 Cavalgar); montado, limite de carga +6 espaços",
+      "Cavaleiro Fantasma — montaria passa a viver em mundo divino; invocar/dispensar com ação completa/ação de movimento e 2 PM; pontos de valentia recuperados ao invocar (1×/dia); pré-req: 12º nível",
+      "Chibata Diferenciada — adiciona corrente de espinhos e kusarigama às armas afetadas por Laçar; pré-req: 3º nível",
+      "Cobrir de Pólvora — ação de movimento, 1 PM, 1 bala: alvo em alcance curto fica cego por 1 rodada (Ref CD Car evita); até fim da cena, próximo ataque contra ele +1d6 fogo e em chamas",
+      "Dentes de Ouro — +2 Diplomacia (+1 a cada 4 níveis após o 5º); montaria: arma natural +1 dado do mesmo tipo; pré-req: 5º nível",
+      "Duelo de Vaqueiros — 3 PM: desafia inimigo em alcance curto; vocês dois sem bônus contra outros, mas +1 dado em todas as rolagens de dano um contra o outro; interferência externa encerra; perdedor = 0 PV; vencedor recebe PV e PM temporários = Car",
+      "Encostar o Cano — ataque à distância com arma de fogo contra alvo adjacente: sem penalidade –5 e dano +1 passo; pré-req: Luta treinado",
+      "Estragar o Velório — 1×/rodada ao derrubar criatura com arma de fogo: 2 PM para ataque à distância sem penalidade por alvo caído; pré-req: 12º nível, Encostar o Cano",
+      "Gatilho Rápido — soma Car na Iniciativa; no 1º turno ao sacar arma de fogo: 3 PM para ataque à distância como parte da ação (alvo desprevenido); pré-req: 6º nível",
+      "Mestre do Laço — pode agarrar e desarmar criaturas em alcance curto com corda ou chicote; ao agarrar: 1 PM para torná-la adjacente",
+      "Modão de Viola — 1 hora com instrumento de cordas (duas mãos): aliados recuperam +1 PV/nível no próximo descanso até fim do dia; pré-req: Atuação treinada",
+      "Odeio Gente Barulhenta — +5 Percepção e dano contra criaturas que fizeram ação muito chamativa na cena (mestre define)",
+      "Peixeira — adagas e espadas são 'peixeiras': afetadas por Chapéu de Vaqueiro; podem ser sacadas/guardadas como ação livre (se já puder, +2 em ataque ao sacá-las)",
+      "Pólvora Cangaceira — ao usar bomba: 3 PM → mais potente; +3d6 fogo a alvos em chamas na área (Ref evita condição); pré-req: Cobrir de Pólvora",
+      "Puxar pelo Laço — ao fazer Desarmar com chicote ou corda: 2 PM para puxar o item até você (pegar é reação); pré-req: Mestre do Laço",
+      "Rir da Cara do Perigo — ao sofrer dano montado com chapéu: gaste PM (limitado por Car); cada PM reduz o dano em 10; pré-req: 5º nível",
+      "Sertanejo — +5 em resistências contra efeitos de calor (incluindo magias) e RD fogo 5",
+      "Tempo da Bala — ação completa, 6 PM: ataca todas as criaturas no alcance da arma de fogo (balas normais); rodada seguinte deve recarregar; pré-req: 17º nível",
+      "Tiro de Aviso — ação padrão, 1 bala: criaturas no alcance ficam caídas (Von CD Car evita; imunes por 1 dia). Medo",
+      "Tiro de Incapacitação — 1×/rodada, reação a ataque inimigo: 3 PM + 1 bala → teste de ataque oposto; se vencer, inimigo perde a ação e você recarrega",
+      "Tiro na Cabeça — ao mirar: 3 PM → dano +2 passos no próximo ataque ao alvo; com Efeitos Críticos, acerta cabeça com resultado 9-10; pré-req: Sab 3",
+      "Tomou no Chapéu — ao sofrer ataque que te deixaria a 0 PV enquanto usa chapéu: 5 PM para evitar; o chapéu é destruído",
+      "Traje de Vaqueiro — soma Car na Defesa (limitado pelo nível) apenas com armaduras de couro ou colete fora da lei; pré-req: 8º nível",
+      "Valhacouto — ao ficar numa comunidade por ≥ 1 dia: hospedagem e alimentação gratuitas (descanso confortável) pelos seus jagunços; pré-req: Bandoleiro (Caboclo: Lampião)",
+      "Vigilante das Estradas — viajando montado (+Jornadas pelos Ermos): +2 em todos os testes; após a viagem: +2 Defesa, Percepção e Reflexos até fim do dia"
     ]
   }
 ]
