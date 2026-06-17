@@ -79,7 +79,10 @@
       "Mestre em Escola — custo –1 PM em uma escola (req. Especialista, 8º nível)",
       "Poder Mágico — +1 PM/nível de arcanista",
       "Raio Arcano — 1d8+ dano de essência em alcance curto (aumenta por círculo)",
-      "Tinta do Mago — cria pergaminhos (Mago, Ofício escriba)"
+      "Tinta do Mago — cria pergaminhos (Mago, Ofício escriba)",
+      "Escriba Arcano — aprende magias copiando pergaminhos e grimórios de outros magos; exige 1 dia + T$250/PM por magia (req: Mago, Ofício escriba)",
+      "Raio Elemental — ao usar Raio Arcano, paga 1 PM para dano de ácido, eletricidade, fogo, frio ou trevas + condição (req: Raio Arcano)",
+      "Raio Poderoso — dados de Raio Arcano aumentam para d12 e alcance para médio (req: Raio Arcano)"
     ],
     "linhagens": [
       {
@@ -201,7 +204,18 @@
       "Sangue dos Inimigos — +1 cumulativo em ataque/dano por crítico ou inimigo abatido",
       "Superstição — resistência a magia +5",
       "Totem Espiritual — soma Sabedoria em PM, aprende magia animal totêmica (Sab 1, 4º nível)",
-      "Vigor Primal — recupera 1d12 PV por PM gasto (ação movimento, limitado por Con)"
+      "Vigor Primal — recupera 1d12 PV por PM gasto (ação movimento, limitado por Con)",
+      "Força Indomável — gasta 1 PM para somar nível em teste de Força ou Atletismo (após rolar, antes do resultado)",
+      "Fúria Raivosa — paga 1 PM para manter Fúria mesmo sem atacar nem ser alvo de efeito hostil na rodada",
+      "Investida Imprudente — aumenta penalidade de Defesa na investida para –5 para ganhar +1d12 na rolagem de dano",
+      "Coruja — totem espiritual; permite lançar Orientação",
+      "Corvo — totem espiritual; permite lançar Visão Mística",
+      "Falcão — totem espiritual; permite lançar Detectar Ameaças",
+      "Grifo — totem espiritual; permite lançar Primor Atlético",
+      "Lobo — totem espiritual; permite lançar Concentração de Combate",
+      "Raposa — totem espiritual; permite lançar Imagem Espelhada",
+      "Tartaruga — totem espiritual; permite lançar Armadura Arcana",
+      "Urso — totem espiritual; permite lançar Vitalidade Fantasma"
     ],
     "fonte": "Tormenta 20"
   },
@@ -300,7 +314,11 @@
       "Música: Melodia Curativa — cura 1d6 PV por PM gasto",
       "Paródia — copia magia lançada por outra criatura (1 PM, teste Atuação)",
       "Prestidigitação — lança magia de ação completa como ação livre durante ação padrão (6º nível)",
-      "Dança das Lâminas — ataque corpo a corpo como ação livre ao lançar magia (req. Esgrima Mágica, 10º nível)"
+      "Dança das Lâminas — ataque corpo a corpo como ação livre ao lançar magia (req. Esgrima Mágica, 10º nível)",
+      "Fascinar em Massa — ao usar Música: Balada Fascinante, gasta +2 PM para afetar todos no alcance (req: Música: Balada Fascinante)",
+      "Golpe Elemental — sob Inspiração, gasta 1 PM para +1d6 dano elemental por círculo máximo em ataque corpo a corpo",
+      "Manipular em Massa — ao usar Manipular, gasta +2 PM para afetar todos a escolha em alcance curto (req: Manipular)",
+      "Mestre dos Sussurros — rola dois dados e usa o melhor em testes de Investigação (interrogar) e Enganação (intriga)"
     ],
     "fonte": "Tormenta 20"
   },
@@ -407,7 +425,12 @@
       "Pistoleiro — proficiência com armas de fogo, +2 em rolagens de dano",
       "Presença Paralisante — soma Car em Iniciativa, ação padrão extra na 1ª rodada (Car 1, 4º nível)",
       "Ripostar — ataque imediato ao aparar com sucesso (+1 PM, req. Aparar, 12º nível)",
-      "Touché — dano +1 passo ao se aproximar e atacar com arma leve (req. Esgrimista, +2 PM)"
+      "Touché — dano +1 passo ao se aproximar e atacar com arma leve (req. Esgrimista, +2 PM)",
+      "Abusar dos Fracos — dano aumenta um passo contra criatura com condição de medo",
+      "Amigos no Porto — teste de Carisma (CD 10) em comunidade portuária para encontrar parceiro veterano ou pedir favor",
+      "Apostador — gasta um dia em mesa de wyrt; teste de Jogatina para ganhar T$100 (CD 15), T$200 (CD 20) etc.",
+      "Bravata Imprudente — 1ª rodada, jura derrotar inimigos com restrição; se vencer, +2 ataque e margem de ameaça até fim da aventura",
+      "Folião — +2 em perícias de Carisma em festas; atitude de todas as pessoas melhora em uma categoria (req: Car 1)"
     ],
     "fonte": "Tormenta 20"
   },
@@ -509,7 +532,15 @@
       "Escaramuça — move 6m+, +2 Defesa/Reflexos, +1d8 dano (Des 2, 6º nível)",
       "Inimigo de (tipo) — dobra dados de bônus da Marca contra tipo/raça escolhida",
       "Olho do Falcão — marca presa em alcance longo",
-      "Ponto Fraco — margem de ameaça +2 contra presa marcada"
+      "Ponto Fraco — margem de ameaça +2 contra presa marcada",
+      "Armadilheiro — soma Sabedoria no dano e na CD de suas armadilhas",
+      "Bote — em investida com duas armas, paga 1 PM para ataque adicional com arma secundária",
+      "Chuva de Lâminas — ao usar Ambidestria, paga 2 PM para ataque adicional com arma primária (1x/rodada)",
+      "Empatia Selvagem — comunica-se com animais por linguagem corporal; usa Adestramento para mudar atitude",
+      "Ervas Curativas — ação completa + PM (limitado por Sab): 1d6 cura por PM ou remove 1 nível de veneno",
+      "Escaramuça Superior — Escaramuça concede +5 Defesa/Reflexos e +1d12 dano (req: Escaramuça, Des 2, 6º nível)",
+      "Espreitar — Marca da Presa concede +1 por PM gasto em testes de perícia contra a presa (req: Marca da Presa)",
+      "Ímpeto — gasta 1 PM para +6m de deslocamento por uma rodada"
     ],
     "fonte": "Tormenta 20"
   },
@@ -602,9 +633,18 @@
       "Etiqueta — +2 Diplomacia/Nobreza e pode rolar novamente (+1 PM)",
       "Investida Destruidora — investida causa +2d8 dano (+2 PM)",
       "Montaria Corajosa — montaria concede +1d6 dano",
-      "Postura: Aríete Implacável — +2 em investidas, +2d8 contra construtos",
-      "Postura: Castigo de Ferro — ataca a criatura que atacar aliado (+1 PM)",
-      "Postura: Foco de Batalha — +1 PM temporário por ataque recebido"
+      "Postura de Combate: Aríete Implacável — +2 em investidas, +2d8 contra construtos",
+      "Postura de Combate: Castigo de Ferro — ataca a criatura que atacar aliado (+1 PM)",
+      "Postura de Combate: Foco de Batalha — +1 PM temporário por ataque recebido",
+      "Autoridade Feudal — gasta 1h e 2 PM para convocar povo local como parceiro por cena",
+      "Bastião — RD 5 com armadura pesada (cumulativa com Especialização em Armadura) (req: 16º nível de cavaleiro)",
+      "Pajem — recebe serviços de pajem; +2 Diplomacia; condição de descanso uma categoria acima do padrão",
+      "Postura de Combate: Muralha Intransponível — req. escudo; +1 Defesa/Reflexos; metade dano mesmo com falha no Reflexos",
+      "Postura de Combate: Provocação Petulante — inimigos em alcance curto devem atacar você (Von CD Car) ou ficam abalados",
+      "Postura de Combate: Torre Inabalável — imune a deslocamento forçado; não pode mover mas soma Con na Defesa",
+      "Solidez — bônus do escudo na Defesa também se aplica em testes de resistência",
+      "Título — adquire título de nobreza; renda 20 TO/nível de cavaleiro ou parceiro veterano",
+      "Torre Armada — inimigo erra ataque contra você: gasta 1 PM para +5 nas rolagens de dano contra ele até seu próximo turno"
     ],
     "fonte": "Tormenta 20"
   },
@@ -667,7 +707,7 @@
       }
     ],
     "poderes": [
-      "Arma do Deus — soma Sabedoria em rolagens de dano com arma favorita da divindade",
+      "Abençoar Arma — soma Sabedoria em rolagens de dano com arma favorita da divindade",
       "Autoridade Eclesiástica — posição formal em uma igreja (+5 Diplomacia/Intimidação com devotos) (5º nível)",
       "Canalizar Energia Positiva/Negativa — cura ou causa 1d6 PV/PM por PM gasto",
       "Canalizar Amplo — Canalizar Energia em alcance médio (+2 PM)",
@@ -680,7 +720,11 @@
       "Missa: Chamado às Armas — +1 em ataque/dano aos participantes",
       "Missa: Elevação do Espírito — PM temporários = Sab aos participantes",
       "Missa: Escudo Divino — +1 Defesa e testes de resistência",
-      "Símbolo Sagrado Energizado — –1 PM em magias divinas enquanto empunha símbolo energizado (1 PM)"
+      "Símbolo Sagrado Energizado — –1 PM em magias divinas enquanto empunha símbolo energizado (1 PM)",
+      "Aumento de Atributo — +1 em um atributo (1x por patamar)",
+      "Mestre Celebrante — número de participantes da missa aumenta 10x e benefícios dobram",
+      "Missa: Superar as Limitações — participantes recebem +1d6 num único teste a escolha, mesmo após rolar o dado",
+      "Prece de Combate — magia divina (ação padrão) em si mesmo pode ser lançada como ação de movimento (+2 PM)"
     ],
     "fonte": "Tormenta 20"
   },
@@ -765,7 +809,16 @@
       "Magia Natural — lança magias em forma selvagem (req. Forma Selvagem)",
       "Segredos da Natureza — aprende 2 magias das escolas escolhidas (repetível)",
       "Espírito dos Equinócios — rola novamente resultados 1 em qualquer dado (4 PM, req. Aspectos, 10º nível)",
-      "Espírito dos Solstícios — maximiza efeitos numéricos de magias (4 PM, req. Aspectos, 10º nível)"
+      "Espírito dos Solstícios — maximiza efeitos numéricos de magias (4 PM, req. Aspectos, 10º nível)",
+      "Companheiro Animal Aprimorado — companheiro recebe segundo tipo animal, ganhando bônus de seu nível (req: Companheiro Animal)",
+      "Companheiro Animal Lendário — companheiro dobra bônus de seu tipo original (req: Companheiro Animal)",
+      "Companheiro Animal Mágico — companheiro recebe tipo adepto, destruidor, magivocador ou médico (req: Companheiro Animal)",
+      "Coração da Selva — CD dos venenos +2 e causam +1 de perda de vida por dado",
+      "Força dos Penhascos — +2 Fortitude; em contato com solo/pedra, gasta PM (limitado por Sab) para reduzir dano",
+      "Forma Primal — Forma Selvagem pode combinar benefícios de dois tipos de animais (req: Forma Selvagem)",
+      "Liberdade da Pradaria — +2 Reflexos; ao ar livre, gasta 1 PM para aumentar alcance de magia um passo",
+      "Presas Afiadas — margem de ameaça de armas naturais aumenta em +2",
+      "Tranquilidade dos Lagos — +2 Vontade; com recipiente de água, paga 1 PM para refazer teste de resistência (1x/rodada)"
     ],
     "fonte": "Tormenta 20"
   },
@@ -852,7 +905,14 @@
       "Especialização em Armadura — RD 5 com armadura pesada (12º nível)",
       "Golpe de Raspão — ao errar, causa metade do dano (2 PM, 1x/rodada)",
       "Golpe Pessoal — cria técnica única com efeitos customizados",
-      "Rajada — dois ataques à distância; –2 em todos os ataques (Des 1)"
+      "Golpe Demolidor — ao usar manobra quebrar ou atacar objeto, gasta 2 PM para ignorar a redução de dano",
+      "Ímpeto — gasta 1 PM para +6m de deslocamento por uma rodada",
+      "Mestre em Arma — dano aumenta um passo com arma escolhida; 2 PM para rolar novamente teste de ataque (req: Especialização em Arma)",
+      "Planejamento Marcial — 1x/dia: gasta 1h e 3 PM para usar temporariamente poder de guerreiro/combate até o próximo dia",
+      "Romper Resistências — Ataque Especial pode gastar 1 PM adicional para ignorar 10 pontos de redução de dano",
+      "Solidez — bônus do escudo na Defesa também se aplica em testes de resistência",
+      "Tornado de Dor — ação padrão + 2 PM para série de golpes giratórios contra todos os inimigos em alcance corpo a corpo",
+      "Valentão — +2 em ataque e dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos"
     ],
     "fonte": "Tormenta 20"
   },
@@ -956,7 +1016,24 @@
       "Engenhoqueiro — fabrica engenhocas (Int 3, Ofício engenhoqueiro)",
       "Farmacêutico — dado extra de cura por PM em itens alquímicos (Sab 1, Ofício alquimista)",
       "Granadeiro — arremessa itens alquímicos em alcance médio, usa Int para CD",
-      "Homúnculo — criatura Minúscula alquímica com comunicação telepática"
+      "Homúnculo — criatura Minúscula alquímica com comunicação telepática",
+      "Ajuste de Mira — ação padrão + PM (limitado por Int): +1/PM em testes de ataque e dano com arma à distância pelo resto da cena",
+      "Ativação Rápida — ativa engenhoca de ação padrão como ação de movimento pagando 2 PM",
+      "Autômato Prototipado — ação padrão + 2 PM para tentar melhoria experimental no autômato (1d6: 2-6 sobe nível, 1 sofre dano)",
+      "Cano Raiado — arma de disparo fabricada por você recebe +1 na margem de ameaça",
+      "Chutes e Palavrões — paga 1 PM para repetir teste de Ofício (engenhoqueiro) para ativar engenhoca (1x/rodada)",
+      "Conhecimento de Fórmulas — aprende 3 fórmulas de qualquer círculo que possa aprender (repetível)",
+      "Couraceiro — proficiência com armaduras pesadas e escudos; usa Int em vez de Des na Defesa com armadura",
+      "Ferreiro — arma corpo a corpo fabricada por você: dano aumenta um passo",
+      "Invenção Potente — item ou engenhoca fabricado por você: +2 à CD para resistir pagando 1 PM",
+      "Maestria em Perícia — pode gastar 1 PM para escolher 10 em perícias treinadas selecionadas (qtd = Int)",
+      "Manutenção Eficiente — capacidade de engenhocas +3; cada engenhoca ocupa meio espaço",
+      "Mestre Alquimista — pode fabricar poções de qualquer círculo (req: Alquimista Iniciado)",
+      "Mestre Cuca — comidas cozinhadas por você têm bônus numérico aumentado em +1",
+      "Mistura Fervilhante — item alquímico ou poção: dobra a área de efeito pagando 2 PM",
+      "Oficina de Campo — 1h + 2 PM para manutenção do equipamento do grupo (+1 ataque/Defesa/RD até próximo descanso)",
+      "Pedra de Amolar — ação de movimento + PM (limitado por Int): +1/PM em ataque e dano com arma corpo a corpo pelo resto da cena",
+      "Síntese Rápida — ao fabricar item alquímico ou poção, produz dobro de doses no mesmo tempo"
     ],
     "fonte": "Tormenta 20"
   },
@@ -1052,7 +1129,10 @@
       "Saqueador de Tumbas — +5 para encontrar/resistir armadilhas, desativa em ação padrão",
       "Sombra — +2 Furtividade e mover-se sem penalidade, –10 nos ataques (Furtividade)",
       "Truque Mágico — aprende magia arcana de 1º círculo (Int 1, repetível)",
-      "Veneno Potente — +5 na CD de resistência de venenos aplicados"
+      "Veneno Potente — +5 na CD de resistência de venenos aplicados",
+      "Gatuno — +2 Atletismo; ao escalar, não fica desprevenido e usa deslocamento normal",
+      "Velocidade Ladina — gasta 2 PM para realizar ação de movimento adicional no turno (1x/rodada)",
+      "Veneno Persistente — veneno aplicado a uma arma dura por três ataques em vez de apenas um"
     ],
     "fonte": "Tormenta 20"
   },
@@ -1145,7 +1225,12 @@
       "Trocação — ataque desarmado adicional ao acertar (6º nível)",
       "Trocação Tumultuosa — atinge todos adjacentes com um ataque desarmado (2 PM, req. Trocação, 8º nível)",
       "Valentão — +2 ataque/dano contra caído, desprevenido, flanqueado ou indefeso",
-      "Voadora — +1d6 dano por 3m de movimento em investida (2 PM, limitado por nível)"
+      "Voadora — +1d6 dano por 3m de movimento em investida (2 PM, limitado por nível)",
+      "Até Acertar — ao errar ataque desarmado, recebe +2 cumulativo em ataque e dano desarmado contra o mesmo oponente até acertar",
+      "Convencido — resistência a medo e mental +5",
+      "Nome na Arena — ação completa: teste de Luta (CD 10) para impressionar; se passar, +2 em ataque/dano e aliados recebem bônus na cena",
+      "Sequência Destruidora — início do turno: gasta 2 PM e declara N ataques (mín. 2); acertando todos seguidos, inimigo cai",
+      "Trincado — soma Constituição nas rolagens de dano desarmado"
     ],
     "fonte": "Tormenta 20"
   },
@@ -1240,14 +1325,18 @@
       "Educação Privilegiada — treinado em 2 perícias nobres adicionais",
       "Estrategista — aliados recebem ação de movimento por PM gasto (Int 1, Guerra, 6º nível)",
       "Favor — consegue favores poderosos através de influência social (5 PM, 1h conversa)",
-      "Gritar Ordens — aliados em alcance curto recebem bônus = PM gastos em teste de perícia",
+      "Grito Tirânico — usa Palavras Afiadas como ação completa; dados de dano aumentam para d8 e atinge todos em alcance curto (8º nível)",
       "Inspirar Confiança — aliado rola novamente teste qualquer (2 PM)",
       "Inspirar Glória — aliado recebe ação padrão adicional no próximo turno (5 PM, 8º nível)",
       "Jogo da Corte — rola novamente Diplomacia/Intuição/Nobreza (1 PM)",
       "Língua de Ouro — usa Enfeitiçar em alcance curto (4 PM, 8º nível)",
       "Língua de Prata — +50% do nível em teste de Carisma (2 PM)",
-      "Palavras Afiadas como Grito Tirânico — usa d8 em alcance curto (ação completa, 8º nível)",
-      "Título — adquire título nobiliárquico, renda 20 TO/nível ou parceiro veterano"
+      "Título — adquire título nobiliárquico, renda 20 TO/nível ou parceiro veterano",
+      "General — ao usar Estrategista, aliados direcionados recebem 1d4 PM temporários (req: Estrategista)",
+      "Liderar pelo Exemplo — gasta 2 PM; aliados em alcance curto usam seu resultado nos testes de mesma perícia até seu próximo turno",
+      "Língua Rápida — penalidade em Diplomacia para mudar atitude como ação completa reduz de –10 para –5",
+      "Presença Majestosa — Presença Aristocrática funciona contra qualquer criatura com Inteligência, incluindo animais",
+      "Voz Poderosa — +2 Diplomacia e Intimidação; habilidades de nobre com alcance curto passam para alcance médio"
     ],
     "fonte": "Tormenta 20"
   },
@@ -1340,7 +1429,7 @@
       "Aura de Cura — aliados recuperam 5+Car PV por turno (6º nível)",
       "Aura de Invencibilidade — ignora o primeiro dano da cena (18º nível)",
       "Aura Poderosa — raio de 30m na aura (6º nível)",
-      "Bênção da Justiça: Égide Sagrada — escudo/símbolo concede +Car Defesa a aliados (2 PM)",
+      "Égide Sagrada — escudo/símbolo concede +Car Defesa a aliados (2 PM)",
       "Fulgor Divino — ofusca inimigos em alcance curto ao usar Golpe Divino",
       "Julgamento Divino: Arrependimento — próximo ataque inimigo vs Vontade ou atordoado (2 PM)",
       "Julgamento Divino: Coragem — imunidade a medo, +2 ataques contra inimigos mais poderosos (2 PM)",
@@ -1350,9 +1439,14 @@
       "Julgamento Divino: Salvação — recupera 5 PV ao acertar inimigo (2 PM)",
       "Julgamento Divino: Vindicação — +1 ataque, +1d8 dano contra alvo, –5 em outros (2 PM)",
       "Orar — aprende magia divina de 1º círculo (Sab, repetível)",
-      "Virtude: Caridade — habilidades de paladino custam –1 PM para aliados",
-      "Virtude: Castidade — imunidade a encantamentos, +5 Intuição contra blefe",
-      "Virtude: Compaixão — Cura pelas Mãos cura 2d6+1 em vez de 1d8+1"
+      "Virtude Paladinesca: Caridade — habilidades de paladino custam –1 PM para aliados",
+      "Virtude Paladinesca: Castidade — imunidade a encantamentos, +5 Intuição contra blefe",
+      "Virtude Paladinesca: Compaixão — Cura pelas Mãos cura 2d6+1 em vez de 1d8+1",
+      "Julgamento Divino: Autoridade — gasta 1 PM; teste de Diplomacia oposto por Vontade; se vencer, alvo obedece comando simples como 'pare' ou 'largue'",
+      "Julgamento Divino: Zelo — gasta 1 PM para marcar alvo em alcance longo; move com dobro de deslocamento em direção a ele pelo resto da cena",
+      "Virtude Paladinesca: Humildade — ação completa na 1ª rodada para rezar; recebe PM temporários = Carisma (duram até fim da cena)",
+      "Virtude Paladinesca: Temperança — ao ingerir alimento, poção ou item alquímico, consome metade; cada item rende 2 doses",
+      "Montaria Sagrada — ação de movimento + 2 PM para invocar montaria sagrada que obedece comandos"
     ],
     "fonte": "Tormenta 20"
   },
