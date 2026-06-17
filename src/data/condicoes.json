@@ -4,51 +4,61 @@
     "nome": "Abalado",
     "cor": "yellow",
     "icone": "AlertTriangle",
-    "descricao": "O personagem está nervoso, assustado ou distraído. Ele sofre penalidade de –2 nas jogadas de ataque e em testes de perícia.",
+    "descricao": "O personagem sofre –2 em testes de perícia. Se ficar abalado novamente, em vez disso fica apavorado.",
     "penalidades": [
-      "–2 nas jogadas de ataque",
       "–2 em testes de perícia"
     ],
     "interacoes": [
-      "Duas condições Abalado equivalem à condição Apavorado.",
-      "Incompatível com Apavorado (substitui)."
+      "Ficar abalado novamente → Apavorado.",
+      "Tipo: Medo."
     ],
-    "remocao": "Termina no fim da cena, ou quando o efeito que o causou terminar. Certas magias e habilidades também removem esta condição."
+    "remocao": "Termina no fim da cena, ou quando o efeito que o causou terminar."
   },
   {
     "id": "agarrado",
     "nome": "Agarrado",
     "cor": "orange",
     "icone": "Link",
-    "descricao": "O personagem está preso em um agarrão (seja como o agarrador ou o agarrado). Não pode se mover voluntariamente e sofre penalidades em combate.",
+    "descricao": "O personagem fica desprevenido e imóvel, sofre –2 em testes de ataque e só pode atacar com armas leves. Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado.",
     "penalidades": [
-      "Não pode se mover voluntariamente",
-      "–2 nas jogadas de ataque",
-      "Perde o bônus de Destreza para a Defesa",
-      "Não pode usar armas de duas mãos (como agarrado)"
+      "Fica desprevenido",
+      "Fica imóvel",
+      "–2 em testes de ataque",
+      "Só pode atacar com armas leves"
     ],
     "interacoes": [
-      "Quem está agarrando também sofre –2 nas jogadas de ataque.",
-      "Para se soltar, o agarrado deve vencer uma disputa de Luta ou Acrobacia contra Luta do oponente.",
-      "Ataques de outras criaturas contra um combatente agarrado recebem +4."
+      "Ataques à distância contra alvo agarrado: 50% de chance de acertar o alvo errado.",
+      "Tipo: Movimento."
     ],
-    "remocao": "O personagem pode gastar uma ação padrão para tentar escapar com um teste de Luta (CD = resultado do agarrão inicial) ou Acrobacia."
+    "remocao": "O personagem pode gastar uma ação padrão para tentar escapar com um teste de Luta ou Acrobacia contra o resultado do agarrão."
+  },
+  {
+    "id": "alquebrado",
+    "nome": "Alquebrado",
+    "cor": "purple",
+    "icone": "Battery",
+    "descricao": "O custo em pontos de mana das habilidades do personagem aumenta em +1.",
+    "penalidades": [
+      "+1 PM no custo de todas as habilidades"
+    ],
+    "interacoes": [
+      "Tipo: Mental."
+    ],
+    "remocao": "Termina ao fim da cena ou quando o efeito causador terminar."
   },
   {
     "id": "apavorado",
     "nome": "Apavorado",
     "cor": "red",
     "icone": "Zap",
-    "descricao": "O personagem está em pânico total. Deve fugir da fonte do medo pelo caminho mais seguro possível. Enquanto fugir, também está Abalado.",
+    "descricao": "O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo.",
     "penalidades": [
-      "Deve fugir da fonte de medo",
-      "–2 nas jogadas de ataque (inclui Abalado)",
-      "–2 em testes de perícia (inclui Abalado)",
-      "Não pode se aproximar voluntariamente da fonte de medo"
+      "–5 em testes de perícia",
+      "Não pode se aproximar voluntariamente da fonte do medo"
     ],
     "interacoes": [
       "Substitui a condição Abalado.",
-      "Se não puder fugir, fica paralisado de medo (fica Imóvel)."
+      "Tipo: Medo."
     ],
     "remocao": "Geralmente dura 1d6 rodadas. Magias como Remover Medo encerram o efeito imediatamente."
   },
@@ -57,157 +67,236 @@
     "nome": "Atordoado",
     "cor": "purple",
     "icone": "Stars",
-    "descricao": "O personagem perdeu completamente a orientação. Cai ao chão (fica Caído) e fica indefeso por 1 rodada.",
+    "descricao": "O personagem fica desprevenido e não pode fazer ações.",
     "penalidades": [
-      "Fica Caído (ao chão)",
-      "Fica Indefeso",
-      "Perde a ação padrão e a ação de movimento",
-      "–2 na Defesa"
+      "Fica desprevenido",
+      "Não pode fazer ações"
     ],
     "interacoes": [
-      "Inclui todos os efeitos de Caído e Indefeso.",
-      "Inimigos adjacentes recebem +4 nas jogadas de ataque."
+      "Tipo: Mental."
     ],
-    "remocao": "Dura apenas 1 rodada (até o início do próximo turno do personagem). Algumas magias podem remover antes."
-  },
-  {
-    "id": "cego",
-    "nome": "Cego",
-    "cor": "gray",
-    "icone": "EyeOff",
-    "descricao": "O personagem não enxerga. Perde todos os benefícios da visão e sofre graves penalidades em combate e movimento.",
-    "penalidades": [
-      "Perde os benefícios de visão",
-      "20% de chance de errar qualquer ataque (incluindo magia)",
-      "Não aplica bônus de Destreza à Defesa",
-      "–5 em testes de Percepção baseados em visão",
-      "Inimigos recebem +2 nas jogadas de ataque contra ele",
-      "Deslocamento reduzido à metade",
-      "Não pode realizar ações que exijam visão"
-    ],
-    "interacoes": [
-      "Pode usar Percepção (olfato/audição) para localizar criaturas, mas ainda sofre a chance de errar.",
-      "Criatura Invisível adjacente: criaturas cegas não sofrem penalidade adicional."
-    ],
-    "remocao": "Magias como Curar Cegueira ou Restauração removem o efeito. Blindagens temporárias cessam ao fim da duração."
+    "remocao": "Geralmente dura apenas 1 rodada."
   },
   {
     "id": "caido",
     "nome": "Caído",
     "cor": "brown",
     "icone": "ArrowDown",
-    "descricao": "O personagem está prostrado ao chão (deitado ou de joelhos).",
+    "descricao": "O personagem sofre –5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância. Além disso, sofre –5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m.",
     "penalidades": [
-      "–4 nas jogadas de ataque corpo a corpo",
-      "–4 na Defesa contra ataques corpo a corpo",
-      "+4 na Defesa contra ataques à distância",
-      "Não pode usar ações de movimento normais (precisa gastar ação de movimento para se levantar)"
+      "–5 na Defesa contra ataques corpo a corpo",
+      "+5 na Defesa contra ataques à distância",
+      "–5 em ataques corpo a corpo",
+      "Deslocamento reduzido a 1,5m"
     ],
     "interacoes": [
-      "Levantar-se provoca ataque de oportunidade.",
-      "Pode rastejar (2,5m) como ação de movimento."
+      "Levantar-se custa uma ação de movimento e pode provocar ataque de oportunidade."
     ],
-    "remocao": "O personagem gasta uma ação de movimento para se levantar (isso provoca ataque de oportunidade)."
+    "remocao": "O personagem gasta uma ação de movimento para se levantar."
+  },
+  {
+    "id": "cego",
+    "nome": "Cego",
+    "cor": "gray",
+    "icone": "EyeOff",
+    "descricao": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total.",
+    "penalidades": [
+      "Fica desprevenido",
+      "Fica lento",
+      "–5 em testes de perícias baseadas em Força ou Destreza",
+      "Não pode fazer testes de Percepção para observar",
+      "Todos os alvos recebem camuflagem total contra seus ataques"
+    ],
+    "interacoes": [
+      "Considerado cego em escuridão total, salvo visão especial.",
+      "Tipo: Sentidos."
+    ],
+    "remocao": "Magias como Curar Cegueira ou Restauração removem o efeito permanente. Cegueira temporária termina ao fim da duração."
   },
   {
     "id": "confuso",
     "nome": "Confuso",
     "cor": "pink",
     "icone": "Shuffle",
-    "descricao": "O personagem age de forma aleatória, sem controle sobre suas ações. Role 1d6 no início de cada turno para determinar o comportamento.",
+    "descricao": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Move-se em direção aleatória (1d8); 2-3) Não pode fazer ações; 4-5) Ataca a criatura mais próxima (ou a si mesmo se estiver sozinho); 6) A condição termina e pode agir normalmente.",
     "penalidades": [
-      "Age aleatoriamente (d6: 1-2 ataca aliado mais próximo; 3-4 não faz nada; 5-6 age normalmente)",
-      "Não pode usar ações de movimento para se mover voluntariamente (só ações aleatórias)"
+      "Comportamento determinado por 1d6 no início de cada turno",
+      "1: move-se em direção aleatória; 2-3: não age; 4-5: ataca criatura mais próxima; 6: condição termina"
     ],
     "interacoes": [
-      "O personagem confuso não provoca ataques de oportunidade.",
-      "Se atacar um aliado, este pode se defender normalmente."
+      "Tipo: Mental."
     ],
-    "remocao": "A duração varia pelo efeito causador. Magias de Restauração ou específicas removem a condição."
+    "remocao": "A duração varia pelo efeito causador, ou termina com resultado 6 no d6 de comportamento."
   },
   {
     "id": "debilitado",
     "nome": "Debilitado",
     "cor": "orange",
     "icone": "TrendingDown",
-    "descricao": "O personagem está fisicamente fraco. Pode ser resultado de fadiga extrema, ferimentos ou doença severa.",
+    "descricao": "O personagem sofre –5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se ficar debilitado novamente, em vez disso fica inconsciente.",
     "penalidades": [
-      "–2 em testes de Força e Constituição",
-      "Deslocamento reduzido à metade (arredondado para baixo para o múltiplo de 1,5m mais próximo)"
+      "–5 em testes de Força, Destreza e Constituição",
+      "–5 em perícias baseadas em Força, Destreza e Constituição"
     ],
     "interacoes": [
-      "Não impede o personagem de agir normalmente, apenas reduz eficácia física.",
-      "Acumulável com Fatigado (ambas as penalidades se aplicam)."
+      "Ficar debilitado novamente → Inconsciente."
     ],
-    "remocao": "Geralmente requer descanso ou cuidados médicos. Magias de cura podem remover."
+    "remocao": "Geralmente requer descanso ou cuidados médicos. Magias de restauração podem remover."
+  },
+  {
+    "id": "desprevenido",
+    "nome": "Desprevenido",
+    "cor": "orange",
+    "icone": "ShieldOff",
+    "descricao": "O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber.",
+    "penalidades": [
+      "–5 na Defesa",
+      "–5 em Reflexos"
+    ],
+    "interacoes": [
+      "Condição base para golpe de misericórdia (que exige também Indefeso).",
+      "Causada por Agarrado, Atordoado, Surpreendido, Cego, entre outros."
+    ],
+    "remocao": "Termina quando a causa for removida (ex.: o personagem volta a perceber os inimigos)."
   },
   {
     "id": "doente",
     "nome": "Doente",
     "cor": "green",
     "icone": "Thermometer",
-    "descricao": "O personagem contraiu uma doença. Os efeitos dependem do tipo de doença — veja a descrição específica da enfermidade.",
+    "descricao": "O personagem está sob efeito de uma doença.",
     "penalidades": [
-      "Varia por tipo de doença",
-      "Geralmente penalidades em atributos físicos",
-      "Progressão da doença a cada intervalo definido pelo tipo"
+      "Varia por tipo de doença"
     ],
     "interacoes": [
-      "Algumas doenças têm CD de Fortitude para resistir à progressão.",
+      "Tipo: Metabolismo.",
       "Doenças sobrenaturais podem exigir magias específicas para cura."
     ],
     "remocao": "Magias como Curar Doença. Tratamento mundano (Medicina CD 15) pode desacelerar a progressão."
+  },
+  {
+    "id": "em-chamas",
+    "nome": "Em Chamas",
+    "cor": "red",
+    "icone": "Flame",
+    "descricao": "O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas.",
+    "penalidades": [
+      "1d6 pontos de dano de fogo no início de cada turno"
+    ],
+    "interacoes": [
+      "Pode ser apagado com uma ação padrão (rolar no chão, abafar com manto etc.).",
+      "Imersão em água apaga imediatamente."
+    ],
+    "remocao": "Gastar uma ação padrão para apagar o fogo, ou imergir em água."
+  },
+  {
+    "id": "enfeiticado",
+    "nome": "Enfeitiçado",
+    "cor": "blue",
+    "icone": "Heart",
+    "descricao": "O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de Diplomacia com o personagem.",
+    "penalidades": [
+      "Percebe a fonte da condição da maneira mais favorável possível"
+    ],
+    "interacoes": [
+      "+10 em testes de Diplomacia da fonte contra o personagem.",
+      "Tipo: Mental."
+    ],
+    "remocao": "Ao fim da duração do efeito. Ações hostis da fonte geralmente encerram a condição."
   },
   {
     "id": "enjoado",
     "nome": "Enjoado",
     "cor": "green",
     "icone": "Frown",
-    "descricao": "O personagem está com náusea, seja por veneno, magia, cheiro ou visão perturbadora.",
+    "descricao": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro).",
     "penalidades": [
-      "–2 nas jogadas de ataque",
-      "–2 em testes de perícia",
-      "–2 nos testes de resistência"
+      "Só pode realizar uma ação padrão OU de movimento por rodada (não ambas)",
+      "Investidas limitadas ao deslocamento normal (não o dobro)"
     ],
     "interacoes": [
-      "Diferente de Abalado em que também penaliza testes de resistência.",
-      "Duas condições Enjoado equivalem à Incapacitado."
+      "Tipo: Metabolismo."
     ],
-    "remocao": "Normalmente dura 1d4 rodadas. Poções de Cura ou Restauração removem o efeito."
+    "remocao": "Geralmente termina ao fim da duração do efeito causador."
+  },
+  {
+    "id": "enredado",
+    "nome": "Enredado",
+    "cor": "brown",
+    "icone": "Layers",
+    "descricao": "O personagem fica lento, vulnerável e sofre –2 em testes de ataque.",
+    "penalidades": [
+      "Fica lento",
+      "Fica vulnerável",
+      "–2 em testes de ataque"
+    ],
+    "interacoes": [
+      "Tipo: Movimento.",
+      "Causado por redes, teias, magias de aprisionamento."
+    ],
+    "remocao": "Escapar geralmente exige um teste de Atletismo ou Acrobacia, ou destruir o que está prendendo."
+  },
+  {
+    "id": "envenenado",
+    "nome": "Envenenado",
+    "cor": "green",
+    "icone": "Skull",
+    "descricao": "O personagem está sob efeito de um veneno. O efeito desta condição varia de acordo com o veneno. Pode ser perda de vida recorrente ou outra condição (como fraco ou enjoado). Perda de vida recorrente por venenos é cumulativa.",
+    "penalidades": [
+      "Varia por tipo de veneno (perda de vida recorrente ou outra condição)"
+    ],
+    "interacoes": [
+      "Tipo: Veneno.",
+      "Perda de vida recorrente por diferentes venenos é cumulativa."
+    ],
+    "remocao": "Antídoto específico do veneno, ou magia como Neutralizar Veneno."
+  },
+  {
+    "id": "esmorecido",
+    "nome": "Esmorecido",
+    "cor": "purple",
+    "icone": "CloudLightning",
+    "descricao": "O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos.",
+    "penalidades": [
+      "–5 em testes de Inteligência, Sabedoria e Carisma",
+      "–5 em perícias baseadas em Inteligência, Sabedoria e Carisma"
+    ],
+    "interacoes": [
+      "Versão grave de Frustrado.",
+      "Tipo: Mental."
+    ],
+    "remocao": "Termina ao fim da cena ou com magia de restauração."
   },
   {
     "id": "exausto",
     "nome": "Exausto",
     "cor": "red",
     "icone": "Battery",
-    "descricao": "O personagem está completamente esgotado fisicamente. Versão grave da condição Fatigado.",
+    "descricao": "O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente.",
     "penalidades": [
-      "–6 em Força e Destreza",
-      "Deslocamento reduzido à metade",
-      "Não pode correr nem fazer investidas",
-      "Não pode fazer ações que exijam esforço intenso"
+      "Aplica as condições Debilitado, Lento e Vulnerável simultaneamente"
     ],
     "interacoes": [
-      "Se ficar Fatigado enquanto Exausto, fica Inconsciente.",
-      "Após descanso completo, torna-se apenas Fatigado."
+      "Ficar exausto novamente → Inconsciente.",
+      "Versão grave de Fatigado.",
+      "Tipo: Cansaço."
     ],
-    "remocao": "Requer descanso completo (8 horas). Magia Restauração Menor ou superior remove o efeito imediatamente."
+    "remocao": "Requer descanso completo. Magia Restauração Menor ou superior remove imediatamente."
   },
   {
     "id": "fascinado",
     "nome": "Fascinado",
     "cor": "blue",
     "icone": "Eye",
-    "descricao": "O personagem está hipnotizado por algo — uma canção, um efeito visual ou sobrenatural — e não pode agir.",
+    "descricao": "O personagem sofre –5 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão.",
     "penalidades": [
-      "Fica parado olhando para o objeto de fascinação",
-      "–4 em testes de Percepção passivos",
-      "Qualquer ameaça física remove imediatamente a condição",
-      "Não pode fazer ações"
+      "–5 em Percepção",
+      "Não pode fazer ações (exceto observar o objeto de fascinação)"
     ],
     "interacoes": [
-      "Aliados podem tentar chamar a atenção do personagem (ação padrão, Persuasão CD 15).",
-      "Qualquer dano automaticamente encerra a fascinação."
+      "Anulada por ações hostis ou se o objeto sair de vista.",
+      "Remover: balançar a criatura (ação padrão).",
+      "Tipo: Mental."
     ],
     "remocao": "Qualquer dano ou ameaça direta encerra a condição. Também termina ao fim da duração do efeito."
   },
@@ -216,14 +305,13 @@
     "nome": "Fatigado",
     "cor": "orange",
     "icone": "Moon",
-    "descricao": "O personagem está cansado, mas ainda pode agir. Versão leve da condição Exausto.",
+    "descricao": "O personagem fica fraco e vulnerável. Se ficar fatigado novamente, em vez disso fica exausto.",
     "penalidades": [
-      "–2 em Força e Destreza",
-      "Não pode correr nem fazer investidas"
+      "Aplica as condições Fraco e Vulnerável simultaneamente"
     ],
     "interacoes": [
-      "Se ficar Fatigado novamente enquanto já está Fatigado, fica Exausto.",
-      "Melhor do que Exausto, ainda permite movimento normal."
+      "Ficar fatigado novamente → Exausto.",
+      "Tipo: Cansaço."
     ],
     "remocao": "8 horas de descanso. Certas magias como Restauração Menor removem imediatamente."
   },
@@ -232,32 +320,45 @@
     "nome": "Fraco",
     "cor": "red",
     "icone": "Minus",
-    "descricao": "O personagem está tão fraco que não consegue se mover. Condição mais grave que Exausto.",
+    "descricao": "O personagem sofre –2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se ficar fraco novamente, em vez disso fica debilitado.",
     "penalidades": [
-      "–6 em Força e Destreza",
-      "Não consegue se mover sob seu próprio poder",
-      "Precisa ser carregado por outros",
-      "Ações mínimas apenas (falar, pequenos gestos)"
+      "–2 em testes de Força, Destreza e Constituição",
+      "–2 em perícias baseadas em Força, Destreza e Constituição"
     ],
     "interacoes": [
-      "Estado antes de cair Inconsciente por exaustão.",
-      "Geralmente resultado de doença grave, veneno ou magia."
+      "Ficar fraco novamente → Debilitado.",
+      "Aplicado por Fatigado."
     ],
-    "remocao": "Descanso extenso (24h) ou magias de Restauração. Tratamento médico (Medicina CD 20) pode estabilizar."
+    "remocao": "Descanso ou magia de restauração."
   },
   {
-    "id": "imóvel",
+    "id": "frustrado",
+    "nome": "Frustrado",
+    "cor": "yellow",
+    "icone": "Meh",
+    "descricao": "O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica esmorecido.",
+    "penalidades": [
+      "–2 em testes de Inteligência, Sabedoria e Carisma",
+      "–2 em perícias baseadas em Inteligência, Sabedoria e Carisma"
+    ],
+    "interacoes": [
+      "Ficar frustrado novamente → Esmorecido.",
+      "Tipo: Mental."
+    ],
+    "remocao": "Termina ao fim da cena ou com magia de restauração."
+  },
+  {
+    "id": "imovel",
     "nome": "Imóvel",
     "cor": "gray",
     "icone": "Anchor",
-    "descricao": "O personagem não pode se mover do lugar, mas ainda pode realizar ações normalmente.",
+    "descricao": "Todas as formas de deslocamento do personagem são reduzidas a 0m.",
     "penalidades": [
-      "Não pode usar ações de movimento para se deslocar",
-      "Não pode fazer investidas"
+      "Deslocamento reduzido a 0m em todas as formas de movimento"
     ],
     "interacoes": [
       "Diferente de Paralisado: pode ainda agir, falar e se defender.",
-      "Pode ser causado por magias como Parede de Força ou Paralisar Pessoa."
+      "Tipo: Movimento."
     ],
     "remocao": "Depende do efeito causador. Magias de dispel ou libertação específicas podem remover."
   },
@@ -266,51 +367,66 @@
     "nome": "Inconsciente",
     "cor": "darkgray",
     "icone": "ZapOff",
-    "descricao": "O personagem está desmaiado, seja por PV negativos, magia ou outro efeito. Fica completamente indefeso.",
+    "descricao": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento. Balançar uma criatura para acordá-la gasta uma ação padrão.",
     "penalidades": [
-      "Completamente Indefeso",
-      "Completamente Imóvel",
-      "Não pode realizar ações",
-      "Perde bônus de Destreza para a Defesa",
-      "Inimigos recebem +4 em ataques contra ele",
-      "Vulnerável a golpe de misericórdia"
+      "Fica indefeso",
+      "Não pode fazer ações (incluindo reações)"
     ],
     "interacoes": [
-      "Se estiver com PV negativos (0 ou menos), está Morrendo além de Inconsciente.",
-      "Golpe de misericórdia contra inconsciente causa acerto crítico automático."
+      "Ainda pode fazer testes de Constituição para estabilizar sangramento.",
+      "Acordar uma criatura inconsciente: ação padrão (balançá-la)."
     ],
     "remocao": "Magias de cura que elevem PV acima de 0, ou ao fim da duração do efeito."
+  },
+  {
+    "id": "indefeso",
+    "nome": "Indefeso",
+    "cor": "red",
+    "icone": "ShieldOff",
+    "descricao": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia.",
+    "penalidades": [
+      "Fica desprevenido",
+      "–10 na Defesa",
+      "Falha automática em testes de Reflexos",
+      "Pode sofrer golpes de misericórdia"
+    ],
+    "interacoes": [
+      "Versão mais grave de Desprevenido.",
+      "Causado por Inconsciente, Paralisado, Atordoado etc."
+    ],
+    "remocao": "Termina quando a causa for removida."
   },
   {
     "id": "lento",
     "nome": "Lento",
     "cor": "blue",
     "icone": "Clock",
-    "descricao": "O personagem pode realizar apenas uma ação por rodada — ou padrão ou de movimento, não ambas.",
+    "descricao": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredondado para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas.",
     "penalidades": [
-      "Apenas uma ação (padrão OU movimento) por rodada",
-      "–1 na Defesa",
-      "–1 nas jogadas de ataque"
+      "Deslocamento reduzido à metade",
+      "Não pode correr",
+      "Não pode fazer investidas"
     ],
     "interacoes": [
-      "Causado pela magia Lentidão ou efeitos similares.",
-      "Oposto de Acelerado (que concede ação extra)."
+      "Causado por Cego, Exausto, Enredado, magia Lentidão etc.",
+      "Tipo: Movimento."
     ],
-    "remocao": "Geralmente dura rodadas. Magia de Dispel Magic ou similar remove."
+    "remocao": "Ao fim da duração do efeito ou quando a causa for removida."
   },
   {
     "id": "ofuscado",
     "nome": "Ofuscado",
     "cor": "yellow",
     "icone": "Sun",
-    "descricao": "O personagem está parcialmente encegueirado — pode enxergar, mas com dificuldade.",
+    "descricao": "O personagem sofre –2 em testes de ataque e de Percepção.",
     "penalidades": [
-      "20% de chance de errar qualquer ataque",
-      "–2 em testes de Percepção baseados em visão"
+      "–2 em testes de ataque",
+      "–2 em testes de Percepção"
     ],
     "interacoes": [
       "Versão mais leve que Cego.",
-      "Causado por luz intensa, fumaça, areia ou magia."
+      "Causado por luz intensa, fumaça, areia ou magia.",
+      "Tipo: Sentidos."
     ],
     "remocao": "Ao se afastar da fonte, ou ao fim da duração do efeito."
   },
@@ -319,54 +435,127 @@
     "nome": "Paralisado",
     "cor": "purple",
     "icone": "Lock",
-    "descricao": "O personagem está completamente paralisado — nem músculos se movem. Completamente indefeso e imóvel.",
+    "descricao": "O personagem fica imóvel e indefeso e só pode realizar ações puramente mentais.",
     "penalidades": [
-      "Completamente Indefeso e Imóvel",
-      "Não pode realizar ações (nem livres)",
-      "Não pode falar (se a paralisia afetar os músculos da fala)",
-      "Inimigos recebem +4 em ataques",
-      "Vulnerável a golpe de misericórdia",
-      "–4 em testes baseados em atributos físicos"
+      "Fica imóvel",
+      "Fica indefeso",
+      "Só pode realizar ações puramente mentais"
     ],
     "interacoes": [
-      "Diferente de Imóvel: também perde ação padrão.",
+      "Tipo: Movimento.",
       "Causado por Toque Paralisante, venenos, magia de Paralisação."
     ],
     "remocao": "Magia de Remover Paralisia ou Restauração. Alguns venenos têm duração e terminam sozinhos."
+  },
+  {
+    "id": "pasmo",
+    "nome": "Pasmo",
+    "cor": "purple",
+    "icone": "AlertOctagon",
+    "descricao": "O personagem não pode fazer ações.",
+    "penalidades": [
+      "Não pode fazer ações"
+    ],
+    "interacoes": [
+      "Tipo: Mental.",
+      "Diferente de Atordoado: não fica desprevenido."
+    ],
+    "remocao": "Geralmente dura 1 rodada ou ao fim da duração do efeito."
+  },
+  {
+    "id": "petrificado",
+    "nome": "Petrificado",
+    "cor": "gray",
+    "icone": "Hexagon",
+    "descricao": "O personagem fica inconsciente e recebe redução de dano 8.",
+    "penalidades": [
+      "Fica inconsciente",
+      "Redução de dano 8"
+    ],
+    "interacoes": [
+      "Tipo: Metamorfose.",
+      "Geralmente requer magia específica para reverter."
+    ],
+    "remocao": "Magia específica como Reverter Petrificação ou Restauração Maior."
+  },
+  {
+    "id": "sangrando",
+    "nome": "Sangrando",
+    "cor": "red",
+    "icone": "Droplets",
+    "descricao": "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição.",
+    "penalidades": [
+      "Teste de Constituição (CD 15) no início de cada turno",
+      "Falha: perde 1d6 PV e continua sangrando"
+    ],
+    "interacoes": [
+      "Tipo: Metabolismo.",
+      "Cura mágica remove imediatamente."
+    ],
+    "remocao": "Sucesso no teste de Constituição (CD 15), ou cura mágica."
+  },
+  {
+    "id": "sobrecarregado",
+    "nome": "Sobrecarregado",
+    "cor": "brown",
+    "icone": "Weight",
+    "descricao": "O personagem sofre penalidade de armadura –5 e seu deslocamento é reduzido em –3m.",
+    "penalidades": [
+      "Penalidade de armadura –5",
+      "Deslocamento reduzido em –3m"
+    ],
+    "interacoes": [
+      "Tipo: Movimento.",
+      "Causado por carregar carga além do limite."
+    ],
+    "remocao": "Reduzir a carga ao limite normal."
   },
   {
     "id": "surdo",
     "nome": "Surdo",
     "cor": "gray",
     "icone": "VolumeX",
-    "descricao": "O personagem não consegue ouvir nada.",
+    "descricao": "O personagem não pode fazer testes de Percepção para ouvir e sofre –5 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar magias.",
     "penalidades": [
-      "–4 em testes de Percepção baseados em audição",
-      "–4 na Iniciativa",
-      "20% de falha em magias com componente verbal",
-      "Não pode se comunicar verbalmente"
+      "Não pode fazer testes de Percepção para ouvir",
+      "–5 em testes de Iniciativa",
+      "Condição ruim para lançar magias"
     ],
     "interacoes": [
-      "Imune a efeitos sonoros (como o bardo).",
-      "Magias com componente verbal têm 20% de chance de falhar."
+      "Tipo: Sentidos.",
+      "Imune a efeitos sonoros (como músicas de bardo)."
     ],
     "remocao": "Magia de Curar Surdez ou Restauração. Surdez mágica termina ao fim da duração."
+  },
+  {
+    "id": "surpreendido",
+    "nome": "Surpreendido",
+    "cor": "yellow",
+    "icone": "AlertCircle",
+    "descricao": "O personagem fica desprevenido e não pode fazer ações.",
+    "penalidades": [
+      "Fica desprevenido",
+      "Não pode fazer ações"
+    ],
+    "interacoes": [
+      "Ocorre apenas na primeira rodada de combate, para quem não percebeu os inimigos.",
+      "Diferente de Atordoado: causado por falta de percepção, não por efeito mental."
+    ],
+    "remocao": "Termina automaticamente ao fim da rodada de surpresa."
   },
   {
     "id": "vulneravel",
     "nome": "Vulnerável",
     "cor": "red",
     "icone": "Shield",
-    "descricao": "O personagem está exposto a ataques. Os inimigos têm maior facilidade de causar dano crítico.",
+    "descricao": "O personagem sofre –2 na Defesa.",
     "penalidades": [
-      "–2 na Defesa",
-      "Inimigos recebem +4 em jogadas de crítico contra ele",
-      "Qualquer ameaça de crítico é confirmada automaticamente"
+      "–2 na Defesa"
     ],
     "interacoes": [
-      "Causado por certas magias, manobras ou flanqueamento extremo.",
-      "Acumula com outras penalidades de Defesa."
+      "Causado por Fatigado, Enredado, magias e manobras de combate.",
+      "Condições com o mesmo efeito não se acumulam (aplique apenas o mais severo)."
     ],
-    "remocao": "Ao fim da duração do efeito ou quando a situação que causou a vulnerabilidade terminar."
+    "remocao": "Ao fim da duração do efeito ou quando a causa for removida."
   }
 ]
