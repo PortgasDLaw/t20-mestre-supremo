@@ -177,7 +177,7 @@
   {
     "id": "ro-miscelanea",
     "categoria": "Miscêlania",
-    "nome": "Regras Gerais Opcionais",
+    "nome": "Regras Gerais",
     "fonte": "Mitos de Arton",
     "descricao": "Conjunto de regras gerais opcionais para personalizar a experiência de jogo.",
     "conteudo": [
@@ -212,7 +212,7 @@
   {
     "id": "ro-novas-dadivas",
     "categoria": "Novas Dádivas",
-    "nome": "Novas Dádivas Divinas",
+    "nome": "Novas Dádivas",
     "fonte": "Mitos de Arton",
     "descricao": "Novas opções de dádivas para personagens que ascendem a deus menor. Para regras completas de deus menor, veja Deuses de Arton, páginas 233-237.",
     "conteudo": [
