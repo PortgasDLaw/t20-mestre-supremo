@@ -1,18 +1,4758 @@
 {
   "cds": [
-    { "dificuldade": "Fácil", "cd": 5, "descricao": "Subir uma encosta íngreme (Atletismo). Normalmente não é exigido — o mestre pode considerar que o personagem passa automaticamente." },
-    { "dificuldade": "Média", "cd": 10, "descricao": "Ouvir um guarda se aproximando (Percepção)." },
-    { "dificuldade": "Difícil", "cd": 15, "descricao": "Estancar um sangramento (Cura)." },
-    { "dificuldade": "Desafiadora", "cd": 20, "descricao": "Nadar contra uma correnteza (Atletismo)." },
-    { "dificuldade": "Formidável", "cd": 25, "descricao": "Sabotar uma armadilha complexa (Ladinagem)." },
-    { "dificuldade": "Heroica", "cd": 30, "descricao": "Decifrar um pergaminho antigo em um idioma morto (Conhecimento)." },
-    { "dificuldade": "Quase Impossível", "cd": 40, "descricao": "Fabricar uma obra-prima, ou seja, um item com quatro melhorias (Ofício)." }
+    {
+      "dificuldade": "Fácil",
+      "cd": 5,
+      "descricao": "Subir uma encosta íngreme (Atletismo). Normalmente não é exigido — o mestre pode considerar que o personagem passa automaticamente."
+    },
+    {
+      "dificuldade": "Média",
+      "cd": 10,
+      "descricao": "Ouvir um guarda se aproximando (Percepção)."
+    },
+    {
+      "dificuldade": "Difícil",
+      "cd": 15,
+      "descricao": "Estancar um sangramento (Cura)."
+    },
+    {
+      "dificuldade": "Desafiadora",
+      "cd": 20,
+      "descricao": "Nadar contra uma correnteza (Atletismo)."
+    },
+    {
+      "dificuldade": "Formidável",
+      "cd": 25,
+      "descricao": "Sabotar uma armadilha complexa (Ladinagem)."
+    },
+    {
+      "dificuldade": "Heroica",
+      "cd": 30,
+      "descricao": "Decifrar um pergaminho antigo em um idioma morto (Conhecimento)."
+    },
+    {
+      "dificuldade": "Quase Impossível",
+      "cd": 40,
+      "descricao": "Fabricar uma obra-prima, ou seja, um item com quatro melhorias (Ofício)."
+    }
   ],
   "atitudes_npc": [
-    { "atitude": "Hostil", "reacao": "Odeia o personagem e vai tentar prejudicá-lo, mesmo correndo perigo — pode roubá-lo ou mesmo atacá-lo! Um herói falha automaticamente em testes de persuasão contra um NPC hostil." },
-    { "atitude": "Inamistoso", "reacao": "Desgosta do personagem, mas não a ponto de se arriscar para prejudicá-lo. Pode enganá-lo, criar intrigas sobre ele... Um herói sofre –5 em testes de persuasão contra um NPC inamistoso." },
-    { "atitude": "Indiferente", "reacao": "Não gosta nem desgosta do personagem. Vai tratá-lo como socialmente esperado. Esta é a categoria padrão." },
-    { "atitude": "Amistoso", "reacao": "Gosta do personagem e pode ajudá-lo, mas dificilmente se arriscará por ele." },
-    { "atitude": "Prestativo", "reacao": "Adora o personagem e pode ajudá-lo, mesmo correndo perigo. Um herói recebe +5 em testes de persuasão contra NPCs prestativos." }
+    {
+      "atitude": "Hostil",
+      "reacao": "Odeia o personagem e vai tentar prejudicá-lo, mesmo correndo perigo — pode roubá-lo ou mesmo atacá-lo! Um herói falha automaticamente em testes de persuasão contra um NPC hostil."
+    },
+    {
+      "atitude": "Inamistoso",
+      "reacao": "Desgosta do personagem, mas não a ponto de se arriscar para prejudicá-lo. Pode enganá-lo, criar intrigas sobre ele... Um herói sofre –5 em testes de persuasão contra um NPC inamistoso."
+    },
+    {
+      "atitude": "Indiferente",
+      "reacao": "Não gosta nem desgosta do personagem. Vai tratá-lo como socialmente esperado. Esta é a categoria padrão."
+    },
+    {
+      "atitude": "Amistoso",
+      "reacao": "Gosta do personagem e pode ajudá-lo, mas dificilmente se arriscará por ele."
+    },
+    {
+      "atitude": "Prestativo",
+      "reacao": "Adora o personagem e pode ajudá-lo, mesmo correndo perigo. Um herói recebe +5 em testes de persuasão contra NPCs prestativos."
+    }
+  ],
+  "tabela_1_1_atributos": [
+    {
+      "atributo": -2,
+      "custo": "—",
+      "rolagem": "7 ou menos"
+    },
+    {
+      "atributo": -1,
+      "custo": "-1 ponto",
+      "rolagem": "8-9"
+    },
+    {
+      "atributo": 0,
+      "custo": "0 ponto",
+      "rolagem": "10-11"
+    },
+    {
+      "atributo": 1,
+      "custo": "1 ponto",
+      "rolagem": "12-13"
+    },
+    {
+      "atributo": 2,
+      "custo": "2 pontos",
+      "rolagem": "14-15"
+    },
+    {
+      "atributo": 3,
+      "custo": "4 pontos",
+      "rolagem": "16-17"
+    },
+    {
+      "atributo": 4,
+      "custo": "7 pontos",
+      "rolagem": "18"
+    }
+  ],
+  "tabela_1_2_racas": [
+    {
+      "raca": "Humano",
+      "modificadores": "+1 em três atributos diferentes"
+    },
+    {
+      "raca": "Anão",
+      "modificadores": "Con +2, Sab +1, Des –1"
+    },
+    {
+      "raca": "Dahllan",
+      "modificadores": "Sab +2, Des +1, Int –1"
+    },
+    {
+      "raca": "Elfo",
+      "modificadores": "Int +2, Des +1, Con –1"
+    },
+    {
+      "raca": "Goblin",
+      "modificadores": "Des +2, Int +1, Car –1"
+    },
+    {
+      "raca": "Lefou",
+      "modificadores": "+1 em três atributos diferentes (exceto Car), Car –1"
+    },
+    {
+      "raca": "Minotauro",
+      "modificadores": "For +2, Con +1, Sab –1"
+    },
+    {
+      "raca": "Qareen",
+      "modificadores": "Car +2, Int +1, Sab –1"
+    },
+    {
+      "raca": "Golem",
+      "modificadores": "For +2, Con +1, Car –1"
+    },
+    {
+      "raca": "Hynne",
+      "modificadores": "Des +2, Car +1, For –1"
+    },
+    {
+      "raca": "Kliren",
+      "modificadores": "Int +2, Car +1, For –1"
+    },
+    {
+      "raca": "Medusa",
+      "modificadores": "Des +2, Car +1"
+    },
+    {
+      "raca": "Osteon",
+      "modificadores": "+1 em três atributos diferentes (exceto Con), Con –1"
+    },
+    {
+      "raca": "Sereia/Tritão",
+      "modificadores": "+1 em três atributos diferentes"
+    },
+    {
+      "raca": "Sílfide",
+      "modificadores": "Car +2, Des +1, For –2"
+    },
+    {
+      "raca": "Suraggel (aggelus)",
+      "modificadores": "Sab +2, Car +1"
+    },
+    {
+      "raca": "Suraggel (sulfure)",
+      "modificadores": "Des +2, Int +1"
+    },
+    {
+      "raca": "Trog",
+      "modificadores": "Con +2, For +1, Int –1"
+    }
+  ],
+  "tabela_1_3_classes": [
+    {
+      "classe": "Arcanista",
+      "descricao": "Um conjurador de magias arcanas, por meio de estudo, um foco ou dom natural.",
+      "atributo": "Inteligência ou Carisma",
+      "pv": "8",
+      "pm": 6,
+      "pericias": "Misticismo e Vontade, mais 2"
+    },
+    {
+      "classe": "Bárbaro",
+      "descricao": "Um combatente primitivo, que usa fúria e instintos para destruir seus inimigos.",
+      "atributo": "Força",
+      "pv": "24",
+      "pm": 3,
+      "pericias": "Fortitude e Luta, mais 4"
+    },
+    {
+      "classe": "Bardo",
+      "descricao": "Um artista errante e faz-tudo versátil, sempre com a solução certa para cada ocasião.",
+      "atributo": "Carisma",
+      "pv": "12",
+      "pm": 4,
+      "pericias": "Atuação e Reflexos, mais 6"
+    },
+    {
+      "classe": "Bucaneiro",
+      "descricao": "Um navegador inconsequente e galante, sempre em busca de ouro ou emoção.",
+      "atributo": "Destreza",
+      "pv": "16",
+      "pm": 3,
+      "pericias": "Luta ou Pontaria, Reflexos, mais 4"
+    },
+    {
+      "classe": "Caçador",
+      "descricao": "Um exterminador de monstros e mestre da sobrevivência em áreas selvagens.",
+      "atributo": "Força ou Destreza",
+      "pv": "16",
+      "pm": 4,
+      "pericias": "Luta ou Pontaria, Sobrevivência, mais 4"
+    },
+    {
+      "classe": "Cavaleiro",
+      "descricao": "Um combatente honrado, especializado em suportar dano e proteger os outros.",
+      "atributo": "Força",
+      "pv": "20",
+      "pm": 3,
+      "pericias": "Fortitude e Luta, mais 2"
+    },
+    {
+      "classe": "Clérigo",
+      "descricao": "Servo de um dos deuses de Arton, usa poderes divinos para defender seus ideais.",
+      "atributo": "Sabedoria",
+      "pv": "16",
+      "pm": 5,
+      "pericias": "Religião e Vontade, mais 2"
+    },
+    {
+      "classe": "Druida",
+      "descricao": "Guardião do mundo natural e devoto das forças selvagens, naturais ou monstruosas.",
+      "atributo": "Sabedoria",
+      "pv": "16",
+      "pm": 4,
+      "pericias": "Sobrevivência e Vontade, mais 4"
+    },
+    {
+      "classe": "Guerreiro",
+      "descricao": "O especialista supremo em técnicas de combate com armas.",
+      "atributo": "Força ou Destreza",
+      "pv": "20",
+      "pm": 3,
+      "pericias": "Luta ou Pontaria, Fortitude, mais 2"
+    },
+    {
+      "classe": "Inventor",
+      "descricao": "Um ferreiro, alquimista ou engenhoqueiro, especializado em fabricar e usar itens.",
+      "atributo": "Inteligência",
+      "pv": "12",
+      "pm": 4,
+      "pericias": "Ofício e Vontade, mais 4"
+    },
+    {
+      "classe": "Ladino",
+      "descricao": "Aventureiro cheio de truques, confiando mais em agilidade e esperteza que em força bruta.",
+      "atributo": "Destreza ou Inteligência",
+      "pv": "12",
+      "pm": 4,
+      "pericias": "Ladinagem e Reflexos, mais 8"
+    },
+    {
+      "classe": "Lutador",
+      "descricao": "Um especialista em combate desarmado rústico e durão.",
+      "atributo": "Força",
+      "pv": "20",
+      "pm": 3,
+      "pericias": "Fortitude e Luta, mais 4"
+    },
+    {
+      "classe": "Nobre",
+      "descricao": "Um membro da alta sociedade cujas principais armas são as palavras e o orgulho.",
+      "atributo": "Carisma",
+      "pv": "16",
+      "pm": 4,
+      "pericias": "Diplomacia ou Intimidação, Vontade, mais 4"
+    },
+    {
+      "classe": "Paladino",
+      "descricao": "Um campeão do bem e da ordem, o perfeito soldado dos deuses.",
+      "atributo": "Força e Carisma",
+      "pv": "20",
+      "pm": 3,
+      "pericias": "Luta e Vontade, mais 2"
+    }
+  ],
+  "tabela_1_4_niveis": [
+    {
+      "nivel": "1º",
+      "xp": 0,
+      "bonus_pericias": "+2/+0"
+    },
+    {
+      "nivel": "2º",
+      "xp": 1000,
+      "bonus_pericias": "+3/+1"
+    },
+    {
+      "nivel": "3º",
+      "xp": 3000,
+      "bonus_pericias": "+3/+1"
+    },
+    {
+      "nivel": "4º",
+      "xp": 6000,
+      "bonus_pericias": "+4/+2"
+    },
+    {
+      "nivel": "5º",
+      "xp": 10000,
+      "bonus_pericias": "+4/+2"
+    },
+    {
+      "nivel": "6º",
+      "xp": 15000,
+      "bonus_pericias": "+5/+3"
+    },
+    {
+      "nivel": "7º",
+      "xp": 21000,
+      "bonus_pericias": "+7/+3"
+    },
+    {
+      "nivel": "8º",
+      "xp": 28000,
+      "bonus_pericias": "+8/+4"
+    },
+    {
+      "nivel": "9º",
+      "xp": 36000,
+      "bonus_pericias": "+8/+4"
+    },
+    {
+      "nivel": "10º",
+      "xp": 45000,
+      "bonus_pericias": "+9/+5"
+    },
+    {
+      "nivel": "11º",
+      "xp": 55000,
+      "bonus_pericias": "+9/+5"
+    },
+    {
+      "nivel": "12º",
+      "xp": 66000,
+      "bonus_pericias": "+10/+6"
+    },
+    {
+      "nivel": "13º",
+      "xp": 78000,
+      "bonus_pericias": "+10/+6"
+    },
+    {
+      "nivel": "14º",
+      "xp": 91000,
+      "bonus_pericias": "+11/+7"
+    },
+    {
+      "nivel": "15º",
+      "xp": 105000,
+      "bonus_pericias": "+13/+7"
+    },
+    {
+      "nivel": "16º",
+      "xp": 120000,
+      "bonus_pericias": "+14/+8"
+    },
+    {
+      "nivel": "17º",
+      "xp": 136000,
+      "bonus_pericias": "+14/+8"
+    },
+    {
+      "nivel": "18º",
+      "xp": 153000,
+      "bonus_pericias": "+15/+9"
+    },
+    {
+      "nivel": "19º",
+      "xp": 171000,
+      "bonus_pericias": "+15/+9"
+    },
+    {
+      "nivel": "20º",
+      "xp": 190000,
+      "bonus_pericias": "+16/+10"
+    }
+  ],
+  "tabela_1_19_origens": [
+    {
+      "origem": "Acólito",
+      "beneficios": "Cura, Religião, Vontade; Medicina, Membro da Igreja, Vontade de Ferro"
+    },
+    {
+      "origem": "Amigo dos Animais",
+      "beneficios": "Adestramento, Cavalgar; Amigo Especial"
+    },
+    {
+      "origem": "Amnésico",
+      "beneficios": "Uma perícia e um poder escolhidos pelo mestre e o poder Lembranças Graduais"
+    },
+    {
+      "origem": "Aristocrata",
+      "beneficios": "Diplomacia, Enganação, Nobreza; Comandar, Sangue Azul"
+    },
+    {
+      "origem": "Artesão",
+      "beneficios": "Ofício, Vontade; Frutos do Trabalho, Sortudo"
+    },
+    {
+      "origem": "Artista",
+      "beneficios": "Atuação, Enganação; Atraente, Dom Artístico, Sortudo, Torcida"
+    },
+    {
+      "origem": "Assistente de Laboratório",
+      "beneficios": "Ofício (alquimista), Misticismo; Esse Cheiro..., Venefício, um poder da Tormenta a sua escolha"
+    },
+    {
+      "origem": "Batedor",
+      "beneficios": "Furtividade, Percepção, Sobrevivência; À Prova de Tudo, Estilo de Disparo, Sentidos Aguçados"
+    },
+    {
+      "origem": "Capanga",
+      "beneficios": "Luta, Intimidação; Confissão, um poder de combate a sua escolha"
+    },
+    {
+      "origem": "Charlatão",
+      "beneficios": "Enganação, Jogatina; Alpinista Social, Aparência Inofensiva, Sortudo"
+    },
+    {
+      "origem": "Circense",
+      "beneficios": "Acrobacia, Atuação, Reflexos; Acrobático, Torcida, Truque de Mágica"
+    },
+    {
+      "origem": "Criminoso",
+      "beneficios": "Enganação, Furtividade, Ladinagem; Punguista, Venefício"
+    },
+    {
+      "origem": "Curandeiro",
+      "beneficios": "Cura, Vontade; Medicina, Médico de Campo, Venefício"
+    },
+    {
+      "origem": "Eremita",
+      "beneficios": "Misticismo, Religião, Sobrevivência; Busca Interior, Lobo Solitário"
+    },
+    {
+      "origem": "Escravo",
+      "beneficios": "Atletismo, Fortitude, Furtividade; Desejo de Liberdade, Vitalidade"
+    },
+    {
+      "origem": "Estudioso",
+      "beneficios": "Conhecimento, Guerra, Misticismo; Aparência Inofensiva, Palpite Fundamentado"
+    },
+    {
+      "origem": "Fazendeiro",
+      "beneficios": "Adestramento, Cavalgar, Ofício (fazendeiro), Sobrevivência; Água no Feijão, Ginete"
+    },
+    {
+      "origem": "Forasteiro",
+      "beneficios": "Cavalgar, Pilotagem, Sobrevivência; Cultura Exótica, Lobo Solitário"
+    },
+    {
+      "origem": "Gladiador",
+      "beneficios": "Atuação, Luta; Atraente, Pão e Circo, Torcida, um poder de combate a sua escolha"
+    },
+    {
+      "origem": "Guarda",
+      "beneficios": "Investigação, Luta, Percepção; Detetive, Investigador, um poder de combate a sua escolha"
+    },
+    {
+      "origem": "Herdeiro",
+      "beneficios": "Misticismo, Nobreza, Ofício; Comandar, Herança"
+    },
+    {
+      "origem": "Herói Camponês",
+      "beneficios": "Adestramento, Ofício; Coração Heroico, Sortudo, Surto Heroico, Torcida"
+    },
+    {
+      "origem": "Marujo",
+      "beneficios": "Atletismo, Jogatina, Pilotagem; Acrobático, Passagem de Navio"
+    },
+    {
+      "origem": "Mateiro",
+      "beneficios": "Atletismo, Furtividade, Sobrevivência; Lobo Solitário, Sentidos Aguçados, Vendedor de Carcaças"
+    },
+    {
+      "origem": "Membro de Guilda",
+      "beneficios": "Diplomacia, Enganação, Misticismo, Ofício; Foco em Perícia, Rede de Contatos"
+    },
+    {
+      "origem": "Mercador",
+      "beneficios": "Diplomacia, Intuição, Ofício; Negociação, Proficiência, Sortudo"
+    },
+    {
+      "origem": "Minerador",
+      "beneficios": "Atletismo, Fortitude, Ofício (minerador); Ataque Poderoso, Escavador, Sentidos Aguçados"
+    },
+    {
+      "origem": "Nômade",
+      "beneficios": "Cavalgar, Pilotagem, Sobrevivência; Lobo Solitário, Mochileiro, Sentidos Aguçados"
+    },
+    {
+      "origem": "Pivete",
+      "beneficios": "Furtividade, Iniciativa, Ladinagem; Acrobático, Aparência Inofensiva, Quebra-Galho"
+    },
+    {
+      "origem": "Refugiado",
+      "beneficios": "Fortitude, Reflexos, Vontade; Estoico, Vontade de Ferro"
+    },
+    {
+      "origem": "Seguidor",
+      "beneficios": "Adestramento, Ofício; Antigo Mestre, Proficiência, Surto Heroico"
+    },
+    {
+      "origem": "Selvagem",
+      "beneficios": "Percepção, Reflexos, Sobrevivência; Lobo Solitário, Vida Rústica, Vitalidade"
+    },
+    {
+      "origem": "Soldado",
+      "beneficios": "Fortitude, Guerra, Luta, Pontaria; Influência Militar, um poder de combate a sua escolha"
+    },
+    {
+      "origem": "Taverneiro",
+      "beneficios": "Diplomacia, Jogatina, Ofício (cozinheiro); Gororoba, Proficiência, Vitalidade"
+    },
+    {
+      "origem": "Trabalhador",
+      "beneficios": "Atletismo, Fortitude; Atlético, Esforçado"
+    }
+  ],
+  "tabela_1_20_deuses": [
+    {
+      "divindade": "Aharadak",
+      "energia": "Negativa",
+      "poderes_concedidos": "Afinidade com a Tormenta, Êxtase da Loucura, Percepção Temporal, Rejeição Divina"
+    },
+    {
+      "divindade": "Allihanna",
+      "energia": "Positiva",
+      "poderes_concedidos": "Compreender os Ermos, Dedo Verde, Descanso Natural, Voz da Natureza"
+    },
+    {
+      "divindade": "Arsenal",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Conjurar Arma, Coragem Total, Fé Guerreira, Sangue de Ferro"
+    },
+    {
+      "divindade": "Azgher",
+      "energia": "Positiva",
+      "poderes_concedidos": "Espada Solar, Fulgor Solar, Habitante do Deserto, Inimigo de Tenebra"
+    },
+    {
+      "divindade": "Hyninn",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Apostar com o Trapaceiro, Farsa do Fingidor, Forma de Macaco, Golpista Divino"
+    },
+    {
+      "divindade": "Kallyadranoch",
+      "energia": "Negativa",
+      "poderes_concedidos": "Aura de Medo, Escamas Dracônicas, Presas Primordiais, Servos do Dragão"
+    },
+    {
+      "divindade": "Khalmyr",
+      "energia": "Positiva",
+      "poderes_concedidos": "Coragem Total, Dom da Verdade, Espada Justiceira, Reparar Injustiça"
+    },
+    {
+      "divindade": "Lena",
+      "energia": "Positiva",
+      "poderes_concedidos": "Ataque Piedoso, Aura Restauradora, Cura Gentil, Curandeira Perfeita"
+    },
+    {
+      "divindade": "Lin-Wu",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Coragem Total, Kiai Divino, Mente Vazia, Tradição de Lin-Wu"
+    },
+    {
+      "divindade": "Marah",
+      "energia": "Positiva",
+      "poderes_concedidos": "Aura de Paz, Dom da Esperança, Palavras de Bondade, Talento Artístico"
+    },
+    {
+      "divindade": "Megalokk",
+      "energia": "Negativa",
+      "poderes_concedidos": "Olhar Amedrontador, Presas Primordiais, Urro Divino, Voz dos Monstros"
+    },
+    {
+      "divindade": "Nimb",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Êxtase da Loucura, Poder Oculto, Sorte dos Loucos, Transmissão da Loucura"
+    },
+    {
+      "divindade": "Oceano",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Anfíbio, Arsenal das Profundezas, Mestre dos Mares, Sopro do Mar"
+    },
+    {
+      "divindade": "Sszzaas",
+      "energia": "Negativa",
+      "poderes_concedidos": "Astúcia da Serpente, Familiar Ofídico, Presas Venenosas, Sangue Ofídico"
+    },
+    {
+      "divindade": "Tanna-Toh",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Conhecimento Enciclopédico, Mente Analítica, Pesquisa Abençoada, Voz da Civilização"
+    },
+    {
+      "divindade": "Tenebra",
+      "energia": "Negativa",
+      "poderes_concedidos": "Carícia Sombria, Manto da Penumbra, Visão nas Trevas, Zumbificar"
+    },
+    {
+      "divindade": "Thwor",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Almejar o Impossível, Fúria Divina, Olhar Amedrontador, Tropas Duyshidakk"
+    },
+    {
+      "divindade": "Thyatis",
+      "energia": "Positiva",
+      "poderes_concedidos": "Ataque Piedoso, Dom da Imortalidade, Dom da Profecia, Dom da Ressurreição"
+    },
+    {
+      "divindade": "Valkaria",
+      "energia": "Positiva",
+      "poderes_concedidos": "Almejar o Impossível, Armas da Ambição, Coragem Total, Liberdade Divina"
+    },
+    {
+      "divindade": "Wynna",
+      "energia": "Qualquer",
+      "poderes_concedidos": "Bênção do Mana, Centelha Mágica, Escudo Mágico, Teurgista Místico"
+    }
+  ],
+  "tabela_1_21_tamanho": [
+    {
+      "categoria": "Minúsculo",
+      "exemplos": "Falcão, rato, sílfide",
+      "espaco_alcance": "1,5m",
+      "mod_furtividade_manobras": "+5/–5"
+    },
+    {
+      "categoria": "Pequeno",
+      "exemplos": "Cão, goblin, hynne",
+      "espaco_alcance": "1,5m",
+      "mod_furtividade_manobras": "+2/–2"
+    },
+    {
+      "categoria": "Médio",
+      "exemplos": "Humano, anão, elfo",
+      "espaco_alcance": "1,5m",
+      "mod_furtividade_manobras": "0"
+    },
+    {
+      "categoria": "Grande",
+      "exemplos": "Cavalo, ogro, serpe",
+      "espaco_alcance": "3m",
+      "mod_furtividade_manobras": "–2/+2"
+    },
+    {
+      "categoria": "Enorme",
+      "exemplos": "Ente, gigante, hidra",
+      "espaco_alcance": "4,5m",
+      "mod_furtividade_manobras": "–5/+5"
+    },
+    {
+      "categoria": "Colossal",
+      "exemplos": "Colosso, dragão, kraken",
+      "espaco_alcance": "9m",
+      "mod_furtividade_manobras": "–10/+10"
+    }
+  ],
+  "tabela_2_1_pericias": [
+    {
+      "pericia": "Acrobacia",
+      "atributo": "Des",
+      "somente_treinada": false,
+      "penalidade_armadura": true
+    },
+    {
+      "pericia": "Adestramento",
+      "atributo": "Car",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Atletismo",
+      "atributo": "For",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Atuação",
+      "atributo": "Car",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Cavalgar",
+      "atributo": "Des",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Conhecimento",
+      "atributo": "Int",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Cura",
+      "atributo": "Sab",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Diplomacia",
+      "atributo": "Car",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Enganação",
+      "atributo": "Car",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Fortitude",
+      "atributo": "Con",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Furtividade",
+      "atributo": "Des",
+      "somente_treinada": false,
+      "penalidade_armadura": true
+    },
+    {
+      "pericia": "Guerra",
+      "atributo": "Int",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Iniciativa",
+      "atributo": "Des",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Intimidação",
+      "atributo": "Car",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Intuição",
+      "atributo": "Sab",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Investigação",
+      "atributo": "Int",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Jogatina",
+      "atributo": "Car",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Ladinagem",
+      "atributo": "Des",
+      "somente_treinada": true,
+      "penalidade_armadura": true
+    },
+    {
+      "pericia": "Luta",
+      "atributo": "For",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Misticismo",
+      "atributo": "Int",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Nobreza",
+      "atributo": "Int",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Ofício",
+      "atributo": "Int",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Percepção",
+      "atributo": "Sab",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Pilotagem",
+      "atributo": "Des",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Pontaria",
+      "atributo": "Des",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Reflexos",
+      "atributo": "Des",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Religião",
+      "atributo": "Sab",
+      "somente_treinada": true,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Sobrevivência",
+      "atributo": "Sab",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    },
+    {
+      "pericia": "Vontade",
+      "atributo": "Sab",
+      "somente_treinada": false,
+      "penalidade_armadura": false
+    }
+  ],
+  "tabela_3_1_dinheiro_inicial": [
+    {
+      "nivel": "1º",
+      "dinheiro": "4d6 T$"
+    },
+    {
+      "nivel": "2º",
+      "dinheiro": "T$ 300"
+    },
+    {
+      "nivel": "3º",
+      "dinheiro": "T$ 600"
+    },
+    {
+      "nivel": "4º",
+      "dinheiro": "T$ 1.000"
+    },
+    {
+      "nivel": "5º",
+      "dinheiro": "T$ 2.000"
+    },
+    {
+      "nivel": "6º",
+      "dinheiro": "T$ 3.000"
+    },
+    {
+      "nivel": "7º",
+      "dinheiro": "T$ 5.000"
+    },
+    {
+      "nivel": "8º",
+      "dinheiro": "T$ 7.000"
+    },
+    {
+      "nivel": "9º",
+      "dinheiro": "T$ 10.000"
+    },
+    {
+      "nivel": "10º",
+      "dinheiro": "T$ 13.000"
+    },
+    {
+      "nivel": "11º",
+      "dinheiro": "T$ 19.000"
+    },
+    {
+      "nivel": "12º",
+      "dinheiro": "T$ 27.000"
+    },
+    {
+      "nivel": "13º",
+      "dinheiro": "T$ 36.000"
+    },
+    {
+      "nivel": "14º",
+      "dinheiro": "T$ 49.000"
+    },
+    {
+      "nivel": "15º",
+      "dinheiro": "T$ 66.000"
+    },
+    {
+      "nivel": "16º",
+      "dinheiro": "T$ 88.000"
+    },
+    {
+      "nivel": "17º",
+      "dinheiro": "T$ 110.000"
+    },
+    {
+      "nivel": "18º",
+      "dinheiro": "T$ 150.000"
+    },
+    {
+      "nivel": "19º",
+      "dinheiro": "T$ 200.000"
+    },
+    {
+      "nivel": "20º",
+      "dinheiro": "T$ 260.000"
+    }
+  ],
+  "tabela_3_2_dano_armas": [
+    {
+      "normal": "1",
+      "menos2": "—",
+      "menos1": "—",
+      "mais1": "1d2",
+      "mais2": "1d3",
+      "mais3": "1d4"
+    },
+    {
+      "normal": "1d2",
+      "menos2": "—",
+      "menos1": "1",
+      "mais1": "1d3",
+      "mais2": "1d4",
+      "mais3": "1d6"
+    },
+    {
+      "normal": "1d3",
+      "menos2": "1",
+      "menos1": "1d2",
+      "mais1": "1d4",
+      "mais2": "1d6",
+      "mais3": "1d8"
+    },
+    {
+      "normal": "1d4",
+      "menos2": "1d2",
+      "menos1": "1d3",
+      "mais1": "1d6",
+      "mais2": "1d8 ou 2d4",
+      "mais3": "1d10"
+    },
+    {
+      "normal": "1d6",
+      "menos2": "1d3",
+      "menos1": "1d4",
+      "mais1": "1d8",
+      "mais2": "1d10",
+      "mais3": "1d12"
+    },
+    {
+      "normal": "1d8",
+      "menos2": "1d4",
+      "menos1": "1d6",
+      "mais1": "1d10",
+      "mais2": "1d12, 2d6 ou 3d4",
+      "mais3": "3d6"
+    },
+    {
+      "normal": "1d10",
+      "menos2": "1d6",
+      "menos1": "1d8",
+      "mais1": "2d6",
+      "mais2": "2d8",
+      "mais3": "4d6"
+    },
+    {
+      "normal": "2d6",
+      "menos2": "1d8",
+      "menos1": "1d10",
+      "mais1": "2d8",
+      "mais2": "3d8",
+      "mais3": "4d8"
+    },
+    {
+      "normal": "2d8",
+      "menos2": "1d10",
+      "menos1": "2d6",
+      "mais1": "2d10",
+      "mais2": "3d10",
+      "mais3": "4d10"
+    },
+    {
+      "normal": "2d10",
+      "menos2": "2d6",
+      "menos1": "2d8",
+      "mais1": "3d10",
+      "mais2": "4d10",
+      "mais3": "4d12 (máximo)"
+    }
+  ],
+  "tabela_3_7_preco_melhorias": [
+    {
+      "numero_melhorias": 1,
+      "aumento_preco": "T$ 300",
+      "aumento_cd": "+5"
+    },
+    {
+      "numero_melhorias": 2,
+      "aumento_preco": "T$ 3.000",
+      "aumento_cd": "+10"
+    },
+    {
+      "numero_melhorias": 3,
+      "aumento_preco": "T$ 9.000",
+      "aumento_cd": "+15"
+    },
+    {
+      "numero_melhorias": 4,
+      "aumento_preco": "T$ 18.000",
+      "aumento_cd": "+20"
+    }
+  ],
+  "tabela_3_9_materiais_especiais": [
+    {
+      "item": "Arma",
+      "aco_rubi": "T$ 6.000",
+      "adamante": "T$ 3.000",
+      "gelo_eterno": "T$ 600",
+      "madeira_tollon": "T$ 1.500",
+      "materia_vermelha": "T$ 1.500",
+      "mitral": "T$ 1.500"
+    },
+    {
+      "item": "Armadura leve",
+      "aco_rubi": "T$ 3.000",
+      "adamante": "T$ 6.000",
+      "gelo_eterno": "T$ 1.500",
+      "madeira_tollon": "—",
+      "materia_vermelha": "T$ 6.000",
+      "mitral": "T$ 1.500"
+    },
+    {
+      "item": "Armadura pesada",
+      "aco_rubi": "T$ 6.000",
+      "adamante": "T$ 18.000",
+      "gelo_eterno": "T$ 3.000",
+      "madeira_tollon": "—",
+      "materia_vermelha": "T$ 18.000",
+      "mitral": "T$ 12.000"
+    },
+    {
+      "item": "Escudo",
+      "aco_rubi": "T$ 3.000",
+      "adamante": "T$ 6.000",
+      "gelo_eterno": "T$ 1.500",
+      "madeira_tollon": "T$ 1.500",
+      "materia_vermelha": "T$ 6.000",
+      "mitral": "T$ 1.500"
+    },
+    {
+      "item": "Esotérico",
+      "aco_rubi": "T$ 6.000",
+      "adamante": "T$ 3.000",
+      "gelo_eterno": "T$ 3.000",
+      "madeira_tollon": "T$ 1.500",
+      "materia_vermelha": "T$ 3.000",
+      "mitral": "T$ 3.000"
+    }
+  ],
+  "tabela_4_1_custo_magias": [
+    {
+      "circulo": "1º",
+      "custo_pm": 1
+    },
+    {
+      "circulo": "2º",
+      "custo_pm": 3
+    },
+    {
+      "circulo": "3º",
+      "custo_pm": 6
+    },
+    {
+      "circulo": "4º",
+      "custo_pm": 10
+    },
+    {
+      "circulo": "5º",
+      "custo_pm": 15
+    }
+  ],
+  "tabela_5_3_situacoes_especiais": {
+    "atacante": [
+      {
+        "condicao": "Caído",
+        "modificador": "–5"
+      },
+      {
+        "condicao": "Cego",
+        "modificador": "50% de chance de falha"
+      },
+      {
+        "condicao": "Em posição elevada",
+        "modificador": "+2"
+      },
+      {
+        "condicao": "Flanqueando o alvo",
+        "modificador": "+2 (apenas para corpo a corpo)"
+      },
+      {
+        "condicao": "Invisível",
+        "modificador": "+5 (não se aplica a alvos cegos)"
+      },
+      {
+        "condicao": "Ofuscado",
+        "modificador": "–2"
+      }
+    ],
+    "alvo": [
+      {
+        "condicao": "Caído",
+        "modificador": "–5 contra ataques corpo a corpo, +5 contra ataques à distância"
+      },
+      {
+        "condicao": "Cego",
+        "modificador": "–5"
+      },
+      {
+        "condicao": "Desprevenido",
+        "modificador": "–5"
+      },
+      {
+        "condicao": "Sob camuflagem leve",
+        "modificador": "20% de chance de falha"
+      },
+      {
+        "condicao": "Sob camuflagem total",
+        "modificador": "50% de chance de falha"
+      },
+      {
+        "condicao": "Sob cobertura leve",
+        "modificador": "+5"
+      },
+      {
+        "condicao": "Sob cobertura total",
+        "modificador": "O alvo não pode ser atacado"
+      }
+    ]
+  },
+  "tabela_5_4_estatisticas_objetos": [
+    {
+      "exemplo": "Pergaminho",
+      "tamanho": "Minúsculo",
+      "defesa": 15,
+      "rd": 0,
+      "pv": 1
+    },
+    {
+      "exemplo": "Corda",
+      "tamanho": "Minúsculo",
+      "defesa": 15,
+      "rd": 0,
+      "pv": 2
+    },
+    {
+      "exemplo": "Corrente",
+      "tamanho": "Minúsculo",
+      "defesa": 15,
+      "rd": 10,
+      "pv": 2
+    },
+    {
+      "exemplo": "Cadeira",
+      "tamanho": "Pequeno",
+      "defesa": 12,
+      "rd": 5,
+      "pv": 5
+    },
+    {
+      "exemplo": "Barril",
+      "tamanho": "Médio",
+      "defesa": 10,
+      "rd": 5,
+      "pv": 10
+    },
+    {
+      "exemplo": "Porta de madeira",
+      "tamanho": "Grande",
+      "defesa": 8,
+      "rd": 5,
+      "pv": 20
+    },
+    {
+      "exemplo": "Porta de pedra",
+      "tamanho": "Grande",
+      "defesa": 8,
+      "rd": 8,
+      "pv": 100
+    },
+    {
+      "exemplo": "Porta de ferro",
+      "tamanho": "Grande",
+      "defesa": 8,
+      "rd": 10,
+      "pv": 100
+    },
+    {
+      "exemplo": "Carroça",
+      "tamanho": "Grande",
+      "defesa": 8,
+      "rd": 5,
+      "pv": 50
+    },
+    {
+      "exemplo": "Casebre",
+      "tamanho": "Enorme",
+      "defesa": 5,
+      "rd": 5,
+      "pv": 100
+    },
+    {
+      "exemplo": "Celeiro",
+      "tamanho": "Colossal",
+      "defesa": 0,
+      "rd": 5,
+      "pv": 200
+    },
+    {
+      "exemplo": "Arma leve de madeira (machadinha)",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 5,
+      "pv": 2
+    },
+    {
+      "exemplo": "Arma de uma mão de madeira (clava)",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 5,
+      "pv": 5
+    },
+    {
+      "exemplo": "Arma de duas mãos de madeira (bordão)",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 5,
+      "pv": 10
+    },
+    {
+      "exemplo": "Arma leve de metal (adaga)",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 10,
+      "pv": 2
+    },
+    {
+      "exemplo": "Arma de uma mão de metal (espada longa)",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 10,
+      "pv": 5
+    },
+    {
+      "exemplo": "Arma de duas mãos de metal (montante)",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 10,
+      "pv": 10
+    },
+    {
+      "exemplo": "Escudo leve",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 5,
+      "pv": 10
+    },
+    {
+      "exemplo": "Escudo pesado",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 10,
+      "pv": 20
+    },
+    {
+      "exemplo": "Armadura leve",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 5,
+      "pv": 20
+    },
+    {
+      "exemplo": "Armadura pesada",
+      "tamanho": "—",
+      "defesa": null,
+      "rd": 10,
+      "pv": 40
+    }
+  ],
+  "tabela_6_3_portas": [
+    {
+      "tipo": "Madeira",
+      "rd": 5,
+      "pv": 20,
+      "cd_arrombar": 15
+    },
+    {
+      "tipo": "Madeira reforçada",
+      "rd": 5,
+      "pv": 30,
+      "cd_arrombar": 20
+    },
+    {
+      "tipo": "Pedra",
+      "rd": 8,
+      "pv": 100,
+      "cd_arrombar": 25
+    },
+    {
+      "tipo": "Ferro",
+      "rd": 10,
+      "pv": 100,
+      "cd_arrombar": 25
+    },
+    {
+      "tipo": "Grade",
+      "rd": 10,
+      "pv": 60,
+      "cd_arrombar": 20
+    }
+  ],
+  "tabela_6_4_viagens": [
+    {
+      "deslocamento": "4,5m",
+      "por_hora": "2,25 km",
+      "por_dia": "18 km"
+    },
+    {
+      "deslocamento": "6m",
+      "por_hora": "3 km",
+      "por_dia": "24 km"
+    },
+    {
+      "deslocamento": "7,5m",
+      "por_hora": "3,75 km",
+      "por_dia": "30 km"
+    },
+    {
+      "deslocamento": "9m",
+      "por_hora": "4,5 km",
+      "por_dia": "36 km"
+    },
+    {
+      "deslocamento": "12m",
+      "por_hora": "6 km",
+      "por_dia": "48 km"
+    }
+  ],
+  "tabela_7_1_criaturas_nd": [
+    {
+      "criatura": "Bandido",
+      "grupo": "Ermos",
+      "nd": "1/4"
+    },
+    {
+      "criatura": "Cascavel",
+      "grupo": "Sszzaazitas",
+      "nd": "1/4"
+    },
+    {
+      "criatura": "Glop",
+      "grupo": "Masmorras",
+      "nd": "1/4"
+    },
+    {
+      "criatura": "Goblin salteador",
+      "grupo": "Duyshidakk",
+      "nd": "1/4"
+    },
+    {
+      "criatura": "Rato gigante",
+      "grupo": "Masmorras",
+      "nd": "1/4"
+    },
+    {
+      "criatura": "Zumbi",
+      "grupo": "Reino dos Mortos",
+      "nd": "1/4"
+    },
+    {
+      "criatura": "Guarda de cidade",
+      "grupo": "Ermos",
+      "nd": "1/2"
+    },
+    {
+      "criatura": "Lobo",
+      "grupo": "Ermos",
+      "nd": "1/2"
+    },
+    {
+      "criatura": "Jiboia",
+      "grupo": "Sszzaazitas",
+      "nd": "1/2"
+    },
+    {
+      "criatura": "Orc combatente",
+      "grupo": "Masmorras",
+      "nd": "1/2"
+    },
+    {
+      "criatura": "Recruta purista",
+      "grupo": "Puristas",
+      "nd": "1/2"
+    },
+    {
+      "criatura": "Centauro combatente",
+      "grupo": "Ermos",
+      "nd": "1"
+    },
+    {
+      "criatura": "Chefe bandido",
+      "grupo": "Ermos",
+      "nd": "1"
+    },
+    {
+      "criatura": "Gnoll saqueador",
+      "grupo": "Ermos",
+      "nd": "1"
+    },
+    {
+      "criatura": "Gorlogg",
+      "grupo": "Ermos",
+      "nd": "1"
+    },
+    {
+      "criatura": "Naja",
+      "grupo": "Sszzaazitas",
+      "nd": "1"
+    },
+    {
+      "criatura": "Sargento da guarda",
+      "grupo": "Ermos",
+      "nd": "1"
+    },
+    {
+      "criatura": "Soldado purista",
+      "grupo": "Puristas",
+      "nd": "1"
+    },
+    {
+      "criatura": "Trog",
+      "grupo": "Ermos",
+      "nd": "1"
+    },
+    {
+      "criatura": "Aranha gigante",
+      "grupo": "Masmorras",
+      "nd": "2"
+    },
+    {
+      "criatura": "Enxame kobold",
+      "grupo": "Dragões",
+      "nd": "2"
+    },
+    {
+      "criatura": "Esqueleto",
+      "grupo": "Reino dos Mortos",
+      "nd": "2"
+    },
+    {
+      "criatura": "Finntroll caçador",
+      "grupo": "Trolls nobres",
+      "nd": "2"
+    },
+    {
+      "criatura": "Gárgula",
+      "grupo": "Masmorras",
+      "nd": "2"
+    },
+    {
+      "criatura": "Gnoll filibusteiro",
+      "grupo": "Ermos",
+      "nd": "2"
+    },
+    {
+      "criatura": "Hobgoblin soldado",
+      "grupo": "Duyshidakk",
+      "nd": "2"
+    },
+    {
+      "criatura": "Lobo-das-cavernas",
+      "grupo": "Ermos",
+      "nd": "2"
+    },
+    {
+      "criatura": "Maníaco lefou",
+      "grupo": "Tormenta",
+      "nd": "2"
+    },
+    {
+      "criatura": "Orc chefe",
+      "grupo": "Masmorras",
+      "nd": "2"
+    },
+    {
+      "criatura": "Turba zumbi",
+      "grupo": "Reino dos Mortos",
+      "nd": "2"
+    },
+    {
+      "criatura": "Centauro xamã",
+      "grupo": "Ermos",
+      "nd": "3"
+    },
+    {
+      "criatura": "Cão do inferno",
+      "grupo": "Ermos",
+      "nd": "3"
+    },
+    {
+      "criatura": "Dragão filhote",
+      "grupo": "Dragões",
+      "nd": "3"
+    },
+    {
+      "criatura": "Goblin engenhoqueiro",
+      "grupo": "Duyshidakk",
+      "nd": "3"
+    },
+    {
+      "criatura": "Grifo",
+      "grupo": "Ermos",
+      "nd": "3"
+    },
+    {
+      "criatura": "Guerreiro de chifres",
+      "grupo": "Masmorras",
+      "nd": "3"
+    },
+    {
+      "criatura": "Nagah guardião",
+      "grupo": "Sszzaazitas",
+      "nd": "3"
+    },
+    {
+      "criatura": "Sargento-mor",
+      "grupo": "Puristas",
+      "nd": "3"
+    },
+    {
+      "criatura": "Sucuri",
+      "grupo": "Sszzaazitas",
+      "nd": "3"
+    },
+    {
+      "criatura": "Uktril",
+      "grupo": "Tormenta",
+      "nd": "3"
+    },
+    {
+      "criatura": "Arauto de Thwor",
+      "grupo": "Duyshidakk",
+      "nd": "4"
+    },
+    {
+      "criatura": "Basilisco",
+      "grupo": "Ermos",
+      "nd": "4"
+    },
+    {
+      "criatura": "Capelão de guerra",
+      "grupo": "Puristas",
+      "nd": "4"
+    },
+    {
+      "criatura": "Esqueleto de elite",
+      "grupo": "Reino dos Mortos",
+      "nd": "4"
+    },
+    {
+      "criatura": "Ogro",
+      "grupo": "Ermos",
+      "nd": "4"
+    },
+    {
+      "criatura": "Urso-coruja",
+      "grupo": "Ermos",
+      "nd": "4"
+    },
+    {
+      "criatura": "Aparição",
+      "grupo": "Reino dos Mortos",
+      "nd": "5"
+    },
+    {
+      "criatura": "Capitão-baluarte",
+      "grupo": "Puristas",
+      "nd": "5"
+    },
+    {
+      "criatura": "Ganchador",
+      "grupo": "Trolls nobres",
+      "nd": "5"
+    },
+    {
+      "criatura": "Hobgoblin mago de batalha",
+      "grupo": "Duyshidakk",
+      "nd": "5"
+    },
+    {
+      "criatura": "Orc mutante",
+      "grupo": "Masmorras",
+      "nd": "5"
+    },
+    {
+      "criatura": "Otyugh",
+      "grupo": "Tormenta",
+      "nd": "5"
+    },
+    {
+      "criatura": "Serpe",
+      "grupo": "Ermos",
+      "nd": "5"
+    },
+    {
+      "criatura": "Troll",
+      "grupo": "Trolls nobres",
+      "nd": "5"
+    },
+    {
+      "criatura": "Engenho de guerra goblin",
+      "grupo": "Duyshidakk",
+      "nd": "6"
+    },
+    {
+      "criatura": "Fintroll feitor",
+      "grupo": "Trolls nobres",
+      "nd": "6"
+    },
+    {
+      "criatura": "Geraktril",
+      "grupo": "Tormenta",
+      "nd": "6"
+    },
+    {
+      "criatura": "Mantícora",
+      "grupo": "Masmorras",
+      "nd": "6"
+    },
+    {
+      "criatura": "Nagah mística",
+      "grupo": "Sszzaazitas",
+      "nd": "6"
+    },
+    {
+      "criatura": "Centopeia-dragão",
+      "grupo": "Masmorras",
+      "nd": "7"
+    },
+    {
+      "criatura": "Cultista de Sszzaas",
+      "grupo": "Sszzaazitas",
+      "nd": "7"
+    },
+    {
+      "criatura": "Dragão jovem",
+      "grupo": "Dragões",
+      "nd": "7"
+    },
+    {
+      "criatura": "Necromante",
+      "grupo": "Reino dos Mortos",
+      "nd": "7"
+    },
+    {
+      "criatura": "Devorador de medos",
+      "grupo": "Duyshidakk",
+      "nd": "8"
+    },
+    {
+      "criatura": "Falange",
+      "grupo": "Reino dos Mortos",
+      "nd": "8"
+    },
+    {
+      "criatura": "Reishid",
+      "grupo": "Tormenta",
+      "nd": "8"
+    },
+    {
+      "criatura": "Cavaleiro do Leopardo",
+      "grupo": "Puristas",
+      "nd": "9"
+    },
+    {
+      "criatura": "Sombra de Thwor",
+      "grupo": "Duyshidakk",
+      "nd": "9"
+    },
+    {
+      "criatura": "Troll das cavernas",
+      "grupo": "Trolls nobres",
+      "nd": "9"
+    },
+    {
+      "criatura": "Golem de ferro",
+      "grupo": "Masmorras",
+      "nd": "10"
+    },
+    {
+      "criatura": "Sacerdote de Aharadak",
+      "grupo": "Tormenta",
+      "nd": "10"
+    },
+    {
+      "criatura": "Tirano do Terceiro",
+      "grupo": "Dragões",
+      "nd": "10"
+    },
+    {
+      "criatura": "Dragão adulto",
+      "grupo": "Dragões",
+      "nd": "11"
+    },
+    {
+      "criatura": "Hidra",
+      "grupo": "Sszzaazitas",
+      "nd": "11"
+    },
+    {
+      "criatura": "Vampiro",
+      "grupo": "Reino dos Mortos",
+      "nd": "12"
+    },
+    {
+      "criatura": "Lagash",
+      "grupo": "Sszzaazitas",
+      "nd": "13"
+    },
+    {
+      "criatura": "Colosso supremo",
+      "grupo": "Puristas",
+      "nd": "14"
+    },
+    {
+      "criatura": "Dragão venerável",
+      "grupo": "Dragões",
+      "nd": "15"
+    },
+    {
+      "criatura": "Thuwarokk",
+      "grupo": "Tormenta",
+      "nd": "16"
+    },
+    {
+      "criatura": "Dragão-rei",
+      "grupo": "Dragões",
+      "nd": "20"
+    }
+  ],
+  "tabela_7_2_estatisticas_npc": [
+    {
+      "patamar": "Iniciante",
+      "nd": "1/2",
+      "ataque": "+7",
+      "dano": "1d6+3",
+      "defesa": 15,
+      "pv": 10,
+      "pericias": "+4/+0",
+      "cd": 14
+    },
+    {
+      "patamar": "Iniciante",
+      "nd": "1",
+      "ataque": "+9",
+      "dano": "1d8+6",
+      "defesa": 16,
+      "pv": 20,
+      "pericias": "+6/+1",
+      "cd": 15
+    },
+    {
+      "patamar": "Iniciante",
+      "nd": "2",
+      "ataque": "+11",
+      "dano": "1d10+10",
+      "defesa": 18,
+      "pv": 40,
+      "pericias": "+8/+2",
+      "cd": 16
+    },
+    {
+      "patamar": "Iniciante",
+      "nd": "3",
+      "ataque": "+13",
+      "dano": "1d12+12",
+      "defesa": 21,
+      "pv": 70,
+      "pericias": "+10/+3",
+      "cd": 17
+    },
+    {
+      "patamar": "Iniciante",
+      "nd": "4",
+      "ataque": "+15",
+      "dano": "2d6+14",
+      "defesa": 24,
+      "pv": 110,
+      "pericias": "+12/+4",
+      "cd": 18
+    },
+    {
+      "patamar": "Veterano",
+      "nd": "5",
+      "ataque": "+18, x2",
+      "dano": "1d12+11",
+      "defesa": 28,
+      "pv": 150,
+      "pericias": "+14/+5",
+      "cd": 20
+    },
+    {
+      "patamar": "Veterano",
+      "nd": "6",
+      "ataque": "+20, x2",
+      "dano": "2d6+15",
+      "defesa": 31,
+      "pv": 190,
+      "pericias": "+16/+6",
+      "cd": 22
+    },
+    {
+      "patamar": "Veterano",
+      "nd": "7",
+      "ataque": "+22, x2",
+      "dano": "2d8+19",
+      "defesa": 34,
+      "pv": 230,
+      "pericias": "+18/+7",
+      "cd": 24
+    },
+    {
+      "patamar": "Veterano",
+      "nd": "8",
+      "ataque": "+24, x2",
+      "dano": "2d10+20",
+      "defesa": 37,
+      "pv": 270,
+      "pericias": "+20/+8",
+      "cd": 26
+    },
+    {
+      "patamar": "Veterano",
+      "nd": "9",
+      "ataque": "+26, x2",
+      "dano": "2d12+21",
+      "defesa": 40,
+      "pv": 310,
+      "pericias": "+22/+9",
+      "cd": 28
+    },
+    {
+      "patamar": "Veterano",
+      "nd": "10",
+      "ataque": "+29, x2",
+      "dano": "3d6+26",
+      "defesa": 43,
+      "pv": 350,
+      "pericias": "+24/+10",
+      "cd": 30
+    },
+    {
+      "patamar": "Campeão",
+      "nd": "11",
+      "ataque": "+32, x3",
+      "dano": "3d8+24",
+      "defesa": 46,
+      "pv": 400,
+      "pericias": "+25/+11",
+      "cd": 32
+    },
+    {
+      "patamar": "Campeão",
+      "nd": "12",
+      "ataque": "+35, x3",
+      "dano": "3d10+26",
+      "defesa": 48,
+      "pv": 450,
+      "pericias": "+26/+12",
+      "cd": 34
+    },
+    {
+      "patamar": "Campeão",
+      "nd": "13",
+      "ataque": "+37, x3",
+      "dano": "3d12+28",
+      "defesa": 50,
+      "pv": 550,
+      "pericias": "+27/+13",
+      "cd": 36
+    },
+    {
+      "patamar": "Campeão",
+      "nd": "14",
+      "ataque": "+40, x3",
+      "dano": "4d6+38",
+      "defesa": 52,
+      "pv": 600,
+      "pericias": "+28/+14",
+      "cd": 38
+    },
+    {
+      "patamar": "Campeão",
+      "nd": "15",
+      "ataque": "+42, x3",
+      "dano": "4d8+40",
+      "defesa": 54,
+      "pv": 650,
+      "pericias": "+29/+15",
+      "cd": 40
+    },
+    {
+      "patamar": "Campeão",
+      "nd": "16",
+      "ataque": "+45, x3",
+      "dano": "4d10+42",
+      "defesa": 56,
+      "pv": 700,
+      "pericias": "+30/+16",
+      "cd": 42
+    },
+    {
+      "patamar": "Lenda",
+      "nd": "17",
+      "ataque": "+47, x4",
+      "dano": "4d12+35",
+      "defesa": 59,
+      "pv": 750,
+      "pericias": "+32/+17",
+      "cd": 44
+    },
+    {
+      "patamar": "Lenda",
+      "nd": "18",
+      "ataque": "+50, x4",
+      "dano": "4d12+40",
+      "defesa": 61,
+      "pv": 800,
+      "pericias": "+33/+18",
+      "cd": 46
+    },
+    {
+      "patamar": "Lenda",
+      "nd": "19",
+      "ataque": "+52, x4",
+      "dano": "4d12+45",
+      "defesa": 63,
+      "pv": 850,
+      "pericias": "+34/+19",
+      "cd": 48
+    },
+    {
+      "patamar": "Lenda",
+      "nd": "20",
+      "ataque": "+55, x4",
+      "dano": "4d12+50",
+      "defesa": 65,
+      "pv": 900,
+      "pericias": "+35/+20",
+      "cd": 50
+    }
+  ],
+  "tabela_8_1_tesouro_nd": [
+    {
+      "nd": "1/4",
+      "dinheiro": [
+        {
+          "d_pct": "01-30",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "31-70",
+          "resultado": "1d6×10 TC"
+        },
+        {
+          "d_pct": "71-95",
+          "resultado": "1d4×100 TC"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "1d6×10 T$"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-50",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "51-75",
+          "resultado": "Diverso"
+        },
+        {
+          "d_pct": "76-100",
+          "resultado": "Equipamento"
+        }
+      ]
+    },
+    {
+      "nd": "1/2",
+      "dinheiro": [
+        {
+          "d_pct": "01-25",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "26-70",
+          "resultado": "2d6×10 TC"
+        },
+        {
+          "d_pct": "71-95",
+          "resultado": "2d8×10 T$"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "1d4×100 T$"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-45",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "46-70",
+          "resultado": "Diverso"
+        },
+        {
+          "d_pct": "71-100",
+          "resultado": "Equipamento"
+        }
+      ]
+    },
+    {
+      "nd": "1",
+      "dinheiro": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-70",
+          "resultado": "3d8×10 T$"
+        },
+        {
+          "d_pct": "71-95",
+          "resultado": "4d12×10 T$"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "1 riqueza menor"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-40",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "41-65",
+          "resultado": "Diverso"
+        },
+        {
+          "d_pct": "66-90",
+          "resultado": "Equipamento"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "1 poção"
+        }
+      ]
+    },
+    {
+      "nd": "2",
+      "dinheiro": [
+        {
+          "d_pct": "01-15",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "16-55",
+          "resultado": "3d10×10 T$"
+        },
+        {
+          "d_pct": "56-85",
+          "resultado": "2d4×100 T$"
+        },
+        {
+          "d_pct": "86-95",
+          "resultado": "2d6+1×100 T$"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "1 riqueza menor"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-30",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "31-40",
+          "resultado": "Diverso"
+        },
+        {
+          "d_pct": "41-70",
+          "resultado": "Equipamento"
+        },
+        {
+          "d_pct": "71-90",
+          "resultado": "1 poção"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "Superior (1 melhoria)"
+        }
+      ]
+    },
+    {
+      "nd": "3",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-20",
+          "resultado": "4d12×10 T$"
+        },
+        {
+          "d_pct": "21-60",
+          "resultado": "1d4×100 T$"
+        },
+        {
+          "d_pct": "61-90",
+          "resultado": "1d8×10 TO"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "1d3 riquezas menores"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-25",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "26-35",
+          "resultado": "Diverso"
+        },
+        {
+          "d_pct": "36-60",
+          "resultado": "Equipamento"
+        },
+        {
+          "d_pct": "61-85",
+          "resultado": "1 poção"
+        },
+        {
+          "d_pct": "86-100",
+          "resultado": "Superior (1 melhoria)"
+        }
+      ]
+    },
+    {
+      "nd": "4",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-50",
+          "resultado": "1d6×100 T$"
+        },
+        {
+          "d_pct": "51-80",
+          "resultado": "1d12×100 T$"
+        },
+        {
+          "d_pct": "81-90",
+          "resultado": "1 riqueza menor+%"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "1d3 riquezas menores+%"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-30",
+          "resultado": "Diverso"
+        },
+        {
+          "d_pct": "31-55",
+          "resultado": "Equipamento2D"
+        },
+        {
+          "d_pct": "56-80",
+          "resultado": "1 poção+%"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "Superior (1 melhoria)2D"
+        }
+      ]
+    },
+    {
+      "nd": "5",
+      "dinheiro": [
+        {
+          "d_pct": "01-15",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "16-65",
+          "resultado": "1d8×100 T$"
+        },
+        {
+          "d_pct": "66-95",
+          "resultado": "3d4×10 TO"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "1 riqueza média"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-70",
+          "resultado": "1 poção"
+        },
+        {
+          "d_pct": "71-90",
+          "resultado": "Superior (1 melhoria)"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "Superior (2 melhorias)"
+        }
+      ]
+    },
+    {
+      "nd": "6",
+      "dinheiro": [
+        {
+          "d_pct": "01-15",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "16-60",
+          "resultado": "2d6×100 T$"
+        },
+        {
+          "d_pct": "61-90",
+          "resultado": "2d10×100 T$"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "1d3+1 riquezas menores"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-65",
+          "resultado": "1 poção+%"
+        },
+        {
+          "d_pct": "66-95",
+          "resultado": "Superior (1 melhoria)"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "Superior (2 melhorias)2D"
+        }
+      ]
+    },
+    {
+      "nd": "7",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-60",
+          "resultado": "2d8×100 T$"
+        },
+        {
+          "d_pct": "61-90",
+          "resultado": "2d12×10 TO"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "1d4+1 riquezas menores"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-60",
+          "resultado": "1d3 poções"
+        },
+        {
+          "d_pct": "61-90",
+          "resultado": "Superior (2 melhorias)"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "Superior (3 melhorias)"
+        }
+      ]
+    },
+    {
+      "nd": "8",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-55",
+          "resultado": "2d10×100 T$"
+        },
+        {
+          "d_pct": "56-95",
+          "resultado": "1d4+1 riquezas menores"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "1 riqueza média+%"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-75",
+          "resultado": "1d3 poções"
+        },
+        {
+          "d_pct": "76-95",
+          "resultado": "Superior (2 melhorias)"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "Superior (3 melhorias)2D"
+        }
+      ]
+    },
+    {
+      "nd": "9",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-35",
+          "resultado": "1 riqueza média"
+        },
+        {
+          "d_pct": "36-85",
+          "resultado": "4d6×100 T$"
+        },
+        {
+          "d_pct": "86-100",
+          "resultado": "1d3 riquezas médias"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-70",
+          "resultado": "1 poção+%"
+        },
+        {
+          "d_pct": "71-95",
+          "resultado": "Superior (3 melhorias)"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "Mágico (menor)"
+        }
+      ]
+    },
+    {
+      "nd": "10",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-30",
+          "resultado": "4d6×100 T$"
+        },
+        {
+          "d_pct": "31-85",
+          "resultado": "4d10×10 TO"
+        },
+        {
+          "d_pct": "86-100",
+          "resultado": "1d3+1 riquezas médias"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-50",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "51-75",
+          "resultado": "1d3+1 poções"
+        },
+        {
+          "d_pct": "76-90",
+          "resultado": "Superior (3 melhorias)"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "Mágico (menor)"
+        }
+      ]
+    },
+    {
+      "nd": "11",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-45",
+          "resultado": "2d4×1.000 T$"
+        },
+        {
+          "d_pct": "46-85",
+          "resultado": "1d3 riquezas médias"
+        },
+        {
+          "d_pct": "86-100",
+          "resultado": "2d6×100 TO"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-45",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "46-70",
+          "resultado": "1d4+1 poções"
+        },
+        {
+          "d_pct": "71-90",
+          "resultado": "Superior (3 melhorias)"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "Mágico (menor)2D"
+        }
+      ]
+    },
+    {
+      "nd": "12",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-45",
+          "resultado": "1 riqueza média+%"
+        },
+        {
+          "d_pct": "46-80",
+          "resultado": "2d6×1.000 T$"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "1d4+1 riquezas médias"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-45",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "46-70",
+          "resultado": "1d3+1 poções+%"
+        },
+        {
+          "d_pct": "71-85",
+          "resultado": "Superior (4 melhorias)"
+        },
+        {
+          "d_pct": "86-100",
+          "resultado": "Mágico (menor)"
+        }
+      ]
+    },
+    {
+      "nd": "13",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-45",
+          "resultado": "4d4×1.000 T$"
+        },
+        {
+          "d_pct": "46-80",
+          "resultado": "1d3+1 riquezas médias"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "4d6×100 TO"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-40",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "41-65",
+          "resultado": "1d4+1 poções+%"
+        },
+        {
+          "d_pct": "66-95",
+          "resultado": "Superior (4 melhorias)"
+        },
+        {
+          "d_pct": "96-100",
+          "resultado": "Mágico (médio)"
+        }
+      ]
+    },
+    {
+      "nd": "14",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-45",
+          "resultado": "1d3+1 riquezas médias"
+        },
+        {
+          "d_pct": "46-80",
+          "resultado": "3d6×1.000 T$"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "1 riqueza maior"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-40",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "41-65",
+          "resultado": "1d4+1 poções+%"
+        },
+        {
+          "d_pct": "66-90",
+          "resultado": "Superior (4 melhorias)"
+        },
+        {
+          "d_pct": "91-100",
+          "resultado": "Mágico (médio)"
+        }
+      ]
+    },
+    {
+      "nd": "15",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-45",
+          "resultado": "1 riqueza média+%"
+        },
+        {
+          "d_pct": "46-80",
+          "resultado": "2d10×1.000 T$"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "1d4×1.000 TO"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-35",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "36-45",
+          "resultado": "1d6+1 poções"
+        },
+        {
+          "d_pct": "46-85",
+          "resultado": "Superior (4 melhorias)2D"
+        },
+        {
+          "d_pct": "86-100",
+          "resultado": "Mágico (médio)"
+        }
+      ]
+    },
+    {
+      "nd": "16",
+      "dinheiro": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-40",
+          "resultado": "3d6×1.000 T$"
+        },
+        {
+          "d_pct": "41-75",
+          "resultado": "3d10×100 TO"
+        },
+        {
+          "d_pct": "76-100",
+          "resultado": "1d3 riquezas maiores"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-35",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "36-45",
+          "resultado": "1d6+1 poções+%"
+        },
+        {
+          "d_pct": "46-80",
+          "resultado": "Superior (4 melhorias)2D"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "Mágico (médio)"
+        }
+      ]
+    },
+    {
+      "nd": "17",
+      "dinheiro": [
+        {
+          "d_pct": "01-05",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "06-40",
+          "resultado": "4d6×1.000 T$"
+        },
+        {
+          "d_pct": "41-75",
+          "resultado": "1d3 riquezas médias+%"
+        },
+        {
+          "d_pct": "76-100",
+          "resultado": "2d4×1.000 TO"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-20",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "21-40",
+          "resultado": "Mágico (menor)"
+        },
+        {
+          "d_pct": "41-80",
+          "resultado": "Mágico (médio)"
+        },
+        {
+          "d_pct": "81-100",
+          "resultado": "Mágico (maior)"
+        }
+      ]
+    },
+    {
+      "nd": "18",
+      "dinheiro": [
+        {
+          "d_pct": "01-05",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "06-40",
+          "resultado": "4d10×1.000 T$"
+        },
+        {
+          "d_pct": "41-75",
+          "resultado": "1 riqueza maior"
+        },
+        {
+          "d_pct": "76-100",
+          "resultado": "1d3+1 riquezas maiores"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-15",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "16-40",
+          "resultado": "Mágico (menor)2D"
+        },
+        {
+          "d_pct": "41-70",
+          "resultado": "Mágico (médio)"
+        },
+        {
+          "d_pct": "71-100",
+          "resultado": "Mágico (maior)"
+        }
+      ]
+    },
+    {
+      "nd": "19",
+      "dinheiro": [
+        {
+          "d_pct": "01-05",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "06-40",
+          "resultado": "4d12×1.000 T$"
+        },
+        {
+          "d_pct": "41-75",
+          "resultado": "1 riqueza maior+%"
+        },
+        {
+          "d_pct": "76-100",
+          "resultado": "1d12×1.000 TO"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-10",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "11-40",
+          "resultado": "Mágico (menor)2D"
+        },
+        {
+          "d_pct": "41-60",
+          "resultado": "Mágico (médio)2D"
+        },
+        {
+          "d_pct": "61-100",
+          "resultado": "Mágico (maior)"
+        }
+      ]
+    },
+    {
+      "nd": "20",
+      "dinheiro": [
+        {
+          "d_pct": "01-05",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "06-40",
+          "resultado": "2d4×1.000 TO"
+        },
+        {
+          "d_pct": "41-75",
+          "resultado": "1d3 riquezas maiores"
+        },
+        {
+          "d_pct": "76-100",
+          "resultado": "1d3+1 riquezas maiores+%"
+        }
+      ],
+      "itens": [
+        {
+          "d_pct": "01-05",
+          "resultado": "—"
+        },
+        {
+          "d_pct": "06-40",
+          "resultado": "Mágico (menor)2D"
+        },
+        {
+          "d_pct": "41-50",
+          "resultado": "Mágico (médio)2D"
+        },
+        {
+          "d_pct": "51-100",
+          "resultado": "Mágico (maior)2D"
+        }
+      ]
+    }
+  ],
+  "tabela_8_2_riquezas": [
+    {
+      "menor": "01-25",
+      "media": "—",
+      "maior": "—",
+      "valor_medio": "4d4 (10)",
+      "exemplos": "Ágata ou hematita (1/2); barril de farinha ou gaiola com galinhas (5)."
+    },
+    {
+      "menor": "26-40",
+      "media": "—",
+      "maior": "—",
+      "valor_medio": "1d4×10 (25)",
+      "exemplos": "Quartzo rosa ou topázio (1/2); caixa de tabaco ou rolo de linho (1); jarro de especiarias, como canela, gorad, pimenta ou sal (2)."
+    },
+    {
+      "menor": "41-55",
+      "media": "01-10",
+      "maior": "—",
+      "valor_medio": "2d4×10 (50)",
+      "exemplos": "Bracelete de ouro finamente trabalhado (1/2); estatueta de osso ou marfim entalhado ou rolo de seda (1); vaso de prata (2)."
+    },
+    {
+      "menor": "56-70",
+      "media": "11-30",
+      "maior": "—",
+      "valor_medio": "4d6×10 (140)",
+      "exemplos": "Ametista ou pérola branca (1/2); lingote de prata ou cálice de prata com gemas de lápis-lazúli (1); tapeçaria grande e bem-feita de lã (5)."
+    },
+    {
+      "menor": "71-85",
+      "media": "31-50",
+      "maior": "01-05",
+      "valor_medio": "1d6×100 (350)",
+      "exemplos": "Alexandrita ou pérola negra (1/2); espada cerimonial ornada com prata e gema negra no cabo ou pente de prata com pedras preciosas (1)."
+    },
+    {
+      "menor": "86-95",
+      "media": "51-65",
+      "maior": "06-15",
+      "valor_medio": "2d6×100 (700)",
+      "exemplos": "Pente em forma de dragão com olhos de gema vermelha (1); harpa de madeira exótica com ornamentos de zircão e marfim (5)."
+    },
+    {
+      "menor": "96-99",
+      "media": "66-80",
+      "maior": "16-25",
+      "valor_medio": "2d8×100 (900)",
+      "exemplos": "Opala negra ou tapa-olho com um olho falso de safira (1/2); luva bordada e adornada com gemas ou pingente de opala vermelha com corrente de ouro (1); lingote de ouro ou pintura antiga (2)."
+    },
+    {
+      "menor": "100",
+      "media": "81-90",
+      "maior": "26-40",
+      "valor_medio": "4d10×100 (2.200)",
+      "exemplos": "Esmeralda verde ou pingente de safira (1/2); caixinha de música de ouro ou tornozeleira com gemas (1); manto bordado em veludo e seda com inúmeras pedras preciosas (2)."
+    },
+    {
+      "menor": "—",
+      "media": "91-95",
+      "maior": "41-60",
+      "valor_medio": "6d12×100 (3.900)",
+      "exemplos": "Anel de prata e safira ou correntinha com pequenas pérolas rosas, diamante branco (1/2); ídolo de ouro puro maciço (5)."
+    },
+    {
+      "menor": "—",
+      "media": "96-99",
+      "maior": "61-75",
+      "valor_medio": "2d10×1.000 (11.000)",
+      "exemplos": "Anel de ouro e rubi ou diamante vermelho (1/2); conjunto de taças de ouro decoradas com esmeraldas (2)."
+    },
+    {
+      "menor": "—",
+      "media": "100",
+      "maior": "76-85",
+      "valor_medio": "6d8×1.000 (27.000)",
+      "exemplos": "Coroa de ouro adornada com centenas de gemas, pertencente a um antigo monarca (1); baú de mitral com coleção de diamantes (2)."
+    },
+    {
+      "menor": "—",
+      "media": "—",
+      "maior": "86-95",
+      "valor_medio": "1d10×10.000 (55.000)",
+      "exemplos": "Arca de madeira reforçada repleta de lingotes de prata e ouro, além de pedras preciosas de vários tipos (20)."
+    },
+    {
+      "menor": "—",
+      "media": "—",
+      "maior": "96-100",
+      "valor_medio": "4d12×10.000 (260.000)",
+      "exemplos": "Uma sala forrada de moedas!"
+    }
+  ],
+  "tabela_8_3_itens_diversos": [
+    {
+      "d_pct": "01-02",
+      "item": "Ácido"
+    },
+    {
+      "d_pct": "03-04",
+      "item": "Água benta"
+    },
+    {
+      "d_pct": "05",
+      "item": "Alaúde élfico"
+    },
+    {
+      "d_pct": "06",
+      "item": "Algemas"
+    },
+    {
+      "d_pct": "07-08",
+      "item": "Baga-de-fogo"
+    },
+    {
+      "d_pct": "09-23",
+      "item": "Bálsamo restaurador"
+    },
+    {
+      "d_pct": "24",
+      "item": "Bandana"
+    },
+    {
+      "d_pct": "25",
+      "item": "Bandoleira de poções"
+    },
+    {
+      "d_pct": "26-30",
+      "item": "Bomba"
+    },
+    {
+      "d_pct": "31",
+      "item": "Botas reforçadas"
+    },
+    {
+      "d_pct": "32",
+      "item": "Camisa bufante"
+    },
+    {
+      "d_pct": "33",
+      "item": "Capa esvoaçante"
+    },
+    {
+      "d_pct": "34",
+      "item": "Capa pesada"
+    },
+    {
+      "d_pct": "35",
+      "item": "Casaco longo"
+    },
+    {
+      "d_pct": "36",
+      "item": "Chapéu arcano"
+    },
+    {
+      "d_pct": "37-38",
+      "item": "Coleção de livros"
+    },
+    {
+      "d_pct": "39-40",
+      "item": "Cosmético"
+    },
+    {
+      "d_pct": "41-42",
+      "item": "Dente-de-dragão"
+    },
+    {
+      "d_pct": "43",
+      "item": "Enfeite de elmo"
+    },
+    {
+      "d_pct": "44",
+      "item": "Elixir do amor"
+    },
+    {
+      "d_pct": "45-46",
+      "item": "Equipamento de viagem"
+    },
+    {
+      "d_pct": "47-56",
+      "item": "Essência de mana"
+    },
+    {
+      "d_pct": "57",
+      "item": "Estojo de disfarces"
+    },
+    {
+      "d_pct": "58",
+      "item": "Farrapos de ermitão"
+    },
+    {
+      "d_pct": "59",
+      "item": "Flauta mística"
+    },
+    {
+      "d_pct": "60-66",
+      "item": "Fogo alquímico"
+    },
+    {
+      "d_pct": "67",
+      "item": "Gorro de ervas"
+    },
+    {
+      "d_pct": "68-69",
+      "item": "Líquen lilás"
+    },
+    {
+      "d_pct": "70",
+      "item": "Luneta"
+    },
+    {
+      "d_pct": "71",
+      "item": "Luva de pelica"
+    },
+    {
+      "d_pct": "72-73",
+      "item": "Maleta de medicamentos"
+    },
+    {
+      "d_pct": "74",
+      "item": "Manopla"
+    },
+    {
+      "d_pct": "75",
+      "item": "Manto eclesiástico"
+    },
+    {
+      "d_pct": "76-78",
+      "item": "Mochila de aventureiro"
+    },
+    {
+      "d_pct": "79-80",
+      "item": "Musgo púrpura"
+    },
+    {
+      "d_pct": "81",
+      "item": "Organizador de pergaminhos"
+    },
+    {
+      "d_pct": "82-83",
+      "item": "Ossos de monstro"
+    },
+    {
+      "d_pct": "84-85",
+      "item": "Pó de cristal"
+    },
+    {
+      "d_pct": "86-87",
+      "item": "Pó de giz"
+    },
+    {
+      "d_pct": "88",
+      "item": "Pó do desaparecimento"
+    },
+    {
+      "d_pct": "89",
+      "item": "Robe místico"
+    },
+    {
+      "d_pct": "90-91",
+      "item": "Saco de sal"
+    },
+    {
+      "d_pct": "92",
+      "item": "Sapatos de camurça"
+    },
+    {
+      "d_pct": "93-94",
+      "item": "Seixo de âmbar"
+    },
+    {
+      "d_pct": "95",
+      "item": "Sela"
+    },
+    {
+      "d_pct": "96",
+      "item": "Tabardo"
+    },
+    {
+      "d_pct": "97",
+      "item": "Traje da corte"
+    },
+    {
+      "d_pct": "98-99",
+      "item": "Terra de cemitério"
+    },
+    {
+      "d_pct": "100",
+      "item": "Veste de seda"
+    }
+  ],
+  "tabela_8_4_equipamento": {
+    "armas": [
+      {
+        "d_pct": "01-03",
+        "item": "Adaga"
+      },
+      {
+        "d_pct": "04-05",
+        "item": "Alabarda"
+      },
+      {
+        "d_pct": "06-07",
+        "item": "Alfange"
+      },
+      {
+        "d_pct": "08-10",
+        "item": "Arco curto"
+      },
+      {
+        "d_pct": "11-13",
+        "item": "Arco longo"
+      },
+      {
+        "d_pct": "14-15",
+        "item": "Azagaia"
+      },
+      {
+        "d_pct": "16",
+        "item": "Balas (20)"
+      },
+      {
+        "d_pct": "17-18",
+        "item": "Besta leve"
+      },
+      {
+        "d_pct": "19-20",
+        "item": "Besta pesada"
+      },
+      {
+        "d_pct": "21-23",
+        "item": "Bordão"
+      },
+      {
+        "d_pct": "24",
+        "item": "Chicote"
+      },
+      {
+        "d_pct": "25-27",
+        "item": "Cimitarra"
+      },
+      {
+        "d_pct": "28-30",
+        "item": "Clava"
+      },
+      {
+        "d_pct": "31",
+        "item": "Corrente de espinhos"
+      },
+      {
+        "d_pct": "32-33",
+        "item": "Espada bastarda"
+      },
+      {
+        "d_pct": "34-38",
+        "item": "Espada curta"
+      },
+      {
+        "d_pct": "39-43",
+        "item": "Espada longa"
+      },
+      {
+        "d_pct": "44-46",
+        "item": "Flechas (20)"
+      },
+      {
+        "d_pct": "47-49",
+        "item": "Florete"
+      },
+      {
+        "d_pct": "50-51",
+        "item": "Foice"
+      },
+      {
+        "d_pct": "52-53",
+        "item": "Funda"
+      },
+      {
+        "d_pct": "54-55",
+        "item": "Gadanho"
+      },
+      {
+        "d_pct": "56",
+        "item": "Katana"
+      },
+      {
+        "d_pct": "57-59",
+        "item": "Lança"
+      },
+      {
+        "d_pct": "60",
+        "item": "Lança montada"
+      },
+      {
+        "d_pct": "61-63",
+        "item": "Maça"
+      },
+      {
+        "d_pct": "64-66",
+        "item": "Machadinha"
+      },
+      {
+        "d_pct": "67",
+        "item": "Machado anão"
+      },
+      {
+        "d_pct": "68-70",
+        "item": "Machado de batalha"
+      },
+      {
+        "d_pct": "71-73",
+        "item": "Machado de guerra"
+      },
+      {
+        "d_pct": "74",
+        "item": "Machado táurico"
+      },
+      {
+        "d_pct": "75-76",
+        "item": "Mangual"
+      },
+      {
+        "d_pct": "77",
+        "item": "Marreta"
+      },
+      {
+        "d_pct": "78-80",
+        "item": "Martelo de guerra"
+      },
+      {
+        "d_pct": "81-83",
+        "item": "Montante"
+      },
+      {
+        "d_pct": "84",
+        "item": "Mosquete"
+      },
+      {
+        "d_pct": "85",
+        "item": "Pedras (20)"
+      },
+      {
+        "d_pct": "86-88",
+        "item": "Picareta"
+      },
+      {
+        "d_pct": "89-90",
+        "item": "Pique"
+      },
+      {
+        "d_pct": "91-92",
+        "item": "Pistola"
+      },
+      {
+        "d_pct": "93",
+        "item": "Rede"
+      },
+      {
+        "d_pct": "94-96",
+        "item": "Tacape"
+      },
+      {
+        "d_pct": "97-98",
+        "item": "Tridente"
+      },
+      {
+        "d_pct": "99-100",
+        "item": "Virotes (20)"
+      }
+    ],
+    "armaduras": [
+      {
+        "d_pct": "01-05",
+        "item": "Couro"
+      },
+      {
+        "d_pct": "06-10",
+        "item": "Brunea"
+      },
+      {
+        "d_pct": "11-25",
+        "item": "Completa"
+      },
+      {
+        "d_pct": "26-30",
+        "item": "Cota de malha"
+      },
+      {
+        "d_pct": "31-45",
+        "item": "Couraça"
+      },
+      {
+        "d_pct": "46-55",
+        "item": "Couro batido"
+      },
+      {
+        "d_pct": "56-65",
+        "item": "Escudo leve"
+      },
+      {
+        "d_pct": "66-80",
+        "item": "Escudo pesado"
+      },
+      {
+        "d_pct": "81-85",
+        "item": "Gibão de peles"
+      },
+      {
+        "d_pct": "86-90",
+        "item": "Loriga segmentada"
+      },
+      {
+        "d_pct": "91-100",
+        "item": "Meia armadura"
+      }
+    ],
+    "esotericos": [
+      {
+        "d_pct": "01-10",
+        "item": "Bolsa de pó"
+      },
+      {
+        "d_pct": "11-25",
+        "item": "Cajado arcano"
+      },
+      {
+        "d_pct": "26-35",
+        "item": "Cetro elemental"
+      },
+      {
+        "d_pct": "36-42",
+        "item": "Costela de lich"
+      },
+      {
+        "d_pct": "43-50",
+        "item": "Dedo de ente"
+      },
+      {
+        "d_pct": "51-55",
+        "item": "Luva de ferro"
+      },
+      {
+        "d_pct": "56-65",
+        "item": "Medalhão de prata"
+      },
+      {
+        "d_pct": "66-75",
+        "item": "Orbe cristalina"
+      },
+      {
+        "d_pct": "76-85",
+        "item": "Tomo hermético"
+      },
+      {
+        "d_pct": "86-100",
+        "item": "Varinha arcana"
+      }
+    ]
+  },
+  "tabela_8_5_itens_superiores": {
+    "armas": [
+      {
+        "d_pct": "01-10",
+        "melhoria": "Atroz¹"
+      },
+      {
+        "d_pct": "11-13",
+        "melhoria": "Banhada a ouro"
+      },
+      {
+        "d_pct": "14-23",
+        "melhoria": "Certeira"
+      },
+      {
+        "d_pct": "24-26",
+        "melhoria": "Cravejada de gemas"
+      },
+      {
+        "d_pct": "27-36",
+        "melhoria": "Cruel"
+      },
+      {
+        "d_pct": "37-39",
+        "melhoria": "Discreta"
+      },
+      {
+        "d_pct": "40-44",
+        "melhoria": "Equilibrada"
+      },
+      {
+        "d_pct": "45-48",
+        "melhoria": "Harmonizada"
+      },
+      {
+        "d_pct": "49-53",
+        "melhoria": "Injeção alquímica"
+      },
+      {
+        "d_pct": "54-55",
+        "melhoria": "Macabra"
+      },
+      {
+        "d_pct": "56-65",
+        "melhoria": "Maciça"
+      },
+      {
+        "d_pct": "66-75",
+        "melhoria": "Material especial²"
+      },
+      {
+        "d_pct": "76-80",
+        "melhoria": "Mira telescópica"
+      },
+      {
+        "d_pct": "81-90",
+        "melhoria": "Precisa"
+      },
+      {
+        "d_pct": "91-100",
+        "melhoria": "Pungente¹"
+      }
+    ],
+    "armaduras_escudos": [
+      {
+        "d_pct": "01-15",
+        "melhoria": "Ajustada"
+      },
+      {
+        "d_pct": "16-19",
+        "melhoria": "Banhada a ouro"
+      },
+      {
+        "d_pct": "20-23",
+        "melhoria": "Cravejada de gemas"
+      },
+      {
+        "d_pct": "24-28",
+        "melhoria": "Delicada"
+      },
+      {
+        "d_pct": "29-32",
+        "melhoria": "Discreta"
+      },
+      {
+        "d_pct": "33-37",
+        "melhoria": "Espinhos"
+      },
+      {
+        "d_pct": "38-40",
+        "melhoria": "Macabra"
+      },
+      {
+        "d_pct": "41-50",
+        "melhoria": "Material especial²"
+      },
+      {
+        "d_pct": "51-55",
+        "melhoria": "Polida"
+      },
+      {
+        "d_pct": "56-80",
+        "melhoria": "Reforçada"
+      },
+      {
+        "d_pct": "81-90",
+        "melhoria": "Selada"
+      },
+      {
+        "d_pct": "91-100",
+        "melhoria": "Sob medida¹"
+      }
+    ],
+    "esotericos": [
+      {
+        "d_pct": "01-04",
+        "melhoria": "Banhado a ouro"
+      },
+      {
+        "d_pct": "05-19",
+        "melhoria": "Canalizador"
+      },
+      {
+        "d_pct": "20-23",
+        "melhoria": "Cravejado de gemas"
+      },
+      {
+        "d_pct": "24-27",
+        "melhoria": "Discreto"
+      },
+      {
+        "d_pct": "28-42",
+        "melhoria": "Energético"
+      },
+      {
+        "d_pct": "43-57",
+        "melhoria": "Harmonizado"
+      },
+      {
+        "d_pct": "58-60",
+        "melhoria": "Macabro"
+      },
+      {
+        "d_pct": "61-69",
+        "melhoria": "Material especial²"
+      },
+      {
+        "d_pct": "70-85",
+        "melhoria": "Canalizador"
+      },
+      {
+        "d_pct": "86-100",
+        "melhoria": "Vigilante"
+      }
+    ],
+    "notas": [
+      "¹Conta como duas melhorias. Se o item só possuir uma, role novamente.",
+      "²Role 1d6 para definir o material: 1) aço-rubi, 2) adamante, 3) gelo eterno, 4) madeira Tollon, 5) matéria vermelha, 6) mitral."
+    ]
+  },
+  "tabela_8_6_tesouro_medio": [
+    {
+      "nivel": "1º",
+      "tesouro": "T$ 300"
+    },
+    {
+      "nivel": "2º",
+      "tesouro": "T$ 300"
+    },
+    {
+      "nivel": "3º",
+      "tesouro": "T$ 400"
+    },
+    {
+      "nivel": "4º",
+      "tesouro": "T$ 1.000"
+    },
+    {
+      "nivel": "5º",
+      "tesouro": "T$ 1.000"
+    },
+    {
+      "nivel": "6º",
+      "tesouro": "T$ 2.000"
+    },
+    {
+      "nivel": "7º",
+      "tesouro": "T$ 2.000"
+    },
+    {
+      "nivel": "8º",
+      "tesouro": "T$ 3.000"
+    },
+    {
+      "nivel": "9º",
+      "tesouro": "T$ 3.000"
+    },
+    {
+      "nivel": "10º",
+      "tesouro": "T$ 6.000"
+    },
+    {
+      "nivel": "11º",
+      "tesouro": "T$ 8.000"
+    },
+    {
+      "nivel": "12º",
+      "tesouro": "T$ 9.000"
+    },
+    {
+      "nivel": "13º",
+      "tesouro": "T$ 13.000"
+    },
+    {
+      "nivel": "14º",
+      "tesouro": "T$ 17.000"
+    },
+    {
+      "nivel": "15º",
+      "tesouro": "T$ 22.000"
+    },
+    {
+      "nivel": "16º",
+      "tesouro": "T$ 22.000"
+    },
+    {
+      "nivel": "17º",
+      "tesouro": "T$ 40.000"
+    },
+    {
+      "nivel": "18º",
+      "tesouro": "T$ 50.000"
+    },
+    {
+      "nivel": "19º",
+      "tesouro": "T$ 60.000"
+    },
+    {
+      "nivel": "20º",
+      "tesouro": "T$ 72.000"
+    }
+  ],
+  "tabela_8_7_preco_encantos": [
+    {
+      "numero_encantos": 1,
+      "aumento_preco": "T$ 18.000",
+      "aumento_cd": "+10"
+    },
+    {
+      "numero_encantos": 2,
+      "aumento_preco": "T$ 36.000",
+      "aumento_cd": "+15"
+    },
+    {
+      "numero_encantos": 3,
+      "aumento_preco": "T$ 72.000",
+      "aumento_cd": "+20"
+    }
+  ],
+  "tabela_8_8_armas_magicas": [
+    {
+      "d_pct": "01-05",
+      "encanto": "Ameaçadora",
+      "efeito": "Duplica margem de ameaça"
+    },
+    {
+      "d_pct": "06-10",
+      "encanto": "Anticriatura",
+      "efeito": "Bônus contra tipo de criatura"
+    },
+    {
+      "d_pct": "11-12",
+      "encanto": "Arremesso",
+      "efeito": "Pode ser arremessada"
+    },
+    {
+      "d_pct": "13-14",
+      "encanto": "Assassina",
+      "efeito": "Aumenta ataque furtivo"
+    },
+    {
+      "d_pct": "15-16",
+      "encanto": "Caçadora",
+      "efeito": "Ignora camuflagem leve e total e cobertura leve"
+    },
+    {
+      "d_pct": "17-21",
+      "encanto": "Congelante",
+      "efeito": "+1d6 de dano de frio"
+    },
+    {
+      "d_pct": "22-23",
+      "encanto": "Conjuradora",
+      "efeito": "Pode guardar e lançar magias"
+    },
+    {
+      "d_pct": "24-28",
+      "encanto": "Corrosiva",
+      "efeito": "+1d6 de dano de ácido"
+    },
+    {
+      "d_pct": "29-30",
+      "encanto": "Dançarina",
+      "efeito": "Ataca sozinha"
+    },
+    {
+      "d_pct": "31-34",
+      "encanto": "Defensora",
+      "efeito": "Defesa +2"
+    },
+    {
+      "d_pct": "35-36",
+      "encanto": "Destruidora",
+      "efeito": "Bônus contra construtos"
+    },
+    {
+      "d_pct": "37-38",
+      "encanto": "Dilacerante",
+      "efeito": "+10 de dano em acertos críticos"
+    },
+    {
+      "d_pct": "39-40",
+      "encanto": "Drenante",
+      "efeito": "Crítico drena vítima"
+    },
+    {
+      "d_pct": "41-45",
+      "encanto": "Elétrica",
+      "efeito": "+1d6 de dano de eletricidade"
+    },
+    {
+      "d_pct": "46",
+      "encanto": "Energética*",
+      "efeito": "Bônus em ataque"
+    },
+    {
+      "d_pct": "47-48",
+      "encanto": "Excruciante",
+      "efeito": "Causa fraqueza"
+    },
+    {
+      "d_pct": "49-53",
+      "encanto": "Flamejante",
+      "efeito": "+1d6 de dano de fogo"
+    },
+    {
+      "d_pct": "54-63",
+      "encanto": "Formidável",
+      "efeito": "Ataque e dano +2"
+    },
+    {
+      "d_pct": "64",
+      "encanto": "Lancinante*",
+      "efeito": "Causa crítico terrível"
+    },
+    {
+      "d_pct": "65-72",
+      "encanto": "Magnífica*",
+      "efeito": "Ataque e dano +4"
+    },
+    {
+      "d_pct": "73-74",
+      "encanto": "Piedosa",
+      "efeito": "Dano não letal"
+    },
+    {
+      "d_pct": "75-76",
+      "encanto": "Profana",
+      "efeito": "Bônus contra devotos do Bem"
+    },
+    {
+      "d_pct": "77-78",
+      "encanto": "Sagrada",
+      "efeito": "Bônus contra devotos do Mal"
+    },
+    {
+      "d_pct": "79-80",
+      "encanto": "Sanguinária",
+      "efeito": "Causa sangramento"
+    },
+    {
+      "d_pct": "81-82",
+      "encanto": "Trovejante",
+      "efeito": "Causa atordoamento"
+    },
+    {
+      "d_pct": "83-84",
+      "encanto": "Tumular",
+      "efeito": "+1d8 de dano de trevas"
+    },
+    {
+      "d_pct": "85-88",
+      "encanto": "Veloz",
+      "efeito": "Fornece ataque extra"
+    },
+    {
+      "d_pct": "89-90",
+      "encanto": "Venenosa",
+      "efeito": "Causa envenenamento"
+    },
+    {
+      "d_pct": "91-100",
+      "encanto": "Arma específica",
+      "efeito": "Veja a Tabela 8-9"
+    }
+  ],
+  "tabela_8_9_armas_especificas": [
+    {
+      "d_pct": "01-05",
+      "arma": "Azagaia dos relâmpagos",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "06-15",
+      "arma": "Espada baronial",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "16-25",
+      "arma": "Lâmina da luz",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "26-30",
+      "arma": "Lança animalesca",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "31-35",
+      "arma": "Maça do terror",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "36-40",
+      "arma": "Florete fugaz",
+      "preco": "T$ 50.000"
+    },
+    {
+      "d_pct": "41-45",
+      "arma": "Cajado da destruição",
+      "preco": "T$ 60.000"
+    },
+    {
+      "d_pct": "46-50",
+      "arma": "Cajado da vida",
+      "preco": "T$ 60.000"
+    },
+    {
+      "d_pct": "51-55",
+      "arma": "Machado silvestre",
+      "preco": "T$ 70.000"
+    },
+    {
+      "d_pct": "56-60",
+      "arma": "Martelo de Doherimm",
+      "preco": "T$ 70.000"
+    },
+    {
+      "d_pct": "61-67",
+      "arma": "Arco do poder",
+      "preco": "T$ 90.000"
+    },
+    {
+      "d_pct": "68-72",
+      "arma": "Língua do deserto",
+      "preco": "T$ 90.000"
+    },
+    {
+      "d_pct": "73-77",
+      "arma": "Besta explosiva",
+      "preco": "T$ 100.000"
+    },
+    {
+      "d_pct": "78-82",
+      "arma": "Punhal sszzaazita",
+      "preco": "T$ 100.000"
+    },
+    {
+      "d_pct": "83-87",
+      "arma": "Espada sortuda",
+      "preco": "T$ 110.000"
+    },
+    {
+      "d_pct": "88-92",
+      "arma": "Avalanche",
+      "preco": "T$ 140.000"
+    },
+    {
+      "d_pct": "93-95",
+      "arma": "Cajado do poder",
+      "preco": "T$ 180.000"
+    },
+    {
+      "d_pct": "96-100",
+      "arma": "Vingadora sagrada",
+      "preco": "T$ 200.000"
+    }
+  ],
+  "tabela_8_10_armaduras_magicas": [
+    {
+      "d_pct": "01-06",
+      "encanto": "Abascanto",
+      "efeito": "Resistência contra magia"
+    },
+    {
+      "d_pct": "07-10",
+      "encanto": "Abençoado",
+      "efeito": "Resistência contra trevas"
+    },
+    {
+      "d_pct": "11-12",
+      "encanto": "Acrobático",
+      "efeito": "Bônus em Acrobacia"
+    },
+    {
+      "d_pct": "13-14",
+      "encanto": "Alado",
+      "efeito": "Deslocamento de voo 12m"
+    },
+    {
+      "d_pct": "15-16",
+      "encanto": "Animado¹",
+      "efeito": "Escudo defende sozinho"
+    },
+    {
+      "d_pct": "17-18",
+      "encanto": "Assustador",
+      "efeito": "Causa efeito de medo"
+    },
+    {
+      "d_pct": "19-22",
+      "encanto": "Cáustica",
+      "efeito": "Resistência contra ácido"
+    },
+    {
+      "d_pct": "23-32",
+      "encanto": "Defensor",
+      "efeito": "Defesa +2"
+    },
+    {
+      "d_pct": "33-34",
+      "encanto": "Escorregadio",
+      "efeito": "Bônus para escapar"
+    },
+    {
+      "d_pct": "35-36",
+      "encanto": "Esmagador¹",
+      "efeito": "Escudo causa mais dano"
+    },
+    {
+      "d_pct": "37-38",
+      "encanto": "Fantasmagórico",
+      "efeito": "Lança Manto de Sombras"
+    },
+    {
+      "d_pct": "39-40",
+      "encanto": "Fortificado",
+      "efeito": "Chance de ignorar crítico"
+    },
+    {
+      "d_pct": "41-44",
+      "encanto": "Gélido",
+      "efeito": "Resistência contra frio"
+    },
+    {
+      "d_pct": "45-54",
+      "encanto": "Guardião²",
+      "efeito": "Defesa +4"
+    },
+    {
+      "d_pct": "55-56",
+      "encanto": "Hipnótico",
+      "efeito": "Fascina inimigos"
+    },
+    {
+      "d_pct": "57-58",
+      "encanto": "Ilusório",
+      "efeito": "Camufla-se como item comum"
+    },
+    {
+      "d_pct": "59-62",
+      "encanto": "Incandescente",
+      "efeito": "Resistência contra fogo"
+    },
+    {
+      "d_pct": "63-68",
+      "encanto": "Invulnerável",
+      "efeito": "Redução de dano"
+    },
+    {
+      "d_pct": "69-72",
+      "encanto": "Opaco",
+      "efeito": "Redução de energia"
+    },
+    {
+      "d_pct": "73-78",
+      "encanto": "Protetor",
+      "efeito": "Resistência +2"
+    },
+    {
+      "d_pct": "79-80",
+      "encanto": "Refletor",
+      "efeito": "Reflete magia"
+    },
+    {
+      "d_pct": "81-84",
+      "encanto": "Relampejante",
+      "efeito": "Resistência contra eletricidade"
+    },
+    {
+      "d_pct": "85-86",
+      "encanto": "Reluzente",
+      "efeito": "Causa efeito de cegueira"
+    },
+    {
+      "d_pct": "87-88",
+      "encanto": "Sombrio",
+      "efeito": "Bônus em Furtividade"
+    },
+    {
+      "d_pct": "89-90",
+      "encanto": "Zeloso",
+      "efeito": "Atrai ataques em aliados"
+    },
+    {
+      "d_pct": "91-100",
+      "encanto": "Item específico",
+      "efeito": "Veja a Tabela 8-11"
+    }
+  ],
+  "tabela_8_11_armaduras_especificas": [
+    {
+      "d_pct": "01-10",
+      "item": "Cota élfica",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "11-20",
+      "item": "Couro de monstro",
+      "preco": "T$ 36.000"
+    },
+    {
+      "d_pct": "21-25",
+      "item": "Escudo do conjurador",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "26-32",
+      "item": "Loriga do centurião",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "33-42",
+      "item": "Manto da noite",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "43-49",
+      "item": "Couraça do comando",
+      "preco": "T$ 45.000"
+    },
+    {
+      "d_pct": "50-59",
+      "item": "Baluarte anão",
+      "preco": "T$ 50.000"
+    },
+    {
+      "d_pct": "60-66",
+      "item": "Escudo espinhoso",
+      "preco": "T$ 50.000"
+    },
+    {
+      "d_pct": "67-76",
+      "item": "Escudo do leão",
+      "preco": "T$ 50.000"
+    },
+    {
+      "d_pct": "77-83",
+      "item": "Carapaça demoníaca",
+      "preco": "T$ 63.000"
+    },
+    {
+      "d_pct": "84-88",
+      "item": "Escudo do eclipse",
+      "preco": "T$ 70.000"
+    },
+    {
+      "d_pct": "89-93",
+      "item": "Escudo de Azgher",
+      "preco": "T$ 140.000"
+    },
+    {
+      "d_pct": "94-100",
+      "item": "Armadura da luz",
+      "preco": "T$ 150.000"
+    }
+  ],
+  "tabela_8_12_pocoes": [
+    {
+      "d_pct": "01",
+      "pocao": "Abençoar Alimentos (óleo)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "02-03",
+      "pocao": "Área Escorregadia (granada)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "04-06",
+      "pocao": "Arma Mágica (óleo)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "07",
+      "pocao": "Compreensão",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "08-15",
+      "pocao": "Curar Ferimentos (2d8+2 PV)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "16-18",
+      "pocao": "Disfarce Ilusório",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "19-20",
+      "pocao": "Escuridão (óleo)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "21-22",
+      "pocao": "Luz (óleo)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "23-24",
+      "pocao": "Névoa (granada)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "25-26",
+      "pocao": "Primor Atlético",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "27-28",
+      "pocao": "Proteção Divina",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "29-30",
+      "pocao": "Resistência a Energia",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "31-32",
+      "pocao": "Sono",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "33",
+      "pocao": "Suporte Ambiental",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "34",
+      "pocao": "Tranca Arcana (óleo)",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "35",
+      "pocao": "Visão Mística",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "36",
+      "pocao": "Vitalidade Fantasma",
+      "preco": "T$ 30"
+    },
+    {
+      "d_pct": "37-38",
+      "pocao": "Escudo da Fé (aprimoramento para duração cena)",
+      "preco": "T$ 120"
+    },
+    {
+      "d_pct": "39-40",
+      "pocao": "Alterar Tamanho",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "41-42",
+      "pocao": "Aparência Perfeita",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "43",
+      "pocao": "Armamento da Natureza (óleo)",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "44-49",
+      "pocao": "Bola de Fogo (granada)",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "50-51",
+      "pocao": "Camuflagem Ilusória",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "52-53",
+      "pocao": "Concentração de Combate (aprimoramento para duração cena)",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "54-62",
+      "pocao": "Curar Ferimentos (4d8+4 PV)",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "63-66",
+      "pocao": "Físico Divino",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "67-68",
+      "pocao": "Mente Divina",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "69-70",
+      "pocao": "Metamorfose",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "71-75",
+      "pocao": "Purificação",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "76-77",
+      "pocao": "Velocidade",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "78-79",
+      "pocao": "Vestimenta da Fé (óleo)",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "80",
+      "pocao": "Voz Divina",
+      "preco": "T$ 270"
+    },
+    {
+      "d_pct": "81-82",
+      "pocao": "Arma Mágica (óleo; aprimoramento para bônus +3)",
+      "preco": "T$ 750"
+    },
+    {
+      "d_pct": "83-88",
+      "pocao": "Curar Ferimentos (7d8+7 PV)",
+      "preco": "T$ 1.080"
+    },
+    {
+      "d_pct": "89",
+      "pocao": "Físico Divino (aprimoramento para três atributos)",
+      "preco": "T$ 1.080"
+    },
+    {
+      "d_pct": "90-92",
+      "pocao": "Invisibilidade (aprimoramento para duração cena)",
+      "preco": "T$ 1.080"
+    },
+    {
+      "d_pct": "93-96",
+      "pocao": "Bola de Fogo (granada; aprimoramento para 10d6 de dano)",
+      "preco": "T$ 1.470"
+    },
+    {
+      "d_pct": "97-100",
+      "pocao": "Curar Ferimentos (11d8+11 PV)",
+      "preco": "T$ 3.000"
+    }
+  ],
+  "tabela_8_13_acessorios_menores": [
+    {
+      "d_pct": "01-02",
+      "acessorio": "Anel do sustento",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "03-07",
+      "acessorio": "Bainha mágica",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "08-12",
+      "acessorio": "Corda da escalada",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "13-14",
+      "acessorio": "Ferraduras da velocidade",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "15-19",
+      "acessorio": "Garrafa da fumaça eterna",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "20-24",
+      "acessorio": "Gema da luminosidade",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "25-29",
+      "acessorio": "Manto élfico",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "30-34",
+      "acessorio": "Mochila de carga",
+      "preco": "T$ 3.000"
+    },
+    {
+      "d_pct": "35-40",
+      "acessorio": "Brincos da sagacidade",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "41-46",
+      "acessorio": "Luvas da delicadeza",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "47-52",
+      "acessorio": "Manoplas da força do ogro",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "53-59",
+      "acessorio": "Manto da resistência",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "60-65",
+      "acessorio": "Manto do fascínio",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "66-71",
+      "acessorio": "Pingente da sensatez",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "72-77",
+      "acessorio": "Torque do vigor",
+      "preco": "T$ 4.500"
+    },
+    {
+      "d_pct": "78-82",
+      "acessorio": "Chapéu do disfarce",
+      "preco": "T$ 6.000"
+    },
+    {
+      "d_pct": "83-84",
+      "acessorio": "Flauta fantasma",
+      "preco": "T$ 6.000"
+    },
+    {
+      "d_pct": "85-89",
+      "acessorio": "Lanterna da revelação",
+      "preco": "T$ 6.000"
+    },
+    {
+      "d_pct": "90-96",
+      "acessorio": "Anel da proteção",
+      "preco": "T$ 9.000"
+    },
+    {
+      "d_pct": "97-98",
+      "acessorio": "Anel do escudo mental",
+      "preco": "T$ 9.000"
+    },
+    {
+      "d_pct": "99-100",
+      "acessorio": "Pingente da saúde",
+      "preco": "T$ 9.000"
+    }
+  ],
+  "tabela_8_14_acessorios_medios": [
+    {
+      "d_pct": "01-04",
+      "acessorio": "Anel de telecinesia",
+      "preco": "T$ 10.500"
+    },
+    {
+      "d_pct": "05-08",
+      "acessorio": "Bola de cristal",
+      "preco": "T$ 10.500"
+    },
+    {
+      "d_pct": "09-10",
+      "acessorio": "Caveira maldita",
+      "preco": "T$ 10.500"
+    },
+    {
+      "d_pct": "11-14",
+      "acessorio": "Botas aladas",
+      "preco": "T$ 15.000"
+    },
+    {
+      "d_pct": "15-18",
+      "acessorio": "Braceletes de bronze",
+      "preco": "T$ 16.500"
+    },
+    {
+      "d_pct": "19-24",
+      "acessorio": "Anel da energia",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "25-30",
+      "acessorio": "Anel da vitalidade",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "31-34",
+      "acessorio": "Anel de invisibilidade",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "35-38",
+      "acessorio": "Braçadeiras do arqueiro",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "39-42",
+      "acessorio": "Brincos de Marah",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "43-46",
+      "acessorio": "Faixas do pugilista",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "47-50",
+      "acessorio": "Manto da aranha",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "51-54",
+      "acessorio": "Vassoura voadora",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "55-58",
+      "acessorio": "Símbolo abençoado",
+      "preco": "T$ 21.000"
+    },
+    {
+      "d_pct": "59-64",
+      "acessorio": "Amuleto da robustez",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "65-68",
+      "acessorio": "Botas velozes",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "69-74",
+      "acessorio": "Cinto da força do gigante",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "75-80",
+      "acessorio": "Coroa majestosa",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "81-86",
+      "acessorio": "Estola da serenidade",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "87-88",
+      "acessorio": "Manto do morcego",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "89-94",
+      "acessorio": "Pulseiras da celeridade",
+      "preco": "T$ 25.500"
+    },
+    {
+      "d_pct": "95-100",
+      "acessorio": "Tiara da sapiência",
+      "preco": "T$ 25.500"
+    }
+  ],
+  "tabela_8_15_acessorios_maiores": [
+    {
+      "d_pct": "01-02",
+      "acessorio": "Elmo do teletransporte",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "03-04",
+      "acessorio": "Gema da telepatia",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "05-09",
+      "acessorio": "Gema elemental",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "10-15",
+      "acessorio": "Manual da saúde corporal",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "16-21",
+      "acessorio": "Manual do bom exercício",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "22-27",
+      "acessorio": "Manual dos movimentos precisos",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "28-34",
+      "acessorio": "Medalhão de Lena",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "35-40",
+      "acessorio": "Tomo da compreensão",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "41-46",
+      "acessorio": "Tomo da liderança e influência",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "47-52",
+      "acessorio": "Tomo dos grandes pensamentos",
+      "preco": "T$ 30.000"
+    },
+    {
+      "d_pct": "53-57",
+      "acessorio": "Anel refletor",
+      "preco": "T$ 51.000"
+    },
+    {
+      "d_pct": "58-60",
+      "acessorio": "Cinto do campeão",
+      "preco": "T$ 51.000"
+    },
+    {
+      "d_pct": "61-67",
+      "acessorio": "Colar guardião",
+      "preco": "T$ 51.000"
+    },
+    {
+      "d_pct": "68-72",
+      "acessorio": "Estatueta animista",
+      "preco": "T$ 51.000"
+    },
+    {
+      "d_pct": "73-77",
+      "acessorio": "Anel da liberdade",
+      "preco": "T$ 60.000"
+    },
+    {
+      "d_pct": "78-82",
+      "acessorio": "Tapete voador",
+      "preco": "T$ 60.000"
+    },
+    {
+      "d_pct": "83-87",
+      "acessorio": "Braceletes de ouro",
+      "preco": "T$ 64.500"
+    },
+    {
+      "d_pct": "88-89",
+      "acessorio": "Espelho da oposição",
+      "preco": "T$ 75.000"
+    },
+    {
+      "d_pct": "90-94",
+      "acessorio": "Robe do arquimago",
+      "preco": "T$ 90.000"
+    },
+    {
+      "d_pct": "95-96",
+      "acessorio": "Orbe das tempestades",
+      "preco": "T$ 97.500"
+    },
+    {
+      "d_pct": "97-98",
+      "acessorio": "Anel da regeneração",
+      "preco": "T$ 150.000"
+    },
+    {
+      "d_pct": "99-100",
+      "acessorio": "Espelho do aprisionamento",
+      "preco": "T$ 150.000"
+    }
+  ],
+  "mitos_tabela_1_1_novas_racas": [
+    {
+      "raca": "Alraune",
+      "modificadores": "Sab +2, Con +1, Int –1",
+      "longevidade": "Indefinida",
+      "devotos": "Allihanna, Azgher, Oceano, Tenebra"
+    },
+    {
+      "raca": "Amálgamo",
+      "modificadores": "Car –2",
+      "longevidade": "×0,7",
+      "devotos": "Megalokk, Nimb, Tanna-Toh, Tenebra"
+    },
+    {
+      "raca": "Arachne",
+      "modificadores": "Con +2, Des +1, Car –1",
+      "longevidade": "Normal",
+      "devotos": "Allihanna, Lena, Megalokk, Tenebra"
+    },
+    {
+      "raca": "Averiano",
+      "modificadores": "Sab +1, Int –2",
+      "longevidade": "×3",
+      "devotos": "Lin-Wu, Megalokk, Tanna-toh, Tenebra"
+    },
+    {
+      "raca": "Dampíro",
+      "modificadores": "Car +2, +1 em outro atributo, Con –1",
+      "longevidade": "×5",
+      "devotos": "Kallyadranoch, Tenebra, Wynna"
+    },
+    {
+      "raca": "Dagon",
+      "modificadores": "For +2, Sab +1, Des –1",
+      "longevidade": "×2",
+      "devotos": "Arsenal, Kallyadranoch, Khalmyr, Lin-Wu"
+    },
+    {
+      "raca": "Duplo",
+      "modificadores": "Des +2, Car +1, Sab –1",
+      "longevidade": "Normal",
+      "devotos": "Hyninn, Nimb, Sszzaas, Tenebra"
+    },
+    {
+      "raca": "Eirin",
+      "modificadores": "+1 em dois atributos",
+      "longevidade": "×3",
+      "devotos": "Azgher, Lin-wu, Tanna-Toh, Wynna"
+    },
+    {
+      "raca": "Entoma",
+      "modificadores": "+1 no atributo da família, +1 em dois atributos",
+      "longevidade": "×0,7",
+      "devotos": "Allihanna, Megalokk, Sszzaas, Tenebra"
+    },
+    {
+      "raca": "Envar",
+      "modificadores": "+1 em três atributos",
+      "longevidade": "Normal",
+      "devotos": "Azgher, Khalmyr, Lin-Wu, Thyatis"
+    },
+    {
+      "raca": "Espectro",
+      "modificadores": "Car +2, Des +1, Con –1",
+      "longevidade": "×5",
+      "devotos": "Tenebra"
+    },
+    {
+      "raca": "Forjado",
+      "modificadores": "For +2, Con +2, Des –1, Car –1",
+      "longevidade": "Indefinida",
+      "devotos": "Arsenal, Khalmyr, Lin-Wu"
+    },
+    {
+      "raca": "G'rokk",
+      "modificadores": "Con +3, For +2, Int –2, Des –1, Car –1",
+      "longevidade": "×3",
+      "devotos": "Allihanna, Megalokk"
+    },
+    {
+      "raca": "Homunculus",
+      "modificadores": "+1 em dois atributos",
+      "longevidade": "×0,7",
+      "devotos": "Especial"
+    },
+    {
+      "raca": "Jötun",
+      "modificadores": "Sab +2, Int +1, Des –1",
+      "longevidade": "×3",
+      "devotos": "Sszzaas, Tanna-Toh, Tenebra, Wynna"
+    },
+    {
+      "raca": "Oni",
+      "modificadores": "For +2, Con +1, Car –1",
+      "longevidade": "Normal",
+      "devotos": "Qualquer"
+    },
+    {
+      "raca": "Soberano",
+      "modificadores": "Especial",
+      "longevidade": "×3",
+      "devotos": "Kallyadranoch, Sszzaas, Tanna-Toh, Tenebra"
+    },
+    {
+      "raca": "Toskr",
+      "modificadores": "Int +2, +1 em outro atributo, Des –1",
+      "longevidade": "×0,7",
+      "devotos": "Arsenal, Hyninn, Tanna-Toh"
+    },
+    {
+      "raca": "Valquíria",
+      "modificadores": "Des +2, Con +1, Car –1",
+      "longevidade": "×5",
+      "devotos": "Arsenal, Khalmyr, Lin-Wu, Thyatis"
+    },
+    {
+      "raca": "Vanir",
+      "modificadores": "Car +2, Sab +1, For –1",
+      "longevidade": "×5",
+      "devotos": "Nenhum"
+    }
   ]
 }
