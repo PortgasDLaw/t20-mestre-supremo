@@ -35,7 +35,8 @@ src/
 ## Design system — ESTILO CENTRALIZADO (regra forte)
 A aparência é centralizada porque o estilo muda com frequência. **Nunca** escrever estilo hardcoded nas páginas — reutilizar os componentes abaixo.
 - `tailwind.config.js` — paleta (abyss/grimoire/gold/blood/parchment), fontes (Cinzel/Crimson), texturas, sombras, animações.
-- `src/components/ui/Ornate.tsx` — `OrnatePanel`, `OrnateDivider`, `AttributeChip`, `StatBox`, mapa `accentClasses` (gold|purple|blue|blood).
+- `src/components/ui/Ornate.tsx` — `OrnatePanel` (cantos = arte PNG em `public/ui/canto-*.png`; props `corners`/`cornerSize`), `OrnateDivider`, `AttributeChip`, `StatBox`, mapa `accentClasses` (gold|purple|blue|blood).
+- `public/ui/` — arte ornamental servida pelo Vite (cantos + `divisor-compendio.png` usado no sidebar). Fontes originais (alta-res) em `Design/`; reprocessar com PIL (recorte por alpha + downscale) ao gerar novas.
 - `src/components/ui/EntityDetail.tsx` — scaffold genérico de página de detalhe (breadcrumb + hero + abas + sidebar). Páginas só passam **dados** via props.
 - `src/components/ui/Modal.tsx` — usa OrnatePanel.
 - Guia "onde mudar o quê": [Docs/ESTILO-VISUAL.md](Docs/ESTILO-VISUAL.md).

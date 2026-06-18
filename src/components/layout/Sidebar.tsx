@@ -1,5 +1,7 @@
 import { useStore } from '@/store'
 import { cn } from '@/utils/cn'
+import { asset } from '@/lib/asset'
+import { OrnateCorners } from '@/components/ui/Ornate'
 import {
   LayoutDashboard, Sword, AlertTriangle, Sparkles, Skull, Dices,
   Shield, BookOpen, Users, Map, BookMarked, Wand2, Wrench, Search,
@@ -45,6 +47,9 @@ export function Sidebar() {
       'relative flex flex-col h-full border-r border-grimoire-600 bg-abyss-900 transition-all duration-300',
       collapsed ? 'w-16' : 'w-64'
     )}>
+      {/* Moldura ornamental ao redor do sidebar */}
+      <OrnateCorners sizeClass={collapsed ? 'w-8' : 'w-12'} />
+
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 py-5 border-b border-grimoire-600">
         <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
@@ -72,9 +77,17 @@ export function Sidebar() {
           return (
             <div key={group} className="mt-3">
               {!collapsed && (
-                <h2 className="px-4 pb-1 font-cinzel text-[0.65rem] uppercase tracking-widest text-gold-700">
-                  {group}
-                </h2>
+                group === 'Compêndio' ? (
+                  <img
+                    src={asset('ui/divisor-compendio.png')}
+                    alt="Compêndio"
+                    className="w-full px-2 py-1 select-none pointer-events-none"
+                  />
+                ) : (
+                  <h2 className="px-4 pb-1 font-cinzel text-[0.65rem] uppercase tracking-widest text-gold-700">
+                    {group}
+                  </h2>
+                )
               )}
               {collapsed && <div className="mx-3 my-2 h-px bg-grimoire-700" />}
               {itens.map(item => (

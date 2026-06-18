@@ -1,4 +1,5 @@
 import { cn } from '@/utils/cn'
+import { asset } from '@/lib/asset'
 
 export type AccentName = 'gold' | 'purple' | 'blue' | 'blood'
 
@@ -23,47 +24,46 @@ export function OrnatePanel({
   children,
   className,
   accent = 'gold',
+  corners = true,
+  cornerSize = 'w-14',
 }: {
   children: React.ReactNode
   className?: string
   accent?: Accent
+  /** Exibe os cantos ornamentais (PNG). Desative em painéis pequenos. */
+  corners?: boolean
+  /** Classe Tailwind de largura dos cantos (ex: 'w-10', 'w-16'). */
+  cornerSize?: string
 }) {
-  const ring = {
-    gold: 'border-gold-800/60',
-    purple: 'border-purple-700/60',
-    blue: 'border-blue-800/60',
-    blood: 'border-blood-muted/70',
-  }[accent]
-  const corner = {
-    gold: 'border-gold-600',
-    purple: 'border-purple-500',
-    blue: 'border-blue-500',
-    blood: 'border-blood-light',
-  }[accent]
+  // accent mantido na API para compatibilidade; o visual agora vem só dos cantos.
+  void accent
 
   return (
     <div
       className={cn(
-        'relative rounded-lg border bg-gradient-to-b from-abyss-800 to-abyss-900 bg-gothic-pattern shadow-inner-dark',
-        ring,
+        'relative rounded-lg bg-gradient-to-b from-abyss-800 to-abyss-900 bg-gothic-pattern shadow-inner-dark',
         className
       )}
     >
-      <Corners className={corner} />
+      {corners && <OrnateCorners sizeClass={cornerSize} />}
       {children}
     </div>
   )
 }
 
-/** Flourishes em L nos quatro cantos. */
-function Corners({ className }: { className: string }) {
-  const base = 'absolute w-4 h-4 pointer-events-none'
+/**
+ * Cantos ornamentais (arte PNG em public/ui/canto-*.png) ancorados nos 4 vértices
+ * do container `relative` mais próximo; o miolo é transparente. Servem de moldura
+ * (substituem a borda retangular). Reutilizável em painéis, sidebar, etc.
+ */
+export function OrnateCorners({ sizeClass = 'w-14' }: { sizeClass?: string }) {
+  const base = cn('absolute h-auto pointer-events-none select-none z-10', sizeClass)
   return (
     <>
-      <span className={cn(base, 'top-1.5 left-1.5 border-t-2 border-l-2 rounded-tl-sm', className)} />
-      <span className={cn(base, 'top-1.5 right-1.5 border-t-2 border-r-2 rounded-tr-sm', className)} />
-      <span className={cn(base, 'bottom-1.5 left-1.5 border-b-2 border-l-2 rounded-bl-sm', className)} />
-      <span className={cn(base, 'bottom-1.5 right-1.5 border-b-2 border-r-2 rounded-br-sm', className)} />
+      <img src={asset('ui/canto-tl.png')} alt="" aria-hidden className={cn(base, 'top-0 left-0')} />
+      <img src={asset('ui/canto-tr.png')} alt="" aria-hidden className={cn(base, 'top-0 right-0')} />
+      <img src={asset('ui/canto-bl.png')} alt="" aria-hidden className={cn(base, 'bottom-0 left-0')} />
+      <img src={asset('ui/canto-br.png')} alt="" aria-hidden className={cn(base, 'bottom-0 right-0')} />
     </>
   )
 }
