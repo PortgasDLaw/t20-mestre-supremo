@@ -9,6 +9,8 @@ import { useState } from 'react'
 
 type NavItem = { id: string; label: string; icon: React.ElementType; group?: string }
 
+const GROUP_ORDER = ['Compêndio', 'Mitos de Arton', 'Ferramentas', 'Campanha'] as const
+
 const navItems: NavItem[] = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { id: 'racas', label: 'Raças', icon: Feather, group: 'Compêndio' },
@@ -58,29 +60,27 @@ export function Sidebar() {
 
       {/* Nav */}
       <nav className="flex-1 overflow-y-auto py-2 scrollbar-thin">
-        {navItems.map(({ id, label, icon: Icon }) => {
-          const active = paginaAtual === id
+        {/* Itens sem grupo (ex: Dashboard) */}
+        {navItems.filter(item => !item.group).map(item => (
+          <NavButton key={item.id} item={item} active={paginaAtual === item.id} collapsed={collapsed} onClick={() => setPaginaAtual(item.id)} />
+        ))}
+
+        {/* Seções agrupadas */}
+        {GROUP_ORDER.map(group => {
+          const itens = navItems.filter(item => item.group === group)
+          if (itens.length === 0) return null
           return (
-            <button
-              key={id}
-              onClick={() => setPaginaAtual(id)}
-              className={cn(
-                'w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150 group relative',
-                active
-                  ? 'bg-grimoire-700 text-gold border-r-2 border-gold'
-                  : 'text-parchment-muted hover:bg-grimoire-800 hover:text-parchment'
-              )}
-            >
-              <Icon className={cn('w-4 h-4 flex-shrink-0', active ? 'text-gold' : 'text-grimoire-500 group-hover:text-gold-600')} />
+            <div key={group} className="mt-3">
               {!collapsed && (
-                <span className="font-crimson text-sm">{label}</span>
+                <h2 className="px-4 pb-1 font-cinzel text-[0.65rem] uppercase tracking-widest text-gold-700">
+                  {group}
+                </h2>
               )}
-              {collapsed && (
-                <div className="absolute left-14 bg-grimoire-700 text-parchment text-xs px-2 py-1 rounded border border-grimoire-600 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
-                  {label}
-                </div>
-              )}
-            </button>
+              {collapsed && <div className="mx-3 my-2 h-px bg-grimoire-700" />}
+              {itens.map(item => (
+                <NavButton key={item.id} item={item} active={paginaAtual === item.id} collapsed={collapsed} onClick={() => setPaginaAtual(item.id)} />
+              ))}
+            </div>
           )
         })}
       </nav>
@@ -93,5 +93,35 @@ export function Sidebar() {
         {collapsed ? <ChevronRight className="w-4 h-4" /> : <ChevronLeft className="w-4 h-4" />}
       </button>
     </aside>
+  )
+}
+
+function NavButton({ item, active, collapsed, onClick }: {
+  item: NavItem
+  active: boolean
+  collapsed: boolean
+  onClick: () => void
+}) {
+  const { icon: Icon, label } = item
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        'w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150 group relative',
+        active
+          ? 'bg-grimoire-700 text-gold border-r-2 border-gold'
+          : 'text-parchment-muted hover:bg-grimoire-800 hover:text-parchment'
+      )}
+    >
+      <Icon className={cn('w-4 h-4 flex-shrink-0', active ? 'text-gold' : 'text-grimoire-500 group-hover:text-gold-600')} />
+      {!collapsed && (
+        <span className="font-crimson text-sm">{label}</span>
+      )}
+      {collapsed && (
+        <div className="absolute left-14 bg-grimoire-700 text-parchment text-xs px-2 py-1 rounded border border-grimoire-600 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
+          {label}
+        </div>
+      )}
+    </button>
   )
 }
