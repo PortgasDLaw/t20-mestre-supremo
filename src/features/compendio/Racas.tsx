@@ -2,28 +2,8 @@ import { useState, useMemo } from 'react'
 import racasData from '@/data/racas.json'
 import { Input } from '@/components/ui/Input'
 import { Badge } from '@/components/ui/Badge'
-import { Modal } from '@/components/ui/Modal'
-import { Search, Shield, Star, ChevronDown, ChevronUp } from 'lucide-react'
-
-interface Habilidade {
-  nome: string
-  descricao: string
-}
-
-interface Raca {
-  id: string
-  nome: string
-  tipo: string
-  fonte?: string
-  imagem: string
-  atributos: string
-  descricao: string
-  habilidades: Habilidade[]
-  deus?: string
-  tamanho: string
-  deslocamento: string
-  idiomas?: string[]
-}
+import { RacaDetalhe, type Raca } from './RacaDetalhe'
+import { Search, Shield, Star } from 'lucide-react'
 
 const racas: Raca[] = (racasData as any).racas || (racasData as any)
 
@@ -32,7 +12,6 @@ export default function Racas() {
   const [filtroTipo, setFiltroTipo] = useState<'todas' | 'comum' | 'rara'>('todas')
   const [filtroFonte, setFiltroFonte] = useState<'todas' | 'Tormenta 20' | 'Mitos de Arton'>('todas')
   const [selecionada, setSelecionada] = useState<Raca | null>(null)
-  const [expandida, setExpandida] = useState<string | null>(null)
 
   const filtradas = useMemo(() =>
     racas.filter(r => {
@@ -45,6 +24,10 @@ export default function Racas() {
 
   const comuns = filtradas.filter(r => r.tipo === 'comum')
   const raras = filtradas.filter(r => r.tipo === 'rara')
+
+  if (selecionada) {
+    return <RacaDetalhe raca={selecionada} onBack={() => setSelecionada(null)} />
+  }
 
   return (
     <div className="space-y-6">
@@ -142,99 +125,6 @@ export default function Racas() {
         </section>
       )}
 
-      {/* Modal de detalhes */}
-      {selecionada && (
-        <Modal
-          open={!!selecionada}
-          onClose={() => setSelecionada(null)}
-          title={selecionada.nome}
-          size="lg"
-        >
-          <div className="space-y-5">
-            <div className="flex gap-3">
-              <Badge variant={selecionada.tipo === 'rara' ? 'purple' : 'gold'}>
-                {selecionada.tipo === 'rara' ? 'Raça Rara' : 'Raça Comum'}
-              </Badge>
-              {selecionada.deus && (
-                <Badge variant="gray">Divindade: {selecionada.deus}</Badge>
-              )}
-            </div>
-
-            {/* Imagem e info básica */}
-            <div className="flex gap-4">
-              {selecionada.imagem && (
-                <div className="flex-shrink-0 w-36 h-44 rounded-lg overflow-hidden border border-grimoire-600 bg-abyss-900">
-                  <img
-                    src={selecionada.imagem}
-                    alt={selecionada.nome}
-                    className="w-full h-full object-cover object-top"
-                    onError={e => { (e.target as HTMLImageElement).style.display = 'none' }}
-                  />
-                </div>
-              )}
-              <div className="flex-1 space-y-3">
-                <p className="font-crimson text-parchment leading-relaxed">{selecionada.descricao}</p>
-                <div className="grid grid-cols-2 gap-2 text-xs">
-                  <div className="bg-grimoire-800 rounded p-2">
-                    <p className="text-parchment-dark">Tamanho</p>
-                    <p className="text-parchment font-semibold">{selecionada.tamanho}</p>
-                  </div>
-                  <div className="bg-grimoire-800 rounded p-2">
-                    <p className="text-parchment-dark">Deslocamento</p>
-                    <p className="text-parchment font-semibold">{selecionada.deslocamento}</p>
-                  </div>
-                  <div className="bg-grimoire-800 rounded p-2 col-span-2">
-                    <p className="text-parchment-dark">Atributos</p>
-                    <p className="text-gold font-semibold">{selecionada.atributos}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Habilidades */}
-            {selecionada.habilidades.length > 0 && (
-              <div>
-                <h4 className="font-cinzel text-gold text-sm mb-3 border-b border-grimoire-600 pb-1">
-                  Habilidades Raciais
-                </h4>
-                <div className="space-y-2">
-                  {selecionada.habilidades.map((hab, i) => (
-                    <div key={i} className="bg-grimoire-800 rounded-lg p-3">
-                      <button
-                        className="w-full flex items-center justify-between"
-                        onClick={() => setExpandida(expandida === `${selecionada.id}-${i}` ? null : `${selecionada.id}-${i}`)}
-                      >
-                        <span className="font-cinzel text-parchment text-sm font-semibold">{hab.nome}</span>
-                        {expandida === `${selecionada.id}-${i}`
-                          ? <ChevronUp className="w-4 h-4 text-gold" />
-                          : <ChevronDown className="w-4 h-4 text-grimoire-500" />
-                        }
-                      </button>
-                      {expandida === `${selecionada.id}-${i}` && (
-                        <p className="font-crimson text-parchment-muted text-sm mt-2 leading-relaxed">
-                          {hab.descricao}
-                        </p>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Idiomas */}
-            {selecionada.idiomas && selecionada.idiomas.length > 0 && (
-              <div>
-                <h4 className="font-cinzel text-gold text-sm mb-2">Idiomas</h4>
-                <div className="flex flex-wrap gap-1">
-                  {selecionada.idiomas.map((idioma, i) => (
-                    <Badge key={i} variant="gray">{idioma}</Badge>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-        </Modal>
-      )}
     </div>
   )
 }
