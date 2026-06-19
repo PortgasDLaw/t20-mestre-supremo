@@ -76,14 +76,9 @@ export default function Magias() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
               {lista.map(magia => (
-                <div key={magia.id} className="relative cursor-pointer hover:brightness-110 transition-all"
-                  onClick={() => setSelecionada(magia)}>
-                  <img
-                    src={asset(magia.tipo === 'arcana' ? 'ui/moldura-rara.png' : 'ui/moldura-epica.png')}
-                    aria-hidden
-                    className="absolute inset-0 w-full h-full object-fill pointer-events-none"
-                  />
-                  <div className="relative z-10 px-5 py-4">
+                <div key={magia.id} className="relative">
+                  <div onClick={() => setSelecionada(magia)}
+                    className="bg-abyss-800 border border-grimoire-600 rounded-lg p-3 cursor-pointer hover:border-gold-700 hover:shadow-gold-sm transition-all h-full">
                     <div className="flex items-start justify-between mb-1">
                       <h3 className="font-cinzel font-semibold text-parchment text-sm">{magia.nome}</h3>
                       <Badge variant={magia.tipo === 'arcana' ? 'purple' : 'gold'}>
@@ -99,6 +94,11 @@ export default function Magias() {
                     </div>
                     <p className="text-parchment-muted font-crimson text-xs line-clamp-2">{magia.descricao}</p>
                   </div>
+                  <img
+                    src={asset(magia.tipo === 'arcana' ? 'ui/moldura-rara.png' : 'ui/moldura-epica.png')}
+                    aria-hidden
+                    className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-80"
+                  />
                 </div>
               ))}
             </div>
