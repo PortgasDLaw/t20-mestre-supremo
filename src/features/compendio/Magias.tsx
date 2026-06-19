@@ -6,7 +6,6 @@ import { Badge } from '@/components/ui/Badge'
 import { Modal } from '@/components/ui/Modal'
 import { Select } from '@/components/ui/Input'
 import { Search, Sparkles, Zap } from 'lucide-react'
-import { asset } from '@/lib/asset'
 import type { Magia } from '@/types'
 
 const magias: Magia[] = magiasData as Magia[]
@@ -76,29 +75,22 @@ export default function Magias() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
               {lista.map(magia => (
-                <div key={magia.id} className="relative">
-                  <div onClick={() => setSelecionada(magia)}
-                    className="bg-abyss-800 border border-grimoire-600 rounded-lg p-3 cursor-pointer hover:border-gold-700 hover:shadow-gold-sm transition-all h-full">
-                    <div className="flex items-start justify-between mb-1">
-                      <h3 className="font-cinzel font-semibold text-parchment text-sm">{magia.nome}</h3>
-                      <Badge variant={magia.tipo === 'arcana' ? 'purple' : 'gold'}>
-                        {magia.tipo}
-                      </Badge>
-                    </div>
-                    <p className="text-parchment-dark text-xs mb-2">{magia.escola}</p>
-                    <div className="grid grid-cols-2 gap-1 text-xs mb-2">
-                      <span className="text-parchment-muted">PM: <span className="text-gold font-semibold">{magia.pm}</span></span>
-                      <span className="text-parchment-muted">Exec: <span className="text-parchment">{magia.execucao}</span></span>
-                      <span className="text-parchment-muted">Alcance: <span className="text-parchment">{magia.alcance}</span></span>
-                      <span className="text-parchment-muted">Duração: <span className="text-parchment">{magia.duracao}</span></span>
-                    </div>
-                    <p className="text-parchment-muted font-crimson text-xs line-clamp-2">{magia.descricao}</p>
+                <div key={magia.id} onClick={() => setSelecionada(magia)}
+                  className="bg-abyss-800 border border-grimoire-600 rounded-lg p-3 cursor-pointer hover:border-gold-700 hover:shadow-gold-sm transition-all">
+                  <div className="flex items-start justify-between mb-1">
+                    <h3 className="font-cinzel font-semibold text-parchment text-sm">{magia.nome}</h3>
+                    <Badge variant={magia.tipo === 'arcana' ? 'purple' : 'gold'}>
+                      {magia.tipo}
+                    </Badge>
                   </div>
-                  <img
-                    src={asset(magia.tipo === 'arcana' ? 'ui/moldura-rara.png' : 'ui/moldura-epica.png')}
-                    aria-hidden
-                    className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-80"
-                  />
+                  <p className="text-parchment-dark text-xs mb-2">{magia.escola}</p>
+                  <div className="grid grid-cols-2 gap-1 text-xs mb-2">
+                    <span className="text-parchment-muted">PM: <span className="text-gold font-semibold">{magia.pm}</span></span>
+                    <span className="text-parchment-muted">Exec: <span className="text-parchment">{magia.execucao}</span></span>
+                    <span className="text-parchment-muted">Alcance: <span className="text-parchment">{magia.alcance}</span></span>
+                    <span className="text-parchment-muted">Duração: <span className="text-parchment">{magia.duracao}</span></span>
+                  </div>
+                  <p className="text-parchment-muted font-crimson text-xs line-clamp-2">{magia.descricao}</p>
                 </div>
               ))}
             </div>
