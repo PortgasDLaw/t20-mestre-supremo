@@ -50,11 +50,11 @@ export default function Condicoes() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
         {filtradas.map(condicao => (
-          <div key={condicao.id} className="relative">
-            <div
-              onClick={() => setSelecionada(condicao)}
-              className={`bg-abyss-800 border rounded-lg p-4 cursor-pointer hover:border-gold-700 transition-all duration-150 hover:shadow-gold-sm ${bgCorMap[condicao.cor] ?? 'border-grimoire-600'}`}
-            >
+          <div key={condicao.id} className="relative cursor-pointer hover:brightness-110 transition-all"
+            onClick={() => setSelecionada(condicao)}>
+            <img src={asset('ui/moldura-exotica.png')} aria-hidden
+              className="absolute inset-0 w-full h-full object-fill pointer-events-none" />
+            <div className="relative z-10 px-5 py-4">
               <div className="flex items-start justify-between mb-2">
                 <h3 className="font-cinzel font-bold text-parchment">{condicao.nome}</h3>
                 <AlertTriangle className={`w-4 h-4 flex-shrink-0 ml-2 ${condicao.cor === 'red' ? 'text-blood-light' : 'text-gold'}`} />
@@ -69,8 +69,6 @@ export default function Condicoes() {
                 )}
               </div>
             </div>
-            <img src={asset('ui/moldura-exotica.png')} aria-hidden
-              className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-80" />
           </div>
         ))}
       </div>

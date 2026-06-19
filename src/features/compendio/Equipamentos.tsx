@@ -1,6 +1,5 @@
 import { useState, useMemo } from 'react'
 import equipamentosData from '@/data/equipamentos.json'
-import { Card } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Badge } from '@/components/ui/Badge'
 import { Modal } from '@/components/ui/Modal'
@@ -107,31 +106,32 @@ export default function Equipamentos() {
         {filtrados.map(item => {
           const i = item as any
           return (
-            <div key={item.id} className="relative">
-            <Card onClick={() => setSelecionado(item)} glow>
-              <div className="flex items-start justify-between mb-2">
-                <h3 className="font-cinzel font-semibold text-parchment text-sm leading-tight pr-2">{item.nome}</h3>
-                <Badge variant={getBadgeVariant(item.categoria)}>{categoriaBadge[item.categoria] ?? item.categoria}</Badge>
+            <div key={item.id} className="relative cursor-pointer hover:brightness-110 transition-all"
+              onClick={() => setSelecionado(item)}>
+              <img src={asset('ui/moldura-normal.png')} aria-hidden
+                className="absolute inset-0 w-full h-full object-fill pointer-events-none" />
+              <div className="relative z-10 px-5 py-4">
+                <div className="flex items-start justify-between mb-2">
+                  <h3 className="font-cinzel font-semibold text-parchment text-sm leading-tight pr-2">{item.nome}</h3>
+                  <Badge variant={getBadgeVariant(item.categoria)}>{categoriaBadge[item.categoria] ?? item.categoria}</Badge>
+                </div>
+                <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs mb-3">
+                  <span className="text-parchment-muted">Preço: <span className="text-gold font-semibold">{item.preco}</span></span>
+                  <span className="text-parchment-muted">Espaços: <span className="text-parchment">{i.espacos ?? '—'}</span></span>
+                  {i.dano && <span className="text-parchment-muted">Dano: <span className="text-blood-light font-semibold">{i.dano}</span></span>}
+                  {i.critico && <span className="text-parchment-muted">Crítico: <span className="text-parchment">{i.critico}</span></span>}
+                  {i.defesa && <span className="text-parchment-muted">Defesa: <span className="text-blue-400 font-semibold">{i.defesa}</span></span>}
+                  {i.penalidade && i.penalidade !== '0' && <span className="text-parchment-muted">Penalid.: <span className="text-red-400">{i.penalidade}</span></span>}
+                </div>
+                <div className="flex flex-wrap gap-1">
+                  {i.proficiencia && <Badge variant={getProfBadgeVariant(i.proficiencia)}>{i.proficiencia}</Badge>}
+                  {i.tipoDano && <Badge variant="gray">{i.tipoDano}</Badge>}
+                  {i.empunhadura && <Badge variant="gray">{i.empunhadura}</Badge>}
+                  {i.tipo && item.categoria !== 'arma' && item.categoria !== 'armadura' && item.categoria !== 'escudo' && (
+                    <Badge variant="gray">{i.tipo}</Badge>
+                  )}
+                </div>
               </div>
-              <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs mb-3">
-                <span className="text-parchment-muted">Preço: <span className="text-gold font-semibold">{item.preco}</span></span>
-                <span className="text-parchment-muted">Espaços: <span className="text-parchment">{i.espacos ?? '—'}</span></span>
-                {i.dano && <span className="text-parchment-muted">Dano: <span className="text-blood-light font-semibold">{i.dano}</span></span>}
-                {i.critico && <span className="text-parchment-muted">Crítico: <span className="text-parchment">{i.critico}</span></span>}
-                {i.defesa && <span className="text-parchment-muted">Defesa: <span className="text-blue-400 font-semibold">{i.defesa}</span></span>}
-                {i.penalidade && i.penalidade !== '0' && <span className="text-parchment-muted">Penalid.: <span className="text-red-400">{i.penalidade}</span></span>}
-              </div>
-              <div className="flex flex-wrap gap-1">
-                {i.proficiencia && <Badge variant={getProfBadgeVariant(i.proficiencia)}>{i.proficiencia}</Badge>}
-                {i.tipoDano && <Badge variant="gray">{i.tipoDano}</Badge>}
-                {i.empunhadura && <Badge variant="gray">{i.empunhadura}</Badge>}
-                {i.tipo && item.categoria !== 'arma' && item.categoria !== 'armadura' && item.categoria !== 'escudo' && (
-                  <Badge variant="gray">{i.tipo}</Badge>
-                )}
-              </div>
-            </Card>
-            <img src={asset('ui/moldura-normal.png')} aria-hidden
-              className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-80" />
             </div>
           )
         })}
