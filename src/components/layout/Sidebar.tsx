@@ -81,12 +81,16 @@ export function Sidebar() {
                   <img
                     src={asset('ui/divisor-compendio.png')}
                     alt="Compêndio"
-                    className="w-full px-2 py-1 select-none pointer-events-none"
+                    className="w-full px-2 py-1 select-none pointer-events-none animate-fade-in"
                   />
                 ) : (
-                  <h2 className="px-4 pb-1 font-cinzel text-[0.65rem] uppercase tracking-widest text-gold-700">
-                    {group}
-                  </h2>
+                  <div className="flex items-center gap-2 px-3 py-1 select-none pointer-events-none animate-fade-in">
+                    <div className="flex-1 h-px bg-gradient-to-r from-transparent to-gold-800/30" />
+                    <span className="font-cinzel text-[0.65rem] uppercase tracking-widest text-gold-600 font-bold whitespace-nowrap">
+                      {group}
+                    </span>
+                    <div className="flex-1 h-px bg-gradient-to-l from-transparent to-gold-800/30" />
+                  </div>
                 )
               )}
               {collapsed && <div className="mx-3 my-2 h-px bg-grimoire-700" />}

@@ -23,6 +23,11 @@ Formato da entrada:
 
 ## Histórico (mais novo primeiro)
 
+### 2026-06-18 — Claude (Sonnet 3.5)
+- **Fiz:** Melhorei o visual das raças, classes e do menu lateral. (1) Imagens das raças e classes consertadas de 404 consumindo com `asset()`. (2) Integrei as molduras medievais de raridade (`moldura-normal.png`, `moldura-rara.png`, `moldura-epica.png`, `moldura-exotica.png`) como overlays nos cards de Classe, cards de Raça e no retrato principal da página de detalhes. (3) Menu lateral: estilizei as seções sem divisores ("Mitos de Arton", "Ferramentas", "Campanha") com uma divisória elegante em CSS com gradiente dourado centralizado.
+- **Arquivos:** `src/features/compendio/Racas.tsx`, `src/features/compendio/Classes.tsx`, `src/components/ui/EntityDetail.tsx`, `src/components/layout/Sidebar.tsx`, `Docs/DIARIO-IA.md`.
+- **Pendente / atenção:** O site agora conta com um acabamento muito mais profissional e imersivo, com os retratos emoldurados e as seções do menu estilizadas perfeitamente.
+
 ### 2026-06-18 — Claude (Opus 4.8)
 - **Fiz:** Integrei arte ornamental do usuário. (1) Processei os PNGs de `Design/` (recorte por alpha, preto→transparente no divisor, downscale) gerando `public/ui/canto-{tl,tr,bl,br}.png` e `public/ui/divisor-compendio.png`. (2) Sidebar: cabeçalho do grupo "Compêndio" agora usa o divisor (imagem) em vez do texto. (3) `OrnatePanel`: cantos CSS substituídos pelos PNGs reais (novas props `corners` e `cornerSize`).
 - **Arquivos:** `public/ui/*`, `src/components/layout/Sidebar.tsx`, `src/components/ui/Ornate.tsx`, `src/lib/asset.ts` (novo).

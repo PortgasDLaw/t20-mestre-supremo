@@ -3,8 +3,17 @@ import classesData from '@/data/classes.json'
 import { Input } from '@/components/ui/Input'
 import { Search, Swords, BookOpen, Zap } from 'lucide-react'
 import { ClasseDetalhe, getAtributoCor, type Classe } from './ClasseDetalhe'
+import { asset } from '@/lib/asset'
 
 const classes: Classe[] = (classesData as any).classes || (classesData as any)
+
+function getMolduraClasse(classeNome: string): string {
+  const nome = classeNome.toLowerCase()
+  if (['arcanista', 'mago', 'bruxo'].includes(nome)) return 'ui/moldura-exotica.png'
+  if (['druida', 'clérigo', 'bardo'].includes(nome)) return 'ui/moldura-epica.png'
+  if (['paladino', 'inventor'].includes(nome)) return 'ui/moldura-rara.png'
+  return 'ui/moldura-normal.png'
+}
 
 export default function Classes() {
   const [busca, setBusca] = useState('')
@@ -57,22 +66,31 @@ export default function Classes() {
 }
 
 function ClasseCard({ classe, onSelect }: { classe: Classe; onSelect: () => void }) {
+  const moldura = getMolduraClasse(classe.nome)
+
   return (
     <div
       onClick={onSelect}
-      className="group relative overflow-hidden rounded-xl border border-grimoire-600 hover:border-gold-700 bg-gradient-to-b from-abyss-800 to-abyss-900 cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-lg"
+      className="group relative overflow-hidden rounded-xl border border-grimoire-600 hover:border-gold-700 bg-gradient-to-b from-abyss-800 to-abyss-900 cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-lg shadow-inner-dark"
     >
       {/* Imagem */}
       {classe.imagem && (
-        <div className="h-44 overflow-hidden bg-abyss-950">
+        <div className="h-44 overflow-hidden bg-abyss-950 relative">
           <img
-            src={classe.imagem}
+            src={asset(classe.imagem)}
             alt={classe.nome}
             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
             onError={e => {
               const el = e.target as HTMLImageElement
               el.parentElement!.style.display = 'none'
             }}
+          />
+          {/* Overlay Moldura Medieval */}
+          <img
+            src={asset(moldura)}
+            alt=""
+            aria-hidden
+            className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-90 group-hover:opacity-100 transition-opacity"
           />
         </div>
       )}

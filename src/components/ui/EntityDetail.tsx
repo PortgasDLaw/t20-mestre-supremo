@@ -2,6 +2,14 @@ import { useState, type ReactNode } from 'react'
 import { ChevronRight } from 'lucide-react'
 import { Badge } from '@/components/ui/Badge'
 import { OrnatePanel, StatBox, accentClasses, type AccentName } from '@/components/ui/Ornate'
+import { asset } from '@/lib/asset'
+
+const molduraPorAccent: Record<AccentName, string> = {
+  gold: 'ui/moldura-normal.png',
+  purple: 'ui/moldura-epica.png',
+  blue: 'ui/moldura-rara.png',
+  blood: 'ui/moldura-exotica.png',
+}
 
 /**
  * Scaffold genérico de página de detalhe (hero + abas + sidebar).
@@ -80,15 +88,22 @@ export function EntityDetail({
             <div className="flex flex-col sm:flex-row gap-5">
               {image && (
                 <div className="flex-shrink-0 mx-auto sm:mx-0">
-                  <div className={`w-44 h-56 rounded-lg overflow-hidden border-2 ${ac.borderSoft} bg-abyss-950 shadow-gold-sm`}>
+                  <div className={`w-44 h-56 rounded-lg overflow-hidden border-2 ${ac.borderSoft} bg-abyss-950 shadow-gold-sm relative`}>
                     <img
-                      src={image}
+                      src={asset(image)}
                       alt={title}
                       className="w-full h-full object-cover object-top"
                       onError={e => {
                         const el = e.target as HTMLImageElement
                         el.parentElement!.parentElement!.style.display = 'none'
                       }}
+                    />
+                    {/* Overlay Moldura de Raridade no Detalhe */}
+                    <img
+                      src={asset(molduraPorAccent[accent])}
+                      alt=""
+                      aria-hidden
+                      className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-95"
                     />
                   </div>
                 </div>

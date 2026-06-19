@@ -4,6 +4,7 @@ import { Input } from '@/components/ui/Input'
 import { Badge } from '@/components/ui/Badge'
 import { RacaDetalhe, type Raca } from './RacaDetalhe'
 import { Search, Shield, Star } from 'lucide-react'
+import { asset } from '@/lib/asset'
 
 const racas: Raca[] = (racasData as any).racas || (racasData as any)
 
@@ -130,10 +131,12 @@ export default function Racas() {
 }
 
 function RacaCard({ raca, onSelect, isRara }: { raca: Raca; onSelect: () => void; isRara?: boolean }) {
+  const moldura = isRara ? 'ui/moldura-epica.png' : 'ui/moldura-normal.png'
+
   return (
     <div
       onClick={onSelect}
-      className={`group relative overflow-hidden rounded-xl border cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${
+      className={`group relative overflow-hidden rounded-xl border cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-lg shadow-inner-dark ${
         isRara
           ? 'border-purple-700 hover:border-purple-500 bg-gradient-to-b from-purple-950/40 to-abyss-900'
           : 'border-grimoire-600 hover:border-gold-700 bg-gradient-to-b from-abyss-800 to-abyss-900'
@@ -141,15 +144,22 @@ function RacaCard({ raca, onSelect, isRara }: { raca: Raca; onSelect: () => void
     >
       {/* Imagem */}
       {raca.imagem && (
-        <div className="h-40 overflow-hidden bg-abyss-950">
+        <div className="h-40 overflow-hidden bg-abyss-950 relative">
           <img
-            src={raca.imagem}
+            src={asset(raca.imagem)}
             alt={raca.nome}
             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
             onError={e => {
               const el = e.target as HTMLImageElement
               el.parentElement!.style.display = 'none'
             }}
+          />
+          {/* Overlay Moldura Medieval */}
+          <img
+            src={asset(moldura)}
+            alt=""
+            aria-hidden
+            className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-90 group-hover:opacity-100 transition-opacity"
           />
         </div>
       )}
