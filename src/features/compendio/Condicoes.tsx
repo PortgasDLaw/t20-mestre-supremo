@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/Input'
 import { Modal } from '@/components/ui/Modal'
 import { Badge } from '@/components/ui/Badge'
 import { Search, AlertTriangle, CheckCircle } from 'lucide-react'
+import { asset } from '@/lib/asset'
 import type { Condicao } from '@/types'
 
 const corMap: Record<string, 'gold' | 'blood' | 'gray' | 'green' | 'blue' | 'purple'> = {
@@ -49,24 +50,27 @@ export default function Condicoes() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
         {filtradas.map(condicao => (
-          <div
-            key={condicao.id}
-            onClick={() => setSelecionada(condicao)}
-            className={`bg-abyss-800 border rounded-lg p-4 cursor-pointer hover:border-gold-700 transition-all duration-150 hover:shadow-gold-sm ${bgCorMap[condicao.cor] ?? 'border-grimoire-600'}`}
-          >
-            <div className="flex items-start justify-between mb-2">
-              <h3 className="font-cinzel font-bold text-parchment">{condicao.nome}</h3>
-              <AlertTriangle className={`w-4 h-4 flex-shrink-0 ml-2 ${condicao.cor === 'red' ? 'text-blood-light' : 'text-gold'}`} />
+          <div key={condicao.id} className="relative">
+            <div
+              onClick={() => setSelecionada(condicao)}
+              className={`bg-abyss-800 border rounded-lg p-4 cursor-pointer hover:border-gold-700 transition-all duration-150 hover:shadow-gold-sm ${bgCorMap[condicao.cor] ?? 'border-grimoire-600'}`}
+            >
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="font-cinzel font-bold text-parchment">{condicao.nome}</h3>
+                <AlertTriangle className={`w-4 h-4 flex-shrink-0 ml-2 ${condicao.cor === 'red' ? 'text-blood-light' : 'text-gold'}`} />
+              </div>
+              <p className="font-crimson text-parchment-muted text-sm line-clamp-2 mb-2">{condicao.descricao}</p>
+              <div className="space-y-0.5">
+                {condicao.penalidades.slice(0, 2).map((p, i) => (
+                  <p key={i} className="text-xs text-red-400 font-crimson">• {p}</p>
+                ))}
+                {condicao.penalidades.length > 2 && (
+                  <p className="text-xs text-grimoire-500">+{condicao.penalidades.length - 2} mais...</p>
+                )}
+              </div>
             </div>
-            <p className="font-crimson text-parchment-muted text-sm line-clamp-2 mb-2">{condicao.descricao}</p>
-            <div className="space-y-0.5">
-              {condicao.penalidades.slice(0, 2).map((p, i) => (
-                <p key={i} className="text-xs text-red-400 font-crimson">• {p}</p>
-              ))}
-              {condicao.penalidades.length > 2 && (
-                <p className="text-xs text-grimoire-500">+{condicao.penalidades.length - 2} mais...</p>
-              )}
-            </div>
+            <img src={asset('ui/moldura-exotica.png')} aria-hidden
+              className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-80" />
           </div>
         ))}
       </div>

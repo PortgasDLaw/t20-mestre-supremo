@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/Input'
 import { Badge } from '@/components/ui/Badge'
 import { Modal } from '@/components/ui/Modal'
 import { Search } from 'lucide-react'
+import { asset } from '@/lib/asset'
 import type { Equipamento } from '@/types'
 
 type Categoria = 'todos' | 'arma' | 'armadura' | 'escudo' | 'itemGeral' | 'municao' | 'pocaoOuPergaminho'
@@ -106,7 +107,8 @@ export default function Equipamentos() {
         {filtrados.map(item => {
           const i = item as any
           return (
-            <Card key={item.id} onClick={() => setSelecionado(item)} glow>
+            <div key={item.id} className="relative">
+            <Card onClick={() => setSelecionado(item)} glow>
               <div className="flex items-start justify-between mb-2">
                 <h3 className="font-cinzel font-semibold text-parchment text-sm leading-tight pr-2">{item.nome}</h3>
                 <Badge variant={getBadgeVariant(item.categoria)}>{categoriaBadge[item.categoria] ?? item.categoria}</Badge>
@@ -128,6 +130,9 @@ export default function Equipamentos() {
                 )}
               </div>
             </Card>
+            <img src={asset('ui/moldura-normal.png')} aria-hidden
+              className="absolute inset-0 w-full h-full object-fill pointer-events-none z-10 opacity-80" />
+            </div>
           )
         })}
       </div>
