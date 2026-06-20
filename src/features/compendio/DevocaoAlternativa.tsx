@@ -38,15 +38,7 @@ function buildAll(): DevItem[] {
   const all: DevItem[] = []
   const d = data as any
 
-  if (d.glorienn) {
-    all.push({
-      ...d.glorienn,
-      _type: 'glorienn',
-      nome: d.glorienn.nome,
-      titulo: d.glorienn.epiteto,
-      divindade: d.glorienn.nome,
-    })
-  }
+  // Glorienn é uma deusa — aparece na aba "Deuses", não aqui
 
   ;(d.novosDruidas || []).forEach((item: any) => {
     all.push({
@@ -136,13 +128,13 @@ export default function DevocaoAlternativa() {
     return g
   }, [filtrados])
 
-  const tipos: ItemType[] = ['glorienn', 'druida', 'paladino', 'vingador', 'devocao']
+  const tipos: ItemType[] = ['druida', 'paladino', 'vingador', 'devocao']
 
   return (
     <div className="space-y-4">
       <div className="border-b border-grimoire-600 pb-4">
-        <h1 className="font-cinzel font-bold text-2xl text-gold">Deuses & Devotos</h1>
-        <p className="font-crimson text-parchment-muted mt-1">Novos druidas, paladinos, vingadores, Glórienn e devoções alternativas de Mitos de Arton</p>
+        <h1 className="font-cinzel font-bold text-2xl text-gold">Devotos</h1>
+        <p className="font-crimson text-parchment-muted mt-1">Novos druidas, paladinos, vingadores e devoções alternativas de Mitos de Arton</p>
       </div>
 
       <div className="space-y-3">

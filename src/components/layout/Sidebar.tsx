@@ -1,41 +1,44 @@
 import { useStore } from '@/store'
 import { cn } from '@/utils/cn'
-import { asset } from '@/lib/asset'
+import { Icon } from '@/components/ui/Icon'
 import { OrnateCorners } from '@/components/ui/Ornate'
-import {
-  LayoutDashboard, Sword, AlertTriangle, Sparkles, Skull, Dices,
-  Shield, BookOpen, Users, Map, BookMarked, Wand2, Wrench, Search,
-  ChevronLeft, ChevronRight, Flame, Feather, GraduationCap, Star, Crown, Gem, ScrollText, Zap
-} from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { useState } from 'react'
 
-type NavItem = { id: string; label: string; icon: React.ElementType; group?: string }
+type NavItem = {
+  id: string
+  label: string
+  icon: string   // nome do arquivo PNG em /ui/ic*.png
+  group?: string
+}
 
 const GROUP_ORDER = ['Compêndio', 'Mitos de Arton', 'Ferramentas', 'Campanha'] as const
 
 const navItems: NavItem[] = [
-  { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { id: 'racas', label: 'Raças', icon: Feather, group: 'Compêndio' },
-  { id: 'classes', label: 'Classes', icon: GraduationCap, group: 'Compêndio' },
-  { id: 'magias', label: 'Magias', icon: Sparkles, group: 'Compêndio' },
-  { id: 'equipamentos', label: 'Equipamentos', icon: Sword, group: 'Compêndio' },
-  { id: 'condicoes', label: 'Condições', icon: AlertTriangle, group: 'Compêndio' },
-  { id: 'ameacas', label: 'Ameaças', icon: Skull, group: 'Compêndio' },
-  { id: 'distincoes', label: 'Distinções & Ritos', icon: Star, group: 'Mitos de Arton' },
-  { id: 'deuses', label: 'Deuses Menores', icon: Crown, group: 'Mitos de Arton' },
-  { id: 'devocaoAlternativa', label: 'Deuses & Devotos', icon: Shield, group: 'Mitos de Arton' },
-  { id: 'itensMagicos', label: 'Itens Mágicos', icon: Gem, group: 'Mitos de Arton' },
-  { id: 'poderesConcedidos', label: 'Poderes Concedidos', icon: Zap, group: 'Mitos de Arton' },
-  { id: 'regrasOpcionais', label: 'Regras Opcionais', icon: ScrollText, group: 'Mitos de Arton' },
-  { id: 'encontros', label: 'Gerador de Encontros', icon: Dices, group: 'Ferramentas' },
-  { id: 'combate', label: 'Rastreador de Combate', icon: Shield, group: 'Ferramentas' },
-  { id: 'tabelas', label: 'Tabelas do Mestre', icon: BookOpen, group: 'Ferramentas' },
-  { id: 'npcs', label: 'NPCs', icon: Users, group: 'Campanha' },
-  { id: 'reinos', label: 'Reinos de Arton', icon: Map, group: 'Campanha' },
-  { id: 'campanha', label: 'Campanha', icon: BookMarked, group: 'Campanha' },
-  { id: 'aventuras', label: 'Gerador de Aventuras', icon: Wand2, group: 'Ferramentas' },
-  { id: 'ferramentas', label: 'Ferramentas Rápidas', icon: Wrench, group: 'Ferramentas' },
-  { id: 'busca', label: 'Busca Universal', icon: Search, group: 'Ferramentas' },
+  { id: 'dashboard',         label: 'Dashboard',            icon: 'icExplore' },
+  { id: 'racas',             label: 'Raças',                icon: 'icFriend',       group: 'Compêndio' },
+  { id: 'classes',           label: 'Classes',              icon: 'icHunter',       group: 'Compêndio' },
+  { id: 'magias',            label: 'Magias',               icon: 'icKnowledge',    group: 'Compêndio' },
+  { id: 'equipamentos',      label: 'Equipamentos',         icon: 'icPrecision',    group: 'Compêndio' },
+  { id: 'condicoes',         label: 'Condições',            icon: 'icTough',        group: 'Compêndio' },
+  { id: 'ameacas',           label: 'Ameaças',              icon: 'icDanger',       group: 'Compêndio' },
+  { id: 'distincoes',        label: 'Distinções & Ritos',   icon: 'icBanner',       group: 'Mitos de Arton' },
+  // devocaoAlternativa = antigo "Deuses & Devotos", agora "Deuses" (Glórienn em destaque)
+  { id: 'devocaoAlternativa',label: 'Deuses',               icon: 'icWillpower',    group: 'Mitos de Arton' },
+  // deuses = antigo "Deuses Menores", agora "Devotos"
+  { id: 'deuses',            label: 'Devotos',              icon: 'icCompassion',   group: 'Mitos de Arton' },
+  { id: 'itensMagicos',      label: 'Itens Mágicos',        icon: 'icTreasure',     group: 'Mitos de Arton' },
+  { id: 'poderesConcedidos', label: 'Poderes Concedidos',   icon: 'icSignal',       group: 'Mitos de Arton' },
+  { id: 'regrasOpcionais',   label: 'Regras Opcionais',     icon: 'icGear',         group: 'Mitos de Arton' },
+  { id: 'encontros',         label: 'Gerador de Encontros', icon: 'icResearch',     group: 'Ferramentas' },
+  { id: 'combate',           label: 'Rastreador de Combate',icon: 'icStrenght',     group: 'Ferramentas' },
+  { id: 'tabelas',           label: 'Tabelas do Mestre',    icon: 'icBoring',       group: 'Ferramentas' },
+  { id: 'aventuras',         label: 'Gerador de Aventuras', icon: 'icCourage',      group: 'Ferramentas' },
+  { id: 'ferramentas',       label: 'Ferramentas Rápidas',  icon: 'icGear',         group: 'Ferramentas' },
+  { id: 'busca',             label: 'Busca Universal',      icon: 'icResearch',     group: 'Ferramentas' },
+  { id: 'npcs',              label: 'NPCs',                 icon: 'icFriend',       group: 'Campanha' },
+  { id: 'reinos',            label: 'Reinos de Arton',      icon: 'icExplore',      group: 'Campanha' },
+  { id: 'campanha',          label: 'Campanha',             icon: 'icBanner',       group: 'Campanha' },
 ]
 
 export function Sidebar() {
@@ -43,72 +46,102 @@ export function Sidebar() {
   const [collapsed, setCollapsed] = useState(false)
 
   return (
-    <aside className={cn(
-      'relative flex flex-col h-full border-r border-grimoire-600 bg-abyss-900 transition-all duration-300',
-      collapsed ? 'w-16' : 'w-64'
-    )}>
-      {/* Moldura ornamental ao redor do sidebar */}
+    <aside
+      className={cn(
+        'relative flex flex-col h-full flex-none transition-all duration-300 shadow-sidebar',
+        collapsed ? 'w-16' : 'w-[278px]'
+      )}
+      style={{ background: 'linear-gradient(176deg, #1b1420 0%, #150f1b 55%, #100b15 100%)' }}
+    >
       <OrnateCorners sizeClass={collapsed ? 'w-8' : 'w-12'} />
 
       {/* Logo */}
-      <div className="flex items-center gap-3 px-4 py-5 border-b border-grimoire-600">
-        <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-          <Flame className="w-7 h-7 text-gold animate-flicker" />
-        </div>
+      <div
+        className="flex items-center gap-3 px-4 py-5 select-none"
+        style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}
+      >
+        <Icon name="icKnowledge" size={28} color="#C89B3C" className="flex-shrink-0" />
         {!collapsed && (
           <div>
-            <h1 className="font-cinzel font-bold text-gold text-sm leading-tight">T20</h1>
-            <p className="font-cinzel text-parchment-muted text-xs">Mestre Supremo</p>
+            <div className="font-cinzel font-bold text-sm leading-tight" style={{ color: '#E4C16A', letterSpacing: '1px' }}>
+              Compêndio
+            </div>
+            <div className="font-cinzel font-semibold text-xs tracking-widest" style={{ color: '#9a8e7c', letterSpacing: '3px' }}>
+              MESTRE
+            </div>
           </div>
         )}
       </div>
 
       {/* Nav */}
       <nav className="flex-1 overflow-y-auto py-2 scrollbar-thin">
-        {/* Itens sem grupo (ex: Dashboard) */}
-        {navItems.filter(item => !item.group).map(item => (
-          <NavButton key={item.id} item={item} active={paginaAtual === item.id} collapsed={collapsed} onClick={() => setPaginaAtual(item.id)} />
+        {/* Dashboard (sem grupo) */}
+        {navItems.filter(i => !i.group).map(item => (
+          <NavButton
+            key={item.id}
+            item={item}
+            active={paginaAtual === item.id}
+            collapsed={collapsed}
+            onClick={() => setPaginaAtual(item.id)}
+          />
         ))}
 
         {/* Seções agrupadas */}
         {GROUP_ORDER.map(group => {
-          const itens = navItems.filter(item => item.group === group)
-          if (itens.length === 0) return null
+          const itens = navItems.filter(i => i.group === group)
+          if (!itens.length) return null
           return (
-            <div key={group} className="mt-3">
+            <div key={group} className="mt-2">
               {!collapsed && (
-                group === 'Compêndio' ? (
-                  <img
-                    src={asset('ui/divisor-compendio.png')}
-                    alt="Compêndio"
-                    className="w-full px-2 py-1 select-none pointer-events-none animate-fade-in"
-                  />
-                ) : (
-                  <div className="flex items-center gap-2 px-3 py-1 select-none pointer-events-none animate-fade-in">
-                    <div className="flex-1 h-px bg-gradient-to-r from-transparent to-gold-800/30" />
-                    <span className="font-cinzel text-[0.65rem] uppercase tracking-widest text-gold-600 font-bold whitespace-nowrap">
-                      {group}
-                    </span>
-                    <div className="flex-1 h-px bg-gradient-to-l from-transparent to-gold-800/30" />
-                  </div>
-                )
+                <div className="flex items-center gap-2 px-3 py-1.5 select-none pointer-events-none">
+                  <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(200,155,60,0.25))' }} />
+                  <span className="font-cinzel text-[0.6rem] uppercase tracking-[2px]" style={{ color: '#6e6356' }}>
+                    {group}
+                  </span>
+                  <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, rgba(200,155,60,0.25))' }} />
+                </div>
               )}
-              {collapsed && <div className="mx-3 my-2 h-px bg-grimoire-700" />}
+              {collapsed && <div className="mx-3 my-2 h-px" style={{ background: 'rgba(200,155,60,0.12)' }} />}
               {itens.map(item => (
-                <NavButton key={item.id} item={item} active={paginaAtual === item.id} collapsed={collapsed} onClick={() => setPaginaAtual(item.id)} />
+                <NavButton
+                  key={item.id}
+                  item={item}
+                  active={paginaAtual === item.id}
+                  collapsed={collapsed}
+                  onClick={() => setPaginaAtual(item.id)}
+                />
               ))}
             </div>
           )
         })}
       </nav>
 
-      {/* Collapse button */}
-      <button
-        onClick={() => setCollapsed(!collapsed)}
-        className="flex items-center justify-center p-3 border-t border-grimoire-600 text-grimoire-500 hover:text-gold transition-colors"
+      {/* Footer / versão */}
+      <div
+        className="flex items-center gap-2 px-4 py-3"
+        style={{ borderTop: '1px solid rgba(200,155,60,0.10)' }}
       >
-        {collapsed ? <ChevronRight className="w-4 h-4" /> : <ChevronLeft className="w-4 h-4" />}
-      </button>
+        {!collapsed && (
+          <Icon name="icMedal" size={14} color="#6e6356" />
+        )}
+        {!collapsed && (
+          <span className="font-cinzel text-[0.6rem] tracking-widest" style={{ color: '#5a5145' }}>
+            v2.0 · T20 Mestre
+          </span>
+        )}
+        <button
+          onClick={() => setCollapsed(!collapsed)}
+          className="ml-auto flex items-center justify-center transition-colors"
+          style={{ color: '#6e6356' }}
+          onMouseEnter={e => (e.currentTarget.style.color = '#C89B3C')}
+          onMouseLeave={e => (e.currentTarget.style.color = '#6e6356')}
+        >
+          {collapsed
+            ? <ChevronRight className="w-4 h-4" />
+            : <ChevronLeft className="w-4 h-4" />
+          }
+        </button>
+      </div>
     </aside>
   )
 }
@@ -119,24 +152,46 @@ function NavButton({ item, active, collapsed, onClick }: {
   collapsed: boolean
   onClick: () => void
 }) {
-  const { icon: Icon, label } = item
+  const iconColor = active ? '#E4C16A' : '#857a68'
+
   return (
     <button
       onClick={onClick}
-      className={cn(
-        'w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150 group relative',
-        active
-          ? 'bg-grimoire-700 text-gold border-r-2 border-gold'
-          : 'text-parchment-muted hover:bg-grimoire-800 hover:text-parchment'
-      )}
+      className="w-full flex items-center gap-3 px-4 py-2.5 text-left relative transition-colors duration-150 group"
+      style={{
+        background: active ? 'rgba(200,155,60,0.10)' : 'transparent',
+        boxShadow: active ? 'inset 3px 0 0 #C89B3C' : 'none',
+        color: active ? '#E8DFCF' : '#a99c86',
+        fontWeight: active ? 600 : 400,
+      }}
+      onMouseEnter={e => {
+        if (!active) {
+          e.currentTarget.style.background = 'rgba(200,155,60,0.06)'
+          e.currentTarget.style.color = '#E8DFCF'
+        }
+      }}
+      onMouseLeave={e => {
+        if (!active) {
+          e.currentTarget.style.background = 'transparent'
+          e.currentTarget.style.color = '#a99c86'
+        }
+      }}
     >
-      <Icon className={cn('w-4 h-4 flex-shrink-0', active ? 'text-gold' : 'text-grimoire-500 group-hover:text-gold-600')} />
+      <Icon
+        name={item.icon}
+        size={16}
+        color={iconColor}
+        className="flex-shrink-0 transition-none"
+      />
       {!collapsed && (
-        <span className="font-crimson text-sm">{label}</span>
+        <span className="font-crimson text-[0.9rem]">{item.label}</span>
       )}
       {collapsed && (
-        <div className="absolute left-14 bg-grimoire-700 text-parchment text-xs px-2 py-1 rounded border border-grimoire-600 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
-          {label}
+        <div
+          className="absolute left-14 text-xs px-2 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50"
+          style={{ background: '#1A141E', color: '#E8DFCF', border: '1px solid rgba(200,155,60,0.25)' }}
+        >
+          {item.label}
         </div>
       )}
     </button>

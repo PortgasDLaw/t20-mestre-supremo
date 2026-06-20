@@ -1,151 +1,392 @@
 import { useState, useMemo } from 'react'
 import magiasData from '@/data/magias.json'
-import { Card } from '@/components/ui/Card'
-import { Input } from '@/components/ui/Input'
-import { Badge } from '@/components/ui/Badge'
-import { Modal } from '@/components/ui/Modal'
+import { Icon } from '@/components/ui/Icon'
 import { Select } from '@/components/ui/Input'
-import { Search, Sparkles, Zap } from 'lucide-react'
+import { X, Star } from 'lucide-react'
 import type { Magia } from '@/types'
 
 const magias: Magia[] = magiasData as Magia[]
 
-const escolas = ['Todas', ...Array.from(new Set(magias.map(m => m.escola)))]
+const ESCOLA_COR: Record<string, string> = {
+  Evocação:     '#E0733B',
+  Abjuração:    '#4F8FD6',
+  Adivinhação:  '#C9A23B',
+  Encantamento: '#D06AC9',
+  Ilusão:       '#A461E8',
+  Necromancia:  '#6E9A52',
+  Conjuração:   '#4FB0C6',
+  Transmutação: '#C77F3A',
+}
+
+function getEscolaCor(escola: string | null | undefined): string {
+  if (!escola) return '#C89B3C'
+  for (const [k, v] of Object.entries(ESCOLA_COR)) {
+    if (escola.toLowerCase().includes(k.toLowerCase())) return v
+  }
+  return '#C89B3C'
+}
+
+const escolas = ['Todas', ...Array.from(new Set(magias.map(m => m.escola).filter(Boolean))).sort()]
 const circulos = ['Todos', '1', '2', '3', '4', '5']
 
 export default function Magias() {
   const [busca, setBusca] = useState('')
-  const [tipo, setTipo] = useState<'todos' | 'arcana' | 'divina'>('todos')
   const [escola, setEscola] = useState('Todas')
   const [circulo, setCirculo] = useState('Todos')
   const [selecionada, setSelecionada] = useState<Magia | null>(null)
+  const [favoritos, setFavoritos] = useState<Set<string>>(new Set())
 
   const filtradas = useMemo(() =>
     magias.filter(m => {
-      const matchTipo = tipo === 'todos' || m.tipo === tipo
       const matchEscola = escola === 'Todas' || m.escola === escola
       const matchCirculo = circulo === 'Todos' || String(m.circulo) === circulo
-      const matchBusca = !busca || m.nome.toLowerCase().includes(busca.toLowerCase()) || m.descricao.toLowerCase().includes(busca.toLowerCase())
-      return matchTipo && matchEscola && matchCirculo && matchBusca
-    }), [busca, tipo, escola, circulo])
+      const matchBusca = !busca ||
+        m.nome.toLowerCase().includes(busca.toLowerCase()) ||
+        m.escola.toLowerCase().includes(busca.toLowerCase()) ||
+        m.descricao.toLowerCase().includes(busca.toLowerCase())
+      return matchEscola && matchCirculo && matchBusca
+    }), [busca, escola, circulo])
 
-  const porCirculo = useMemo(() => {
-    const groups: Record<number, Magia[]> = {}
-    filtradas.forEach(m => {
-      if (!groups[m.circulo]) groups[m.circulo] = []
-      groups[m.circulo].push(m)
+  function toggleFavorito(id: string, e: React.MouseEvent) {
+    e.stopPropagation()
+    setFavoritos(prev => {
+      const next = new Set(prev)
+      next.has(id) ? next.delete(id) : next.add(id)
+      return next
     })
-    return Object.entries(groups).sort(([a], [b]) => Number(a) - Number(b))
-  }, [filtradas])
+  }
 
   return (
-    <div className="space-y-4">
-      <div className="border-b border-grimoire-600 pb-4">
-        <h1 className="font-cinzel font-bold text-2xl text-gold">Magias</h1>
-        <p className="font-crimson text-parchment-muted mt-1">Arcanas e divinas — clique para ver todos os detalhes</p>
+    <div className="flex flex-col h-full overflow-hidden">
+      {/* Header */}
+      <div
+        className="flex-none px-8 pt-7 pb-5"
+        style={{ borderBottom: '1px solid rgba(200,155,60,0.13)' }}
+      >
+        <div className="flex items-center gap-3 mb-1">
+          <Icon name="icKnowledge" size={28} color="#C89B3C" />
+          <h1
+            className="font-cinzel font-bold"
+            style={{ fontSize: 38, color: '#E4C16A', letterSpacing: 1, textShadow: '0 2px 18px rgba(200,155,60,0.18)' }}
+          >
+            Magias
+          </h1>
+        </div>
+        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15.5 }}>
+          Arcanas e divinas — clique para ver todos os detalhes
+        </p>
       </div>
 
-      {/* Filtros */}
-      <div className="flex flex-wrap gap-3 items-end">
-        <Input icon={<Search className="w-4 h-4" />} placeholder="Buscar magia..." value={busca} onChange={e => setBusca(e.target.value)} className="max-w-xs" />
-        <div className="flex gap-1">
-          {(['todos', 'arcana', 'divina'] as const).map(t => (
-            <button key={t} onClick={() => setTipo(t)}
-              className={`px-3 py-1.5 text-xs font-cinzel rounded border transition-colors ${tipo === t ? (t === 'arcana' ? 'bg-purple-700 border-purple-600 text-white' : t === 'divina' ? 'bg-gold text-abyss-950 border-gold' : 'bg-grimoire-600 border-grimoire-500 text-parchment') : 'border-grimoire-600 text-parchment-muted hover:border-gold-700'}`}>
-              {t === 'todos' ? 'Todas' : t.charAt(0).toUpperCase() + t.slice(1)}
-            </button>
+      {/* Filter Bar */}
+      <div
+        className="flex-none flex items-center gap-3 px-8 py-3"
+        style={{ borderBottom: '1px solid rgba(200,155,60,0.10)', background: 'rgba(15,11,19,0.5)' }}
+      >
+        <span className="font-cinzel text-xs" style={{ color: '#6e6356', minWidth: 70 }}>
+          {filtradas.length} magia{filtradas.length !== 1 ? 's' : ''}
+        </span>
+        <div className="flex-1 relative">
+          <Icon name="icResearch" size={16} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <input
+            value={busca}
+            onChange={e => setBusca(e.target.value)}
+            placeholder="Buscar magia..."
+            style={{
+              width: '100%',
+              background: '#15101a',
+              border: '1px solid rgba(200,155,60,0.20)',
+              borderRadius: 6,
+              padding: '7px 12px 7px 36px',
+              color: '#E8DFCF',
+              fontFamily: "'EB Garamond', Georgia, serif",
+              fontSize: 15,
+              outline: 'none',
+            }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+          />
+        </div>
+        <Select
+          value={escola}
+          onChange={e => setEscola(e.target.value)}
+          options={escolas.map(e => ({ value: e, label: e === 'Todas' ? 'Todas as Escolas' : e }))}
+          className="w-48"
+        />
+        <Select
+          value={circulo}
+          onChange={e => setCirculo(e.target.value)}
+          options={circulos.map(c => ({ value: c, label: c === 'Todos' ? 'Todos os Círculos' : `${c}º Círculo` }))}
+          className="w-44"
+        />
+      </div>
+
+      {/* List */}
+      <div className="flex-1 overflow-y-auto scrollbar-thin px-8 py-4">
+        <div className="flex flex-col gap-2.5">
+          {filtradas.map(m => (
+            <MagiaCard
+              key={m.id}
+              magia={m}
+              favorito={favoritos.has(m.id)}
+              onToggleFavorito={e => toggleFavorito(m.id, e)}
+              onClick={() => setSelecionada(m)}
+            />
           ))}
         </div>
-        <Select value={escola} onChange={e => setEscola(e.target.value)} options={escolas.map(e => ({ value: e, label: e }))} className="max-w-40" />
-        <Select value={circulo} onChange={e => setCirculo(e.target.value)} options={circulos.map(c => ({ value: c, label: c === 'Todos' ? 'Todos os Círculos' : `${c}º Círculo` }))} className="max-w-48" />
-      </div>
-
-      <p className="text-parchment-dark text-xs font-crimson">{filtradas.length} magia(s) encontrada(s)</p>
-
-      {/* Listagem por círculo */}
-      <div className="space-y-6">
-        {porCirculo.map(([circ, lista]) => (
-          <div key={circ}>
-            <div className="flex items-center gap-3 mb-3">
-              <div className="w-8 h-8 rounded-full bg-grimoire-700 border border-gold-800 flex items-center justify-center">
-                <span className="font-cinzel font-bold text-gold text-sm">{circ}</span>
-              </div>
-              <h2 className="font-cinzel font-semibold text-parchment">{circ}º Círculo</h2>
-              <div className="flex-1 h-px bg-grimoire-600" />
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-              {lista.map(magia => (
-                <div key={magia.id} onClick={() => setSelecionada(magia)}
-                  className="bg-abyss-800 border border-grimoire-600 rounded-lg p-3 cursor-pointer hover:border-gold-700 hover:shadow-gold-sm transition-all">
-                  <div className="flex items-start justify-between mb-1">
-                    <h3 className="font-cinzel font-semibold text-parchment text-sm">{magia.nome}</h3>
-                    <Badge variant={magia.tipo === 'arcana' ? 'purple' : 'gold'}>
-                      {magia.tipo}
-                    </Badge>
-                  </div>
-                  <p className="text-parchment-dark text-xs mb-2">{magia.escola}</p>
-                  <div className="grid grid-cols-2 gap-1 text-xs mb-2">
-                    <span className="text-parchment-muted">PM: <span className="text-gold font-semibold">{magia.pm}</span></span>
-                    <span className="text-parchment-muted">Exec: <span className="text-parchment">{magia.execucao}</span></span>
-                    <span className="text-parchment-muted">Alcance: <span className="text-parchment">{magia.alcance}</span></span>
-                    <span className="text-parchment-muted">Duração: <span className="text-parchment">{magia.duracao}</span></span>
-                  </div>
-                  <p className="text-parchment-muted font-crimson text-xs line-clamp-2">{magia.descricao}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
       </div>
 
       {/* Modal */}
       {selecionada && (
-        <Modal open={!!selecionada} onClose={() => setSelecionada(null)} title={selecionada.nome} size="lg">
-          <div className="space-y-4">
-            <div className="flex gap-2">
-              <Badge variant={selecionada.tipo === 'arcana' ? 'purple' : 'gold'}>{selecionada.tipo}</Badge>
-              <Badge variant="gray">{selecionada.escola}</Badge>
-              <Badge variant="blue">{selecionada.circulo}º Círculo</Badge>
-            </div>
+        <MagiaModal magia={selecionada} onClose={() => setSelecionada(null)} />
+      )}
+    </div>
+  )
+}
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {[
-                { label: 'Custo de PM', value: `${selecionada.pm} PM`, highlight: true },
-                { label: 'Execução', value: selecionada.execucao },
-                { label: 'Alcance', value: selecionada.alcance },
-                { label: 'Duração', value: selecionada.duracao },
-                { label: 'Área / Alvo', value: selecionada.area },
-                { label: 'Resistência', value: selecionada.resistencia },
-              ].map(({ label, value, highlight }) => (
-                <div key={label} className="bg-grimoire-800 rounded p-2">
-                  <p className="text-parchment-dark text-xs">{label}</p>
-                  <p className={`font-crimson text-sm ${highlight ? 'text-gold font-semibold' : 'text-parchment'}`}>{value}</p>
+function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
+  magia: Magia
+  favorito: boolean
+  onToggleFavorito: (e: React.MouseEvent) => void
+  onClick: () => void
+}) {
+  const [hovered, setHovered] = useState(false)
+  const cor = getEscolaCor(magia.escola)
+
+  return (
+    <div
+      onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      className="flex items-center gap-4 rounded-lg cursor-pointer transition-all duration-150"
+      style={{
+        padding: '12px 16px',
+        background: 'linear-gradient(180deg, #1a141e, #16111b)',
+        border: `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
+        boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
+        transform: hovered ? 'translateX(3px)' : 'none',
+      }}
+    >
+      {/* Thumbnail */}
+      <div
+        className="flex-none flex items-center justify-center rounded-lg"
+        style={{
+          width: 62,
+          height: 62,
+          background: `radial-gradient(circle at 50% 28%, ${cor}66, rgba(13,9,17,0.7))`,
+          border: `1px solid ${cor}88`,
+          boxShadow: `inset 0 0 20px rgba(0,0,0,0.55), 0 0 16px ${cor}33`,
+        }}
+      >
+        <Icon name="icKnowledge" size={26} color={cor} />
+      </div>
+
+      {/* Info */}
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 mb-0.5">
+          <span className="font-cinzel font-semibold text-sm" style={{ color: '#E8DFCF' }}>
+            {magia.nome}
+          </span>
+          {magia.escola && (
+            <span className="font-cinzel text-[0.6rem] px-1.5 py-0.5 rounded" style={{ color: cor, background: `${cor}22`, border: `1px solid ${cor}44` }}>
+              {magia.escola}
+            </span>
+          )}
+        </div>
+        <div className="flex items-center gap-2">
+          <span
+            className="font-cinzel text-[0.65rem]"
+            style={{ color: '#9a8e7c' }}
+          >
+            {magia.circulo}º Círculo
+          </span>
+          {magia.pm && (
+            <span className="font-cinzel text-[0.65rem]" style={{ color: '#6e6356' }}>
+              · {magia.pm} PM
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* Badges direita */}
+      <div className="flex items-center gap-2 flex-none">
+        {[
+          { label: magia.execucao },
+          { label: magia.alcance },
+          { label: magia.duracao },
+        ].filter(b => b.label).map((b, i) => (
+          <span
+            key={i}
+            className="font-cinzel text-[0.65rem] px-2 py-1 rounded"
+            style={{
+              color: '#c2b596',
+              border: '1px solid rgba(200,155,60,0.28)',
+              background: 'rgba(200,155,60,0.06)',
+            }}
+          >
+            {b.label}
+          </span>
+        ))}
+
+        {/* Favorito */}
+        <button
+          onClick={onToggleFavorito}
+          className="ml-1 transition-all duration-150"
+          style={{
+            color: favorito ? '#E4C16A' : '#5a5145',
+            filter: favorito ? 'drop-shadow(0 0 6px rgba(200,155,60,0.5))' : 'none',
+          }}
+        >
+          <Star className={`w-4 h-4 ${favorito ? 'fill-current' : ''}`} />
+        </button>
+      </div>
+    </div>
+  )
+}
+
+function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
+  const cor = getEscolaCor(magia.escola)
+  const [aba, setAba] = useState<'descricao' | 'aprimoramentos'>('descricao')
+  const aprimoramentos = (magia as any).aprimoramentos as Array<{ pm?: number; descricao: string }> | undefined
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-6">
+      <div
+        className="absolute inset-0"
+        style={{ background: 'rgba(6,4,9,0.86)', backdropFilter: 'blur(5px)' }}
+        onClick={onClose}
+      />
+      <div
+        className="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
+        style={{
+          background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30), inset 0 0 60px rgba(0,0,0,0.4)',
+          border: `1px solid ${cor}44`,
+        }}
+      >
+        {/* Header */}
+        <div className="flex-none p-6 pb-4">
+          <div className="flex items-start gap-4">
+            {/* Selo escola */}
+            <div
+              className="flex-none w-16 h-16 rounded-xl flex items-center justify-center"
+              style={{
+                background: `radial-gradient(circle at 50% 28%, ${cor}55, rgba(13,9,17,0.8))`,
+                border: `2px solid ${cor}88`,
+                boxShadow: `0 0 20px ${cor}44`,
+              }}
+            >
+              <Icon name="icKnowledge" size={28} color={cor} />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="font-cinzel text-[0.65rem] uppercase tracking-[2px]" style={{ color: cor }}>
+                  {magia.escola} · {magia.circulo}º Círculo
+                </span>
+              </div>
+              <h2 className="font-cinzel font-bold text-xl" style={{ color: '#E8DFCF', letterSpacing: '0.5px' }}>
+                {magia.nome}
+              </h2>
+            </div>
+            <button
+              onClick={onClose}
+              className="flex-none w-8 h-8 flex items-center justify-center rounded transition-colors"
+              style={{ color: '#6e6356' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+
+          {/* Strip de atributos */}
+          <div className="grid grid-cols-5 gap-2 mt-4">
+            {[
+              { label: 'PM', value: magia.pm ? String(magia.pm) : '—' },
+              { label: 'Execução', value: magia.execucao || '—' },
+              { label: 'Alcance', value: magia.alcance || '—' },
+              { label: 'Duração', value: magia.duracao || '—' },
+              { label: 'Resistência', value: (magia as any).resistencia || '—' },
+            ].map((s, i) => (
+              <div
+                key={i}
+                className="flex flex-col items-center rounded-lg py-2 px-1"
+                style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}
+              >
+                <span className="font-cinzel font-semibold text-xs leading-none text-center" style={{ color: '#E4C16A' }}>
+                  {s.value}
+                </span>
+                <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1 text-center" style={{ color: '#6e6356' }}>
+                  {s.label}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="flex items-center gap-2 mx-6" style={{ borderTop: '1px solid rgba(200,155,60,0.15)' }}>
+          <div className="flex-1 h-px" />
+          <span style={{ color: '#C89B3C', fontSize: 10, margin: '0 4px' }}>◆</span>
+          <div className="flex-1 h-px" />
+        </div>
+
+        {/* Tabs */}
+        {aprimoramentos?.length ? (
+          <div
+            className="flex flex-none mx-6"
+            style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}
+          >
+            {(['descricao', 'aprimoramentos'] as const).map(t => (
+              <button
+                key={t}
+                onClick={() => setAba(t)}
+                className="relative px-4 py-2.5 font-cinzel text-xs tracking-wide transition-colors"
+                style={{ color: aba === t ? '#F0E4C8' : '#857a68' }}
+              >
+                {t === 'descricao' ? 'Descrição' : 'Aprimoramentos'}
+                {aba === t && (
+                  <span
+                    className="absolute left-0 right-0"
+                    style={{
+                      bottom: -1,
+                      height: 2.5,
+                      background: 'linear-gradient(90deg, #C89B3C, #E4C16A)',
+                      boxShadow: '0 0 8px rgba(200,155,60,0.55)',
+                      borderRadius: 2,
+                    }}
+                  />
+                )}
+              </button>
+            ))}
+          </div>
+        ) : null}
+
+        {/* Content */}
+        <div className="flex-1 overflow-y-auto scrollbar-thin px-6 py-4">
+          {aba === 'descricao' && (
+            <p className="font-garamond leading-relaxed drop-cap" style={{ fontSize: 16.5, color: '#cfc3aa', lineHeight: 1.78 }}>
+              {magia.descricao}
+            </p>
+          )}
+          {aba === 'aprimoramentos' && aprimoramentos?.length && (
+            <div className="space-y-3">
+              {aprimoramentos.map((ap, i) => (
+                <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
+                  {ap.pm !== undefined && (
+                    <span
+                      className="font-cinzel text-[0.65rem] px-2 py-0.5 rounded mr-2"
+                      style={{ background: `${cor}22`, color: cor, border: `1px solid ${cor}44` }}
+                    >
+                      +{ap.pm} PM
+                    </span>
+                  )}
+                  <span className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{ap.descricao}</span>
                 </div>
               ))}
             </div>
-
-            <div>
-              <h4 className="font-cinzel text-gold text-sm mb-2">Descrição</h4>
-              <p className="font-crimson text-parchment text-sm leading-relaxed">{selecionada.descricao}</p>
-            </div>
-
-            {selecionada.aprimoramentos.length > 0 && (
-              <div>
-                <h4 className="font-cinzel text-purple-400 text-sm mb-2 flex items-center gap-1">
-                  <Sparkles className="w-4 h-4" /> Aprimoramentos
-                </h4>
-                <ul className="space-y-1.5">
-                  {selecionada.aprimoramentos.map((ap, i) => (
-                    <li key={i} className="flex gap-2 text-sm font-crimson text-parchment">
-                      <span className="text-purple-400 flex-shrink-0">+</span> {ap}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </Modal>
-      )}
+          )}
+        </div>
+      </div>
     </div>
   )
 }

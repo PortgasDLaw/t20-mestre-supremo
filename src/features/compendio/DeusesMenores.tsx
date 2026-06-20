@@ -1,173 +1,591 @@
 import { useState, useMemo } from 'react'
 import deusesData from '@/data/deuses_menores.json'
-import { Card } from '@/components/ui/Card'
-import { Input } from '@/components/ui/Input'
-import { Badge } from '@/components/ui/Badge'
-import { Modal } from '@/components/ui/Modal'
-import { Search } from 'lucide-react'
+import gloriennRaw from '@/data/devocoesAlternativas.json'
+import { Icon } from '@/components/ui/Icon'
+import { X, Star } from 'lucide-react'
 
-interface PoderConcedido {
-  nome: string
-  descricao: string
-}
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+interface PoderConcedido { nome: string; descricao: string }
 
 interface DeusMenor {
-  id: string
-  nome: string
-  epiteto: string
-  fonte: string
-  statusDivino: number
-  tipo: string
-  historia: string
-  crencasEObjetivos: string
-  simboloSagrado: string
-  canalizarEnergia: string
-  armaPreferida: string
-  devotos: string
-  obrigacoesERestricoes: string
+  id: string; nome: string; epiteto: string; fonte: string
+  statusDivino: number; tipo: string; historia: string
+  crencasEObjetivos: string; simboloSagrado: string
+  canalizarEnergia: string; armaPreferida: string
+  devotos: string; obrigacoesERestricoes: string
   poderConcedido: PoderConcedido
 }
 
+interface ClasseInfo { descricao?: string; indumentaria: string; fundamentalista: string }
+
+interface Glorienn {
+  id: string; nome: string; epiteto: string; lema: string
+  historia: string; motivacoes: string; relacoes: string
+  crenças: string; devotos: string[]; obrigacoesRestricoes: string
+  brando: string; autoridadeEclesiastica: string; simboloSagrado: string
+  canalizarEnergia: string; armaPreferida: string; coresSignificativas: string[]
+  areasInfluencia: string[]; outrosNomes: string[]
+  poderesConcedidos: PoderConcedido[]
+  classesSacerdote: ClasseInfo; classesDruida: ClasseInfo; classesPaladino: ClasseInfo
+  fonte: string
+}
+
+type Selected = { kind: 'glorienn' } | { kind: 'deus'; deus: DeusMenor }
+
+// ─── Data ─────────────────────────────────────────────────────────────────────
+
+const glorienn = (gloriennRaw as any).glorienn as Glorienn
 const deuses: DeusMenor[] = deusesData as DeusMenor[]
 
-function getStatusColor(status: number): string {
-  if (status >= 3) return 'text-gold'
-  if (status === 2) return 'text-blue-400'
-  return 'text-gray-400'
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function getNdBadgeColor(energia: string) {
+  if (energia === 'Positiva') return { bg: 'rgba(200,155,60,0.15)', color: '#E4C16A', border: 'rgba(200,155,60,0.35)' }
+  if (energia === 'Negativa') return { bg: 'rgba(200,60,60,0.15)', color: '#e05050', border: 'rgba(200,60,60,0.35)' }
+  return { bg: 'rgba(138,147,166,0.12)', color: '#8A93A6', border: 'rgba(138,147,166,0.3)' }
 }
 
-function getEnergiaBadge(energia: string): 'gold' | 'blood' | 'gray' | 'blue' | 'purple' | 'green' {
-  if (energia === 'Positiva') return 'gold'
-  if (energia === 'Negativa') return 'blood'
-  return 'gray'
+function StatStrip({ items }: { items: { label: string; value: string; accent?: string }[] }) {
+  return (
+    <div className="grid flex-none" style={{
+      gridTemplateColumns: `repeat(${items.length}, 1fr)`,
+      borderBottom: '1px solid rgba(200,155,60,0.12)',
+    }}>
+      {items.map((s, i) => (
+        <div key={i} className="flex flex-col items-center justify-center py-3 px-2"
+          style={{ background: '#120d16', borderRight: i < items.length - 1 ? '1px solid rgba(200,155,60,0.10)' : 'none' }}>
+          <span className="font-cinzel font-bold text-sm leading-none text-center"
+            style={{ color: s.accent ?? '#E4C16A' }}>{s.value}</span>
+          <span className="font-cinzel text-[0.52rem] uppercase tracking-wider mt-1 text-center"
+            style={{ color: '#6e6356' }}>{s.label}</span>
+        </div>
+      ))}
+    </div>
+  )
 }
+
+function SubTabs<T extends string>({ tabs, active, onChange }: { tabs: T[]; active: T; onChange: (t: T) => void }) {
+  return (
+    <div className="flex flex-none overflow-x-auto scrollbar-none"
+      style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+      {tabs.map(tab => (
+        <button key={tab} onClick={() => onChange(tab)}
+          className="relative flex-none px-4 py-2.5 font-cinzel text-[0.7rem] tracking-wide whitespace-nowrap transition-colors duration-150"
+          style={{ color: active === tab ? '#F0E4C8' : '#857a68' }}>
+          {tab}
+          {active === tab && (
+            <span className="absolute left-0 right-0" style={{
+              bottom: -1, height: 2.5, borderRadius: 2,
+              background: 'linear-gradient(90deg, #C89B3C, #E4C16A)',
+              boxShadow: '0 0 8px rgba(200,155,60,0.55)',
+            }} />
+          )}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+function SectionBox({ title, children, accent }: { title: string; children: React.ReactNode; accent?: string }) {
+  return (
+    <div className="rounded-lg p-4" style={{ background: '#120d16', border: `1px solid ${accent ?? 'rgba(200,155,60,0.14)'}` }}>
+      <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: accent ? '#c2b596' : '#9a8e7c' }}>{title}</div>
+      {children}
+    </div>
+  )
+}
+
+// ─── Glórienn detail tabs ──────────────────────────────────────────────────────
+
+const TABS_GLORIENN = ['Identidade', 'História', 'Motivações', 'Relações', 'Igreja & Clero', 'Devotos & O&R', 'Poderes'] as const
+type TabGlorienn = typeof TABS_GLORIENN[number]
+
+function GloriennDetail({ onClose }: { onClose: () => void }) {
+  const [aba, setAba] = useState<TabGlorienn>('Identidade')
+
+  return (
+    <div className="flex-1 min-w-[400px] flex flex-col overflow-hidden rounded-lg animate-fade-in"
+      style={{ background: 'linear-gradient(180deg, #1e1528, #16101e)', border: '1px solid rgba(200,155,60,0.3)', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }}>
+
+      {/* Hero header */}
+      <div className="relative flex-none px-6 pt-6 pb-4"
+        style={{ background: 'linear-gradient(180deg, #251a2e 0%, #1a1020 100%)', borderBottom: '1px solid rgba(200,155,60,0.15)' }}>
+        <button onClick={onClose}
+          className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded transition-colors"
+          style={{ background: 'rgba(0,0,0,0.4)', color: '#a99c86' }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
+          onMouseLeave={e => { e.currentTarget.style.color = '#a99c86' }}>
+          <X className="w-4 h-4" />
+        </button>
+
+        <div className="flex items-center gap-3 mb-2">
+          <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-none"
+            style={{ background: 'radial-gradient(circle at 50% 28%, rgba(200,155,60,0.4), rgba(18,13,22,0.8))', border: '2px solid rgba(200,155,60,0.6)', boxShadow: '0 0 20px rgba(200,155,60,0.25)' }}>
+            <Star className="w-6 h-6" style={{ color: '#E4C16A' }} />
+          </div>
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 flex-wrap mb-0.5">
+              <span className="font-cinzel text-[0.6rem] uppercase tracking-[3px]" style={{ color: '#C89B3C' }}>Deusa Maior · Panteão Élfico</span>
+            </div>
+            <h2 className="font-cinzel font-bold text-2xl leading-tight" style={{ color: '#E4C16A', textShadow: '0 0 30px rgba(200,155,60,0.3)' }}>
+              {glorienn.nome}
+            </h2>
+            <p className="font-garamond text-sm" style={{ color: '#9a8e7c' }}>{glorienn.epiteto}</p>
+            {glorienn.lema && (
+              <p className="font-garamond italic text-xs mt-1" style={{ color: '#7d7060' }}>"{glorienn.lema}"</p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Stat strip */}
+      <StatStrip items={[
+        { label: 'Símbolo', value: glorienn.simboloSagrado, accent: '#C89B3C' },
+        { label: 'Arma', value: glorienn.armaPreferida },
+        { label: 'Energia', value: glorienn.canalizarEnergia, accent: '#E4C16A' },
+        { label: 'Cores', value: glorienn.coresSignificativas.join(' · '), accent: '#a99c86' },
+      ]} />
+
+      <SubTabs tabs={[...TABS_GLORIENN]} active={aba} onChange={setAba} />
+
+      <div className="flex-1 overflow-y-auto scrollbar-thin p-5">
+
+        {aba === 'Identidade' && (
+          <div className="space-y-4">
+            {glorienn.outrosNomes?.length > 0 && (
+              <SectionBox title="Outros Nomes">
+                <div className="space-y-2">
+                  {glorienn.outrosNomes.map((n, i) => {
+                    const match = n.match(/^(.+?)\s*\((.+)\)$/)
+                    return (
+                      <div key={i} className="flex items-baseline gap-2">
+                        <span className="font-cinzel text-sm font-semibold" style={{ color: '#E8DFCF' }}>
+                          {match ? match[1] : n}
+                        </span>
+                        {match && <span className="font-garamond text-xs" style={{ color: '#8f8472' }}>— {match[2]}</span>}
+                      </div>
+                    )
+                  })}
+                </div>
+              </SectionBox>
+            )}
+
+            <div>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Áreas de Influência</div>
+              <div className="flex flex-wrap gap-1.5">
+                {glorienn.areasInfluencia.map((a, i) => (
+                  <span key={i} className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
+                    style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.22)', color: '#c2b596' }}>
+                    {a}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <SectionBox title="Lema">
+              <p className="font-garamond italic text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>
+                "{glorienn.lema}"
+              </p>
+            </SectionBox>
+
+            <div className="grid grid-cols-2 gap-3">
+              <SectionBox title="Símbolo Sagrado">
+                <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{glorienn.simboloSagrado}</p>
+              </SectionBox>
+              <SectionBox title="Arma Preferida">
+                <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{glorienn.armaPreferida}</p>
+              </SectionBox>
+              <SectionBox title="Canalizar Energia">
+                <p className="font-garamond text-sm" style={{ color: '#E4C16A' }}>{glorienn.canalizarEnergia}</p>
+              </SectionBox>
+              <SectionBox title="Cores Significativas">
+                <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{glorienn.coresSignificativas.join(', ')}</p>
+              </SectionBox>
+            </div>
+          </div>
+        )}
+
+        {aba === 'História' && (
+          <div className="space-y-4">
+            <p className="font-garamond leading-relaxed drop-cap"
+              style={{ fontSize: 16, color: '#cfc3aa', lineHeight: 1.75, columnCount: 1 }}>
+              {glorienn.historia}
+            </p>
+          </div>
+        )}
+
+        {aba === 'Motivações' && (
+          <div className="space-y-4">
+            <SectionBox title="Motivações">
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.motivacoes}</p>
+            </SectionBox>
+            <SectionBox title="Crenças e Objetivos">
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.crenças}</p>
+            </SectionBox>
+          </div>
+        )}
+
+        {aba === 'Relações' && (
+          <div className="space-y-4">
+            <SectionBox title="Relações com o Panteão">
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.relacoes}</p>
+            </SectionBox>
+          </div>
+        )}
+
+        {aba === 'Igreja & Clero' && (
+          <div className="space-y-4">
+            {glorienn.autoridadeEclesiastica && (
+              <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.25)' }}>
+                <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#C89B3C' }}>Autoridade Eclesiástica</div>
+                <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.autoridadeEclesiastica}</p>
+              </div>
+            )}
+
+            {[
+              { label: 'Sacerdote', data: glorienn.classesSacerdote },
+              { label: 'Druida', data: glorienn.classesDruida },
+              { label: 'Paladino', data: glorienn.classesPaladino },
+            ].map(({ label, data }) => data && (
+              <div key={label} className="rounded-lg overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.14)' }}>
+                <div className="px-4 py-2 font-cinzel text-xs uppercase tracking-widest"
+                  style={{ background: '#1a1020', color: '#C89B3C', borderBottom: '1px solid rgba(200,155,60,0.14)' }}>
+                  {label}
+                </div>
+                <div className="p-4 space-y-3" style={{ background: '#120d16' }}>
+                  {data.descricao && (
+                    <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{data.descricao}</p>
+                  )}
+                  {data.indumentaria && (
+                    <div>
+                      <span className="font-cinzel text-[0.6rem] uppercase tracking-wider" style={{ color: '#9a8e7c' }}>Indumentária — </span>
+                      <span className="font-garamond text-sm italic" style={{ color: '#a99c86' }}>{data.indumentaria}</span>
+                    </div>
+                  )}
+                  {data.fundamentalista && (
+                    <div className="rounded p-3" style={{ background: 'rgba(200,60,60,0.08)', border: '1px solid rgba(200,60,60,0.2)' }}>
+                      <span className="font-cinzel text-[0.6rem] uppercase tracking-wider" style={{ color: '#c46060' }}>Fundamentalista — </span>
+                      <span className="font-garamond text-sm" style={{ color: '#b09090' }}>{data.fundamentalista}</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {aba === 'Devotos & O&R' && (
+          <div className="space-y-4">
+            <div>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Devotos</div>
+              <div className="flex flex-wrap gap-1.5">
+                {glorienn.devotos.map((d, i) => (
+                  <span key={i} className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
+                    style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.22)', color: '#c2b596' }}>
+                    {d}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <SectionBox title="Obrigações & Restrições">
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.obrigacoesRestricoes}</p>
+            </SectionBox>
+
+            {glorienn.brando && (
+              <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.07)', border: '1px solid rgba(200,155,60,0.28)' }}>
+                <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#C89B3C' }}>Versão Branda</div>
+                <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.brando}</p>
+              </div>
+            )}
+          </div>
+        )}
+
+        {aba === 'Poderes' && (
+          <div className="space-y-3">
+            {glorienn.poderesConcedidos.map((p, i) => (
+              <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
+                <div className="font-cinzel font-semibold text-sm mb-2" style={{ color: '#E4C16A' }}>{p.nome}</div>
+                <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{p.descricao}</p>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ─── Deus Menor detail tabs ────────────────────────────────────────────────────
+
+const TABS_DEUS = ['Visão Geral', 'Crenças & O&R', 'Poder Concedido'] as const
+type TabDeus = typeof TABS_DEUS[number]
+
+function DeusMenorDetail({ deus, onClose }: { deus: DeusMenor; onClose: () => void }) {
+  const [aba, setAba] = useState<TabDeus>('Visão Geral')
+  const nc = getNdBadgeColor(deus.canalizarEnergia)
+
+  return (
+    <div className="flex-1 min-w-[380px] flex flex-col overflow-hidden rounded-lg animate-fade-in"
+      style={{ background: 'linear-gradient(180deg, #1a141e, #16111b)', border: '1px solid rgba(200,155,60,0.22)', boxShadow: '0 20px 50px rgba(0,0,0,0.5)' }}>
+
+      {/* Hero header */}
+      <div className="relative flex-none px-5 pt-5 pb-4"
+        style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+        <button onClick={onClose}
+          className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded transition-colors"
+          style={{ background: 'rgba(0,0,0,0.4)', color: '#a99c86' }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
+          onMouseLeave={e => { e.currentTarget.style.color = '#a99c86' }}>
+          <X className="w-4 h-4" />
+        </button>
+
+        <div className="flex items-center gap-2 mb-2">
+          <span className="font-cinzel text-[0.6rem] uppercase tracking-[3px]" style={{ color: '#9a8e7c' }}>
+            Deus Menor · {deus.tipo}
+          </span>
+          <span className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
+            style={{ background: nc.bg, color: nc.color, border: `1px solid ${nc.border}` }}>
+            {deus.canalizarEnergia}
+          </span>
+          <span className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
+            style={{ background: 'rgba(138,147,166,0.10)', color: '#8A93A6', border: '1px solid rgba(138,147,166,0.25)' }}>
+            Status {deus.statusDivino}
+          </span>
+        </div>
+        <h2 className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#E8DFCF' }}>{deus.nome}</h2>
+        <p className="font-garamond text-sm mt-0.5" style={{ color: '#9a8e7c' }}>{deus.epiteto}</p>
+      </div>
+
+      {/* Stat strip */}
+      <StatStrip items={[
+        { label: 'Símbolo', value: deus.simboloSagrado, accent: '#C89B3C' },
+        { label: 'Arma', value: deus.armaPreferida },
+        { label: 'Energia', value: deus.canalizarEnergia, accent: nc.color },
+        { label: 'Status', value: String(deus.statusDivino), accent: '#8A93A6' },
+      ]} />
+
+      <SubTabs tabs={[...TABS_DEUS]} active={aba} onChange={setAba} />
+
+      <div className="flex-1 overflow-y-auto scrollbar-thin p-5">
+        {aba === 'Visão Geral' && (
+          <div className="space-y-4">
+            <p className="font-garamond leading-relaxed drop-cap"
+              style={{ fontSize: 16, color: '#cfc3aa', lineHeight: 1.75 }}>
+              {deus.historia}
+            </p>
+            <SectionBox title="Devotos">
+              <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{deus.devotos}</p>
+            </SectionBox>
+          </div>
+        )}
+
+        {aba === 'Crenças & O&R' && (
+          <div className="space-y-4">
+            <SectionBox title="Crenças e Objetivos">
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{deus.crencasEObjetivos}</p>
+            </SectionBox>
+            <div className="rounded-lg p-4" style={{ background: 'rgba(200,60,60,0.07)', border: '1px solid rgba(200,60,60,0.22)' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#c46060' }}>Obrigações & Restrições</div>
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#c0a0a0' }}>{deus.obrigacoesERestricoes}</p>
+            </div>
+          </div>
+        )}
+
+        {aba === 'Poder Concedido' && (
+          <div className="space-y-3">
+            <div className="rounded-lg p-5" style={{ background: 'rgba(200,155,60,0.07)', border: '1px solid rgba(200,155,60,0.28)' }}>
+              <div className="font-cinzel font-bold text-base mb-3" style={{ color: '#E4C16A' }}>
+                {deus.poderConcedido.nome}
+              </div>
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>
+                {deus.poderConcedido.descricao}
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ─── God list cards ────────────────────────────────────────────────────────────
+
+function GloriennCard({ selected, onClick }: { selected: boolean; onClick: () => void }) {
+  const [hovered, setHovered] = useState(false)
+  return (
+    <div onClick={onClick} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
+      className="rounded-lg cursor-pointer transition-all duration-150 p-3"
+      style={{
+        background: selected ? 'linear-gradient(135deg, #251a2e, #1a1020)' : 'linear-gradient(135deg, #1e1528, #160f1c)',
+        border: selected ? '1px solid #C89B3C' : `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.25'})`,
+        boxShadow: selected ? '0 0 20px rgba(200,155,60,0.2), inset 0 0 0 1px rgba(200,155,60,0.35)' : hovered ? '0 6px 20px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.35)',
+        transform: hovered && !selected ? 'translateY(-2px)' : 'none',
+      }}>
+      <div className="flex items-center gap-3">
+        <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-none"
+          style={{ background: 'radial-gradient(circle at 50% 28%, rgba(200,155,60,0.4), rgba(18,13,22,0.8))', border: '1px solid rgba(200,155,60,0.55)' }}>
+          <Star className="w-4 h-4" style={{ color: '#E4C16A' }} />
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2">
+            <span className="font-cinzel font-bold text-sm" style={{ color: selected ? '#F0E4C8' : '#E4C16A' }}>{glorienn.nome}</span>
+            <span className="font-cinzel text-[0.55rem] px-1.5 py-0.5 rounded"
+              style={{ background: 'rgba(200,155,60,0.12)', color: '#C89B3C', border: '1px solid rgba(200,155,60,0.28)' }}>
+              Deusa Maior
+            </span>
+          </div>
+          <p className="font-garamond text-xs" style={{ color: '#8f8472' }}>{glorienn.epiteto}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function DeusCard({ deus, selected, onClick }: { deus: DeusMenor; selected: boolean; onClick: () => void }) {
+  const [hovered, setHovered] = useState(false)
+  const nc = getNdBadgeColor(deus.canalizarEnergia)
+  return (
+    <div onClick={onClick} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
+      className="rounded-lg cursor-pointer transition-all duration-150 p-3"
+      style={{
+        background: selected ? '#221a28' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        border: selected ? '1px solid #C89B3C' : `1px solid rgba(200,155,60,${hovered ? '0.35' : '0.14'})`,
+        boxShadow: selected ? '0 0 14px rgba(200,155,60,0.15), inset 0 0 0 1px rgba(200,155,60,0.3)' : hovered ? '0 6px 20px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.3)',
+        transform: hovered && !selected ? 'translateY(-2px)' : 'none',
+      }}>
+      <div className="flex items-center gap-3">
+        <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-none"
+          style={{ background: `${nc.bg}`, border: `1px solid ${nc.border}` }}>
+          <Icon name="icContemplative" size={16} color={nc.color} />
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="font-cinzel font-semibold text-sm leading-tight truncate" style={{ color: selected ? '#F0E4C8' : '#E8DFCF' }}>
+              {deus.nome}
+            </span>
+            <span className="flex-none font-cinzel text-[0.55rem] px-1.5 py-0.5 rounded"
+              style={{ background: nc.bg, color: nc.color, border: `1px solid ${nc.border}` }}>
+              {deus.canalizarEnergia}
+            </span>
+          </div>
+          <p className="font-garamond text-xs truncate" style={{ color: '#8f8472' }}>{deus.epiteto}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+// ─── Main component ────────────────────────────────────────────────────────────
 
 export default function DeusesMenores() {
   const [busca, setBusca] = useState('')
   const [filtroEnergia, setFiltroEnergia] = useState<'todos' | 'Positiva' | 'Negativa' | 'Qualquer'>('todos')
-  const [selecionado, setSelecionado] = useState<DeusMenor | null>(null)
+  const [selected, setSelected] = useState<Selected | null>(null)
 
-  const filtrados = useMemo(() => {
-    return deuses.filter(d => {
+  const filtrados = useMemo(() =>
+    deuses.filter(d => {
       const matchEnergia = filtroEnergia === 'todos' || d.canalizarEnergia === filtroEnergia
       const matchBusca = !busca ||
         d.nome.toLowerCase().includes(busca.toLowerCase()) ||
         d.epiteto.toLowerCase().includes(busca.toLowerCase()) ||
         d.devotos.toLowerCase().includes(busca.toLowerCase())
       return matchEnergia && matchBusca
-    })
-  }, [busca, filtroEnergia])
+    }), [busca, filtroEnergia])
+
+  const panelOpen = selected !== null
 
   return (
-    <div className="space-y-6">
-      <div className="border-b border-grimoire-600 pb-4">
-        <h1 className="font-cinzel font-bold text-2xl text-gold">Deuses Menores</h1>
-        <p className="font-crimson text-parchment-muted mt-1">
-          {deuses.length} divindades menores — mortais ascendidos e espíritos de Mitos de Arton
+    <div className="flex flex-col h-full overflow-hidden">
+
+      {/* Header */}
+      <div className="flex-none px-8 pt-7 pb-5" style={{ borderBottom: '1px solid rgba(200,155,60,0.13)' }}>
+        <h1 className="font-cinzel font-bold" style={{ fontSize: 38, color: '#E4C16A', letterSpacing: 1, textShadow: '0 2px 18px rgba(200,155,60,0.18)' }}>
+          Deuses
+        </h1>
+        <p className="font-garamond mt-1" style={{ color: '#a99c86', fontSize: 15.5 }}>
+          Glórienn e {deuses.length} deuses menores de Mitos de Arton
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-2 items-center">
-        <Input
-          icon={<Search className="w-4 h-4" />}
-          placeholder="Buscar deus menor..."
-          value={busca}
-          onChange={e => setBusca(e.target.value)}
-          className="max-w-xs"
-        />
-        <div className="flex gap-1">
-          {(['todos', 'Positiva', 'Negativa', 'Qualquer'] as const).map(e => (
-            <button key={e} onClick={() => setFiltroEnergia(e)}
-              className={`px-3 py-1 text-xs font-cinzel rounded border transition-colors ${
-                filtroEnergia === e
-                  ? e === 'Positiva' ? 'bg-gold text-abyss-950 border-gold'
-                    : e === 'Negativa' ? 'bg-blood text-parchment border-blood'
-                    : 'bg-grimoire-600 border-grimoire-500 text-parchment'
-                  : 'border-grimoire-600 text-parchment-muted hover:border-gold-700 hover:text-parchment'
-              }`}>
-              {e === 'todos' ? 'Todos' : e}
-            </button>
-          ))}
-        </div>
-        <span className="text-parchment-dark text-xs font-crimson ml-auto">{filtrados.length} deus(es)</span>
-      </div>
+      {/* Split Body */}
+      <div className="flex flex-1 overflow-hidden gap-5 px-8 py-5">
 
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-        {filtrados.map(deus => (
-          <Card key={deus.id} onClick={() => setSelecionado(deus)} glow>
-            <div className="flex items-start justify-between mb-2">
-              <div className="flex-1 pr-2">
-                <h3 className={`font-cinzel font-bold text-sm ${getStatusColor(deus.statusDivino)}`}>
-                  {deus.nome}
-                </h3>
-                <p className="font-crimson text-parchment-muted text-xs">{deus.epiteto}</p>
-              </div>
-              <Badge variant={getEnergiaBadge(deus.canalizarEnergia)}>
-                {deus.canalizarEnergia}
-              </Badge>
-            </div>
-            <div className="grid grid-cols-2 gap-x-2 gap-y-1 text-xs mb-3">
-              <span className="text-parchment-dark">Status: <span className={`font-semibold ${getStatusColor(deus.statusDivino)}`}>{deus.statusDivino}</span></span>
-              <span className="text-parchment-dark">Arma: <span className="text-parchment">{deus.armaPreferida}</span></span>
-            </div>
-            <p className="font-crimson text-parchment-muted text-xs line-clamp-2 mb-2">{deus.historia}</p>
-            <div className="bg-grimoire-800 rounded p-1.5">
-              <p className="font-cinzel text-gold text-xs">{deus.poderConcedido.nome}</p>
-            </div>
-          </Card>
-        ))}
-      </div>
+        {/* LEFT — lista */}
+        <div className="flex flex-col overflow-hidden flex-none" style={{ width: panelOpen ? 280 : 520 }}>
 
-      {selecionado && (
-        <Modal open={!!selecionado} onClose={() => setSelecionado(null)} title={selecionado.nome} size="lg">
-          <div className="space-y-4">
-            <div className="flex flex-wrap gap-2">
-              <Badge variant={getEnergiaBadge(selecionado.canalizarEnergia)}>
-                Energia {selecionado.canalizarEnergia}
-              </Badge>
-              <Badge variant="gray">Status Divino {selecionado.statusDivino}</Badge>
-              <Badge variant="gray">{selecionado.tipo}</Badge>
-            </div>
+          {/* Glórienn */}
+          <div className="mb-4">
+            <div className="font-cinzel text-[0.6rem] uppercase tracking-[2px] mb-2 px-0.5"
+              style={{ color: '#6e6356' }}>Deusa Maior</div>
+            <GloriennCard
+              selected={selected?.kind === 'glorienn'}
+              onClick={() => setSelected({ kind: 'glorienn' })}
+            />
+          </div>
 
-            <div>
-              <p className="font-cinzel text-gold text-base">{selecionado.epiteto}</p>
-              <p className="font-crimson text-parchment leading-relaxed mt-2">{selecionado.historia}</p>
+          {/* Filtros deuses menores */}
+          <div className="mb-3">
+            <div className="font-cinzel text-[0.6rem] uppercase tracking-[2px] mb-2 px-0.5" style={{ color: '#6e6356' }}>
+              Deuses Menores — {filtrados.length}
             </div>
-
-            <div className="grid grid-cols-2 gap-3 text-xs">
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-parchment-dark">Símbolo Sagrado</p>
-                <p className="text-parchment font-semibold">{selecionado.simboloSagrado}</p>
-              </div>
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-parchment-dark">Arma Preferida</p>
-                <p className="text-parchment font-semibold">{selecionado.armaPreferida}</p>
-              </div>
-              <div className="bg-grimoire-800 rounded p-2 col-span-2">
-                <p className="text-parchment-dark">Devotos</p>
-                <p className="text-parchment">{selecionado.devotos}</p>
-              </div>
+            <div className="relative mb-2">
+              <Icon name="icResearch" size={14} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+              <input value={busca} onChange={e => setBusca(e.target.value)}
+                placeholder="Buscar deus..."
+                style={{
+                  width: '100%', background: '#15101a', border: '1px solid rgba(200,155,60,0.20)',
+                  borderRadius: 6, padding: '6px 10px 6px 30px', color: '#E8DFCF',
+                  fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, outline: 'none',
+                }}
+                onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
+                onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+              />
             </div>
-
-            <div>
-              <h4 className="font-cinzel text-gold text-xs mb-2">Crenças e Objetivos</h4>
-              <p className="font-crimson text-parchment-muted text-sm">{selecionado.crencasEObjetivos}</p>
-            </div>
-
-            <div className="bg-blood/10 border border-blood/30 rounded-lg p-3">
-              <h4 className="font-cinzel text-blood-light text-xs mb-2">Obrigações & Restrições</h4>
-              <p className="font-crimson text-parchment-muted text-sm">{selecionado.obrigacoesERestricoes}</p>
-            </div>
-
-            <div className="bg-gold/10 border border-gold/30 rounded-lg p-3">
-              <h4 className="font-cinzel text-gold text-xs mb-2">
-                Poder Concedido — {selecionado.poderConcedido.nome}
-              </h4>
-              <p className="font-crimson text-parchment text-sm">{selecionado.poderConcedido.descricao}</p>
+            <div className="flex gap-1 flex-wrap">
+              {(['todos', 'Positiva', 'Negativa', 'Qualquer'] as const).map(e => {
+                const active = filtroEnergia === e
+                const nc = e === 'Positiva' ? '#E4C16A' : e === 'Negativa' ? '#e05050' : '#8A93A6'
+                return (
+                  <button key={e} onClick={() => setFiltroEnergia(e)}
+                    className="px-2.5 py-1 text-[0.65rem] font-cinzel rounded border transition-colors"
+                    style={{
+                      background: active ? (e === 'Positiva' ? 'rgba(200,155,60,0.18)' : e === 'Negativa' ? 'rgba(200,60,60,0.18)' : 'rgba(138,147,166,0.12)') : 'transparent',
+                      color: active ? nc : '#6e6356',
+                      borderColor: active ? nc : 'rgba(200,155,60,0.18)',
+                    }}>
+                    {e === 'todos' ? 'Todos' : e}
+                  </button>
+                )
+              })}
             </div>
           </div>
-        </Modal>
-      )}
+
+          {/* Deuses menores list */}
+          <div className="flex-1 overflow-y-auto scrollbar-thin space-y-2 pr-1">
+            {filtrados.map(d => (
+              <DeusCard key={d.id} deus={d}
+                selected={selected?.kind === 'deus' && selected.deus.id === d.id}
+                onClick={() => setSelected({ kind: 'deus', deus: d })}
+              />
+            ))}
+            {filtrados.length === 0 && (
+              <p className="font-garamond text-sm text-center pt-8" style={{ color: '#6e6356' }}>
+                Nenhum deus encontrado.
+              </p>
+            )}
+          </div>
+        </div>
+
+        {/* RIGHT — detalhe */}
+        {selected?.kind === 'glorienn' && (
+          <GloriennDetail onClose={() => setSelected(null)} />
+        )}
+        {selected?.kind === 'deus' && (
+          <DeusMenorDetail deus={selected.deus} onClose={() => setSelected(null)} />
+        )}
+      </div>
     </div>
   )
 }
