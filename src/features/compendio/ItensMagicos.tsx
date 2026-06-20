@@ -1,9 +1,7 @@
 import { useState, useMemo } from 'react'
-import { Input } from '@/components/ui/Input'
-import { Badge } from '@/components/ui/Badge'
-import { Card } from '@/components/ui/Card'
-import { Modal } from '@/components/ui/Modal'
-import { Search, Sword, Shield, Sparkles, Star, BookOpen, Crown } from 'lucide-react'
+import { Icon } from '@/components/ui/Icon'
+import { Select } from '@/components/ui/Input'
+import { X } from 'lucide-react'
 import data from '@/data/itensMagicos.json'
 
 type Categoria = 'todos' | 'encantosArmas' | 'armasEspecificas' | 'armaduras' | 'esotericos' | 'acessorios' | 'liturgicos' | 'artefatos'
@@ -28,56 +26,64 @@ interface ItemMagico {
   destruicao?: string
 }
 
-const categoriaLabel: Record<Categoria, string> = {
-  todos: 'Todos',
-  encantosArmas: 'Encantos p/ Armas',
-  armasEspecificas: 'Armas Específicas',
-  armaduras: 'Armaduras & Escudos',
-  esotericos: 'Esotéricos',
-  acessorios: 'Acessórios',
-  liturgicos: 'Itens Litúrgicos',
-  artefatos: 'Artefatos',
+const CAT_LABEL: Record<Categoria, string> = {
+  todos:           'Todos',
+  encantosArmas:   'Encantos p/ Armas',
+  armasEspecificas:'Armas Específicas',
+  armaduras:       'Armaduras & Escudos',
+  esotericos:      'Esotéricos',
+  acessorios:      'Acessórios',
+  liturgicos:      'Litúrgicos',
+  artefatos:       'Artefatos',
 }
 
-const categoriaIcon: Record<Categoria, React.ReactNode> = {
-  todos: null,
-  encantosArmas: <Sword className="w-4 h-4" />,
-  armasEspecificas: <Sword className="w-4 h-4" />,
-  armaduras: <Shield className="w-4 h-4" />,
-  esotericos: <Sparkles className="w-4 h-4" />,
-  acessorios: <Star className="w-4 h-4" />,
-  liturgicos: <BookOpen className="w-4 h-4" />,
-  artefatos: <Crown className="w-4 h-4" />,
+const CAT_COR: Record<Categoria, string> = {
+  todos:           '#C89B3C',
+  encantosArmas:   '#E05040',
+  armasEspecificas:'#E05040',
+  armaduras:       '#4F8FD6',
+  esotericos:      '#A461E8',
+  acessorios:      '#6E9A52',
+  liturgicos:      '#4FB0C6',
+  artefatos:       '#E4C16A',
+}
+
+const CAT_ICONE: Record<Categoria, string> = {
+  todos:           'icTreasure',
+  encantosArmas:   'icStrenght',
+  armasEspecificas:'icStrenght',
+  armaduras:       'icTough',
+  esotericos:      'icContemplative',
+  acessorios:      'icGear',
+  liturgicos:      'icWillpower',
+  artefatos:       'icTreasure',
 }
 
 function buildAllItems(): (ItemMagico & { _cat: Categoria })[] {
   const all: (ItemMagico & { _cat: Categoria })[] = []
   const d = data as any
-  ;(d.encantosArmas || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'encantosArmas' }))
-  ;(d.armasEspecificas || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'armasEspecificas' }))
-  ;(d.encantosArmaduras || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'armaduras' }))
-  ;(d.armadurasEspecificas || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'armaduras' }))
-  ;(d.escudosEspecificos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'armaduras' }))
-  ;(d.encantosEsotericos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'esotericos' }))
-  ;(d.esoteriosEspecificos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'esotericos' }))
-  ;(d.encantosAcessorios || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'acessorios' }))
-  ;(d.acessoriosEspecificos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'acessorios' }))
-  ;(d.itensLiturgicos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'liturgicos' }))
-  ;(d.liturgiaDosRaidos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'liturgicos' }))
-  ;(d.artefatos || []).forEach((i: ItemMagico) => all.push({ ...i, _cat: 'artefatos' }))
+  const push = (cat: Categoria, arr: ItemMagico[]) => arr?.forEach(i => all.push({ ...i, _cat: cat }))
+  push('encantosArmas',    d.encantosArmas)
+  push('armasEspecificas', d.armasEspecificas)
+  push('armaduras',        d.encantosArmaduras)
+  push('armaduras',        d.armadurasEspecificas)
+  push('armaduras',        d.escudosEspecificos)
+  push('esotericos',       d.encantosEsotericos)
+  push('esotericos',       d.esoteriosEspecificos)
+  push('acessorios',       d.encantosAcessorios)
+  push('acessorios',       d.acessoriosEspecificos)
+  push('liturgicos',       d.itensLiturgicos)
+  push('liturgicos',       d.liturgiaDosRaidos)
+  push('artefatos',        d.artefatos)
   return all
 }
 
 const allItems = buildAllItems()
 
-function badgeVariant(cat: Categoria): 'gold' | 'blood' | 'gray' | 'green' | 'blue' | 'purple' {
-  if (cat === 'artefatos') return 'gold'
-  if (cat === 'liturgicos') return 'blue'
-  if (cat === 'armaduras') return 'gray'
-  if (cat === 'esotericos') return 'purple'
-  if (cat === 'acessorios') return 'green'
-  return 'blood'
-}
+const CAT_OPTS: { value: Categoria; label: string }[] = (Object.keys(CAT_LABEL) as Categoria[]).map(k => ({
+  value: k,
+  label: k === 'todos' ? 'Todas as Categorias' : CAT_LABEL[k],
+}))
 
 export default function ItensMagicos() {
   const [busca, setBusca] = useState('')
@@ -88,7 +94,8 @@ export default function ItensMagicos() {
     const q = busca.toLowerCase()
     return allItems.filter(item => {
       const matchCat = filtro === 'todos' || item._cat === filtro
-      const matchBusca = !q || item.nome.toLowerCase().includes(q) ||
+      const matchBusca = !q ||
+        item.nome.toLowerCase().includes(q) ||
         item.descricao.toLowerCase().includes(q) ||
         (item.divindade || '').toLowerCase().includes(q) ||
         (item.prereq || '').toLowerCase().includes(q)
@@ -106,157 +113,236 @@ export default function ItensMagicos() {
   }, [filtrados])
 
   return (
-    <div className="space-y-4">
-      <div className="border-b border-grimoire-600 pb-4">
-        <h1 className="font-cinzel font-bold text-2xl text-gold">Itens Mágicos</h1>
-        <p className="font-crimson text-parchment-muted mt-1">Encantos, armas específicas, itens litúrgicos e artefatos de Mitos de Arton</p>
-      </div>
-
-      <div className="space-y-3">
-        <Input
-          icon={<Search className="w-4 h-4" />}
-          placeholder="Buscar itens mágicos..."
-          value={busca}
-          onChange={e => setBusca(e.target.value)}
-        />
-        <div className="flex gap-1 flex-wrap">
-          {(Object.keys(categoriaLabel) as Categoria[]).map(cat => (
-            <button key={cat} onClick={() => setFiltro(cat)}
-              className={`px-3 py-1 text-xs font-cinzel rounded border transition-colors ${filtro === cat ? 'bg-gold text-abyss-950 border-gold' : 'border-grimoire-600 text-parchment-muted hover:border-gold-700'}`}>
-              {categoriaLabel[cat]}
-            </button>
-          ))}
+    <div className="space-y-6">
+      {/* Header */}
+      <div style={{ borderBottom: '1px solid rgba(200,155,60,0.18)', paddingBottom: 16 }}>
+        <div className="flex items-center gap-3 mb-1">
+          <Icon name="icTreasure" size={26} color="#C89B3C" />
+          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#E4C16A', letterSpacing: 1 }}>
+            Itens Mágicos
+          </h1>
         </div>
-        <p className="text-parchment-dark text-xs font-crimson">{filtrados.length} item(s)</p>
+        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15 }}>
+          {allItems.length} itens — encantos, armas, armaduras, esotéricos e artefatos de Mitos de Arton
+        </p>
       </div>
 
-      <div className="space-y-6">
-        {(Object.entries(grupos) as [Categoria, typeof filtrados][]).map(([cat, items]) => (
-          <div key={cat}>
-            <div className="flex items-center gap-2 mb-3">
-              {categoriaIcon[cat]}
-              <h2 className="font-cinzel font-semibold text-sm text-parchment">{categoriaLabel[cat]}</h2>
-              <span className="text-parchment-dark text-xs font-crimson">({items.length})</span>
+      {/* Filtros */}
+      <div className="flex gap-3 items-center flex-wrap">
+        <div className="relative flex-1 min-w-[200px] max-w-sm">
+          <Icon name="icResearch" size={15} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <input
+            value={busca}
+            onChange={e => setBusca(e.target.value)}
+            placeholder="Buscar itens mágicos..."
+            style={{
+              width: '100%', background: '#15101a',
+              border: '1px solid rgba(200,155,60,0.20)', borderRadius: 6,
+              padding: '7px 12px 7px 34px', color: '#E8DFCF',
+              fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, outline: 'none',
+            }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+          />
+        </div>
+        <Select
+          value={filtro}
+          onChange={e => setFiltro(e.target.value as Categoria)}
+          options={CAT_OPTS}
+          className="w-52"
+        />
+        <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{filtrados.length} item(ns)</span>
+      </div>
+
+      {/* Grupos por categoria */}
+      <div className="space-y-8">
+        {(Object.entries(grupos) as [Categoria, typeof filtrados][]).map(([cat, items]) => {
+          const cor = CAT_COR[cat]
+          return (
+            <div key={cat}>
+              <div className="flex items-center gap-3 mb-3">
+                <Icon name={CAT_ICONE[cat]} size={14} color={cor} />
+                <span className="font-cinzel font-semibold text-sm" style={{ color: cor }}>{CAT_LABEL[cat]}</span>
+                <div className="flex-1 h-px" style={{ background: `${cor}28` }} />
+                <span className="font-cinzel text-xs px-2 py-0.5 rounded" style={{ color: cor, background: `${cor}14`, border: `1px solid ${cor}38` }}>
+                  {items.length}
+                </span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                {items.map(item => (
+                  <ItemCard key={item.id} item={item} cor={cor} onClick={() => setSelecionado(item)} />
+                ))}
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {items.map(item => (
-                <Card key={item.id} onClick={() => setSelecionado(item)}>
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <h3 className="font-cinzel font-semibold text-parchment text-sm leading-tight">{item.nome}</h3>
-                    <Badge variant={badgeVariant(item._cat)}>
-                      {item.categoria || (item._cat === 'artefatos' ? 'Artefato' : item.tipo || categoriaLabel[cat])}
-                    </Badge>
-                  </div>
-                  {item.divindade && (
-                    <p className="text-xs text-gold font-crimson mb-1">Divindade: {item.divindade}</p>
-                  )}
-                  {item.preco && (
-                    <p className="text-xs text-parchment-muted font-crimson mb-1">{item.preco}</p>
-                  )}
-                  <p className="font-crimson text-parchment-dark text-xs line-clamp-3">{item.descricao}</p>
-                  {item.prereq && (
-                    <p className="text-xs text-parchment-dark font-crimson mt-1 italic">Pré-req: {item.prereq}</p>
-                  )}
-                </Card>
+          )
+        })}
+      </div>
+
+      {selecionado && <ItemModal item={selecionado} onClose={() => setSelecionado(null)} />}
+    </div>
+  )
+}
+
+function ItemCard({ item, cor, onClick }: { item: ItemMagico & { _cat: Categoria }; cor: string; onClick: () => void }) {
+  const [hovered, setHovered] = useState(false)
+  return (
+    <div
+      onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      className="rounded-lg cursor-pointer transition-all duration-150"
+      style={{
+        padding: '12px 14px',
+        background: hovered ? '#1e1624' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        border: `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
+        boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
+        transform: hovered ? 'translateY(-2px)' : 'none',
+      }}
+    >
+      <div className="flex items-start justify-between gap-2 mb-1.5">
+        <span className="font-cinzel font-semibold text-sm leading-tight" style={{ color: '#E8DFCF' }}>{item.nome}</span>
+        {item.preco && (
+          <span className="font-cinzel text-[0.6rem] px-1.5 py-0.5 rounded flex-none" style={{ color: '#E4C16A', background: 'rgba(200,155,60,0.12)', border: '1px solid rgba(200,155,60,0.28)' }}>
+            {item.preco}
+          </span>
+        )}
+      </div>
+      {item.divindade && (
+        <p className="font-garamond text-xs mb-1" style={{ color: cor }}>Divindade: {item.divindade}</p>
+      )}
+      {item.prereq && (
+        <p className="font-garamond text-xs italic mb-1" style={{ color: '#6e6356' }}>Pré-req: {item.prereq}</p>
+      )}
+      <p className="font-garamond text-xs leading-snug" style={{ color: '#8f8472', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+        {item.descricao}
+      </p>
+    </div>
+  )
+}
+
+function ItemModal({ item, onClose }: { item: ItemMagico & { _cat: Categoria }; onClose: () => void }) {
+  const cor = CAT_COR[item._cat]
+
+  const campos = [
+    item.preco       && { label: 'Preço',      value: item.preco },
+    item.categoria   && { label: 'Categoria',   value: item.categoria },
+    item.tipo        && { label: 'Tipo',         value: item.tipo },
+    item.divindade   && { label: 'Divindade',   value: item.divindade },
+  ].filter(Boolean) as { label: string; value: string }[]
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-6">
+      <div className="absolute inset-0" style={{ background: 'rgba(6,4,9,0.86)', backdropFilter: 'blur(5px)' }} onClick={onClose} />
+      <div
+        className="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
+        style={{
+          background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30)',
+          border: `1px solid ${cor}44`,
+        }}
+      >
+        {/* Header */}
+        <div className="flex-none p-6 pb-4">
+          <div className="flex items-start gap-4">
+            <div className="flex-none w-14 h-14 rounded-xl flex items-center justify-center" style={{ background: `radial-gradient(circle at 50% 28%, ${cor}44, rgba(13,9,17,0.8))`, border: `2px solid ${cor}66`, boxShadow: `0 0 16px ${cor}33` }}>
+              <Icon name={CAT_ICONE[item._cat]} size={24} color={cor} />
+            </div>
+            <div className="flex-1 min-w-0">
+              <span className="font-cinzel text-[0.65rem] uppercase tracking-[2px]" style={{ color: cor }}>
+                {CAT_LABEL[item._cat]}
+              </span>
+              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#E8DFCF' }}>{item.nome}</h2>
+            </div>
+            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#6e6356' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}>
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+
+          {campos.length > 0 && (
+            <div className="grid gap-2 mt-4" style={{ gridTemplateColumns: `repeat(${Math.min(campos.length, 4)}, 1fr)` }}>
+              {campos.map((c, i) => (
+                <div key={i} className="flex flex-col items-center rounded-lg py-2 px-1" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
+                  <span className="font-cinzel font-semibold text-xs leading-none text-center" style={{ color: '#E4C16A' }}>{c.value}</span>
+                  <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1 text-center" style={{ color: '#6e6356' }}>{c.label}</span>
+                </div>
               ))}
             </div>
-          </div>
-        ))}
-      </div>
+          )}
+          <div className="mt-4 h-px" style={{ background: 'linear-gradient(90deg, rgba(200,155,60,0.4), transparent)' }} />
+        </div>
 
-      {selecionado && (
-        <Modal open={!!selecionado} onClose={() => setSelecionado(null)} title={selecionado.nome} size="lg">
-          <div className="space-y-4">
-            <div className="flex gap-2 flex-wrap">
-              <Badge variant={badgeVariant(selecionado._cat)}>{categoriaLabel[selecionado._cat]}</Badge>
-              {selecionado.categoria && <Badge variant="gray">{selecionado.categoria}</Badge>}
-              {selecionado.divindade && <Badge variant="gold">{selecionado.divindade}</Badge>}
-              {selecionado.tipo && <Badge variant="blue">{selecionado.tipo}</Badge>}
+        <div className="flex-1 overflow-y-auto scrollbar-thin px-6 pb-6 space-y-4">
+          <p className="font-garamond leading-relaxed" style={{ fontSize: 15.5, color: '#cfc3aa', lineHeight: 1.72 }}>{item.descricao}</p>
+
+          {item.prereq && (
+            <Section label="Pré-requisito">
+              <p className="font-garamond text-sm italic" style={{ color: '#a99c86' }}>{item.prereq}</p>
+            </Section>
+          )}
+          {item.requisitos && (
+            <Section label="Requisitos para Empunhar">
+              <p className="font-garamond text-sm" style={{ color: '#a99c86' }}>{item.requisitos}</p>
+            </Section>
+          )}
+          {item.poderes && (
+            <Section label="Poderes" accent={cor}>
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#E8DFCF' }}>{item.poderes}</p>
+            </Section>
+          )}
+          {item.modificadores && (
+            <Section label="Modificadores" accent={cor}>
+              <p className="font-garamond text-sm" style={{ color: '#E8DFCF' }}>{item.modificadores}</p>
+            </Section>
+          )}
+          {item.especial && (
+            <Section label="Especial" accent="#A461E8">
+              <p className="font-garamond text-sm" style={{ color: '#c2b596' }}>{item.especial}</p>
+            </Section>
+          )}
+          {item.custo && (
+            <div className="rounded-lg p-4" style={{ background: 'rgba(224,80,64,0.10)', border: '1px solid rgba(224,80,64,0.25)' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#E05040' }}>Custo / Maldição</div>
+              <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{item.custo}</p>
             </div>
-
-            {selecionado.preco && (
-              <div className="bg-grimoire-800 rounded p-2 inline-block">
-                <span className="text-gold font-cinzel text-sm">{selecionado.preco}</span>
-              </div>
-            )}
-
+          )}
+          {item.virtudes && (
             <div>
-              <p className="text-parchment-dark text-xs font-cinzel mb-1">DESCRIÇÃO</p>
-              <p className="font-crimson text-parchment text-sm">{selecionado.descricao}</p>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-3" style={{ color: '#E4C16A' }}>Virtudes Individuais</div>
+              <div className="space-y-2">
+                {Object.entries(item.virtudes).map(([nome, desc]) => (
+                  <div key={nome} className="rounded-lg p-3" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
+                    <div className="font-cinzel text-xs font-semibold mb-1 capitalize" style={{ color: '#E4C16A' }}>{nome}</div>
+                    <p className="font-garamond text-sm" style={{ color: '#a99c86' }}>{desc}</p>
+                  </div>
+                ))}
+              </div>
             </div>
+          )}
+          {item.poder_unido && (
+            <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.30)' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#E4C16A' }}>Poder Unido</div>
+              <p className="font-garamond text-sm" style={{ color: '#E8DFCF' }}>{item.poder_unido}</p>
+            </div>
+          )}
+          {item.destruicao && (
+            <Section label="Como Destruir">
+              <p className="font-garamond text-sm" style={{ color: '#a99c86' }}>{item.destruicao}</p>
+            </Section>
+          )}
+          <p className="font-cinzel text-xs" style={{ color: '#6e6356' }}>Fonte: {item.fonte}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
 
-            {selecionado.prereq && (
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-parchment-dark text-xs font-cinzel mb-1">PRÉ-REQUISITO</p>
-                <p className="font-crimson text-parchment text-sm italic">{selecionado.prereq}</p>
-              </div>
-            )}
-
-            {selecionado.requisitos && (
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-parchment-dark text-xs font-cinzel mb-1">REQUISITOS PARA EMPUNHAR</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.requisitos}</p>
-              </div>
-            )}
-
-            {selecionado.poderes && (
-              <div>
-                <p className="text-gold font-cinzel text-xs mb-1">PODERES</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.poderes}</p>
-              </div>
-            )}
-
-            {selecionado.modificadores && (
-              <div>
-                <p className="text-gold font-cinzel text-xs mb-1">MODIFICADORES</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.modificadores}</p>
-              </div>
-            )}
-
-            {selecionado.custo && (
-              <div className="bg-blood-950 border border-blood-800 rounded p-2">
-                <p className="text-blood-light font-cinzel text-xs mb-1">CUSTO / MALDIÇÃO</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.custo}</p>
-              </div>
-            )}
-
-            {selecionado.especial && (
-              <div>
-                <p className="text-purple-400 font-cinzel text-xs mb-1">ESPECIAL</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.especial}</p>
-              </div>
-            )}
-
-            {selecionado.destruicao && (
-              <div className="bg-grimoire-800 rounded p-2">
-                <p className="text-blood-light font-cinzel text-xs mb-1">COMO DESTRUIR</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.destruicao}</p>
-              </div>
-            )}
-
-            {selecionado.virtudes && (
-              <div>
-                <p className="text-gold font-cinzel text-xs mb-2">VIRTUDES INDIVIDUAIS</p>
-                <div className="space-y-2">
-                  {Object.entries(selecionado.virtudes).map(([nome, desc]) => (
-                    <div key={nome} className="bg-grimoire-800 rounded p-2">
-                      <p className="font-cinzel text-xs text-gold capitalize mb-1">{nome}</p>
-                      <p className="font-crimson text-parchment text-sm">{desc}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {selecionado.poder_unido && (
-              <div className="bg-gold bg-opacity-10 border border-gold rounded p-2">
-                <p className="text-gold font-cinzel text-xs mb-1">PODER UNIDO</p>
-                <p className="font-crimson text-parchment text-sm">{selecionado.poder_unido}</p>
-              </div>
-            )}
-          </div>
-        </Modal>
-      )}
+function Section({ label, accent = '#9a8e7c', children }: { label: string; accent?: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
+      <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: accent }}>{label}</div>
+      {children}
     </div>
   )
 }
