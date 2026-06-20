@@ -28,11 +28,13 @@ function getEscolaCor(escola: string | null | undefined): string {
 
 const escolas = ['Todas', ...Array.from(new Set(magias.map(m => m.escola).filter(Boolean))).sort()]
 const circulos = ['Todos', '1', '2', '3', '4', '5']
+const tipos = ['Todos', 'arcana', 'divina']
 
 export default function Magias() {
   const [busca, setBusca] = useState('')
   const [escola, setEscola] = useState('Todas')
   const [circulo, setCirculo] = useState('Todos')
+  const [tipo, setTipo] = useState('Todos')
   const [selecionada, setSelecionada] = useState<Magia | null>(null)
   const [favoritos, setFavoritos] = useState<Set<string>>(new Set())
 
@@ -40,12 +42,13 @@ export default function Magias() {
     magias.filter(m => {
       const matchEscola = escola === 'Todas' || m.escola === escola
       const matchCirculo = circulo === 'Todos' || String(m.circulo) === circulo
+      const matchTipo = tipo === 'Todos' || (m as any).tipo === tipo
       const matchBusca = !busca ||
         m.nome.toLowerCase().includes(busca.toLowerCase()) ||
         m.escola.toLowerCase().includes(busca.toLowerCase()) ||
         m.descricao.toLowerCase().includes(busca.toLowerCase())
-      return matchEscola && matchCirculo && matchBusca
-    }), [busca, escola, circulo])
+      return matchEscola && matchCirculo && matchTipo && matchBusca
+    }), [busca, escola, circulo, tipo])
 
   function toggleFavorito(id: string, e: React.MouseEvent) {
     e.stopPropagation()
@@ -116,7 +119,13 @@ export default function Magias() {
           value={circulo}
           onChange={e => setCirculo(e.target.value)}
           options={circulos.map(c => ({ value: c, label: c === 'Todos' ? 'Todos os Círculos' : `${c}º Círculo` }))}
-          className="w-44"
+          className="w-40"
+        />
+        <Select
+          value={tipo}
+          onChange={e => setTipo(e.target.value)}
+          options={tipos.map(t => ({ value: t, label: t === 'Todos' ? 'Arcanas & Divinas' : t === 'arcana' ? 'Arcanas' : 'Divinas' }))}
+          className="w-40"
         />
       </div>
 
@@ -278,10 +287,22 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
               <Icon name="icKnowledge" size={28} color={cor} />
             </div>
             <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 mb-1">
+              <div className="flex items-center gap-2 mb-1 flex-wrap">
                 <span className="font-cinzel text-[0.65rem] uppercase tracking-[2px]" style={{ color: cor }}>
                   {magia.escola} · {magia.circulo}º Círculo
                 </span>
+                {(magia as any).tipo && (
+                  <span
+                    className="font-cinzel text-[0.6rem] uppercase tracking-wide px-1.5 py-0.5 rounded"
+                    style={{
+                      color: (magia as any).tipo === 'divina' ? '#4F8FD6' : '#A461E8',
+                      background: (magia as any).tipo === 'divina' ? 'rgba(79,143,214,0.15)' : 'rgba(164,97,232,0.15)',
+                      border: (magia as any).tipo === 'divina' ? '1px solid rgba(79,143,214,0.4)' : '1px solid rgba(164,97,232,0.4)',
+                    }}
+                  >
+                    {(magia as any).tipo}
+                  </span>
+                )}
               </div>
               <h2 className="font-cinzel font-bold text-xl" style={{ color: '#E8DFCF', letterSpacing: '0.5px' }}>
                 {magia.nome}
@@ -299,13 +320,14 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
           </div>
 
           {/* Strip de atributos */}
-          <div className="grid grid-cols-5 gap-2 mt-4">
+          <div className="grid grid-cols-6 gap-2 mt-4">
             {[
               { label: 'PM', value: magia.pm ? String(magia.pm) : '—' },
               { label: 'Execução', value: magia.execucao || '—' },
               { label: 'Alcance', value: magia.alcance || '—' },
+              { label: 'Área / Alvo', value: (magia as any).area || '—' },
               { label: 'Duração', value: magia.duracao || '—' },
-              { label: 'Resistência', value: (magia as any).resistencia || '—' },
+              { label: 'Resistência', value: (magia as any).resistencia?.split('.')[0] || '—' },
             ].map((s, i) => (
               <div
                 key={i}

@@ -27,7 +27,7 @@ function getNdCor(nd: string): string {
 const tiposUnicos = ['Todos', ...Array.from(new Set(ameacas.map(a => a.tipo.split(' ')[0])))]
 const ndsUnicos = ['Todos', ...Array.from(new Set(ameacas.map(a => a.nd))).sort((a, b) => ndToNum(a) - ndToNum(b))]
 
-const TABS = ['Visão Geral', 'Habilidades', 'Estratégia', 'Lore'] as const
+const TABS = ['Visão Geral', 'Habilidades', 'Estratégia', 'Tesouro'] as const
 type Tab = typeof TABS[number]
 
 export default function Ameacas() {
@@ -274,10 +274,10 @@ export default function Ameacas() {
 
             {/* Tab Content */}
             <div className="flex-1 overflow-y-auto scrollbar-thin p-5">
-              {aba === 'Visão Geral' && <TabVisaoGeral ameaca={selecionada} />}
+              {aba === 'Visão Geral'  && <TabVisaoGeral ameaca={selecionada} />}
               {aba === 'Habilidades' && <TabHabilidades ameaca={selecionada} />}
-              {aba === 'Estratégia' && <TabEstrategia ameaca={selecionada} />}
-              {aba === 'Lore' && <TabLore ameaca={selecionada} />}
+              {aba === 'Estratégia'  && <TabEstrategia ameaca={selecionada} />}
+              {aba === 'Tesouro'     && <TabTesouro ameaca={selecionada} />}
             </div>
           </div>
         )}
@@ -363,8 +363,15 @@ function AmeacaCard({ ameaca, selected, compact, onClick }: {
   )
 }
 
+function fmtMod(val: number): string {
+  return val >= 0 ? `+${val}` : `${val}`
+}
+
 function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
   const ataques = (ameaca as any).ataques as Array<{ nome: string; 'bônus': string; dano: string; critico?: string; tipo?: string }> | undefined
+  const atributos = (ameaca as any).atributos as { for: number; des: number; con: number; int: number; sab: number; car: number } | undefined
+  const resistencias = (ameaca as any).resistencias as { fortitude: number; reflexos: number; vontade: number } | undefined
+
   return (
     <div className="space-y-4">
       {ameaca.descricao && (
@@ -372,6 +379,70 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
           {ameaca.descricao}
         </p>
       )}
+
+      {/* Atributos */}
+      {atributos && (
+        <div className="rounded-lg overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.14)' }}>
+          <div className="font-cinzel text-xs uppercase tracking-widest px-4 py-2" style={{ color: '#9a8e7c', background: '#0f0b13' }}>
+            Atributos
+          </div>
+          <div className="grid grid-cols-6">
+            {([
+              { label: 'FOR', val: atributos.for },
+              { label: 'DES', val: atributos.des },
+              { label: 'CON', val: atributos.con },
+              { label: 'INT', val: atributos.int },
+              { label: 'SAB', val: atributos.sab },
+              { label: 'CAR', val: atributos.car },
+            ] as const).map((a, i) => (
+              <div
+                key={i}
+                className="flex flex-col items-center py-3"
+                style={{
+                  background: '#120d16',
+                  borderRight: i < 5 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+                }}
+              >
+                <span className="font-cinzel font-bold text-base leading-none" style={{ color: '#E4C16A' }}>
+                  {fmtMod(a.val)}
+                </span>
+                <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1" style={{ color: '#6e6356' }}>
+                  {a.label}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Resistências */}
+      {resistencias && (
+        <div className="grid grid-cols-3 gap-0 rounded-lg overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.14)' }}>
+          {([
+            { label: 'Fortitude', val: resistencias.fortitude },
+            { label: 'Reflexos',  val: resistencias.reflexos },
+            { label: 'Vontade',   val: resistencias.vontade },
+          ] as const).map((r, i) => (
+            <div
+              key={i}
+              className="flex flex-col items-center py-3"
+              style={{
+                background: '#120d16',
+                borderRight: i < 2 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+              }}
+            >
+              <span className="font-cinzel font-bold text-base leading-none" style={{ color: '#4F8FD6' }}>
+                {fmtMod(r.val)}
+              </span>
+              <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1" style={{ color: '#6e6356' }}>
+                {r.label}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Ataques */}
       {ataques?.length ? (
         <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
           <div className="font-cinzel text-xs uppercase tracking-widest mb-3" style={{ color: '#9a8e7c' }}>
@@ -393,12 +464,6 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
           </div>
         </div>
       ) : null}
-      {ameaca.resistencias && (
-        <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-          <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Resistências</div>
-          <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{String(ameaca.resistencias)}</p>
-        </div>
-      )}
     </div>
   )
 }
@@ -447,21 +512,15 @@ function TabEstrategia({ ameaca }: { ameaca: Ameaca }) {
   )
 }
 
-function TabLore({ ameaca }: { ameaca: Ameaca }) {
+function TabTesouro({ ameaca }: { ameaca: Ameaca }) {
   const tesouro = (ameaca as any).tesouro as string | undefined
+  if (!tesouro) return <p className="font-garamond text-sm" style={{ color: '#6e6356' }}>Nenhuma informação de tesouro disponível.</p>
   return (
     <div className="space-y-4">
-      {ameaca.descricao && (
-        <p className="font-garamond leading-relaxed drop-cap" style={{ fontSize: 16, color: '#cfc3aa', lineHeight: 1.72 }}>
-          {ameaca.descricao}
-        </p>
-      )}
-      {tesouro && (
-        <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-          <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Tesouro</div>
-          <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{tesouro}</p>
-        </div>
-      )}
+      <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.20)' }}>
+        <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Tesouro</div>
+        <p className="font-garamond leading-relaxed" style={{ fontSize: 15.5, color: '#cfc3aa', lineHeight: 1.72 }}>{tesouro}</p>
+      </div>
     </div>
   )
 }

@@ -1,9 +1,7 @@
 import { useState, useMemo } from 'react'
-import { Input } from '@/components/ui/Input'
-import { Badge } from '@/components/ui/Badge'
-import { Card } from '@/components/ui/Card'
-import { Modal } from '@/components/ui/Modal'
-import { Search, Zap } from 'lucide-react'
+import { Icon } from '@/components/ui/Icon'
+import { Select } from '@/components/ui/Input'
+import { X } from 'lucide-react'
 import poderesData from '@/data/poderesConcedidos.json'
 
 interface PoderConcedido {
@@ -16,18 +14,17 @@ interface PoderConcedido {
 }
 
 const poderes: PoderConcedido[] = poderesData as PoderConcedido[]
-
-const todasDivindades = [...new Set(poderes.flatMap(p => p.divindade))].sort()
+const todasDivindades = ['Todos', ...[...new Set(poderes.flatMap(p => p.divindade))].sort()]
 
 export default function PoderesConcedidos() {
   const [busca, setBusca] = useState('')
-  const [filtroDivindade, setFiltroDivindade] = useState('todos')
+  const [filtroDivindade, setFiltroDivindade] = useState('Todos')
   const [selecionado, setSelecionado] = useState<PoderConcedido | null>(null)
 
   const filtrados = useMemo(() => {
     const q = busca.toLowerCase()
     return poderes.filter(p => {
-      const matchDiv = filtroDivindade === 'todos' || p.divindade.includes(filtroDivindade)
+      const matchDiv = filtroDivindade === 'Todos' || p.divindade.includes(filtroDivindade)
       const matchBusca = !q ||
         p.nome.toLowerCase().includes(q) ||
         p.descricao.toLowerCase().includes(q) ||
@@ -38,7 +35,7 @@ export default function PoderesConcedidos() {
   }, [busca, filtroDivindade])
 
   const grupos = useMemo(() => {
-    if (filtroDivindade !== 'todos') return null
+    if (filtroDivindade !== 'Todos') return null
     const g: Record<string, PoderConcedido[]> = {}
     filtrados.forEach(p => {
       const div = p.divindade[0]
@@ -49,98 +46,162 @@ export default function PoderesConcedidos() {
   }, [filtrados, filtroDivindade])
 
   return (
-    <div className="space-y-4">
-      <div className="border-b border-grimoire-600 pb-4">
-        <h1 className="font-cinzel font-bold text-2xl text-gold">Poderes Concedidos</h1>
-        <p className="font-crimson text-parchment-muted mt-1">Novos poderes divinos de Mitos de Arton — {poderes.length} poderes</p>
-      </div>
-
-      <div className="space-y-3">
-        <Input
-          icon={<Search className="w-4 h-4" />}
-          placeholder="Buscar poderes concedidos..."
-          value={busca}
-          onChange={e => setBusca(e.target.value)}
-        />
-        <div className="flex gap-1 flex-wrap">
-          <button onClick={() => setFiltroDivindade('todos')}
-            className={`px-3 py-1 text-xs font-cinzel rounded border transition-colors ${filtroDivindade === 'todos' ? 'bg-gold text-abyss-950 border-gold' : 'border-grimoire-600 text-parchment-muted hover:border-gold-700'}`}>
-            Todos
-          </button>
-          {todasDivindades.map(div => (
-            <button key={div} onClick={() => setFiltroDivindade(div)}
-              className={`px-3 py-1 text-xs font-cinzel rounded border transition-colors ${filtroDivindade === div ? 'bg-gold text-abyss-950 border-gold' : 'border-grimoire-600 text-parchment-muted hover:border-gold-700'}`}>
-              {div}
-            </button>
-          ))}
+    <div className="space-y-6">
+      {/* Header */}
+      <div style={{ borderBottom: '1px solid rgba(200,155,60,0.18)', paddingBottom: 16 }}>
+        <div className="flex items-center gap-3 mb-1">
+          <Icon name="icWillpower" size={26} color="#C89B3C" />
+          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#E4C16A', letterSpacing: 1 }}>
+            Poderes Concedidos
+          </h1>
         </div>
-        <p className="text-parchment-dark text-xs font-crimson">{filtrados.length} poder(es)</p>
+        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15 }}>
+          {poderes.length} poderes divinos — clique para ver detalhes e pré-requisitos
+        </p>
       </div>
 
-      {grupos ? (
-        <div className="space-y-6">
-          {Object.entries(grupos).sort(([a], [b]) => a.localeCompare(b)).map(([div, items]) => (
+      {/* Filtros */}
+      <div className="flex gap-3 items-center flex-wrap">
+        <div className="relative flex-1 min-w-[200px] max-w-sm">
+          <Icon name="icResearch" size={15} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <input
+            value={busca}
+            onChange={e => setBusca(e.target.value)}
+            placeholder="Buscar poderes..."
+            style={{
+              width: '100%',
+              background: '#15101a',
+              border: '1px solid rgba(200,155,60,0.20)',
+              borderRadius: 6,
+              padding: '7px 12px 7px 34px',
+              color: '#E8DFCF',
+              fontFamily: "'EB Garamond', Georgia, serif",
+              fontSize: 14,
+              outline: 'none',
+            }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+          />
+        </div>
+        <Select
+          value={filtroDivindade}
+          onChange={e => setFiltroDivindade(e.target.value)}
+          options={todasDivindades.map(d => ({ value: d, label: d === 'Todos' ? 'Todas as Divindades' : d }))}
+          className="w-52"
+        />
+        <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{filtrados.length} poder(es)</span>
+      </div>
+
+      {/* Lista agrupada por divindade */}
+      <div className="space-y-8">
+        {grupos ? (
+          Object.entries(grupos).sort(([a], [b]) => a.localeCompare(b)).map(([div, items]) => (
             <div key={div}>
-              <div className="flex items-center gap-2 mb-3">
-                <Zap className="w-4 h-4 text-gold" />
-                <h2 className="font-cinzel font-semibold text-sm text-parchment">{div}</h2>
-                <span className="text-parchment-dark text-xs font-crimson">({items.length})</span>
+              <div className="flex items-center gap-3 mb-3">
+                <Icon name="icWillpower" size={14} color="#C89B3C" />
+                <span className="font-cinzel font-semibold text-sm" style={{ color: '#E4C16A' }}>{div}</span>
+                <div className="flex-1 h-px" style={{ background: 'rgba(200,155,60,0.15)' }} />
+                <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{items.length}</span>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {items.map(p => (
-                  <Card key={p.id} onClick={() => setSelecionado(p)}>
-                    <h3 className="font-cinzel font-semibold text-parchment text-sm mb-1">{p.nome}</h3>
-                    {p.divindade.length > 1 && (
-                      <div className="flex gap-1 flex-wrap mb-1">
-                        {p.divindade.map(d => <Badge key={d} variant="gold">{d}</Badge>)}
-                      </div>
-                    )}
-                    {p.prereq && <p className="text-xs text-parchment-muted font-crimson italic mb-1">Pré-req: {p.prereq}</p>}
-                    <p className="font-crimson text-parchment-dark text-xs line-clamp-3">{p.descricao}</p>
-                  </Card>
+                {items.map(p => <PoderCard key={p.id} poder={p} onClick={() => setSelecionado(p)} />)}
+              </div>
+            </div>
+          ))
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {filtrados.map(p => <PoderCard key={p.id} poder={p} onClick={() => setSelecionado(p)} />)}
+          </div>
+        )}
+      </div>
+
+      {selecionado && <PoderModal poder={selecionado} onClose={() => setSelecionado(null)} />}
+    </div>
+  )
+}
+
+function PoderCard({ poder, onClick }: { poder: PoderConcedido; onClick: () => void }) {
+  const [hovered, setHovered] = useState(false)
+  return (
+    <div
+      onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      className="rounded-lg cursor-pointer transition-all duration-150"
+      style={{
+        padding: '12px 14px',
+        background: hovered ? '#1e1624' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        border: `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
+        boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
+        transform: hovered ? 'translateY(-2px)' : 'none',
+      }}
+    >
+      <div className="font-cinzel font-semibold text-sm mb-1" style={{ color: '#E8DFCF' }}>{poder.nome}</div>
+      {poder.divindade.length > 1 && (
+        <div className="flex flex-wrap gap-1 mb-1">
+          {poder.divindade.map(d => (
+            <span key={d} className="font-cinzel text-[0.58rem] px-1.5 py-0.5 rounded" style={{ color: '#E4C16A', background: 'rgba(200,155,60,0.12)', border: '1px solid rgba(200,155,60,0.25)' }}>
+              {d}
+            </span>
+          ))}
+        </div>
+      )}
+      {poder.prereq && (
+        <p className="font-garamond text-xs italic mb-1" style={{ color: '#6e6356' }}>Pré-req: {poder.prereq}</p>
+      )}
+      <p className="font-garamond text-xs leading-snug" style={{ color: '#8f8472', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+        {poder.descricao}
+      </p>
+    </div>
+  )
+}
+
+function PoderModal({ poder, onClose }: { poder: PoderConcedido; onClose: () => void }) {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-6">
+      <div className="absolute inset-0" style={{ background: 'rgba(6,4,9,0.86)', backdropFilter: 'blur(5px)' }} onClick={onClose} />
+      <div
+        className="relative w-full max-w-lg max-h-[80vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
+        style={{
+          background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30)',
+          border: '1px solid rgba(200,155,60,0.28)',
+        }}
+      >
+        <div className="flex-none p-6 pb-4">
+          <div className="flex items-start justify-between gap-3">
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap gap-1.5 mb-2">
+                {poder.divindade.map(d => (
+                  <span key={d} className="font-cinzel text-[0.65rem] uppercase tracking-wide px-2 py-0.5 rounded" style={{ color: '#E4C16A', background: 'rgba(200,155,60,0.12)', border: '1px solid rgba(200,155,60,0.30)' }}>
+                    {d}
+                  </span>
                 ))}
               </div>
+              <h2 className="font-cinzel font-bold text-xl" style={{ color: '#E8DFCF' }}>{poder.nome}</h2>
             </div>
-          ))}
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          {filtrados.map(p => (
-            <Card key={p.id} onClick={() => setSelecionado(p)}>
-              <h3 className="font-cinzel font-semibold text-parchment text-sm mb-1">{p.nome}</h3>
-              <div className="flex gap-1 flex-wrap mb-1">
-                {p.divindade.map(d => <Badge key={d} variant="gold">{d}</Badge>)}
-              </div>
-              {p.prereq && <p className="text-xs text-parchment-muted font-crimson italic mb-1">Pré-req: {p.prereq}</p>}
-              <p className="font-crimson text-parchment-dark text-xs line-clamp-3">{p.descricao}</p>
-            </Card>
-          ))}
-        </div>
-      )}
-
-      {selecionado && (
-        <Modal open={!!selecionado} onClose={() => setSelecionado(null)} title={selecionado.nome} size="lg">
-          <div className="space-y-4">
-            <div className="flex gap-2 flex-wrap">
-              {selecionado.divindade.map(d => <Badge key={d} variant="gold">{d}</Badge>)}
-              <Badge variant="blue">Mitos de Arton</Badge>
-              <Badge variant="purple">Poder Concedido</Badge>
-            </div>
-
-            {selecionado.prereq && (
-              <div className="bg-grimoire-800 border border-grimoire-600 rounded p-3">
-                <p className="text-parchment-dark text-xs font-cinzel mb-1">PRÉ-REQUISITO</p>
-                <p className="font-crimson text-parchment text-sm italic">{selecionado.prereq}</p>
-              </div>
-            )}
-
-            <div>
-              <p className="text-parchment-dark text-xs font-cinzel mb-1">DESCRIÇÃO</p>
-              <p className="font-crimson text-parchment text-sm leading-relaxed">{selecionado.descricao}</p>
-            </div>
+            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#6e6356' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}>
+              <X className="w-4 h-4" />
+            </button>
           </div>
-        </Modal>
-      )}
+          <div className="mt-2 h-px" style={{ background: 'linear-gradient(90deg, rgba(200,155,60,0.5), transparent)' }} />
+        </div>
+
+        <div className="flex-1 overflow-y-auto scrollbar-thin px-6 pb-6 space-y-4">
+          {poder.prereq && (
+            <div className="rounded-lg p-3" style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.20)' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#9a8e7c' }}>Pré-requisito</div>
+              <p className="font-garamond text-sm italic" style={{ color: '#c2b596' }}>{poder.prereq}</p>
+            </div>
+          )}
+          <p className="font-garamond leading-relaxed" style={{ fontSize: 16, color: '#cfc3aa', lineHeight: 1.72 }}>
+            {poder.descricao}
+          </p>
+          <p className="font-cinzel text-xs" style={{ color: '#6e6356' }}>Fonte: {poder.fonte}</p>
+        </div>
+      </div>
     </div>
   )
 }

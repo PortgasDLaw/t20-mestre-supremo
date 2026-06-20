@@ -244,14 +244,17 @@ function EquipamentoModal({ item, onClose }: { item: Equipamento; onClose: () =>
   const icone = CAT_ICONE[cat] ?? CAT_ICONE.default
 
   const campos = [
-    (item as any).dano        && { label: 'Dano',        value: (item as any).dano },
-    (item as any).critico     && { label: 'Crítico',     value: (item as any).critico },
-    (item as any).alcance     && { label: 'Alcance',     value: (item as any).alcance },
-    (item as any).tipoDano    && { label: 'Tipo',        value: (item as any).tipoDano },
-    (item as any).defesa      && { label: 'Defesa',      value: (item as any).defesa },
-    (item as any).penalidade  && { label: 'Penalidade',  value: (item as any).penalidade },
-    (item as any).espacos     && { label: 'Espaços',     value: String((item as any).espacos) },
-    item.preco                && { label: 'Preço',       value: item.preco },
+    (item as any).dano          && { label: 'Dano',          value: (item as any).dano },
+    (item as any).critico       && { label: 'Crítico',       value: (item as any).critico },
+    (item as any).alcance       && { label: 'Alcance',       value: (item as any).alcance },
+    (item as any).tipoDano      && { label: 'Tipo de Dano',  value: (item as any).tipoDano },
+    (item as any).empunhadura   && { label: 'Empunhadura',   value: (item as any).empunhadura },
+    (item as any).proficiencia  && { label: 'Proficiência',  value: (item as any).proficiencia },
+    (item as any).defesa        && { label: 'Defesa',        value: (item as any).defesa },
+    (item as any).penalidade !== undefined && (item as any).penalidade !== null
+                                && { label: 'Penalidade',    value: `${(item as any).penalidade}` },
+    (item as any).espacos       && { label: 'Espaços',       value: String((item as any).espacos) },
+    item.preco                  && { label: 'Preço',         value: item.preco },
   ].filter(Boolean) as { label: string; value: string }[]
 
   const propriedades = (item as any).propriedades as string[] | undefined

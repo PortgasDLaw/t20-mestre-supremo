@@ -33,6 +33,7 @@ const FULL_PAGES: Record<string, React.ReactNode> = {
   equipamentos:       <Equipamentos />,
   magias:             <Magias />,
   ameacas:            <Ameacas />,
+  condicoes:          <Condicoes />,
   devocaoAlternativa: <DeusesMenores />,           // aba "Deuses" → Glórienn + deuses menores
 }
 
@@ -44,7 +45,6 @@ const SHELL_PAGES: Record<string, React.ReactNode> = {
   itensMagicos:       <ItensMagicos />,
   poderesConcedidos:  <PoderesConcedidos />,
   regrasOpcionais:    <RegrasOpcionais />,
-  condicoes:          <Condicoes />,
   encontros:          <GeradorEncontros />,
   combate:            <RastreadorCombate />,
   tabelas:            <TabelasMestre />,
