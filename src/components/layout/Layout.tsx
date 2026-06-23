@@ -70,7 +70,16 @@ export function Layout() {
   }, [cronometroAtivo, tickCronometro])
 
   return (
-    <div className="flex h-screen overflow-hidden" style={{ background: '#0E0A12' }}>
+    <div
+      className="flex h-screen overflow-hidden"
+      style={{
+        backgroundImage: 'url("/t20-mestre-supremo/Fundo.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+      }}
+    >
       <Sidebar />
       <main className="flex-1 min-w-0 flex flex-col overflow-hidden">
         <Suspense fallback={
