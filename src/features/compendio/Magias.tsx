@@ -223,7 +223,7 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
         {[
           { label: magia.execucao },
           { label: magia.alcance },
-          { label: magia.duracao },
+          { label: magia.duracao?.split('.')[0] },
         ].filter(b => b.label).map((b, i) => (
           <span
             key={i}
@@ -328,7 +328,7 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
               { label: 'Execução', value: magia.execucao || '—' },
               { label: 'Alcance', value: magia.alcance || '—' },
               { label: 'Área / Alvo', value: (magia as any).area || '—' },
-              { label: 'Duração', value: magia.duracao || '—' },
+              { label: 'Duração', value: magia.duracao?.split('.')[0] || '—' },
               { label: 'Resistência', value: (magia as any).resistencia?.split('.')[0] || '—' },
             ].map((s, i) => (
               <div
