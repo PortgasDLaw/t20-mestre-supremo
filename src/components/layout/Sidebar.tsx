@@ -51,7 +51,12 @@ export function Sidebar() {
         'relative flex flex-col h-full flex-none transition-all duration-300 shadow-sidebar',
         collapsed ? 'w-16' : 'w-[278px]'
       )}
-      style={{ background: 'linear-gradient(176deg, #1b1420 0%, #150f1b 55%, #100b15 100%)' }}
+      style={{
+        backgroundImage: 'url("/t20-mestre-supremo/Fundo Menu Lateral.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
     >
       <OrnateCorners sizeClass={collapsed ? 'w-8' : 'w-12'} />
 
