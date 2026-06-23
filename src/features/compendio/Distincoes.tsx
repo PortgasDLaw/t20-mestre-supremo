@@ -49,14 +49,14 @@ export default function Distincoes() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div style={{ borderBottom: '1px solid rgba(200,155,60,0.18)', paddingBottom: 16 }}>
+      <div style={{ borderBottom: '1px solid rgba(212,165,74,0.18)', paddingBottom: 16 }}>
         <div className="flex items-center gap-3 mb-1">
-          <Icon name="icMedal" size={26} color="#C89B3C" />
-          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#E4C16A', letterSpacing: 1 }}>
+          <Icon name="icMedal" size={26} color="#D4A54A" />
+          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#DEBA6A', letterSpacing: 1 }}>
             Distinções & Ritos
           </h1>
         </div>
-        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15 }}>
+        <p className="font-garamond" style={{ color: '#B89D72', fontSize: 15 }}>
           {distincoes.length} distinções e {ritos.length} ritos de Mitos de Arton
         </p>
       </div>
@@ -74,24 +74,24 @@ export default function Distincoes() {
       {/* Filtros */}
       <div className="flex gap-3 items-center flex-wrap">
         <div className="relative flex-1 min-w-[200px] max-w-sm">
-          <Icon name="icResearch" size={15} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <Icon name="icResearch" size={15} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
           <input
             value={busca}
             onChange={e => setBusca(e.target.value)}
             placeholder="Buscar distinção ou rito..."
             style={{
               width: '100%',
-              background: '#15101a',
-              border: '1px solid rgba(200,155,60,0.20)',
+              background: '#150F18',
+              border: '1px solid rgba(212,165,74,0.20)',
               borderRadius: 6,
               padding: '7px 12px 7px 34px',
-              color: '#E8DFCF',
+              color: '#F1E3C2',
               fontFamily: "'EB Garamond', Georgia, serif",
               fontSize: 14,
               outline: 'none',
             }}
-            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
           />
         </div>
         <Select
@@ -100,17 +100,17 @@ export default function Distincoes() {
           options={TIPO_OPTS}
           className="w-44"
         />
-        <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{filtrados.length} resultado(s)</span>
+        <span className="font-cinzel text-xs" style={{ color: '#7A6A50' }}>{filtrados.length} resultado(s)</span>
       </div>
 
       {/* Distinções */}
       {filtradosDistincoes.length > 0 && (
         <section>
           <div className="flex items-center gap-3 mb-4">
-            <Icon name="icMedal" size={14} color="#C89B3C" />
-            <span className="font-cinzel font-semibold text-sm" style={{ color: '#E4C16A' }}>Distinções</span>
-            <div className="flex-1 h-px" style={{ background: 'rgba(200,155,60,0.15)' }} />
-            <span className="font-cinzel text-xs px-2 py-0.5 rounded" style={{ color: '#E4C16A', background: 'rgba(200,155,60,0.12)', border: '1px solid rgba(200,155,60,0.25)' }}>
+            <Icon name="icMedal" size={14} color="#D4A54A" />
+            <span className="font-cinzel font-semibold text-sm" style={{ color: '#DEBA6A' }}>Distinções</span>
+            <div className="flex-1 h-px" style={{ background: 'rgba(212,165,74,0.15)' }} />
+            <span className="font-cinzel text-xs px-2 py-0.5 rounded" style={{ color: '#DEBA6A', background: 'rgba(212,165,74,0.12)', border: '1px solid rgba(212,165,74,0.25)' }}>
               {filtradosDistincoes.length}
             </span>
           </div>
@@ -145,9 +145,9 @@ export default function Distincoes() {
 function DistincaoCard({ item, onSelect }: { item: Distincao; onSelect: () => void }) {
   const [hovered, setHovered] = useState(false)
   const isRito = item.tipo === 'rito'
-  const accentColor = isRito ? '#A461E8' : '#E4C16A'
-  const accentBg = isRito ? 'rgba(164,97,232,0.10)' : 'rgba(200,155,60,0.10)'
-  const accentBorder = isRito ? 'rgba(164,97,232,0.25)' : 'rgba(200,155,60,0.25)'
+  const accentColor = isRito ? '#A461E8' : '#DEBA6A'
+  const accentBg = isRito ? 'rgba(164,97,232,0.10)' : 'rgba(212,165,74,0.10)'
+  const accentBorder = isRito ? 'rgba(164,97,232,0.25)' : 'rgba(212,165,74,0.25)'
 
   return (
     <div
@@ -157,14 +157,14 @@ function DistincaoCard({ item, onSelect }: { item: Distincao; onSelect: () => vo
       className="rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: '14px 16px',
-        background: hovered ? '#1e1624' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
         border: `1px solid ${hovered ? accentColor : accentBorder}`,
         boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered ? 'translateY(-2px)' : 'none',
       }}
     >
       <div className="flex items-start justify-between gap-2 mb-2">
-        <span className="font-cinzel font-semibold text-sm leading-tight" style={{ color: '#E8DFCF' }}>{item.nome}</span>
+        <span className="font-cinzel font-semibold text-sm leading-tight" style={{ color: '#F1E3C2' }}>{item.nome}</span>
         <span className="font-cinzel text-[0.58rem] uppercase px-1.5 py-0.5 rounded flex-none" style={{ color: accentColor, background: accentBg, border: `1px solid ${accentBorder}` }}>
           {isRito ? 'Rito' : 'Distinção'}
         </span>
@@ -179,16 +179,16 @@ function DistincaoCard({ item, onSelect }: { item: Distincao; onSelect: () => vo
           </p>
         </div>
       )}
-      <p className="font-cinzel text-[0.6rem]" style={{ color: '#6e6356' }}>{item.poderes.length} poderes</p>
+      <p className="font-cinzel text-[0.6rem]" style={{ color: '#7A6A50' }}>{item.poderes.length} poderes</p>
     </div>
   )
 }
 
 function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => void }) {
   const isRito = item.tipo === 'rito'
-  const accentColor = isRito ? '#A461E8' : '#E4C16A'
-  const accentBorder = isRito ? 'rgba(164,97,232,0.30)' : 'rgba(200,155,60,0.30)'
-  const accentBg = isRito ? 'rgba(164,97,232,0.10)' : 'rgba(200,155,60,0.10)'
+  const accentColor = isRito ? '#A461E8' : '#DEBA6A'
+  const accentBorder = isRito ? 'rgba(164,97,232,0.30)' : 'rgba(212,165,74,0.30)'
+  const accentBg = isRito ? 'rgba(164,97,232,0.10)' : 'rgba(212,165,74,0.10)'
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-6">
@@ -197,7 +197,7 @@ function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => voi
         className="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
         style={{
           background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
-          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,165,74,0.30)',
           border: `1px solid ${accentBorder}`,
         }}
       >
@@ -207,11 +207,11 @@ function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => voi
               <span className="font-cinzel text-[0.65rem] uppercase tracking-[2px]" style={{ color: accentColor }}>
                 {isRito ? 'Rito' : 'Distinção'} · {item.fonte}
               </span>
-              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#E8DFCF' }}>{item.nome}</h2>
+              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#F1E3C2' }}>{item.nome}</h2>
             </div>
-            <button onClick={onClose} className="w-8 h-8 flex items-center justify-center rounded flex-none" style={{ color: '#6e6356' }}
-              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}>
+            <button onClick={onClose} className="w-8 h-8 flex items-center justify-center rounded flex-none" style={{ color: '#7A6A50' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#7A6A50' }}>
               <X className="w-4 h-4" />
             </button>
           </div>
@@ -224,11 +224,11 @@ function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => voi
           </p>
 
           {(item.admissao || item.ritual) && (
-            <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>
+            <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>
                 {isRito ? 'Ritual' : 'Admissão'}
               </div>
-              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>
                 {item.admissao || item.ritual}
               </p>
             </div>
@@ -239,7 +239,7 @@ function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => voi
               <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: accentColor }}>
                 Marca da Distinção
               </div>
-              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#E8DFCF' }}>
+              <p className="font-garamond text-sm leading-relaxed" style={{ color: '#F1E3C2' }}>
                 {item.marcaDaDistincao}
               </p>
             </div>
@@ -256,9 +256,9 @@ function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => voi
                   const nome = dashIdx > 0 ? p.slice(0, dashIdx) : `Poder ${i + 1}`
                   const desc = dashIdx > 0 ? p.slice(dashIdx + 3) : p
                   return (
-                    <div key={i} className="rounded-lg p-3" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                      <div className="font-cinzel text-xs font-semibold mb-1" style={{ color: '#E8DFCF' }}>{nome}</div>
-                      {desc && <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{desc}</p>}
+                    <div key={i} className="rounded-lg p-3" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                      <div className="font-cinzel text-xs font-semibold mb-1" style={{ color: '#F1E3C2' }}>{nome}</div>
+                      {desc && <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{desc}</p>}
                     </div>
                   )
                 })}
@@ -268,13 +268,13 @@ function DistincaoModal({ item, onClose }: { item: Distincao; onClose: () => voi
 
           {item.itens && item.itens.length > 0 && (
             <div>
-              <div className="font-cinzel text-xs uppercase tracking-widest mb-3" style={{ color: '#9a8e7c' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-3" style={{ color: '#B89D72' }}>
                 Itens Especiais
               </div>
               {item.itens.map((it, i) => (
-                <div key={i} className="rounded-lg p-3 mb-2" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                  <div className="font-cinzel text-xs font-semibold mb-1" style={{ color: '#E4C16A' }}>{it.nome}</div>
-                  <p className="font-garamond text-sm" style={{ color: '#a99c86' }}>{it.descricao}</p>
+                <div key={i} className="rounded-lg p-3 mb-2" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                  <div className="font-cinzel text-xs font-semibold mb-1" style={{ color: '#DEBA6A' }}>{it.nome}</div>
+                  <p className="font-garamond text-sm" style={{ color: '#B89D72' }}>{it.descricao}</p>
                 </div>
               ))}
             </div>

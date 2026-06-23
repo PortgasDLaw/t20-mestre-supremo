@@ -70,15 +70,15 @@ export default function Ameacas() {
       {/* Header */}
       <div
         className="flex-none px-8 pt-7 pb-5"
-        style={{ borderBottom: '1px solid rgba(200,155,60,0.13)' }}
+        style={{ borderBottom: '1px solid rgba(212,165,74,0.13)' }}
       >
         <h1
           className="font-cinzel font-bold"
-          style={{ fontSize: 38, color: '#E4C16A', letterSpacing: 1, textShadow: '0 2px 18px rgba(200,155,60,0.18)' }}
+          style={{ fontSize: 38, color: '#DEBA6A', letterSpacing: 1, textShadow: '0 2px 18px rgba(212,165,74,0.18)' }}
         >
           Ameaças
         </h1>
-        <p className="font-garamond mt-1" style={{ color: '#a99c86', fontSize: 15.5 }}>
+        <p className="font-garamond mt-1" style={{ color: '#B89D72', fontSize: 15.5 }}>
           {ameacas.length} criaturas — do ND 1/4 ao lendário
         </p>
       </div>
@@ -94,24 +94,24 @@ export default function Ameacas() {
           <div className="flex gap-3 mb-4">
             {/* Busca */}
             <div className="relative flex-1">
-              <Icon name="icResearch" size={16} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+              <Icon name="icResearch" size={16} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
               <input
                 value={busca}
                 onChange={e => setBusca(e.target.value)}
                 placeholder="Buscar criatura..."
                 style={{
                   width: '100%',
-                  background: '#15101a',
-                  border: '1px solid rgba(200,155,60,0.20)',
+                  background: '#150F18',
+                  border: '1px solid rgba(212,165,74,0.20)',
                   borderRadius: 6,
                   padding: '8px 12px 8px 36px',
-                  color: '#E8DFCF',
+                  color: '#F1E3C2',
                   fontFamily: "'EB Garamond', Georgia, serif",
                   fontSize: 15,
                   outline: 'none',
                 }}
-                onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-                onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+                onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
               />
             </div>
             <Select
@@ -128,7 +128,7 @@ export default function Ameacas() {
             />
           </div>
 
-          <p className="font-cinzel text-xs mb-3" style={{ color: '#6e6356' }}>
+          <p className="font-cinzel text-xs mb-3" style={{ color: '#7A6A50' }}>
             {filtradas.length} criatura(s) encontrada(s)
           </p>
 
@@ -151,8 +151,8 @@ export default function Ameacas() {
           <div
             className="flex-1 min-w-[380px] flex flex-col overflow-hidden rounded-lg animate-fade-in"
             style={{
-              background: 'linear-gradient(180deg, #1a141e, #16111b)',
-              border: '1px solid rgba(200,155,60,0.22)',
+              background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
+              border: '1px solid rgba(212,165,74,0.22)',
               boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
             }}
           >
@@ -180,9 +180,9 @@ export default function Ameacas() {
               <button
                 onClick={() => setSelecionada(null)}
                 className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded z-10"
-                style={{ background: 'rgba(0,0,0,0.5)', color: '#a99c86' }}
-                onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-                onMouseLeave={e => { e.currentTarget.style.color = '#a99c86' }}
+                style={{ background: 'rgba(0,0,0,0.5)', color: '#B89D72' }}
+                onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+                onMouseLeave={e => { e.currentTarget.style.color = '#B89D72' }}
               >
                 <X className="w-4 h-4" />
               </button>
@@ -202,33 +202,33 @@ export default function Ameacas() {
                     {selecionada.tipo} · {selecionada.tamanho}
                   </span>
                 </div>
-                <div className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#E8DFCF' }}>
+                <div className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#F1E3C2' }}>
                   {selecionada.nome}
                 </div>
               </div>
             </div>
 
             {/* Stat Boxes */}
-            <div className="grid grid-cols-5 gap-0 flex-none" style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+            <div className="grid grid-cols-5 gap-0 flex-none" style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
               {[
                 { label: 'PV',    value: String(selecionada.pv),  color: '#E05040' },
                 { label: 'CA',    value: String(selecionada.ca),  color: '#4F8FD6' },
                 { label: 'PM',    value: String(selecionada.pm),  color: '#A461E8' },
-                { label: 'Init',  value: selecionada.iniciativa ? `+${selecionada.iniciativa}` : '—', color: '#E4C16A' },
+                { label: 'Init',  value: selecionada.iniciativa ? `+${selecionada.iniciativa}` : '—', color: '#DEBA6A' },
                 { label: 'Desl.', value: selecionada.deslocamento || '9m', color: '#6E9A52' },
               ].map((s, i) => (
                 <div
                   key={i}
                   className="flex flex-col items-center justify-center py-3"
                   style={{
-                    background: '#120d16',
-                    borderRight: i < 4 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+                    background: '#140F18',
+                    borderRight: i < 4 ? '1px solid rgba(212,165,74,0.10)' : 'none',
                   }}
                 >
                   <span className="font-cinzel font-bold text-base leading-none" style={{ color: s.color }}>
                     {s.value}
                   </span>
-                  <span className="font-cinzel text-[0.55rem] uppercase tracking-wider mt-1" style={{ color: '#6e6356' }}>
+                  <span className="font-cinzel text-[0.55rem] uppercase tracking-wider mt-1" style={{ color: '#7A6A50' }}>
                     {s.label}
                   </span>
                 </div>
@@ -236,7 +236,7 @@ export default function Ameacas() {
             </div>
 
             {/* Sub-tabs */}
-            <div className="flex flex-none" style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+            <div className="flex flex-none" style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
               {TABS.map(tab => (
                 <button
                   key={tab}
@@ -251,8 +251,8 @@ export default function Ameacas() {
                       style={{
                         bottom: -1,
                         height: 2.5,
-                        background: 'linear-gradient(90deg, #C89B3C, #E4C16A)',
-                        boxShadow: '0 0 8px rgba(200,155,60,0.55)',
+                        background: 'linear-gradient(90deg, #D4A54A, #DEBA6A)',
+                        boxShadow: '0 0 8px rgba(212,165,74,0.55)',
                         borderRadius: 2,
                       }}
                     />
@@ -303,19 +303,19 @@ function AmeacaCard({ ameaca, selected, compact, onClick }: {
       className="rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: compact ? '10px 12px' : '12px 14px',
-        background: selected ? '#221a28' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
         border: selected
-          ? '1px solid #C89B3C'
-          : `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
+          ? '1px solid #D4A54A'
+          : `1px solid rgba(212,165,74,${hovered ? '0.45' : '0.18'})`,
         boxShadow: selected
-          ? '0 0 18px rgba(200,155,60,0.18)'
+          ? '0 0 18px rgba(212,165,74,0.18)'
           : hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered && !selected ? 'translateY(-2px)' : 'none',
       }}
     >
       <div className="flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
-          <div className="font-cinzel font-semibold text-sm leading-tight" style={{ color: '#E8DFCF' }}>
+          <div className="font-cinzel font-semibold text-sm leading-tight" style={{ color: '#F1E3C2' }}>
             {ameaca.nome}
           </div>
           <div className="font-garamond text-xs mt-0.5" style={{ color: '#7a6f5c' }}>
@@ -335,7 +335,7 @@ function AmeacaCard({ ameaca, selected, compact, onClick }: {
       </div>
 
       {!compact && (
-        <div className="grid grid-cols-3 gap-0 mt-3 rounded overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.12)' }}>
+        <div className="grid grid-cols-3 gap-0 mt-3 rounded overflow-hidden" style={{ border: '1px solid rgba(212,165,74,0.12)' }}>
           {[
             { label: 'PV', value: ameaca.pv, color: '#E05040' },
             { label: 'CA', value: ameaca.ca, color: '#4F8FD6' },
@@ -345,14 +345,14 @@ function AmeacaCard({ ameaca, selected, compact, onClick }: {
               key={i}
               className="flex flex-col items-center py-2"
               style={{
-                background: '#120d16',
-                borderRight: i < 2 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+                background: '#140F18',
+                borderRight: i < 2 ? '1px solid rgba(212,165,74,0.10)' : 'none',
               }}
             >
               <span className="font-cinzel font-bold text-sm leading-none" style={{ color: s.color }}>
                 {s.value}
               </span>
-              <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-0.5" style={{ color: '#6e6356' }}>
+              <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-0.5" style={{ color: '#7A6A50' }}>
                 {s.label}
               </span>
             </div>
@@ -382,8 +382,8 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
 
       {/* Atributos */}
       {atributos && (
-        <div className="rounded-lg overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.14)' }}>
-          <div className="font-cinzel text-xs uppercase tracking-widest px-4 py-2" style={{ color: '#9a8e7c', background: '#0f0b13' }}>
+        <div className="rounded-lg overflow-hidden" style={{ border: '1px solid rgba(212,165,74,0.14)' }}>
+          <div className="font-cinzel text-xs uppercase tracking-widest px-4 py-2" style={{ color: '#B89D72', background: '#0f0b13' }}>
             Atributos
           </div>
           <div className="grid grid-cols-6">
@@ -399,14 +399,14 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
                 key={i}
                 className="flex flex-col items-center py-3"
                 style={{
-                  background: '#120d16',
-                  borderRight: i < 5 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+                  background: '#140F18',
+                  borderRight: i < 5 ? '1px solid rgba(212,165,74,0.10)' : 'none',
                 }}
               >
-                <span className="font-cinzel font-bold text-base leading-none" style={{ color: '#E4C16A' }}>
+                <span className="font-cinzel font-bold text-base leading-none" style={{ color: '#DEBA6A' }}>
                   {fmtMod(a.val)}
                 </span>
-                <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1" style={{ color: '#6e6356' }}>
+                <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1" style={{ color: '#7A6A50' }}>
                   {a.label}
                 </span>
               </div>
@@ -417,7 +417,7 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
 
       {/* Resistências */}
       {resistencias && (
-        <div className="grid grid-cols-3 gap-0 rounded-lg overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.14)' }}>
+        <div className="grid grid-cols-3 gap-0 rounded-lg overflow-hidden" style={{ border: '1px solid rgba(212,165,74,0.14)' }}>
           {([
             { label: 'Fortitude', val: resistencias.fortitude },
             { label: 'Reflexos',  val: resistencias.reflexos },
@@ -427,14 +427,14 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
               key={i}
               className="flex flex-col items-center py-3"
               style={{
-                background: '#120d16',
-                borderRight: i < 2 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+                background: '#140F18',
+                borderRight: i < 2 ? '1px solid rgba(212,165,74,0.10)' : 'none',
               }}
             >
               <span className="font-cinzel font-bold text-base leading-none" style={{ color: '#4F8FD6' }}>
                 {fmtMod(r.val)}
               </span>
-              <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1" style={{ color: '#6e6356' }}>
+              <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1" style={{ color: '#7A6A50' }}>
                 {r.label}
               </span>
             </div>
@@ -444,17 +444,17 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
 
       {/* Ataques */}
       {ataques?.length ? (
-        <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-          <div className="font-cinzel text-xs uppercase tracking-widest mb-3" style={{ color: '#9a8e7c' }}>
+        <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+          <div className="font-cinzel text-xs uppercase tracking-widest mb-3" style={{ color: '#B89D72' }}>
             Ataques
           </div>
           <div className="space-y-2">
             {ataques.map((atk, i) => (
               <div key={i} className="flex items-center gap-3">
                 <span style={{ color: '#E05040' }}>⚔</span>
-                <span className="font-garamond text-sm" style={{ color: '#E8DFCF' }}>
+                <span className="font-garamond text-sm" style={{ color: '#F1E3C2' }}>
                   <strong>{atk.nome}:</strong>{' '}
-                  <span style={{ color: '#E4C16A' }}>{atk['bônus']}</span>
+                  <span style={{ color: '#DEBA6A' }}>{atk['bônus']}</span>
                   {' '}({atk.dano}
                   {atk.critico ? `, crit ${atk.critico}` : ''}
                   {atk.tipo ? `, ${atk.tipo}` : ''})
@@ -470,7 +470,7 @@ function TabVisaoGeral({ ameaca }: { ameaca: Ameaca }) {
 
 function TabHabilidades({ ameaca }: { ameaca: Ameaca }) {
   const habs = (ameaca as any).habilidades as string[] | undefined
-  if (!habs?.length) return <p className="font-garamond text-sm" style={{ color: '#6e6356' }}>Nenhuma habilidade especial.</p>
+  if (!habs?.length) return <p className="font-garamond text-sm" style={{ color: '#7A6A50' }}>Nenhuma habilidade especial.</p>
   return (
     <div className="space-y-3">
       {habs.map((h, i) => {
@@ -478,9 +478,9 @@ function TabHabilidades({ ameaca }: { ameaca: Ameaca }) {
         const nome = dotIdx > 0 && dotIdx < 50 ? h.slice(0, dotIdx) : `Habilidade ${i + 1}`
         const desc = dotIdx > 0 && dotIdx < 50 ? h.slice(dotIdx + 1).trim() : h
         return (
-          <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-            <div className="font-cinzel font-semibold text-sm mb-1.5" style={{ color: '#E8DFCF' }}>{nome}</div>
-            <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{desc}</p>
+          <div key={i} className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+            <div className="font-cinzel font-semibold text-sm mb-1.5" style={{ color: '#F1E3C2' }}>{nome}</div>
+            <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{desc}</p>
           </div>
         )
       })}
@@ -495,18 +495,18 @@ function TabEstrategia({ ameaca }: { ameaca: Ameaca }) {
     <div className="space-y-4">
       {taticas && (
         <div>
-          <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Táticas</div>
+          <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Táticas</div>
           <p className="font-garamond leading-relaxed" style={{ fontSize: 15, color: '#cfc3aa', lineHeight: 1.72 }}>{taticas}</p>
         </div>
       )}
       {habitat && (
         <div>
-          <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Habitat</div>
+          <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Habitat</div>
           <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{habitat}</p>
         </div>
       )}
       {!taticas && !habitat && (
-        <p className="font-garamond text-sm" style={{ color: '#6e6356' }}>Estratégia não disponível.</p>
+        <p className="font-garamond text-sm" style={{ color: '#7A6A50' }}>Estratégia não disponível.</p>
       )}
     </div>
   )
@@ -514,11 +514,11 @@ function TabEstrategia({ ameaca }: { ameaca: Ameaca }) {
 
 function TabTesouro({ ameaca }: { ameaca: Ameaca }) {
   const tesouro = (ameaca as any).tesouro as string | undefined
-  if (!tesouro) return <p className="font-garamond text-sm" style={{ color: '#6e6356' }}>Nenhuma informação de tesouro disponível.</p>
+  if (!tesouro) return <p className="font-garamond text-sm" style={{ color: '#7A6A50' }}>Nenhuma informação de tesouro disponível.</p>
   return (
     <div className="space-y-4">
-      <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.20)' }}>
-        <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Tesouro</div>
+      <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.20)' }}>
+        <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Tesouro</div>
         <p className="font-garamond leading-relaxed" style={{ fontSize: 15.5, color: '#cfc3aa', lineHeight: 1.72 }}>{tesouro}</p>
       </div>
     </div>

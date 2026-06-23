@@ -43,14 +43,14 @@ export function Modal({ open, onClose, title, children, size = 'md', accent = 'g
         className={cn('relative w-full animate-page-open', sizes[size])}
         style={{
           background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
-          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30), inset 0 0 60px rgba(0,0,0,0.4)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,165,74,0.30), inset 0 0 60px rgba(0,0,0,0.4)',
           borderRadius: 10,
         }}
       >
         {/* Header */}
         <div
           className="flex items-center justify-between px-6 py-4"
-          style={{ borderBottom: '1px solid rgba(200,155,60,0.15)' }}
+          style={{ borderBottom: '1px solid rgba(212,165,74,0.15)' }}
         >
           <h2
             className={cn('font-cinzel font-bold text-base', accentClasses[accent].text)}
@@ -61,9 +61,9 @@ export function Modal({ open, onClose, title, children, size = 'md', accent = 'g
           <button
             onClick={onClose}
             className="transition-colors p-1 rounded"
-            style={{ color: '#6e6356' }}
-            onMouseEnter={e => (e.currentTarget.style.color = '#E8DFCF')}
-            onMouseLeave={e => (e.currentTarget.style.color = '#6e6356')}
+            style={{ color: '#7A6A50' }}
+            onMouseEnter={e => (e.currentTarget.style.color = '#F1E3C2')}
+            onMouseLeave={e => (e.currentTarget.style.color = '#7A6A50')}
           >
             <X className="w-4 h-4" />
           </button>

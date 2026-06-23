@@ -76,15 +76,15 @@ export default function Racas() {
       {/* Header */}
       <div
         className="flex-none px-8 pt-7 pb-5"
-        style={{ borderBottom: '1px solid rgba(200,155,60,0.13)' }}
+        style={{ borderBottom: '1px solid rgba(212,165,74,0.13)' }}
       >
         <h1
           className="font-cinzel font-bold"
-          style={{ fontSize: 38, color: '#E4C16A', letterSpacing: 1, textShadow: '0 2px 18px rgba(200,155,60,0.18)' }}
+          style={{ fontSize: 38, color: '#DEBA6A', letterSpacing: 1, textShadow: '0 2px 18px rgba(212,165,74,0.18)' }}
         >
           Raças
         </h1>
-        <p className="font-garamond mt-1" style={{ color: '#a99c86', fontSize: 15.5 }}>
+        <p className="font-garamond mt-1" style={{ color: '#B89D72', fontSize: 15.5 }}>
           {todasRacas.length} raças de Arton — comuns e raras
         </p>
       </div>
@@ -98,24 +98,24 @@ export default function Racas() {
         >
           {/* Busca */}
           <div className="mb-3 relative">
-            <Icon name="icResearch" size={16} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+            <Icon name="icResearch" size={16} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
             <input
               value={busca}
               onChange={e => setBusca(e.target.value)}
               placeholder="Buscar raça..."
               style={{
                 width: '100%',
-                background: '#15101a',
-                border: '1px solid rgba(200,155,60,0.20)',
+                background: '#150F18',
+                border: '1px solid rgba(212,165,74,0.20)',
                 borderRadius: 6,
                 padding: '8px 12px 8px 36px',
-                color: '#E8DFCF',
+                color: '#F1E3C2',
                 fontFamily: "'EB Garamond', Georgia, serif",
                 fontSize: 15,
                 outline: 'none',
               }}
-              onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-              onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+              onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+              onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
             />
           </div>
 
@@ -130,8 +130,8 @@ export default function Racas() {
                   className="px-4 py-1.5 rounded-full font-cinzel text-xs transition-all duration-150"
                   style={{
                     background: active ? 'linear-gradient(180deg,#d6a948,#b3852f)' : 'transparent',
-                    color: active ? '#120d16' : '#9a8e7c',
-                    border: `1px solid ${active ? 'transparent' : 'rgba(200,155,60,0.25)'}`,
+                    color: active ? '#140F18' : '#B89D72',
+                    border: `1px solid ${active ? 'transparent' : 'rgba(212,165,74,0.25)'}`,
                     fontWeight: active ? 700 : 400,
                   }}
                 >
@@ -160,8 +160,8 @@ export default function Racas() {
           <div
             className="flex-1 min-w-[380px] flex flex-col overflow-hidden rounded-lg animate-fade-in"
             style={{
-              background: 'linear-gradient(180deg, #1a141e, #16111b)',
-              border: '1px solid rgba(200,155,60,0.22)',
+              background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
+              border: '1px solid rgba(212,165,74,0.22)',
               boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
             }}
           >
@@ -182,9 +182,9 @@ export default function Racas() {
               <button
                 onClick={() => setSelecionada(null)}
                 className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded transition-colors z-10"
-                style={{ background: 'rgba(0,0,0,0.5)', color: '#a99c86' }}
-                onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-                onMouseLeave={e => { e.currentTarget.style.color = '#a99c86' }}
+                style={{ background: 'rgba(0,0,0,0.5)', color: '#B89D72' }}
+                onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+                onMouseLeave={e => { e.currentTarget.style.color = '#B89D72' }}
               >
                 <X className="w-4 h-4" />
               </button>
@@ -201,11 +201,11 @@ export default function Racas() {
                     {selecionada.tipo}
                   </span>
                 </div>
-                <div className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#E8DFCF' }}>
+                <div className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#F1E3C2' }}>
                   {selecionada.nome}
                 </div>
                 {selecionada.deus && (
-                  <div className="font-garamond text-sm mt-1" style={{ color: '#9a8e7c' }}>
+                  <div className="font-garamond text-sm mt-1" style={{ color: '#B89D72' }}>
                     Deus: {selecionada.deus}
                   </div>
                 )}
@@ -213,7 +213,7 @@ export default function Racas() {
             </div>
 
             {/* Stat Boxes */}
-            <div className="grid grid-cols-4 gap-0 flex-none" style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+            <div className="grid grid-cols-4 gap-0 flex-none" style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
               {[
                 { label: 'Atributos', value: selecionada.atributos.replace('Você recebe ', '').replace('bônus de ', '') },
                 { label: 'Habilidades', value: String(selecionada.habilidades.length) },
@@ -224,19 +224,19 @@ export default function Racas() {
                   key={i}
                   className="flex flex-col items-center justify-center py-3 px-1"
                   style={{
-                    background: '#120d16',
-                    borderRight: i < 3 ? '1px solid rgba(200,155,60,0.10)' : 'none',
+                    background: '#140F18',
+                    borderRight: i < 3 ? '1px solid rgba(212,165,74,0.10)' : 'none',
                   }}
                 >
                   <span
                     className="font-cinzel font-bold text-sm leading-none text-center"
-                    style={{ color: '#E4C16A' }}
+                    style={{ color: '#DEBA6A' }}
                   >
                     {s.value}
                   </span>
                   <span
                     className="font-cinzel text-[0.55rem] uppercase tracking-wider mt-1 text-center"
-                    style={{ color: '#6e6356' }}
+                    style={{ color: '#7A6A50' }}
                   >
                     {s.label}
                   </span>
@@ -245,7 +245,7 @@ export default function Racas() {
             </div>
 
             {/* Sub-tabs */}
-            <div className="flex flex-none" style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+            <div className="flex flex-none" style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
               {TABS.map(tab => (
                 <button
                   key={tab}
@@ -260,8 +260,8 @@ export default function Racas() {
                       style={{
                         bottom: -1,
                         height: 2.5,
-                        background: 'linear-gradient(90deg, #C89B3C, #E4C16A)',
-                        boxShadow: '0 0 8px rgba(200,155,60,0.55)',
+                        background: 'linear-gradient(90deg, #D4A54A, #DEBA6A)',
+                        boxShadow: '0 0 8px rgba(212,165,74,0.55)',
                         borderRadius: 2,
                       }}
                     />
@@ -277,8 +277,8 @@ export default function Racas() {
                   <p className="font-garamond leading-relaxed drop-cap" style={{ fontSize: 16, color: '#cfc3aa', lineHeight: 1.72 }}>
                     {selecionada.descricao}
                   </p>
-                  <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                    <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Bônus de Atributos</div>
+                  <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                    <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Bônus de Atributos</div>
                     <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{selecionada.atributos}</p>
                   </div>
                 </div>
@@ -286,9 +286,9 @@ export default function Racas() {
               {aba === 'Habilidades' && (
                 <div className="space-y-3">
                   {selecionada.habilidades.map((h, i) => (
-                    <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                      <div className="font-cinzel font-semibold text-sm mb-2" style={{ color: '#E8DFCF' }}>{h.nome}</div>
-                      <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{h.descricao}</p>
+                    <div key={i} className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                      <div className="font-cinzel font-semibold text-sm mb-2" style={{ color: '#F1E3C2' }}>{h.nome}</div>
+                      <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{h.descricao}</p>
                     </div>
                   ))}
                 </div>
@@ -296,24 +296,24 @@ export default function Racas() {
               {aba === 'Lore' && (
                 <div className="space-y-4">
                   {selecionada.deus && (
-                    <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                      <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#9a8e7c' }}>Divindade Patrona</div>
-                      <p className="font-cinzel font-semibold text-sm" style={{ color: '#E4C16A' }}>{selecionada.deus}</p>
+                    <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                      <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#B89D72' }}>Divindade Patrona</div>
+                      <p className="font-cinzel font-semibold text-sm" style={{ color: '#DEBA6A' }}>{selecionada.deus}</p>
                     </div>
                   )}
                   {selecionada.fonte && (
-                    <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                      <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#9a8e7c' }}>Fonte</div>
+                    <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                      <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#B89D72' }}>Fonte</div>
                       <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{selecionada.fonte}</p>
                     </div>
                   )}
-                  <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                    <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Tipo</div>
+                  <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                    <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Tipo</div>
                     <p className="font-cinzel font-semibold text-sm capitalize" style={{ color: selecionada.tipo === 'rara' ? '#A461E8' : '#8A93A6' }}>
                       {selecionada.tipo}
                     </p>
                   </div>
-                  <p className="font-garamond leading-relaxed drop-cap" style={{ fontSize: 15, color: '#a99c86', lineHeight: 1.72 }}>
+                  <p className="font-garamond leading-relaxed drop-cap" style={{ fontSize: 15, color: '#B89D72', lineHeight: 1.72 }}>
                     {selecionada.descricao}
                   </p>
                 </div>
@@ -344,12 +344,12 @@ function RacaCard({ raca, selected, compact, onClick }: {
       className="relative rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: compact ? '12px' : '14px',
-        background: selected ? '#221a28' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
         border: selected
-          ? '1px solid #C89B3C'
-          : `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
+          ? '1px solid #D4A54A'
+          : `1px solid rgba(212,165,74,${hovered ? '0.45' : '0.18'})`,
         boxShadow: selected
-          ? '0 0 18px rgba(200,155,60,0.18), inset 0 0 0 1px rgba(200,155,60,0.4)'
+          ? '0 0 18px rgba(212,165,74,0.18), inset 0 0 0 1px rgba(212,165,74,0.4)'
           : hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered && !selected ? 'translateY(-3px)' : 'none',
       }}
@@ -366,16 +366,16 @@ function RacaCard({ raca, selected, compact, onClick }: {
       <div
         className="w-12 h-12 rounded-lg flex items-center justify-center mb-3"
         style={{
-          background: 'radial-gradient(circle at 50% 32%, rgba(200,155,60,0.28), rgba(18,13,22,0.7))',
-          border: '1px solid rgba(200,155,60,0.45)',
+          background: 'radial-gradient(circle at 50% 32%, rgba(212,165,74,0.28), rgba(18,13,22,0.7))',
+          border: '1px solid rgba(212,165,74,0.45)',
         }}
       >
-        <Icon name={icone} size={22} color={selected ? '#E4C16A' : '#C89B3C'} />
+        <Icon name={icone} size={22} color={selected ? '#DEBA6A' : '#D4A54A'} />
       </div>
 
       <div
         className="font-cinzel font-semibold leading-tight"
-        style={{ fontSize: 17, color: '#E8DFCF', letterSpacing: '0.4px' }}
+        style={{ fontSize: 17, color: '#F1E3C2', letterSpacing: '0.4px' }}
       >
         {raca.nome}
       </div>

@@ -19,11 +19,11 @@ const ESCOLA_COR: Record<string, string> = {
 }
 
 function getEscolaCor(escola: string | null | undefined): string {
-  if (!escola) return '#C89B3C'
+  if (!escola) return '#D4A54A'
   for (const [k, v] of Object.entries(ESCOLA_COR)) {
     if (escola.toLowerCase().includes(k.toLowerCase())) return v
   }
-  return '#C89B3C'
+  return '#D4A54A'
 }
 
 const escolas = ['Todas', ...Array.from(new Set(magias.map(m => m.escola).filter(Boolean))).sort()]
@@ -64,18 +64,18 @@ export default function Magias() {
       {/* Header */}
       <div
         className="flex-none px-8 pt-7 pb-5"
-        style={{ borderBottom: '1px solid rgba(200,155,60,0.13)' }}
+        style={{ borderBottom: '1px solid rgba(212,165,74,0.13)' }}
       >
         <div className="flex items-center gap-3 mb-1">
-          <Icon name="icKnowledge" size={28} color="#C89B3C" />
+          <Icon name="icKnowledge" size={28} color="#D4A54A" />
           <h1
             className="font-cinzel font-bold"
-            style={{ fontSize: 38, color: '#E4C16A', letterSpacing: 1, textShadow: '0 2px 18px rgba(200,155,60,0.18)' }}
+            style={{ fontSize: 38, color: '#DEBA6A', letterSpacing: 1, textShadow: '0 2px 18px rgba(212,165,74,0.18)' }}
           >
             Magias
           </h1>
         </div>
-        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15.5 }}>
+        <p className="font-garamond" style={{ color: '#B89D72', fontSize: 15.5 }}>
           Arcanas e divinas — clique para ver todos os detalhes
         </p>
       </div>
@@ -83,30 +83,30 @@ export default function Magias() {
       {/* Filter Bar */}
       <div
         className="flex-none flex items-center gap-3 px-8 py-3"
-        style={{ borderBottom: '1px solid rgba(200,155,60,0.10)', background: 'rgba(15,11,19,0.5)' }}
+        style={{ borderBottom: '1px solid rgba(212,165,74,0.10)', background: 'rgba(15,11,19,0.5)' }}
       >
-        <span className="font-cinzel text-xs" style={{ color: '#6e6356', minWidth: 70 }}>
+        <span className="font-cinzel text-xs" style={{ color: '#7A6A50', minWidth: 70 }}>
           {filtradas.length} magia{filtradas.length !== 1 ? 's' : ''}
         </span>
         <div className="flex-1 relative">
-          <Icon name="icResearch" size={16} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <Icon name="icResearch" size={16} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
           <input
             value={busca}
             onChange={e => setBusca(e.target.value)}
             placeholder="Buscar magia..."
             style={{
               width: '100%',
-              background: '#15101a',
-              border: '1px solid rgba(200,155,60,0.20)',
+              background: '#150F18',
+              border: '1px solid rgba(212,165,74,0.20)',
               borderRadius: 6,
               padding: '7px 12px 7px 36px',
-              color: '#E8DFCF',
+              color: '#F1E3C2',
               fontFamily: "'EB Garamond', Georgia, serif",
               fontSize: 15,
               outline: 'none',
             }}
-            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
           />
         </div>
         <Select
@@ -169,11 +169,9 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
       className="flex items-center gap-4 rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: '12px 16px',
-        backgroundImage: 'url("/t20-mestre-supremo/Fundo Menu Lateral.png")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        border: `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
-        boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
+        border: '1px solid rgba(193, 142, 52, 0.25)',
+        boxShadow: hovered ? 'inset 0 1px 0 rgba(255,220,140,0.06), 0 10px 28px rgba(0,0,0,0.55)' : 'inset 0 1px 0 rgba(255,220,140,0.04), 0 8px 24px rgba(0,0,0,0.45)',
         transform: hovered ? 'translateX(3px)' : 'none',
       }}
     >
@@ -194,7 +192,7 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
       {/* Info */}
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-0.5">
-          <span className="font-cinzel font-semibold text-sm" style={{ color: '#E8DFCF' }}>
+          <span className="font-cinzel font-semibold text-sm" style={{ color: '#F1E3C2' }}>
             {magia.nome}
           </span>
           {magia.escola && (
@@ -206,12 +204,12 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
         <div className="flex items-center gap-2">
           <span
             className="font-cinzel text-[0.65rem]"
-            style={{ color: '#9a8e7c' }}
+            style={{ color: '#B89D72' }}
           >
             {magia.circulo}º Círculo
           </span>
           {magia.pm && (
-            <span className="font-cinzel text-[0.65rem]" style={{ color: '#6e6356' }}>
+            <span className="font-cinzel text-[0.65rem]" style={{ color: '#7A6A50' }}>
               · {magia.pm} PM
             </span>
           )}
@@ -230,8 +228,8 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
             className="font-cinzel text-[0.65rem] px-2 py-1 rounded"
             style={{
               color: '#c2b596',
-              border: '1px solid rgba(200,155,60,0.28)',
-              background: 'rgba(200,155,60,0.06)',
+              border: '1px solid rgba(212,165,74,0.28)',
+              background: 'rgba(212,165,74,0.06)',
             }}
           >
             {b.label}
@@ -243,8 +241,8 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
           onClick={onToggleFavorito}
           className="ml-1 transition-all duration-150"
           style={{
-            color: favorito ? '#E4C16A' : '#5a5145',
-            filter: favorito ? 'drop-shadow(0 0 6px rgba(200,155,60,0.5))' : 'none',
+            color: favorito ? '#DEBA6A' : '#5a5145',
+            filter: favorito ? 'drop-shadow(0 0 6px rgba(212,165,74,0.5))' : 'none',
           }}
         >
           <Star className={`w-4 h-4 ${favorito ? 'fill-current' : ''}`} />
@@ -270,7 +268,7 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
         className="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
         style={{
           background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
-          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30), inset 0 0 60px rgba(0,0,0,0.4)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,165,74,0.30), inset 0 0 60px rgba(0,0,0,0.4)',
           border: `1px solid ${cor}44`,
         }}
       >
@@ -306,16 +304,16 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
                   </span>
                 )}
               </div>
-              <h2 className="font-cinzel font-bold text-xl" style={{ color: '#E8DFCF', letterSpacing: '0.5px' }}>
+              <h2 className="font-cinzel font-bold text-xl" style={{ color: '#F1E3C2', letterSpacing: '0.5px' }}>
                 {magia.nome}
               </h2>
             </div>
             <button
               onClick={onClose}
               className="flex-none w-8 h-8 flex items-center justify-center rounded transition-colors"
-              style={{ color: '#6e6356' }}
-              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}
+              style={{ color: '#7A6A50' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#7A6A50' }}
             >
               <X className="w-4 h-4" />
             </button>
@@ -334,12 +332,12 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
               <div
                 key={i}
                 className="flex flex-col items-center rounded-lg py-2 px-1"
-                style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}
+                style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}
               >
-                <span className="font-cinzel font-semibold text-xs leading-none text-center" style={{ color: '#E4C16A' }}>
+                <span className="font-cinzel font-semibold text-xs leading-none text-center" style={{ color: '#DEBA6A' }}>
                   {s.value}
                 </span>
-                <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1 text-center" style={{ color: '#6e6356' }}>
+                <span className="font-cinzel text-[0.5rem] uppercase tracking-wide mt-1 text-center" style={{ color: '#7A6A50' }}>
                   {s.label}
                 </span>
               </div>
@@ -348,9 +346,9 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
         </div>
 
         {/* Divider */}
-        <div className="flex items-center gap-2 mx-6" style={{ borderTop: '1px solid rgba(200,155,60,0.15)' }}>
+        <div className="flex items-center gap-2 mx-6" style={{ borderTop: '1px solid rgba(212,165,74,0.15)' }}>
           <div className="flex-1 h-px" />
-          <span style={{ color: '#C89B3C', fontSize: 10, margin: '0 4px' }}>◆</span>
+          <span style={{ color: '#D4A54A', fontSize: 10, margin: '0 4px' }}>◆</span>
           <div className="flex-1 h-px" />
         </div>
 
@@ -358,7 +356,7 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
         {aprimoramentos?.length ? (
           <div
             className="flex flex-none mx-6"
-            style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}
+            style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}
           >
             {(['descricao', 'aprimoramentos'] as const).map(t => (
               <button
@@ -374,8 +372,8 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
                     style={{
                       bottom: -1,
                       height: 2.5,
-                      background: 'linear-gradient(90deg, #C89B3C, #E4C16A)',
-                      boxShadow: '0 0 8px rgba(200,155,60,0.55)',
+                      background: 'linear-gradient(90deg, #D4A54A, #DEBA6A)',
+                      boxShadow: '0 0 8px rgba(212,165,74,0.55)',
                       borderRadius: 2,
                     }}
                   />
@@ -395,7 +393,7 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
           {aba === 'aprimoramentos' && aprimoramentos?.length && (
             <div className="space-y-3">
               {aprimoramentos.map((ap, i) => (
-                <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
+                <div key={i} className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
                   {ap.pm !== undefined && (
                     <span
                       className="font-cinzel text-[0.65rem] px-2 py-0.5 rounded mr-2"
@@ -404,7 +402,7 @@ function MagiaModal({ magia, onClose }: { magia: Magia; onClose: () => void }) {
                       +{ap.pm} PM
                     </span>
                   )}
-                  <span className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{ap.descricao}</span>
+                  <span className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{ap.descricao}</span>
                 </div>
               ))}
             </div>

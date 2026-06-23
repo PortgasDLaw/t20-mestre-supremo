@@ -41,7 +41,7 @@ const deuses: DeusMenor[] = deusesData as DeusMenor[]
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 function getNdBadgeColor(energia: string) {
-  if (energia === 'Positiva') return { bg: 'rgba(200,155,60,0.15)', color: '#E4C16A', border: 'rgba(200,155,60,0.35)' }
+  if (energia === 'Positiva') return { bg: 'rgba(212,165,74,0.15)', color: '#DEBA6A', border: 'rgba(212,165,74,0.35)' }
   if (energia === 'Negativa') return { bg: 'rgba(200,60,60,0.15)', color: '#e05050', border: 'rgba(200,60,60,0.35)' }
   return { bg: 'rgba(138,147,166,0.12)', color: '#8A93A6', border: 'rgba(138,147,166,0.3)' }
 }
@@ -50,15 +50,15 @@ function StatStrip({ items }: { items: { label: string; value: string; accent?: 
   return (
     <div className="grid flex-none" style={{
       gridTemplateColumns: `repeat(${items.length}, 1fr)`,
-      borderBottom: '1px solid rgba(200,155,60,0.12)',
+      borderBottom: '1px solid rgba(212,165,74,0.12)',
     }}>
       {items.map((s, i) => (
         <div key={i} className="flex flex-col items-center justify-center py-3 px-2"
-          style={{ background: '#120d16', borderRight: i < items.length - 1 ? '1px solid rgba(200,155,60,0.10)' : 'none' }}>
+          style={{ background: '#140F18', borderRight: i < items.length - 1 ? '1px solid rgba(212,165,74,0.10)' : 'none' }}>
           <span className="font-cinzel font-bold text-sm leading-none text-center"
-            style={{ color: s.accent ?? '#E4C16A' }}>{s.value}</span>
+            style={{ color: s.accent ?? '#DEBA6A' }}>{s.value}</span>
           <span className="font-cinzel text-[0.52rem] uppercase tracking-wider mt-1 text-center"
-            style={{ color: '#6e6356' }}>{s.label}</span>
+            style={{ color: '#7A6A50' }}>{s.label}</span>
         </div>
       ))}
     </div>
@@ -68,7 +68,7 @@ function StatStrip({ items }: { items: { label: string; value: string; accent?: 
 function SubTabs<T extends string>({ tabs, active, onChange }: { tabs: T[]; active: T; onChange: (t: T) => void }) {
   return (
     <div className="flex flex-none overflow-x-auto scrollbar-none"
-      style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+      style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
       {tabs.map(tab => (
         <button key={tab} onClick={() => onChange(tab)}
           className="relative flex-none px-4 py-2.5 font-cinzel text-[0.7rem] tracking-wide whitespace-nowrap transition-colors duration-150"
@@ -77,8 +77,8 @@ function SubTabs<T extends string>({ tabs, active, onChange }: { tabs: T[]; acti
           {active === tab && (
             <span className="absolute left-0 right-0" style={{
               bottom: -1, height: 2.5, borderRadius: 2,
-              background: 'linear-gradient(90deg, #C89B3C, #E4C16A)',
-              boxShadow: '0 0 8px rgba(200,155,60,0.55)',
+              background: 'linear-gradient(90deg, #D4A54A, #DEBA6A)',
+              boxShadow: '0 0 8px rgba(212,165,74,0.55)',
             }} />
           )}
         </button>
@@ -89,8 +89,8 @@ function SubTabs<T extends string>({ tabs, active, onChange }: { tabs: T[]; acti
 
 function SectionBox({ title, children, accent }: { title: string; children: React.ReactNode; accent?: string }) {
   return (
-    <div className="rounded-lg p-4" style={{ background: '#120d16', border: `1px solid ${accent ?? 'rgba(200,155,60,0.14)'}` }}>
-      <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: accent ? '#c2b596' : '#9a8e7c' }}>{title}</div>
+    <div className="rounded-lg p-4" style={{ background: '#140F18', border: `1px solid ${accent ?? 'rgba(212,165,74,0.14)'}` }}>
+      <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: accent ? '#c2b596' : '#B89D72' }}>{title}</div>
       {children}
     </div>
   )
@@ -106,32 +106,32 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
 
   return (
     <div className="flex-1 min-w-[400px] flex flex-col overflow-hidden rounded-lg animate-fade-in"
-      style={{ background: 'linear-gradient(180deg, #1e1528, #16101e)', border: '1px solid rgba(200,155,60,0.3)', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }}>
+      style={{ background: 'linear-gradient(180deg, #1e1528, #16101e)', border: '1px solid rgba(212,165,74,0.3)', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }}>
 
       {/* Hero header */}
       <div className="relative flex-none px-6 pt-6 pb-4"
-        style={{ background: 'linear-gradient(180deg, #251a2e 0%, #1a1020 100%)', borderBottom: '1px solid rgba(200,155,60,0.15)' }}>
+        style={{ background: 'linear-gradient(180deg, #251a2e 0%, #1a1020 100%)', borderBottom: '1px solid rgba(212,165,74,0.15)' }}>
         <button onClick={onClose}
           className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded transition-colors"
-          style={{ background: 'rgba(0,0,0,0.4)', color: '#a99c86' }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-          onMouseLeave={e => { e.currentTarget.style.color = '#a99c86' }}>
+          style={{ background: 'rgba(0,0,0,0.4)', color: '#B89D72' }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+          onMouseLeave={e => { e.currentTarget.style.color = '#B89D72' }}>
           <X className="w-4 h-4" />
         </button>
 
         <div className="flex items-center gap-3 mb-2">
           <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-none"
-            style={{ background: 'radial-gradient(circle at 50% 28%, rgba(200,155,60,0.4), rgba(18,13,22,0.8))', border: '2px solid rgba(200,155,60,0.6)', boxShadow: '0 0 20px rgba(200,155,60,0.25)' }}>
-            <Star className="w-6 h-6" style={{ color: '#E4C16A' }} />
+            style={{ background: 'radial-gradient(circle at 50% 28%, rgba(212,165,74,0.4), rgba(18,13,22,0.8))', border: '2px solid rgba(212,165,74,0.6)', boxShadow: '0 0 20px rgba(212,165,74,0.25)' }}>
+            <Star className="w-6 h-6" style={{ color: '#DEBA6A' }} />
           </div>
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 flex-wrap mb-0.5">
-              <span className="font-cinzel text-[0.6rem] uppercase tracking-[3px]" style={{ color: '#C89B3C' }}>Deusa Maior · Panteão Élfico</span>
+              <span className="font-cinzel text-[0.6rem] uppercase tracking-[3px]" style={{ color: '#D4A54A' }}>Deusa Maior · Panteão Élfico</span>
             </div>
-            <h2 className="font-cinzel font-bold text-2xl leading-tight" style={{ color: '#E4C16A', textShadow: '0 0 30px rgba(200,155,60,0.3)' }}>
+            <h2 className="font-cinzel font-bold text-2xl leading-tight" style={{ color: '#DEBA6A', textShadow: '0 0 30px rgba(212,165,74,0.3)' }}>
               {glorienn.nome}
             </h2>
-            <p className="font-garamond text-sm" style={{ color: '#9a8e7c' }}>{glorienn.epiteto}</p>
+            <p className="font-garamond text-sm" style={{ color: '#B89D72' }}>{glorienn.epiteto}</p>
             {glorienn.lema && (
               <p className="font-garamond italic text-xs mt-1" style={{ color: '#7d7060' }}>"{glorienn.lema}"</p>
             )}
@@ -141,10 +141,10 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
 
       {/* Stat strip */}
       <StatStrip items={[
-        { label: 'Símbolo', value: glorienn.simboloSagrado, accent: '#C89B3C' },
+        { label: 'Símbolo', value: glorienn.simboloSagrado, accent: '#D4A54A' },
         { label: 'Arma', value: glorienn.armaPreferida },
-        { label: 'Energia', value: glorienn.canalizarEnergia, accent: '#E4C16A' },
-        { label: 'Cores', value: glorienn.coresSignificativas.join(' · '), accent: '#a99c86' },
+        { label: 'Energia', value: glorienn.canalizarEnergia, accent: '#DEBA6A' },
+        { label: 'Cores', value: glorienn.coresSignificativas.join(' · '), accent: '#B89D72' },
       ]} />
 
       <SubTabs tabs={[...TABS_GLORIENN]} active={aba} onChange={setAba} />
@@ -160,7 +160,7 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
                     const match = n.match(/^(.+?)\s*\((.+)\)$/)
                     return (
                       <div key={i} className="flex items-baseline gap-2">
-                        <span className="font-cinzel text-sm font-semibold" style={{ color: '#E8DFCF' }}>
+                        <span className="font-cinzel text-sm font-semibold" style={{ color: '#F1E3C2' }}>
                           {match ? match[1] : n}
                         </span>
                         {match && <span className="font-garamond text-xs" style={{ color: '#8f8472' }}>— {match[2]}</span>}
@@ -172,11 +172,11 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
             )}
 
             <div>
-              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Áreas de Influência</div>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Áreas de Influência</div>
               <div className="flex flex-wrap gap-1.5">
                 {glorienn.areasInfluencia.map((a, i) => (
                   <span key={i} className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
-                    style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.22)', color: '#c2b596' }}>
+                    style={{ background: 'rgba(212,165,74,0.08)', border: '1px solid rgba(212,165,74,0.22)', color: '#c2b596' }}>
                     {a}
                   </span>
                 ))}
@@ -197,7 +197,7 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
                 <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{glorienn.armaPreferida}</p>
               </SectionBox>
               <SectionBox title="Canalizar Energia">
-                <p className="font-garamond text-sm" style={{ color: '#E4C16A' }}>{glorienn.canalizarEnergia}</p>
+                <p className="font-garamond text-sm" style={{ color: '#DEBA6A' }}>{glorienn.canalizarEnergia}</p>
               </SectionBox>
               <SectionBox title="Cores Significativas">
                 <p className="font-garamond text-sm" style={{ color: '#cfc3aa' }}>{glorienn.coresSignificativas.join(', ')}</p>
@@ -237,8 +237,8 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
         {aba === 'Igreja & Clero' && (
           <div className="space-y-4">
             {glorienn.autoridadeEclesiastica && (
-              <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.25)' }}>
-                <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#C89B3C' }}>Autoridade Eclesiástica</div>
+              <div className="rounded-lg p-4" style={{ background: 'rgba(212,165,74,0.08)', border: '1px solid rgba(212,165,74,0.25)' }}>
+                <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#D4A54A' }}>Autoridade Eclesiástica</div>
                 <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.autoridadeEclesiastica}</p>
               </div>
             )}
@@ -248,19 +248,19 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
               { label: 'Druida', data: glorienn.classesDruida },
               { label: 'Paladino', data: glorienn.classesPaladino },
             ].map(({ label, data }) => data && (
-              <div key={label} className="rounded-lg overflow-hidden" style={{ border: '1px solid rgba(200,155,60,0.14)' }}>
+              <div key={label} className="rounded-lg overflow-hidden" style={{ border: '1px solid rgba(212,165,74,0.14)' }}>
                 <div className="px-4 py-2 font-cinzel text-xs uppercase tracking-widest"
-                  style={{ background: '#1a1020', color: '#C89B3C', borderBottom: '1px solid rgba(200,155,60,0.14)' }}>
+                  style={{ background: '#1a1020', color: '#D4A54A', borderBottom: '1px solid rgba(212,165,74,0.14)' }}>
                   {label}
                 </div>
-                <div className="p-4 space-y-3" style={{ background: '#120d16' }}>
+                <div className="p-4 space-y-3" style={{ background: '#140F18' }}>
                   {data.descricao && (
                     <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{data.descricao}</p>
                   )}
                   {data.indumentaria && (
                     <div>
-                      <span className="font-cinzel text-[0.6rem] uppercase tracking-wider" style={{ color: '#9a8e7c' }}>Indumentária — </span>
-                      <span className="font-garamond text-sm italic" style={{ color: '#a99c86' }}>{data.indumentaria}</span>
+                      <span className="font-cinzel text-[0.6rem] uppercase tracking-wider" style={{ color: '#B89D72' }}>Indumentária — </span>
+                      <span className="font-garamond text-sm italic" style={{ color: '#B89D72' }}>{data.indumentaria}</span>
                     </div>
                   )}
                   {data.fundamentalista && (
@@ -278,11 +278,11 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
         {aba === 'Devotos & O&R' && (
           <div className="space-y-4">
             <div>
-              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>Devotos</div>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>Devotos</div>
               <div className="flex flex-wrap gap-1.5">
                 {glorienn.devotos.map((d, i) => (
                   <span key={i} className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
-                    style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.22)', color: '#c2b596' }}>
+                    style={{ background: 'rgba(212,165,74,0.08)', border: '1px solid rgba(212,165,74,0.22)', color: '#c2b596' }}>
                     {d}
                   </span>
                 ))}
@@ -294,8 +294,8 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
             </SectionBox>
 
             {glorienn.brando && (
-              <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.07)', border: '1px solid rgba(200,155,60,0.28)' }}>
-                <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#C89B3C' }}>Versão Branda</div>
+              <div className="rounded-lg p-4" style={{ background: 'rgba(212,165,74,0.07)', border: '1px solid rgba(212,165,74,0.28)' }}>
+                <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#D4A54A' }}>Versão Branda</div>
                 <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{glorienn.brando}</p>
               </div>
             )}
@@ -305,9 +305,9 @@ function GloriennDetail({ onClose }: { onClose: () => void }) {
         {aba === 'Poderes' && (
           <div className="space-y-3">
             {glorienn.poderesConcedidos.map((p, i) => (
-              <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-                <div className="font-cinzel font-semibold text-sm mb-2" style={{ color: '#E4C16A' }}>{p.nome}</div>
-                <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{p.descricao}</p>
+              <div key={i} className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+                <div className="font-cinzel font-semibold text-sm mb-2" style={{ color: '#DEBA6A' }}>{p.nome}</div>
+                <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{p.descricao}</p>
               </div>
             ))}
           </div>
@@ -328,21 +328,21 @@ function DeusMenorDetail({ deus, onClose }: { deus: DeusMenor; onClose: () => vo
 
   return (
     <div className="flex-1 min-w-[380px] flex flex-col overflow-hidden rounded-lg animate-fade-in"
-      style={{ background: 'linear-gradient(180deg, #1a141e, #16111b)', border: '1px solid rgba(200,155,60,0.22)', boxShadow: '0 20px 50px rgba(0,0,0,0.5)' }}>
+      style={{ background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)', border: '1px solid rgba(212,165,74,0.22)', boxShadow: '0 20px 50px rgba(0,0,0,0.5)' }}>
 
       {/* Hero header */}
       <div className="relative flex-none px-5 pt-5 pb-4"
-        style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+        style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
         <button onClick={onClose}
           className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded transition-colors"
-          style={{ background: 'rgba(0,0,0,0.4)', color: '#a99c86' }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-          onMouseLeave={e => { e.currentTarget.style.color = '#a99c86' }}>
+          style={{ background: 'rgba(0,0,0,0.4)', color: '#B89D72' }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+          onMouseLeave={e => { e.currentTarget.style.color = '#B89D72' }}>
           <X className="w-4 h-4" />
         </button>
 
         <div className="flex items-center gap-2 mb-2">
-          <span className="font-cinzel text-[0.6rem] uppercase tracking-[3px]" style={{ color: '#9a8e7c' }}>
+          <span className="font-cinzel text-[0.6rem] uppercase tracking-[3px]" style={{ color: '#B89D72' }}>
             Deus Menor · {deus.tipo}
           </span>
           <span className="font-cinzel text-[0.6rem] px-2 py-0.5 rounded"
@@ -354,13 +354,13 @@ function DeusMenorDetail({ deus, onClose }: { deus: DeusMenor; onClose: () => vo
             Status {deus.statusDivino}
           </span>
         </div>
-        <h2 className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#E8DFCF' }}>{deus.nome}</h2>
-        <p className="font-garamond text-sm mt-0.5" style={{ color: '#9a8e7c' }}>{deus.epiteto}</p>
+        <h2 className="font-cinzel font-bold text-xl leading-tight" style={{ color: '#F1E3C2' }}>{deus.nome}</h2>
+        <p className="font-garamond text-sm mt-0.5" style={{ color: '#B89D72' }}>{deus.epiteto}</p>
       </div>
 
       {/* Stat strip */}
       <StatStrip items={[
-        { label: 'Símbolo', value: deus.simboloSagrado, accent: '#C89B3C' },
+        { label: 'Símbolo', value: deus.simboloSagrado, accent: '#D4A54A' },
         { label: 'Arma', value: deus.armaPreferida },
         { label: 'Energia', value: deus.canalizarEnergia, accent: nc.color },
         { label: 'Status', value: String(deus.statusDivino), accent: '#8A93A6' },
@@ -395,8 +395,8 @@ function DeusMenorDetail({ deus, onClose }: { deus: DeusMenor; onClose: () => vo
 
         {aba === 'Poder Concedido' && (
           <div className="space-y-3">
-            <div className="rounded-lg p-5" style={{ background: 'rgba(200,155,60,0.07)', border: '1px solid rgba(200,155,60,0.28)' }}>
-              <div className="font-cinzel font-bold text-base mb-3" style={{ color: '#E4C16A' }}>
+            <div className="rounded-lg p-5" style={{ background: 'rgba(212,165,74,0.07)', border: '1px solid rgba(212,165,74,0.28)' }}>
+              <div className="font-cinzel font-bold text-base mb-3" style={{ color: '#DEBA6A' }}>
                 {deus.poderConcedido.nome}
               </div>
               <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>
@@ -419,20 +419,20 @@ function GloriennCard({ selected, onClick }: { selected: boolean; onClick: () =>
       className="rounded-lg cursor-pointer transition-all duration-150 p-3"
       style={{
         background: selected ? 'linear-gradient(135deg, #251a2e, #1a1020)' : 'linear-gradient(135deg, #1e1528, #160f1c)',
-        border: selected ? '1px solid #C89B3C' : `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.25'})`,
-        boxShadow: selected ? '0 0 20px rgba(200,155,60,0.2), inset 0 0 0 1px rgba(200,155,60,0.35)' : hovered ? '0 6px 20px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.35)',
+        border: selected ? '1px solid #D4A54A' : `1px solid rgba(212,165,74,${hovered ? '0.45' : '0.25'})`,
+        boxShadow: selected ? '0 0 20px rgba(212,165,74,0.2), inset 0 0 0 1px rgba(212,165,74,0.35)' : hovered ? '0 6px 20px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.35)',
         transform: hovered && !selected ? 'translateY(-2px)' : 'none',
       }}>
       <div className="flex items-center gap-3">
         <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-none"
-          style={{ background: 'radial-gradient(circle at 50% 28%, rgba(200,155,60,0.4), rgba(18,13,22,0.8))', border: '1px solid rgba(200,155,60,0.55)' }}>
-          <Star className="w-4 h-4" style={{ color: '#E4C16A' }} />
+          style={{ background: 'radial-gradient(circle at 50% 28%, rgba(212,165,74,0.4), rgba(18,13,22,0.8))', border: '1px solid rgba(212,165,74,0.55)' }}>
+          <Star className="w-4 h-4" style={{ color: '#DEBA6A' }} />
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <span className="font-cinzel font-bold text-sm" style={{ color: selected ? '#F0E4C8' : '#E4C16A' }}>{glorienn.nome}</span>
+            <span className="font-cinzel font-bold text-sm" style={{ color: selected ? '#F0E4C8' : '#DEBA6A' }}>{glorienn.nome}</span>
             <span className="font-cinzel text-[0.55rem] px-1.5 py-0.5 rounded"
-              style={{ background: 'rgba(200,155,60,0.12)', color: '#C89B3C', border: '1px solid rgba(200,155,60,0.28)' }}>
+              style={{ background: 'rgba(212,165,74,0.12)', color: '#D4A54A', border: '1px solid rgba(212,165,74,0.28)' }}>
               Deusa Maior
             </span>
           </div>
@@ -450,9 +450,9 @@ function DeusCard({ deus, selected, onClick }: { deus: DeusMenor; selected: bool
     <div onClick={onClick} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
       className="rounded-lg cursor-pointer transition-all duration-150 p-3"
       style={{
-        background: selected ? '#221a28' : 'linear-gradient(180deg, #1a141e, #16111b)',
-        border: selected ? '1px solid #C89B3C' : `1px solid rgba(200,155,60,${hovered ? '0.35' : '0.14'})`,
-        boxShadow: selected ? '0 0 14px rgba(200,155,60,0.15), inset 0 0 0 1px rgba(200,155,60,0.3)' : hovered ? '0 6px 20px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.3)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
+        border: selected ? '1px solid #D4A54A' : `1px solid rgba(212,165,74,${hovered ? '0.35' : '0.14'})`,
+        boxShadow: selected ? '0 0 14px rgba(212,165,74,0.15), inset 0 0 0 1px rgba(212,165,74,0.3)' : hovered ? '0 6px 20px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.3)',
         transform: hovered && !selected ? 'translateY(-2px)' : 'none',
       }}>
       <div className="flex items-center gap-3">
@@ -462,7 +462,7 @@ function DeusCard({ deus, selected, onClick }: { deus: DeusMenor; selected: bool
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-0.5">
-            <span className="font-cinzel font-semibold text-sm leading-tight truncate" style={{ color: selected ? '#F0E4C8' : '#E8DFCF' }}>
+            <span className="font-cinzel font-semibold text-sm leading-tight truncate" style={{ color: selected ? '#F0E4C8' : '#F1E3C2' }}>
               {deus.nome}
             </span>
             <span className="flex-none font-cinzel text-[0.55rem] px-1.5 py-0.5 rounded"
@@ -500,11 +500,11 @@ export default function DeusesMenores() {
     <div className="flex flex-col h-full overflow-hidden">
 
       {/* Header */}
-      <div className="flex-none px-8 pt-7 pb-5" style={{ borderBottom: '1px solid rgba(200,155,60,0.13)' }}>
-        <h1 className="font-cinzel font-bold" style={{ fontSize: 38, color: '#E4C16A', letterSpacing: 1, textShadow: '0 2px 18px rgba(200,155,60,0.18)' }}>
+      <div className="flex-none px-8 pt-7 pb-5" style={{ borderBottom: '1px solid rgba(212,165,74,0.13)' }}>
+        <h1 className="font-cinzel font-bold" style={{ fontSize: 38, color: '#DEBA6A', letterSpacing: 1, textShadow: '0 2px 18px rgba(212,165,74,0.18)' }}>
           Deuses
         </h1>
-        <p className="font-garamond mt-1" style={{ color: '#a99c86', fontSize: 15.5 }}>
+        <p className="font-garamond mt-1" style={{ color: '#B89D72', fontSize: 15.5 }}>
           Glórienn e {deuses.length} deuses menores de Mitos de Arton
         </p>
       </div>
@@ -518,7 +518,7 @@ export default function DeusesMenores() {
           {/* Glórienn */}
           <div className="mb-4">
             <div className="font-cinzel text-[0.6rem] uppercase tracking-[2px] mb-2 px-0.5"
-              style={{ color: '#6e6356' }}>Deusa Maior</div>
+              style={{ color: '#7A6A50' }}>Deusa Maior</div>
             <GloriennCard
               selected={selected?.kind === 'glorienn'}
               onClick={() => setSelected({ kind: 'glorienn' })}
@@ -527,33 +527,33 @@ export default function DeusesMenores() {
 
           {/* Filtros deuses menores */}
           <div className="mb-3">
-            <div className="font-cinzel text-[0.6rem] uppercase tracking-[2px] mb-2 px-0.5" style={{ color: '#6e6356' }}>
+            <div className="font-cinzel text-[0.6rem] uppercase tracking-[2px] mb-2 px-0.5" style={{ color: '#7A6A50' }}>
               Deuses Menores — {filtrados.length}
             </div>
             <div className="relative mb-2">
-              <Icon name="icResearch" size={14} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+              <Icon name="icResearch" size={14} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
               <input value={busca} onChange={e => setBusca(e.target.value)}
                 placeholder="Buscar deus..."
                 style={{
-                  width: '100%', background: '#15101a', border: '1px solid rgba(200,155,60,0.20)',
-                  borderRadius: 6, padding: '6px 10px 6px 30px', color: '#E8DFCF',
+                  width: '100%', background: '#150F18', border: '1px solid rgba(212,165,74,0.20)',
+                  borderRadius: 6, padding: '6px 10px 6px 30px', color: '#F1E3C2',
                   fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, outline: 'none',
                 }}
-                onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-                onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+                onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
               />
             </div>
             <div className="flex gap-1 flex-wrap">
               {(['todos', 'Positiva', 'Negativa', 'Qualquer'] as const).map(e => {
                 const active = filtroEnergia === e
-                const nc = e === 'Positiva' ? '#E4C16A' : e === 'Negativa' ? '#e05050' : '#8A93A6'
+                const nc = e === 'Positiva' ? '#DEBA6A' : e === 'Negativa' ? '#e05050' : '#8A93A6'
                 return (
                   <button key={e} onClick={() => setFiltroEnergia(e)}
                     className="px-2.5 py-1 text-[0.65rem] font-cinzel rounded border transition-colors"
                     style={{
-                      background: active ? (e === 'Positiva' ? 'rgba(200,155,60,0.18)' : e === 'Negativa' ? 'rgba(200,60,60,0.18)' : 'rgba(138,147,166,0.12)') : 'transparent',
-                      color: active ? nc : '#6e6356',
-                      borderColor: active ? nc : 'rgba(200,155,60,0.18)',
+                      background: active ? (e === 'Positiva' ? 'rgba(212,165,74,0.18)' : e === 'Negativa' ? 'rgba(200,60,60,0.18)' : 'rgba(138,147,166,0.12)') : 'transparent',
+                      color: active ? nc : '#7A6A50',
+                      borderColor: active ? nc : 'rgba(212,165,74,0.18)',
                     }}>
                     {e === 'todos' ? 'Todos' : e}
                   </button>
@@ -571,7 +571,7 @@ export default function DeusesMenores() {
               />
             ))}
             {filtrados.length === 0 && (
-              <p className="font-garamond text-sm text-center pt-8" style={{ color: '#6e6356' }}>
+              <p className="font-garamond text-sm text-center pt-8" style={{ color: '#7A6A50' }}>
                 Nenhum deus encontrado.
               </p>
             )}

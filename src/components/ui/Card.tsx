@@ -18,17 +18,17 @@ export function Card({ children, className, glow, onClick }: CardProps) {
         className
       )}
       style={{
-        background: 'linear-gradient(180deg, #1a141e, #16111b)',
-        border: '1px solid rgba(200,155,60,0.18)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
+        border: '1px solid rgba(212,165,74,0.18)',
         boxShadow: '0 10px 28px rgba(0,0,0,0.55)',
       }}
       onMouseEnter={onClick ? (e) => {
-        e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)'
+        e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)'
         e.currentTarget.style.transform = 'translateY(-2px)'
         e.currentTarget.style.boxShadow = '0 14px 32px rgba(0,0,0,0.65)'
       } : undefined}
       onMouseLeave={onClick ? (e) => {
-        e.currentTarget.style.borderColor = 'rgba(200,155,60,0.18)'
+        e.currentTarget.style.borderColor = 'rgba(212,165,74,0.18)'
         e.currentTarget.style.transform = ''
         e.currentTarget.style.boxShadow = '0 10px 28px rgba(0,0,0,0.55)'
       } : undefined}
@@ -49,13 +49,13 @@ export function CardHeader({ title, subtitle, icon, action }: CardHeaderProps) {
   return (
     <div className="flex items-start justify-between mb-3">
       <div className="flex items-center gap-2">
-        {icon && <span style={{ color: '#C89B3C' }}>{icon}</span>}
+        {icon && <span style={{ color: '#D4A54A' }}>{icon}</span>}
         <div>
-          <h3 className="font-cinzel font-semibold text-sm" style={{ color: '#E8DFCF', letterSpacing: '0.4px' }}>
+          <h3 className="font-cinzel font-semibold text-sm" style={{ color: '#F1E3C2', letterSpacing: '0.4px' }}>
             {title}
           </h3>
           {subtitle && (
-            <p className="font-crimson text-xs" style={{ color: '#a99c86' }}>{subtitle}</p>
+            <p className="font-crimson text-xs" style={{ color: '#B89D72' }}>{subtitle}</p>
           )}
         </div>
       </div>

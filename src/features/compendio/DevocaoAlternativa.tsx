@@ -111,14 +111,14 @@ export default function DevocaoAlternativa() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div style={{ borderBottom: '1px solid rgba(200,155,60,0.18)', paddingBottom: 16 }}>
+      <div style={{ borderBottom: '1px solid rgba(212,165,74,0.18)', paddingBottom: 16 }}>
         <div className="flex items-center gap-3 mb-1">
-          <Icon name="icWillpower" size={26} color="#C89B3C" />
-          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#E4C16A', letterSpacing: 1 }}>
+          <Icon name="icWillpower" size={26} color="#D4A54A" />
+          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#DEBA6A', letterSpacing: 1 }}>
             Devotos
           </h1>
         </div>
-        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15 }}>
+        <p className="font-garamond" style={{ color: '#B89D72', fontSize: 15 }}>
           Novos druidas, paladinos, vingadores e devoções alternativas de Mitos de Arton
         </p>
       </div>
@@ -126,19 +126,19 @@ export default function DevocaoAlternativa() {
       {/* Filtros */}
       <div className="flex gap-3 items-center flex-wrap">
         <div className="relative flex-1 min-w-[200px] max-w-sm">
-          <Icon name="icResearch" size={15} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <Icon name="icResearch" size={15} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
           <input
             value={busca}
             onChange={e => setBusca(e.target.value)}
             placeholder="Buscar devotos e devoções..."
             style={{
-              width: '100%', background: '#15101a',
-              border: '1px solid rgba(200,155,60,0.20)', borderRadius: 6,
-              padding: '7px 12px 7px 34px', color: '#E8DFCF',
+              width: '100%', background: '#150F18',
+              border: '1px solid rgba(212,165,74,0.20)', borderRadius: 6,
+              padding: '7px 12px 7px 34px', color: '#F1E3C2',
               fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, outline: 'none',
             }}
-            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
           />
         </div>
         <Select
@@ -147,7 +147,7 @@ export default function DevocaoAlternativa() {
           options={TIPO_OPTS}
           className="w-52"
         />
-        <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{filtrados.length} resultado(s)</span>
+        <span className="font-cinzel text-xs" style={{ color: '#7A6A50' }}>{filtrados.length} resultado(s)</span>
       </div>
 
       {/* Grupos */}
@@ -190,13 +190,13 @@ function DevItem({ item, cor, onClick }: { item: DevItem; cor: string; onClick: 
       className="rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: '12px 14px',
-        background: hovered ? '#1e1624' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
         border: `1px solid ${hovered ? cor : `${cor}44`}`,
         boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered ? 'translateY(-2px)' : 'none',
       }}
     >
-      <div className="font-cinzel font-semibold text-sm mb-1 leading-tight" style={{ color: '#E8DFCF' }}>
+      <div className="font-cinzel font-semibold text-sm mb-1 leading-tight" style={{ color: '#F1E3C2' }}>
         {item.titulo || item.nome}
       </div>
       {item.divindade && (
@@ -223,7 +223,7 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
         className="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
         style={{
           background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
-          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,165,74,0.30)',
           border: `1px solid ${cor}44`,
         }}
       >
@@ -234,19 +234,19 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
               <span className="font-cinzel text-[0.65rem] uppercase tracking-[2px]" style={{ color: cor }}>
                 {TYPE_LABEL[item._type]}{item.divindade ? ` · ${item.divindade}` : ''}
               </span>
-              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#E8DFCF' }}>
+              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#F1E3C2' }}>
                 {item.titulo || item.nome}
               </h2>
             </div>
-            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#6e6356' }}
-              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}>
+            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#7A6A50' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#7A6A50' }}>
               <X className="w-4 h-4" />
             </button>
           </div>
 
           {/* Sub-abas */}
-          <div className="flex" style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}>
+          <div className="flex" style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}>
             {([
               { key: 'geral',    label: 'Visão Geral' },
               temObrigacoes && { key: 'ob',      label: 'Obrigações' },
@@ -275,12 +275,12 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
               </p>
               {item.indumentaria && (
                 <DarkBox label="Indumentária">
-                  <p className="font-garamond text-sm italic" style={{ color: '#a99c86' }}>{item.indumentaria}</p>
+                  <p className="font-garamond text-sm italic" style={{ color: '#B89D72' }}>{item.indumentaria}</p>
                 </DarkBox>
               )}
               {item.autoridadeEclesiastica && (
                 <DarkBox label="Autoridade Eclesiástica">
-                  <p className="font-garamond text-sm" style={{ color: '#a99c86' }}>{item.autoridadeEclesiastica}</p>
+                  <p className="font-garamond text-sm" style={{ color: '#B89D72' }}>{item.autoridadeEclesiastica}</p>
                 </DarkBox>
               )}
               {item.habilidadeEspecial && (
@@ -293,20 +293,20 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
                   </p>
                   {item.habilidadeEspecial.rodaExterna && (
                     <div className="mb-2">
-                      <div className="font-cinzel text-[0.6rem] uppercase tracking-widest mb-1" style={{ color: '#9a8e7c' }}>Roda Externa</div>
+                      <div className="font-cinzel text-[0.6rem] uppercase tracking-widest mb-1" style={{ color: '#B89D72' }}>Roda Externa</div>
                       <ul className="space-y-1">
                         {item.habilidadeEspecial.rodaExterna.map((r, i) => (
-                          <li key={i} className="font-garamond text-sm" style={{ color: '#a99c86' }}>• {r}</li>
+                          <li key={i} className="font-garamond text-sm" style={{ color: '#B89D72' }}>• {r}</li>
                         ))}
                       </ul>
                     </div>
                   )}
                   {item.habilidadeEspecial.rodaInterna && (
                     <div>
-                      <div className="font-cinzel text-[0.6rem] uppercase tracking-widest mb-1" style={{ color: '#9a8e7c' }}>Roda Interna</div>
+                      <div className="font-cinzel text-[0.6rem] uppercase tracking-widest mb-1" style={{ color: '#B89D72' }}>Roda Interna</div>
                       <ul className="space-y-1">
                         {item.habilidadeEspecial.rodaInterna.map((r, i) => (
-                          <li key={i} className="font-garamond text-sm" style={{ color: '#a99c86' }}>• {r}</li>
+                          <li key={i} className="font-garamond text-sm" style={{ color: '#B89D72' }}>• {r}</li>
                         ))}
                       </ul>
                     </div>
@@ -320,12 +320,12 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
             <>
               {item.obrigacoesRestricoes && (
                 <DarkBox label="Obrigações & Restrições">
-                  <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{item.obrigacoesRestricoes}</p>
+                  <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{item.obrigacoesRestricoes}</p>
                 </DarkBox>
               )}
               {item.brando && (
-                <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.25)' }}>
-                  <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#E4C16A' }}>Devoção Branda</div>
+                <div className="rounded-lg p-4" style={{ background: 'rgba(212,165,74,0.08)', border: '1px solid rgba(212,165,74,0.25)' }}>
+                  <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#DEBA6A' }}>Devoção Branda</div>
                   <p className="font-garamond text-sm leading-relaxed" style={{ color: '#cfc3aa' }}>{item.brando}</p>
                 </div>
               )}
@@ -341,9 +341,9 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
           {aba === 'poderes' && temPoderes && (
             <div className="space-y-3">
               {item.poderesConcedidos!.map((p, i) => (
-                <div key={i} className="rounded-lg p-4" style={{ background: '#120d16', border: `1px solid ${cor}33` }}>
+                <div key={i} className="rounded-lg p-4" style={{ background: '#140F18', border: `1px solid ${cor}33` }}>
                   <div className="font-cinzel text-xs font-semibold mb-1.5" style={{ color: cor }}>{p.nome}</div>
-                  <p className="font-garamond text-sm leading-relaxed" style={{ color: '#a99c86' }}>{p.descricao}</p>
+                  <p className="font-garamond text-sm leading-relaxed" style={{ color: '#B89D72' }}>{p.descricao}</p>
                 </div>
               ))}
             </div>
@@ -356,8 +356,8 @@ function DevModal({ item, onClose }: { item: DevItem; onClose: () => void }) {
 
 function DarkBox({ label, children }: { label: string; children: React.ReactNode }) {
   return (
-    <div className="rounded-lg p-4" style={{ background: '#120d16', border: '1px solid rgba(200,155,60,0.14)' }}>
-      <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>{label}</div>
+    <div className="rounded-lg p-4" style={{ background: '#140F18', border: '1px solid rgba(212,165,74,0.14)' }}>
+      <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>{label}</div>
       {children}
     </div>
   )

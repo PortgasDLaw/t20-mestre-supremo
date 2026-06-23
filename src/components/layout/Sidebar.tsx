@@ -63,15 +63,15 @@ export function Sidebar() {
       {/* Logo */}
       <div
         className="flex items-center gap-3 px-4 py-5 select-none"
-        style={{ borderBottom: '1px solid rgba(200,155,60,0.12)' }}
+        style={{ borderBottom: '1px solid rgba(212,165,74,0.12)' }}
       >
-        <Icon name="icKnowledge" size={28} color="#C89B3C" className="flex-shrink-0" />
+        <Icon name="icKnowledge" size={28} color="#D4A54A" className="flex-shrink-0" />
         {!collapsed && (
           <div>
-            <div className="font-cinzel font-bold text-sm leading-tight" style={{ color: '#E4C16A', letterSpacing: '1px' }}>
+            <div className="font-cinzel font-bold text-sm leading-tight" style={{ color: '#DEBA6A', letterSpacing: '1px' }}>
               Compêndio
             </div>
-            <div className="font-cinzel font-semibold text-xs tracking-widest" style={{ color: '#9a8e7c', letterSpacing: '3px' }}>
+            <div className="font-cinzel font-semibold text-xs tracking-widest" style={{ color: '#B89D72', letterSpacing: '3px' }}>
               MESTRE
             </div>
           </div>
@@ -99,14 +99,14 @@ export function Sidebar() {
             <div key={group} className="mt-2">
               {!collapsed && (
                 <div className="flex items-center gap-2 px-3 py-1.5 select-none pointer-events-none">
-                  <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(200,155,60,0.25))' }} />
-                  <span className="font-cinzel text-[0.6rem] uppercase tracking-[2px]" style={{ color: '#6e6356' }}>
+                  <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(212,165,74,0.25))' }} />
+                  <span className="font-cinzel text-[0.6rem] uppercase tracking-[2px]" style={{ color: '#7A6A50' }}>
                     {group}
                   </span>
-                  <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, rgba(200,155,60,0.25))' }} />
+                  <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, rgba(212,165,74,0.25))' }} />
                 </div>
               )}
-              {collapsed && <div className="mx-3 my-2 h-px" style={{ background: 'rgba(200,155,60,0.12)' }} />}
+              {collapsed && <div className="mx-3 my-2 h-px" style={{ background: 'rgba(212,165,74,0.12)' }} />}
               {itens.map(item => (
                 <NavButton
                   key={item.id}
@@ -124,10 +124,10 @@ export function Sidebar() {
       {/* Footer / versão */}
       <div
         className="flex items-center gap-2 px-4 py-3"
-        style={{ borderTop: '1px solid rgba(200,155,60,0.10)' }}
+        style={{ borderTop: '1px solid rgba(212,165,74,0.10)' }}
       >
         {!collapsed && (
-          <Icon name="icMedal" size={14} color="#6e6356" />
+          <Icon name="icMedal" size={14} color="#7A6A50" />
         )}
         {!collapsed && (
           <span className="font-cinzel text-[0.6rem] tracking-widest" style={{ color: '#5a5145' }}>
@@ -137,9 +137,9 @@ export function Sidebar() {
         <button
           onClick={() => setCollapsed(!collapsed)}
           className="ml-auto flex items-center justify-center transition-colors"
-          style={{ color: '#6e6356' }}
-          onMouseEnter={e => (e.currentTarget.style.color = '#C89B3C')}
-          onMouseLeave={e => (e.currentTarget.style.color = '#6e6356')}
+          style={{ color: '#7A6A50' }}
+          onMouseEnter={e => (e.currentTarget.style.color = '#D4A54A')}
+          onMouseLeave={e => (e.currentTarget.style.color = '#7A6A50')}
         >
           {collapsed
             ? <ChevronRight className="w-4 h-4" />
@@ -157,28 +157,28 @@ function NavButton({ item, active, collapsed, onClick }: {
   collapsed: boolean
   onClick: () => void
 }) {
-  const iconColor = active ? '#E4C16A' : '#857a68'
+  const iconColor = active ? '#DEBA6A' : '#857a68'
 
   return (
     <button
       onClick={onClick}
       className="w-full flex items-center gap-3 px-4 py-2.5 text-left relative transition-colors duration-150 group"
       style={{
-        background: active ? 'rgba(200,155,60,0.10)' : 'transparent',
-        boxShadow: active ? 'inset 3px 0 0 #C89B3C' : 'none',
-        color: active ? '#E8DFCF' : '#a99c86',
+        background: active ? 'rgba(212,165,74,0.10)' : 'transparent',
+        boxShadow: active ? 'inset 3px 0 0 #D4A54A' : 'none',
+        color: active ? '#F1E3C2' : '#B89D72',
         fontWeight: active ? 600 : 400,
       }}
       onMouseEnter={e => {
         if (!active) {
-          e.currentTarget.style.background = 'rgba(200,155,60,0.06)'
-          e.currentTarget.style.color = '#E8DFCF'
+          e.currentTarget.style.background = 'rgba(212,165,74,0.06)'
+          e.currentTarget.style.color = '#F1E3C2'
         }
       }}
       onMouseLeave={e => {
         if (!active) {
           e.currentTarget.style.background = 'transparent'
-          e.currentTarget.style.color = '#a99c86'
+          e.currentTarget.style.color = '#B89D72'
         }
       }}
     >
@@ -194,7 +194,7 @@ function NavButton({ item, active, collapsed, onClick }: {
       {collapsed && (
         <div
           className="absolute left-14 text-xs px-2 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50"
-          style={{ background: '#1A141E', color: '#E8DFCF', border: '1px solid rgba(200,155,60,0.25)' }}
+          style={{ background: '#1A141E', color: '#F1E3C2', border: '1px solid rgba(212,165,74,0.25)' }}
         >
           {item.label}
         </div>

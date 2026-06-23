@@ -9,7 +9,7 @@ interface IconProps {
  * Ícone PNG via CSS mask — permite tingir com qualquer cor via background-color.
  * Os arquivos ficam em /ui/ic*.png (servidos pelo Vite).
  */
-export function Icon({ name, color = '#C89B3C', size = 20, className }: IconProps) {
+export function Icon({ name, color = '#D4A54A', size = 20, className }: IconProps) {
   return (
     <span
       aria-hidden

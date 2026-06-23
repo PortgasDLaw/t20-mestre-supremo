@@ -2,18 +2,18 @@ import { cn } from '@/utils/cn'
 
 const inputBase: React.CSSProperties = {
   width: '100%',
-  background: '#15101a',
-  border: '1px solid rgba(200,155,60,0.20)',
+  background: '#150F18',
+  border: '1px solid rgba(212,165,74,0.20)',
   borderRadius: 6,
   padding: '8px 12px',
-  color: '#E8DFCF',
+  color: '#F1E3C2',
   fontFamily: "'EB Garamond', 'Crimson Text', Georgia, serif",
   fontSize: 15,
   outline: 'none',
   transition: 'border-color 0.15s',
 }
 
-const inputFocus = { borderColor: 'rgba(200,155,60,0.55)' }
+const inputFocus = { borderColor: 'rgba(212,165,74,0.55)' }
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   icon?: React.ReactNode
@@ -25,14 +25,14 @@ export function Input({ className, icon, style, ...props }: InputProps) {
       <div className={cn('relative', className)}>
         <div
           className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"
-          style={{ color: '#6e6356' }}
+          style={{ color: '#7A6A50' }}
         >
           {icon}
         </div>
         <input
           style={{ ...inputBase, paddingLeft: 36, ...style }}
           onFocus={e => Object.assign(e.currentTarget.style, inputFocus)}
-          onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+          onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
           {...props}
         />
       </div>
@@ -43,7 +43,7 @@ export function Input({ className, icon, style, ...props }: InputProps) {
       className={className}
       style={{ ...inputBase, ...style }}
       onFocus={e => Object.assign(e.currentTarget.style, inputFocus)}
-      onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+      onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
       {...props}
     />
   )
@@ -57,7 +57,7 @@ export function Textarea({ className, style, ...props }: TextareaProps) {
       className={cn('resize-none', className)}
       style={{ ...inputBase, ...style }}
       onFocus={e => Object.assign(e.currentTarget.style, inputFocus)}
-      onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+      onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
       {...props}
     />
   )
@@ -80,11 +80,11 @@ export function Select({ className, options, style, ...props }: SelectProps) {
           ...style,
         }}
         onFocus={e => Object.assign(e.currentTarget.style, inputFocus)}
-        onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+        onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
         {...props}
       >
         {options.map((o) => (
-          <option key={o.value} value={o.value} style={{ background: '#1A141E', color: '#E8DFCF' }}>
+          <option key={o.value} value={o.value} style={{ background: '#1A141E', color: '#F1E3C2' }}>
             {o.label}
           </option>
         ))}
@@ -92,7 +92,7 @@ export function Select({ className, options, style, ...props }: SelectProps) {
       {/* Seta customizada dourada */}
       <span
         className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-xs"
-        style={{ color: '#C89B3C' }}
+        style={{ color: '#D4A54A' }}
       >
         ▾
       </span>

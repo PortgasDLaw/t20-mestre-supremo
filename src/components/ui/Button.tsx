@@ -23,22 +23,22 @@ export function Button({ variant = 'gold', size = 'md', className, children, sty
   const variantStyles: Record<string, React.CSSProperties> = {
     gold: {
       background: 'linear-gradient(180deg, #d6a948, #b3852f)',
-      color: '#120d16',
-      boxShadow: '0 2px 8px rgba(200,155,60,0.3)',
+      color: '#140F18',
+      boxShadow: '0 2px 8px rgba(212,165,74,0.3)',
     },
     blood: {
       background: '#8B1A1A',
-      color: '#E8DFCF',
+      color: '#F1E3C2',
       boxShadow: '0 2px 8px rgba(139,26,26,0.3)',
     },
     ghost: {
       background: 'transparent',
-      color: '#a99c86',
+      color: '#B89D72',
     },
     outline: {
       background: 'transparent',
-      color: '#C89B3C',
-      border: '1px solid rgba(200,155,60,0.45)',
+      color: '#D4A54A',
+      border: '1px solid rgba(212,165,74,0.45)',
     },
   }
 
@@ -58,10 +58,10 @@ export function Button({ variant = 'gold', size = 'md', className, children, sty
         } else if (variant === 'blood') {
           e.currentTarget.style.background = '#a52020'
         } else if (variant === 'ghost') {
-          e.currentTarget.style.background = 'rgba(200,155,60,0.08)'
-          e.currentTarget.style.color = '#E8DFCF'
+          e.currentTarget.style.background = 'rgba(212,165,74,0.08)'
+          e.currentTarget.style.color = '#F1E3C2'
         } else if (variant === 'outline') {
-          e.currentTarget.style.background = 'rgba(200,155,60,0.08)'
+          e.currentTarget.style.background = 'rgba(212,165,74,0.08)'
         }
       }}
       onMouseLeave={e => {
@@ -71,7 +71,7 @@ export function Button({ variant = 'gold', size = 'md', className, children, sty
           e.currentTarget.style.background = '#8B1A1A'
         } else if (variant === 'ghost') {
           e.currentTarget.style.background = 'transparent'
-          e.currentTarget.style.color = '#a99c86'
+          e.currentTarget.style.color = '#B89D72'
         } else if (variant === 'outline') {
           e.currentTarget.style.background = 'transparent'
         }

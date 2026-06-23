@@ -48,14 +48,14 @@ export default function PoderesConcedidos() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div style={{ borderBottom: '1px solid rgba(200,155,60,0.18)', paddingBottom: 16 }}>
+      <div style={{ borderBottom: '1px solid rgba(212,165,74,0.18)', paddingBottom: 16 }}>
         <div className="flex items-center gap-3 mb-1">
-          <Icon name="icWillpower" size={26} color="#C89B3C" />
-          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#E4C16A', letterSpacing: 1 }}>
+          <Icon name="icWillpower" size={26} color="#D4A54A" />
+          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#DEBA6A', letterSpacing: 1 }}>
             Poderes Concedidos
           </h1>
         </div>
-        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15 }}>
+        <p className="font-garamond" style={{ color: '#B89D72', fontSize: 15 }}>
           {poderes.length} poderes divinos — clique para ver detalhes e pré-requisitos
         </p>
       </div>
@@ -63,24 +63,24 @@ export default function PoderesConcedidos() {
       {/* Filtros */}
       <div className="flex gap-3 items-center flex-wrap">
         <div className="relative flex-1 min-w-[200px] max-w-sm">
-          <Icon name="icResearch" size={15} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <Icon name="icResearch" size={15} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
           <input
             value={busca}
             onChange={e => setBusca(e.target.value)}
             placeholder="Buscar poderes..."
             style={{
               width: '100%',
-              background: '#15101a',
-              border: '1px solid rgba(200,155,60,0.20)',
+              background: '#150F18',
+              border: '1px solid rgba(212,165,74,0.20)',
               borderRadius: 6,
               padding: '7px 12px 7px 34px',
-              color: '#E8DFCF',
+              color: '#F1E3C2',
               fontFamily: "'EB Garamond', Georgia, serif",
               fontSize: 14,
               outline: 'none',
             }}
-            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
           />
         </div>
         <Select
@@ -89,7 +89,7 @@ export default function PoderesConcedidos() {
           options={todasDivindades.map(d => ({ value: d, label: d === 'Todos' ? 'Todas as Divindades' : d }))}
           className="w-52"
         />
-        <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{filtrados.length} poder(es)</span>
+        <span className="font-cinzel text-xs" style={{ color: '#7A6A50' }}>{filtrados.length} poder(es)</span>
       </div>
 
       {/* Lista agrupada por divindade */}
@@ -98,10 +98,10 @@ export default function PoderesConcedidos() {
           Object.entries(grupos).sort(([a], [b]) => a.localeCompare(b)).map(([div, items]) => (
             <div key={div}>
               <div className="flex items-center gap-3 mb-3">
-                <Icon name="icWillpower" size={14} color="#C89B3C" />
-                <span className="font-cinzel font-semibold text-sm" style={{ color: '#E4C16A' }}>{div}</span>
-                <div className="flex-1 h-px" style={{ background: 'rgba(200,155,60,0.15)' }} />
-                <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{items.length}</span>
+                <Icon name="icWillpower" size={14} color="#D4A54A" />
+                <span className="font-cinzel font-semibold text-sm" style={{ color: '#DEBA6A' }}>{div}</span>
+                <div className="flex-1 h-px" style={{ background: 'rgba(212,165,74,0.15)' }} />
+                <span className="font-cinzel text-xs" style={{ color: '#7A6A50' }}>{items.length}</span>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {items.map(p => <PoderCard key={p.id} poder={p} onClick={() => setSelecionado(p)} />)}
@@ -130,24 +130,24 @@ function PoderCard({ poder, onClick }: { poder: PoderConcedido; onClick: () => v
       className="rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: '12px 14px',
-        background: hovered ? '#1e1624' : 'linear-gradient(180deg, #1a141e, #16111b)',
-        border: `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
+        border: '1px solid rgba(193, 142, 52, 0.25)',
         boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered ? 'translateY(-2px)' : 'none',
       }}
     >
-      <div className="font-cinzel font-semibold text-sm mb-1" style={{ color: '#E8DFCF' }}>{poder.nome}</div>
+      <div className="font-cinzel font-semibold text-sm mb-1" style={{ color: '#F1E3C2' }}>{poder.nome}</div>
       {poder.divindade.length > 1 && (
         <div className="flex flex-wrap gap-1 mb-1">
           {poder.divindade.map(d => (
-            <span key={d} className="font-cinzel text-[0.58rem] px-1.5 py-0.5 rounded" style={{ color: '#E4C16A', background: 'rgba(200,155,60,0.12)', border: '1px solid rgba(200,155,60,0.25)' }}>
+            <span key={d} className="font-cinzel text-[0.58rem] px-1.5 py-0.5 rounded" style={{ color: '#DEBA6A', background: 'rgba(212,165,74,0.12)', border: '1px solid rgba(212,165,74,0.25)' }}>
               {d}
             </span>
           ))}
         </div>
       )}
       {poder.prereq && (
-        <p className="font-garamond text-xs italic mb-1" style={{ color: '#6e6356' }}>Pré-req: {poder.prereq}</p>
+        <p className="font-garamond text-xs italic mb-1" style={{ color: '#7A6A50' }}>Pré-req: {poder.prereq}</p>
       )}
       <p className="font-garamond text-xs leading-snug" style={{ color: '#8f8472', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
         {poder.descricao}
@@ -164,8 +164,8 @@ function PoderModal({ poder, onClose }: { poder: PoderConcedido; onClose: () => 
         className="relative w-full max-w-lg max-h-[80vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
         style={{
           background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
-          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30)',
-          border: '1px solid rgba(200,155,60,0.28)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,165,74,0.30)',
+          border: '1px solid rgba(212,165,74,0.28)',
         }}
       >
         <div className="flex-none p-6 pb-4">
@@ -173,33 +173,33 @@ function PoderModal({ poder, onClose }: { poder: PoderConcedido; onClose: () => 
             <div className="flex-1 min-w-0">
               <div className="flex flex-wrap gap-1.5 mb-2">
                 {poder.divindade.map(d => (
-                  <span key={d} className="font-cinzel text-[0.65rem] uppercase tracking-wide px-2 py-0.5 rounded" style={{ color: '#E4C16A', background: 'rgba(200,155,60,0.12)', border: '1px solid rgba(200,155,60,0.30)' }}>
+                  <span key={d} className="font-cinzel text-[0.65rem] uppercase tracking-wide px-2 py-0.5 rounded" style={{ color: '#DEBA6A', background: 'rgba(212,165,74,0.12)', border: '1px solid rgba(212,165,74,0.30)' }}>
                     {d}
                   </span>
                 ))}
               </div>
-              <h2 className="font-cinzel font-bold text-xl" style={{ color: '#E8DFCF' }}>{poder.nome}</h2>
+              <h2 className="font-cinzel font-bold text-xl" style={{ color: '#F1E3C2' }}>{poder.nome}</h2>
             </div>
-            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#6e6356' }}
-              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}>
+            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#7A6A50' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#7A6A50' }}>
               <X className="w-4 h-4" />
             </button>
           </div>
-          <div className="mt-2 h-px" style={{ background: 'linear-gradient(90deg, rgba(200,155,60,0.5), transparent)' }} />
+          <div className="mt-2 h-px" style={{ background: 'linear-gradient(90deg, rgba(212,165,74,0.5), transparent)' }} />
         </div>
 
         <div className="flex-1 overflow-y-auto scrollbar-thin px-6 pb-6 space-y-4">
           {poder.prereq && (
-            <div className="rounded-lg p-3" style={{ background: 'rgba(200,155,60,0.08)', border: '1px solid rgba(200,155,60,0.20)' }}>
-              <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#9a8e7c' }}>Pré-requisito</div>
+            <div className="rounded-lg p-3" style={{ background: 'rgba(212,165,74,0.08)', border: '1px solid rgba(212,165,74,0.20)' }}>
+              <div className="font-cinzel text-xs uppercase tracking-widest mb-1" style={{ color: '#B89D72' }}>Pré-requisito</div>
               <p className="font-garamond text-sm italic" style={{ color: '#c2b596' }}>{poder.prereq}</p>
             </div>
           )}
           <p className="font-garamond leading-relaxed" style={{ fontSize: 16, color: '#cfc3aa', lineHeight: 1.72 }}>
             {poder.descricao}
           </p>
-          <p className="font-cinzel text-xs" style={{ color: '#6e6356' }}>Fonte: {poder.fonte}</p>
+          <p className="font-cinzel text-xs" style={{ color: '#7A6A50' }}>Fonte: {poder.fonte}</p>
         </div>
       </div>
     </div>

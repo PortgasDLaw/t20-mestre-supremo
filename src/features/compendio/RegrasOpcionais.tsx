@@ -26,13 +26,13 @@ const regras: RegraOpcional[] = regrasData as RegraOpcional[]
 const categorias = [...new Set(regras.map(r => r.categoria))]
 
 const CAT_COR: Record<string, string> = {
-  'Poderes Revisados':        '#E4C16A',
+  'Poderes Revisados':        '#DEBA6A',
   'Efeitos Novos de Poderes': '#A461E8',
   'Autoridades Feudais':      '#4F8FD6',
   'Fabricação Avançada':      '#6E9A52',
   'Miscêlania':               '#8A93A6',
 }
-const getCor = (cat: string) => CAT_COR[cat] ?? '#C89B3C'
+const getCor = (cat: string) => CAT_COR[cat] ?? '#D4A54A'
 
 const CAT_OPTS = [
   { value: 'todas', label: 'Todas as Categorias' },
@@ -45,21 +45,21 @@ function SubRegrasList({ items, title }: { items: SubRegra[]; title?: string }) 
   return (
     <div>
       {title && (
-        <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#9a8e7c' }}>{title}</div>
+        <div className="font-cinzel text-xs uppercase tracking-widest mb-2" style={{ color: '#B89D72' }}>{title}</div>
       )}
       <div className="space-y-2">
         {shown.map((sub, i) => (
-          <div key={i} className="rounded-lg p-3" style={{ background: 'rgba(0,0,0,0.25)', border: '1px solid rgba(200,155,60,0.12)' }}>
+          <div key={i} className="rounded-lg p-3" style={{ background: 'rgba(0,0,0,0.25)', border: '1px solid rgba(212,165,74,0.12)' }}>
             <div className="flex items-start gap-2 flex-wrap mb-0.5">
-              <span className="font-cinzel text-xs font-semibold" style={{ color: '#E8DFCF' }}>{sub.nome}</span>
+              <span className="font-cinzel text-xs font-semibold" style={{ color: '#F1E3C2' }}>{sub.nome}</span>
               {sub.prereq && (
-                <span className="font-garamond text-xs italic" style={{ color: '#6e6356' }}>Pré-req: {sub.prereq}</span>
+                <span className="font-garamond text-xs italic" style={{ color: '#7A6A50' }}>Pré-req: {sub.prereq}</span>
               )}
               {sub.preco && (
-                <span className="font-cinzel text-xs" style={{ color: '#E4C16A' }}>{sub.preco}</span>
+                <span className="font-cinzel text-xs" style={{ color: '#DEBA6A' }}>{sub.preco}</span>
               )}
             </div>
-            <p className="font-garamond text-xs leading-relaxed" style={{ color: '#a99c86' }}>{sub.descricao}</p>
+            <p className="font-garamond text-xs leading-relaxed" style={{ color: '#B89D72' }}>{sub.descricao}</p>
           </div>
         ))}
       </div>
@@ -68,7 +68,7 @@ function SubRegrasList({ items, title }: { items: SubRegra[]; title?: string }) 
           onClick={() => setExpanded(!expanded)}
           className="mt-2 flex items-center gap-1 font-cinzel text-xs transition-colors"
           style={{ color: '#857a68' }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#E4C16A' }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#DEBA6A' }}
           onMouseLeave={e => { e.currentTarget.style.color = '#857a68' }}
         >
           {expanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
@@ -109,21 +109,21 @@ export default function RegrasOpcionais() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div style={{ borderBottom: '1px solid rgba(200,155,60,0.18)', paddingBottom: 16 }}>
+      <div style={{ borderBottom: '1px solid rgba(212,165,74,0.18)', paddingBottom: 16 }}>
         <div className="flex items-center gap-3 mb-1">
-          <Icon name="icBoring" size={26} color="#C89B3C" />
-          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#E4C16A', letterSpacing: 1 }}>
+          <Icon name="icBoring" size={26} color="#D4A54A" />
+          <h1 className="font-cinzel font-bold" style={{ fontSize: 30, color: '#DEBA6A', letterSpacing: 1 }}>
             Regras Opcionais
           </h1>
         </div>
-        <p className="font-garamond" style={{ color: '#a99c86', fontSize: 15 }}>
+        <p className="font-garamond" style={{ color: '#B89D72', fontSize: 15 }}>
           Regras alternativas e expansões de Mitos de Arton — use a critério do mestre
         </p>
       </div>
 
       {/* Aviso */}
-      <div className="rounded-lg p-4" style={{ background: 'rgba(200,155,60,0.07)', border: '1px solid rgba(200,155,60,0.20)' }}>
-        <p className="font-garamond text-sm italic" style={{ color: '#a99c86', lineHeight: 1.65 }}>
+      <div className="rounded-lg p-4" style={{ background: 'rgba(212,165,74,0.07)', border: '1px solid rgba(212,165,74,0.20)' }}>
+        <p className="font-garamond text-sm italic" style={{ color: '#B89D72', lineHeight: 1.65 }}>
           "Estas regras são opcionais por poderem desbalancear seu jogo. Use por sua própria conta e risco."
         </p>
       </div>
@@ -131,19 +131,19 @@ export default function RegrasOpcionais() {
       {/* Filtros */}
       <div className="flex gap-3 items-center flex-wrap">
         <div className="relative flex-1 min-w-[200px] max-w-sm">
-          <Icon name="icResearch" size={15} color="#6e6356" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
+          <Icon name="icResearch" size={15} color="#7A6A50" className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10" />
           <input
             value={busca}
             onChange={e => setBusca(e.target.value)}
             placeholder="Buscar regras opcionais..."
             style={{
-              width: '100%', background: '#15101a',
-              border: '1px solid rgba(200,155,60,0.20)', borderRadius: 6,
-              padding: '7px 12px 7px 34px', color: '#E8DFCF',
+              width: '100%', background: '#150F18',
+              border: '1px solid rgba(212,165,74,0.20)', borderRadius: 6,
+              padding: '7px 12px 7px 34px', color: '#F1E3C2',
               fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, outline: 'none',
             }}
-            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.55)' }}
-            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(200,155,60,0.20)' }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.55)' }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'rgba(212,165,74,0.20)' }}
           />
         </div>
         <Select
@@ -152,7 +152,7 @@ export default function RegrasOpcionais() {
           options={CAT_OPTS}
           className="w-52"
         />
-        <span className="font-cinzel text-xs" style={{ color: '#6e6356' }}>{filtradas.length} regra(s)</span>
+        <span className="font-cinzel text-xs" style={{ color: '#7A6A50' }}>{filtradas.length} regra(s)</span>
       </div>
 
       {/* Grupos */}
@@ -193,18 +193,18 @@ function RegraCard({ regra, cor, onClick }: { regra: RegraOpcional; cor: string;
       className="rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: '14px 16px',
-        background: hovered ? '#1e1624' : 'linear-gradient(180deg, #1a141e, #16111b)',
+        background: 'linear-gradient(180deg, #211922 0%, #18121c 100%)',
         border: `1px solid ${hovered ? cor : `${cor}38`}`,
         boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered ? 'translateY(-2px)' : 'none',
       }}
     >
-      <div className="font-cinzel font-semibold text-sm mb-1.5" style={{ color: '#E8DFCF' }}>{regra.nome}</div>
+      <div className="font-cinzel font-semibold text-sm mb-1.5" style={{ color: '#F1E3C2' }}>{regra.nome}</div>
       <p className="font-garamond text-xs leading-snug mb-2" style={{ color: '#8f8472', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
         {regra.descricao}
       </p>
       {regra.conteudo && regra.conteudo.length > 0 && (
-        <p className="font-cinzel text-[0.6rem]" style={{ color: '#6e6356' }}>{regra.conteudo.length} opções</p>
+        <p className="font-cinzel text-[0.6rem]" style={{ color: '#7A6A50' }}>{regra.conteudo.length} opções</p>
       )}
     </div>
   )
@@ -219,7 +219,7 @@ function RegraModal({ regra, onClose }: { regra: RegraOpcional; onClose: () => v
         className="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-xl animate-page-open overflow-hidden"
         style={{
           background: 'radial-gradient(130% 90% at 50% -8%, #251a2e 0%, #19121f 55%, #140e19 100%)',
-          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(200,155,60,0.30)',
+          boxShadow: '0 44px 110px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,165,74,0.30)',
           border: `1px solid ${cor}44`,
         }}
       >
@@ -229,11 +229,11 @@ function RegraModal({ regra, onClose }: { regra: RegraOpcional; onClose: () => v
               <span className="font-cinzel text-[0.65rem] uppercase tracking-[2px]" style={{ color: cor }}>
                 {regra.categoria} · {regra.fonte}
               </span>
-              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#E8DFCF' }}>{regra.nome}</h2>
+              <h2 className="font-cinzel font-bold text-xl mt-0.5" style={{ color: '#F1E3C2' }}>{regra.nome}</h2>
             </div>
-            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#6e6356' }}
-              onMouseEnter={e => { e.currentTarget.style.color = '#E8DFCF' }}
-              onMouseLeave={e => { e.currentTarget.style.color = '#6e6356' }}>
+            <button onClick={onClose} className="flex-none w-8 h-8 flex items-center justify-center rounded" style={{ color: '#7A6A50' }}
+              onMouseEnter={e => { e.currentTarget.style.color = '#F1E3C2' }}
+              onMouseLeave={e => { e.currentTarget.style.color = '#7A6A50' }}>
               <X className="w-4 h-4" />
             </button>
           </div>

@@ -59,9 +59,9 @@ export function OrnateCorners({ sizeClass = 'w-14' }: { sizeClass?: string }) {
 export function OrnateDivider({ className }: { className?: string }) {
   return (
     <div className={cn('flex items-center gap-2 my-3', className)}>
-      <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(200,155,60,0.35))' }} />
-      <span style={{ color: '#C89B3C', fontSize: 10 }}>◆</span>
-      <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, rgba(200,155,60,0.35))' }} />
+      <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(212,165,74,0.35))' }} />
+      <span style={{ color: '#D4A54A', fontSize: 10 }}>◆</span>
+      <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, rgba(212,165,74,0.35))' }} />
     </div>
   )
 }
@@ -80,20 +80,20 @@ export function AttributeChip({
     <div
       className={cn('flex flex-col items-center justify-center rounded-md px-3 py-2 min-w-[3.5rem]', className)}
       style={{
-        background: negative ? 'rgba(139,26,26,0.15)' : 'rgba(200,155,60,0.08)',
-        border: `1px solid ${negative ? 'rgba(139,26,26,0.4)' : 'rgba(200,155,60,0.30)'}`,
+        background: negative ? 'rgba(139,26,26,0.15)' : 'rgba(212,165,74,0.08)',
+        border: `1px solid ${negative ? 'rgba(139,26,26,0.4)' : 'rgba(212,165,74,0.30)'}`,
       }}
     >
       <span
         className="font-cinzel font-bold text-xl leading-none"
-        style={{ color: negative ? '#E05040' : '#E4C16A' }}
+        style={{ color: negative ? '#E05040' : '#DEBA6A' }}
       >
         {value}
       </span>
       {abbr && (
         <span
           className="font-cinzel text-[0.6rem] uppercase tracking-wider mt-1"
-          style={{ color: '#a99c86' }}
+          style={{ color: '#B89D72' }}
         >
           {abbr}
         </span>
@@ -106,15 +106,15 @@ export function StatBox({ label, value }: { label: string; value: React.ReactNod
   return (
     <div
       className="flex items-center justify-between py-2"
-      style={{ borderBottom: '1px solid rgba(200,155,60,0.10)' }}
+      style={{ borderBottom: '1px solid rgba(212,165,74,0.10)' }}
     >
       <span
         className="font-cinzel text-[0.68rem] uppercase tracking-wide"
-        style={{ color: '#a99c86' }}
+        style={{ color: '#B89D72' }}
       >
         {label}
       </span>
-      <span className="font-crimson text-sm font-semibold" style={{ color: '#E8DFCF' }}>
+      <span className="font-crimson text-sm font-semibold" style={{ color: '#F1E3C2' }}>
         {value}
       </span>
     </div>
