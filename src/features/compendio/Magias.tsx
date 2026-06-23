@@ -169,7 +169,9 @@ function MagiaCard({ magia, favorito, onToggleFavorito, onClick }: {
       className="flex items-center gap-4 rounded-lg cursor-pointer transition-all duration-150"
       style={{
         padding: '12px 16px',
-        background: 'linear-gradient(180deg, #1a141e, #16111b)',
+        backgroundImage: 'url("/t20-mestre-supremo/Fundo Menu Lateral.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
         border: `1px solid rgba(200,155,60,${hovered ? '0.45' : '0.18'})`,
         boxShadow: hovered ? '0 10px 28px rgba(0,0,0,0.55)' : '0 4px 12px rgba(0,0,0,0.4)',
         transform: hovered ? 'translateX(3px)' : 'none',
