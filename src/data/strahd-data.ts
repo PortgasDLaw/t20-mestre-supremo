@@ -424,6 +424,8 @@ Uma banheira de madeira com pés de garras, um pequeno fogão de ferro com uma c
 **Área 14 — Depósito (3º Andar)**
 Uma cama delgada, um criado-mudo, um fogão de ferro pequeno, uma escrivaninha com tamborete, um guarda-roupa vazio, e uma cadeira de balanço. Uma boneca sorridente em vestido amarelo senta-se no parapeito da janela ao norte, coberta de teias de aranha como um véu de casamento.
 
+Uma **vassoura animada** está encostada no canto — ataca qualquer criatura que se aproxime a 1,5 metros dela (ND 1/4, PV 15, Defesa 11, Ataque Pancada +3, 1d4+1 impacto).
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 15 — Suíte da Babá da Família**
