@@ -116,7 +116,7 @@ export const GUIA_CAMPANHA: GuiaSecao[] = [
         id: 'texto-abertura',
         titulo: 'Texto de Abertura (Leia em Voz Alta)',
         tipo: 'narration',
-        conteudo: `"Uma névoa espessa e fria envolve seus pés enquanto vocês caminham pela estrada. O céu está encoberto de nuvens pesadas e cinzentas, bloqueando qualquer vestígio de sol. As árvores à beira do caminho parecem mortas, seus galhos retorcidos como dedos esqueléticos. Então, emergindo da neblina, dois pequenos vultos se aproximam. São crianças — uma menina e um menino, talvez oito e dez anos, respectivamente. Seus rostos são pálidos como papel, os olhos arregalados de medo. A menina segura a mão do irmão com força.
+        conteudo: `"Uma névoa espessa e fria envolve seus pés enquanto vocês caminham pela estrada. O céu está encoberto de nuvens pesadas e cinzentas, bloqueando qualquer vestígio de sol. As árvores à beira do caminho parecem mortas, seus galhos retorcidos como dedos esqueléticos. Então, emergindo da neblina, dois pequenos vultos se aproximam. São crianças — uma menina e um menino, talvez dez e sete anos, respectivamente. Seus rostos são pálidos como papel, os olhos arregalados de medo. A menina segura a mão do irmão com força.
 
 A menina fala primeiro, sua voz tremendo: 'Moços, por favor! Nosso bebê irmão está preso em nossa casa. Há um monstro escondido no porão. Por favor, nos ajudem!'
 
@@ -185,8 +185,15 @@ O QUE SIGNIFICA: 754 do C.B. tem mais de dois séculos. A família Durst habitou
 NA FALHA: O personagem vê a aldrava enferrujada mas não percebe a inscrição desgastada.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Interior — Hall Principal:**
-Ao entrar, os personagens veem um hall de entrada com chão de mármore manchado, uma escadaria de madeira nobre subindo à esquerda, e dois corredores se abrindo à direita e à frente. Retratos de família cobrem as paredes — uma família aristocrática que ri de uma época mais próspera. O senhor Durst, de barba aparada, olha seriamente de seu retrato. A senhora Durst, bela mas de olhar vazio.
+**Estrutura do livro — Pórtico (1A), Sala de Espera (1B), Salão Principal (2A) e Vestiário (2B):**
+Um portão de ferro forjado (dobradiças de um lado, fechadura do outro, destrancado) preenche o arco de um **pórtico de pedra (1A)**, com lâmpadas de óleo penduradas por correntes no teto. Portas de carvalho abrem para a **sala de espera (1B)**: na parede sul há um escudo adornado com o brasão de um monstro estilizado em ouro sobre campo vermelho — o emblema do culto —, ladeado por retratos emoldurados de aristocratas de rostos impassíveis (os ancestrais mortos da família Durst). Portas duplas de mogno com painéis de vitrais levam ao **salão principal (2A)**.
+
+O **salão principal (2A)** se estende pela largura da casa: uma **lareira de mármore negro** numa extremidade e uma **escada de mármore vermelho** na outra. Fixada na parede acima da lareira está uma **espada longa (não mágica)** com um camafeu de moinho de vento trabalhado no punho. As paredes de painéis de madeira são esculpidas com videiras, flores, ninfas e sátiros; personagens que procurem portas secretas ou inspecionem os painéis (Sabedoria/Percepção CD 12) avistam **serpentes e crânios** discretamente tecidos nos desenhos — revelando as portas secretas da casa. O painel decorativo acompanha a escada conforme ela sobe ao segundo andar.
+
+Um **vestiário (2B)** tem vários **mantos pretos** pendurados em ganchos nas paredes (as vestes do culto) e um chapéu alto repousando sobre uma prateleira elevada.
+
+**Atmosfera (Hall Principal):**
+Ao entrar, os personagens veem o chão de mármore manchado, a escadaria de mármore vermelho subindo à esquerda e dois corredores se abrindo à direita e à frente. Retratos de família cobrem as paredes — uma família aristocrática que ri de uma época mais próspera. O senhor Durst, de barba aparada, olha seriamente de seu retrato. A senhora Durst, bela mas de olhar vazio.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MISTICISMO CD 13 — O Retrato de Elisabeth Durst
@@ -210,7 +217,7 @@ NA FALHA: O personagem não nota nada além do chão sujo e empoeirado do hall.
       },
       {
         id: 'andar-terreo',
-        titulo: 'Áreas 3-7: Andar Térreo',
+        titulo: 'Áreas 3-5: Andar Térreo',
         tipo: 'exploration',
         conteudo: `**Área 3 — Covil dos Lobos**
 Sala forrada de painéis de carvalho no estilo de um recanto de caçador. Uma cabeça de veado montada acima da lareira, três lobos empalhados posicionados nos cantos. Tapetes de pele de lobo cobrem o chão. Duas poltronas acolchoadas ladeiam uma mesa de carvalho com um barril de vinho e dois cálices esculpidos. Dois armários: o do leste trancado (Ladinagem CD 15 — guarda bestas e virotes); o do norte destrancado com baralho de cartas e copos de vinho.
@@ -273,14 +280,29 @@ O MESTRE DIZ (para o jogador que tocou): "No momento em que seus dedos tocam a c
 
 SUCESSO NA VONTADE: O personagem vê a visão mas não fica abalado.
 FALHA NA VONTADE: O personagem fica Abalado por 1d4 rounds (–2 em todos os testes). A visão foi vívida demais.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+      },
+      {
+        id: 'segundo-andar',
+        titulo: 'Áreas 6-13: Segundo Andar',
+        tipo: 'exploration',
+        conteudo: `**Área 6 — Salão Superior (Segundo Andar)**
+As lâmpadas a óleo estão fixadas nas paredes deste elegante salão. Pendurado acima da lareira está um retrato emoldurado da família Durst: Gustav e Elisabeth com seus dois filhos sorridentes, Rose e Thorn. Embalado nos braços do pai está um bebê envolto, que a mãe olha com um toque de desprezo. Armaduras em pé flanqueiam portas de madeira nas paredes leste e oeste. Cada armadura segura uma lança e tem um elmo com viseira em forma de cabeça de lobo.
+
+SE OS PERSONAGENS EXAMINAM OS PAINÉIS DAS PAREDES (Percepção CD 12): "Os jovens esculpidos nas portas não estão dançando — estão lutando contra enxames de morcegos. A arte foi deliberadamente perturbadora."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 8 — Biblioteca (Escritório de Gustav Durst)**
-Uma escrivaninha de mogno requintado e uma cadeira de encosto alto estão entre a entrada e a lareira. Estantes do chão ao teto alinham a parede sul. A gaveta da mesa guarda uma chave de ferro que destranca a Área 20 (Quarto das Crianças). Cortinas de veludo vermelho cobrem as janelas. Uma imagem emoldurada de um moinho de vento empoleirado sobre um penhasco rochoso está acima da lareira.
+**Área 7 — Quarto dos Empregados**
+Um quarto não decorado contém um par de camas com colchões enchidos de palha. No pé de cada cama está um armário de calçados vazio. Uniformes bem limpos de empregados estão pendurados nos ganchos no armário adjacente.
 
-NOTA DO MESTRE: A biblioteca era onde Gustav passava suas noites. Esta seção usa os recursos investigativos da Biblioteca (Área 8 do livro) para contar a história dos Durst.
+O criado-mudo no canto da parede ocidental tem um botão na parede ao lado. Pressionando o botão toca o sino minúsculo na cozinha (Área 4). No botão está um frasco pequeno de Água Benta (usado para curar Doru mais adiante — ver missão da Igreja de Barovia).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 8 — Biblioteca**
+O mestre da casa costumava passar muitas horas aqui antes de sua descida à loucura.
+Cortinas de veludo vermelho cobrem as janelas. Uma escrivaninha de mogno requintado e uma cadeira de encosto alto estão entre a entrada e a lareira. Estantes do chão ao teto alinhadas na parede sul. A gaveta da mesa está vazia, exceto por uma chave de ferro que destranca a porta para a Área 20 (Quarto das Crianças no sótão). Uma imagem emoldurada de um moinho de vento empoleirado sobre um penhasco rochoso está acima da lareira.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INVESTIGAÇÃO CD 10 — As Cartas de Gustav Durst
@@ -304,36 +326,6 @@ CONTEÚDO DO DIÁRIO DE ELISABETH DURST (leia fragmentos em voz alta):
 SE PERGUNTAREM QUEM É WALTER: "O nome aparece no diário sem mais contexto — mas menciona um berçário no terceiro andar. Walter parece ser... uma criança. A terceira criança dos Durst."
 NA FALHA: O personagem não encontra o compartimento secreto.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Área 7 — Sala de Serviçais (Quartos dos Serviçais)**
-Um quarto não decorado (Área 7A) contém um par de camas com colchões enchidos de palha. No pé de cada cama está um armário de calçados vazio. Uniformes bem limpos de empregados estão pendurados nos ganchos no armário adjacente (Área 7B).
-
-CRIADO-MUDO: No canto da parede ocidental há um criado-mudo com um botão na parede ao lado. Pressionando o botão toca o sino minúsculo na cozinha (Área 4). No botão está um frasco pequeno de Água Benta (usado para curar Doru mais adiante — ver missão da Igreja de Barovia).
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
-      },
-      {
-        id: 'segundo-andar',
-        titulo: 'Áreas 6-13: Segundo Andar',
-        tipo: 'exploration',
-        conteudo: `**Área 6 — Salão Superior (Segundo Andar)**
-As lâmpadas a óleo estão fixadas nas paredes deste elegante salão. Pendurado acima da lareira está um retrato emoldurado da família Durst: Gustav e Elisabeth com seus dois filhos sorridentes, Rose e Thorn. Embalado nos braços do pai está um bebê envolto, que a mãe olha com um toque de desprezo. Armaduras em pé flanqueiam portas de madeira nas paredes leste e oeste. Cada armadura segura uma lança e tem um elmo com viseira em forma de cabeça de lobo.
-
-SE OS PERSONAGENS EXAMINAM OS PAINÉIS DAS PAREDES (Percepção CD 12): "Os jovens esculpidos nas portas não estão dançando — estão lutando contra enxames de morcegos. A arte foi deliberadamente perturbadora."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Área 7 — Quarto dos Empregados**
-Um quarto não decorado contém um par de camas com colchões enchidos de palha. No pé de cada cama está um armário de calçados vazio. Uniformes bem limpos de empregados estão pendurados nos ganchos no armário adjacente.
-
-O criado-mudo no canto da parede ocidental tem um botão na parede ao lado. Pressionando o botão toca o sino minúsculo na cozinha (Área 4).
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Área 8 — Biblioteca**
-O mestre da casa costumava passar muitas horas aqui antes de sua descida à loucura.
-Cortinas de veludo vermelho cobrem as janelas. Uma escrivaninha de mogno requintado e uma cadeira de encosto alto estão entre a entrada e a lareira. Estantes do chão ao teto alinhadas na parede sul. A gaveta da mesa está vazia, exceto por uma chave de ferro que destranca a porta para a Área 20 (Quarto das Crianças no sótão).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INVESTIGAÇÃO CD 13 (1 hora de pesquisa) — O Senhor de Ravenloft
@@ -366,25 +358,23 @@ NOTA DO MESTRE: Esta é a única rota para a Área 9 (Sala Secreta). A Área 21 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 9 — Sala Secreta (atrás da Biblioteca)**
-Um corredor curto atrás da estante leva a uma pequena câmara sem janelas. Uma vela de cera na parede ilumina fracamente. No centro, uma escrivaninha com uma carta dobrada, lacrada com cera vermelha com o brasão de Von Zarovich. Ao lado, um baú de madeira reforçado com ferro, trancado (Ladinagem CD 15 ou Força CD 20 para forçar).
+Um corredor curto atrás da estante leva a uma pequena câmara sem janelas. As estantes estão repletas de tomos que descrevem rituais de invocação de diabos e os ritos necromânticos de um culto chamado **Os Sacerdotes de Osybus**. Os rituais são falsos — qualquer personagem pode descobrir isso após estudá-los por 1 hora e passar em Inteligência (Arcana) CD 12.
+
+Um pesado baú de madeira com cantos de bronze fica encostado na parede sul, com a tampa entreaberta. Saindo do baú está um **esqueleto em armadura de couro** — um aventureiro humano que disparou a **armadilha de dardo envenenado** do baú; três dardos ainda estão cravados na armadura e na caixa torácica do morto. O mecanismo de disparo dentro do baú não funciona mais. Na **mão esquerda** do esqueleto há uma carta lacrada com o **selo de Strahd Von Zarovich** — o aventureiro tentou retirá-la do baú e morreu na tentativa.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-A CARTA DE STRAHD (leia em voz alta — ATIVA a Área 21)
+A CARTA DE STRAHD (leia em voz alta)
 
-"'À Família Durst — Servos Devotos do Conde Von Zarovich.
+"Meu servo mais patético,
 
-Vosso culto me agrada. Vossas oferendas foram recebidas. Em recompensa, vos concedo a proteção que pedistes — por enquanto. Continuai o trabalho. Alimentai a câmara abaixo de vossa casa com vidas, como acordado. O Ancestral não descansa sem sangue.
+Eu não sou um messias enviado a você pelos Poderes das Trevas desta terra. Eu não vim para conduzi-lo por um caminho para a imortalidade. No entanto, das muitas almas que você sangrou em seu altar escondido, dos muitos visitantes que você torturou em sua masmorra, saiba que você não os trouxe para esta bela terra. Vocês são apenas vermes que se contorcem na minha terra.
 
-Sabeis o que é exigido. Não me decepcioneis.
+Você diz que está amaldiçoado, suas fortunas gastas. Você abandonou o amor pela loucura, buscou consolo no seio de outra mulher, e gerou um filho natimorto. Amaldiçoado pela escuridão? Não tenho dúvidas disso. Salvar você de sua miséria? Eu acho que não. Prefiro você como está.
 
-Von Zarovich'
+Seu terrível senhor e mestre,
+Strahd Von Zarovich"
 
-A letra é elegante, precisa, absolutamente desprovida de emoção. É uma carta de negócios. Para Strahd, os Durst eram ferramentas — não servos honrados."
-
-SE OS PERSONAGENS LEREM A CARTA EM VOZ ALTA: Os personagens em silêncio por um momento. Então, na parede do corredor atrás deles, percebem que uma seção da madeira revela um contorno — a Área 21 (Escada Secreta) manifesta-se.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-TESOURO NO BAÚ: 1.000 moedas de prata, 8 gemas de quartzo lapidadas (12 PO cada), 2 pergaminhos de magia (Bênção e Proteção Contra Venenos), um Símbolo Sagrado de prata simples (25 PO).
+SE OS PERSONAGENS LEREM A CARTA EM VOZ ALTA: ficam em silêncio por um momento. Então, na parede do corredor atrás deles, percebem que uma seção da madeira revela um contorno — a Área 21 (Escada Secreta) manifesta-se.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 10 — Conservatório**
@@ -397,7 +387,7 @@ Personagens que subam a escadaria de mármore vermelho até sua altura total che
 
 NOTA DO MESTRE: A armadura animada tem ND 1 (T20): PV 33, Defesa 18, Ataque Soco +4 (1d6+2 impacto). Imune a veneno e doenças. Vulnerável a dano de trovão (dano dobrado).
 
-Portas esculpidas com jovens dançantes — Percepção CD 12 revela que não estão dançando, mas lutando contra enxames de morcegos.
+As portas montadas nas paredes são esculpidas com cenas de floresta — árvores, folhas caindo e criaturas minúsculas. Personagens que procurem portas secretas ou inspecionem os painéis (Percepção CD 12) notam cadáveres minúsculos sendo mastigados entre as árvores e vermes saindo do chão.
 
 PORTA SECRETA: Uma porta secreta na parede oeste pode ser encontrada com Percepção CD 15. Abre facilmente para revelar uma escada de madeira cheia de teias de aranha que leva até o sótão.
 
@@ -415,25 +405,27 @@ NOTA DO MESTRE: Os corpos de Gustav e Elisabeth Durst NÃO estão aqui. Eles sã
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 13 — Banheiro**
-Uma banheira de madeira com pés de garras, um pequeno fogão de ferro com uma chaleira, e um barril sob uma torneira na parede leste. Uma cisterna no telhado coletava água da chuva, mas o encanamento já não funciona.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**TERCEIRO ANDAR — Áreas 14-16 e Sótão**
+Uma banheira de madeira com pés de garras, um pequeno fogão de ferro com uma chaleira, e um barril sob uma torneira na parede leste. Uma cisterna no telhado coletava água da chuva, mas o encanamento já não funciona.`
+      },
+      {
+        id: 'terceiro-andar-sotao',
+        titulo: 'Áreas 14-21: Terceiro Andar e Sótão',
+        tipo: 'exploration',
+        conteudo: `**TERCEIRO ANDAR E SÓTÃO — Áreas 14-21**
 
 **Área 14 — Depósito (3º Andar)**
-Uma cama delgada, um criado-mudo, um fogão de ferro pequeno, uma escrivaninha com tamborete, um guarda-roupa vazio, e uma cadeira de balanço. Uma boneca sorridente em vestido amarelo senta-se no parapeito da janela ao norte, coberta de teias de aranha como um véu de casamento.
-
-Uma **vassoura animada** está encostada no canto — ataca qualquer criatura que se aproxime a 1,5 metros dela (ND 1/4, PV 15, Defesa 11, Ataque Pancada +3, 1d4+1 impacto).
+Prateleiras empoeiradas alinham as paredes desta sala. Algumas têm lençóis e cobertores dobrados e barras velhas de sabão. Uma **vassoura animada de ataque** coberta de teias de aranha está encostada na parede mais distante da entrada — ataca qualquer criatura que se aproxime a 1,5 metros dela (ND 1/4, PV 15, Defesa 11, Ataque Pancada +3, 1d4+1 impacto).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 15 — Suíte da Babá da Família**
-O quarto pertencia à babá da família. O dono da casa e a babá tiveram um caso, que levou ao nascimento de um bebê natimorto chamado Walter. O culto matou a babá pouco depois.
+Um quarto elegantemente decorado (área 15A) com uma porta levando a outro cômodo (o berçário, área 15B) e portas duplas com painéis de vitrais que se abrem para uma varanda (área 15C) com vista para a frente da casa. O quarto pertencia à babá da família. O dono da casa e a babá tiveram um caso, que levou ao nascimento de um bebê natimorto chamado Walter. O culto matou a babá pouco depois.
 
-A menos que os personagens já a derrotaram no Depósito (Área 17), o **espírito da babá** assombra o quarto como um espectro. O espectro se manifesta e ataca quando um personagem abre a porta para o berçário (área 15B). Assemelha-se a uma jovem aterrorizada e esquelética — não pode falar nem ser interpelada.
+A menos que os personagens já a derrotaram no Depósito (Área 18), o **espírito da babá** assombra o quarto como um espectro. O espectro se manifesta e ataca quando um personagem abre a porta para o berçário (área 15B). Assemelha-se a uma jovem aterrorizada e esquelética — não pode falar nem ser interpelada.
 
-PORTA SECRETA (atrás do espelho de corpo inteiro): Percepção CD 15. Abre para uma escada de madeira com teias de aranha que leva até o sótão.
+O quarto contém uma cama grande, duas mesas de canto e um guarda-roupa vazio. Preso na parede ao lado do guarda-roupa há um **espelho de corpo inteiro** com moldura de madeira esculpida para parecer hera e bagas. Quem procura portas secretas ou inspeciona o espelho (Percepção CD 12) percebe **globos oculares** escondidos entre as bagas.
+
+PORTA SECRETA (atrás do espelho de corpo inteiro): Percepção CD 15. Abre facilmente para uma escada de madeira com teias de aranha que leva até o sótão.
 
 O berçário tem um berço coberto com uma mortalha negra. Quando os personagens desenrolam o sudário, veem um pacote firmemente embrulhado do tamanho de um bebê — mas não há nada dentro.
 
@@ -447,14 +439,16 @@ PORTA BLOQUEADA: A porta da Área 20 é mantida fechada com um cadeado. Sua chav
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 17 — Quarto de Repouso (Sótão)**
-Esta câmara empoeirada está cheia de móveis antigos (cadeiras, casacos, espelhos de corpo, manequins de vestir), todos cobertos em lençóis brancos empoeirados. Perto de um fogão de ferro, embaixo de um dos lençóis, está um baú de madeira destrancado contendo os **restos mortais da babá da família**, envoltos em um lençol esfarrapado manchado de sangue seco. Medicina CD 14: a mulher foi esfaqueada até a morte por múltiplas feridas de faca.
-
-Se os personagens perturbam os restos, o espectro da babá aparece e ataca (a menos que já tenha sido derrotada na Área 15).
+Esta sala coberta de poeira contém uma cama delgada, um criado-mudo, um fogão de ferro pequeno, uma escrivaninha com tamborete, um guarda-roupa vazio, e uma cadeira de balanço. Uma boneca sorridente em vestido amarelo laçado senta-se no estrado da janela ao norte, coberta de teias de aranha como um véu de casamento.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 18 — Depósito (Sótão)**
-Prateleiras empoeiradas com lençóis, cobertores dobrados e barras velhas de sabão. Uma **vassoura animada** encostada na parede mais distante da entrada — ataca qualquer criatura que se aproxime a 1,5 metros dela (ND 1/4, PV 15, Defesa 11, Ataque Pancada +3, 1d4+1 impacto).
+Esta câmara empoeirada está cheia de móveis antigos (cadeiras, casacos, espelhos de corpo, manequins de vestir, e similares), todos cobertos em lençóis brancos empoeirados. Perto de um fogão de ferro, embaixo de um dos lençóis, está um baú de madeira destrancado contendo os **restos mortais da babá da família**, envoltos em um lençol esfarrapado manchado de sangue seco. Medicina CD 14: a mulher foi esfaqueada até a morte por múltiplas feridas de faca.
+
+Se os personagens perturbam os restos, o **espectro da babá** aparece e ataca (a menos que já tenha sido derrotada na Área 15).
+
+PORTA SECRETA (parede leste): aparece apenas quando certas condições são atendidas — veja a Área 21.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -549,7 +543,7 @@ SE ROSE E THORN ESTIVEREM COM OS PERSONAGENS neste momento: elas param na entrad
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**SÓTÃO — DEPÓSITO COM RESTOS DA BABÁ (Área 17)**
+**SÓTÃO — DEPÓSITO COM RESTOS DA BABÁ (Área 18)**
 Os restos da babá revelam (Medicina CD 14): morte por múltiplas facadas. Perturbá-los invoca o espectro se ainda não foi derrotado.
 
 SE PERGUNTAREM QUEM A MATOU: Pelas evidências nos diários e cartas, Elisabeth Durst descobriu o caso do marido com a babá. A babá foi morta pelo culto após o nascimento de Walter.
@@ -606,7 +600,7 @@ Esta é a câmara final. Ver seção separada.`
 
 CARACTERÍSTICAS DA MASMORRA: Túneis de 1,2m de largura × 2,1m de altura, suportados por vigas de madeira. Quartos de 2,4m de altura. Sem luz — personagens devem trazer fontes de luz próprias. Pegadas humanas centenárias no chão de terra.
 
-CANTO FANTASMAGÓRICO: A partir do momento em que chegam à masmorra, os personagens ouvem um canto misterioso ecoando por toda parte. Impossível localizar a origem até alcançar a Área 38. As palavras só se tornam audíveis na Área 38: "Ele é o Ancestral. Ele é a Terra."
+CANTO FANTASMAGÓRICO: A partir do momento em que chegam à masmorra, os personagens ouvem um canto misterioso ecoando por toda parte. É impossível determinar de onde o som vem até alcançar a Área 26 ou 29. As palavras só se tornam audíveis na Área 38: "Ele é o Ancestral. Ele é a Terra."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -929,7 +923,7 @@ Uma placa entalhada em madeira diz "BILDRATH MERCADORIAS" acima de uma porta rob
 **A Situação:**
 Kolyan Indirovich, o burgomestre e pai de Ismark e Ireena, **morreu recentemente** — de coração partido, dizem alguns. De medo e exaustão, dizem outros. O corpo está em um caixão na sala principal, aguardando enterro na igreja.
 
-Ismark pede aos personagens que ajudem a levar o corpo para a **Igreja de São Andral** antes de partirem com Ireena — deixar o pai sem enterro sagrado é impensável para ele.
+Ismark pede aos personagens que ajudem a levar o corpo para a **Igreja de Barovia** antes de partirem com Ireena — deixar o pai sem enterro sagrado é impensável para ele.
 
 *Ismark (no corredor, em voz baixa):* "Meu pai morreu tentando proteger Ireena. Escreveu cartas ao Barão de Valaki, ao Padre Donavich, até a Van Richten — ninguém veio. No fim, a preocupação o consumiu." *(pausa)* "Pelo menos posso dar a ele um enterro decente."`,
         cd: [
@@ -938,7 +932,7 @@ Ismark pede aos personagens que ajudem a levar o corpo para a **Igreja de São A
       },
       {
         id: 'igreja-barovia',
-        titulo: 'Igreja de São Andral — Padre Donavich',
+        titulo: 'Igreja de Barovia — Padre Donavich',
         tipo: 'roleplay',
         conteudo: `**Descrição (Leia em Voz Alta):**
 "A igreja é a construção mais antiga da vila — pedra negra e janelas com vitrais tão velhos que as cores desbotaram até tons de cinza. A porta principal está destrancada. Dentro, velas iluminam bancos vazios. Um padre ajoelhado ao altar reza em voz alta, sua voz quebrando a cada frase: '...que você nos perdoe, que você nos proteja, que você...' Ele não ouve quando vocês entram."
@@ -1056,7 +1050,7 @@ Eva é uma mulher de mais de cem anos — ninguém ao certo sabe quantos. Dobrad
 
 *(olha diretamente para Ismark, se ele estiver presente)*
 
-*"O Tomo de Strahd — seus pensamentos mais sombrios, escritos de sua própria mão — está onde a luz tenta em vão manter a escuridão do lado de fora. O **Mosteiro de São Andral**, em Valaki. Uma moça foi levada para lá. Ela carrega o tomo sem saber."*
+*"O Tomo de Strahd — seus pensamentos mais sombrios, escritos de sua própria mão — está onde a luz tenta em vão manter a escuridão do lado de fora. O **Igreja de São Andral**, em Valaki. Uma moça foi levada para lá. Ela carrega o tomo sem saber."*
 
 *(Ismark se levanta bruscamente — "Ireena?" Eva apenas acena com a cabeça, lentamente)*
 
@@ -1116,7 +1110,7 @@ Eva é uma mulher de mais de cem anos — ninguém ao certo sabe quantos. Dobrad
     id: 'valaki',
     titulo: 'Valaki — A Cidade Fechada',
     nivel: 'Nível 4',
-    descricao: 'Valaki é a maior cidade de Barovia, governada com mão de ferro pelo Barão Vargas Vallakovich. Todos devem aparecer felizes — por decreto. É aqui que o grupo deve proteger Ireena, recuperar o Tomo de Strahd do Mosteiro de São Andral, e possivelmente construir uma coalizão contra Strahd.',
+    descricao: 'Valaki é a maior cidade de Barovia, governada com mão de ferro pelo Barão Vargas Vallakovich. Todos devem aparecer felizes — por decreto. É aqui que o grupo deve proteger Ireena, recuperar o Tomo de Strahd da Igreja de São Andral, e possivelmente construir uma coalizão contra Strahd.',
     subsecoes: [
       {
         id: 'valaki-chegada',
@@ -1176,21 +1170,21 @@ Rictavio usa um **chapéu do disfarce** e um **anel de escudo mental** para ocul
       },
       {
         id: 'mosteiro-sao-andral',
-        titulo: 'Mosteiro de São Andral — O Tomo de Strahd',
+        titulo: 'Igreja de São Andral — O Tomo de Strahd',
         tipo: 'combat',
-        conteudo: `O Mosteiro de São Andral é uma fortaleza religiosa no centro de Valaki. O Padre Lucian Petrovich a administra — sério, justo, e atualmente em pânico silencioso.
+        conteudo: `A Igreja de São Andral é uma fortaleza religiosa no centro de Valaki. O Padre Lucian Petrovich a administra — sério, justo, e atualmente em pânico silencioso.
 
 A SITUAÇÃO: Os Ossos de São Andral — relíquias sagradas que criam um campo de proteção contra vampiros — foram roubados. Sem eles, o campo está enfraquecendo. Strahd sabe. Seus servos vêm esta noite.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INVESTIGAÇÃO CD 12 — Quem Roubou os Ossos?
 
-O MESTRE DIZ: "Ao investigar discretamente os funcionários do mosteiro, você percebe um padrão — Milivoj, o coveiro jovem, evita o olhar do Padre Lucian. Quando você o encontra na cripta, ele está nervoso demais para ser inocente."
+O MESTRE DIZ: "Ao investigar discretamente os funcionários da igreja, você percebe um padrão — Milivoj, o coveiro jovem, evita o olhar do Padre Lucian. Quando você o encontra na cripta, ele está nervoso demais para ser inocente."
 
 SE CONFRONTAREM MILIVOJ (direto): Ele nega. Diplomacia CD 13 ou Intimidação CD 14 para confessar.
 DIPLOMACIA SUCESSO: "Eu precisava do dinheiro. Minha família... minha família está passando fome. O carpinteiro Henrick me pagou bem. Eu não sabia que ele ia usar para isso. Juro." (Está dizendo a verdade — foi enganado sobre o propósito.)
 INTIMIDAÇÃO SUCESSO: Milivoj confessa com medo, mas fica ressentido. Pode complicar as coisas depois.
-NA FALHA: Os personagens não conseguem identificar Milivoj como suspeito facilmente — podem tentar outros NPCs do mosteiro (qualquer um pode apontar para ele com Diplomacia CD 10).
+NA FALHA: Os personagens não conseguem identificar Milivoj como suspeito facilmente — podem tentar outros NPCs da igreja (qualquer um pode apontar para ele com Diplomacia CD 10).
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1204,12 +1198,12 @@ SE DEMONSTRAREM QUE PODEM PROTEGÊ-LO: Vantagem na rolagem. Ele entrega os ossos
 COMBATE (se tentarem forçar): Henrick tem um machado de carpinteiro mas não tem treinamento. 18 PV, Defesa 10. Prefere fugir.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-RESTAURAR O CAMPO: Quando os ossos voltam à cripta, o Padre Lucian os coloca no relicário. O campo de proteção se restaura visivelmente — uma onda de luz branca suave pulsa pelo mosteiro inteiro.
+RESTAURAR O CAMPO: Quando os ossos voltam à cripta, o Padre Lucian os coloca no relicário. O campo de proteção se restaura visivelmente — uma onda de luz branca suave pulsa pela igreja inteira.
 
 O MESTRE DIZ: "Vocês sentem a diferença imediatamente. Como se o ar ficasse mais limpo, mais leve. E do lado de fora, algures na noite, vocês ouvem — ou imaginam ouvir — um som de frustração. Um uivo curto e cortado. Strahd soube que a janela fechou."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-O TOMO DE STRAHD — Biblioteca do Mosteiro
+O TOMO DE STRAHD — Biblioteca da Igreja
 
 INVESTIGAÇÃO CD 15 (ou Misticismo CD 12 para sentir a aura primeiro):
 
@@ -1225,7 +1219,7 @@ O QUE O TOMO REVELA (resumo para o Mestre ler fragmentos): "O caixão fica no n�
         ],
         recompensas: [
           'Tomo de Strahd (artefato chave da campanha)',
-          'Bênção de São Andral: personagens que dormirem no mosteiro recuperam PV máximos + são imunes a Encanto de vampiros por 24h',
+          'Bênção de São Andral: personagens que dormirem na igreja recuperam PV máximos + são imunes a Encanto de vampiros por 24h',
           '150 PO de doação do Padre Lucian',
         ]
       },
@@ -1240,7 +1234,7 @@ O QUE O TOMO REVELA (resumo para o Mestre ler fragmentos): "O caixão fica no n�
 **Izek Strazni (Capanga do Barão):** O verdadeiro braço executivo do poder do Barão. Tem uma deformidade diabólica: um braço monstruoso com o qual pode conjurar fogo. Sua história de violência e o medo que inspira mantêm os inimigos do Barão afastados. É o que o livro descreve — o medo de Izek sustenta o regime.
 
 **Duas abordagens para os personagens:**
-1. **Ignorar o Barão** — Foquem no Mosteiro, ajudem os Wereravens, saiam logo.
+1. **Ignorar o Barão** — Foquem na Igreja, ajudem os Wereravens, saiam logo.
 2. **Derrubar o Barão** — Construir coalizão com cidadãos insatisfeitos (incluindo Dama Wachter), enfrentar Izek Strazni, instalar uma liderança mais justa. **Consequência:** Strahd, sem a estabilidade do Barão como "guarda-cachorro", pode acelerar seus planos.
 
 **Dica do Mestre:** Não é necessário resolver Valaki completamente. O importante é: recuperar o Tomo e garantir a segurança de Ireena. O resto é material extra para grupos que queiram explorar mais.`
@@ -1876,8 +1870,8 @@ export const BESTIARIO: Monstro[] = [
       { nome: 'Incorpóreo', descricao: 'Pode se mover através de criaturas e objetos. Terminar turno dentro de objeto causa 1d10 força.' },
       { nome: 'Apenas Armas Mágicas ou Sagradas', descricao: 'Imune a dano de armas não-mágicas e não-sagradas.' }
     ],
-    descricao: 'O espírito da babá assassinada pelos Durst. Manifesta-se na Suíte da Babá (Área 15) quando a porta do berçário é aberta, ou na Área 17 (Depósito) se os restos são perturbados. Não pode falar — apenas pura fúria residual.',
-    localizacao: 'Casa da Morte — Área 15 (Suíte da Babá) e Área 17 (Depósito)'
+    descricao: 'O espírito da babá assassinada pelos Durst. Manifesta-se na Suíte da Babá (Área 15) quando a porta do berçário é aberta, ou na Área 18 (Depósito) se os restos são perturbados. Não pode falar — apenas pura fúria residual.',
+    localizacao: 'Casa da Morte — Área 15 (Suíte da Babá) e Área 18 (Depósito)'
   },
   {
     id: 'armadura-animada',
@@ -2077,7 +2071,7 @@ export const NPCS: NPC[] = [
     id: 'ireena',
     nome: 'Ireena Kolyana',
     titulo: 'Filha do Burgomaster / Reencarnação de Tatyana',
-    localizacao: 'Vila de Barovia → Valaki → Mosteiro de São Andral',
+    localizacao: 'Vila de Barovia → Valaki → Igreja de São Andral',
     alinhamento: 'Leal e Bom',
     personalidade: 'Corajosa, direta, um pouco arrogante quando se sente subestimada. Tem senso de humor seco. Leal aos seus aliados até a morte. Às vezes fica distante — nesses momentos, está tendo memórias de "outra vida" que não entende.',
     aparencia: 'Jovem de 20 e poucos anos. Cabelos ruivos que chegam aos ombros, olhos verdes intensos. Veste roupas práticas de viagem, uma adaga na cintura. Dois ferimentos cicatrizados no pescoço.',
@@ -2338,12 +2332,12 @@ export const TABELAS: TabelaCampanha[] = [
     colunas: ['Item', 'Localização', 'Efeito'],
     linhas: [
       ['Símbolo Sagrado da Coroa de Prata', 'Torre de Van Richten', '+2 em testes de Religião; +1d6 dano sagrado contra mortos-vivos 1x/combate'],
-      ['Tomo de Strahd', 'Mosteiro de São Andral', 'Contém segredos de Strahd; leitura dá vantagem em testes de Misticismo sobre vampiros por 1 semana'],
+      ['Tomo de Strahd', 'Igreja de São Andral', 'Contém segredos de Strahd; leitura dá vantagem em testes de Misticismo sobre vampiros por 1 semana'],
       ['Espada Solar (Espada Longa +3)', 'Templo de Âmbar', 'Emite luz solar; +2d8 dano sagrado/radiante contra mortos-vivos; suprime regeneração de vampiros'],
       ['Diário de Van Richten', 'Torre de Van Richten', '+5 em testes de Misticismo sobre mortos-vivos por 1 semana (pode ser lido)'],
       ['Faca Cerimonial dos Durst', 'Casa da Morte', '1d4 cortante + conta como mágica contra mortos-vivos; maldita (Vontade CD 12 para lançar fora)'],
       ['Anel de Signatura dos Durst', 'Casa da Morte — quarto principal', 'Sem efeito mágico; pode ser vendido por 25 PO ou usado como chave para porta secreta no castelo'],
-      ['Osso de São Andral', 'Mosteiro de São Andral', 'Enquanto no mosteiro, cria campo que impede vampiros de entrar (quebrado se roubado)'],
+      ['Osso de São Andral', 'Igreja de São Andral', 'Enquanto na igreja, cria campo que impede vampiros de entrar (quebrado se roubado)'],
       ['Cristal de Visão de Strahd', 'Castelo Ravenloft — biblioteca', 'Permite visualizar qualquer lugar em Barovia; mas Strahd sabe quando está sendo usado'],
       ['Amuleto do Corvo', 'Com os Wereravens em Valaki', 'Permite comunicação com corvos (mensagens simples); 1x/dia avisar aliados de perigo']
     ]
@@ -2364,7 +2358,7 @@ export const TABELAS: TabelaCampanha[] = [
       ['Glifos 8 — Escriba', 'Cronista', 'Artefato em biblioteca ou arquivo'],
       ['Glifos 9 — Profeta', 'Visionário', 'Artefato em alto templo ou observatório'],
       ['Glifos Mestre — Arcanista', 'Mestre de Estrelas', '—'],
-      ['★ Gládios 1 — Vingador', 'Espírito Leal', 'TOMO DE STRAHD no Mosteiro de São Andral'],
+      ['★ Gládios 1 — Vingador', 'Espírito Leal', 'TOMO DE STRAHD na Igreja de São Andral'],
       ['Gládios 2 — Guerreiro', 'Campeão', 'Artefato guardado por lutador ou guerreiro'],
       ['Gládios 3 — Mercenário', 'Contratado', 'Artefato com alguém motivado por ganho pessoal'],
       ['Gládios 4 — Monge', 'Asceta', 'Artefato em mosteiro ou templo isolado'],
@@ -2431,8 +2425,8 @@ export const ITENS: Item[] = [
     nome: 'Tomo de Strahd',
     tipo: 'artefato',
     raridade: 'lendario',
-    capitulo: 'Valaki — Mosteiro de São Andral',
-    localizacao: 'Mosteiro de São Andral, Valaki — em posse de Ireena Kolyana (ela não sabe o que é)',
+    capitulo: 'Valaki — Igreja de São Andral',
+    localizacao: 'Igreja de São Andral, Valaki — em posse de Ireena Kolyana (ela não sabe o que é)',
     descricao: 'Os pensamentos mais sombrios de Strahd escritos em sua própria mão — um diário filosófico de séculos. Contém confissões sobre seu pacto com os Vestígios do Templo de Âmbar, reflexões sobre a maldição de Barovia, e a tragédia de Tatyana. Ireena o carrega como herança da família adotiva sem conhecer seu conteúdo.',
     mecanica: 'Leitura do tomo (1 sessão): vantagem em testes de Misticismo sobre vampiros por 1 semana. Revela fraquezas específicas de Strahd que não constam em nenhum outro texto. Pode ser lido multiple vezes — cada leitura revela uma camada mais profunda.',
     observacoes: 'Um dos três artefatos da profecia. Carta: Um de Gládios — Vingador. A leitura é emocionalmente pesada — Strahd escreve com lucidez sobre seus próprios crimes. Personagens empáticos podem ganhar perspectiva sobre como tentar redimi-lo em vez de apenas destruí-lo.',
@@ -2498,11 +2492,11 @@ export const ITENS: Item[] = [
     nome: 'Osso de São Andral',
     tipo: 'magico',
     raridade: 'raro',
-    capitulo: 'Valaki — Mosteiro de São Andral',
-    localizacao: 'Cripta do Mosteiro — roubado por Milivoj (coveiro), entregue ao carpinteiro Henrick',
-    descricao: 'Relíquia sagrada do santo fundador do mosteiro. Enquanto na cripta consagrada, cria um campo de proteção que impede vampiros e seus servos de entrar. Foi roubado a mando de Strahd: Milivoj (coveiro) foi enganado pelo carpinteiro Henrick e não sabia para que serviria.',
-    mecanica: 'Enquanto na cripta do mosteiro: campo sagrado em 30m que impede vampiros e mortos-vivos de entrar. Efeito quebrado se removido do local consagrado. A missão é recuperá-lo antes da noite — os servos de Strahd vêm ao cair da escuridão.',
-    observacoes: 'Confrontar Milivoj com gentileza (Diplomacia CD 13): ele confessa ter vendido para Henrick sem saber o propósito. Confissão via intimidação funciona mas cria ressentimento. O Tomo de Strahd está com Ireena no mosteiro.',
+    capitulo: 'Valaki — Igreja de São Andral',
+    localizacao: 'Cripta da Igreja — roubado por Milivoj (coveiro), entregue ao carpinteiro Henrick',
+    descricao: 'Relíquia sagrada do santo fundador da igreja. Enquanto na cripta consagrada, cria um campo de proteção que impede vampiros e seus servos de entrar. Foi roubado a mando de Strahd: Milivoj (coveiro) foi enganado pelo carpinteiro Henrick e não sabia para que serviria.',
+    mecanica: 'Enquanto na cripta da igreja: campo sagrado em 30m que impede vampiros e mortos-vivos de entrar. Efeito quebrado se removido do local consagrado. A missão é recuperá-lo antes da noite — os servos de Strahd vêm ao cair da escuridão.',
+    observacoes: 'Confrontar Milivoj com gentileza (Diplomacia CD 13): ele confessa ter vendido para Henrick sem saber o propósito. Confissão via intimidação funciona mas cria ressentimento. O Tomo de Strahd está com Ireena na igreja.',
   },
   {
     id: 'cristal-visao',
