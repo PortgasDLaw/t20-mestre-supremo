@@ -214,15 +214,15 @@ NA FALHA: O personagem não nota nada além do chão sujo e empoeirado do hall.
         titulo: 'Áreas 3-7: Andar Térreo',
         tipo: 'exploration',
         conteudo: `**Área 3 — Covil dos Lobos**
-Seis lobos empalhados, posicionados como se prontos para atacar. Tapetes de pele de lobo cobrem o chão. Uma lareira fria ao fundo.
+Sala forrada de painéis de carvalho no estilo de um recanto de caçador. Uma cabeça de veado montada acima da lareira, três lobos empalhados posicionados nos cantos. Tapetes de pele de lobo cobrem o chão. Duas poltronas acolchoadas ladeiam uma mesa de carvalho com um barril de vinho e dois cálices esculpidos. Dois armários: o do leste trancado (Ladinagem CD 15 — guarda bestas e virotes); o do norte destrancado com baralho de cartas e copos de vinho.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 13 — A Porta Secreta
+INVESTIGAÇÃO CD 25 — O Alçapão do Covil (ROTA DE RETORNO — NOTA DO MESTRE)
 
-O MESTRE DIZ: "Ao examinar a estante de troféus, você percebe uma inconsistência: o canto traseiro direito não toca a parede. Há uma folga de alguns centímetros — e quando você pressiona o painel de madeira ao lado, ele cede com um clique. A estante inteira desliza lentamente para o lado, revelando uma passagem estreita coberta de poeira. Do outro lado, você consegue ver uma escrivaninha e estantes de livros."
+Este alçapão existe no canto sudoeste do assoalho. A casa o oculta com magia — CD 25 é intencional e praticamente intransponível descendo. Os personagens só o descobrem chegando de baixo (Área 32): empurrando de dentro, o alçapão abre facilmente. É a rota de fuga, não de entrada.
 
-SE PERGUNTAREM PARA ONDE LEVA: "Para o escritório privado de Durst — uma sala que claramente não era para ser encontrada facilmente."
-NA FALHA: O personagem não nota nada incomum na estante — apenas troféus velhos e poeira.
+O MESTRE DIZ (só se passar na CD 25 descendo): "No canto sudoeste do assoalho, sua mão encontra uma tábua que não assenta corretamente. Com dificuldade extrema, você identifica um anel de ferro embutido rente à madeira — quase invisível, como se a própria casa não quisesse que você o visse."
+NA FALHA: O personagem não encontra nada. A casa esconde bem o que não quer ser encontrado.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SE OS PERSONAGENS EXAMINAM A LAREIRA: "Quando vocês se aproximam da lareira fria e apagada, o silêncio da casa é quebrado por um som vindo de cima — leve, intermitente. Soluços. De criança. Vêm do segundo andar." (É Rose ou Thorn, guiando os personagens para cima.)
@@ -242,12 +242,13 @@ NA FALHA: O personagem não nota nada além de uma cozinha velha e empoeirada.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 12 — A Escotilha da Despensa
+INVESTIGAÇÃO CD 10 — O Aparador (Criado-Mudo)
 
-O MESTRE DIZ: "Entre os barris vazios e as prateleiras com provisões apodrecidas, você move uma tábua do piso que ressoa de forma diferente ao ser pisada. Embaixo dela, uma escotilha de madeira — com um anel de ferro para puxar. O cheiro que sobe quando você a abre é de terra úmida, mofo e algo mais: carne velha. Abaixo está uma escada de pedra descendo para a escuridão."
+O MESTRE DIZ: "Na parede sul da cozinha há um painel de madeira. Ao examiná-lo, você encontra um aparador — um sistema de polias com uma bandeja de madeira suspensa por cordas. Há dois botões ao lado: um etiquetado com rabiscos desgastados que parecem dizer 'Quarto dos Serviçais', o outro 'Suíte Principal'. Um mecanismo de serviço para passar comida e itens entre os andares sem usar as escadas principais."
 
-SE PERGUNTAREM PARA ONDE LEVA: "Para o porão de provisões — e abaixo dele, se os rumores das crianças estão certos, para onde fica o 'monstro'."
-NA FALHA: O personagem não nota a escotilha entre o caos da despensa.
+SE TESTAREM O APARADOR: A bandeja sobe e desce com um rangido enferrujado. Cabe uma pessoa pequena, ou uma criatura Médio agachada com Acrobacia CD 12 (falha = preso a meio caminho, requer Atletismo CD 12 para sair). Conecta a Área 7A (quarto dos serviçais) e Área 12A (suíte master).
+SE PERGUNTAREM SE FAZ BARULHO: "Faz. Bastante. Qualquer criatura nos andares superiores com Percepção CD 10 ouve o rangido das polias."
+NA FALHA: O personagem não nota o painel do aparador entre o caos da cozinha.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -356,6 +357,35 @@ SE NINGUÉM LER ABISSAL: "Vocês podem levar o tomo — pode ser valioso para al
 NA FALHA (CD 15 é difícil): O personagem não percebe nada diferente no livro disfarçado.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PERCEPÇÃO CD 13 — A Porta Secreta da Biblioteca
+
+O MESTRE DIZ: "Ao percorrer as prateleiras, sua atenção é fisgada por um volume de lombada vermelha que destoa dos demais — a cor viva demais, o couro em bom estado enquanto os vizinhos estão gastos. Você puxa o livro. Ele não sai da prateleira — mas gira, como uma alavanca. Com um clique abafado, uma seção inteira da estante se abre como porta, revelando um corredor escuro além."
+
+NA FALHA CD 13: O personagem não nota o livro de lombada vermelha entre os outros volumes.
+NOTA DO MESTRE: Esta é a única rota para a Área 9 (Sala Secreta). A Área 21 (Escada Secreta para a masmorra) só aparece DEPOIS que os personagens encontram a carta de Strahd na Área 9 — OU veem a réplica da porta na casa de bonecas (Área 20).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 9 — Sala Secreta (atrás da Biblioteca)**
+Um corredor curto atrás da estante leva a uma pequena câmara sem janelas. Uma vela de cera na parede ilumina fracamente. No centro, uma escrivaninha com uma carta dobrada, lacrada com cera vermelha com o brasão de Von Zarovich. Ao lado, um baú de madeira reforçado com ferro, trancado (Ladinagem CD 15 ou Força CD 20 para forçar).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A CARTA DE STRAHD (leia em voz alta — ATIVA a Área 21)
+
+"'À Família Durst — Servos Devotos do Conde Von Zarovich.
+
+Vosso culto me agrada. Vossas oferendas foram recebidas. Em recompensa, vos concedo a proteção que pedistes — por enquanto. Continuai o trabalho. Alimentai a câmara abaixo de vossa casa com vidas, como acordado. O Ancestral não descansa sem sangue.
+
+Sabeis o que é exigido. Não me decepcioneis.
+
+Von Zarovich'
+
+A letra é elegante, precisa, absolutamente desprovida de emoção. É uma carta de negócios. Para Strahd, os Durst eram ferramentas — não servos honrados."
+
+SE OS PERSONAGENS LEREM A CARTA EM VOZ ALTA: Os personagens em silêncio por um momento. Então, na parede do corredor atrás deles, percebem que uma seção da madeira revela um contorno — a Área 21 (Escada Secreta) manifesta-se.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TESOURO NO BAÚ: 1.000 moedas de prata, 8 gemas de quartzo lapidadas (12 PO cada), 2 pergaminhos de magia (Bênção e Proteção Contra Venenos), um Símbolo Sagrado de prata simples (25 PO).
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 10 — Conservatório**
@@ -703,8 +733,8 @@ TESOURO: Num esqueleto na parede (membro do culto que questionou a devoção ceg
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 37 — Ponte Levadiça**
-Ponte levadiça de ferro enferrujado bloqueando o túnel. Pode ser forçada (Atletismo CD 20) ou operada pela roda de madeira embutida na parede leste da Área 38. O chão ao redor está submerso em 60cm de água turva.`
+**Área 37 — Grade de Ferro (Portcullis)**
+Uma grade de ferro enferrujada bloqueia completamente o túnel. Pode ser levantada com Atletismo CD 20 (Força), ou operada pela roda de madeira embutida na parede leste da Área 38. O chão ao redor está submerso em 60cm de água turva.`
       },
       {
         id: 'encontro-final',
@@ -713,7 +743,7 @@ Ponte levadiça de ferro enferrujado bloqueando o túnel. Pode ser forçada (Atl
         conteudo: `**Área 38 — Câmara do Ritual (CLÍMAX)**
 Acessada pela Área 36 (porta secreta, Percepção CD 15) ou pela Área 37 (ponte levadiça). Esta é a câmara submersa.
 
-DESCRIÇÃO (LEIA EM VOZ ALTA): "O canto cessa assim que vocês chegam nesta sala de doze metros quadrados. Paredes lisas de alvenaria com acústica excelente. Pilares de pedra sem cor suportam o teto de 4,8 metros. Uma abertura na parede oeste leva a uma caverna escura cheia de lixo. Água turva — 60 centímetros de profundidade — cobre a maior parte do chão. Escadas conduzem a bordas de pedra secas que abraçam as paredes. No meio da sala, mais escadas elevam-se para um estrado octogonal acima da água. Correntes enferrujadas com grilhões pendem do teto diretamente acima de um altar de pedra montado no estrado — esculpido com representações horríveis de carniçais agarrando, manchado de sangue seco. Uma roda de madeira está embutida na parede leste (opera a ponte levadiça da Área 37)."
+DESCRIÇÃO (LEIA EM VOZ ALTA): "O canto cessa assim que vocês chegam nesta câmara de aproximadamente 12 metros × 12 metros. Paredes lisas de alvenaria com acústica excelente. Pilares de pedra sem cor suportam o teto de 4,8 metros. Uma abertura na parede oeste leva a uma caverna escura cheia de lixo. Água turva — 60 centímetros de profundidade — cobre a maior parte do chão. Escadas conduzem a bordas de pedra secas que abraçam as paredes. No meio da sala, mais escadas elevam-se para um estrado octogonal acima da água. Correntes enferrujadas com grilhões pendem do teto diretamente acima de um altar de pedra montado no estrado — esculpido com representações horríveis de carniçais agarrando, manchado de sangue seco. Uma roda de madeira está embutida na parede leste (opera a ponte levadiça da Área 37)."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 LORGHOTH, O DECADENTE — A AMEAÇA OCULTA
@@ -738,7 +768,7 @@ MECÂNICA — OS PERSONAGENS TÊM DUAS ESCOLHAS:
 **OPÇÃO 1 — APAZIGUAR O CULTO (Sacrificar uma criatura):**
 Religião ou Intuição CD 11 para entender o que é exigido. Uma criatura deve morrer no altar. As aparições não se importam com o tipo de criatura, e não são enganadas por ilusões.
 - Se o sacrifício for feito: as aparições desaparecem. A Casa da Morte não impede os personagens de sair. O canto "Ele é o Ancestral. Ele é a Terra" ecoa novamente. Strahd está ciente do sacrifício.
-- AO SAIR: os personagens atingem o 3° nível (se vieram do 1°) ou apenas progridem normalmente.
+- AO SAIR: os personagens avançam para o Nível 4.
 
 **OPÇÃO 2 — NEGAR O CULTO (Recusar o sacrifício):**
 Se os personagens deixam o estrado sem fazer o sacrifício, o canto muda: "Lorghoth, o Decadente, nós o despertamos, levanta-te!" O Arbusto Errante desperta e ataca. Se os personagens fugirem para o andar superior, a Casa os ataca (ver seção da Fuga). Se Lorghoth for destruído, o canto para e as aparições desaparecem para sempre.
@@ -753,7 +783,7 @@ Se os personagens possuídos pelos fantasmas chegarem à câmara do ritual — o
           'Tesouros dos baús dos cultistas (Área 25A-E e 34)',
           'Livro de Magias dos líderes do culto (Área 34)',
           'Anel de ouro da prisão (Área 36, 25 PO)',
-          'Os personagens atingem o 3° nível ao sair da casa',
+          'Os personagens avançam para o Nível 4 ao sair da casa',
         ],
       },
       {
@@ -766,7 +796,7 @@ Se os personagens possuídos pelos fantasmas chegarem à câmara do ritual — o
 
 ## Se o Culto Foi Apaziguado (Sacrifício foi feito)
 
-A Casa da Morte não tem vontade maligna contra um grupo disposto a sacrificar uma vida para apaziguar o culto. Uma vez feito o sacrifício, os personagens são livres para ir. **Ao sair da casa, os personagens avançam para o 3º nível.**
+A Casa da Morte não tem vontade maligna contra um grupo disposto a sacrificar uma vida para apaziguar o culto. Uma vez feito o sacrifício, os personagens são livres para ir. **Ao sair da casa, os personagens avançam para o Nível 4.**
 
 ---
 
@@ -796,7 +826,7 @@ Uma vez que os personagens escapem (independentemente do método), **a casa não
 
 Se os fantasmas de Rose e Thorn ainda estiverem presos na casa (seus restos não foram levados às criptas — Áreas 23E e 23F), eles podem aparecer brevemente acima da entrada, olhando com uma mistura de alívio e tristeza.
 
-**Os personagens avançam para o Nível 3 ao sair da Casa da Morte.**`,
+**Os personagens avançam para o Nível 4 ao sair da Casa da Morte.**`,
       },
     ]
   },
