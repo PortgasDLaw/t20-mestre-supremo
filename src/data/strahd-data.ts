@@ -836,7 +836,7 @@ Se os fantasmas de Rose e Thorn ainda estiverem presos na casa (seus restos não
     id: 'vila-barovia',
     titulo: 'Vila de Barovia',
     nivel: 'Nível 3',
-    descricao: 'A Vila de Barovia é o primeiro assentamento que os personagens encontram após escapar da Casa da Morte. É um lugar sem esperança — casas fechadas, moradores assustados, ruas vazias. Os locais principais são a Taverna Sangue de Vinho, a Casa do Burgomaster, a Igreja e a Loja de Bildrath.',
+    descricao: 'A Vila de Barovia é o primeiro assentamento que os personagens encontram após escapar da Casa da Morte. É um lugar sem esperança — casas fechadas, moradores assustados, ruas vazias. Os locais principais são a Taverna Sangue da Videira, a Casa do Burgomestre, a Igreja e a Loja de Bildrath.',
     subsecoes: [
       {
         id: 'barovia-chegada',
@@ -851,8 +851,8 @@ A vila parece morta. Não há mercado, não há música, não há luz além da t
         ]
       },
       {
-        id: 'taverna-sangue-vinho',
-        titulo: 'Taverna Sangue de Vinho',
+        id: 'taverna-sangue-videira',
+        titulo: 'Taverna Sangue da Videira',
         tipo: 'roleplay',
         conteudo: `**Descrição (Leia em Voz Alta):**
 "Um único feixe de luz lança uma iluminação pela praça principal, esse brilho parece como um pilar sólido na névoa pesada. Acima da entrada falha, uma placa paira precariamente torta, proclamando que esta é a Taverna Sangue na Videira. O edifício da taverna tem cerca de 18 metros quadrados. Uma inspeção da placa revela que originalmente era 'Sangue da Videira' — um 'n' foi riscado sobre um 'd'. Esta taverna já foi finamente decorada, mas a qualidade decaiu ao longo dos anos. Um fogo ardente na lareira oferece um calor precário para as poucas almas amontoadas lá dentro. Isso inclui o barman, três Vistani sentados juntos e um homem chamado Ismark Kolyanovich — que vem a ser o filho do burgomestre da vila, Kolyan Indirovich."
@@ -866,10 +866,10 @@ Um homem de meia-idade, cabelos grisalhos e olhar vazio. Serve bebida em silênc
 *Se perguntarem sobre Strahd:* Ele congela por um momento, então coloca o copo cuidadosamente e vai para o depósito. Demora cinco minutos para voltar. Não responde à pergunta.
 
 ---
-**OS TRÊS VISTANI:**
-Madam Boldanova e suas duas sobrinhas. São informantes voluntários de Strahd em troca de proteção para a caravana. Eles podem ser gentis e prestativos com informações verdadeiras — mas tudo o que os personagens revelarem será relatado ao Conde.
+**AS TRÊS VISTANI (donas da taverna):**
+**Alenka, Mirabel e Sorvia** — três espias Vistani que são as proprietárias da taverna. Certificam-se de que todos os clientes paguem suas contas; fora isso demonstram pouco interesse nos personagens. Se os personagens chegarem acompanhados de outros Vistani, tornam-se muito mais dispostas a conversar e sugerem que visitem Madame Eva no Campo de Tser Pool para uma leitura de sorte.
 
-*Boldanova:* *(sorrindo amplamente)* "Forasteiros! Que raridade. Sentem-se, sentem-se. Barovia não tem visitantes desde... bem. Desde há muito. De onde vêm? Como chegaram aqui?"
+*Alenka (olhando para cima brevemente):* "Paguem o vinho antes de fazer perguntas. Aqui as contas chegam antes das respostas."
 
 ---
 **ENCONTRO COM ISMARK:**
@@ -884,6 +884,22 @@ Ismark se aproxima dos personagens por conta própria após observá-los por alg
           { pericia: 'Intuição', cd: 13, resultado: 'O MESTRE DIZ: "Os três Vistani parecem descontraídos — risos discretos, vinho na mão. Mas você percebe padrões: um deles \'examina a xícara\' enquanto seus olhos deslizam regularmente para vocês. Outro faz perguntas sobre de onde vieram com curiosidade excessiva para um estranho entediado." — O QUE FAZER COM ISSO: Qualquer informação pessoal que os personagens reverem na taverna será reportada a Strahd. Jogue com isso — Strahd aparecerá sabendo coisas que só os Vistani ouviram.' },
           { pericia: 'Intuição', cd: 11, resultado: 'O MESTRE DIZ: "Ismark escolhe suas palavras com cuidado — mas quando diz o nome \'Ireena\', há uma fratura no controle. A voz desce um tom, fica mais tensa. Quando ele fala de Strahd indo até ela duas vezes, suas mãos apertam a caneca com mais força do que precisa." — SE PERGUNTAREM DIRETAMENTE SE ELE ESTÁ BEM: "\'Bem\' não é uma palavra que existe em Barovia. Mas se vocês ajudarem minha irmã a chegar a Valaki... posso aprender a usar a palavra novamente."' },
         ]
+      },
+      {
+        id: 'mary-maluca',
+        titulo: 'E3 — Moradia de Mary Maluca',
+        tipo: 'roleplay',
+        conteudo: `**Descrição (Leia em Voz Alta):**
+"Gemidos e soluços flutuam pelas ruas cinzentas, colorindo seus pensamentos com tristeza. Os sons fluem de uma escura moradia de dois andares. A casa está selada e bloqueada por dentro."
+
+**Mary Maluca** (plebeia, CN) está no centro de um quarto no segundo andar, abraçando uma boneca deformada. Perdida em sua própria tristeza, mal reconhece a presença de qualquer pessoa. Não fala na presença de atitudes raivosas — mas, com gentileza, fala hesitante.
+
+*Abordagem gentil (Diplomacia CD 12):*
+"Minha Gertruda... ela saiu de casa há uma semana. Disse que ia encontrar um lugar melhor. Que não ia ficar presa aqui para sempre." *(aperta a boneca)* "Eu nunca devia ter deixado ela ir. Nunca."
+
+**O destino de Gertruda:** A jovem foi ao Castelo Ravenloft — voluntariamente, acreditando encontrar proteção e um mundo melhor. Está agora prisioneira de Strahd (Área K42 do castelo). Quem quiser resgatá-la precisará entrar no castelo.
+
+**A boneca:** Tem um olhar malicioso e usa um vestido de pano de saco. Pertenceu a Mary na infância e foi dada a Gertruda. Na bainha, uma etiqueta desgastada: *"Não é Divertido, Não é Blinsky!"* — feita por Gadof Blinsky, o fabricante de brinquedos de Vallaki.`,
       },
       {
         id: 'bildrath-mercadorias',
@@ -930,14 +946,15 @@ Ismark pede aos personagens que ajudem a levar o corpo para a **Igreja de São A
 **PADRE DONAVICH:**
 Um homem de cinquenta anos, cabelos brancos apesar da pouca idade, olhos vermelhos de choro. Seu filho, **Doru**, foi transformado em **Vampiro Lacaio** (Nosferatu menor) por Strahd durante uma tentativa de invasão ao castelo. Doru está agora preso na cripta abaixo da igreja.
 
-Donavich reza dia e noite pedindo a Khalmyr (divindade da justiça em Tormenta) que salve sua alma ou dê coragem para fazer o que precisa ser feito — mas não consegue matar o próprio filho.
+Donavich reza dia e noite esperando que os deuses lhe digam como poupar Doru sem destruí-lo. **Se os personagens parecerem determinados a matar Doru, Donavich faz tudo o que pode para detê-los.** Se Doru morrer, Donavich desmorona e chora inconsolavelmente, dominado pelo desespero.
 
-**O que ele pedirá aos personagens:**
-1. *(Primeiro)* "Doru está sofrendo. Eu ouço os gritos durante o dia. Ele luta contra o monstro que se tornou. Por favor — deçam à cripta e... libertem-no. Da única forma que existe."
-2. *(Se relutantes)* "Ou... talvez possam curá-lo? Há um ritual de purificação — precisaria de água benta e uma prece sincera a divindades da luz. Nunca tentei porque ele... ele me morde sempre que me aproximo."
+**Informações que Donavich pode revelar:**
+- **Adoção de Ireena:** Ireena Kolyana não é filha natural de Kolyan Indirovich. Kolyan a encontrou na margem dos Bosques de Svalich, perto do Pilar de Ravenloft. Ela era apenas uma menina e não tinha nenhuma memória de seu passado. Kolyan a adotou e passou a amá-la muito.
+- **A Marcha dos Mortos:** Toda noite, à meia-noite, os espíritos de aventureiros mortos se levantam do cemitério e marcham em procissão silenciosa pela estrada em direção ao Castelo Ravenloft.
+- Recomenda levar Ireena para **Vallaki** (cidade mais segura além da vista do castelo) ou a **Abadia de Santa Markóvia** em Krezk.
 
 **DORU** *(na cripta abaixo)*:
-Um jovem pálido e faminto, acorrentado. Alterna entre choros de arrependimento e fúria vampírica. Se os personagens interagirem com cuidado (Diplomacia CD 15), Doru lúcido pode revelar: *"O Castelo... há uma forma de entrar pela biblioteca nordeste. Strahd recebe os convidados no salão principal, mas o quarto do caixão fica..."* — então ele perde a lucidez e ataca.
+Um jovem pálido e faminto, acorrentado. Alterna entre choros de arrependimento e fúria vampírica. Faminto por sangue — corajoso o bastante para atacar um personagem sozinho, mas evita um grupo. Se os personagens o cercarem e ameaçarem destruí-lo (ou se o matarem e reviverem), ele narra os eventos que levaram à sua queda: como foi atraído ao Castelo por um mago de vestes negras que prometia libertar Barovia, e como Strahd os massacrou.
 
 **Estatísticas de Doru (Nosferatu Menor, ND 1):**
 - PV: 22 • Defesa: 13 • Ataque: Mordida +3 (1d6+2 + Vontade CD 11 ou atordoado 1 round)`,
@@ -1029,7 +1046,7 @@ Eva é uma mulher de mais de cem anos — ninguém ao certo sabe quantos. Dobrad
 
 *(inclina a cabeça, como ouvindo algo)*
 
-*"O que procuram para purificar o Símbolo Sagrado... dorme em uma **torre esquecida a nordeste**, perto do Lago Zarovich. A Torre de Van Richten. Um homem que lutou contra as trevas por décadas o escondeu lá, antes de partir. Mas cuidado — a torre não está mais sozinha."*
+*"O que procuram para purificar o Símbolo Sagrado... dorme em uma **torre de pedra no Lago Baratok**, a noroeste daqui. A Torre de Van Richten. Um homem que lutou contra as trevas por décadas o escondeu lá, antes de partir para a cidade de Vallaki. Mas cuidado — a torre não está mais sozinha."*
 
 ---
 **SEGUNDA CARTA — O Tomo de Strahd:**
@@ -1113,16 +1130,16 @@ Abaixo, em letras menores: 'Por Decreto do Barão Vargas Vallakovich, Protetor d
 Os guardas olham para vocês sem sorriso. Há uma tensão estranha neles — como pessoas que foram obrigadas a fingir por tempo demais e já não sabem mais o que é real.`
       },
       {
-        id: 'pousada-lua-azul',
-        titulo: 'Pousada da Lua Azul — Base de Operações',
+        id: 'estalagem-agua-azul',
+        titulo: 'Estalagem Água Azul — Base de Operações',
         tipo: 'exploration',
-        conteudo: `A melhor hospedagem de Valaki — o que não é difícil, pois é a única.
+        conteudo: `A principal estalagem de Vallaki — local de encontro dos moradores, especialmente à noite.
 
-Proprietários: Urwin Martikov e sua esposa Danika. Amigáveis, prestativos. Secretamente são Wereravens (metamorfos-corvo) e membros da resistência "Os Guardiões da Pena".
+**Proprietários:** Urwin Martikov e sua esposa **Danika Dorakova**. Amigáveis, prestativos. Secretamente são metamorfos-corvo (Wereravens) e membros de alto escalão dos **Guardiões da Pena** — uma sociedade secreta que se opõe a Strahd. Seus dois filhos, **Brom e Bray** (9 e 11 anos), também são metamorfos-corvo.
 
-Urwin (ao receberem os personagens): "Bem-vindos à Lua Azul. Primeira hospedagem em Barovia que não quer que vocês sirvam de jantar para alguém." (ri levemente do próprio humor negro)
+Urwin (ao receberem os personagens): "Bem-vindos à Água Azul. É a hospedagem mais honesta de Barovia — e a única que não quer que vocês sirvam de jantar para alguém." (ri levemente do próprio humor negro)
 
-PREÇOS: Quarto duplo (noite): 1 PO | Quarto individual: 2 PO | Refeição: 5 TC | Vinho de Valaki: 3 TC | Vinho Premium Martikov: 5 TC
+**PREÇOS (do livro):** Uma cama para a noite: 1 PP | Sopa de beterraba quente e pão: sem custo adicional | Bife de lobo cozido: 1 PP | Vinho barato (Uva Púrpura Triturada Nº3, 1 litro): 3 TC | Vinho fino (Moenda Dragão Vermelho, 1 litro): 1 PP
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 GANHAR A CONFIANÇA DOS MARTIKOV
@@ -1143,7 +1160,18 @@ O QUE OS MARTIKOV PODEM FORNECER:
 - Mapa de rotas seguras evitando patrulhas de Strahd
 - Localização de outros Wereravens (aliados potenciais no confronto final)
 - Informações detalhadas sobre o Barão e a situação política em Valaki
-- Amuleto do Corvo (ver tabela de tesouros)`,
+- Amuleto do Corvo (ver tabela de tesouros)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**RICTAVIO — O Hóspede Misterioso**
+
+O hóspede solitário da estalagem no momento é um **bardo meio-elfo** que se veste com cores fortes e se chama **"Rictavio"** — uma falsa identidade adotada pelo lendário caçador de vampiros **Rudolph Van Richten**. Banqueteia clientes da taverna com histórias ultrajantes que alega serem verdadeiras. Hospedado há quase um mês, aproveitando a generosidade de Urwin.
+
+Duas vezes por dia (ao amanhecer e ao anoitecer), ele sai com maçãs e um bife de lobo embrulhado — "para o fabricante de brinquedos miserável e seu macaquinho". Na verdade, as maçãs são para seu cavalo **Drusilla** (num estábulo alugado) e o bife para um **tigre dente-de-sabre capturado** que mantém encerrado num vagão nas imediações.
+
+Rictavio usa um **chapéu do disfarce** e um **anel de escudo mental** para ocultar sua identidade real. Silenciosamente coleta informações sobre os Guardiões da Pena e sobre os Vistani (especialmente os do acampamento fora da cidade).
+
+**INTUIÇÃO CD 13** — Inconsistências no "bardo": Ele conhece fraquezas vampíricas com precisão clínica, não como folclore. Seus gestos ocasionais são de alguém acostumado a combate, não a palcos. **Investigação CD 15** no quarto: encontra equipamentos de caçador escondidos sob o disfarce de bardo.`,
       },
       {
         id: 'mosteiro-sao-andral',
@@ -1208,11 +1236,11 @@ O QUE O TOMO REVELA (resumo para o Mestre ler fragmentos): "O caixão fica no n�
 
 **Personalidade:** Não é malévolo — é genuinamente louco. Acredita que está salvando seu povo. Isso o torna mais perigoso do que um tirano comum.
 
-**Irto Lukovich (Conselheiro):** O verdadeiro poder por trás do Barão. Ambicioso e corrupto, usa o medo do Barão a Strahd para manter controle.
+**Izek Strazni (Capanga do Barão):** O verdadeiro braço executivo do poder do Barão. Tem uma deformidade diabólica: um braço monstruoso com o qual pode conjurar fogo. Sua história de violência e o medo que inspira mantêm os inimigos do Barão afastados. É o que o livro descreve — o medo de Izek sustenta o regime.
 
 **Duas abordagens para os personagens:**
 1. **Ignorar o Barão** — Foquem no Mosteiro, ajudem os Wereravens, saiam logo.
-2. **Derrubar o Barão** — Construir coalizão com cidadãos insatisfeitos, expor Irto, instalar uma liderança mais justa. **Consequência:** Strahd, sem a estabilidade do Barão como "guarda-cachorro", pode acelerar seus planos.
+2. **Derrubar o Barão** — Construir coalizão com cidadãos insatisfeitos (incluindo Dama Wachter), enfrentar Izek Strazni, instalar uma liderança mais justa. **Consequência:** Strahd, sem a estabilidade do Barão como "guarda-cachorro", pode acelerar seus planos.
 
 **Dica do Mestre:** Não é necessário resolver Valaki completamente. O importante é: recuperar o Tomo e garantir a segurança de Ireena. O resto é material extra para grupos que queiram explorar mais.`
       },
@@ -1224,34 +1252,38 @@ O QUE O TOMO REVELA (resumo para o Mestre ler fragmentos): "O caixão fica no n�
     id: 'torre-van-richten',
     titulo: 'Torre de Van Richten',
     nivel: 'Nível 5-6',
-    descricao: 'A Torre de Van Richten fica em uma colina isolada perto do Lago Zarovich, a nordeste de Valaki. Aqui está o Símbolo Sagrado — o primeiro dos três artefatos revelados por Madame Eva. A torre é protegida por um campo de força e pode conter o próprio Van Richten.',
+    descricao: 'A Torre de Van Richten fica em uma pequena ilha no Lago Baratok, acessível por uma ponte de terra e cascalho. Foi construída pelo arquimago Khazan — que trabalhou para Strahd na construção do castelo. Aqui está o Símbolo Sagrado. Van Richten já a abandonou e foi a Vallaki; Ezmerelda d\'Avenir a usou como base enquanto o buscava.',
     subsecoes: [
       {
         id: 'torre-chegada',
         titulo: 'Chegada à Torre (Leia em Voz Alta)',
         tipo: 'narration',
-        conteudo: `"Uma torre de pedra sobe cinco andares acima de uma colina pelada, à beira do Lago Zarovich. A pedra é antiga mas bem conservada — alguém a manteve. Ao redor da base, restos de uma carriola queimada e ossos de cavalos. No topo da torre, uma luz fraca pisca como um farol.
+        conteudo: `"Vocês chegam a um frio lago de montanha, cercado pela floresta enevoada e ribanceiras rochosas. A névoa grossa atravessa as águas escuras e imóveis. Uma trilha termina em uma calçada coberta de grama que se estende por cem metros do lago até uma ilha plana e pantanosa com uma torre de pedra sobre ela. A torre é velha e decrépita, com andaimes desmoronados agarrados a um lado. Estátuas de grifos musgosos empoleiram-se sobre apoios que sustentam as paredes.
 
-Ao se aproximarem da porta, vocês sentem uma resistência invisível — como caminhar contra um vento forte que não existe. O campo de força é palpável."`,
+Estacionada perto da base da torre está uma carroça de barris salpicada de lama."
+
+A torre tem 24 metros de altura — **quatro andares** de 6 metros cada, com telhado de ardósia. Os segundo, terceiro e quarto andares têm seteiras. A carroça pertence a Ezmerelda d'Avenir, que usou a torre como base enquanto buscava Van Richten — mas ela não está presente.
+
+**DRENAGEM DE MAGIA DE KHAZAN:** A torre está sob um efeito de antimagia permanente (campo antimagia, raio de 1,5m). Magias lançadas perto ou dentro da torre são suprimidas — *exceto* armadilhas e construções do próprio Khazan. Isso significa que itens e poderes mágicos dos personagens falham aqui.`,
         cd: [
-          { pericia: 'Misticismo', cd: 12, resultado: 'O MESTRE DIZ: "O campo de força que resiste à sua passagem é magia de abjuração — e ao analisá-lo você percebe algo importante: foi projetado especificamente para barrar mortos-vivos e entidades sem vida. Você, vivo, é apenas colateral — o campo te empurra porque não consegue categorizar forasteiros bem, mas não foi feito para parar pessoas de carne e osso." — OPÇÕES PARA ENTRAR: (1) Força CD 15 para empurrar através da resistência — dói, mas funciona. (2) Frase "Eu invoco a proteção de Rudolph Van Richten" dita em voz alta. (3) A Flauta de Van Richten com os Vistani do Tser Pool — desativa completamente. (4) Misticismo CD 20 para disromper magicamente (10 minutos; falha em CD 15 ou menos: 2d8 dano elétrico a todos em 3m).' },
+          { pericia: 'Misticismo', cd: 13, resultado: 'O MESTRE DIZ: "Você sente a supressão de magia ao se aproximar — não um campo de força, mas um antimagia permanente tecido nas próprias pedras da torre. Criado pelo arquimago Khazan. O efeito não distingue aliado de inimigo: todos os feitiços aqui são suprimidos. Exceto os do próprio Khazan — as armadilhas e construções que ele instalou ainda funcionam normalmente."' },
         ]
       },
       {
-        id: 'torre-campo-forca',
-        titulo: 'Desativando o Campo de Força',
+        id: 'torre-porta',
+        titulo: 'A Porta da Torre — Armadilha e Enigma',
         tipo: 'exploration',
-        conteudo: `O campo pode ser desativado de três formas:
+        conteudo: `A porta é de ferro, sem alças visíveis ou dobradiças. No centro há um grande símbolo em relevo: **oito figuras de galhos** com braços em posições diferentes (dobrados para cima, para baixo ou estendidos). Esculpido no parapeito acima da porta: **KHAZAN**.
 
-**1. A Flauta de Van Richten:**
-Uma flauta de madeira entalhada que Van Richten deixou escondida com os Vistani do Campo de Tser Pool. Madame Eva pode revelar sua localização se os personagens pedirem (Diplomacia CD 10 ou fazendo uma doação de 50 PO ao acampamento).
+**ARMADILHA — Tocar a porta sem desativar:**
+Raios envolvem a torre. Todos fora da torre em 3m fazem Reflexos CD 15 (desvantagem com armadura de metal) ou tomam 4d10 dano elétrico (metade no sucesso). O raio dura 10 minutos — qualquer um que entrar na zona sofre o mesmo dano. Na **terceira vez** que a armadilha é ativada, a magia falha catastroficamente e a torre desmorona.
 
-**2. A Frase de Desativação:**
-*"Eu invoco a proteção de Rudolph Van Richten."*
-Deve ser dita em voz alta na porta. Se Van Richten ainda estiver na torre, ele responde de dentro — geralmente com desconfiança.
+**COMO ABRIR A PORTA — O Enigma das Figuras:**
+Cada uma das 8 figuras de galhos tem os braços em posição diferente. Uma criatura a menos de 5 metros pode usar uma Ação para imitar as posições dos braços de todas as oito figuras na sequência correta. A sequência correta pode ser descoberta:
+- **Investigação CD 15:** Ao examinar o símbolo e as marcas de desgaste, você percebe que algumas figuras têm as bordas mais gastas — tocadas mais vezes. A sequência emerge do padrão de desgaste.
+- **Misticismo CD 12:** Você detecta a magia de ordem nas figuras — e ao analisá-la, entende que é uma sequência de posições, não de palavras. Tentativa e erro funciona sem acionar a armadilha se feito metodicamente.
 
-**3. Força Bruta:**
-Misticismo CD 20 para analisar e disromper o campo (demora 10 minutos de trabalho arcano). Falha em CD 15 ou menos: o campo pulsa e todos em 3m fazem Reflexos CD 14 ou tomam 2d8 de dano elétrico.`,
+A antimagia da torre NÃO impede esta armadilha — foi criada pelo próprio Khazan.`,
       },
       {
         id: 'torre-interior',
@@ -1290,7 +1322,7 @@ SE USAREM O TELESCÓPIO: "Você aponta o telescópio para o Castelo Ravenloft no
 MISTICISMO CD 13 — O QUE AS NOTAS REVELAM: "Strahd tem uma janela de vulnerabilidade: cerca de 4 horas antes do amanhecer, ele sempre retorna ao castelo — obrigatoriamente, por alguma razão. Atacar durante esse retorno seria pegar um vampiro em movimento e com tempo limitado."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TOPO (5º Andar) — A Caixa
+4º ANDAR (TOPO) — A Caixa
 Um cofre de madeira forrado de veludo vermelho, com tranca de prata.
 
 DESCRIÇÃO AO ABRIR: "Dentro do cofre, em veludo vermelho, descansa um objeto simples: um disco de prata do tamanho de uma mão, com o sol entalhado no centro irradiando raios. É o Símbolo Sagrado — e quando você o pega, ele está quente. Não morno — quente, como se aquecido por um sol que não existe neste local coberto de névoa."
@@ -1303,38 +1335,17 @@ MISTICISMO CD 10: "Ao empunhar o Símbolo, você sente algo que Barovia nunca of
         ]
       },
       {
-        id: 'van-richten-presente',
-        titulo: 'Se Van Richten Estiver na Torre',
-        tipo: 'roleplay',
-        conteudo: `Van Richten pode estar na torre disfarçado como "Alanik Ray" — um velho viajante, chapéu largo, capa gasta. Ele não se identifica imediatamente.
+        id: 'van-richten-ausente',
+        titulo: 'Van Richten Não Está na Torre',
+        tipo: 'tip',
+        conteudo: `Van Richten **não está na torre**. O livro é explícito: "Ele se mudou para a cidade vizinha de Vallaki, onde ele se esconde da vista de todos." Lá ele se disfarça como **"Rictavio"** — um bardo meio-elfo de cores fortes, hospedado na Estalagem Água Azul há quase um mês.
 
-Van Richten (como Alanik, descendo a escada com uma tocha): "Não me procuravam a mim. Vieram pela caixa. Certo?"
+Ezmerelda d'Avenir usou a torre como base enquanto buscava Van Richten — mas ela também não está quando os personagens chegam. A carroça estacionada na entrada é a dela. O interior conserva rastros de sua presença recente.
 
-(Se os personagens explicarem a situação)
+**Rastros de Ezmerelda (Investigação CD 12):**
+"As notas no térreo foram deixadas por duas mãos diferentes — uma mais velha, com traços precisos (Van Richten), e outra mais recente, mais rápida, urgente. Esta segunda pessoa estava procurando por alguém. A última folha rabiscada às pressas: 'Partiu para Vallaki. Vou encontrá-lo.'"
 
-"Madame Eva enviou vocês." (não é pergunta) "Strahd deve ser derrotado. Eu também tentei, uma vez. Perdi meu filho. Perdi meus alunos. Perdi décadas tentando — e Barovia continua na névoa."
-
-(pausa, olhando para a caixa)
-
-"Mas se Eva viu algo diferente em vocês... talvez a escuridão finalmente pague sua dívida."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INTUIÇÃO CD 13 — "Alanik" Sabe Demais
-
-O MESTRE DIZ: "Ao conversar com 'Alanik Ray, vendedor de ervas', você começa a notar inconsistências. Ele conhece os nomes dos servos específicos de Strahd. Ele descreve as fraquezas vampíricas com precisão clínica, não com folclore. Quando você menciona a Torre, ele sabe exatamente qual andar tem o que. Nenhum vendedor de ervas sabe essas coisas."
-
-SE CONFRONTAREM COM ISSO: Van Richten para. Olha para vocês por um longo momento. Então, com um suspiro que carrega décadas: "Rudolph Van Richten. Sim. Aquele Van Richten." (tom absolutamente exausto) "Decepcionados que sou apenas um velho? Bom. Velhos sobrevivem porque não têm mais nada a perder."
-
-NA FALHA: "Alanik" permanece no disfarce com sucesso. Os personagens podem pegar a caixa e partir sem descobrir quem realmente falam.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Van Richten pode:
-- Revelar sua identidade se confrontado ou se confiar nos personagens
-- Oferecer o Diário de Caça a Vampiros (localizado no baú do 3º andar)
-- Compartilhar que Ezmerelda d'Avenir está em Barovia — e pode ser contatada como aliada poderosa
-- Acompanhar brevemente o grupo se a confiança for estabelecida (Diplomacia CD 16)
-
-SEGREDO DE VAN RICHTEN: Ele acidentalmente libertou os vampiros que mataram toda uma aldeia quando tentava vingar a morte de seu filho. Não vai admitir isso facilmente — mas um personagem empático que perceber sua culpa pode extrair a história (Intuição CD 15, depois Diplomacia CD 14 para criar espaço seguro para ele falar).`
+**Se os personagens procuram Van Richten:** Ele está em Vallaki como "Rictavio". Pode ser encontrado na Estalagem Água Azul. Reconhecê-lo como Van Richten requer Intuição CD 13 para notar inconsistências no personagem de bardo (ou Investigação CD 15 para encontrar seus pertences reais no quarto).`
       },
     ]
   },
@@ -2155,8 +2166,8 @@ export const NPCS: NPC[] = [
   {
     id: 'van-richten',
     nome: 'Rudolph Van Richten',
-    titulo: 'Caçador de Vampiros / disfarçado como "Alanik Ray"',
-    localizacao: 'Torre de Van Richten (nordeste do Lago Zarovich)',
+    titulo: 'Caçador de Vampiros / disfarçado como "Rictavio" (bardo meio-elfo)',
+    localizacao: 'Vallaki — Estalagem Água Azul, disfarçado como o bardo "Rictavio"',
     alinhamento: 'Neutro e Bom',
     personalidade: 'Reservado, amargurado, mas com um código de honra inabalável. Tende a subestimar os outros enquanto super-analisa os problemas. Carrega trauma imenso — perdeu todos que amou por causa de Strahd.',
     aparencia: 'Idoso de 70 anos, mas com a postura e os movimentos de alguém 30 anos mais novo. Cabelos brancos, olhos cinzas penetrantes. Veste roupas modestas de viajante, um chapéu de abas largas. Nunca sem uma estaca de madeira no cinto.',
@@ -2165,7 +2176,7 @@ export const NPCS: NPC[] = [
     falas: [
       {
         situacao: 'Primeiro encontro (disfarçado)',
-        fala: '"Alanik Ray, vendedor de ervas. Não me interesso por aventuras nem por vampiros. Especialmente não por vampiros." *(uma pausa)* "Por que vocês estão me olhando assim?"'
+        fala: '"Rictavio! Mestre de cerimônias, contador de histórias, bardo de terras distantes." *(inclina o chapéu exageradamente)* "Não me interesso por aventuras nem por vampiros. Especialmente não por vampiros." *(uma pausa)* "Por que vocês estão me olhando assim?"'
       },
       {
         situacao: 'Após a identidade ser revelada',
@@ -2409,7 +2420,7 @@ export const ITENS: Item[] = [
     tipo: 'artefato',
     raridade: 'lendario',
     capitulo: 'Torre de Van Richten',
-    localizacao: 'Cofre de veludo vermelho no 5º andar (topo) da Torre de Van Richten',
+    localizacao: 'Cofre de veludo vermelho no 4º andar (topo) da Torre de Van Richten — ilha no Lago Baratok',
     descricao: 'Um prato de prata do tamanho de uma mão com o sol entalhado no centro irradiando raios. Van Richten o escondeu no topo da torre antes de partir. Quando segurado, está quente — como aquecido por um sol que não existe em Barovia. Emana uma presença divina genuína, rara nesta terra amaldiçoada.',
     mecanica: '+2 em testes de Religião. 1x/combate: causar +1d6 dano sagrado adicional num ataque declarado. Misticismo CD 10: sentir presença divina que empurra ativamente contra a escuridão baroviana.',
     observacoes: 'Um dos três artefatos da profecia de Madame Eva. Carta: Cinco de Glifos — Druida. O cofre abre sozinho quando tocado por mãos com intenção honesta contra Strahd.',
@@ -2449,15 +2460,15 @@ export const ITENS: Item[] = [
     observacoes: 'Item de recompensa da câmara ritual (junto com 300 PO). Lembre os jogadores que a Sombra é vulnerável a armas mágicas — esta faca é uma opção boa se encontrada antes do encontro.',
   },
   {
-    id: 'flauta-van-richten',
-    nome: 'Flauta de Van Richten',
+    id: 'baralho-tarokka-ezmerelda',
+    nome: 'Baralho de Cartas Tarokka (de Ezmerelda)',
     tipo: 'magico',
-    raridade: 'raro',
+    raridade: 'incomum',
     capitulo: 'Torre de Van Richten',
-    localizacao: 'Campo de Tser Pool — escondida com os Vistani por Van Richten antes de partir',
-    descricao: 'Uma flauta de madeira entalhada com runas de proteção gravadas ao longo do corpo. Van Richten a deixou com os Vistani como seguro caso precisasse de ajuda para entrar na torre. Madame Eva pode revelar sua localização (Diplomacia CD 10 ou doação de 50 PO ao acampamento).',
-    mecanica: 'Tocar na entrada da Torre: desativa completamente o campo de força. Afastar mortos-vivos (ND ≤ 2) em 9m por 1 minuto (1x/dia, Vontade CD 13 para resistir). A música é incomumente melancólica.',
-    observacoes: 'Uma das três formas de entrar na torre. Alternativas: frase "Eu invoco a proteção de Rudolph Van Richten" (gratuita) ou Misticismo CD 20 força bruta (10 minutos, falha em ≤15: 2d8 elétrico em todos em 3m).',
+    localizacao: 'Carroça de Ezmerelda (V1) — caixa de madeira, envolto em seda',
+    descricao: 'Um baralho completo de cartas tarokka pertencente a Ezmerelda d\'Avenir. Ela as usa para leituras e também como ferramenta de análise tática — Van Richten lhe ensinou a interpretar padrões em leituras tarokka como inteligência de campo.',
+    mecanica: 'Um personagem que estude o baralho com Misticismo CD 15 pode fazer uma leitura incompleta (sem Madame Eva) — uma carta parcial que dá indício vago sobre uma ameaça imediata no próximo local a ser explorado.',
+    observacoes: 'A carroça de Ezmerelda está estacionada na frente da torre. Contém também: armas, roupas, kits de escalada e disfarce, e uma página carbonizada do diário de Van Richten. ATENÇÃO: a carroça tem armadilha na porta interna (100 frascos de alquimista — 10d10 dano de fogo, CD Const 12 para metade).',
   },
   {
     id: 'anel-signatura-durst',
@@ -2591,7 +2602,7 @@ export const ITENS: Item[] = [
     localizacao: '3º andar da Torre de Van Richten — baú com tranca de prata',
     descricao: 'Décadas de pesquisa de Rudolph Van Richten sobre monstros de Barovia, com foco em vampiros. Inclui táticas, fraquezas conhecidas, comportamentos de Strahd especificamente, e notas pessoais sobre tentativas fracassadas de derrotá-lo.',
     mecanica: '+5 em testes de Misticismo relacionados a mortos-vivos por 1 semana (1 sessão de leitura). Informação chave: "Strahd adapta táticas em tempo real. Nunca repita uma abordagem que falhou — ele aprende."',
-    observacoes: 'Van Richten pode oferecer o diário voluntariamente se os personagens ganharem sua confiança (ele está na torre disfarçado como "Alanik Ray"). Intuição CD 13 para perceber que "Alanik" sabe coisas demais para um vendedor de ervas.',
+    observacoes: 'O diário está na torre — Van Richten o deixou lá quando foi para Vallaki. Uma página carbonizada do diário também está na carroça de Ezmerelda (V1). Van Richten pode oferecer acesso ao diário se contatado em Vallaki e se os personagens ganharem sua confiança. Intuição CD 13 para perceber que "Rictavio" é Van Richten.',
   },
   {
     id: 'tomo-abissal',
