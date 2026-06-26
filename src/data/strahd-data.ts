@@ -304,6 +304,11 @@ O criado-mudo no canto da parede ocidental tem um botão na parede ao lado. Pres
 O mestre da casa costumava passar muitas horas aqui antes de sua descida à loucura.
 Cortinas de veludo vermelho cobrem as janelas. Uma escrivaninha de mogno requintado e uma cadeira de encosto alto estão entre a entrada e a lareira. Estantes do chão ao teto alinhadas na parede sul. A gaveta da mesa está vazia, exceto por uma chave de ferro que destranca a porta para a Área 20 (Quarto das Crianças no sótão). Uma imagem emoldurada de um moinho de vento empoleirado sobre um penhasco rochoso está acima da lareira.
 
+**PISTAS ADICIONAIS NA BIBLIOTECA (encontradas examinando as estantes e a sala):**
+- **Árvore genealógica dos Durst** (emoldurada na parede): mostra Gustav casado com Elisabeth e os filhos Rosavalda ("Rose") e Thornboldt ("Thorn"). Um terceiro nome foi riscado a tinta — Investigação CD 12 ainda o torna legível: **Walter**, com a mesma data de nascimento e de morte. A família tinha um filho que jamais mencionava.
+- **Registros de negócios:** a fortuna dos Durst vinha de um moinho de grãos (o mesmo do quadro acima da lareira). Os livros-caixa mostram a renda secando ano após ano, enquanto as anotações sobre "estudos noturnos" e "homenagens" se multiplicam na contabilidade de Gustav.
+- **Planta da mansão** (gaveta inferior): desenha os quatro andares e o sótão — mas nenhum porão ou masmorra. O que existe sob a casa não foi traçado por mãos comuns.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INVESTIGAÇÃO CD 10 — As Cartas de Gustav Durst
 
@@ -346,6 +351,25 @@ O MESTRE DIZ: "Sua atenção é fisgada por uma anomalia — um volume na segund
 SE TIVEREM ALGUÉM QUE LÊ ABISSAL: "O tomo contém três rituais de convocação menor — para chamar espíritos subservientes, sombras vinculadas, e ecos de mortos. Não são rituais poderosos, mas mostram que alguém nesta casa não apenas estudava ocultismo — o praticava ativamente."
 SE NINGUÉM LER ABISSAL: "Vocês podem levar o tomo — pode ser valioso para alguém que compreenda a língua, ou para vender a um mago."
 NA FALHA (CD 15 é difícil): O personagem não percebe nada diferente no livro disfarçado.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENIGMA OPCIONAL — O Fecho do Retrato do Moinho
+
+A moldura do quadro do moinho de vento acima da lareira não é só decoração: em sua base há seis pequenos discos de latão giratórios, cada um gravado com uma letra — uma fechadura de combinação. Gravada na borda inferior da moldura (Investigação CD 10, ou automática para quem examinar o quadro de perto) lê-se uma frase na caligrafia de Gustav:
+
+LEIA EM VOZ ALTA: "'Só o nome que enterramos no silêncio abre o que escondi.' — G.D."
+
+A SOLUÇÃO (para o Mestre): a resposta é **WALTER** — o bebê natimorto que os Durst nunca pronunciavam em voz alta. Os personagens descobrem o nome no diário de Elisabeth (compartimento secreto da escrivaninha) ou na árvore genealógica riscada (ver Pistas Adicionais). Ajustar os seis discos para W-A-L-T-E-R faz um estalo e abre uma cavidade rasa atrás do quadro.
+- SE OS JOGADORES TRAVAREM: Investigação CD 15 (cruzando as cartas, o diário e a genealogia) ou Intuição CD 13 sugere que a chave é o nome escondido da família.
+- SE FORÇAREM A FECHADURA (Ladinagem CD 18) OU QUEBRAREM O QUADRO: a cavidade abre, mas a última página do livro-razão se rasga e fica ilegível — perde-se a dica final (abaixo).
+
+RECOMPENSA — O Livro-Razão Verdadeiro de Gustav (leia trechos em voz alta):
+- "Alimentamos a câmara abaixo da casa, como o Conde ordenou. Cada vida comprava mais um mês de favor. O canto sob a terra nunca cessa: 'Ele é o Ancestral. Ele é a Terra.'" → presságio da Câmara do Ritual (Área 38).
+- Uma lista dos cultistas veteranos da casa — os mesmos cujos aposentos ficam na masmorra (Área 25). Reconhecer esses nomes lá embaixo concede vantagem em testes de Intimidação/Intuição contra qualquer coisa que reste deles.
+- Última entrada, em letra trêmula: "O Conde nunca pretendeu nos salvar — suas próprias palavras o confessam. E a casa virou o altar; ela não nos deixa partir. Quem quiser descer precisa dizer as palavras do mestre em voz alta. É o único jeito que a escada se mostra."
+
+NOTA DO MESTRE: adição opcional para premiar a investigação — não consta no livro. A recompensa é informação e presságio, não um atalho: a última entrada apenas confirma o método que já existe (ler a carta de Strahd da Área 9 em voz alta revela a Escada Secreta, Área 21), sem revelar onde ela fica. Não altera o rumo do ato.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
