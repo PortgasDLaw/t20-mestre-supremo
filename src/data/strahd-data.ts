@@ -167,8 +167,7 @@ Os **fantasmas reais de Rose e Thorn Durst** ficam no sótão da casa (Área 20 
 "A mansão Durst se ergue três andares acima de vocês, seu acabamento em pedra escura coberto por décadas de musgo. Dois gárgulas de pedra flanqueiam o portão de ferro enferrujado — e vocês têm quase certeza de que seus olhos de pedra seguiram os movimentos de vocês à medida que se aproximavam. A porta principal é de carvalho maciço com dobradiças de ferro, ornamentada com uma aldrava em forma de leão com um anel na boca."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PERCEPÇÃO PASSIVA CD 12 — Os Gárgulas Vivos
-Qualquer personagem com PP 12+ nota automaticamente.
+PERCEPÇÃO CD 12 — Os Gárgulas Vivos
 
 O MESTRE DIZ: "Algo está errado com as estátuas. Os olhos delas — você percebe agora — não são de pedra comum. São de obsidiana polida, escura como a noite, e eles se movem. Lentamente. Mas inegavelmente. Acompanham cada passo de vocês pelo jardim. Quando vocês param diante da porta, as duas cabeças giram — audível o rangido de pedra sobre pedra — para encarar o grupo diretamente."
 
@@ -1676,7 +1675,7 @@ export const BESTIARIO: Monstro[] = [
     resistencias: { fortitude: '+11', reflexos: '+10', vontade: '+8' },
     imunidades: ['veneno', 'doenças', 'cansaço', 'condições físicas de imobilidade (se não for através de água corrente ou luz solar)'],
     resistenciaDano: ['necrótico', 'veneno', 'corte/perfuração/impacto de armas não-mágicas'],
-    sentidos: ['Visão às cegas 9m', 'Visão no escuro 36m', 'Percepção Passiva 22'],
+    sentidos: ['Visão às cegas 9m', 'Visão no escuro 36m'],
     ataques: [
       { nome: 'Garras', bonus: '+10', dano: '1d8+4', tipo: 'Cortante', descricao: 'Pode agarrar o alvo (Atletismo CD 18 para escapar).' },
       { nome: 'Mordida', bonus: '+10', dano: '2d6+5d6+4', tipo: 'Perfurante + Necrótico', descricao: 'PV máximo reduzido pelo dano necrótico. Strahd recupera PV igual ao necrótico causado.' },
@@ -2012,7 +2011,7 @@ export const BESTIARIO: Monstro[] = [
     atributos: { for: 2, des: 2, con: 3, int: 3, sab: 2, car: 2 },
     resistencias: { fortitude: '+6', reflexos: '+5', vontade: '+5' },
     imunidades: ['veneno', 'encantamento', 'medo'],
-    sentidos: ['Visão no escuro 36m', 'Percepção Passiva 16'],
+    sentidos: ['Visão no escuro 36m'],
     ataques: [
       { nome: 'Garra', bonus: '+5', dano: '2d6+2', tipo: 'Cortante + Necrótico' },
       { nome: 'Olho Maligno (3/dia)', bonus: '+5', dano: '—', tipo: 'Encantamento', descricao: 'Uma criatura em 18m faz Vontade CD 14 ou fica amedrontada por 1 hora. Não funciona em plena luz do dia.' }
