@@ -86,7 +86,7 @@ export default function Campanha() {
           <div>
             <h1 className="font-cinzel font-bold text-2xl text-gold">A Maldição de Strahd</h1>
             <p className="font-crimson text-parchment-muted text-sm">
-              Campanha adaptada de D&D 5e para Tormenta20 • Guia completo do Mestre • Início no Nível 2
+              Campanha adaptada de D&D 5e para Tormenta20 • Guia completo do Mestre • Nível 3 → 10
             </p>
           </div>
         </div>

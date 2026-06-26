@@ -129,30 +129,35 @@ O menino aponta para uma mansão imponente no topo de uma colina. A construção
         id: 'prefacio-mestre',
         titulo: 'Notas para o Mestre',
         tipo: 'tip',
-        conteudo: `As crianças são os **fantasmas de Rose e Thorn Durst**, filhos dos Dursts — a família que habitava a Casa da Morte. Elas não sabem que estão mortas. Querem lure os aventureiros para dentro da casa.
+        conteudo: `As crianças que os personagens encontram fora da casa são **ilusões criadas pela própria Casa da Morte** — não os fantasmas reais. Elas parecem de carne e osso, mas desaparecem se forem atacadas ou forçadas a entrar na casa. Seu propósito é atrair os aventureiros para dentro.
 
-**Rose (Rosalynn Durst)**, 10 anos: A mais velha e protetora. É ela quem fala mais. Faz perguntas diretas e observa os aventureiros com atenção.
+Os **fantasmas reais de Rose e Thorn Durst** ficam no sótão da casa (Área 20 — Quarto das Crianças). Ao contrário das ilusões externas, os fantasmas reais **sabem que estão mortos**. Morreram de fome quando seus pais insanos os trancaram no sótão e se esqueceram deles.
 
-**Thorn (Thornboldt Durst)**, 8 anos: O mais tímido. Segura a mão da irmã. Se os aventureiros se mostrarem amigáveis, ele relaxa um pouco e pode revelar detalhes sobre a casa.
+**Rose (Rosavalda Durst)**, 10 anos: A mais velha e protetora. É ela quem fala mais. Faz perguntas diretas e observa os aventureiros com atenção.
 
-**O que elas sabem (mas não contam facilmente):**
-- Há "um monstro" no porão (é o cultista que eles chamam de "A Sombra")
-- Seus pais dormem no quarto principal, mas não acordam há muito tempo
-- O bebê Walter fica no berçário no 3º andar
-- Elas têm um gatinho chamado Barbas
+**Thorn (Thornboldt Durst)**, 7 anos: O mais tímido. Segura a mão da irmã. Se os aventureiros se mostrarem amigáveis, ele relaxa um pouco e pode revelar detalhes sobre a casa.
 
-**O que elas NÃO sabem:**
-- Que estão mortas
+**O que as ilusões externas sabem (mas não contam facilmente):**
+- Há "um monstro" no porão fazendo "uivos terríveis" (na verdade os gritos das vítimas do culto)
+- Seus pais mantêm o monstro preso no porão
+- Há um bebê (Walter) no berçário do terceiro andar (falso — as crianças acreditam nisso, mas Walter já morreu)
+
+**O que as ilusões NÃO sabem:**
+- Que são ilusões criadas pela casa
 - Que seus pais eram líderes de um culto dedicado a Strahd
-- Que Walter morreu há séculos`
+- Que Walter morreu como sacrifício do culto
+
+**Mecânica das ilusões:** Desaparecem se forem atacadas ou forçadas a entrar na casa. Personagens com Misticismo CD 14 que as inspecionem com cuidado notam que não projetam sombra corretamente e que o vento não mexe seus cabelos.
+
+**Os fantasmas reais (Área 20):** São Pequenos, Leais e Bons. Têm 35 PV cada. Não têm a habilidade Aspecto Horripilante. Falam Comum. ND 3. Sabem que estão mortos e que morreram de fome trancados. Se perguntados sobre como chegar ao porão, Rose aponta para a casa de bonecas: "Há uma porta secreta no sótão." Temem ser abandonados — se personagens tentarem sair, tentam possuí-los.`
       }
     ]
   },
   {
     id: 'casa-da-morte',
     titulo: 'Casa da Morte',
-    nivel: 'Nível 2 (adaptado)',
-    descricao: 'A Casa da Morte é o ponto de entrada na campanha. Originalmente projetada para os níveis 1-2, esta versão foi ajustada para personagens de nível 2 em Tormenta20. A casa tem 4 andares + porão + masmorra. O objetivo é lure os personagens para dentro e usá-los como sacrifício.',
+    nivel: 'Nível 3',
+    descricao: 'A Casa da Morte é o ponto de entrada na campanha. Originalmente projetada para os níveis 1-2, esta versão foi ajustada para personagens de nível 3 em Tormenta20. A casa tem 4 andares + porão + masmorra. O objetivo é atrair os personagens para dentro e usá-los como sacrifício.',
     subsecoes: [
       {
         id: 'exterior',
@@ -200,7 +205,7 @@ PERCEPÇÃO CD 11 — O Rastro de Sangue
 O MESTRE DIZ: "Sob a sujeira de décadas, você distingue manchas escuras no mármore ao pé da escada. Sangue — envelhecido, seco, enegrecido pelo tempo. Mas ao seguir com o olhar, percebe que não é apenas uma poça. É um rastro. Começa no terceiro degrau da escada, desce, e vai em direção à porta principal... terminando abruptamente a menos de três metros de onde você está. Quem sangrava tentou alcançar a saída. Não chegou."
 
 SE PERGUNTAREM DE ONDE VEM O RASTRO: "O rastro sobe a escada até o segundo andar. No topo, há uma mancha maior — onde a pessoa estava parada por algum tempo antes de tentar descer."
-SE TENTAREM RASTREAR A ORIGEM: Sobrevivência CD 12 para seguir o rastro até o Quarto Principal (Área 14), onde os corpos dos Durst ainda estão.
+SE TENTAREM RASTREAR A ORIGEM: Sobrevivência CD 12 para seguir o rastro até a Suíte Master (Área 12) no segundo andar — mas o quarto está vazio, empoeirado. Nenhum corpo. O que quer que tenha sangrado aqui desapareceu há muito tempo.
 NA FALHA: O personagem não nota nada além do chão sujo e empoeirado do hall.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
       },
@@ -272,8 +277,10 @@ FALHA NA VONTADE: O personagem fica Abalado por 1d4 rounds (–2 em todos os tes
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 6 — Escritório de Durst**
-Uma mesa de carvalho com papéis e cartas. Estantes com livros encadernados em couro. Uma poltrona de couro rasgada pelo tempo.
+**Área 8 — Biblioteca (Escritório de Gustav Durst)**
+Uma escrivaninha de mogno requintado e uma cadeira de encosto alto estão entre a entrada e a lareira. Estantes do chão ao teto alinham a parede sul. A gaveta da mesa guarda uma chave de ferro que destranca a Área 20 (Quarto das Crianças). Cortinas de veludo vermelho cobrem as janelas. Uma imagem emoldurada de um moinho de vento empoleirado sobre um penhasco rochoso está acima da lareira.
+
+NOTA DO MESTRE: A biblioteca era onde Gustav passava suas noites. Esta seção usa os recursos investigativos da Biblioteca (Área 8 do livro) para contar a história dos Durst.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INVESTIGAÇÃO CD 10 — As Cartas de Gustav Durst
@@ -300,40 +307,33 @@ NA FALHA: O personagem não encontra o compartimento secreto.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 7 — Sala de Serviçais**
-Quatro camas simples, um baú trancado. Os serviçais fugiram há muito — levaram suas coisas mais valiosas.
+**Área 7 — Sala de Serviçais (Quartos dos Serviçais)**
+Um quarto não decorado (Área 7A) contém um par de camas com colchões enchidos de palha. No pé de cada cama está um armário de calçados vazio. Uniformes bem limpos de empregados estão pendurados nos ganchos no armário adjacente (Área 7B).
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-LADINAGEM CD 11 — O Baú dos Serviçais
-
-O MESTRE DIZ: "A fechadura está enferrujada mas cede. Dentro do baú: roupas velhas dobradas com cuidado, um espelho de bolso quebrado — e embaixo de tudo, uma bolsa com 10 peças de prata e um frasco de vidro lacrado com cera vermelha. Dentro do frasco, um líquido que brilha levemente dourado: óleo abençoado. Alguém entre os serviçais era devoto o suficiente para guardar isso."
-
-SE PERGUNTAREM SOBRE OS SERVIÇAIS: "As camas e os pertences sugerem que fugiram às pressas — deixando roupas mas levando dinheiro. Quem saiu antes dos Durst desaparecerem sabia que algo estava errado. Sabedoria."
-NA FALHA: O baú resiste. Pode tentar Força CD 15 para arrombar (mas faz barulho).
+CRIADO-MUDO: No canto da parede ocidental há um criado-mudo com um botão na parede ao lado. Pressionando o botão toca o sino minúsculo na cozinha (Área 4). No botão está um frasco pequeno de Água Benta (usado para curar Doru mais adiante — ver missão da Igreja de Barovia).
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
       },
       {
         id: 'segundo-andar',
-        titulo: 'Áreas 8-13: Segundo Andar',
+        titulo: 'Áreas 6-13: Segundo Andar',
         tipo: 'exploration',
-        conteudo: `**Área 8 — Corredor Superior**
-As paredes exibem mais retratos da família Durst ao longo do tempo. Os mais recentes mostram um semblante cada vez mais perturbado.
+        conteudo: `**Área 6 — Salão Superior (Segundo Andar)**
+As lâmpadas a óleo estão fixadas nas paredes deste elegante salão. Pendurado acima da lareira está um retrato emoldurado da família Durst: Gustav e Elisabeth com seus dois filhos sorridentes, Rose e Thorn. Embalado nos braços do pai está um bebê envolto, que a mãe olha com um toque de desprezo. Armaduras em pé flanqueiam portas de madeira nas paredes leste e oeste. Cada armadura segura uma lança e tem um elmo com viseira em forma de cabeça de lobo.
 
-SE OS PERSONAGENS EXAMINAM OS RETRATOS: "Os retratos contam uma história silenciosa. Os mais antigos mostram um casal jovem e soridente — o senhor Durst com olhos animados, a senhora Durst com um sorriso genuíno, duas crianças pequenas ao lado. Os retratos seguintes são mais formais, mais distantes. Nos mais recentes, os olhos do senhor Durst têm uma intensidade estranha — quase fanática. A senhora Durst, bela como sempre, olha para longe de qualquer coisa no quadro. Como se olhasse para algo que não deveria existir."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Área 9 — Quarto de Hóspedes**
-Um quarto confortável mas empoeirado. Um baú no pé da cama.
-
-O baú está destrancado. Contém: 12 peças de prata, uma Poção de Cura Menor (cura 2d4+2 PV), e um lenço de seda branca com as iniciais bordadas em fio azul: "G.A."
-
-SE PERGUNTAREM SOBRE "G.A.": "As iniciais não pertencem a nenhum Durst. Um hóspede, talvez — alguém que veio visitar e deixou algo para trás. Ou alguém que não teve chance de levar consigo."
+SE OS PERSONAGENS EXAMINAM OS PAINÉIS DAS PAREDES (Percepção CD 12): "Os jovens esculpidos nas portas não estão dançando — estão lutando contra enxames de morcegos. A arte foi deliberadamente perturbadora."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 10 — Biblioteca**
-Centenas de volumes, a maioria sobre folclore do crime, magia sombria e história de Barovia.
+**Área 7 — Quarto dos Empregados**
+Um quarto não decorado contém um par de camas com colchões enchidos de palha. No pé de cada cama está um armário de calçados vazio. Uniformes bem limpos de empregados estão pendurados nos ganchos no armário adjacente.
+
+O criado-mudo no canto da parede ocidental tem um botão na parede ao lado. Pressionando o botão toca o sino minúsculo na cozinha (Área 4).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 8 — Biblioteca**
+O mestre da casa costumava passar muitas horas aqui antes de sua descida à loucura.
+Cortinas de veludo vermelho cobrem as janelas. Uma escrivaninha de mogno requintado e uma cadeira de encosto alto estão entre a entrada e a lareira. Estantes do chão ao teto alinhadas na parede sul. A gaveta da mesa está vazia, exceto por uma chave de ferro que destranca a porta para a Área 20 (Quarto das Crianças no sótão).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INVESTIGAÇÃO CD 13 (1 hora de pesquisa) — O Senhor de Ravenloft
@@ -358,8 +358,114 @@ NA FALHA (CD 15 é difícil): O personagem não percebe nada diferente no livro 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 11 — Quarto de Rose e Thorn**
-Um quarto infantil com duas camas pequenas, brinquedos e bonecas. Uma caixinha de música ainda tocará se a manivela for girada.
+**Área 10 — Conservatório**
+Cortinas finas cobrem as janelas deste salão elegantemente decorado, com um lustre de bronze pendurado no teto. Cadeiras estofadas se alinham às paredes, e tapeçarias em vitrais retratam belos homens, mulheres e crianças cantando e tocando instrumentos. Um cravo com um banco repousa no canto noroeste. Perto da lareira está uma grande harpa permanente. Estatuetas de alabastro de dançarinos bem vestidos adornam a lareira — ao inspecionar, vê-se que várias são esculturas de esqueletos bem vestidos.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 11 — Varanda do Segundo Andar**
+Personagens que subam a escadaria de mármore vermelho até sua altura total chegam a uma varanda empoeirada com uma **armadura de placas negras** em pé contra uma parede, envolta em teias de aranha. Esta **armadura animada** ataca assim que recebe dano ou um personagem se aproxima a 1,5 metros dela. Luta até ser destruída.
+
+NOTA DO MESTRE: A armadura animada tem ND 1 (T20): PV 33, Defesa 18, Ataque Soco +4 (1d6+2 impacto). Imune a veneno e doenças. Vulnerável a dano de trovão (dano dobrado).
+
+Portas esculpidas com jovens dançantes — Percepção CD 12 revela que não estão dançando, mas lutando contra enxames de morcegos.
+
+PORTA SECRETA: Uma porta secreta na parede oeste pode ser encontrada com Percepção CD 15. Abre facilmente para revelar uma escada de madeira cheia de teias de aranha que leva até o sótão.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 12 — Suíte Master (Quarto Principal dos Durst)**
+Portas duplas com painéis de vitral (moinhos de vento). O quarto empoeirado tem cortinas cor de vinho, uma cama de dossel com cortinas bordadas e véus esfarrapados, guarda-roupas vazios, uma penteadeira com espelho e caixa de joias, e uma cadeira acolchoada. Tapete de pele de tigre em decomposição. Retrato coberto de poeira de Gustav e Elisabeth acima da lareira.
+
+CRIADO-MUDO: Um criado-mudo no canto da parede ocidental tem um botão ao lado — toca o sino na cozinha (Área 4).
+
+TESOURO — CAIXA DE JOIAS (na penteadeira): Caixa de prata com filigrana de ouro (75 PO). Contém três anéis de ouro (25 PO cada) e um colar de platina fina com pingente de topázio (750 PO).
+
+NOTA DO MESTRE: Os corpos de Gustav e Elisabeth Durst NÃO estão aqui. Eles são Lívidos (wights) escondidos na masmorra (Área 34), onde protegem o baú com tesouros dos cultistas.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 13 — Banheiro**
+Uma banheira de madeira com pés de garras, um pequeno fogão de ferro com uma chaleira, e um barril sob uma torneira na parede leste. Uma cisterna no telhado coletava água da chuva, mas o encanamento já não funciona.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**TERCEIRO ANDAR — Áreas 14-16 e Sótão**
+
+**Área 14 — Depósito (3º Andar)**
+Uma cama delgada, um criado-mudo, um fogão de ferro pequeno, uma escrivaninha com tamborete, um guarda-roupa vazio, e uma cadeira de balanço. Uma boneca sorridente em vestido amarelo senta-se no parapeito da janela ao norte, coberta de teias de aranha como um véu de casamento.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 15 — Suíte da Babá da Família**
+O quarto pertencia à babá da família. O dono da casa e a babá tiveram um caso, que levou ao nascimento de um bebê natimorto chamado Walter. O culto matou a babá pouco depois.
+
+A menos que os personagens já a derrotaram no Depósito (Área 17), o **espírito da babá** assombra o quarto como um espectro. O espectro se manifesta e ataca quando um personagem abre a porta para o berçário (área 15B). Assemelha-se a uma jovem aterrorizada e esquelética — não pode falar nem ser interpelada.
+
+PORTA SECRETA (atrás do espelho de corpo inteiro): Percepção CD 15. Abre para uma escada de madeira com teias de aranha que leva até o sótão.
+
+O berçário tem um berço coberto com uma mortalha negra. Quando os personagens desenrolam o sudário, veem um pacote firmemente embrulhado do tamanho de um bebê — mas não há nada dentro.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 16 — Sótão de Pedra**
+Este salão vazio está cheio de poeira e teias de aranha.
+
+PORTA BLOQUEADA: A porta da Área 20 é mantida fechada com um cadeado. Sua chave está na Biblioteca (Área 8), mas também pode ser contornada com ferramentas de ladrões e Ladinagem CD 15.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 17 — Quarto de Repouso (Sótão)**
+Esta câmara empoeirada está cheia de móveis antigos (cadeiras, casacos, espelhos de corpo, manequins de vestir), todos cobertos em lençóis brancos empoeirados. Perto de um fogão de ferro, embaixo de um dos lençóis, está um baú de madeira destrancado contendo os **restos mortais da babá da família**, envoltos em um lençol esfarrapado manchado de sangue seco. Medicina CD 14: a mulher foi esfaqueada até a morte por múltiplas feridas de faca.
+
+Se os personagens perturbam os restos, o espectro da babá aparece e ataca (a menos que já tenha sido derrotada na Área 15).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 18 — Depósito (Sótão)**
+Prateleiras empoeiradas com lençóis, cobertores dobrados e barras velhas de sabão. Uma **vassoura animada** encostada na parede mais distante da entrada — ataca qualquer criatura que se aproxime a 1,5 metros dela (ND 1/4, PV 15, Defesa 11, Ataque Pancada +3, 1d4+1 impacto).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 19 — Quarto de Repouso Vazio (Sótão)**
+Contém uma cama pequena, uma mesa de cabeceira, uma cadeira de balanço, um guarda-roupa vazio e um pequeno fogão de ferro.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 20 — Quarto das Crianças (Sótão) — PONTO CRÍTICO**
+A porta está trancada por fora (chave na Área 8 / Biblioteca, ou Ladinagem CD 15).
+
+Este quarto contém uma janela fechada por tijolos, duas camas empoeiradas dimensionadas para crianças, uma caixa de brinquedos com moinhos de vento pintados nos lados, e uma **casa de bonecas** que é réplica perfeita da mansão Durst. Deitados no chão: **dois pequenos esqueletos** vestindo roupas esfarrapadas — são Rose e Thorn. O esqueleto de Thorn ainda embala a boneca de pelúcia.
+
+CASA DE BONECAS (Percepção CD 15): Revela todas as portas secretas da casa, incluindo uma no sótão que leva a uma escada em espiral (réplica da Área 21).
+
+**ROSE E THORN — OS FANTASMAS REAIS:**
+Se a casa de bonecas ou o baú for perturbado, os fantasmas de Rose e Thorn aparecem. Ao contrário das ilusões externas, eles **sabem que estão mortos**. Se perguntados como morreram: "Nossos pais nos trancaram aqui para nos proteger do monstro no porão, e se esqueceram de nós." Se perguntados como chegar ao porão, Rose aponta para a casa de bonecas.
+
+As crianças temem o abandono. Se um ou mais personagens tentarem sair, tentam possuí-los:
+- **Possuído por Rose:** fraqueza "Eu gosto de estar no comando e fico com raiva quando outros me dizem o que fazer."
+- **Possuído por Thorn:** fraqueza "Tenho medo de tudo, inclusive minha própria sombra, e choro de desespero quando as coisas não vêm até mim."
+- Um personagem possuído não deixará a Casa da Morte nem entrará na masmorra. Os fantasmas podem ser intimidados a sair (Intimidação CD 11, ação padrão).
+- **A única forma de colocar os espíritos em descanso** é levar seus restos mortais (esqueletos) às suas criptas na masmorra (Áreas 23E e 23F). As crianças não sabem disso.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 21 — Escada Secreta (ACESSO À MASMORRA)**
+A porta e o eixo secretos não existem até que a casa os revele, o que ocorre de uma de duas formas:
+1. Os personagens encontram a carta de Strahd na sala secreta atrás da biblioteca (Área 9).
+2. Os personagens encontram a réplica da porta secreta na casa de bonecas (Área 20).
+
+Uma vez revelada, os personagens a encontram automaticamente ao procurar na parede (sem teste necessário). A escada desce 15 metros até a Área 22.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**NOTA DE MESTRE — Quarto de Rose e Thorn (como antes era descrito incorretamente):**
+O strahd-data.ts anterior chamava de "Área 11 — Quarto de Rose e Thorn" o que na verdade é a Área 20 (Sótão). O quarto onde os personagens podem encontrar os diários e objetos pessoais das crianças fica no sótão, trancado. A busca por pistas sobre a família Durst deve concentrar-se nas áreas 6-8 do segundo andar e nos escritórios.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Quarto de Rose e Thorn — Itens de Narrativa**
+Os seguintes itens existem no quarto das crianças (Área 20) e podem ser encontrados ao examinar:
 
 SE ROSE E THORN ACOMPANHAM OS PERSONAGENS: "As crianças ficam paradas na entrada. Rose aperta a mão da boneca que está na cama como se reconhecesse o objeto. Thorn vai devagar até a janela e olha para fora — para a neblina. Nenhuma das duas fala. É o primeiro sinal de que algo diferente está acontecendo com elas."
 
@@ -378,298 +484,319 @@ NA FALHA: O personagem não encontra o diário embaixo da cama.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 12 — Quarto de Walter (Berçário)**
-O berçário está impecavelmente conservado por magia — completamente intocado pelo tempo que destruiu o resto da casa.
+**Área 15B — Berçário (dentro da Suíte da Babá)**
+O berçário fica atrás de uma porta dentro do quarto da babá (Área 15A). O espectro da babá se manifesta e ataca quando um personagem abre esta porta.
+
+O berçário contém um berço coberto com uma mortalha negra. Quando os personagens desenrolam o sudário, veem um pacote firmemente embrulhado do tamanho de um bebê deitado no berço. Quem desembrulhar o cobertor não encontra nada dentro — o berço está vazio.
 
 SE ROSE E THORN ESTÃO AQUI: Rose para na entrada. Em voz muito baixa, quase para si mesma: "Walter dormia aqui. Ele chorava muito à noite. Mamãe dizia que era cólica." Thorn fica atrás dela, não entra no quarto.
 
-O berço de madeira finamente trabalhado tem uma manta de bebê dobrada perfeitamente. Uma móbile de pássaros prateados gira devagar — sem vento, sem razão visível.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-MISTICISMO CD 12 — A Aura do Berçário
-
-O MESTRE DIZ: "Você sente a magia antes mesmo de cruzar a soleira — e é diferente de tudo que encontrou na casa até agora. Não é vigilância como no retrato, não é dissimulação como no tomo. É necromancia. Fraca, residual, mas inegável. Algo morreu neste quarto. E parte desse algo ainda está aqui, presa entre os planos — não como espírito consciente, apenas como... eco. Como a impressão de uma dor que nunca foi resolvida."
-
-SE PERGUNTAREM SOBRE A MÓBILE: "A móbile de pássaros prateados gira sem vento, sem mecanismo visível. Ela gira porque o eco de necromancia neste quarto cria um campo de energia mínimo — movimento sem causa, perturbação sem propósito. Como o quarto não quer ser esquecido."
-NA FALHA: O personagem entra no quarto e sente um frio incomum, mas nada mais específico.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 13 — O Medalhão de Walter
-
-O MESTRE DIZ: "No centro do berço, quase escondido sob a manta, há um medalhão de prata em uma corrente fina. Ao virar, você lê a inscrição gravada no verso: 'Walter — Filho Predileto. Que descanse no amor eterno dos Durst.' A data gravada é de há mais de dois séculos."
-
-SE PEGAREM O MEDALHÃO: Vale 25 PO, mas toda vez que o portador dormir carregando o medalhão, faz Vontade CD 13. Na falha: pesadelos — acorda sem benefício de descanso longo e com –1 em todos os testes até o próximo descanso.
-SE PERGUNTAREM QUEM ERA WALTER: "O medalhão e o diário de Elisabeth no escritório convergem para a mesma conclusão: Walter era o filho mais novo dos Durst — um bebê. E ele morreu aqui, neste quarto. O diário diz que 'o rito exigiu mais'. Walter foi um sacrifício."
+SE PERGUNTAREM QUEM ERA WALTER: "A carta de Strahd na Sala Secreta (Área 9) menciona que Gustav 'gerou um filho natimorto'. Walter era o bebê da babá — e os Durst o usaram no ritual do culto. A cripta de Walter (Área 23B) na masmorra está vazia, assim como este berço."
 
 REAÇÃO DE ROSE E THORN SE OS PERSONAGENS CONCLUÍREM ISSO EM VOZ ALTA: Rose olha para o berço por um longo momento. "Não sabíamos," ela diz, finalmente. "Não sabíamos o que papai e mamãe faziam."
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
       },
       {
         id: 'terceiro-andar',
-        titulo: 'Áreas 14-18: Terceiro Andar e Ático',
+        titulo: 'Áreas 12-21: Segundo/Terceiro Andares e Sótão — Pontos Narrativos',
         tipo: 'exploration',
-        conteudo: `**Área 14 — Quarto Principal de Durst**
-O quarto do casal Durst. Uma cama de dossel enorme, cortinas de veludo roxo desbotado.
-
-DESCRIÇÃO (LEIA EM VOZ ALTA): "O quarto principal é o mais bem preservado da casa — como se o tempo hesitasse antes de entrar. A cama de dossel é enorme, com cortinas de veludo roxo desbotado. E na cama, sentados lado a lado, de mãos dadas, estão dois corpos. Mumificados, encolhidos pelos anos, mas com expressões surpreendentes: paz. Quase beatitude."
-
-ENCONTRO POTENCIAL: Os corpos mumificados de Gustav e Elisabeth Durst. Eles não são mortos-vivos (ainda). Mas se qualquer personagem tentar remover seus anéis ou objetos, os corpos se animam como Zumbis (ND 1 cada). Mostre sinais de alerta: os dedos se curvam, os olhos abrem.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PERCEPÇÃO ou MISTICISMO CD 11 — O Estado dos Corpos
-
-O MESTRE DIZ (se perguntarem sobre os corpos): "Há algo errado com a forma como eles estão posicionados. Corpos não se sentam assim naturalmente — foram colocados. Alguém os arrumou nessa posição deliberadamente, de mãos dadas, como se dormissem juntos. E ainda usam seus anéis e joias."
-
-SE TENTAREM EXAMINAR SEM TOCAR (Medicina/Sobrevivência CD 12): "Os corpos parecem mumificados por algum processo não natural — a preservação é boa demais para décadas de abandono. Magia residual os manteve assim."
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-ITENS NO QUARTO:
-- Caixa de joias na escrivaninha: Anel de Signatura dos Durst (25 PO — também serve como chave para uma porta no Castelo Ravenloft) e Brincos de Rubi (100 PO total).
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 10 — A Carta de Elisabeth
-
-O MESTRE DIZ: "Na escrivaninha, dobrada ao meio mas sem envelope, há uma carta com a caligrafia da senhora Durst — reconhecível pelas anotações no escritório. Ela é endereçada a Gustav, mas nunca foi entregue — ou Gustav a leu e a deixou aqui."
-
-LEIA EM VOZ ALTA: "'Gustav. Você me prometeu que as crianças nunca saberiam. Mas ele quer mais. Ele sempre quer mais. O bebê não sobreviveu ao rito e você diz que foi necessário. Eu digo que foi assassinato. A culpa foi sua. E quando as crianças crescerem e descobrirem o que fizemos — e elas vão descobrir — que os deuses nos perdoem porque eu não conseguirei me perdoar.'"
-
-SE ROSE E THORN ESTIVEREM PRESENTES E OS PERSONAGENS LEREM EM VOZ ALTA: Rose fica completamente imóvel. Depois, em voz baixa: "Então Walter não ficou doente. Eles o mataram." Os fantasmas começam a perder a forma por um momento — perturbados pela revelação.
-NA FALHA: O personagem vê a carta mas a caligrafia está desgastada demais para ler completamente.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        conteudo: `NOTA DO MESTRE: As áreas numeradas (12-21) já foram descritas na seção anterior com a numeração correta do livro original. Esta seção contém os scripts narrativos detalhados para os pontos de maior impacto emocional.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 15 — Quarto de Vestir**
-Roupas das décadas anteriores. Uma coleção de chapéus femininos elaborados.
+**QUARTO PRINCIPAL (Área 12) — Tesouro e Pistas**
+O quarto dos Durst está empoeirado e cheio de teias de aranha. Os Durst NÃO estão aqui — seus corpos (como Lívidos) aguardam na masmorra (Área 34), onde protegem o baú com os tesouros do culto.
+
+TESOURO DA PENTEADEIRA — Caixa de joias de prata com filigrana de ouro (75 PO), contendo três anéis de ouro (25 PO cada) e um colar de platina com pingente de topázio (750 PO). Esses itens apodrecem se retirados da casa.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 11 — A Passagem Secreta
 
-O MESTRE DIZ: "Entre os vestidos empilhados e as capas de época, sua mão encontra algo que não devia estar ali: uma alavanca de ferro, pequena, escondida atrás de um enfeite de chapéu. Você a puxa, e uma seção inteira da parede dos fundos desliza para dentro — revelando uma passagem estreita coberta de teias de aranha que sobe por uma escada de madeira para o ático acima."
+**SUÍTE DA BABÁ (Área 15) — Espectro**
+O espectro da babá ataca ao abrir a porta do berçário. Não pode falar nem ser interpelada — é pura fúria residual. ND 1, PV 22, Defesa 12. Apenas armas mágicas ou sagradas a afetam. Toque Necrótico +4 (1d6+2 dano).
 
-SE PERGUNTAREM POR QUE EXISTE: "Um compartimento secreto para o ático. Alguém queria poder subir sem ser visto — ou precisava de uma rota de fuga que outros na casa não soubessem."
-NA FALHA: O personagem não percebe a alavanca entre a profusão de roupas e acessórios.
+SE ROSE E THORN ESTIVEREM COM OS PERSONAGENS neste momento: elas param na entrada e não entram. Thorn sussurra para Rose: "Eu ouvia choro aqui à noite." Rose não responde.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**SÓTÃO — DEPÓSITO COM RESTOS DA BABÁ (Área 17)**
+Os restos da babá revelam (Medicina CD 14): morte por múltiplas facadas. Perturbá-los invoca o espectro se ainda não foi derrotado.
+
+SE PERGUNTAREM QUEM A MATOU: Pelas evidências nos diários e cartas, Elisabeth Durst descobriu o caso do marido com a babá. A babá foi morta pelo culto após o nascimento de Walter.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**SÓTÃO — QUARTO DAS CRIANÇAS (Área 20) — SCRIPT EMOCIONAL**
+
+DESCRIÇÃO AO ENTRAR (Leia em Voz Alta):
+"Quando a porta do quarto finalmente cede, o que vocês encontram é pior do que qualquer monstro que possam ter imaginado. Dois esqueletos pequenos jazem no meio do chão — crianças, pelas dimensões dos ossos, usando roupas que vocês reconhecem das figuras que encontraram lá fora. O menor dos esqueletos ainda abraça uma boneca de pelúcia. Entre as duas camas infantis e os brinquedos empilhados, a única coisa que ainda se mantém intacta é uma casa de bonecas — uma réplica perfeita desta mansão. Em detalhes assustadores."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INVESTIGAÇÃO CD 10 — O Diário de Rose
+
+O MESTRE DIZ: "Embaixo dos restos da cama de Rose, entre os brinquedos empurrados para trás, você encontra um diário pequeno com uma capa de couro cor-de-rosa desbotado. A caligrafia é infantil mas aplicada. As entradas mais recentes:"
+
+LEIA EM VOZ ALTA: "'Mamãe e Papai foram para o porão e não voltaram. Faz três dias. Thorn e eu batemos na porta mas ela não abre. Thorn está com medo. Eu também estou, mas não posso mostrar porque sou a mais velha.' — Entrada seguinte, caligrafia mais tremida: 'Tentamos jantar com o que tinha na cozinha. Estamos com fome. Onde estão mamãe e papai?'"
+
+SE PERGUNTAREM SE HÁ MAIS: "As últimas páginas escritas têm apenas: 'A casa faz barulhos à noite. Não saímos mais dos quartos.' Depois disso, as páginas estão em branco."
+NA FALHA: O personagem não encontra o diário entre os destroços.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 16 — Ático**
-O ático está cheio de baús e móveis velhos empilhados. Teias de aranha em tudo. Uma janela quebrada deixa entrar um vento uivante.
+**MASMORRA — QUARTO DOS LÍDERES DO CULTO (Área 34) — OS LÍVIDOS**
+ATENÇÃO: Gustav e Elisabeth Durst estão aqui, como Lívidos (mortos-vivos com inteligência), escondidos nas cavidades atrás das paredes de terra. Eles explodem e atacam se alguém remove itens do baú neste quarto.
 
-ENCONTRO: 1 Espírito Faminto (Sombra, ND 1) — a manifestação do rancor de Elisabeth Durst. Ataca silenciosamente, mas recua se confrontado com luz sagrada ou símbolo divino mostrado com confiança.
+ESTATÍSTICAS DOS LÍVIDOS (adaptados para T20, ND 3 cada):
+PV: 45 | Defesa: 14 | Iniciativa: +2 | Deslocamento: 9m
+- Garra +4 (1d6+3 necrótico): o alvo faz Fortitude CD 13 ou tem seu PV máximo reduzido pelo dano necrótico causado.
+- Imunes a veneno e doenças. Vulneráveis a dano sagrado.
 
-COMO O ESPÍRITO SE COMPORTA: "A temperatura no ático despenca de repente. Sua respiração forma névoa. Algo escorrega pelas sombras entre os móveis empilhados — não bem visível, uma escuridão mais escura que as outras sombras. E então você sente: uma mão fria que não existe toca seu ombro."
-
-SE USAREM LUZ SAGRADA OU SÍMBOLO DIVINO: "O espírito recua para as sombras mais profundas, sibilando. Não foge completamente — mas mantém distância enquanto a luz estiver presente."
+TESOURO NO BAÚ (Área 34): Manto da Proteção, 4 Poções de Cura, Cota de Malha, Kit de Refeição, Frasco de Fogo Alquímico, Lanterna de Foco, Ferramentas de Ladrão, e um Livro de Magias (capa amarela) com: Armadura Arcana, Disfarçar, Identificação, Mísseis Mágicos, Proteção Contra o Bem e o Mal (1° círculo); Arma Mágica, Imobilizar Pessoa, Invisibilidade, Visão no Escuro (2° círculo).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 12 — O Baú Escondido
 
-O MESTRE DIZ: "Atrás de uma pilha instável de móveis velhos e baús vazios, há um baú diferente — menor, mais reforçado, com uma fechadura de qualidade. Como se alguém o tivesse escondido deliberadamente aqui, atrás de tudo."
+**MASMORRA — SANTUÁRIO DO SENHOR NEGRO (Área 31) — AS SOMBRAS**
+Uma estátua de madeira pintada retrata Strahd — um homem magro e pálido de capa preta, mão esquerda apoiada na cabeça de um lobo, mão direita segurando uma esfera de cristal cinza esfumaçado. O orbe vale 25 PO e pode ser usado como foco arcano (não é mágico).
 
-CONTEÚDO: 100 PO, uma Poção de Cura (cura 2d4+4 PV), e uma espada curta com lâmina ligeiramente encurvada e cabo decorado. Gravado na lâmina: "Família Durst". Esta espada é +1 e pertencia a Rose — foi guardada aqui para protegê-la, nunca chegou às mãos da criança.
+Se os personagens tocarem a estátua ou tomarem a esfera: **5 Sombras** (espíritos de antigos cultistas) se formam ao redor e atacam. Perseguem quem fugir além dos limites da sala.
 
-SE ROSE ESTIVER PRESENTE E VER A ESPADA: "A expressão do fantasma de Rose muda de forma sutil — como reconhecimento. 'Papai disse que eu teria isso quando crescesse. Disseram que eu era forte para uma menina.' Uma pausa. 'Nunca cresci.'"
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+SOMBRAS (T20, ND 1/2 cada): PV 16, Defesa 12, Toque de Força de Vida +4 (1d6+2 necrótico, reduz FOR do alvo pelo dano — alvo morre se FOR chegar a 0). Imunes a armas não-mágicas. Vulneráveis a dano sagrado.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**MASMORRA — CÂMARA DO RITUAL (Área 38) — O CLÍMAX**
+Esta é a câmara final. Ver seção separada.`
       },
       {
         id: 'porcao-masmorra',
-        titulo: 'Áreas 19-28: O Porão e a Masmorra',
+        titulo: 'Áreas 22-38: A Masmorra',
         tipo: 'combat',
-        conteudo: `Esta é a parte mais perigosa da Casa da Morte. A masmorra abaixo do porão é onde o culto dos Durst realizava seus rituais. O OBJETIVO FINAL É ESCAPAR — não necessariamente matar tudo.
+        conteudo: `Esta é a parte mais perigosa da Casa da Morte. A masmorra abaixo do sótão (acessada pela Escada Secreta, Área 21) é onde o culto dos Durst realizava seus rituais. O OBJETIVO FINAL É ESCAPAR — não necessariamente matar tudo.
+
+CARACTERÍSTICAS DA MASMORRA: Túneis de 1,2m de largura × 2,1m de altura, suportados por vigas de madeira. Quartos de 2,4m de altura. Sem luz — personagens devem trazer fontes de luz próprias. Pegadas humanas centenárias no chão de terra.
+
+CANTO FANTASMAGÓRICO: A partir do momento em que chegam à masmorra, os personagens ouvem um canto misterioso ecoando por toda parte. Impossível localizar a origem até alcançar a Área 38. As palavras só se tornam audíveis na Área 38: "Ele é o Ancestral. Ele é a Terra."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 19 — Escada para o Porão**
-Uma escada de pedra desce para a escuridão.
-
-DESCRIÇÃO (LEIA EM VOZ ALTA): "A escada de pedra desce mais fundo do que deveria ser possível para uma casa de três andares. O cheiro que sobe é de terra úmida e algo mais — carne velha, e abaixo disso, algo que você reconhece instintivamente como sangue. Muita coisa sangrou aqui."
+**Área 22 — Acesso ao Nível de Masmorra**
+A escada em espiral de madeira do sótão termina aqui. Um túnel estreito se estende para o sul antes de se ramificar para leste e oeste.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 20 — Celeiro de Provisões**
-Barris e prateleiras com provisões apodrecidas.
+**Área 23 — Criptas Familiares**
+Várias criptas escavadas na terra, cada uma selada com uma laje de pedra (Atletismo CD 15 para remover; vantagem com pé-de-cabra).
 
-ITENS DISPONÍVEIS: Uma porta de ferro trancada (Ladinagem CD 13 ou Força CD 16 para forçar). 3 tochas e um isqueiro no chão — alguém as deixou aqui intencionalmente. As provisões nos barris apodreceram há décadas.
+- **23A — Cripta Vazia:** Laje em branco encostada na parede. Cripta vazia.
+- **23B — Cripta de Walter:** Laje com "Walter Durst". Cripta vazia.
+- **23C — Cripta de Gustav:** Caixão vazio em esquife de pedra.
+- **23D — Cripta de Elisabeth:** Caixão vazio. Um enxame de centopeias irrompe da parede traseira se o caixão for perturbado.
+- **23E — Cripta de Rose:** Caixão vazio. Se os restos de Rose (da Área 20) forem colocados aqui, o fantasma dela encontra paz.
+- **23F — Cripta de Thorn:** Caixão vazio. Se os restos de Thorn (da Área 20) forem colocados aqui, o fantasma dele encontra paz.
 
-SE ENCONTRAREM AS TOCHAS: "As tochas e o isqueiro estão num canto, como se colocados para quem descesse precisar de luz. Os cultistas planejavam isso."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Área 21 — Poço**
-Um poço de pedra. A água está pura mas fria.
-
-SE TESTAREM A ÁGUA (Medicina/Sobrevivência CD 10): "A água está estranhamente pura — fria como neve derretida, sem odor ou cor. Alguma magia a mantém assim. Pode ser bebida com segurança."
+NOTA DO MESTRE: Colocar os restos de Rose e Thorn em suas criptas é a única forma de finalmente libertar os espíritos das crianças. Cada personagem que ajudar a fazer isso ganha um ponto de Inspiração.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 22 — Corredor dos Cultistas**
-As paredes têm afrescos desbotados de figuras em mantos pretos circundando um altar.
-
-DESCRIÇÃO (LEIA EM VOZ ALTA): "As paredes do corredor são cobertas de afrescos — pinturas antigas mas claramente intencionais. Figuras em mantos pretos formam um círculo ao redor de um altar escuro, braços estendidos. Mas os rostos foram deliberadamente apagados — raspados da parede. Quem pintou isso não queria que os adoradores fossem identificados."
-
-ENCONTRO — 3 CULTISTAS-ESQUELETO (ND 1/2 cada):
-- PV: 13 cada | Defesa: 13 | Ataque: Adaga Enferrujada +2 (1d4 perfurante)
-- Imunes a veneno, doenças, cansaço | Vulneráveis a dano sagrado
-
-COMO APRESENTAR O ENCONTRO: "O silêncio do corredor é quebrado por um som de arrastar — osso contra pedra. Três figuras esqueléticas em trapos de manto preto viram para vocês. Não há inteligência nos crânios vazios — apenas a memória do ritual que os anima."
+**Área 24 — Quarto dos Iniciados no Culto**
+Uma mesa de madeira e quatro cadeiras na extremidade leste. A oeste, quatro alcovas com paletes de palha mofadas.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 23 — Sala de Tortura**
-Instrumentos de tortura enferrujados. Dois ganchos no teto ainda têm correntes.
+**Área 25 — Poço e Quartos dos Cultistas**
+Um poço de 1,2m de diâmetro desce 9m para uma cisterna com água. Um balde de madeira pende de mecanismo de corda-e-polia.
 
-DESCRIÇÃO (LEIA EM VOZ ALTA): "A sala é pequena e baixa. Ferramentas enferrujadas penduradas nas paredes — pinças, ganchos, lâminas de corte — cada uma de um propósito que você preferiria não imaginar. Dois ganchos de ferro no teto ainda têm correntes — grossas, compridas o suficiente para suspender uma pessoa. As manchas no chão de pedra são inconfundíveis."
-
-ENCONTRO — 2 ESPÍRITOS ATORMENTADOS (ND 1 cada):
-- Só podem ser feridos por magia, prata ou ataques sagrados
-- Atacam qualquer ser vivo com dor irracional
-
-COMO APRESENTAR: "A temperatura cai de repente. Das sombras nos cantos, algo começa a se formar — não exatamente visível, mais como ausência de luz. E então você ouve: choro. Não de criança, não de adulto — algo entre os dois. A dor nesse som é real."
-
-SE TENTAREM FALAR COM OS ESPÍRITOS: "Eles não respondem com palavras. Apenas dor. Eles não têm mais consciência — são o eco do que sofreram aqui, sem memória de quem foram."
+Cinco quartos laterais dos cultistas veteranos, cada um com cama e baú trancado (Ladinagem CD 15). TESOURO DOS BAÚS:
+- **25A:** 11 PO e 60 PP em bolsa de pele humana.
+- **25B:** Três ágatas musgo (10 PO cada) em tecido negro dobrado.
+- **25C:** Tapa-olho de couro preto com carmelita costurada (50 PO).
+- **25D:** Escova de cabelo de marfim com cerdas de prata (25 PO).
+- **25E:** Espada prateada (110 PO).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 24 — Câmara de Sacrifícios**
-O ponto central da masmorra. Um altar de pedra negra manchado de sangue seco. Runas entalhadas ao redor do altar brilham levemente de vermelho.
-
-DESCRIÇÃO (LEIA EM VOZ ALTA): "A câmara abre de repente para um espaço maior. No centro, um altar de pedra negra polida — imenso para um porão, projetado para impressionar. Manchas escuras cobrem toda a superfície. E no chão ao redor, entalhadas na pedra, runas que pulsam com uma luz vermelha fraca e intermitente. Como um coração ainda batendo."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-MISTICISMO CD 14 — As Runas do Altar
-
-O MESTRE DIZ: "As runas são de controle e canalização — uma magia de submissão. Cada vez que sangue era derramado neste altar, a energia desse sacrifício era capturada e enviada — como uma oferenda — para algo muito mais poderoso. Para alguém que mora em um castelo no topo de uma falésia. Strahd não apenas aceitava adoração abstrata: recebeu poder real destes ritos por décadas."
-
-SE PERGUNTAREM QUANTO PODER: "Impossível calcular com precisão. Mas o altar foi usado regularmente por anos. Strahd é mais poderoso por causa desta câmara — e de câmaras como esta espalhadas por Barovia."
-NA FALHA: O personagem sente que as runas são perigosas e mágicas, mas não consegue decifrar seu propósito.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-RELIGIÃO ou MISTICISMO CD 16 — Consagrar o Altar
-
-O MESTRE DIZ (se tentarem purificar com água benta ou magia divina): "Quando a água benta toca a pedra do altar, as runas reagem — a pulsação vermelha acelera, como se resistindo, e então começa a se apagar progressivamente, runa por runa, a partir do ponto de contato. Um som ressoa por toda a masmorra: um grito que não é de ser vivo, não é de morto-vivo — é do próprio rito sendo dissolvido."
-
-EFEITO: Todos os Esqueletos e Espíritos na masmorra são imediatamente destruídos — você ouve um estrondo abafado de ossos caindo nos corredores. A câmara fica em silêncio. As runas apagam completamente.
-
-NA FALHA: A tentativa de consagração não tem efeito. O altar resiste. Seria necessário mais poder divino — ou alguém com maior graduação em Religião.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Área 26 — Poço de Espinhos Oculto**
+O canto fica mais alto neste túnel. Percepção CD 15: ausência de pegadas no chão. Busca por armadilhas: um poço de 1,5m × 3m de profundidade escondido sob tábuas apodrecidas cobertas de sujeira. O primeiro personagem a pisar cai: 1d6 impacto + 2d10 perfurante (espinhos no fundo).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 25 — Câmara do Relicário**
-Três pedestais com itens malditos.
-
-DESCRIÇÃO (LEIA EM VOZ ALTA): "Três pedestais de pedra em uma sala pequena, cada um com um item diferente apresentado como se fosse precioso. A sala tem uma qualidade de exibição — como um museu de coisas que não deveriam existir."
-
-PEDESTAL 1 — CRÂNIO DE CRIANÇA:
-"Um crânio pequeno, claramente de criança. Gravado nele, mal visível, uma runa."
-Quem tocar: Vontade CD 13 ou fica com –2 em testes de Vontade por 1 dia. O MESTRE DIZ ao personagem que falhou: "Quando seus dedos tocam o osso, um frio que não é temperatura sobe pelo braço. Por um instante, você sente algo olhando de dentro de você — avaliando."
-
-PEDESTAL 2 — MEDALHÃO DE PRATA:
-"Um medalhão oval em prata, sem inscrição. Parece completamente normal."
-Vale 30 PO — mas se retirado do pedestal, desaparece em 1d4 dias e retorna ao pedestal misteriosamente. Misticismo CD 12: aura de transmutação/encantamento de âncora.
-
-PEDESTAL 3 — FACA CERIMONIAL:
-"Uma faca de cabo ornamentado com símbolos que combinam com as runas do altar. A lâmina tem um fio excelente para sua idade."
-1d4 cortante, conta como mágica contra mortos-vivos. Não é maldita — apenas sinistras.
+**Área 27 — Salão de Jantar dos Cultistas**
+Uma simples mesa de madeira com longos bancos. Ossos humanoides mofados no chão — os restos dos vis banquetes do culto. No meio da parede sul há uma alcova escurecida (Área 28). Personagens que se aproximam a 1,5m da alcova provocam a criatura que se esconde lá.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Área 26 — Covil da Guarda**
-ENCONTRO — 2 GHOULS (ND 2 cada). Para personagens de nível 2, esses são os inimigos mais perigosos até agora.
+**Área 28 — Despensa com Grick**
+Esta alcova abriga um **Grick** que desliza para atacar o primeiro personagem que entrar em seu alcance de 1,5m. PP abaixo de 12 = surpresa. A alcova está vazia (além do Grick).
 
-COMO APRESENTAR: "Do escuro à frente vêm dois sons: primeiro um farejado, depois um rangido de dentes. Duas figuras se ajoelham no corredor — humanas na forma mas não no movimento, nos dentes, no olhar sem pupila. Ghouls. Os últimos cultistas que morreram aqui, transformados pelo rito que os consumiu."
+GRICK (T20, ND 2): PV 27, Defesa 14, Iniciativa +2. Tentáculos +4 (2d6+2 perfurante). Resistência a armas não-mágicas.
 
-ESTATÍSTICAS DOS GHOULS (T20, balanceado para nível 2):
-- PV: 36 cada | Defesa: 13 | Iniciativa: +2
-- Garra +4 (1d6+2 cortante): alvo faz Fortitude CD 11 ou fica Paralisado por 1 round
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 29 — Encontrando os Ghouls (4 Ghouls)**
+O canto é notavelmente mais alto ao norte. Quando um ou mais personagens atingem o ponto médio da interseção de quatro vias, **quatro ghouls** (ex-cultistas) se levantam do chão e atacam. Lutam até ser destruídos.
+
+DESCRIÇÃO: "Do chão de terra, figuras erguem de onde você imaginaria ver apenas terra. Quatro formas — humanas na silhueta mas erradas no movimento, nos dentes, no olhar vazio. Cultistas que se tornaram o que adoravam."
+
+ESTATÍSTICAS DOS GHOULS (T20, ajustados para Nível 3):
+- PV: 40 cada | Defesa: 13 | Iniciativa: +2
+- Garra +4 (1d6+2 cortante): alvo faz Fortitude CD 12 ou fica Paralisado por 1 round
 - Mordida +4 (2d6+2 perfurante): APENAS contra Paralisado ou Incapacitado
 
-DICA CRUCIAL DE MESTRE: Os Ghouls vão tentar paralisar primeiro, morder depois. Esse combo pode matar um personagem de nível 2 em dois rounds. Se o grupo estiver em perigo real, avise sutilmente in-game: "Um dos Ghouls recua brevemente ao ver vocês recuando — eles são oportunistas, não berserkers. Fugir é uma opção."
+DICA DE MESTRE: Quatro ghouls são ameaça séria para nível 3. Os ghouls tentarão paralisar primeiro, morder depois. Se o grupo tiver personagens paralisados, o combo pode ser letal. Sugira tacitamente retirada se mais de dois personagens estiverem paralisados ao mesmo tempo.
 
-SE FUGIREM: Os Ghouls não perseguem além de sua área territorial. Param no limite do corredor, farejando o ar.`
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 30 — Escadas para Baixo**
+Escada de 6m que leva ao segundo nível subterrâneo. O canto se origina claramente de baixo. Personagens que descerem chegam à Área 35 (Relicário).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 31 — O Santuário do Senhor Negro**
+Esqueletos mofados pendem de grilhões enferrujados nas paredes (decoração inofensiva). No centro, uma grande alcova contém uma estátua de madeira pintada de Strahd — homem magro e pálido com capa preta, mão esquerda apoiada na cabeça de um lobo, mão direita segurando uma **esfera de cristal cinza esfumaçado** (25 PO, foco arcano não-mágico).
+
+Se os personagens tocarem a estátua ou tomarem a esfera: **5 Sombras** emergem e atacam (ver estatísticas na seção do Terceiro Andar). As Sombras perseguem além dos limites da sala.
+
+PORTA ESCONDIDA (Percepção CD 10): Porta de madeira apodrecida sob camada de argila na parede leste. Abre para escadaria de pedra que sobe 3m até a Área 32.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 32 — Alçapão Oculto**
+A escadaria termina em uma superfície com teto de 1,8m. Um **alçapão de madeira** está fechado aparafusado por este lado — empurrando revela o Covil dos Lobos (Área 3) acima. Uma vez aberto, permanece disponível como entrada/saída do calabouço.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 33 — Covil dos Líderes do Culto (Antessala)**
+ATENÇÃO: A porta no canto sudoeste é um **Mímico** disfarçado. Qualquer criatura que toque a porta fica agarrada (Atletismo CD 14 para escapar). O Mímico ataca se agarrar alguém ou receber dano.
+
+MÍMICO (T20, ND 2): PV 58, Defesa 12. Pseudópodo +5 (1d8+3 impacto + agarrado). Mordida +5 (1d8+3 perfurante). Imune a ácido e a condições de sono.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 34 — Quarto dos Líderes do Culto**
+Uma grande cama de madeira com colchão de pena, guarda-roupa com vestes antigas, castiçais de ferro, uma caixa com 30 tochas e 15 velas, e um baú desbloqueado no pé da cama com tesouros.
+
+**ENCONTRO — OS LÍVIDOS: Gustav e Elisabeth Durst**
+Os lívidos estão escondidos nas cavidades atrás das paredes de terra. Explodem e atacam se qualquer item for removido do baú.
+
+ESTATÍSTICAS DOS LÍVIDOS (T20, ND 3 cada):
+PV: 45 | Defesa: 14 | Iniciativa: +2
+- Garra Necrótica +4 (1d6+3 necrótico): Fortitude CD 13 ou PV máx reduzido pelo dano necrótico causado
+- Imunes a veneno e doenças. Vulneráveis a dano sagrado.
+
+TESOURO DO BAÚ: Manto da Proteção, 4 Poções de Cura, Cota de Malha, Kit de Refeição, Frasco de Fogo Alquímico, Lanterna de Foco, Ferramentas de Ladrão, e um **Livro de Magias** (capa amarela) com: 1°: Armadura Arcana, Disfarçar, Identificação, Mísseis Mágicos, Proteção Contra o Bem e o Mal; 2°: Arma Mágica, Imobilizar Pessoa, Invisibilidade, Visão no Escuro.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 35 — Relicário**
+Treze nichos nas paredes com "relíquias" do culto (itens sem valor mágico, apenas sinistros): mão mumificada de goblin, faca esculpida em osso humano, punhal com crânio de rato no pomo, orbe de olho de nótico envernizado (20cm), aspergillum de osso, capa de pele de ghoul, sapo dissecado amarrado a uma vara (pode ser confundido com varinha de metamorfose), saco de guano de morcego, dedo de bruxa, estatueta de múmia, pingente de ferro com rosto de diabo, cabeça murcha de halfling, cofre com língua seca de lobo atroz.
+
+O túnel ao sul desce em ângulo de 20° terminando numa ponte levadiça enferrujada (Área 37).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 36 — Prisão**
+Grilhões enferrujados nas paredes de alcovas. Os prisioneiros já se foram — seus ossos estão no Salão de Jantar (Área 27).
+
+PORTA SECRETA (Percepção CD 15): Puxa para revelar a Área 38 além.
+
+TESOURO: Num esqueleto na parede (membro do culto que questionou a devoção cega), há um anel de ouro (25 PO) no dedo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 37 — Ponte Levadiça**
+Ponte levadiça de ferro enferrujado bloqueando o túnel. Pode ser forçada (Atletismo CD 20) ou operada pela roda de madeira embutida na parede leste da Área 38. O chão ao redor está submerso em 60cm de água turva.`
       },
       {
         id: 'encontro-final',
-        titulo: 'Área 27-28: O Monstro e a Fuga',
+        titulo: 'Área 38: Câmara do Ritual — O Clímax da Casa da Morte',
         tipo: 'combat',
-        conteudo: `**Área 27 — Câmara do Ritual**
-A câmara central. Um círculo de ritual de 6m de diâmetro gravado no chão de pedra. Doze estacas de madeira ao redor do círculo — nove têm esqueletos acorrentados. Três estão vazias.
+        conteudo: `**Área 38 — Câmara do Ritual (CLÍMAX)**
+Acessada pela Área 36 (porta secreta, Percepção CD 15) ou pela Área 37 (ponte levadiça). Esta é a câmara submersa.
 
-DESCRIÇÃO (LEIA EM VOZ ALTA): "A câmara maior que vocês já viram nesta casa se abre. Um círculo de ritual imenso, gravado com precisão perturbadora no chão de pedra. Doze estacas de madeira ao redor do perímetro — nove têm correntes. E nessas correntes... esqueletos humanos, ainda presos. Três estacas estão vazias, com correntes abertas. Como se estivessem esperando."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CENA DE ROSE E THORN — A REVELAÇÃO FINAL
-
-Se as crianças estão com os personagens:
-
-Rose para na entrada. Sua voz muda — a de uma criança de dez anos se torna algo mais vazio, mais antigo.
-
-LEIA EM VOZ ALTA (voz de Rose): "O monstro precisa de sangue. Sempre precisou. Meus pais... trouxeram pessoas assim. Aventureiros. Para satisfazer o rito." *(pausa)* "Nós... precisávamos de alguém para nos substituir. As três estacas vazias — eram para nós. Para Rose. Para Thorn. Para..." *(a voz quebra)* "...para Walter. Mas Walter já estava..."
-
-*(outra pausa, mais longa)*
-
-"Desculpem. Nós não sabíamos que estávamos fazendo isso quando chamamos vocês. Nós apenas queríamos sair daqui. Mas a casa... a casa não permite saída sem o rito."
-
-Os dois fantasmas se dissipam — e imediatamente cada personagem sente algo tentando entrar.
+DESCRIÇÃO (LEIA EM VOZ ALTA): "O canto cessa assim que vocês chegam nesta sala de doze metros quadrados. Paredes lisas de alvenaria com acústica excelente. Pilares de pedra sem cor suportam o teto de 4,8 metros. Uma abertura na parede oeste leva a uma caverna escura cheia de lixo. Água turva — 60 centímetros de profundidade — cobre a maior parte do chão. Escadas conduzem a bordas de pedra secas que abraçam as paredes. No meio da sala, mais escadas elevam-se para um estrado octogonal acima da água. Correntes enferrujadas com grilhões pendem do teto diretamente acima de um altar de pedra montado no estrado — esculpido com representações horríveis de carniçais agarrando, manchado de sangue seco. Uma roda de madeira está embutida na parede leste (opera a ponte levadiça da Área 37)."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-VONTADE CD 13 — Possessão pelos Fantasmas de Rose e Thorn
+LORGHOTH, O DECADENTE — A AMEAÇA OCULTA
 
-O MESTRE DIZ (para cada jogador, individualmente): "Você sente algo empurrar contra sua mente — não com violência, mas com desespero. Uma presença pequena, assustada, que apenas quer sair daqui. Que quer sentir um corpo de novo. Que não está tentando te machucar — mas não consegue se controlar."
+Na abertura da parede oeste há uma alcova naturalmente formada. A pilha semi-submersa de refugo que a preenche é um **Arbusto Errante** que os cultistas apelidaram de Lorghoth, o Decadente. Ele está dormindo. Desperta se atacado ou se os personagens convocarem os cultistas e se recusarem a completar o ritual.
 
-SUCESSO: "Você resiste. O fantasma escorrega sem conseguir entrar. Você sente brevemente — por um segundo — o que é ter medo há décadas sem poder ir a lugar algum. Depois passa."
+Natureza CD 15: um personagem de pé ao lado do montículo discerne a verdadeira natureza da criatura.
 
-FALHA (possuído por 1 hora): "Algo encontra uma fresta e entra. Você ainda é você — mas há outra voz nos seus pensamentos. Uma criança. Confusa. Que às vezes faz sua mão se mover de formas que você não planejou. Que às vezes sussurra: 'Por favor, nos ajudem a sair.'"
-
-MECÂNICA DA POSSESSÃO: O personagem possuído age normalmente, mas o Mestre pode pedir Vontade CD 11 em momentos dramáticos. Na falha, a criança temporariamente "toma o controle" por 1 round — geralmente tentando correr para a saída.
+LORGHOTH (Arbusto Errante, T20, ND 4 ajustado para Nível 3): PV 80, Defesa 13, Iniciativa +1. Deslocamento: 9m (pode se espremer em túneis). Ramadas +6 (2d6+4 impacto). Espinhos (reação, 1d4+2 perfurante quando atingido em corpo-a-corpo). Regeneração: recupera 10 PV por turno se tiver pelo menos 1 PV (não funciona contra fogo ou ácido). Persegue personagens além da câmara, mas não deixa o calabouço.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"UM DEVE MORRER!"
 
-ENCONTRO BOSS — A SOMBRA DE STRAHD (Specter Menor, ND 3):
-Um fragmento da sombra de Strahd aprisionado no ritual — não o próprio Conde, mas poder suficiente para matar personagens de nível 2.
+Se qualquer personagem sobe ao topo do estrado:
 
-COMO APRESENTAR: "Do centro do círculo de ritual, a escuridão se condensa. Não é trevas — é ausência de luz com forma própria. A figura que emerge é humanóide mas errada: muito alta, bordas que desfocam, olhos que são apenas dois pontos de vermelho frio. E quando fala, a voz vem de dentro da cabeça de todos simultâneamente: 'Sangue. O rito pede sangue. Vocês escolheram entrar. Vocês escolheram ser a oferta.'"
+LEIA EM VOZ ALTA: "O canto se ergue mais uma vez enquanto treze aparições escuras aparecem nas bordas que dominam a sala. Cada uma se assemelha a uma figura de túnica preta segurando uma tocha — mas o fogo da tocha é negro e parece atrair luz para ele. Onde você esperaria ver rostos só há vazio. 'Um deve morrer!', cantam, repetidamente. 'Um deve morrer! Um deve morrer!'"
 
-ESTATÍSTICAS (balanceado para Nível 2):
-- PV: 45 | Defesa: 12 (incorpóreo) | Iniciativa: +6 | Deslocamento: 18m (voo)
-- IMUNIDADES: Veneno, doenças, condições físicas, dano de armas não-mágicas
-- VULNERABILIDADE: Dano sagrado (dano DOBRADO)
-- Toque Corrompido +5: 3d6 necrótico — reduz PV máximos do alvo pelo dano causado
-- Drenar Vida (recarga 5-6): Todos em 4,5m fazem Vontade CD 13 ou perdem 2d6 PV máximos
+AS APARIÇÕES SÃO INOFENSIVAS — não podem ser feridas, transformadas ou dissipadas.
 
-DICA CRUCIAL: Se um personagem chegar a 0 PV máximos por Drenar Vida, morre — não apenas fica inconsciente. Avise os jogadores que os PV máximos estão sendo reduzidos.
+MECÂNICA — OS PERSONAGENS TÊM DUAS ESCOLHAS:
 
-SE USAREM A ESPADA CURTA +1 DO ÁTICO: O dano mágico afeta a Sombra normalmente.
-SE USAREM A FACA CERIMONIAL: Conta como mágica contra ela.
-SE USAREM A ÁGUA BENTA ou ÓLEO ABENÇOADO: Dano normal + vulnerabilidade sagrada = excelente opção.
+**OPÇÃO 1 — APAZIGUAR O CULTO (Sacrificar uma criatura):**
+Religião ou Intuição CD 11 para entender o que é exigido. Uma criatura deve morrer no altar. As aparições não se importam com o tipo de criatura, e não são enganadas por ilusões.
+- Se o sacrifício for feito: as aparições desaparecem. A Casa da Morte não impede os personagens de sair. O canto "Ele é o Ancestral. Ele é a Terra" ecoa novamente. Strahd está ciente do sacrifício.
+- AO SAIR: os personagens atingem o 3° nível (se vieram do 1°) ou apenas progridem normalmente.
 
-QUANDO A SOMBRA É DESTRUÍDA: "A figura se dissolve com um som que não é bem um grito — é mais como quando você apaga uma vela: um sopro, e então escuridão novamente. O círculo de ritual no chão para de pulsar. O ar na câmara fica simplesmente... frio. E silencioso. Muito silencioso."`,
+**OPÇÃO 2 — NEGAR O CULTO (Recusar o sacrifício):**
+Se os personagens deixam o estrado sem fazer o sacrifício, o canto muda: "Lorghoth, o Decadente, nós o despertamos, levanta-te!" O Arbusto Errante desperta e ataca. Se os personagens fugirem para o andar superior, a Casa os ataca (ver seção da Fuga). Se Lorghoth for destruído, o canto para e as aparições desaparecem para sempre.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+POSSESSÃO DE ROSE E THORN
+
+NOTA: Os fantasmas de Rose e Thorn só tentam possuir personagens que tentem sair da casa antes de resolver a câmara do ritual. A possessão é ativada pelo medo do abandono das crianças, não pelo ritual em si.
+
+Se os personagens possuídos pelos fantasmas chegarem à câmara do ritual — os fantasmas "acordam" para a realidade do que seus pais faziam, o que pode provocar uma crise emocional nos jogadores que os controlam. Role Intimidação CD 11 para os fantasmas saírem voluntariamente por choque — eles não queriam participar do que os pais faziam.`,
         recompensas: [
-          '300 PO divididos (tesouros da câmara)',
-          'Faca Cerimonial dos Durst (conta como mágica vs mortos-vivos)',
-          'Os personagens atingem Nível 3 ao sair da casa',
+          'Tesouros dos baús dos cultistas (Área 25A-E e 34)',
+          'Livro de Magias dos líderes do culto (Área 34)',
+          'Anel de ouro da prisão (Área 36, 25 PO)',
+          'Os personagens atingem o 3° nível ao sair da casa',
         ],
       },
       {
         id: 'fuga',
-        titulo: 'A Grande Fuga — A Casa Desmorona',
+        titulo: 'Conclusão — A Casa Ataca ou Libera',
         tipo: 'combat',
-        conteudo: `Após a Sombra ser destruída (ou se os personagens fugirem), a casa começa a **desmoronar**. Os personagens têm **5 rounds** para chegar à porta principal.
+        conteudo: `Há dois desfechos possíveis, dependendo do que aconteceu na Área 38:
 
-**Round a round:**
-- Round 1-2: Tetos rachando, detritos caindo. Reflexos CD 10 ou 1d6 dano de impacto.
-- Round 3-4: Paredes cedendo. Atletismo/Acrobacia CD 12 para avançar com movimento completo, ou move-se a metade.
-- Round 5: A entrada principal abre sozinha — a casa os libera. Quem ainda estiver dentro recebe 2d6 impacto e pode tentar Atletismo CD 14 para se jogar para fora.
+---
 
-**Epílogo:**
-Os personagens sobreviventes estão do lado de fora. Rose e Thorn, em forma de fantasma, aparecem brevemente acima da entrada.
+## Se o Culto Foi Apaziguado (Sacrifício foi feito)
 
-*Rose (voz suave):* "Obrigada por tentar. Tomara que alguém possa nos salvar um dia."
+A Casa da Morte não tem vontade maligna contra um grupo disposto a sacrificar uma vida para apaziguar o culto. Uma vez feito o sacrifício, os personagens são livres para ir. **Ao sair da casa, os personagens avançam para o 3º nível.**
 
-Os fantasmas desaparecem. Os personagens sobem de nível — ao saírem da Casa da Morte, atingem o **Nível 3**.`,
+---
+
+## Se o Culto Foi Negado (Personagens recusaram o sacrifício)
+
+Se os personagens negaram o sacrifício ao culto e destruíram o Arbusto Errante (ou escaparam dele), **a Casa da Morte os ataca enquanto tentam sair**. Ao retornarem aos andares superiores, role iniciativa — os personagens descobrem várias mudanças arquitetônicas:
+
+**Janelas Bloqueadas:** Todas as janelas têm tijolos agora. As paredes externas são impermeáveis a ataques de arma e magias de dano — não há como sair por ali.
+
+**Portas Substituídas por Lâminas de Foice:** Todas as portas desapareceram, substituídas por lâminas de foice oscilantes. Para passar por uma porta:
+- **Acrobacia CD 15** (Destreza): Passar ileso
+- **Inteligência CD 15**: Um personagem que gaste 1 minuto observando as lâminas pode tentar aproveitar uma brecha momentânea no movimento repetitivo
+- **Falha em qualquer teste:** O personagem sofre **2d10 de dano cortante** mas consegue passar mesmo assim
+- As foices não podem ser desarmadas
+
+**Fumaça Negra Venenosa:** Cada quarto com lareira, fogão ou forno está cheio de fumaça preta espessa. A sala fica fortemente obscurecida, e qualquer criatura que inicie seu turno na fumaça deve realizar um teste de **Fortitude CD 10** ou sofrer **1d10 de dano de veneno**.
+
+**Paredes Quebradiças:** As paredes internas estão podres e frágeis. Cada seção de 1,5m tem **Defesa 5** e **5 PV**, e pode ser destruída com um teste de **Atletismo CD 10** (Força). Cada seção de parede destruída faz surgir um **enxame de ratos** que ataca. Os enxames não saem da casa.
+
+**Instrução para o Mestre:** Mantenha o controle de iniciativa enquanto os personagens abrem caminho pelos andares. A ordem de combate cria tensão — cada porta é uma decisão, cada lareira é um perigo, cada parede destruída libera mais ratos.
+
+---
+
+## Conclusão
+
+Uma vez que os personagens escapem (independentemente do método), **a casa não faz mais nada para prejudicá-los**.
+
+Se os fantasmas de Rose e Thorn ainda estiverem presos na casa (seus restos não foram levados às criptas — Áreas 23E e 23F), eles podem aparecer brevemente acima da entrada, olhando com uma mistura de alívio e tristeza.
+
+**Os personagens avançam para o Nível 3 ao sair da Casa da Morte.**`,
       },
     ]
   },
@@ -2100,10 +2227,10 @@ export const ITENS: Item[] = [
     tipo: 'magico',
     raridade: 'incomum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 14 — Quarto Principal, caixa de joias na escrivaninha (não nos corpos)',
-    descricao: 'Anel de signatura com as iniciais entalhadas da família Durst. Parece sem efeito mágico — mas é a chave para uma porta secreta no Castelo Ravenloft. Os personagens provavelmente não saberão disso até chegarem ao castelo.',
-    mecanica: 'Abre um mecanismo de porta secreta específico no Castelo Ravenloft quando inserido. Pode ser vendido por 25 PO se os personagens não perceberem a utilidade — seria uma perda significativa mais tarde.',
-    observacoes: 'ATENÇÃO: Tentar remover joias dos corpos mumificados os anima como Zumbis (ND 1 cada). Os itens estão na escrivaninha — seguro de pegar. A caixa também contém Brincos de Rubi (100 PO).',
+    localizacao: 'Área 12 — Suíte Master, caixa de joias na penteadeira',
+    descricao: 'Anel de signatura com as iniciais entalhadas da família Durst. Item de valor histórico e narrativo — pertenceu a uma família de cultuadores que serviu a Strahd por gerações. Pode ser reconhecido por habitantes mais antigos de Barovia.',
+    mecanica: 'Valor: 25 PO. Sem efeito mágico confirmado pelo livro. Item narrativo que pode ser expandido pelo Mestre como gancho de história. Os itens na caixa de joias apodrecem se retirados da casa.',
+    observacoes: 'A caixa de joias está na penteadeira do quarto. Contém também os Brincos de Rubi (100 PO), três anéis de ouro (25 PO cada) e um colar de platina com pingente de topázio (750 PO). Gustav e Elisabeth NÃO estão no quarto — são Lívidos na Área 34.',
   },
   {
     id: 'amuleto-corvo',
@@ -2201,10 +2328,10 @@ export const ITENS: Item[] = [
     tipo: 'documento',
     raridade: 'comum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 6 — Escritório, compartimento secreto sob gaveta (Investigação CD 14)',
-    descricao: 'Livro pequeno encadernado em couro preto. Revela a progressão psicológica de Elisabeth — de mãe normal para cúmplice relutante de sacrifícios. As entradas finais revelam o sacrifício do bebê Walter e o horror de Elisabeth com o que a família se tornou.',
-    mecanica: 'Item narrativo. Confirma que Walter foi sacrificado ("o rito exigiu mais"). Revela que o culto Durst servia ativamente a Strahd com oferendas de sangue. Leitura em voz alta é momento dramático poderoso.',
-    observacoes: 'Fragmentos para ler: "Gustav me prometeu que as crianças nunca saberiam..." / "Walter não sobreviveu ao rito. Gustav diz que foi necessário..." / "A culpa foi sua." O compartimento também contém 50 PO.',
+    localizacao: 'Área 9 — Sala Secreta, dentro do baú com pés de ferro (junto aos outros documentos dos Durst)',
+    descricao: 'Livro pequeno encadernado em couro preto. Revela a progressão psicológica de Elisabeth — de mãe normal para cúmplice relutante de sacrifícios. As entradas finais revelam o sacrifício do bebê Walter e o horror de Elisabeth com o que a família se tornou. Narrativamente consistente com a carta de Strahd a Gustav encontrada no mesmo baú.',
+    mecanica: 'Item narrativo (adição criativa). Confirma que Walter foi sacrificado ("o rito exigiu mais"). Revela que o culto Durst servia ativamente a Strahd com oferendas de sangue. Leitura em voz alta é momento dramático poderoso.',
+    observacoes: 'Fragmentos para ler: "Gustav me prometeu que as crianças nunca saberiam..." / "Walter não sobreviveu ao rito. Gustav diz que foi necessário..." / "A culpa foi sua." NOTA: O diário de Elisabeth não está no livro original — é adição criativa consistente com o lore estabelecido pela carta de Strahd a Gustav.',
   },
   {
     id: 'diario-rose',
@@ -2212,7 +2339,7 @@ export const ITENS: Item[] = [
     tipo: 'documento',
     raridade: 'comum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 11 — Quarto de Rose e Thorn, embaixo da cama de Rose (Investigação CD 10)',
+    localizacao: 'Área 20 — Quarto das Crianças (Sótão), embaixo da cama de Rose (Investigação CD 10)',
     descricao: 'Diário pequeno com capa de couro cor-de-rosa desbotado. Caligrafia infantil mas aplicada. As últimas entradas documentam os dias em que Rose tentava ser corajosa para Thorn enquanto os pais não voltavam do porão.',
     mecanica: 'Item narrativo. Máximo impacto emocional se lido em voz alta enquanto Rose e Thorn estão presentes. Pode aprofundar a empatia dos jogadores com os fantasmas das crianças.',
     observacoes: 'Última entrada: "A casa faz barulhos à noite. Não saímos mais dos quartos." — Depois disso, páginas em branco. Se lido para os fantasmas, Rose fica imóvel e Thorn vai para a janela. Nenhuma das duas fala.',
@@ -2234,7 +2361,7 @@ export const ITENS: Item[] = [
     tipo: 'documento',
     raridade: 'incomum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 10 — Biblioteca, segunda prateleira (Misticismo CD 15 para detectar aura)',
+    localizacao: 'Área 8 — Biblioteca, segunda prateleira (Misticismo CD 15 para detectar aura)',
     descricao: 'Volume com capa dizendo "Histórias Populares de Barovia", mas as páginas estão escritas em Abissal. Usa magia de dissimulação para esconder o conteúdo. As páginas têm marcas de uso — alguém na casa Durst praticava esses rituais ativamente.',
     mecanica: 'Contém três rituais de convocação menor (espíritos subservientes, sombras vinculadas, ecos de mortos). Requer leitura em Abissal. Valor de venda: 50-100 PO para mago ou estudioso de ocultismo.',
     observacoes: 'Misticismo CD 15 para detectar a aura de dissimulação. Prova que os Durst não apenas estudavam magia sombria — a praticavam. Personagens sem Abissal podem levar o tomo e procurar um tradutor em Valaki.',
@@ -2246,31 +2373,9 @@ export const ITENS: Item[] = [
     tipo: 'tesouro',
     raridade: 'incomum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 14 — Quarto Principal, caixa de joias na escrivaninha',
-    descricao: 'Par de brincos de ouro com rubis engastados. Parte da coleção de joias de Elisabeth Durst — de qualidade aristocrática. Guardados na escrivaninha junto ao Anel de Signatura dos Durst.',
-    mecanica: 'Valor: 100 PO o par. Sem efeito mágico.',
-    observacoes: 'Os itens estão na escrivaninha — não nos corpos. Tentar retirar joias dos corpos mumificados os anima como Zumbis (ND 1 cada).',
-  },
-  {
-    id: 'medalhao-walter',
-    nome: 'Medalhão de Walter Durst',
-    tipo: 'tesouro',
-    raridade: 'comum',
-    capitulo: 'Casa da Morte',
-    localizacao: 'Área 12 — Berçário, escondido sob a manta no berço (Investigação CD 13)',
-    descricao: 'Medalhão de prata em corrente fina. Verso gravado: "Walter — Filho Predileto. Que descanse no amor eterno dos Durst." Data de mais de dois séculos. Pertencia ao bebê Walter — o filho que os Durst sacrificaram no ritual. A preservação mágica do berçário também o conservou.',
-    mecanica: 'Valor: 25 PO. MALDITO: Portador que dorme com o medalhão faz Vontade CD 13. Na falha: pesadelos — acorda sem benefício de descanso longo e com –1 em todos os testes até o próximo descanso.',
-    observacoes: 'Poderoso momento narrativo se Rose e Thorn estiverem presentes e os personagens concluírem em voz alta que Walter foi sacrificado. Rose: "Não sabíamos." A maldição some se o medalhão for descartado ou consagrado com Água Benta.',
-  },
-  {
-    id: 'lenco-seda',
-    nome: 'Lenço de Seda "G.A."',
-    tipo: 'tesouro',
-    raridade: 'comum',
-    capitulo: 'Casa da Morte',
-    localizacao: 'Área 9 — Quarto de Hóspedes, baú no pé da cama',
-    descricao: 'Lenço de seda branca com iniciais bordadas em fio azul: "G.A." Pertencia a um hóspede dos Durst — alguém que visitou a mansão e não voltou para buscá-lo, ou não teve chance de fazê-lo.',
-    mecanica: 'Sem efeito mágico. Valor: 5 PO (seda de qualidade). Mistério narrativo — as iniciais "G.A." não são explicadas na campanha oficial.',
-    observacoes: 'O Mestre pode expandir: um parente que investigou os Durst e desapareceu, um servo que foi embora, ou um aliado de Strahd. Uma subquestão opcional interessante para grupos curiosos.',
+    localizacao: 'Área 12 — Suíte Master, caixa de joias na penteadeira',
+    descricao: 'Par de brincos de ouro com rubis engastados. Parte da coleção de joias de Elisabeth Durst — de qualidade aristocrática. Guardados na caixa de joias (prata com filigrana de ouro, valor 75 PO) junto com três anéis de ouro (25 PO cada) e um colar de platina com pingente de topázio (750 PO).',
+    mecanica: 'Valor: 100 PO o par. Sem efeito mágico. Itens apodrecem se retirados da casa.',
+    observacoes: 'A caixa de joias está na penteadeira do quarto. Gustav e Elisabeth Durst NÃO estão no quarto — são Lívidos na masmorra (Área 34).',
   },
 ]
