@@ -1723,7 +1723,7 @@ export const BESTIARIO: Monstro[] = [
     nd: '2',
     tipo: 'Morto-Vivo',
     tamanho: 'Médio',
-    pv: 36,
+    pv: 40,
     defesa: 13,
     iniciativa: '+2',
     deslocamento: '9m',
@@ -1740,6 +1740,156 @@ export const BESTIARIO: Monstro[] = [
     ],
     descricao: 'Mortos-vivos voraces que se alimentam de carne humana. Os Ghouls da Casa da Morte são os cultistas originais que morreram nos rituais do porão.',
     localizacao: 'Casa da Morte (porão), Floresta de Svalich'
+  },
+  {
+    id: 'sombra',
+    nome: 'Sombra',
+    nd: '1/2',
+    tipo: 'Morto-Vivo (Incorpóreo)',
+    tamanho: 'Médio',
+    pv: 16,
+    defesa: 12,
+    iniciativa: '+2',
+    deslocamento: '12m (voo)',
+    atributos: { for: -2, des: 2, con: 0, int: -2, sab: 0, car: -1 },
+    resistencias: { fortitude: '+1', reflexos: '+4', vontade: '+2' },
+    imunidades: ['veneno', 'doenças', 'condições físicas', 'dano de armas não-mágicas'],
+    resistenciaDano: ['ácido', 'fogo', 'elétrico', 'trovão', 'corte/perfuração/impacto de armas não-mágicas'],
+    sentidos: ['Visão no escuro 18m'],
+    ataques: [
+      { nome: 'Toque de Força de Vida', bonus: '+4', dano: '1d6+2', tipo: 'Necrótico', descricao: 'Reduz a Força do alvo pelo dano causado. Se a Força chegar a 0, o alvo morre e se levanta como outra Sombra.' }
+    ],
+    habilidades: [
+      { nome: 'Incorpóreo', descricao: 'Pode se mover através de criaturas e objetos. Terminar turno dentro de um objeto causa 1d10 força.' },
+      { nome: 'Vulnerabilidade ao Sagrado', descricao: 'Sofre dano dobrado de fontes sagradas.' },
+      { nome: 'Vulnerabilidade à Luz Solar', descricao: 'Em plena luz solar: desvantagem em ataques e testes de Percepção.' }
+    ],
+    descricao: 'Espíritos de antigos cultistas dos Durst aprisionados na Casa da Morte. Cinco habitam o Santuário do Senhor Negro (Área 31). Atacam se a estátua de Strahd for tocada ou o orbe for removido.',
+    localizacao: 'Casa da Morte — Área 31 (Santuário do Senhor Negro)'
+  },
+  {
+    id: 'livido',
+    nome: 'Lívido (Wight)',
+    nd: '3',
+    tipo: 'Morto-Vivo',
+    tamanho: 'Médio',
+    pv: 45,
+    defesa: 14,
+    iniciativa: '+2',
+    deslocamento: '9m',
+    atributos: { for: 3, des: 2, con: 3, int: 1, sab: 1, car: 0 },
+    resistencias: { fortitude: '+5', reflexos: '+4', vontade: '+3' },
+    imunidades: ['veneno', 'doenças'],
+    resistenciaDano: ['corte/perfuração/impacto de armas não-mágicas'],
+    sentidos: ['Visão no escuro 18m'],
+    ataques: [
+      { nome: 'Garra Necrótica', bonus: '+4', dano: '1d6+3', tipo: 'Cortante + Necrótico', descricao: 'Fortitude CD 13 ou PV máximo do alvo reduzido pelo dano necrótico. Redução dura até descanso longo.' },
+    ],
+    habilidades: [
+      { nome: 'Criação de Zumbis (1/dia)', descricao: 'Se matar um humanoide com Garra Necrótica, o alvo levanta como zumbi em 1d4 rounds sob controle do Lívido.' },
+      { nome: 'Vulnerabilidade ao Sagrado', descricao: 'Dano sagrado causa dano total (sem resistência).' }
+    ],
+    descricao: 'Gustav e Elisabeth Durst — os líderes do culto que serviram a Strahd — voltaram como Lívidos. Escondem-se em cavidades atrás das paredes de terra na Área 34. Atacam se qualquer item for removido do baú.',
+    localizacao: 'Casa da Morte — Área 34 (Quarto dos Líderes do Culto)'
+  },
+  {
+    id: 'arbusto-errante',
+    nome: 'Arbusto Errante (Lorghoth, o Decadente)',
+    nd: '4',
+    tipo: 'Planta',
+    tamanho: 'Grande',
+    pv: 80,
+    defesa: 13,
+    iniciativa: '+1',
+    deslocamento: '9m',
+    atributos: { for: 4, des: 1, con: 3, int: -3, sab: 0, car: -3 },
+    resistencias: { fortitude: '+5', reflexos: '+3', vontade: '+2' },
+    imunidades: ['elétrico', 'doenças'],
+    resistenciaDano: ['fogo', 'gelo'],
+    sentidos: ['Visão cega 18m'],
+    ataques: [
+      { nome: 'Ramadas', bonus: '+6', dano: '2d6+4', tipo: 'Impacto', descricao: 'Pode atingir até 3m de alcance.' },
+      { nome: 'Espinhos (Reação)', bonus: '+6', dano: '1d4+2', tipo: 'Perfurante', descricao: 'Quando atingido em corpo-a-corpo, o atacante toma dano.' }
+    ],
+    habilidades: [
+      { nome: 'Regeneração', descricao: 'Recupera 10 PV por turno se tiver ao menos 1 PV. Não funciona contra fogo ou ácido.' },
+      { nome: 'Absorção de Elétrico', descricao: 'Em vez de dano, dano elétrico cura o Arbusto Errante.' }
+    ],
+    descricao: 'Arbusto Errante que os cultistas apelidaram de "Lorghoth, o Decadente". Dorme na alcova oeste da Câmara do Ritual (Área 38). Desperta se atacado ou se o culto convoca e os personagens recusam o sacrifício.',
+    localizacao: 'Casa da Morte — Área 38 (Câmara do Ritual)'
+  },
+  {
+    id: 'mimico',
+    nome: 'Mímico',
+    nd: '2',
+    tipo: 'Aberração',
+    tamanho: 'Médio',
+    pv: 58,
+    defesa: 12,
+    iniciativa: '+1',
+    deslocamento: '4,5m',
+    atributos: { for: 3, des: 1, con: 3, int: 1, sab: 1, car: -1 },
+    resistencias: { fortitude: '+5', reflexos: '+3', vontade: '+3' },
+    imunidades: ['ácido', 'sono', 'prono'],
+    sentidos: ['Visão no escuro 18m'],
+    ataques: [
+      { nome: 'Pseudópodo', bonus: '+5', dano: '1d8+3', tipo: 'Impacto', descricao: 'Alvo fica Agarrado (CD Atletismo 14 para escapar). Enquanto agarrado, o Mímico pode usar Mordida como ação bônus.' },
+      { nome: 'Mordida', bonus: '+5', dano: '1d8+3', tipo: 'Perfurante + Ácido', descricao: 'O dano ácido ignora resistência a dano físico.' }
+    ],
+    habilidades: [
+      { nome: 'Forma Falsa', descricao: 'O Mímico pode imitar objetos inanimados com perfeição. Investigação CD 18 para identificar antes de tocar.' },
+      { nome: 'Substância Adesiva', descricao: 'Criaturas que tocam o Mímico em forma de objeto ficam automaticamente Agarradas.' }
+    ],
+    descricao: 'O Mímico na porta sudoeste da Antessala dos Líderes do Culto (Área 33) fica disfarçado como uma porta de madeira comum. Qualquer criatura que toque a "porta" fica agarrada.',
+    localizacao: 'Casa da Morte — Área 33 (Antessala dos Líderes)'
+  },
+  {
+    id: 'espectro',
+    nome: 'Espectro (Babá dos Durst)',
+    nd: '1',
+    tipo: 'Morto-Vivo (Incorpóreo)',
+    tamanho: 'Médio',
+    pv: 22,
+    defesa: 12,
+    iniciativa: '+4',
+    deslocamento: '9m (voo)',
+    atributos: { for: -5, des: 4, con: 0, int: 0, sab: 0, car: 0 },
+    resistencias: { fortitude: '+2', reflexos: '+6', vontade: '+2' },
+    imunidades: ['veneno', 'doenças', 'dano de armas não-mágicas'],
+    sentidos: ['Visão no escuro 18m'],
+    ataques: [
+      { nome: 'Toque Necrótico', bonus: '+4', dano: '1d6+2', tipo: 'Necrótico', descricao: 'Dano não é reduzido por resistência física.' }
+    ],
+    habilidades: [
+      { nome: 'Incorpóreo', descricao: 'Pode se mover através de criaturas e objetos. Terminar turno dentro de objeto causa 1d10 força.' },
+      { nome: 'Apenas Armas Mágicas ou Sagradas', descricao: 'Imune a dano de armas não-mágicas e não-sagradas.' }
+    ],
+    descricao: 'O espírito da babá assassinada pelos Durst. Manifesta-se na Suíte da Babá (Área 15) quando a porta do berçário é aberta, ou na Área 17 (Depósito) se os restos são perturbados. Não pode falar — apenas pura fúria residual.',
+    localizacao: 'Casa da Morte — Área 15 (Suíte da Babá) e Área 17 (Depósito)'
+  },
+  {
+    id: 'armadura-animada',
+    nome: 'Armadura Animada',
+    nd: '1',
+    tipo: 'Construto',
+    tamanho: 'Médio',
+    pv: 33,
+    defesa: 18,
+    iniciativa: '+0',
+    deslocamento: '9m',
+    atributos: { for: 3, des: 0, con: 0, int: -5, sab: -4, car: -5 },
+    resistencias: { fortitude: '+2', reflexos: '+2', vontade: '+0' },
+    imunidades: ['veneno', 'doenças', 'cansaço', 'condições mentais'],
+    sentidos: ['Visão cega 18m'],
+    ataques: [
+      { nome: 'Soco', bonus: '+4', dano: '1d6+2', tipo: 'Impacto' }
+    ],
+    habilidades: [
+      { nome: 'Vulnerabilidade ao Trovão', descricao: 'Dano de trovão causa dano dobrado.' },
+      { nome: 'Construto', descricao: 'Imune a efeitos mentais, veneno, doenças. Não precisa respirar, comer ou dormir.' }
+    ],
+    descricao: 'Armadura de placas negras encostada na parede da Varanda do Segundo Andar (Área 11), envolta em teias de aranha. Ataca assim que recebe dano ou alguém se aproxima a 1,5m. Luta até ser destruída.',
+    localizacao: 'Casa da Morte — Área 11 (Varanda/Descanso do Segundo Andar)'
   },
   {
     id: 'esqueleto-cultista',
@@ -2032,6 +2182,64 @@ export const NPCS: NPC[] = [
     }
   },
   {
+    id: 'lady-wachter',
+    nome: 'Lady Fiona Wachter',
+    titulo: 'Nobre de Valaki / Antagonista Ambígua',
+    localizacao: 'Wachterhaus, Valaki',
+    alinhamento: 'Leal e Maligno',
+    personalidade: 'Fria, calculista, sofisticada. Acredita genuinamente que Strahd traz ordem a Barovia e que o Barão Vallakovich é um tirano incompetente. Não é cruel por prazer — age por convicção política. Tem filhos que ama, o que a torna humana e não um vilão simples.',
+    aparencia: 'Mulher de quarenta e poucos anos, cabelos escuros amarrados severamente, roupas de nobreza de bom gosto mas discretas. Olhar que avalia tudo com precisão clínica. Raramente sorri — quando sorri, é para causar efeito.',
+    objetivo: 'Derrubar o Barão Vallakovich e estabelecer ordem em Valaki sob a proteção de Strahd. Acredita que colaborar com o Conde é a única forma realista de sobreviver em Barovia.',
+    segredo: 'Tem um culto de diabos menores em seu porão. Seus seguidores são cidadãos descontentes que ela converteu à adoração de servos infernais — não de Strahd diretamente, mas alinhados com a escuridão que ele representa.',
+    falas: [
+      {
+        situacao: 'Primeiro encontro (convida os personagens para chá)',
+        fala: '"Forasteiros. Que raridade em Valaki. Sentem-se — o chá é genuinamente bom, ao contrário de quase tudo nesta cidade." *(pausa)* "Posso ser direta? O Barão é um lunático perigoso. Vocês parecem competentes. Talvez possamos ser... úteis um ao outro."'
+      },
+      {
+        situacao: 'Quando os personagens percebem que ela é pró-Strahd',
+        fala: '"\'Pro-Strahd\' é uma simplificação grosseira. Sou pró-sobrevivência. O Conde não vai a lugar algum — ele é eterno, e Barovia é sua. A pergunta inteligente não é \'como derrotar Strahd\' mas \'como viver sob Strahd sem sofrimento desnecessário\'. O Barão não entende isso. Eu entendo."'
+      },
+      {
+        situacao: 'Se os personagens descobrem o culto no porão',
+        fala: '"O que meus convidados fazem em minha propriedade é assunto meu. Mas já que perguntam: sim, busco proteção além do que o Barão oferece. Os poderes que invocamos garantem segurança a Valaki. Se isso ofende suas sensibilidades... então talvez esta aliança seja mais complicada do que esperava."'
+      }
+    ],
+    estatisticas: {
+      nd: '3', pv: 35, defesa: 13,
+      pericias: 'Enganação +6, Intuição +5, Persuasão +6, Religião +4'
+    }
+  },
+  {
+    id: 'ezmerelda',
+    nome: 'Ezmerelda d\'Avenir',
+    titulo: 'Caçadora de Monstros / Ex-aluna de Van Richten',
+    localizacao: 'Vários locais em Barovia (em movimento)',
+    alinhamento: 'Caótico e Bom',
+    personalidade: 'Confiante, impulsiva, com senso de humor seco. Aprendeu com Van Richten mas discorda de sua abordagem cautelosa. Prefere ação à análise. Tem orgulho de sua perna prostética — ela mesma a personalizou com mecanismos de combat. Desconfia de Van Richten mas ainda o respeita.',
+    aparencia: 'Mulher Vistani de 30 anos, cabelos pretos encaracolados presos com uma fita vermelha. Perna prostética de madeira e metal visível abaixo do joelho direito. Veste roupas práticas de caçadora com bolsos e compartimentos em todo lugar. Confiante ao ponto da arrogância.',
+    objetivo: 'Destruir Strahd. Também, secretamente, encontrar Van Richten e resolver o mal-entendido que os separou.',
+    segredo: 'Perdeu a perna para um lobisomem quando Van Richten a abandonou em campo durante uma missão — ela o culpa pelo acidente, mas também sabe que teria feito o mesmo em sua posição. Esse paradoxo a consome.',
+    falas: [
+      {
+        situacao: 'Primeiro encontro (provavelmente ela está em apuros ou investigando algo)',
+        fala: '"Ah, reforços. Ou concorrência. Ainda estou decidindo." *(examina os personagens)* "Vocês têm aquele olhar de pessoas que Madame Eva enviou para fazer algo impossível. Sou Ezmerelda. Caçadora de monstros. Sim — aquela Ezmerelda. Não — não estou procurando Van Richten. Definitivamente não."'
+      },
+      {
+        situacao: 'Sobre Van Richten (se perguntada)',
+        fala: '"Ele me ensinou tudo que sei. E depois decidiu que saber tudo era suficiente para trabalhar sozinho." *(toca a perna prostética)* "Esta é a consequência de sua filosofia de trabalho. Mas... ele salvou muitas vidas antes de me trair. Então estamos quites. Mais ou menos."'
+      },
+      {
+        situacao: 'Propondo aliança',
+        fala: '"Olha — eu tenho informação, equipamento e experiência. Vocês têm... boa vontade, aparentemente. Juntos temos uma chance real. Separados vocês morrem coloridamente e eu tenho que fazer tudo sozinha de novo." *(pausa)* "O que acham? Parceria?"'
+      }
+    ],
+    estatisticas: {
+      nd: '8', pv: 82, defesa: 17,
+      pericias: 'Acrobacia +8, Atletismo +5, Investigação +6, Percepção +7, Furtividade +8'
+    }
+  },
+  {
     id: 'padre-donavich',
     nome: 'Padre Donavich',
     titulo: 'Sacerdote da Igreja de Barovia',
@@ -2259,7 +2467,7 @@ export const ITENS: Item[] = [
     capitulo: 'Casa da Morte',
     localizacao: 'Área 12 — Suíte Master, caixa de joias na penteadeira',
     descricao: 'Anel de signatura com as iniciais entalhadas da família Durst. Item de valor histórico e narrativo — pertenceu a uma família de cultuadores que serviu a Strahd por gerações. Pode ser reconhecido por habitantes mais antigos de Barovia.',
-    mecanica: 'Valor: 25 PO. Sem efeito mágico confirmado pelo livro. Item narrativo que pode ser expandido pelo Mestre como gancho de história. Os itens na caixa de joias apodrecem se retirados da casa.',
+    mecanica: 'Valor: 25 PO. Sem efeito mágico. ATENÇÃO: todos os itens da caixa de joias apodrecem se retirados da Casa da Morte (mecânica do livro).',
     observacoes: 'A caixa de joias está na penteadeira do quarto. Contém também os Brincos de Rubi (100 PO), três anéis de ouro (25 PO cada) e um colar de platina com pingente de topázio (750 PO). Gustav e Elisabeth NÃO estão no quarto — são Lívidos na Área 34.',
   },
   {
@@ -2302,10 +2510,10 @@ export const ITENS: Item[] = [
     tipo: 'consumivel',
     raridade: 'comum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 9 — Quarto de Hóspedes, baú no pé da cama (destrancado)',
-    descricao: 'Frasco de líquido vermelho alaranjado que brilha levemente. Deixada por um hóspede dos Durst — um dos poucos itens ainda utilizáveis na mansão abandonada.',
+    localizacao: 'Área 19 — Quarto de Repouso (Sótão), baú no pé da cama (destrancado)',
+    descricao: 'Frasco de líquido vermelho alaranjado que brilha levemente. Deixada por alguém que usava o quarto de hóspedes antes do colapso da família Durst.',
     mecanica: 'Ação: consumir. Cura 2d4+2 PV.',
-    observacoes: 'O baú também contém 12 peças de prata e um Lenço de Seda "G.A." (mistério narrativo).',
+    observacoes: 'O baú também contém 12 peças de prata e um Lenço de Seda "G.A." (adição criativa — mistério narrativo).',
   },
   {
     id: 'pocao-cura',
@@ -2358,7 +2566,7 @@ export const ITENS: Item[] = [
     tipo: 'documento',
     raridade: 'comum',
     capitulo: 'Casa da Morte',
-    localizacao: 'Área 9 — Sala Secreta, dentro do baú com pés de ferro (junto aos outros documentos dos Durst)',
+    localizacao: 'Área 8 — Biblioteca (gaveta da escrivaninha, adição criativa — não consta no livro original)',
     descricao: 'Livro pequeno encadernado em couro preto. Revela a progressão psicológica de Elisabeth — de mãe normal para cúmplice relutante de sacrifícios. As entradas finais revelam o sacrifício do bebê Walter e o horror de Elisabeth com o que a família se tornou. Narrativamente consistente com a carta de Strahd a Gustav encontrada no mesmo baú.',
     mecanica: 'Item narrativo (adição criativa). Confirma que Walter foi sacrificado ("o rito exigiu mais"). Revela que o culto Durst servia ativamente a Strahd com oferendas de sangue. Leitura em voz alta é momento dramático poderoso.',
     observacoes: 'Fragmentos para ler: "Gustav me prometeu que as crianças nunca saberiam..." / "Walter não sobreviveu ao rito. Gustav diz que foi necessário..." / "A culpa foi sua." NOTA: O diário de Elisabeth não está no livro original — é adição criativa consistente com o lore estabelecido pela carta de Strahd a Gustav.',
