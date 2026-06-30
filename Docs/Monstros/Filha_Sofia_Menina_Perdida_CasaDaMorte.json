@@ -1,0 +1,661 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-FilhaSofia2026",
+        "name": "Sofia, a Menina Perdida",
+        "avatar": "",
+        "bio": "Sofia tinha apenas alguns anos quando o culto a arrancou dos braços da mãe. Era pequena demais para entender o que acontecia — e talvez por isso seu fantasma seja o mais perturbador dos três: ainda procura os pais, ainda pede colo, ainda chora por socorro… e atrai os incautos para perto antes de drenar a vida deles.\n\nManifesta-se como uma menininha translúcida de olhos vazios e brilhantes, arrastando uma boneca de pano. Surge das paredes sem aviso e desaparece dentro dos corpos dos vivos.\n\nMecanicamente, usa um bloco de Fantasma (Morto-Vivo incorpóreo) reduzido a ND 2, com viés furtivo.",
+        "gmnotes": "<h2>Sofia, a Menina Perdida — Casa da Morte (Área 10)</h2><p><b>ND 2 | Morto-Vivo Pequeno Incorpóreo (Fantasma) | Furtiva/Enganadora</b></p><hr><h3>RESUMO TÁTICO</h3><p>A filha é a peça furtiva e psicológica. Inicia escondida (Furtividade +alta), aparece com Súplica Enganosa para neutralizar um PC e abre com Toque Faminto + Emboscada Espectral (+2d6) no surpreso. Usa Possessão Fantasmagórica para se proteger e tirar um inimigo de ação quando ameaçada. Mira nos curandeiros/conjuradores.</p><h3>PONTOS FORTES</h3><p>• Emboscada: Toque de até 4d6+5 no primeiro golpe.<br>• Súplica Enganosa: impede um PC de atacá-la (Enfeitiçado).<br>• Possessão: Confuso 1 rd + fica intocável durante o efeito.<br>• Drena vida; Pequena e furtiva.</p><h3>PONTOS FRACOS</h3><p>• <b>Luz e dano sagrado</b>: +50% — luz forte também denuncia a emboscada.<br>• Só 35 PV — a mais frágil.<br>• Fortitude baixa (+3).<br>• Possessão a expõe (Vulnerável) se o alvo resistir.</p><h3>BALANCEAMENTO</h3><p>Tabela 7-2 (ND 2: ataque +11/+12 c/ tamanho Pequeno, Defesa 18-19, PV 40 → reduzi p/ 35 por ser frágil). A Emboscada premia surpresa: se os PCs entrarem alertas, ela perde muito impacto — bom para grupos que exploram com cuidado.</p>",
+        "defaulttoken": "{\"height\": 140, \"width\": 140, \"name\": \"Sofia, a Menina Perdida\", \"represents\": \"-FilhaSofia2026\", \"showplayers_bar3\": true, \"bar_location\": \"overlap_bottom\", \"compact_bar\": \"compact\", \"bar1_value\": \"19\", \"bar3_value\": \"35\", \"bar3_max\": \"35\"}",
+        "tags": "[]",
+        "controlledby": "",
+        "inplayerjournals": "",
+        "attribs": [
+            {
+                "name": "for_mod",
+                "current": "—",
+                "max": "",
+                "id": "-Filha001"
+            },
+            {
+                "name": "des_mod",
+                "current": 4,
+                "max": "",
+                "id": "-Filha002"
+            },
+            {
+                "name": "con_mod",
+                "current": "—",
+                "max": "",
+                "id": "-Filha003"
+            },
+            {
+                "name": "int_mod",
+                "current": 1,
+                "max": "",
+                "id": "-Filha004"
+            },
+            {
+                "name": "sab_mod",
+                "current": 1,
+                "max": "",
+                "id": "-Filha005"
+            },
+            {
+                "name": "car_mod",
+                "current": 4,
+                "max": "",
+                "id": "-Filha006"
+            },
+            {
+                "name": "bonus_treino",
+                "current": 3,
+                "max": "",
+                "id": "-Filha007"
+            },
+            {
+                "name": "penalidades_armadura",
+                "current": 0,
+                "max": "",
+                "id": "-Filha008"
+            },
+            {
+                "name": "defesatotal",
+                "current": 19,
+                "max": "",
+                "id": "-Filha009"
+            },
+            {
+                "name": "carga",
+                "current": "0",
+                "max": "",
+                "id": "-Filha010"
+            },
+            {
+                "name": "menace_for",
+                "current": "—",
+                "max": "",
+                "id": "-Filha011"
+            },
+            {
+                "name": "menace_des",
+                "current": 4,
+                "max": "",
+                "id": "-Filha012"
+            },
+            {
+                "name": "menace_con",
+                "current": "—",
+                "max": "",
+                "id": "-Filha013"
+            },
+            {
+                "name": "menace_int",
+                "current": 1,
+                "max": "",
+                "id": "-Filha014"
+            },
+            {
+                "name": "menace_sab",
+                "current": 1,
+                "max": "",
+                "id": "-Filha015"
+            },
+            {
+                "name": "menace_car",
+                "current": 4,
+                "max": "",
+                "id": "-Filha016"
+            },
+            {
+                "name": "menace_defense",
+                "current": 19,
+                "max": "",
+                "id": "-Filha017"
+            },
+            {
+                "name": "menace_name",
+                "current": "Sofia, a Menina Perdida",
+                "max": "",
+                "id": "-Filha018"
+            },
+            {
+                "name": "menace_hp",
+                "current": 35,
+                "max": "",
+                "id": "-Filha019"
+            },
+            {
+                "name": "menace_mp",
+                "current": 0,
+                "max": "",
+                "id": "-Filha020"
+            },
+            {
+                "name": "menace_nd",
+                "current": 2,
+                "max": "",
+                "id": "-Filha021"
+            },
+            {
+                "name": "menace_init",
+                "current": "+8",
+                "max": "",
+                "id": "-Filha022"
+            },
+            {
+                "name": "menace_percep",
+                "current": "+7",
+                "max": "",
+                "id": "-Filha023"
+            },
+            {
+                "name": "menace_fortitude",
+                "current": "+3",
+                "max": "",
+                "id": "-Filha024"
+            },
+            {
+                "name": "menace_reflex",
+                "current": "+8",
+                "max": "",
+                "id": "-Filha025"
+            },
+            {
+                "name": "menace_will",
+                "current": "+7",
+                "max": "",
+                "id": "-Filha026"
+            },
+            {
+                "name": "menace_lutatotal",
+                "current": "+12",
+                "max": "",
+                "id": "-Filha027"
+            },
+            {
+                "name": "menace_type_size",
+                "current": "Morto-Vivo Pequeno (Fantasma)",
+                "max": "",
+                "id": "-Filha028"
+            },
+            {
+                "name": "menace_desloc",
+                "current": "voo 9m (6q), perpassar",
+                "max": "",
+                "id": "-Filha029"
+            },
+            {
+                "name": "menace_perception",
+                "current": "visão no escuro 18m",
+                "max": "",
+                "id": "-Filha030"
+            },
+            {
+                "name": "menace_resist",
+                "current": "Incorpóreo: RD 5 contra dano não-mágico, atravessa objetos e paredes. Morto-vivo: imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Cura a aflige como dano. Pequena: +5 em Furtividade.",
+                "max": "",
+                "id": "-Filha031"
+            },
+            {
+                "name": "menace_treasure",
+                "current": "Boneca de pano rasgada (sem valor — gancho de roleplay).",
+                "max": "",
+                "id": "-Filha032"
+            },
+            {
+                "name": "cstype",
+                "current": "1",
+                "max": "",
+                "id": "-Filha033"
+            },
+            {
+                "name": "for",
+                "current": "—",
+                "max": "",
+                "id": "-Filha034"
+            },
+            {
+                "name": "des",
+                "current": "4",
+                "max": "",
+                "id": "-Filha035"
+            },
+            {
+                "name": "con",
+                "current": "—",
+                "max": "",
+                "id": "-Filha036"
+            },
+            {
+                "name": "int",
+                "current": "1",
+                "max": "",
+                "id": "-Filha037"
+            },
+            {
+                "name": "sab",
+                "current": "1",
+                "max": "",
+                "id": "-Filha038"
+            },
+            {
+                "name": "car",
+                "current": "4",
+                "max": "",
+                "id": "-Filha039"
+            },
+            {
+                "name": "tamanho",
+                "current": "Pequeno",
+                "max": "",
+                "id": "-Filha040"
+            },
+            {
+                "name": "deslocamento",
+                "current": "9",
+                "max": "",
+                "id": "-Filha041"
+            },
+            {
+                "name": "vida",
+                "current": 35,
+                "max": 35,
+                "id": "-Filha042"
+            },
+            {
+                "name": "vidatotal",
+                "current": 35,
+                "max": "",
+                "id": "-Filha043"
+            },
+            {
+                "name": "vidamaxima",
+                "current": 35,
+                "max": "",
+                "id": "-Filha044"
+            },
+            {
+                "name": "vidaatual",
+                "current": 35,
+                "max": "",
+                "id": "-Filha045"
+            },
+            {
+                "name": "mana",
+                "current": "0",
+                "max": 0,
+                "id": "-Filha046"
+            },
+            {
+                "name": "manatotal",
+                "current": "0",
+                "max": "",
+                "id": "-Filha047"
+            },
+            {
+                "name": "defesabase",
+                "current": "10",
+                "max": "",
+                "id": "-Filha048"
+            },
+            {
+                "name": "bonusarmadura",
+                "current": "0",
+                "max": "",
+                "id": "-Filha049"
+            },
+            {
+                "name": "bonusescudo",
+                "current": "0",
+                "max": "",
+                "id": "-Filha050"
+            },
+            {
+                "name": "defesaoutros",
+                "current": "9",
+                "max": "",
+                "id": "-Filha051"
+            },
+            {
+                "name": "fortitudetotal",
+                "current": "3",
+                "max": "",
+                "id": "-Filha052"
+            },
+            {
+                "name": "reflexostotal",
+                "current": "8",
+                "max": "",
+                "id": "-Filha053"
+            },
+            {
+                "name": "vontadetotal",
+                "current": "7",
+                "max": "",
+                "id": "-Filha054"
+            },
+            {
+                "name": "iniciatitotal",
+                "current": "8",
+                "max": "",
+                "id": "-Filha055"
+            },
+            {
+                "name": "lutatotal",
+                "current": "12",
+                "max": "",
+                "id": "-Filha056"
+            },
+            {
+                "name": "raca",
+                "current": "Fantasma",
+                "max": "",
+                "id": "-Filha057"
+            },
+            {
+                "name": "classe",
+                "current": "Menina Perdida",
+                "max": "",
+                "id": "-Filha058"
+            },
+            {
+                "name": "nivel",
+                "current": "2",
+                "max": "",
+                "id": "-Filha059"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_melee_list",
+                "current": "Toque Faminto",
+                "max": "",
+                "id": "-FilhaME01a"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_meleedescription",
+                "current": "+12 (2d6+5 trevas mágico, drena vida)",
+                "max": "",
+                "id": "-FilhaME01b"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_nomeataque",
+                "current": "Toque Faminto",
+                "max": "",
+                "id": "-FilhaME01c"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_bonusataque",
+                "current": "0",
+                "max": "",
+                "id": "-FilhaME01d"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_danoataque",
+                "current": "2d6",
+                "max": "",
+                "id": "-FilhaME01e"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_danoextraataque",
+                "current": 0,
+                "max": "",
+                "id": "-FilhaME01f"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_dadoextraataque",
+                "current": "5",
+                "max": "",
+                "id": "-FilhaME01g"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_margemcriticoataque",
+                "current": "20",
+                "max": "",
+                "id": "-FilhaME01h"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_multiplicadorcriticoataque",
+                "current": "2",
+                "max": "",
+                "id": "-FilhaME01i"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_danocriticoataque",
+                "current": "2d6 + 2d6 + 5 + 5",
+                "max": "",
+                "id": "-FilhaME01j"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_ataquepericia",
+                "current": "@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}",
+                "max": "",
+                "id": "-FilhaME01k"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_ataquetipodedano",
+                "current": "Trevas (mágico, perda de vida)",
+                "max": "",
+                "id": "-FilhaME01l"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_modatributodano",
+                "current": "0",
+                "max": "",
+                "id": "-FilhaME01m"
+            },
+            {
+                "name": "repeating_menacemelee_-FilhaME01_ataquedescricao",
+                "current": "Mãozinhas frias que sugam o calor. Dano mágico (perda de vida). Sofia recupera PV iguais ao dano. No primeiro turno contra um alvo surpreendido, causa +2d6 (Emboscada Espectral). Corpo a corpo.",
+                "max": "",
+                "id": "-FilhaME01n"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB01_menacenameability",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-FilhaAB01a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB01_menaceabilitydescription",
+                "current": "Sem corpo físico. RD 5 contra dano não-mágico. Atravessa objetos, paredes e criaturas; flutua (voo 9m, perpassar). Ataques mágicos, luz e sagrado a atingem normalmente.",
+                "max": "",
+                "id": "-FilhaAB01b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB01_menacenameabilityinput",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-FilhaAB01c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB01_menaceabilitydescriptioninput",
+                "current": "Sem corpo físico. RD 5 contra dano não-mágico. Atravessa objetos, paredes e criaturas; flutua (voo 9m, perpassar). Ataques mágicos, luz e sagrado a atingem normalmente.",
+                "max": "",
+                "id": "-FilhaAB01d"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB02_menacenameability",
+                "current": "Morto-Vivo (Fantasma)",
+                "max": "",
+                "id": "-FilhaAB02a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB02_menaceabilitydescription",
+                "current": "Imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Cura a fere.",
+                "max": "",
+                "id": "-FilhaAB02b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB02_menacenameabilityinput",
+                "current": "Morto-Vivo (Fantasma)",
+                "max": "",
+                "id": "-FilhaAB02c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB02_menaceabilitydescriptioninput",
+                "current": "Imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Cura a fere.",
+                "max": "",
+                "id": "-FilhaAB02d"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB03_menacenameability",
+                "current": "Súplica Enganosa (1/cena por criatura, ação padrão)",
+                "max": "",
+                "id": "-FilhaAB03a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB03_menaceabilitydescription",
+                "current": "Sofia aparenta uma criança assustada pedindo socorro. Uma criatura que possa vê-la/ouvi-la em alcance curto faz Vontade CD 16 ou fica Enfeitiçada por 1 rodada: não pode atacar Sofia e tende a se aproximar para 'ajudá-la'. O efeito termina se Sofia ou um aliado dela atacar a vítima.",
+                "max": "",
+                "id": "-FilhaAB03b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB03_menacenameabilityinput",
+                "current": "Súplica Enganosa (1/cena por criatura, ação padrão)",
+                "max": "",
+                "id": "-FilhaAB03c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB03_menaceabilitydescriptioninput",
+                "current": "Sofia aparenta uma criança assustada pedindo socorro. Uma criatura que possa vê-la/ouvi-la em alcance curto faz Vontade CD 16 ou fica Enfeitiçada por 1 rodada: não pode atacar Sofia e tende a se aproximar para 'ajudá-la'. O efeito termina se Sofia ou um aliado dela atacar a vítima.",
+                "max": "",
+                "id": "-FilhaAB03d"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB04_menacenameability",
+                "current": "Possessão Fantasmagórica (1/cena, ação padrão)",
+                "max": "",
+                "id": "-FilhaAB04a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB04_menaceabilitydescription",
+                "current": "Sofia mergulha no corpo de uma criatura viva em alcance curto. O alvo faz Vontade CD 16; se falhar, fica Confuso por 1 rodada (rola na tabela de confusão) enquanto Sofia o atormenta por dentro — durante esse tempo ela está protegida (não pode ser alvejada). Se passar, Sofia é expelida e fica Vulnerável até o fim do próximo turno dela.",
+                "max": "",
+                "id": "-FilhaAB04b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB04_menacenameabilityinput",
+                "current": "Possessão Fantasmagórica (1/cena, ação padrão)",
+                "max": "",
+                "id": "-FilhaAB04c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB04_menaceabilitydescriptioninput",
+                "current": "Sofia mergulha no corpo de uma criatura viva em alcance curto. O alvo faz Vontade CD 16; se falhar, fica Confuso por 1 rodada (rola na tabela de confusão) enquanto Sofia o atormenta por dentro — durante esse tempo ela está protegida (não pode ser alvejada). Se passar, Sofia é expelida e fica Vulnerável até o fim do próximo turno dela.",
+                "max": "",
+                "id": "-FilhaAB04d"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB05_menacenameability",
+                "current": "Emboscada Espectral",
+                "max": "",
+                "id": "-FilhaAB05a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB05_menaceabilitydescription",
+                "current": "Surge de paredes, móveis e do chão. Contra um alvo surpreendido ou que ainda não agiu no combate, seu Toque Faminto causa +2d6 de dano.",
+                "max": "",
+                "id": "-FilhaAB05b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB05_menacenameabilityinput",
+                "current": "Emboscada Espectral",
+                "max": "",
+                "id": "-FilhaAB05c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB05_menaceabilitydescriptioninput",
+                "current": "Surge de paredes, móveis e do chão. Contra um alvo surpreendido ou que ainda não agiu no combate, seu Toque Faminto causa +2d6 de dano.",
+                "max": "",
+                "id": "-FilhaAB05d"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB06_menacenameability",
+                "current": "Vínculo de Luto (família)",
+                "max": "",
+                "id": "-FilhaAB06a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB06_menaceabilitydescription",
+                "current": "Enquanto Viktor (o Pai) ou a Mãe estiver ativo, Sofia recebe +2 em testes de resistência. Luto Compartilhado: quando um membro da família é destruído, ela entra em fúria de pesar (+2 em ataque e dano até o fim da cena).",
+                "max": "",
+                "id": "-FilhaAB06b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB06_menacenameabilityinput",
+                "current": "Vínculo de Luto (família)",
+                "max": "",
+                "id": "-FilhaAB06c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB06_menaceabilitydescriptioninput",
+                "current": "Enquanto Viktor (o Pai) ou a Mãe estiver ativo, Sofia recebe +2 em testes de resistência. Luto Compartilhado: quando um membro da família é destruído, ela entra em fúria de pesar (+2 em ataque e dano até o fim da cena).",
+                "max": "",
+                "id": "-FilhaAB06d"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB07_menacenameability",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-FilhaAB07a"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB07_menaceabilitydescription",
+                "current": "Enxerga no escuro até 18m.",
+                "max": "",
+                "id": "-FilhaAB07b"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB07_menacenameabilityinput",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-FilhaAB07c"
+            },
+            {
+                "name": "repeating_menaceabilities_-FilhaAB07_menaceabilitydescriptioninput",
+                "current": "Enxerga no escuro até 18m.",
+                "max": "",
+                "id": "-FilhaAB07d"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "🎲Atributos",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Atributo}}{{theroll=?{Atributo: | Destreza,Destreza[[1d20+@{des_mod}]]| Sabedoria,Sabedoria[[1d20+@{sab_mod}]]| Carisma,Carisma[[1d20+@{car_mod}]]}}}"
+            },
+            {
+                "name": "✨Resistências",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Resistência}}{{theroll=?{Resistência: | Fortitude,Fortitude[[1d20+[[@{fortitudetotal}]]]]| Reflexos,Reflexos[[1d20+[[@{reflexostotal}]]]]| Vontade,Vontade[[1d20+[[@{vontadetotal}]]]]}}}"
+            },
+            {
+                "name": "🤍ToqueFaminto",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Toque Faminto}}{{attackroll=[[1d20cs>20+12+@{ataquetemp}]]}} {{damageroll=[[(2d6)+5+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(4d6)+10+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Trevas (mágico, perda de vida)}}{{description=Drena vida = dano. Emboscada (alvo surpreso): +2d6.}}"
+            },
+            {
+                "name": "🩸ToqueFaminto-Emboscada",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Toque Faminto — EMBOSCADA}}{{attackroll=[[1d20cs>20+12+@{ataquetemp}]]}} {{damageroll=[[(4d6)+5+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(8d6)+10+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Trevas (mágico, perda de vida)}}{{description=Contra alvo surpreendido (+2d6). Drena vida = dano.}}"
+            },
+            {
+                "name": "🥺SúplicaEnganosa",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-info}{{infoname=Súplica Enganosa (1/cena por criatura)}}{{description=Alvo em alcance curto: Vontade CD 16 ou Enfeitiçado 1 rd (não pode atacá-la). Termina se a vítima sofrer ataque dos fantasmas.}}"
+            },
+            {
+                "name": "👻Possessão",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-info}{{infoname=Possessão Fantasmagórica (1/cena)}}{{description=Alvo vivo em alcance curto: Vontade CD 16. Falha = Confuso 1 rd e Sofia fica protegida (intocável). Sucesso = expelida e Vulnerável até o fim do próximo turno dela.}}"
+            }
+        ]
+    }
+}

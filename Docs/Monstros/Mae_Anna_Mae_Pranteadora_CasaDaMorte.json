@@ -1,0 +1,631 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-MaeAnna2026",
+        "name": "Anna, a Mãe Pranteadora",
+        "avatar": "",
+        "bio": "Anna era a esposa de Viktor — uma mulher prática que seguiu o marido até Barovia confiando que ele os manteria a salvo. Morreu tentando esconder a filha do culto, e seu último som foi um grito.\n\nEsse grito nunca cessou. Como fantasma, Anna vaga pela Casa da Morte buscando eternamente a criança que não conseguiu proteger, e seu pranto rasga a mente de quem o ouve. Aparenta uma mulher pálida de vestido esfarrapado, o rosto contorcido entre a súplica e a fúria.\n\nMecanicamente, usa um bloco de Fantasma (Morto-Vivo incorpóreo) reduzido a ND 3.",
+        "gmnotes": "<h2>Anna, a Mãe Pranteadora — Casa da Morte (Área 10)</h2><p><b>ND 3 | Morto-Vivo Médio Incorpóreo (Fantasma) | Controle/Medo</b></p><hr><h3>RESUMO TÁTICO</h3><p>A mãe é a controladora do trio. Guarda o Pranto Lamentoso para quando o grupo estiver agrupado (dano + Apavorado em área). Usa Olhar Suplicante para tirar de ação o personagem mais perigoso (geralmente o combatente do grupo), e ataca com Toque Gélido para se sustentar. Fica perto de Viktor para se beneficiar do Vínculo de Luto.</p><h3>PONTOS FORTES</h3><p>• Pranto Lamentoso: 3d8 + Apavorado em cone de 9m (1/cena).<br>• Olhar Suplicante: tira um PC de ação por 1 rodada.<br>• Toque Gélido drena vida.<br>• +2 em resistências enquanto a família vive; fúria quando alguém morre.</p><h3>PONTOS FRACOS</h3><p>• <b>Luz e dano sagrado</b>: +50%.<br>• 70 PV — aguenta foco moderado.<br>• Olhar Suplicante quebra se o alvo sofrer dano (um aliado pode 'acordar' o fascinado batendo de leve).</p><h3>BALANCEAMENTO</h3><p>Tabela 7-2 (ND 3: ataque +13, Defesa 21, PV 70, CD 17). Controle puro; ajuste a CD para 16 se quiser aliviar.</p>",
+        "defaulttoken": "{\"height\": 140, \"width\": 140, \"name\": \"Anna, a Mãe Pranteadora\", \"represents\": \"-MaeAnna2026\", \"showplayers_bar3\": true, \"bar_location\": \"overlap_bottom\", \"compact_bar\": \"compact\", \"bar1_value\": \"21\", \"bar3_value\": \"70\", \"bar3_max\": \"70\"}",
+        "tags": "[]",
+        "controlledby": "",
+        "inplayerjournals": "",
+        "attribs": [
+            {
+                "name": "for_mod",
+                "current": "—",
+                "max": "",
+                "id": "-Mae001"
+            },
+            {
+                "name": "des_mod",
+                "current": 3,
+                "max": "",
+                "id": "-Mae002"
+            },
+            {
+                "name": "con_mod",
+                "current": "—",
+                "max": "",
+                "id": "-Mae003"
+            },
+            {
+                "name": "int_mod",
+                "current": 1,
+                "max": "",
+                "id": "-Mae004"
+            },
+            {
+                "name": "sab_mod",
+                "current": 3,
+                "max": "",
+                "id": "-Mae005"
+            },
+            {
+                "name": "car_mod",
+                "current": 5,
+                "max": "",
+                "id": "-Mae006"
+            },
+            {
+                "name": "bonus_treino",
+                "current": 3,
+                "max": "",
+                "id": "-Mae007"
+            },
+            {
+                "name": "penalidades_armadura",
+                "current": 0,
+                "max": "",
+                "id": "-Mae008"
+            },
+            {
+                "name": "defesatotal",
+                "current": 21,
+                "max": "",
+                "id": "-Mae009"
+            },
+            {
+                "name": "carga",
+                "current": "0",
+                "max": "",
+                "id": "-Mae010"
+            },
+            {
+                "name": "menace_for",
+                "current": "—",
+                "max": "",
+                "id": "-Mae011"
+            },
+            {
+                "name": "menace_des",
+                "current": 3,
+                "max": "",
+                "id": "-Mae012"
+            },
+            {
+                "name": "menace_con",
+                "current": "—",
+                "max": "",
+                "id": "-Mae013"
+            },
+            {
+                "name": "menace_int",
+                "current": 1,
+                "max": "",
+                "id": "-Mae014"
+            },
+            {
+                "name": "menace_sab",
+                "current": 3,
+                "max": "",
+                "id": "-Mae015"
+            },
+            {
+                "name": "menace_car",
+                "current": 5,
+                "max": "",
+                "id": "-Mae016"
+            },
+            {
+                "name": "menace_defense",
+                "current": 21,
+                "max": "",
+                "id": "-Mae017"
+            },
+            {
+                "name": "menace_name",
+                "current": "Anna, a Mãe Pranteadora",
+                "max": "",
+                "id": "-Mae018"
+            },
+            {
+                "name": "menace_hp",
+                "current": 70,
+                "max": "",
+                "id": "-Mae019"
+            },
+            {
+                "name": "menace_mp",
+                "current": 0,
+                "max": "",
+                "id": "-Mae020"
+            },
+            {
+                "name": "menace_nd",
+                "current": 3,
+                "max": "",
+                "id": "-Mae021"
+            },
+            {
+                "name": "menace_init",
+                "current": "+8",
+                "max": "",
+                "id": "-Mae022"
+            },
+            {
+                "name": "menace_percep",
+                "current": "+10",
+                "max": "",
+                "id": "-Mae023"
+            },
+            {
+                "name": "menace_fortitude",
+                "current": "+5",
+                "max": "",
+                "id": "-Mae024"
+            },
+            {
+                "name": "menace_reflex",
+                "current": "+8",
+                "max": "",
+                "id": "-Mae025"
+            },
+            {
+                "name": "menace_will",
+                "current": "+9",
+                "max": "",
+                "id": "-Mae026"
+            },
+            {
+                "name": "menace_lutatotal",
+                "current": "+13",
+                "max": "",
+                "id": "-Mae027"
+            },
+            {
+                "name": "menace_type_size",
+                "current": "Morto-Vivo Médio (Fantasma)",
+                "max": "",
+                "id": "-Mae028"
+            },
+            {
+                "name": "menace_desloc",
+                "current": "voo 9m (6q), perpassar",
+                "max": "",
+                "id": "-Mae029"
+            },
+            {
+                "name": "menace_perception",
+                "current": "visão no escuro 18m",
+                "max": "",
+                "id": "-Mae030"
+            },
+            {
+                "name": "menace_resist",
+                "current": "Incorpóreo: RD 5 contra dano não-mágico, atravessa objetos e paredes. Morto-vivo: imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Cura a aflige como dano.",
+                "max": "",
+                "id": "-Mae031"
+            },
+            {
+                "name": "menace_treasure",
+                "current": "Nenhum.",
+                "max": "",
+                "id": "-Mae032"
+            },
+            {
+                "name": "cstype",
+                "current": "1",
+                "max": "",
+                "id": "-Mae033"
+            },
+            {
+                "name": "for",
+                "current": "—",
+                "max": "",
+                "id": "-Mae034"
+            },
+            {
+                "name": "des",
+                "current": "3",
+                "max": "",
+                "id": "-Mae035"
+            },
+            {
+                "name": "con",
+                "current": "—",
+                "max": "",
+                "id": "-Mae036"
+            },
+            {
+                "name": "int",
+                "current": "1",
+                "max": "",
+                "id": "-Mae037"
+            },
+            {
+                "name": "sab",
+                "current": "3",
+                "max": "",
+                "id": "-Mae038"
+            },
+            {
+                "name": "car",
+                "current": "5",
+                "max": "",
+                "id": "-Mae039"
+            },
+            {
+                "name": "tamanho",
+                "current": "Medio",
+                "max": "",
+                "id": "-Mae040"
+            },
+            {
+                "name": "deslocamento",
+                "current": "9",
+                "max": "",
+                "id": "-Mae041"
+            },
+            {
+                "name": "vida",
+                "current": 70,
+                "max": 70,
+                "id": "-Mae042"
+            },
+            {
+                "name": "vidatotal",
+                "current": 70,
+                "max": "",
+                "id": "-Mae043"
+            },
+            {
+                "name": "vidamaxima",
+                "current": 70,
+                "max": "",
+                "id": "-Mae044"
+            },
+            {
+                "name": "vidaatual",
+                "current": 70,
+                "max": "",
+                "id": "-Mae045"
+            },
+            {
+                "name": "mana",
+                "current": "0",
+                "max": 0,
+                "id": "-Mae046"
+            },
+            {
+                "name": "manatotal",
+                "current": "0",
+                "max": "",
+                "id": "-Mae047"
+            },
+            {
+                "name": "defesabase",
+                "current": "10",
+                "max": "",
+                "id": "-Mae048"
+            },
+            {
+                "name": "bonusarmadura",
+                "current": "0",
+                "max": "",
+                "id": "-Mae049"
+            },
+            {
+                "name": "bonusescudo",
+                "current": "0",
+                "max": "",
+                "id": "-Mae050"
+            },
+            {
+                "name": "defesaoutros",
+                "current": "11",
+                "max": "",
+                "id": "-Mae051"
+            },
+            {
+                "name": "fortitudetotal",
+                "current": "5",
+                "max": "",
+                "id": "-Mae052"
+            },
+            {
+                "name": "reflexostotal",
+                "current": "8",
+                "max": "",
+                "id": "-Mae053"
+            },
+            {
+                "name": "vontadetotal",
+                "current": "9",
+                "max": "",
+                "id": "-Mae054"
+            },
+            {
+                "name": "iniciatitotal",
+                "current": "8",
+                "max": "",
+                "id": "-Mae055"
+            },
+            {
+                "name": "lutatotal",
+                "current": "13",
+                "max": "",
+                "id": "-Mae056"
+            },
+            {
+                "name": "raca",
+                "current": "Fantasma",
+                "max": "",
+                "id": "-Mae057"
+            },
+            {
+                "name": "classe",
+                "current": "Mãe Pranteadora",
+                "max": "",
+                "id": "-Mae058"
+            },
+            {
+                "name": "nivel",
+                "current": "3",
+                "max": "",
+                "id": "-Mae059"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_melee_list",
+                "current": "Toque Gélido",
+                "max": "",
+                "id": "-MaeME01a"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_meleedescription",
+                "current": "+13 (2d8+7 frio mágico, drena vida)",
+                "max": "",
+                "id": "-MaeME01b"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_nomeataque",
+                "current": "Toque Gélido",
+                "max": "",
+                "id": "-MaeME01c"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_bonusataque",
+                "current": "0",
+                "max": "",
+                "id": "-MaeME01d"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_danoataque",
+                "current": "2d8",
+                "max": "",
+                "id": "-MaeME01e"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_danoextraataque",
+                "current": 0,
+                "max": "",
+                "id": "-MaeME01f"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_dadoextraataque",
+                "current": "7",
+                "max": "",
+                "id": "-MaeME01g"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_margemcriticoataque",
+                "current": "20",
+                "max": "",
+                "id": "-MaeME01h"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_multiplicadorcriticoataque",
+                "current": "2",
+                "max": "",
+                "id": "-MaeME01i"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_danocriticoataque",
+                "current": "2d8 + 2d8 + 7 + 7",
+                "max": "",
+                "id": "-MaeME01j"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_ataquepericia",
+                "current": "@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}",
+                "max": "",
+                "id": "-MaeME01k"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_ataquetipodedano",
+                "current": "Frio (mágico)",
+                "max": "",
+                "id": "-MaeME01l"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_modatributodano",
+                "current": "0",
+                "max": "",
+                "id": "-MaeME01m"
+            },
+            {
+                "name": "repeating_menacemelee_-MaeME01_ataquedescricao",
+                "current": "Mãos espectrais geladas. Dano mágico (perda de vida). Anna recupera PV iguais ao dano causado. Corpo a corpo.",
+                "max": "",
+                "id": "-MaeME01n"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB01_menacenameability",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-MaeAB01a"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB01_menaceabilitydescription",
+                "current": "Sem corpo físico. RD 5 contra dano não-mágico. Atravessa objetos, paredes e criaturas; flutua (voo 9m, perpassar). Ataques mágicos, luz e sagrado a atingem normalmente.",
+                "max": "",
+                "id": "-MaeAB01b"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB01_menacenameabilityinput",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-MaeAB01c"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB01_menaceabilitydescriptioninput",
+                "current": "Sem corpo físico. RD 5 contra dano não-mágico. Atravessa objetos, paredes e criaturas; flutua (voo 9m, perpassar). Ataques mágicos, luz e sagrado a atingem normalmente.",
+                "max": "",
+                "id": "-MaeAB01d"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB02_menacenameability",
+                "current": "Morto-Vivo (Fantasma)",
+                "max": "",
+                "id": "-MaeAB02a"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB02_menaceabilitydescription",
+                "current": "Imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Cura a fere.",
+                "max": "",
+                "id": "-MaeAB02b"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB02_menacenameabilityinput",
+                "current": "Morto-Vivo (Fantasma)",
+                "max": "",
+                "id": "-MaeAB02c"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB02_menaceabilitydescriptioninput",
+                "current": "Imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Cura a fere.",
+                "max": "",
+                "id": "-MaeAB02d"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB03_menacenameability",
+                "current": "Pranto Lamentoso (1/cena, ação padrão)",
+                "max": "",
+                "id": "-MaeAB03a"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB03_menaceabilitydescription",
+                "current": "Solta um lamento dilacerante. Todos os inimigos a até 9m (cone) fazem Vontade CD 17: quem falha sofre 3d8 de dano psíquico (perda de vida) e fica Apavorado por 1 rodada; quem passa sofre metade do dano e não fica amedrontado.",
+                "max": "",
+                "id": "-MaeAB03b"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB03_menacenameabilityinput",
+                "current": "Pranto Lamentoso (1/cena, ação padrão)",
+                "max": "",
+                "id": "-MaeAB03c"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB03_menaceabilitydescriptioninput",
+                "current": "Solta um lamento dilacerante. Todos os inimigos a até 9m (cone) fazem Vontade CD 17: quem falha sofre 3d8 de dano psíquico (perda de vida) e fica Apavorado por 1 rodada; quem passa sofre metade do dano e não fica amedrontado.",
+                "max": "",
+                "id": "-MaeAB03d"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB04_menacenameability",
+                "current": "Olhar Suplicante (ação padrão, 1/cena por criatura)",
+                "max": "",
+                "id": "-MaeAB04a"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB04_menaceabilitydescription",
+                "current": "Encara uma criatura em alcance curto com olhos de luto. O alvo deve passar em Vontade CD 17 ou fica Pasmo (fascinado, não pode agir) por 1 rodada, paralisado pela tristeza — efeito termina se sofrer dano.",
+                "max": "",
+                "id": "-MaeAB04b"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB04_menacenameabilityinput",
+                "current": "Olhar Suplicante (ação padrão, 1/cena por criatura)",
+                "max": "",
+                "id": "-MaeAB04c"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB04_menaceabilitydescriptioninput",
+                "current": "Encara uma criatura em alcance curto com olhos de luto. O alvo deve passar em Vontade CD 17 ou fica Pasmo (fascinado, não pode agir) por 1 rodada, paralisado pela tristeza — efeito termina se sofrer dano.",
+                "max": "",
+                "id": "-MaeAB04d"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB05_menacenameability",
+                "current": "Vínculo de Luto (família)",
+                "max": "",
+                "id": "-MaeAB05a"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB05_menaceabilitydescription",
+                "current": "Enquanto Viktor (o Pai) ou a Filha estiver ativo, Anna recebe +2 em testes de resistência. Luto Compartilhado: quando um membro da família é destruído, ela entra em fúria de pesar (+2 em ataque e dano até o fim da cena).",
+                "max": "",
+                "id": "-MaeAB05b"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB05_menacenameabilityinput",
+                "current": "Vínculo de Luto (família)",
+                "max": "",
+                "id": "-MaeAB05c"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB05_menaceabilitydescriptioninput",
+                "current": "Enquanto Viktor (o Pai) ou a Filha estiver ativo, Anna recebe +2 em testes de resistência. Luto Compartilhado: quando um membro da família é destruído, ela entra em fúria de pesar (+2 em ataque e dano até o fim da cena).",
+                "max": "",
+                "id": "-MaeAB05d"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB06_menacenameability",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-MaeAB06a"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB06_menaceabilitydescription",
+                "current": "Enxerga no escuro até 18m.",
+                "max": "",
+                "id": "-MaeAB06b"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB06_menacenameabilityinput",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-MaeAB06c"
+            },
+            {
+                "name": "repeating_menaceabilities_-MaeAB06_menaceabilitydescriptioninput",
+                "current": "Enxerga no escuro até 18m.",
+                "max": "",
+                "id": "-MaeAB06d"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "🎲Atributos",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Atributo}}{{theroll=?{Atributo: | Destreza,Destreza[[1d20+@{des_mod}]]| Sabedoria,Sabedoria[[1d20+@{sab_mod}]]| Carisma,Carisma[[1d20+@{car_mod}]]}}}"
+            },
+            {
+                "name": "✨Resistências",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Resistência}}{{theroll=?{Resistência: | Fortitude,Fortitude[[1d20+[[@{fortitudetotal}]]]]| Reflexos,Reflexos[[1d20+[[@{reflexostotal}]]]]| Vontade,Vontade[[1d20+[[@{vontadetotal}]]]]}}}"
+            },
+            {
+                "name": "❄️ToqueGélido",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Toque Gélido}}{{attackroll=[[1d20cs>20+13+@{ataquetemp}]]}} {{damageroll=[[(2d8)+7+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(4d8)+14+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Frio (mágico, perda de vida)}}{{description=Dano mágico. Recupera PV iguais ao dano causado.}}"
+            },
+            {
+                "name": "😭PrantoLamentoso",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Pranto Lamentoso (cone 9m, 1/cena)}}{{attackroll=[[0d1]]}} {{damageroll=[[(3d8)]]}} {{criticaldamageroll=[[0d1]]}}{{typeofdamage=Psíquico (perda de vida)}}{{description=Vontade CD 17: falha = dano cheio + Apavorado 1 rd; sucesso = metade, sem medo.}}"
+            },
+            {
+                "name": "👁️OlharSuplicante",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-info}{{infoname=Olhar Suplicante (1/cena por criatura)}}{{description=Alvo em alcance curto: Vontade CD 17 ou Pasmo (fascinado, sem agir) 1 rd. Termina se sofrer dano.}}"
+            }
+        ]
+    }
+}

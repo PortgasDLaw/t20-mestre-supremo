@@ -1,0 +1,775 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-PaiViktor2026",
+        "name": "Viktor, o Caçador Penitente",
+        "avatar": "",
+        "bio": "Viktor foi um caçador de monstros experiente que cruzou as brumas até Barovia atrás de uma presa que nunca encontrou — ou que o encontrou primeiro. Trouxe consigo a esposa e a filha pequena, acreditando poder protegê-las em qualquer lugar. Foi seu maior erro.\n\nO culto da Casa da Morte capturou a família inteira. Viktor foi forçado a assistir antes de ser morto por último, suas próprias armas usadas contra ele. A culpa e a fúria impediram sua alma de partir: ele permanece como um fantasma penitente, eternamente caçando os que invadem o lugar onde falhou, lanterna em punho e a sombra de seu velho cão de caça ao lado.\n\nMecanicamente, usa um bloco de Fantasma (Morto-Vivo incorpóreo) reduzido a ND 4 — o mais forte do trio.",
+        "gmnotes": "<h2>Viktor, o Caçador Penitente — Casa da Morte (Área 10)</h2><p><b>ND 4 | Morto-Vivo Médio Incorpóreo (Fantasma) | BOSS do trio</b></p><hr><h3>RESUMO TÁTICO</h3><p>O pai-fantasma é o núcleo da luta. Abre com a aura de medo (Presença do Luto) para Abalar o grupo, depois alterna Tiro do Caçador (à distância) e Adaga Espectral (corpo a corpo, drena vida). Usa a Lanterna das Almas como dano em área no momento em que o grupo se agrupa, e invoca o Lobo Espectral cedo para dividir a atenção.</p><h3>PONTOS FORTES</h3><p>• Dois ataques fortes +15 (~19 de dano cada), ambos mágicos — ignoram a própria RD de incorpóreos e a de outros.<br>• Drena vida com a adaga (sustenta os 70 PV).<br>• Aura de medo encadeia Abalado→Apavorado.<br>• Lanterna das Almas: 5d6 em cone + anula furtividade.<br>• Vira em fúria (+2/+2) quando esposa ou filha morrem.</p><h3>PONTOS FRACOS</h3><p>• <b>Luz e dano sagrado</b>: +50% de dano e desligam furtividade dele.<br>• <b>RD só contra não-mágico</b>: qualquer arma/magia mágica passa direto.<br>• Fortitude mediana (+5): efeitos de Fort funcionam.<br>• Sem raciocínio refinado — persegue quem o feriu por último.</p><h3>BALANCEAMENTO</h3><p>Calibrado pela Tabela 7-2 (ND 4: ataque +15, dano ~2d6+14, Defesa 24, PV 110). Se o grupo não tiver NENHUMA arma mágica, considere zerar a RD 5 ou dar a eles água benta/tochas abençoadas como recurso na sala. Para FACILITAR: corte o Lobo Espectral ou a Lanterna das Almas.</p>",
+        "defaulttoken": "{\"height\": 140, \"width\": 140, \"name\": \"Viktor, o Caçador Penitente\", \"represents\": \"-PaiViktor2026\", \"showplayers_bar3\": true, \"bar_location\": \"overlap_bottom\", \"compact_bar\": \"compact\", \"bar1_value\": \"24\", \"bar3_value\": \"110\", \"bar3_max\": \"110\"}",
+        "tags": "[]",
+        "controlledby": "",
+        "inplayerjournals": "",
+        "attribs": [
+            {
+                "name": "for_mod",
+                "current": "—",
+                "max": "",
+                "id": "-Pai001"
+            },
+            {
+                "name": "des_mod",
+                "current": 3,
+                "max": "",
+                "id": "-Pai002"
+            },
+            {
+                "name": "con_mod",
+                "current": "—",
+                "max": "",
+                "id": "-Pai003"
+            },
+            {
+                "name": "int_mod",
+                "current": 2,
+                "max": "",
+                "id": "-Pai004"
+            },
+            {
+                "name": "sab_mod",
+                "current": 3,
+                "max": "",
+                "id": "-Pai005"
+            },
+            {
+                "name": "car_mod",
+                "current": 6,
+                "max": "",
+                "id": "-Pai006"
+            },
+            {
+                "name": "bonus_treino",
+                "current": 4,
+                "max": "",
+                "id": "-Pai007"
+            },
+            {
+                "name": "penalidades_armadura",
+                "current": 0,
+                "max": "",
+                "id": "-Pai008"
+            },
+            {
+                "name": "defesatotal",
+                "current": 24,
+                "max": "",
+                "id": "-Pai009"
+            },
+            {
+                "name": "carga",
+                "current": "0",
+                "max": "",
+                "id": "-Pai010"
+            },
+            {
+                "name": "menace_for",
+                "current": "—",
+                "max": "",
+                "id": "-Pai011"
+            },
+            {
+                "name": "menace_des",
+                "current": 3,
+                "max": "",
+                "id": "-Pai012"
+            },
+            {
+                "name": "menace_con",
+                "current": "—",
+                "max": "",
+                "id": "-Pai013"
+            },
+            {
+                "name": "menace_int",
+                "current": 2,
+                "max": "",
+                "id": "-Pai014"
+            },
+            {
+                "name": "menace_sab",
+                "current": 3,
+                "max": "",
+                "id": "-Pai015"
+            },
+            {
+                "name": "menace_car",
+                "current": 6,
+                "max": "",
+                "id": "-Pai016"
+            },
+            {
+                "name": "menace_defense",
+                "current": 24,
+                "max": "",
+                "id": "-Pai017"
+            },
+            {
+                "name": "menace_name",
+                "current": "Viktor, o Caçador Penitente",
+                "max": "",
+                "id": "-Pai018"
+            },
+            {
+                "name": "menace_hp",
+                "current": 110,
+                "max": "",
+                "id": "-Pai019"
+            },
+            {
+                "name": "menace_mp",
+                "current": 0,
+                "max": "",
+                "id": "-Pai020"
+            },
+            {
+                "name": "menace_nd",
+                "current": 4,
+                "max": "",
+                "id": "-Pai021"
+            },
+            {
+                "name": "menace_init",
+                "current": "+9",
+                "max": "",
+                "id": "-Pai022"
+            },
+            {
+                "name": "menace_percep",
+                "current": "+12",
+                "max": "",
+                "id": "-Pai023"
+            },
+            {
+                "name": "menace_fortitude",
+                "current": "+6",
+                "max": "",
+                "id": "-Pai024"
+            },
+            {
+                "name": "menace_reflex",
+                "current": "+9",
+                "max": "",
+                "id": "-Pai025"
+            },
+            {
+                "name": "menace_will",
+                "current": "+10",
+                "max": "",
+                "id": "-Pai026"
+            },
+            {
+                "name": "menace_lutatotal",
+                "current": "+15",
+                "max": "",
+                "id": "-Pai027"
+            },
+            {
+                "name": "menace_type_size",
+                "current": "Morto-Vivo Médio (Fantasma)",
+                "max": "",
+                "id": "-Pai028"
+            },
+            {
+                "name": "menace_desloc",
+                "current": "voo 9m (6q), perpassar",
+                "max": "",
+                "id": "-Pai029"
+            },
+            {
+                "name": "menace_perception",
+                "current": "visão no escuro 18m, sente criaturas vivas a 18m",
+                "max": "",
+                "id": "-Pai030"
+            },
+            {
+                "name": "menace_resist",
+                "current": "Incorpóreo: RD 5 contra dano não-mágico, atravessa objetos e paredes. Morto-vivo: imune a veneno, doença, cansaço, sangramento, dreno de energia/atributo e efeitos de morte; não afetado por efeitos mentais que dependam de metabolismo. Vulnerável a luz e dano sagrado (recebe +50%). Cura o aflige como dano.",
+                "max": "",
+                "id": "-Pai031"
+            },
+            {
+                "name": "menace_treasure",
+                "current": "Lanterna do Caçador (item de aventura — emite luz que revela mortos-vivos ocultos num raio de 6m).",
+                "max": "",
+                "id": "-Pai032"
+            },
+            {
+                "name": "cstype",
+                "current": "1",
+                "max": "",
+                "id": "-Pai033"
+            },
+            {
+                "name": "for",
+                "current": "—",
+                "max": "",
+                "id": "-Pai034"
+            },
+            {
+                "name": "des",
+                "current": "3",
+                "max": "",
+                "id": "-Pai035"
+            },
+            {
+                "name": "con",
+                "current": "—",
+                "max": "",
+                "id": "-Pai036"
+            },
+            {
+                "name": "int",
+                "current": "2",
+                "max": "",
+                "id": "-Pai037"
+            },
+            {
+                "name": "sab",
+                "current": "3",
+                "max": "",
+                "id": "-Pai038"
+            },
+            {
+                "name": "car",
+                "current": "6",
+                "max": "",
+                "id": "-Pai039"
+            },
+            {
+                "name": "tamanho",
+                "current": "Medio",
+                "max": "",
+                "id": "-Pai040"
+            },
+            {
+                "name": "deslocamento",
+                "current": "9",
+                "max": "",
+                "id": "-Pai041"
+            },
+            {
+                "name": "vida",
+                "current": 110,
+                "max": 110,
+                "id": "-Pai042"
+            },
+            {
+                "name": "vidatotal",
+                "current": 110,
+                "max": "",
+                "id": "-Pai043"
+            },
+            {
+                "name": "vidamaxima",
+                "current": 110,
+                "max": "",
+                "id": "-Pai044"
+            },
+            {
+                "name": "vidaatual",
+                "current": 110,
+                "max": "",
+                "id": "-Pai045"
+            },
+            {
+                "name": "mana",
+                "current": "0",
+                "max": 0,
+                "id": "-Pai046"
+            },
+            {
+                "name": "manatotal",
+                "current": "0",
+                "max": "",
+                "id": "-Pai047"
+            },
+            {
+                "name": "defesabase",
+                "current": "10",
+                "max": "",
+                "id": "-Pai048"
+            },
+            {
+                "name": "bonusarmadura",
+                "current": "0",
+                "max": "",
+                "id": "-Pai049"
+            },
+            {
+                "name": "bonusescudo",
+                "current": "0",
+                "max": "",
+                "id": "-Pai050"
+            },
+            {
+                "name": "defesaoutros",
+                "current": "14",
+                "max": "",
+                "id": "-Pai051"
+            },
+            {
+                "name": "fortitudetotal",
+                "current": "6",
+                "max": "",
+                "id": "-Pai052"
+            },
+            {
+                "name": "reflexostotal",
+                "current": "9",
+                "max": "",
+                "id": "-Pai053"
+            },
+            {
+                "name": "vontadetotal",
+                "current": "10",
+                "max": "",
+                "id": "-Pai054"
+            },
+            {
+                "name": "iniciatitotal",
+                "current": "9",
+                "max": "",
+                "id": "-Pai055"
+            },
+            {
+                "name": "lutatotal",
+                "current": "15",
+                "max": "",
+                "id": "-Pai056"
+            },
+            {
+                "name": "raca",
+                "current": "Fantasma",
+                "max": "",
+                "id": "-Pai057"
+            },
+            {
+                "name": "classe",
+                "current": "Caçador Penitente",
+                "max": "",
+                "id": "-Pai058"
+            },
+            {
+                "name": "nivel",
+                "current": "4",
+                "max": "",
+                "id": "-Pai059"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_melee_list",
+                "current": "Adaga Espectral",
+                "max": "",
+                "id": "-PaiME01a"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_meleedescription",
+                "current": "+15 (2d8+10 perfurante mágico, drena vida)",
+                "max": "",
+                "id": "-PaiME01b"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_nomeataque",
+                "current": "Adaga Espectral",
+                "max": "",
+                "id": "-PaiME01c"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_bonusataque",
+                "current": "0",
+                "max": "",
+                "id": "-PaiME01d"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_danoataque",
+                "current": "2d8",
+                "max": "",
+                "id": "-PaiME01e"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_danoextraataque",
+                "current": 0,
+                "max": "",
+                "id": "-PaiME01f"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_dadoextraataque",
+                "current": "10",
+                "max": "",
+                "id": "-PaiME01g"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_margemcriticoataque",
+                "current": "20",
+                "max": "",
+                "id": "-PaiME01h"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_multiplicadorcriticoataque",
+                "current": "2",
+                "max": "",
+                "id": "-PaiME01i"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_danocriticoataque",
+                "current": "2d8 + 2d8 + 10 + 10",
+                "max": "",
+                "id": "-PaiME01j"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_ataquepericia",
+                "current": "@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}",
+                "max": "",
+                "id": "-PaiME01k"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_ataquetipodedano",
+                "current": "Perfurante (mágico)",
+                "max": "",
+                "id": "-PaiME01l"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_modatributodano",
+                "current": "0",
+                "max": "",
+                "id": "-PaiME01m"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME01_ataquedescricao",
+                "current": "Lâmina translúcida do caçador. Dano mágico (ignora a RD de incorpóreos). Viktor recupera PV iguais ao dano causado. Ataque corpo a corpo.",
+                "max": "",
+                "id": "-PaiME01n"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_melee_list",
+                "current": "Tiro do Caçador",
+                "max": "",
+                "id": "-PaiME02a"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_meleedescription",
+                "current": "+15 (2d8+10 perfurante mágico, alcance médio)",
+                "max": "",
+                "id": "-PaiME02b"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_nomeataque",
+                "current": "Tiro do Caçador",
+                "max": "",
+                "id": "-PaiME02c"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_bonusataque",
+                "current": "0",
+                "max": "",
+                "id": "-PaiME02d"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_danoataque",
+                "current": "2d8",
+                "max": "",
+                "id": "-PaiME02e"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_danoextraataque",
+                "current": 0,
+                "max": "",
+                "id": "-PaiME02f"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_dadoextraataque",
+                "current": "10",
+                "max": "",
+                "id": "-PaiME02g"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_margemcriticoataque",
+                "current": "20",
+                "max": "",
+                "id": "-PaiME02h"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_multiplicadorcriticoataque",
+                "current": "2",
+                "max": "",
+                "id": "-PaiME02i"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_danocriticoataque",
+                "current": "2d8 + 2d8 + 10 + 10",
+                "max": "",
+                "id": "-PaiME02j"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_ataquepericia",
+                "current": "@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}",
+                "max": "",
+                "id": "-PaiME02k"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_ataquetipodedano",
+                "current": "Perfurante (mágico)",
+                "max": "",
+                "id": "-PaiME02l"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_modatributodano",
+                "current": "0",
+                "max": "",
+                "id": "-PaiME02m"
+            },
+            {
+                "name": "repeating_menacemelee_-PaiME02_ataquedescricao",
+                "current": "Dispara uma bala espectral de sua pistola fantasma. Alcance médio (18m). Dano mágico. Ignora cobertura leve e camuflagem. +2 no ataque contra alvos Abalados ou Apavorados (Caçador Implacável).",
+                "max": "",
+                "id": "-PaiME02n"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB01_menacenameability",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-PaiAB01a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB01_menaceabilitydescription",
+                "current": "Não possui corpo físico. RD 5 contra dano não-mágico. Pode mover-se através de objetos, paredes e criaturas, e flutua (voo 9m, perpassar). Ataques mágicos, luz e dano sagrado o atingem normalmente.",
+                "max": "",
+                "id": "-PaiAB01b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB01_menacenameabilityinput",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-PaiAB01c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB01_menaceabilitydescriptioninput",
+                "current": "Não possui corpo físico. RD 5 contra dano não-mágico. Pode mover-se através de objetos, paredes e criaturas, e flutua (voo 9m, perpassar). Ataques mágicos, luz e dano sagrado o atingem normalmente.",
+                "max": "",
+                "id": "-PaiAB01d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB02_menacenameability",
+                "current": "Morto-Vivo (Fantasma)",
+                "max": "",
+                "id": "-PaiAB02a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB02_menaceabilitydescription",
+                "current": "Imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Efeitos de cura o ferem em vez de curar.",
+                "max": "",
+                "id": "-PaiAB02b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB02_menacenameabilityinput",
+                "current": "Morto-Vivo (Fantasma)",
+                "max": "",
+                "id": "-PaiAB02c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB02_menaceabilitydescriptioninput",
+                "current": "Imune a veneno, doença, cansaço, sangramento, dreno e efeitos de morte. Vulnerável a luz e dano sagrado (+50%). Efeitos de cura o ferem em vez de curar.",
+                "max": "",
+                "id": "-PaiAB02d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB03_menacenameability",
+                "current": "Presença do Luto (aura de medo)",
+                "max": "",
+                "id": "-PaiAB03a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB03_menaceabilitydescription",
+                "current": "No início do turno de Viktor, cada inimigo a até 9m deve passar em Vontade CD 18 ou fica Abalado por 1 rodada. Uma criatura já Abalada que falhe fica Apavorada por 1 rodada. Quem passa fica imune a esta aura por uma cena.",
+                "max": "",
+                "id": "-PaiAB03b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB03_menacenameabilityinput",
+                "current": "Presença do Luto (aura de medo)",
+                "max": "",
+                "id": "-PaiAB03c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB03_menaceabilitydescriptioninput",
+                "current": "No início do turno de Viktor, cada inimigo a até 9m deve passar em Vontade CD 18 ou fica Abalado por 1 rodada. Uma criatura já Abalada que falhe fica Apavorada por 1 rodada. Quem passa fica imune a esta aura por uma cena.",
+                "max": "",
+                "id": "-PaiAB03d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB04_menacenameability",
+                "current": "Lanterna das Almas (1/cena, ação padrão)",
+                "max": "",
+                "id": "-PaiAB04a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB04_menaceabilitydescription",
+                "current": "Ergue a lanterna espectral, liberando um cone de 9m de chamas fantasmagóricas. Criaturas na área sofrem 5d6 de dano de trevas (perda de vida) e ficam reveladas (invisibilidade/ocultação anuladas por 1 rodada). Reflexos CD 18 reduz o dano à metade e evita a revelação.",
+                "max": "",
+                "id": "-PaiAB04b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB04_menacenameabilityinput",
+                "current": "Lanterna das Almas (1/cena, ação padrão)",
+                "max": "",
+                "id": "-PaiAB04c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB04_menaceabilitydescriptioninput",
+                "current": "Ergue a lanterna espectral, liberando um cone de 9m de chamas fantasmagóricas. Criaturas na área sofrem 5d6 de dano de trevas (perda de vida) e ficam reveladas (invisibilidade/ocultação anuladas por 1 rodada). Reflexos CD 18 reduz o dano à metade e evita a revelação.",
+                "max": "",
+                "id": "-PaiAB04d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB05_menacenameability",
+                "current": "Lobo Espectral (1/cena, ação completa)",
+                "max": "",
+                "id": "-PaiAB05a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB05_menaceabilitydescription",
+                "current": "Invoca a sombra de seu antigo cão de caça. O lobo é um capanga (Defesa 17, 20 PV, voo/perpassar) que ataca com mordida +13 (2d6+7 de trevas). Dura até o fim da cena ou até ser destruído. Age na iniciativa de Viktor.",
+                "max": "",
+                "id": "-PaiAB05b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB05_menacenameabilityinput",
+                "current": "Lobo Espectral (1/cena, ação completa)",
+                "max": "",
+                "id": "-PaiAB05c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB05_menaceabilitydescriptioninput",
+                "current": "Invoca a sombra de seu antigo cão de caça. O lobo é um capanga (Defesa 17, 20 PV, voo/perpassar) que ataca com mordida +13 (2d6+7 de trevas). Dura até o fim da cena ou até ser destruído. Age na iniciativa de Viktor.",
+                "max": "",
+                "id": "-PaiAB05d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB06_menacenameability",
+                "current": "Caçador Implacável",
+                "max": "",
+                "id": "-PaiAB06a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB06_menaceabilitydescription",
+                "current": "Ignora cobertura leve e camuflagem ao atacar. Recebe +2 em ataques contra criaturas Abaladas ou Apavoradas.",
+                "max": "",
+                "id": "-PaiAB06b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB06_menacenameabilityinput",
+                "current": "Caçador Implacável",
+                "max": "",
+                "id": "-PaiAB06c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB06_menaceabilitydescriptioninput",
+                "current": "Ignora cobertura leve e camuflagem ao atacar. Recebe +2 em ataques contra criaturas Abaladas ou Apavoradas.",
+                "max": "",
+                "id": "-PaiAB06d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB07_menacenameability",
+                "current": "Luto Compartilhado (família)",
+                "max": "",
+                "id": "-PaiAB07a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB07_menaceabilitydescription",
+                "current": "O elo de vingança entre Viktor, a esposa e a filha é palpável. Quando a Mãe ou a Filha é destruída, Viktor entra em fúria de pesar: +2 em ataque e dano até o fim da cena (acumula se ambas caírem).",
+                "max": "",
+                "id": "-PaiAB07b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB07_menacenameabilityinput",
+                "current": "Luto Compartilhado (família)",
+                "max": "",
+                "id": "-PaiAB07c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB07_menaceabilitydescriptioninput",
+                "current": "O elo de vingança entre Viktor, a esposa e a filha é palpável. Quando a Mãe ou a Filha é destruída, Viktor entra em fúria de pesar: +2 em ataque e dano até o fim da cena (acumula se ambas caírem).",
+                "max": "",
+                "id": "-PaiAB07d"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB08_menacenameability",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-PaiAB08a"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB08_menaceabilitydescription",
+                "current": "Enxerga no escuro até 18m e sente a presença de criaturas vivas a 18m, mesmo através de paredes.",
+                "max": "",
+                "id": "-PaiAB08b"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB08_menacenameabilityinput",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-PaiAB08c"
+            },
+            {
+                "name": "repeating_menaceabilities_-PaiAB08_menaceabilitydescriptioninput",
+                "current": "Enxerga no escuro até 18m e sente a presença de criaturas vivas a 18m, mesmo através de paredes.",
+                "max": "",
+                "id": "-PaiAB08d"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "🎲Atributos",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Atributo}}{{theroll=?{Atributo: | Destreza,Destreza[[1d20+@{des_mod}]]| Inteligência,Inteligência[[1d20+@{int_mod}]]| Sabedoria,Sabedoria[[1d20+@{sab_mod}]]| Carisma,Carisma[[1d20+@{car_mod}]]}}}"
+            },
+            {
+                "name": "✨Resistências",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Resistência}}{{theroll=?{Resistência: | Fortitude,Fortitude[[1d20+[[@{fortitudetotal}]]]]| Reflexos,Reflexos[[1d20+[[@{reflexostotal}]]]]| Vontade,Vontade[[1d20+[[@{vontadetotal}]]]]}}}"
+            },
+            {
+                "name": "🗡️AdagaEspectral",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Adaga Espectral}}{{attackroll=[[1d20cs>20+15+@{ataquetemp}]]}} {{damageroll=[[(2d8)+10+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(4d8)+20+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Perfurante (mágico)}}{{description=Dano mágico. Recupera PV iguais ao dano causado.}}"
+            },
+            {
+                "name": "🔫TiroDoCacador",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Tiro do Caçador (alcance médio)}}{{attackroll=[[1d20cs>20+15+@{ataquetemp}]]}} {{damageroll=[[(2d8)+10+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(4d8)+20+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Perfurante (mágico)}}{{description=Ignora cobertura leve/camuflagem. +2 vs Abalado/Apavorado.}}"
+            },
+            {
+                "name": "😱PresençaDoLuto",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-info}{{infoname=Presença do Luto (aura de medo)}}{{description=Início do turno: inimigos a 9m fazem Vontade CD 18 ou Abalado 1 rd. Já Abalado que falha → Apavorado. Imune por 1 cena após passar.}}"
+            },
+            {
+                "name": "🏮LanternaDasAlmas",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Lanterna das Almas (cone 9m, 1/cena)}}{{attackroll=[[0d1]]}} {{damageroll=[[(5d6)]]}} {{criticaldamageroll=[[0d1]]}}{{typeofdamage=Trevas (perda de vida)}}{{description=Reflexos CD 18 metade. Revela ocultos/invisíveis na área por 1 rd.}}"
+            },
+            {
+                "name": "🐺LoboEspectral",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Lobo Espectral — Mordida (1/cena)}}{{attackroll=[[1d20cs>20+13+@{ataquetemp}]]}} {{damageroll=[[(2d6)+7+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(4d6)+14+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Trevas}}{{description=Capanga: Defesa 17, 20 PV, voo/perpassar. Dura a cena.}}"
+            }
+        ]
+    }
+}

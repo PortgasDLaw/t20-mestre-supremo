@@ -1,0 +1,1114 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-OXyAghDwfPB9Jdf3SkT",
+        "name": "Fantasma",
+        "avatar": "https://i.imgur.com/KpNwr4u.png",
+        "bio": "",
+        "gmnotes": "",
+        "defaulttoken": "{\"imgsrc\":\"https://i.imgur.com/KpNwr4u.png\",\"height\":70,\"width\":70,\"name\":\"Fantasma\",\"represents\":\"-OXyAghDwfPB9Jdf3SkT\",\"showplayers_bar3\":true,\"bar_location\":\"overlap_bottom\",\"compact_bar\":\"compact\",\"showplayers_bar2\":true,\"bar1_value\":\"29\",\"bar3_value\":\"190\",\"bar3_max\":\"190\",\"showplayers_aura1\":true}",
+        "tags": "[]",
+        "controlledby": "",
+        "inplayerjournals": "",
+        "attribs": [
+            {
+                "name": "created_by_linki",
+                "current": "",
+                "max": "",
+                "id": "-MlSk6MnQP-J6wGsrmud"
+            },
+            {
+                "name": "for_mod",
+                "current": -9,
+                "max": "",
+                "id": "-MlSk6MpuYNljj21Rnld"
+            },
+            {
+                "name": "des_mod",
+                "current": 3,
+                "max": "",
+                "id": "-MlSk6MpuYNljj21Rnle"
+            },
+            {
+                "name": "con_mod",
+                "current": 0,
+                "max": "",
+                "id": "-MlSk6MqsCPTIODWQUAf"
+            },
+            {
+                "name": "int_mod",
+                "current": 1,
+                "max": "",
+                "id": "-MlSk6MqsCPTIODWQUAg"
+            },
+            {
+                "name": "sab_mod",
+                "current": 2,
+                "max": "",
+                "id": "-MlSk6MrfuYcXq6eM2Hc"
+            },
+            {
+                "name": "car_mod",
+                "current": 4,
+                "max": "",
+                "id": "-MlSk6MsAn4QaaD32N2_"
+            },
+            {
+                "name": "bonus_treino",
+                "current": 4,
+                "max": "",
+                "id": "-MlSk6MuvwZEYfeQznlY"
+            },
+            {
+                "name": "penalidades_armadura",
+                "current": 0,
+                "max": "",
+                "id": "-MlSk6MuvwZEYfeQznlZ"
+            },
+            {
+                "name": "defesatotal",
+                "current": 29,
+                "max": "",
+                "id": "-MlSk6MvRphJoU--7D4u"
+            },
+            {
+                "name": "penalidades_armadura_carga",
+                "current": 0,
+                "max": "",
+                "id": "-MlSk6MvRphJoU--7D4v"
+            },
+            {
+                "name": "carga",
+                "current": "0",
+                "max": "",
+                "id": "-MlSk6Mw-O7b-m6jU5Yx"
+            },
+            {
+                "name": "menace_for",
+                "current": -9,
+                "max": "",
+                "id": "-NGZp4XVRNPoPKXSPqJW"
+            },
+            {
+                "name": "menace_des",
+                "current": 3,
+                "max": "",
+                "id": "-NGZp4XZCx_HSwtn_WFP"
+            },
+            {
+                "name": "menace_con",
+                "current": 0,
+                "max": "",
+                "id": "-NGZp4Xb0k791OztZlMx"
+            },
+            {
+                "name": "menace_int",
+                "current": 1,
+                "max": "",
+                "id": "-NGZp4XeZJZTrmbggZRy"
+            },
+            {
+                "name": "menace_sab",
+                "current": 2,
+                "max": "",
+                "id": "-NGZp4XjCDCTbNn1BhDV"
+            },
+            {
+                "name": "menace_car",
+                "current": 4,
+                "max": "",
+                "id": "-NGZp4XngZfpAx56zqmR"
+            },
+            {
+                "name": "menace_defense",
+                "current": 29,
+                "max": "",
+                "id": "-NGZp4XrYnDCiZuwQ8YZ"
+            },
+            {
+                "name": "menace_name",
+                "current": "Fantasma",
+                "max": "",
+                "id": "-NGZp4XvDLa_8GHJU2Ff"
+            },
+            {
+                "name": "menace_hp",
+                "current": 190,
+                "max": "",
+                "id": "-NGZp4XyNPB6DtR4kF-j"
+            },
+            {
+                "name": "menace_mp",
+                "current": 0,
+                "max": "",
+                "id": "-NGZp4Y1YYvWxwYq2D3b"
+            },
+            {
+                "name": "menace_nd",
+                "current": "7",
+                "max": "",
+                "id": "-NGZp4Y5cDwLWHcGuCCU"
+            },
+            {
+                "name": "menace_init",
+                "current": "+10",
+                "max": "",
+                "id": "-NGZp4Y9jRSf2LhFclIn"
+            },
+            {
+                "name": "menace_percep",
+                "current": "+9",
+                "max": "",
+                "id": "-NGZp4YD9gWLYddWkhyZ"
+            },
+            {
+                "name": "menace_fortitude",
+                "current": "+7",
+                "max": "",
+                "id": "-NGZp4YGEyz4osw-wkM9"
+            },
+            {
+                "name": "menace_reflex",
+                "current": "+14",
+                "max": "",
+                "id": "-NGZp4YL5k6j615RbTyJ"
+            },
+            {
+                "name": "menace_will",
+                "current": "+20",
+                "max": "",
+                "id": "-NGZp4YO12RGRSNVvu1O"
+            },
+            {
+                "name": "menace_acrobaciatotal",
+                "current": "+6",
+                "max": "",
+                "id": "-NGZp4YUmQ01WI9kVpvX"
+            },
+            {
+                "name": "menace_adestramentototal",
+                "current": "+7",
+                "max": "",
+                "id": "-NGZp4YYsB76wTmUCjU-"
+            },
+            {
+                "name": "menace_atletismototal",
+                "current": -6,
+                "max": "",
+                "id": "-NGZp4YbFpruj040pxt9"
+            },
+            {
+                "name": "menace_atuacaototal",
+                "current": "+7",
+                "max": "",
+                "id": "-NGZp4Ylc9TYdPboIK5J"
+            },
+            {
+                "name": "menace_cavalgartotal",
+                "current": "+6",
+                "max": "",
+                "id": "-NGZp4YqHCgkKL5TwBw8"
+            },
+            {
+                "name": "menace_conhecimentototal",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4YvfqcP7LCGBwtN"
+            },
+            {
+                "name": "menace_curatotal",
+                "current": "+5",
+                "max": "",
+                "id": "-NGZp4Z0rLycLkjah80k"
+            },
+            {
+                "name": "menace_diplomaciatotal",
+                "current": "+7",
+                "max": "",
+                "id": "-NGZp4Z5G1GNBF6KlX1w"
+            },
+            {
+                "name": "menace_enganacaototal",
+                "current": "+7",
+                "max": "",
+                "id": "-NGZp4ZDSylrVqsGbn1a"
+            },
+            {
+                "name": "menace_furtividadetotal",
+                "current": "+15",
+                "max": "",
+                "id": "-NGZp4ZIsjgYOo9ycQFu"
+            },
+            {
+                "name": "menace_guerratotal",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4ZLplegHNEpwEFi"
+            },
+            {
+                "name": "menace_intimidacaototal",
+                "current": "+13",
+                "max": "",
+                "id": "-NGZp4ZOuudywbsq81Ai"
+            },
+            {
+                "name": "menace_intuicaototal",
+                "current": "+5",
+                "max": "",
+                "id": "-NGZp4ZUwDbxzaEBnwxO"
+            },
+            {
+                "name": "menace_investigacaototal",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4ZX1gXnlkjUE_7g"
+            },
+            {
+                "name": "menace_jogatinatotal",
+                "current": "+7",
+                "max": "",
+                "id": "-NGZp4Z_JAaGIDTYEuc4"
+            },
+            {
+                "name": "menace_ladinagemtotal",
+                "current": "+6",
+                "max": "",
+                "id": "-NGZp4Zdjht-6AVdO93u"
+            },
+            {
+                "name": "menace_misticismototal",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4Zhpsm0PZUb_sro"
+            },
+            {
+                "name": "menace_nobrezatotal",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4Zlhnubd2y-Q_2E"
+            },
+            {
+                "name": "menace_oficiototal",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4Zo575aVadnO16b"
+            },
+            {
+                "name": "menace_oficio2total",
+                "current": "+4",
+                "max": "",
+                "id": "-NGZp4Zs15R932eh0fT4"
+            },
+            {
+                "name": "menace_pilotagemtotal",
+                "current": "+6",
+                "max": "",
+                "id": "-NGZp4ZvPU71jVvpJjz5"
+            },
+            {
+                "name": "menace_religiaototal",
+                "current": "+5",
+                "max": "",
+                "id": "-NGZp4Zz5SZ8RvOWco2N"
+            },
+            {
+                "name": "menace_sobrevivenciatotal",
+                "current": "+5",
+                "max": "",
+                "id": "-NGZp4_1xTA8U47SZBBq"
+            },
+            {
+                "name": "limite",
+                "current": 1,
+                "max": "",
+                "id": "-NGZp4_CenZq6vQ_L62q"
+            },
+            {
+                "name": "maxima",
+                "current": 2,
+                "max": "",
+                "id": "-NGZp4_D_f-_IL8BvwN1"
+            },
+            {
+                "name": "menace_treasure",
+                "current": "",
+                "max": "",
+                "id": "-NGZp4_qjtpBFG799qFI"
+            },
+            {
+                "name": "repeating_abilities_-NH7ctflnxvT-OxAwXvM_abilitydescription",
+                "current": "Imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno; sofrem dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recuperam PV com dano de trevas.",
+                "max": "",
+                "id": "-NH7ctflnxvT-OxAwXvN"
+            },
+            {
+                "name": "repeating_abilities_-NH7ctflnxvT-OxAwXvM_nameability",
+                "current": "Imunidades de Mortos-Vivos",
+                "max": "",
+                "id": "-NH7ctfmmN6Q1VGUneeU"
+            },
+            {
+                "name": "repeating_abilities_-NH7ctfp8wgEO6qoFblU_abilitydescription",
+                "current": "A criatura enxerga em escuridão total em alcance curto (exceto mágica). Ela ignora camuflagem total por esse tipo de escuridão.",
+                "max": "",
+                "id": "-NH7ctfp8wgEO6qoFblV"
+            },
+            {
+                "name": "repeating_abilities_-NH7ctfp8wgEO6qoFblU_nameability",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-NH7ctfqmH20dRWs_VNF"
+            },
+            {
+                "name": "fakefor",
+                "current": " ",
+                "max": "",
+                "id": "-NQwZeV34sonTUFIRTFz"
+            },
+            {
+                "name": "fakedes",
+                "current": " ",
+                "max": "",
+                "id": "-NQwZeV4povF5tAtnMcV"
+            },
+            {
+                "name": "fakecon",
+                "current": " ",
+                "max": "",
+                "id": "-NQwZeV5SBq_V4Ljkfth"
+            },
+            {
+                "name": "fakeint",
+                "current": " ",
+                "max": "",
+                "id": "-NQwZeV6mdAkKGJtI3EX"
+            },
+            {
+                "name": "fakesab",
+                "current": " ",
+                "max": "",
+                "id": "-NQwZeV7jb8yKOHcqmAp"
+            },
+            {
+                "name": "fakecar",
+                "current": " ",
+                "max": "",
+                "id": "-NQwZeV8_hgzt-rNSzkc"
+            },
+            {
+                "name": "condicaomodataquecc",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVA29-qvOJZPxDN"
+            },
+            {
+                "name": "condicaomodataquedis",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVBxjPOuk2W9T0W"
+            },
+            {
+                "name": "condicaomodataque",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVBxjPOuk2W9T0X"
+            },
+            {
+                "name": "condicaoperfisico",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVCxfOTxgiURDK6"
+            },
+            {
+                "name": "condicaopermental",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVDidDVbQD6t-hM"
+            },
+            {
+                "name": "condicaopericia",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVEgF08YT7qDb-d"
+            },
+            {
+                "name": "condicaopercepcao",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVFaodrtfVJetRt"
+            },
+            {
+                "name": "condicaoiniciativa",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVGYtuDYYSUncyY"
+            },
+            {
+                "name": "condicaodefesa",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVHUwZIyGcadSAE"
+            },
+            {
+                "name": "condicaoreflexo",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVI1CZWkvA-85eH"
+            },
+            {
+                "name": "condicaocego",
+                "current": 0,
+                "max": "",
+                "id": "-NQwZeVJs0AbcgcQngrv"
+            },
+            {
+                "name": "rollicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVKzw9m4kS55575"
+            },
+            {
+                "name": "attackicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVKzw9m4kS55576"
+            },
+            {
+                "name": "skillsicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVLJ0l1dLxHK-U8"
+            },
+            {
+                "name": "damageicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVMuTBaYStOcq_D"
+            },
+            {
+                "name": "defenseicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVMuTBaYStOcq_E"
+            },
+            {
+                "name": "armoricon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVOQ13WfYTCT7Hr"
+            },
+            {
+                "name": "shieldicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVPjSrSFBBRPZNN"
+            },
+            {
+                "name": "resistsicon",
+                "current": "",
+                "max": "",
+                "id": "-NQwZeVPjSrSFBBRPZNO"
+            },
+            {
+                "name": "cstype",
+                "current": "1",
+                "max": "",
+                "id": "-NQwZen_WFioP4KCAExS"
+            },
+            {
+                "name": "menace_desloc",
+                "current": "voo 12m (8⬜)",
+                "max": "",
+                "id": "-NR4WiCd-ksdeb_08EBE"
+            },
+            {
+                "name": "for",
+                "current": "-9",
+                "max": "",
+                "id": "-OI0hk92NLqUXGjenMLq"
+            },
+            {
+                "name": "des",
+                "current": "3",
+                "max": "",
+                "id": "-OI0hkD5WsdcsC50rw67"
+            },
+            {
+                "name": "con",
+                "current": "0",
+                "max": "",
+                "id": "-OI0hkF-uoLyRz6Vp-0x"
+            },
+            {
+                "name": "int",
+                "current": "1",
+                "max": "",
+                "id": "-OI0hkJ96owDJj9vKQ4Q"
+            },
+            {
+                "name": "sab",
+                "current": "2",
+                "max": "",
+                "id": "-OI0hkOp1sYFjcXpm-X0"
+            },
+            {
+                "name": "car",
+                "current": "4",
+                "max": "",
+                "id": "-OI0hkhwC9FXjfFi0AeN"
+            },
+            {
+                "name": "menace_type_size",
+                "current": "Morto-Vivo Médio Especial",
+                "max": "",
+                "id": "-OI0hmagohBPbFJJtQZS"
+            },
+            {
+                "name": "charnivel",
+                "current": "7",
+                "max": "",
+                "id": "-OXtzkeRfHDfCoh3o1CF"
+            },
+            {
+                "name": "vidatotal",
+                "current": "190",
+                "max": "",
+                "id": "-OXtzpMorT2s21V09Asc"
+            },
+            {
+                "name": "vida",
+                "current": "190",
+                "max": 190,
+                "id": "-OXtzpOnsP9bY4GoS4yx"
+            },
+            {
+                "name": "iniciativa_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXtzqeGIlvdlRuB1MNA"
+            },
+            {
+                "name": "percepcao_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXtzrHqY4hFDHnIpTYr"
+            },
+            {
+                "name": "fortitude_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXtzrxLLUDj3tP3wda5"
+            },
+            {
+                "name": "reflexos_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXtzsshu0j_1Iuw2eJP"
+            },
+            {
+                "name": "reflexosoutros",
+                "current": "4",
+                "max": "",
+                "id": "-OXtzt7QpTxg2eIn7JaB"
+            },
+            {
+                "name": "vontade_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXtztl52aCfYVxL5ChT"
+            },
+            {
+                "name": "vontadeoutros",
+                "current": "11",
+                "max": "",
+                "id": "-OXtzv16CIfDdEcxT9GY"
+            },
+            {
+                "name": "luta_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXtzx3pGRDMdaRsWdH6"
+            },
+            {
+                "name": "lutaatributo2",
+                "current": "@{des_mod} + @{condicaoperfisico} + @{condicaocego}",
+                "max": "",
+                "id": "-OXtzxVfPDkzk_nvgIsm"
+            },
+            {
+                "name": "lutaoutros",
+                "current": "13",
+                "max": "",
+                "id": "-OXtzyRKGH6Zaa-PK17q"
+            },
+            {
+                "name": "repeating_powers_-OXu-2H5zvpYFZzomiDN_namepower",
+                "current": "Incórporeo",
+                "max": "",
+                "id": "-OXu-2H5zvpYFZzomiDO"
+            },
+            {
+                "name": "repeating_powers_-OXu-2H5zvpYFZzomiDN_powerdescription",
+                "current": "A criatura não tem corpo físico. Só pode ser afetada por armas e efeitos mágicos ou outras criaturas incorpóreas. Ela pode atravessar objetos sólidos, mas não manipulá-los, e tem Força nula.",
+                "max": "",
+                "id": "-OXu-2H5zvpYFZzomiDP"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_nomeataque",
+                "current": "Toque Drenante",
+                "max": "",
+                "id": "-OXu-5kBMhZzCsuSUTxp"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_bonusataque",
+                "current": "0",
+                "max": "",
+                "id": "-OXu-5qa2xqwZDqnoWTB"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_danoataque",
+                "current": "6d8",
+                "max": "",
+                "id": "-OXu-6BEXzOkFi0rY4X9"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_danocriticoataque",
+                "current": "6d8 + 6d8 + 0 + 0",
+                "max": "",
+                "id": "-OXu-6Dz4TGkZ7Ir3jky"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_danoextraataque",
+                "current": "0",
+                "max": "",
+                "id": "-OXu-6EJjNhCmcR0rDuG"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_dadoextraataque",
+                "current": "20",
+                "max": "",
+                "id": "-OXu-6sx83hR8l2yBmIt"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_ataquetipodedano",
+                "current": "Trevas",
+                "max": "",
+                "id": "-OXu-7MfhX9cXk2MKHoK"
+            },
+            {
+                "name": "defesaoutros",
+                "current": "16",
+                "max": "",
+                "id": "-OXu-8F7HjliZspEe8sl"
+            },
+            {
+                "name": "repeating_abilities_-OXu-H9q76omKmrKzkyC_nameability",
+                "current": "Assustar (Livre)",
+                "max": "",
+                "id": "-OXu-Hec0J1yPTQfyeAh"
+            },
+            {
+                "name": "repeating_abilities_-OXu-I5qRZLcKqf2BGR7_nameability",
+                "current": "Drenar Vida",
+                "max": "",
+                "id": "-OXu-Iw8q0lIpw7gL-vO"
+            },
+            {
+                "name": "repeating_abilities_-OXu-JOkO41yqW7baIhb_nameability",
+                "current": "Memento",
+                "max": "",
+                "id": "-OXu-JaDaRFHJuKY93Kp"
+            },
+            {
+                "name": "repeating_abilities_-OXu-H9q76omKmrKzkyC_abilitydescription",
+                "current": "O fantasma se revela subitamente, saindo de um esconderijo ou de dentro de um objeto, como um armário ou parede. Ele só pode usar esta habilidade se estiver escondido, e apenas uma vez por cena. Cada criatura em alcance curto capaz de ver o fantasma fica abalada (Von CD 24 evita). Se falhar no teste de Vontade por 5 ou mais, a criatura fica apavorada e, se falhar por 10 ou mais, também envelhece 2d4 anos. Medo.",
+                "max": "",
+                "id": "-OXu-KnFO4fUo9pKkckS"
+            },
+            {
+                "name": "repeating_abilities_-OXu-I5qRZLcKqf2BGR7_abilitydescription",
+                "current": "Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.",
+                "max": "",
+                "id": "-OXu-Lup9X5xUQOZzkUq"
+            },
+            {
+                "name": "repeating_abilities_-OXu-JOkO41yqW7baIhb_abilitydescription",
+                "current": "Um fantasma reduzido a 0 PV desaparece e ressurge 1d4 dias depois. Para derrotá-lo permanentemente é necessário confrontá-lo com aquilo que ainda o prende a este mundo. Quando isso acontece, o fantasma pode ser destruído normalmente.",
+                "max": "",
+                "id": "-OXu-MzhKUoQWSHfD7RP"
+            },
+            {
+                "name": "furtividade_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXu-R1OKE8J26HL4QGa"
+            },
+            {
+                "name": "furtividadeoutros",
+                "current": "5",
+                "max": "",
+                "id": "-OXu-RmC8hcbKq0tdXmm"
+            },
+            {
+                "name": "intimidacao_treinada",
+                "current": "1",
+                "max": "",
+                "id": "-OXu-SaiqUrtDeumjAuY"
+            },
+            {
+                "name": "intimidacaooutros",
+                "current": "2",
+                "max": "",
+                "id": "-OXu-T5_YilOqfy-ctYz"
+            },
+            {
+                "name": "menace_perception",
+                "current": "Visão no escuro",
+                "max": "",
+                "id": "-OXu-Wr2AcCJaC80VRW5"
+            },
+            {
+                "name": "menace_resist",
+                "current": "Incorpóreo",
+                "max": "",
+                "id": "-OXu-YhiKZasQW9IWKz0"
+            },
+            {
+                "name": "repeating_attacks_-OXu-4oV8tSeYekC28TY_ataquedescricao",
+                "current": "**Drenar Vida** Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.",
+                "max": "",
+                "id": "-OXu0Et4zjU6ab9SqFld"
+            },
+            {
+                "name": "repeating_abilities_-OXu2oqgHVb0vJnfiap1_nameability",
+                "current": "Mementos Fantasmagóricos",
+                "max": "",
+                "id": "-OXu2ri5-CLiZMSFyH8q"
+            },
+            {
+                "name": "repeating_abilities_-OXu2oqgHVb0vJnfiap1_abilitydescription",
+                "current": "Cada fantasma tem uma ligação ou um assunto inacabado que o prende ao mundo material. Essa conexão é representada por um memento, um objeto ou lugar diretamente relacionado ao vínculo do fantasma com o mundo dos vivos. Cada fantasma tem um memento, tão único quanto a tragédia que o gerou.\nVocê, mestre, é livre para criar o memento de cada fantasma.",
+                "max": "",
+                "id": "-OXu32c8KFcDCElsiFXH"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxJ_menacenameability",
+                "current": "Imunidades de Mortos-Vivos",
+                "max": "",
+                "id": "-OXyB5768haK1KKy0eeH"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxJ_menaceabilitydescription",
+                "current": "Imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno; sofrem dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recuperam PV com dano de trevas.",
+                "max": "",
+                "id": "-OXyB577RVsmA21odGIm"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxJ_menacenameabilityinput",
+                "current": "Imunidades de Mortos-Vivos",
+                "max": "",
+                "id": "-OXyB577RVsmA21odGIn"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxJ_menaceabilitydescriptioninput",
+                "current": "Imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno; sofrem dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recuperam PV com dano de trevas.",
+                "max": "",
+                "id": "-OXyB578fG0fjUCUh-O0"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxK_menacenameability",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-OXyB579Etbqcv7b225C"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxK_menaceabilitydescription",
+                "current": "A criatura enxerga em escuridão total em alcance curto (exceto mágica). Ela ignora camuflagem total por esse tipo de escuridão.",
+                "max": "",
+                "id": "-OXyB57ADJNbVlNLUAtB"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxK_menacenameabilityinput",
+                "current": "Visão no Escuro",
+                "max": "",
+                "id": "-OXyB57BfGIyPm8yqzO1"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxK_menaceabilitydescriptioninput",
+                "current": "A criatura enxerga em escuridão total em alcance curto (exceto mágica). Ela ignora camuflagem total por esse tipo de escuridão.",
+                "max": "",
+                "id": "-OXyB57BfGIyPm8yqzO2"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxL_menacenameability",
+                "current": "Assustar (Livre)",
+                "max": "",
+                "id": "-OXyB57CrzQvl-8Jv6vj"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxL_menaceabilitydescription",
+                "current": "O fantasma se revela subitamente, saindo de um esconderijo ou de dentro de um objeto, como um armário ou parede. Ele só pode usar esta habilidade se estiver escondido, e apenas uma vez por cena. Cada criatura em alcance curto capaz de ver o fantasma fica abalada (Von CD 24 evita). Se falhar no teste de Vontade por 5 ou mais, a criatura fica apavorada e, se falhar por 10 ou mais, também envelhece 2d4 anos. Medo.",
+                "max": "",
+                "id": "-OXyB57DIYUO6yW_skvy"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxL_menacenameabilityinput",
+                "current": "Assustar (Livre)",
+                "max": "",
+                "id": "-OXyB57DIYUO6yW_skvz"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxL_menaceabilitydescriptioninput",
+                "current": "O fantasma se revela subitamente, saindo de um esconderijo ou de dentro de um objeto, como um armário ou parede. Ele só pode usar esta habilidade se estiver escondido, e apenas uma vez por cena. Cada criatura em alcance curto capaz de ver o fantasma fica abalada (Von CD 24 evita). Se falhar no teste de Vontade por 5 ou mais, a criatura fica apavorada e, se falhar por 10 ou mais, também envelhece 2d4 anos. Medo.",
+                "max": "",
+                "id": "-OXyB57EwMRNWFdBe38M"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxM_menacenameability",
+                "current": "Drenar Vida",
+                "max": "",
+                "id": "-OXyB57FX0efE0HCaav_"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxM_menaceabilitydescription",
+                "current": "Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.",
+                "max": "",
+                "id": "-OXyB57GKvtIZzXkcLLd"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxM_menacenameabilityinput",
+                "current": "Drenar Vida",
+                "max": "",
+                "id": "-OXyB57GKvtIZzXkcLLe"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxM_menaceabilitydescriptioninput",
+                "current": "Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.",
+                "max": "",
+                "id": "-OXyB57HMpMtMfOVeTya"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxN_menacenameability",
+                "current": "Memento",
+                "max": "",
+                "id": "-OXyB57IB8v58eoCE39X"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxN_menaceabilitydescription",
+                "current": "Um fantasma reduzido a 0 PV desaparece e ressurge 1d4 dias depois. Para derrotá-lo permanentemente é necessário confrontá-lo com aquilo que ainda o prende a este mundo. Quando isso acontece, o fantasma pode ser destruído normalmente.",
+                "max": "",
+                "id": "-OXyB57IB8v58eoCE39Y"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxN_menacenameabilityinput",
+                "current": "Memento",
+                "max": "",
+                "id": "-OXyB57JWqPekKDWX4a-"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxN_menaceabilitydescriptioninput",
+                "current": "Um fantasma reduzido a 0 PV desaparece e ressurge 1d4 dias depois. Para derrotá-lo permanentemente é necessário confrontá-lo com aquilo que ainda o prende a este mundo. Quando isso acontece, o fantasma pode ser destruído normalmente.",
+                "max": "",
+                "id": "-OXyB57KxHFZFDaZ_k1g"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxO_menacenameability",
+                "current": "Mementos Fantasmagóricos",
+                "max": "",
+                "id": "-OXyB57KxHFZFDaZ_k1h"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxO_menaceabilitydescription",
+                "current": "Cada fantasma tem uma ligação ou um assunto inacabado que o prende ao mundo material. Essa conexão é representada por um memento, um objeto ou lugar diretamente relacionado ao vínculo do fantasma com o mundo dos vivos. Cada fantasma tem um memento, tão único quanto a tragédia que o gerou.\nVocê, mestre, é livre para criar o memento de cada fantasma.",
+                "max": "",
+                "id": "-OXyB57LS46Q8wxmoi-F"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxO_menacenameabilityinput",
+                "current": "Mementos Fantasmagóricos",
+                "max": "",
+                "id": "-OXyB57MeLOJObAZ2Wqb"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxO_menaceabilitydescriptioninput",
+                "current": "Cada fantasma tem uma ligação ou um assunto inacabado que o prende ao mundo material. Essa conexão é representada por um memento, um objeto ou lugar diretamente relacionado ao vínculo do fantasma com o mundo dos vivos. Cada fantasma tem um memento, tão único quanto a tragédia que o gerou.\nVocê, mestre, é livre para criar o memento de cada fantasma.",
+                "max": "",
+                "id": "-OXyB57MeLOJObAZ2Wqc"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxP_menacenameability",
+                "current": "Incórporeo",
+                "max": "",
+                "id": "-OXyB57N5yC5dkPrVzMS"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxP_menaceabilitydescription",
+                "current": "A criatura não tem corpo físico. Só pode ser afetada por armas e efeitos mágicos ou outras criaturas incorpóreas. Ela pode atravessar objetos sólidos, mas não manipulá-los, e tem Força nula.",
+                "max": "",
+                "id": "-OXyB57ONUmICkLwX8NU"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxP_menacenameabilityinput",
+                "current": "Incórporeo",
+                "max": "",
+                "id": "-OXyB57ONUmICkLwX8NV"
+            },
+            {
+                "name": "repeating_menaceabilities_-OXyB56rGwMFgAnBwHxP_menaceabilitydescriptioninput",
+                "current": "A criatura não tem corpo físico. Só pode ser afetada por armas e efeitos mágicos ou outras criaturas incorpóreas. Ela pode atravessar objetos sólidos, mas não manipulá-los, e tem Força nula.",
+                "max": "",
+                "id": "-OXyB57PNnvTjaqJ1Y0p"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_melee_list",
+                "current": "Toque Drenante",
+                "max": "",
+                "id": "-OXyB57QnG-pQAfhbzml"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_meleedescription",
+                "current": "+23 (6d8+20)",
+                "max": "",
+                "id": "-OXyB57RK-eF78X-oPA-"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_nomeataque",
+                "current": "Toque Drenante",
+                "max": "",
+                "id": "-OXyB57SH4nqMwqPLi0d"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_bonusataque",
+                "current": "0",
+                "max": "",
+                "id": "-OXyB57SH4nqMwqPLi0e"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_danoataque",
+                "current": "6d8",
+                "max": "",
+                "id": "-OXyB57TEeA8tj6g4Nop"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_danoextraataque",
+                "current": 0,
+                "max": "",
+                "id": "-OXyB57UfWlra_4m4iF_"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_dadoextraataque",
+                "current": "20",
+                "max": "",
+                "id": "-OXyB57V-_3pV2xjlh8L"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_margemcriticoataque",
+                "current": "20",
+                "max": "",
+                "id": "-OXyB57V-_3pV2xjlh8M"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_multiplicadorcriticoataque",
+                "current": "2",
+                "max": "",
+                "id": "-OXyB57XEtMWht4kKAZG"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_danocriticoataque",
+                "current": "6d8 + 6d8 + 0 + 0",
+                "max": "",
+                "id": "-OXyB57XEtMWht4kKAZH"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_ataquepericia",
+                "current": "@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}",
+                "max": "",
+                "id": "-OXyB57YOUjgb32-KLnF"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_ataquetipodedano",
+                "current": "Trevas",
+                "max": "",
+                "id": "-OXyB57ZieMq2PqIKIkj"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_modatributodano",
+                "current": "0",
+                "max": "",
+                "id": "-OXyB57ZieMq2PqIKIkk"
+            },
+            {
+                "name": "repeating_menacemelee_-OXyB56uGymYGLYTvlIf_ataquedescricao",
+                "current": "**Drenar Vida** Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.",
+                "max": "",
+                "id": "-OXyB57_e_3Whd0BxIA3"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "🔩Perícias",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Perícia}}{{theroll=?{Perícia: |Acrobacia,Acrobacia[[1d20+@{acrobaciatotal}]]| Adestramento,Adestramento[[1d20+@{adestramentototal}]]| Atletismo,Atletismo[[1d20+@{atletismototal}]]| Atuação,Atuação[[1d20+@{atuacaototal}]]| Cavalgar,Cavalgar[[1d20+@{cavalgartotal}]]| Conhecimento,Conhecimento[[1d20+@{conhecimentototal}]]| Cura,Cura[[1d20+@{curatotal}]]| Diplomacia,Diplomacia[[1d20+@{diplomaciatotal}]]| Enganação,Enganação[[1d20+@{enganacaototal}]]|  Furtividade,Furtividade[[1d20+@{furtividadetotal}]]| Guerra,Guerra[[1d20+@{guerratotal}]]| Intimidação,Intimidação[[1d20+@{intimidacaototal}]]| Intuição,Intuição[[1d20+@{intuicaototal}]]| Investigação,Investigação[[1d20+@{investigacaototal}]]| Jogatina,Jogatina[[1d20+@{jogatinatotal}]]| Ladinagem,Ladinagem[[1d20+@{ladinagemtotal}]]| Luta,Luta[[1d20+@{lutatotal}]]| Misticismo,Misticismo[[1d20+@{misticismototal}]]| Nobreza,Nobreza[[1d20+@{nobrezatotal}]]| Ofício,Oficio [[1d20+@{oficiototal}]]|Ofício2,Oficio2[[1d20+@{oficio2total}]]| Percepção,Percepção[[1d20+@{percepcaototal}]]| Pilotagem,Pilotagem[[1d20+@{pilotagemtotal}]]| Pontaria,Pontaria[[1d20+@{pontariatotal}]]|\nReligião,Religião[[1d20+@{religiaototal}]]| Sobrevivência,Sobrevivência[[1d20+@{sobrevivenciatotal}]]}}}",
+                "order": -1
+            },
+            {
+                "name": "🏃Iniciativa-🅻",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Iniciativa}}{{theroll=[[1d20 + [[@{iniciativatotal}]] &{tracker}]]}}\n",
+                "order": -1
+            },
+            {
+                "name": "💪Atributos",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Atributo}}{{theroll=?{Atributo: |Força,Força[[1d20+@{for_mod}]]| Destreza,Destreza[[1d20+@{des_mod}]]| Constituição,Constituição[[1d20+@{con_mod}]]| Inteligência,Inteligência[[1d20+@{int_mod}]]| Sabedoria,Sabedoria[[1d20+@{sab_mod}]]| Carisma,Carisma[[1d20+@{car_mod}]]}}}\n",
+                "order": -1
+            },
+            {
+                "name": "⚔️Toque-Drenante-🅿",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20-attack}{{character=@{character_name}}}{{attackname=Toque Drenante}}{{attackroll=[[1d20cs>20+[[@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}]]+0+@{ataquetemp}]]}} {{damageroll=[[(6d8)+20+@{danotemp}+@{rolltemp}]]}} {{criticaldamageroll=[[(12d8)+20+@{danotemp}+@{rolltemp}]]}}{{typeofdamage=Trevas}}{{description=**Drenar Vida** Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.}}",
+                "order": -1
+            },
+            {
+                "name": "⛨Resistências-🆁",
+                "description": "",
+                "istokenaction": true,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Teste de Perícia}}{{theroll=?{Perícia: | Fortitude,Fortitude[[1d20+[[@{fortitudetotal}]]]]|\nReflexos,Reflexos[[1d20+[[@{reflexostotal}]]]]| Vontade,Vontade[[1d20+[[@{vontadetotal}]]]]}}}",
+                "order": -1
+            },
+            {
+                "name": "🎲Dados",
+                "description": "",
+                "istokenaction": false,
+                "action": "&{template:t20}{{character=@{character_name}}}{{rollname=Dados Complementares}}{{theroll=[[?{Dados|1}d?{Dado|1d4,4|1d6,6|1d8,8|1d10,10|1d12,12|1d20,20}+?{Bonus|0}]]}}",
+                "order": -1
+            },
+            {
+                "name": "✨Assustar-🅻",
+                "description": "",
+                "istokenaction": true,
+                "action": "/w gm &{template:t20-info}{{infoname=Assustar (Livre)}}{{description=O fantasma se revela subitamente, saindo de um esconderijo ou de dentro de um objeto, como um armário ou parede. Ele só pode usar esta habilidade se estiver escondido, e apenas uma vez por cena. Cada criatura em alcance curto capaz de ver o fantasma fica abalada (Von CD 24 evita). Se falhar no teste de Vontade por 5 ou mais, a criatura fica apavorada e, se falhar por 10 ou mais, também envelhece 2d4 anos. *Medo*.}}",
+                "order": -1
+            },
+            {
+                "name": "✨Drenar-Vida",
+                "description": "",
+                "istokenaction": true,
+                "action": "/w gm &{template:t20-info}{{infoname=Drenar Vida}}{{description=Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fort CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos.}}",
+                "order": -1
+            },
+            {
+                "name": "✨Memento",
+                "description": "",
+                "istokenaction": true,
+                "action": "/w gm &{template:t20-info}{{infoname=Memento}}{{description=Um fantasma reduzido a 0 PV desaparece e ressurge [[1d4]] dias depois. Para derrotá-lo permanentemente é necessário confrontá-lo com aquilo que ainda o prende a este mundo. Quando isso acontece, o fantasma pode ser destruído normalmente.}}",
+                "order": -1
+            }
+        ]
+    }
+}

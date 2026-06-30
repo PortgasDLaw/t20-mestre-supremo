@@ -405,6 +405,94 @@ SE OS PERSONAGENS LEREM A CARTA EM VOZ ALTA: ficam em silêncio por um momento. 
 Cortinas finas cobrem as janelas deste salão elegantemente decorado, com um lustre de bronze pendurado no teto. Cadeiras estofadas se alinham às paredes, e tapeçarias em vitrais retratam belos homens, mulheres e crianças cantando e tocando instrumentos. Um cravo com um banco repousa no canto noroeste. Perto da lareira está uma grande harpa permanente. Estatuetas de alabastro de dançarinos bem vestidos adornam a lareira — ao inspecionar, vê-se que várias são esculturas de esqueletos bem vestidos.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPLEMENTO (HOMEBREW OPCIONAL) — A Família do Caçador
+
+NOTA DO MESTRE: O Conservatório está vazio no livro. Esta é uma mini-luta de chefe opcional para encher a sala — três fantasmas de uma família que o culto dos Durst sacrificou ("os muitos visitantes que você torturou", conforme a carta de Strahd na Área 9). Não altera o rumo do ato; é conteúdo de mesa. Fichas completas para importar no Roll20 em Docs/Monstros/ (Pai_Viktor, Mae_Anna, Filha_Sofia). Calibrada para ser DIFÍCIL para um grupo de 5 (4 de nível 2 + 1 de nível 3) — leia as válvulas de escape antes de rodar.
+
+QUEM SÃO: Viktor, um caçador de monstros, cruzou as brumas atrás de uma presa e trouxe a esposa (Anna) e a filha pequena (Sofia), achando que conseguiria protegê-las. O culto capturou os três; Viktor foi morto por último, com as próprias armas, vendo tudo. Nenhum aceita que está morto. Agora assombram o Conservatório — onde a família tocava música.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A ISCA — Sofia, a "menina viva" (antes de qualquer combate)
+
+LEIA EM VOZ ALTA (ao se aproximarem da sala): "Antes mesmo de abrir a porta, vocês ouvem: uma melodia frágil e desafinada de caixa de música, e por baixo dela, o choro abafado de uma criança. Lá dentro, o ar gela. Encolhida atrás do banco do cravo, entre os lençóis e a poeira, há uma menininha abraçada a uma boneca de pano. Ela ergue o rosto molhado de lágrimas: 'Vocês... vocês são de verdade? Por favor, não me deixem aqui com eles.'"
+
+Sofia se apresenta como uma vítima viva e PODE ser interpelada normalmente — os jogadores conversam com ela como um NPC. Conduza-a assim:
+- Finge estar perdida e com medo; pede para darem a mão e a levarem para fora ("está tão frio...").
+- Sobre os pais: "O papai fica bravo. A mamãe não para de gritar. Não deixem eles me acharem."
+- Sobre como chegou ali: respostas vagas, infantis, que não fecham (não lembra de "ontem", não sabe há quanto tempo está ali).
+- OBJETIVO DELA: atrair um personagem para ficar adjacente / baixar a guarda. Quando isso acontece (ou se alguém a atacar), ela abre o combate com Toque Faminto + Emboscada (+2d6).
+
+INTUIÇÃO CD 16 — Algo está MUITO errado
+O MESTRE DIZ (a quem passar): "A menina não respira. O ar à volta dela é gélido como um poço. E, se você olhar os pés... eles não tocam o chão. A boneca nos braços dela está podre de décadas — só 'nova' no jeito como ela a segura."
+NA FALHA: A criança parece apenas uma vítima aterrorizada. A compaixão dos jogadores é a arma dela.
+DICA DE RITMO: Se o grupo for gentil e cauteloso, dê a Sofia um instante de hesitação — a mãozinha estendida tremendo — antes do ataque. Humaniza a tragédia e dá a deixa para quem tirou Intuição agir primeiro.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PISTAS E ITENS NA SALA (durante a conversa ou a exploração)
+
+INVESTIGAÇÃO CD 12 — A boneca de pano: o tecido está podre, de décadas — não pertence a nenhuma criança que tenha estado viva ali recentemente.
+
+PERCEPÇÃO CD 10 — O retrato da família (entre as tapeçarias de vitral): um óleo rachado mostra um homem de feições duras com uma faca e uma lanterna, uma mulher, e a MESMA menina do choro. Os olhos das três figuras foram arranhados a faca — vandalismo ritual do culto.
+
+O DIÁRIO DE VIKTOR (jogado sob o cravo, legível por qualquer um que o pegue):
+LEIA EM VOZ ALTA (trechos): "Atravessei a névoa atrás da fera e trouxe minha Anna e minha Sofia comigo. Eu as protegeria em qualquer lugar — essa foi minha vaidade, e minha sentença." ... "Esta casa não nos deixa partir. Mas aprendi uma coisa observando-os pelos cantos: as coisas dos mortos temem a luz e a água consagrada. Se eu tivesse sabido antes."
+O QUE REVELA: a história da família E a dica mecânica das fraquezas (luz / dano sagrado / água benta).
+
+LADINAGEM CD 15 (ou arrombar) — O armário de partituras (parede norte): trancado. Dentro, embrulhados num pano, há 3 frascos de ÁGUA BENTA e um coto de VELA BENTA (fonte de luz sagrada). Plante isto mesmo que o grupo já tenha água benta — garante que até quem não se preparou tenha o recurso para vencer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ÁGUA BENTA CONTRA OS FANTASMAS (lembrete de regra)
+
+Os três são VULNERÁVEIS a luz e dano sagrado (+50%) e seu dano não é físico, então ignora a redução de dano de incorpóreo. Um frasco de água benta arremessado (ação padrão, curta distância) causa 2d10 de dano de luz; o alvo faz Reflexos (CD baseada na Sabedoria do arremessador) para metade. Com a vulnerabilidade, isso vira ~16-17 de dano que atravessa as defesas — é a principal forma de o grupo vencer sem armas mágicas. A vela/tocha benta dá uma fonte de luz que também os incomoda e denuncia a Emboscada de Sofia.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ITEM DE COMBATE — A Caixa de Música da família (no chão, perto da harpa)
+
+Um personagem pode gastar 1 ação padrão para dar corda na caixa de música caída. A canção de ninar evoca a memória da família viva e atinge os três fantasmas:
+- USO ÚNICO. Cada fantasma faz Vontade CD 15; quem falha fica Abalado e perde a reação por 1 rodada (paralisado pela lembrança). Viktor, se falhar, também perde 1 ação naquela rodada.
+- É um "botão de respiro" temático: dá ao grupo uma rodada de alívio, sem anular a luta.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A LUTA EM DUAS FASES
+
+FASE 1 — Sofia + Viktor.
+No instante em que rolar iniciativa, VIKTOR SE MANIFESTA. O MESTRE DIZ: "A temperatura despenca. O cravo começa a tocar sozinho, teclas afundando sob dedos invisíveis. Na soleira surge um homem translúcido de casaco rasgado, uma lanterna fantasma erguida numa das mãos, uma adaga na outra — e atrás dele, a sombra de um cão de caça com olhos de brasa. 'Vocês NÃO vão tocar na minha filha.'" Ele entra já com a aura Presença do Luto ativa e foca quem feriu Sofia.
+
+FASE 2 — Anna chega para proteger.
+GATILHO: quando Sofia cair a 10 PV ou menos (ou na primeira vez que seria destruída). A porta range e ANNA IRROMPE GRITANDO — use o Pranto Lamentoso como entrada (cone, 3d8 + Apavorado). Ela se interpõe na frente da filha. Aqui também dispara o LUTO COMPARTILHADO: se um membro da família for destruído, os outros entram em fúria (+2 em ataque e dano até o fim da cena). É o clímax — segure a Anna até esse momento mesmo que demore, pois a entrada dela vale mais como golpe dramático.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SAÍDA ALTERNATIVA — Encerrar sem matar (premie o grupo esperto)
+
+Os três não conseguem descansar porque NÃO ACEITAM que morreram. Um personagem pode tentar quebrar essa negação: mostrar o RETRATO da família + tocar a CAIXA DE MÚSICA + afirmar a verdade com convicção (Diplomacia ou Vontade CD 18, contestado pela negação deles). No sucesso, os fantasmas se reconhecem, se abraçam e se dissolvem na luz — a luta termina sem mortes. Ótima válvula se o combate azedar, e fecha o arco com tom trágico em vez de simples extermínio.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ESTATÍSTICAS RÁPIDAS (mesa) — fichas completas em Docs/Monstros/
+
+VIKTOR, O CAÇADOR PENITENTE (Pai) — CHEFE. Morto-Vivo Médio Incorpóreo (Fantasma), ND 4. PV 110, Defesa 24, Fort +6 / Ref +9 / Von +10, Iniciativa +9, Percepção +12.
+- Adaga Espectral / Tiro do Caçador (alcance médio): +15 (2d8+10, dano mágico, drena vida = dano).
+- Presença do Luto (aura): início do turno, inimigos a 9m, Vontade CD 18 ou Abalado; já Abalado vira Apavorado.
+- Lanterna das Almas (1/cena): cone 9m, 5d6 de trevas, Reflexos CD 18 metade; revela ocultos/invisíveis.
+- Lobo Espectral (1/cena): invoca um capanga (Defesa 17, 20 PV, mordida +13, 2d6+7).
+- Incorpóreo: RD 5 só contra dano não-mágico; atravessa paredes; voo 9m. Vulnerável a luz/sagrado (+50%).
+
+ANNA, A MÃE PRANTEADORA — Morto-Vivo Médio Incorpóreo (Fantasma), ND 3. PV 70, Defesa 21, Fort +5 / Ref +8 / Von +9, Iniciativa +8, Percepção +10.
+- Toque Gélido: +13 (2d8+7 de frio mágico, drena vida = dano).
+- Pranto Lamentoso (1/cena): cone 9m, Vontade CD 17 — falha = 3d8 psíquico + Apavorado; sucesso = metade, sem medo.
+- Olhar Suplicante (1/cena por criatura): alcance curto, Vontade CD 17 ou Pasmo (sem agir) 1 rodada; quebra se sofrer dano.
+- Incorpóreo (RD 5 não-mágico, voo 9m). Vulnerável a luz/sagrado (+50%).
+
+SOFIA, A MENINA PERDIDA (Filha) — Morto-Vivo Pequeno Incorpóreo (Fantasma), ND 2. PV 35, Defesa 19, Fort +3 / Ref +8 / Von +7, Iniciativa +8, Percepção +7.
+- Toque Faminto: +12 (2d6+5 de trevas mágico, drena vida = dano). EMBOSCADA: +2d6 contra alvo surpreendido.
+- Súplica Enganosa (1/cena por criatura): Vontade CD 16 ou Enfeitiçado 1 rodada (não pode atacá-la).
+- Possessão Fantasmagórica (1/cena): alcance curto, Vontade CD 16 — falha = Confuso 1 rodada e Sofia fica intocável; sucesso = expelida e Vulnerável.
+- Incorpóreo (RD 5 não-mágico, voo 9m), +5 Furtividade. Vulnerável a luz/sagrado (+50%).
+
+VÁLVULAS DE BALANCEAMENTO (se a luta ficar letal demais): a Anna só entra na Fase 2; corte o Lobo Espectral ou a Lanterna das Almas do Viktor; zere a RD 5 se o grupo não tiver NENHUMA fonte de dano mágico/luz; ou ofereça a Saída Alternativa acima como deixa óbvia.
+
+TESOURO: a boneca de pano de Sofia (sem valor — gancho de roleplay); a Lanterna do Caçador de Viktor (revela mortos-vivos ocultos num raio de 6m enquanto acesa); e os 3 frascos de água benta + vela benta do armário de partituras.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Área 11 — Varanda do Segundo Andar**
 Personagens que subam a escadaria de mármore vermelho até sua altura total chegam a uma varanda empoeirada com uma **armadura de placas negras** em pé contra uma parede, envolta em teias de aranha. Esta **armadura animada** ataca assim que recebe dano ou um personagem se aproxima a 1,5 metros dela. Luta até ser destruída.
