@@ -213,6 +213,16 @@ O MESTRE DIZ: "Sob a sujeira de décadas, você distingue manchas escuras no má
 SE PERGUNTAREM DE ONDE VEM O RASTRO: "O rastro sobe a escada até o segundo andar. No topo, há uma mancha maior — onde a pessoa estava parada por algum tempo antes de tentar descer."
 SE TENTAREM RASTREAR A ORIGEM: Sobrevivência CD 12 para seguir o rastro até a Suíte Master (Área 12) no segundo andar — mas o quarto está vazio, empoeirado. Nenhum corpo. O que quer que tenha sangrado aqui desapareceu há muito tempo.
 NA FALHA: O personagem não nota nada além do chão sujo e empoeirado do hall.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CURA ou INVESTIGAÇÃO CD 13 — Mais de Um Sangrou Aqui
+
+O MESTRE DIZ: "Quanto mais você estuda as manchas, menos elas contam uma única história. Sob o rastro que sobe a escada há marcas mais antigas, quase apagadas — arrastadas, sobrepostas, de corpos diferentes. E na base do corrimão, à altura do seu joelho, há uma pequena mão impressa em sangue seco. A mão de uma criança."
+
+SE SEGUIREM AS MARCAS MENORES: as pegadas pequenas não acompanham o rastro adulto até a Suíte Master — sobem alguns degraus e se perdem na direção do segundo andar, como se a criança tivesse corrido para o lugar errado. Somem antes do topo.
+SE PERGUNTAREM DE QUEM PODERIAM SER: os Durst tiveram dois filhos (Rose e Thorn) e um bebê que nunca chegou a nascer. Nada disso explica uma criança sangrando e fugindo escada acima. Alguém mais morreu nesta casa — e não era da família que a construiu.
+NA FALHA: o personagem vê apenas um borrão de sangue velho, sem distinguir mão nenhuma.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
       },
       {
@@ -232,6 +242,30 @@ NA FALHA: O personagem não encontra nada. A casa esconde bem o que não quer se
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SE OS PERSONAGENS EXAMINAM A LAREIRA: "Quando vocês se aproximam da lareira fria e apagada, o silêncio da casa é quebrado por um som vindo de cima — leve, intermitente. Soluços. De criança. Vêm do segundo andar." (É Rose ou Thorn, guiando os personagens para cima.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INVESTIGAÇÃO CD 14 — A Besta Que Não Combina (armário do leste)
+
+Se os personagens abrirem o armário trancado do leste (Ladinagem CD 15):
+O MESTRE DIZ: "Entre as bestas e virotes toscos de caça, uma peça destoa de todas as outras. É uma besta de manufatura estrangeira, mais leve e mais fina que qualquer coisa que um Durst usaria para abater um veado. Ao longo da canaleta onde o virote se encaixa corre uma fileira de runas finíssimas — um grifo arcano gravado no próprio metal, agora apagado e inerte. Presos ao lado, embrulhados em couro, há seis virotes que não combinam com os toscos ao redor: hastes claras, cada uma com seu próprio grifo minúsculo entalhado. Queimada na coronha, uma marca de fabricante: um V sobre a silhueta de uma pequena lanterna."
+
+SE PERGUNTAREM O QUE ISSO SUGERE: quem carregava isto caçava monstros de verdade, não caça de floresta — e sabia gravar magia em aço. A arma está aqui, trancada como um troféu entre lobos empalhados, o que costuma significar que o dono não saiu desta casa com ela. A marca (um V e uma lanterna) não pertence a nenhum brasão dos Durst.
+
+SE UM PERSONAGEM ENCAIXAR UM DOS SEIS VIROTES E MIRAR: "A coronha é gelada ao toque. No instante em que o virote de grifo próprio se assenta na canaleta, ele desperta num brilho pálido e passa a reluzir como se tivesse engolido um raio de sol. Quem quer que tenha forjado isto não caçava feras: caçava coisas que só a luz mata."
+
+NA FALHA: parecem apenas mais armas velhas de caça amontoadas no armário.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOTA DO MESTRE — VIGÍLIA (arma mágica específica menor)
+
+A besta do caçador: uma pista da família (a marca V+lanterna reaparece no Conservatório, Área 10) e uma ferramenta feita para a luta contra os espectros.
+
+- Base: Besta Leve — à distância, proficiência simples, alcance Médio, crítico 19/x2. Ataque com Pontaria. Um disparo por rodada (ação padrão).
+- Melhoria: +2 de dano.
+- Grifo Arcano (na arma): gaste 1 PM ao disparar para consagrar o virote — o dano vira luz (mágico). Sem PM, dispara um virote comum como dano normal (perfuração).
+- Os 6 Virotes Consagrados (grifo próprio): sagrados por natureza; disparam como luz (mágico) SEM gastar PM, de qualquer besta.
+- Dano de um virote consagrado disparado pela Vigília: 1d8+2 de luz (mágico).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -290,6 +324,13 @@ FALHA NA VONTADE: O personagem fica Abalado por 1d4 rounds (–2 em todos os tes
 As lâmpadas a óleo estão fixadas nas paredes deste elegante salão. Pendurado acima da lareira está um retrato emoldurado da família Durst: Gustav e Elisabeth com seus dois filhos sorridentes, Rose e Thorn. Embalado nos braços do pai está um bebê envolto, que a mãe olha com um toque de desprezo. Armaduras em pé flanqueiam portas de madeira nas paredes leste e oeste. Cada armadura segura uma lança e tem um elmo com viseira em forma de cabeça de lobo.
 
 SE OS PERSONAGENS EXAMINAM OS PAINÉIS DAS PAREDES (Percepção CD 12): "Os jovens esculpidos nas portas não estão dançando — estão lutando contra enxames de morcegos. A arte foi deliberadamente perturbadora."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A CANÇÃO DE NINAR (atmosfera — enquanto cruzam o segundo andar)
+
+O MESTRE DIZ: "De algum ponto mais adiante no andar vem um som que não pertence a uma casa morta: uma caixa de música. Uma canção de ninar lenta e desafinada, tocando sozinha em algum cômodo à frente. Quando vocês se aproximam da porta de onde ela parece vir, a melodia desacelera... e para. Como se uma mãozinha tivesse largado a manivela ao ouvir os passos de vocês."
+
+NOTA DO MESTRE: a cantiga vem do Conservatório (Área 10) — é a isca de Sofia e o motivo recorrente desta família, distinto dos soluços de Rose e Thorn. Deixe-a ecoar uma ou duas vezes antes de os personagens chegarem lá, sempre parando quando se aproximam. Não revele a origem: é enigma até a porta se abrir.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -405,11 +446,11 @@ SE OS PERSONAGENS LEREM A CARTA EM VOZ ALTA: ficam em silêncio por um momento. 
 Cortinas finas cobrem as janelas deste salão elegantemente decorado, com um lustre de bronze pendurado no teto. Cadeiras estofadas se alinham às paredes, e tapeçarias em vitrais retratam belos homens, mulheres e crianças cantando e tocando instrumentos. Um cravo com um banco repousa no canto noroeste. Perto da lareira está uma grande harpa permanente. Estatuetas de alabastro de dançarinos bem vestidos adornam a lareira — ao inspecionar, vê-se que várias são esculturas de esqueletos bem vestidos.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-COMPLEMENTO (HOMEBREW OPCIONAL) — A Família do Caçador
+A FAMÍLIA DO CAÇADOR — os fantasmas do Conservatório
 
-NOTA DO MESTRE: O Conservatório está vazio no livro. Esta é uma mini-luta de chefe opcional para encher a sala — três fantasmas de uma família que o culto dos Durst sacrificou ("os muitos visitantes que você torturou", conforme a carta de Strahd na Área 9). Não altera o rumo do ato; é conteúdo de mesa. Fichas completas para importar no Roll20 em Docs/Monstros/ (Pai_Viktor, Mae_Anna, Filha_Sofia). Calibrada para ser DIFÍCIL para um grupo de 5 (4 de nível 2 + 1 de nível 3) — leia as válvulas de escape antes de rodar.
+Este era o cômodo onde a família tocava música, e é aqui que os três permaneceram. Décadas atrás, um caçador de monstros chamado Viktor cruzou as brumas atrás de uma presa e cometeu o erro de trazer consigo a esposa, Anna, e a filha pequena, Sofia — certo de que conseguiria protegê-las em qualquer lugar. O culto dos Durst os capturou como capturava todo visitante (a carta de Strahd na Área 9 fala "dos muitos visitantes que você torturou"). Viktor foi morto por último, com as próprias armas, obrigado a assistir. Nenhum dos três jamais aceitou que morreu: Sofia ainda procura os pais, Anna ainda grita pela filha, e Viktor ainda monta guarda. Se os personagens juntaram as pistas espalhadas pela casa (o rastro de sangue no hall, a besta estrangeira no Covil, a canção de ninar), chegam aqui já sabendo que algo desta família ficou para trás — mas não que ela ainda os espera.
 
-QUEM SÃO: Viktor, um caçador de monstros, cruzou as brumas atrás de uma presa e trouxe a esposa (Anna) e a filha pequena (Sofia), achando que conseguiria protegê-las. O culto capturou os três; Viktor foi morto por último, com as próprias armas, vendo tudo. Nenhum aceita que está morto. Agora assombram o Conservatório — onde a família tocava música.
+NOTA DO MESTRE: encontro pesado para um grupo nível 2-3. Conduza a isca e as duas fases como escrito; as válvulas de balanceamento e a saída sem combate estão no fim desta seção. Fichas para importar no Roll20 em Docs/Monstros/ (Pai_Viktor, Mae_Anna, Filha_Sofia).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 A ISCA — Sofia, a "menina viva" (antes de qualquer combate)
