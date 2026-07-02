@@ -806,7 +806,7 @@ Uma simples mesa de madeira com longos bancos. Ossos humanoides mofados no chão
 **Área 28 — Despensa com Grick**
 Esta alcova abriga um **Grick** que desliza para atacar o primeiro personagem que entrar em seu alcance de 1,5m. PP abaixo de 12 = surpresa. A alcova está vazia (além do Grick).
 
-GRICK (T20, ND 2): PV 27, Defesa 14, Iniciativa +2. Tentáculos +4 (2d6+2 perfurante). Resistência a armas não-mágicas.
+GRICK (T20, ND 2): PV 32, Defesa 14, Iniciativa +2. Tentáculos +4 (2d8+2 perfurante) e Mordida +4 (1d8+2 perfurante). Resistência a armas não-mágicas.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -859,6 +859,8 @@ Os lívidos estão escondidos nas cavidades atrás das paredes de terra. Explode
 ESTATÍSTICAS DOS LÍVIDOS (T20, ND 3 cada):
 PV: 45 | Defesa: 14 | Iniciativa: +2
 - Garra Necrótica +4 (1d6+3 necrótico): Fortitude CD 13 ou PV máx reduzido pelo dano necrótico causado
+- Fedor (Gustav e Elisabeth): criatura que iniciar o turno a até 1,5m do Lívido deve passar em Fortitude CD 13 ou ficar Envenenada (–2 em ataques) até o início de seu próximo turno. Em um sucesso, fica imune ao Fedor daquele Lívido por 24h.
+- Dreno de Vida (só Elisabeth; Recarga 4–6): ataque à distância +6, alcance 9m, 2d8+3 (12) de dano necrótico. Elisabeth recupera PV igual ao dano necrótico causado.
 - Imunes a veneno e doenças. Vulneráveis a dano sagrado.
 
 TESOURO DO BAÚ: Manto da Proteção, 4 Poções de Cura, Cota de Malha, Kit de Refeição, Frasco de Fogo Alquímico, Lanterna de Foco, Ferramentas de Ladrão, e um **Livro de Magias** (capa amarela) com: 1°: Armadura Arcana, Disfarçar, Identificação, Mísseis Mágicos, Proteção Contra o Bem e o Mal; 2°: Arma Mágica, Imobilizar Pessoa, Invisibilidade, Visão no Escuro.
@@ -1943,8 +1945,10 @@ export const BESTIARIO: Monstro[] = [
     sentidos: ['Visão no escuro 18m'],
     ataques: [
       { nome: 'Garra Necrótica', bonus: '+4', dano: '1d6+3', tipo: 'Cortante + Necrótico', descricao: 'Fortitude CD 13 ou PV máximo do alvo reduzido pelo dano necrótico. Redução dura até descanso longo.' },
+      { nome: 'Dreno de Vida (apenas Elisabeth; Recarga 4–6)', bonus: '+6', dano: '2d8+3', tipo: 'Necrótico (à distância, 9m)', descricao: 'Ataque à distância. Elisabeth recupera PV igual ao dano necrótico causado por este ataque.' },
     ],
     habilidades: [
+      { nome: 'Fedor', descricao: 'Gustav e Elisabeth. Criatura que iniciar o turno a até 1,5m do Lívido deve passar em Fortitude CD 13 ou ficar Envenenada (–2 em ataques) até o início de seu próximo turno. Em um sucesso, fica imune ao Fedor daquele Lívido por 24 horas.' },
       { nome: 'Criação de Zumbis (1/dia)', descricao: 'Se matar um humanoide com Garra Necrótica, o alvo levanta como zumbi em 1d4 rounds sob controle do Lívido.' },
       { nome: 'Vulnerabilidade ao Sagrado', descricao: 'Dano sagrado causa dano total (sem resistência).' }
     ],
