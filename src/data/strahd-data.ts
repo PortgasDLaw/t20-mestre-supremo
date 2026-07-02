@@ -450,7 +450,7 @@ A FAMÍLIA DO CAÇADOR — os fantasmas do Conservatório
 
 Este era o cômodo onde a família tocava música, e é aqui que os três permaneceram. Décadas atrás, um caçador de monstros chamado Viktor cruzou as brumas atrás de uma presa e cometeu o erro de trazer consigo a esposa, Anna, e a filha pequena, Sofia — certo de que conseguiria protegê-las em qualquer lugar. O culto dos Durst os capturou como capturava todo visitante (a carta de Strahd na Área 9 fala "dos muitos visitantes que você torturou"). Viktor foi morto por último, com as próprias armas, obrigado a assistir. Nenhum dos três jamais aceitou que morreu: Sofia ainda procura os pais, Anna ainda grita pela filha, e Viktor ainda monta guarda. Se os personagens juntaram as pistas espalhadas pela casa (o rastro de sangue no hall, a besta estrangeira no Covil, a canção de ninar), chegam aqui já sabendo que algo desta família ficou para trás — mas não que ela ainda os espera.
 
-NOTA DO MESTRE: encontro pesado para um grupo nível 2-3. Conduza a isca e as duas fases como escrito; as válvulas de balanceamento e a saída sem combate estão no fim desta seção. Fichas para importar no Roll20 em Docs/Monstros/ (Pai_Viktor, Mae_Anna, Filha_Sofia).
+NOTA DO MESTRE: encontro pesado para um grupo nível 2-3. Conduza a isca e as duas fases como escrito; as válvulas de balanceamento e a saída sem combate estão no fim desta seção.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 A ISCA — Sofia, a "menina viva" (antes de qualquer combate)
@@ -508,7 +508,7 @@ SAÍDA ALTERNATIVA — Encerrar sem matar (premie o grupo esperto)
 Os três não conseguem descansar porque NÃO ACEITAM que morreram. Um personagem pode tentar quebrar essa negação: mostrar o RETRATO da família + tocar a CAIXA DE MÚSICA + afirmar a verdade com convicção (Diplomacia ou Vontade CD 18, contestado pela negação deles). No sucesso, os fantasmas se reconhecem, se abraçam e se dissolvem na luz — a luta termina sem mortes. Ótima válvula se o combate azedar, e fecha o arco com tom trágico em vez de simples extermínio.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ESTATÍSTICAS RÁPIDAS (mesa) — fichas completas em Docs/Monstros/
+ESTATÍSTICAS RÁPIDAS (mesa)
 
 VIKTOR, O CAÇADOR PENITENTE (Pai) — CHEFE. Morto-Vivo Médio Incorpóreo (Fantasma), ND 4. PV 110, Defesa 24, Fort +6 / Ref +9 / Von +10, Iniciativa +9, Percepção +12.
 - Adaga Espectral / Tiro do Caçador (alcance médio): +15 (2d8+10, dano mágico, drena vida = dano).
@@ -576,11 +576,24 @@ Um quarto elegantemente decorado (área 15A) com uma porta levando a outro cômo
 
 A menos que os personagens já a derrotaram no Depósito (Área 18), o **espírito da babá** assombra o quarto como um espectro. O espectro se manifesta e ataca quando um personagem abre a porta para o berçário (área 15B). Assemelha-se a uma jovem aterrorizada e esquelética — não pode falar nem ser interpelada.
 
+ESPECTRO DA BABÁ (T20, ND 1): PV 22, Defesa 12. Toque Necrótico +4 (1d6+2 necrótico). Apenas armas mágicas ou sagradas a afetam.
+
 O quarto contém uma cama grande, duas mesas de canto e um guarda-roupa vazio. Preso na parede ao lado do guarda-roupa há um **espelho de corpo inteiro** com moldura de madeira esculpida para parecer hera e bagas. Quem procura portas secretas ou inspeciona o espelho (Percepção CD 12) percebe **globos oculares** escondidos entre as bagas.
 
 PORTA SECRETA (atrás do espelho de corpo inteiro): Percepção CD 15. Abre facilmente para uma escada de madeira com teias de aranha que leva até o sótão.
 
-O berçário tem um berço coberto com uma mortalha negra. Quando os personagens desenrolam o sudário, veem um pacote firmemente embrulhado do tamanho de um bebê — mas não há nada dentro.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Área 15B — Berçário (dentro da Suíte da Babá)**
+O berçário fica atrás de uma porta dentro do quarto da babá (Área 15A). O espectro da babá se manifesta e ataca quando um personagem abre esta porta.
+
+O berçário contém um berço coberto com uma mortalha negra. Quando os personagens desenrolam o sudário, veem um pacote firmemente embrulhado do tamanho de um bebê deitado no berço. Quem desembrulhar o cobertor não encontra nada dentro — o berço está vazio.
+
+SE ROSE E THORN ESTÃO AQUI: Rose para na entrada. Em voz muito baixa, quase para si mesma: "Walter dormia aqui. Ele chorava muito à noite. Mamãe dizia que era cólica." Thorn fica atrás dela, não entra no quarto.
+
+SE PERGUNTAREM QUEM ERA WALTER: "A carta de Strahd na Sala Secreta (Área 9) menciona que Gustav 'gerou um filho natimorto'. Walter era o bebê da babá — e os Durst o usaram no ritual do culto. A cripta de Walter (Área 23B) na masmorra está vazia, assim como este berço."
+
+REAÇÃO DE ROSE E THORN SE OS PERSONAGENS CONCLUÍREM ISSO EM VOZ ALTA: Rose olha para o berço por um longo momento. "Não sabíamos," ela diz, finalmente. "Não sabíamos o que papai e mamãe faziam."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -658,92 +671,7 @@ LEIA EM VOZ ALTA: "'Mamãe e Papai foram para o porão e não voltaram. Faz trê
 
 SE PERGUNTAREM SE HÁ MAIS: "As últimas páginas escritas têm apenas: 'A casa faz barulhos à noite. Não saímos mais dos quartos.' Depois disso, as páginas estão em branco."
 NA FALHA: O personagem não encontra o diário embaixo da cama.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Área 15B — Berçário (dentro da Suíte da Babá)**
-O berçário fica atrás de uma porta dentro do quarto da babá (Área 15A). O espectro da babá se manifesta e ataca quando um personagem abre esta porta.
-
-O berçário contém um berço coberto com uma mortalha negra. Quando os personagens desenrolam o sudário, veem um pacote firmemente embrulhado do tamanho de um bebê deitado no berço. Quem desembrulhar o cobertor não encontra nada dentro — o berço está vazio.
-
-SE ROSE E THORN ESTÃO AQUI: Rose para na entrada. Em voz muito baixa, quase para si mesma: "Walter dormia aqui. Ele chorava muito à noite. Mamãe dizia que era cólica." Thorn fica atrás dela, não entra no quarto.
-
-SE PERGUNTAREM QUEM ERA WALTER: "A carta de Strahd na Sala Secreta (Área 9) menciona que Gustav 'gerou um filho natimorto'. Walter era o bebê da babá — e os Durst o usaram no ritual do culto. A cripta de Walter (Área 23B) na masmorra está vazia, assim como este berço."
-
-REAÇÃO DE ROSE E THORN SE OS PERSONAGENS CONCLUÍREM ISSO EM VOZ ALTA: Rose olha para o berço por um longo momento. "Não sabíamos," ela diz, finalmente. "Não sabíamos o que papai e mamãe faziam."
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
-      },
-      {
-        id: 'terceiro-andar',
-        titulo: 'Áreas 12-21: Segundo/Terceiro Andares e Sótão — Pontos Narrativos',
-        tipo: 'exploration',
-        conteudo: `NOTA DO MESTRE: As áreas numeradas (12-21) já foram descritas na seção anterior com a numeração correta do livro original. Esta seção contém os scripts narrativos detalhados para os pontos de maior impacto emocional.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**QUARTO PRINCIPAL (Área 12) — Tesouro e Pistas**
-O quarto dos Durst está empoeirado e cheio de teias de aranha. Os Durst NÃO estão aqui — seus corpos (como Lívidos) aguardam na masmorra (Área 34), onde protegem o baú com os tesouros do culto.
-
-TESOURO DA PENTEADEIRA — Caixa de joias de prata com filigrana de ouro (75 PO), contendo três anéis de ouro (25 PO cada) e um colar de platina com pingente de topázio (750 PO). Esses itens apodrecem se retirados da casa.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**SUÍTE DA BABÁ (Área 15) — Espectro**
-O espectro da babá ataca ao abrir a porta do berçário. Não pode falar nem ser interpelada — é pura fúria residual. ND 1, PV 22, Defesa 12. Apenas armas mágicas ou sagradas a afetam. Toque Necrótico +4 (1d6+2 dano).
-
-SE ROSE E THORN ESTIVEREM COM OS PERSONAGENS neste momento: elas param na entrada e não entram. Thorn sussurra para Rose: "Eu ouvia choro aqui à noite." Rose não responde.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**SÓTÃO — DEPÓSITO COM RESTOS DA BABÁ (Área 18)**
-Os restos da babá revelam (Medicina CD 14): morte por múltiplas facadas. Perturbá-los invoca o espectro se ainda não foi derrotado.
-
-SE PERGUNTAREM QUEM A MATOU: Pelas evidências nos diários e cartas, Elisabeth Durst descobriu o caso do marido com a babá. A babá foi morta pelo culto após o nascimento de Walter.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**SÓTÃO — QUARTO DAS CRIANÇAS (Área 20) — SCRIPT EMOCIONAL**
-
-DESCRIÇÃO AO ENTRAR (Leia em Voz Alta):
-"Quando a porta do quarto finalmente cede, o que vocês encontram é pior do que qualquer monstro que possam ter imaginado. Dois esqueletos pequenos jazem no meio do chão — crianças, pelas dimensões dos ossos, usando roupas que vocês reconhecem das figuras que encontraram lá fora. O menor dos esqueletos ainda abraça uma boneca de pelúcia. Entre as duas camas infantis e os brinquedos empilhados, a única coisa que ainda se mantém intacta é uma casa de bonecas — uma réplica perfeita desta mansão. Em detalhes assustadores."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INVESTIGAÇÃO CD 10 — O Diário de Rose
-
-O MESTRE DIZ: "Embaixo dos restos da cama de Rose, entre os brinquedos empurrados para trás, você encontra um diário pequeno com uma capa de couro cor-de-rosa desbotado. A caligrafia é infantil mas aplicada. As entradas mais recentes:"
-
-LEIA EM VOZ ALTA: "'Mamãe e Papai foram para o porão e não voltaram. Faz três dias. Thorn e eu batemos na porta mas ela não abre. Thorn está com medo. Eu também estou, mas não posso mostrar porque sou a mais velha.' — Entrada seguinte, caligrafia mais tremida: 'Tentamos jantar com o que tinha na cozinha. Estamos com fome. Onde estão mamãe e papai?'"
-
-SE PERGUNTAREM SE HÁ MAIS: "As últimas páginas escritas têm apenas: 'A casa faz barulhos à noite. Não saímos mais dos quartos.' Depois disso, as páginas estão em branco."
-NA FALHA: O personagem não encontra o diário entre os destroços.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**MASMORRA — QUARTO DOS LÍDERES DO CULTO (Área 34) — OS LÍVIDOS**
-ATENÇÃO: Gustav e Elisabeth Durst estão aqui, como Lívidos (mortos-vivos com inteligência), escondidos nas cavidades atrás das paredes de terra. Eles explodem e atacam se alguém remove itens do baú neste quarto.
-
-ESTATÍSTICAS DOS LÍVIDOS (adaptados para T20, ND 3 cada):
-PV: 45 | Defesa: 14 | Iniciativa: +2 | Deslocamento: 9m
-- Garra +4 (1d6+3 necrótico): o alvo faz Fortitude CD 13 ou tem seu PV máximo reduzido pelo dano necrótico causado.
-- Imunes a veneno e doenças. Vulneráveis a dano sagrado.
-
-TESOURO NO BAÚ (Área 34): Manto da Proteção, 4 Poções de Cura, Cota de Malha, Kit de Refeição, Frasco de Fogo Alquímico, Lanterna de Foco, Ferramentas de Ladrão, e um Livro de Magias (capa amarela) com: Armadura Arcana, Disfarçar, Identificação, Mísseis Mágicos, Proteção Contra o Bem e o Mal (1° círculo); Arma Mágica, Imobilizar Pessoa, Invisibilidade, Visão no Escuro (2° círculo).
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**MASMORRA — SANTUÁRIO DO SENHOR NEGRO (Área 31) — AS SOMBRAS**
-Uma estátua de madeira pintada retrata Strahd — um homem magro e pálido de capa preta, mão esquerda apoiada na cabeça de um lobo, mão direita segurando uma esfera de cristal cinza esfumaçado. O orbe vale 25 PO e pode ser usado como foco arcano (não é mágico).
-
-Se os personagens tocarem a estátua ou tomarem a esfera: **5 Sombras** (espíritos de antigos cultistas) se formam ao redor e atacam. Perseguem quem fugir além dos limites da sala.
-
-SOMBRAS (T20, ND 1/2 cada): PV 16, Defesa 12, Toque de Força de Vida +4 (1d6+2 necrótico, reduz FOR do alvo pelo dano — alvo morre se FOR chegar a 0). Imunes a armas não-mágicas. Vulneráveis a dano sagrado.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**MASMORRA — CÂMARA DO RITUAL (Área 38) — O CLÍMAX**
-Esta é a câmara final. Ver seção separada.`
       },
       {
         id: 'porcao-masmorra',
@@ -832,7 +760,9 @@ Escada de 6m que leva ao segundo nível subterrâneo. O canto se origina clarame
 **Área 31 — O Santuário do Senhor Negro**
 Esqueletos mofados pendem de grilhões enferrujados nas paredes (decoração inofensiva). No centro, uma grande alcova contém uma estátua de madeira pintada de Strahd — homem magro e pálido com capa preta, mão esquerda apoiada na cabeça de um lobo, mão direita segurando uma **esfera de cristal cinza esfumaçado** (25 PO, foco arcano não-mágico).
 
-Se os personagens tocarem a estátua ou tomarem a esfera: **5 Sombras** emergem e atacam (ver estatísticas na seção do Terceiro Andar). As Sombras perseguem além dos limites da sala.
+Se os personagens tocarem a estátua ou tomarem a esfera: **5 Sombras** emergem e atacam. As Sombras perseguem além dos limites da sala.
+
+SOMBRAS (T20, ND 1/2 cada): PV 16, Defesa 12, Toque de Força de Vida +4 (1d6+2 necrótico, reduz FOR do alvo pelo dano — alvo morre se FOR chegar a 0). Imunes a armas não-mágicas. Vulneráveis a dano sagrado.
 
 PORTA ESCONDIDA (Percepção CD 10): Porta de madeira apodrecida sob camada de argila na parede leste. Abre para escadaria de pedra que sobe 3m até a Área 32.
 
@@ -855,6 +785,8 @@ Uma grande cama de madeira com colchão de pena, guarda-roupa com vestes antigas
 
 **ENCONTRO — OS LÍVIDOS: Gustav e Elisabeth Durst**
 Os lívidos estão escondidos nas cavidades atrás das paredes de terra. Explodem e atacam se qualquer item for removido do baú.
+
+FUGA PARA A CÂMARA (regra da campanha): os Durst NÃO lutam até a morte. Quando qualquer um dos dois é reduzido a ¼ dos PV (11 ou menos), ambos rompem o combate e fogem descendo pelos túneis submersos até a Câmara do Ritual (Área 38). Lá eles NÃO voltam a lutar — recebem os personagens com súplicas para completar o ritual (ver Área 38). Se o combate final acontecer mesmo assim, os Durst se fundem a Lorghoth ("LORGHOTH FUNDIDO", Área 38). Se os personagens os destruírem aqui na Área 34 antes que fujam, não há fusão: Lorghoth desperta sozinho, com o bloco padrão.
 
 ESTATÍSTICAS DOS LÍVIDOS (T20, ND 3 cada):
 PV: 45 | Defesa: 14 | Iniciativa: +2
@@ -921,7 +853,36 @@ Religião ou Intuição CD 11 para entender o que é exigido. Uma criatura deve 
 - AO SAIR: os personagens avançam para o Nível 4.
 
 **OPÇÃO 2 — NEGAR O CULTO (Recusar o sacrifício):**
-Se os personagens deixam o estrado sem fazer o sacrifício, o canto muda: "Lorghoth, o Decadente, nós o despertamos, levanta-te!" O Arbusto Errante desperta e ataca. Se os personagens fugirem para o andar superior, a Casa os ataca (ver seção da Fuga). Se Lorghoth for destruído, o canto para e as aparições desaparecem para sempre.
+Se os personagens deixam o estrado sem fazer o sacrifício, o canto muda: "Lorghoth, o Decadente, nós o despertamos, levanta-te!" O Arbusto Errante desperta e ataca. Se os personagens fugirem para o andar superior, a Casa os ataca (ver seção da Fuga). Se Lorghoth for destruído, o canto para e as aparições desaparecem para sempre. NOTA: se Gustav e Elisabeth fugiram para cá (ver Área 34), é o LORGHOTH FUNDIDO que se ergue no lugar do Arbusto Errante comum (bloco abaixo).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OS DURST NA CÂMARA — AS SÚPLICAS (adaptação da campanha)
+
+Se os Lívidos fugiram da Área 34, eles chegam aqui antes dos personagens e NÃO lutam. Gustav e Elisabeth se arrastam para as bordas de pedra, arruinados, e imploram — não com ódio, mas com desespero — que os personagens "terminem o que começamos". Intercale estas falas durante a cena "Um deve morrer":
+
+- GUSTAV: "Por favor... só mais uma vida. Uma só. Foi assim que compramos cada mês de favor. Vocês não sabem o que Ele nos faz quando o altar seca."
+- ELISABETH: "Nós tínhamos filhos. Rose. Thorn. E... Walter. Perdemos tudo por este rito. Não deixem que tenha sido por nada — completem-no, e a casa os deixa partir. Eu juro."
+- GUSTAV (se recusarem): "Então vocês nos condenam junto de vocês."
+- ELISABETH (se alguém pronunciar o nome de Walter): ela vacila; por um instante a mãe volta ao rosto do Lívido. Intuição CD 13 percebe que parte dela quer que os personagens digam NÃO.
+
+As súplicas NÃO têm efeito mecânico de compulsão — são pressão narrativa sobre a escolha entre a OPÇÃO 1 e a OPÇÃO 2.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LORGHOTH FUNDIDO — O CLÍMAX (se houver combate final)
+
+Se os personagens NEGAM o ritual (OPÇÃO 2) com os Durst presentes, os corpos dos dois Lívidos são sugados para dentro do montículo de Lorghoth: os três se fundem numa única aberração. Os rostos de Gustav e Elisabeth afundam na massa apodrecida e continuam a sussurrar enquanto ela ataca. (Se os Durst já haviam sido destruídos na Área 34, use o bloco padrão do Arbusto Errante acima.)
+
+LORGHOTH FUNDIDO (T20, clímax — ND ~5, MUITO letal para Nível 3):
+PV: 120 | Defesa: 14 | Iniciativa: +1 | Deslocamento: 9m (espreme-se em túneis)
+- Ramadas +6 (2d6+4 impacto) — dois ataques por rodada
+- Garra Necrótica +6 (1d6+3 necrótico): Fortitude CD 13 ou PV máx do alvo reduzido pelo dano necrótico causado (herança dos Lívidos fundidos)
+- Dreno de Vida (Recarga 4–6): ataque à distância +6, alcance 9m, 2d8+3 necrótico; Lorghoth recupera PV igual ao dano causado
+- Fedor: criatura que inicia o turno a até 1,5m — Fortitude CD 13 ou Envenenada (–2 em ataques) até o início de seu próximo turno
+- Espinhos (reação): 1d4+2 perfurante quando atingido em corpo-a-corpo
+- Regeneração: 10 PV por turno se tiver ≥1 PV (anulada por fogo ou ácido)
+- Vulnerável a dano sagrado (dano cheio)
+
+Quando o Lorghoth Fundido é destruído, o canto cessa para sempre e as aparições — e os fantasmas de Rose e Thorn — enfim se desfazem. Ajuste PV/CDs se o grupo for menor ou maior.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 POSSESSÃO DE ROSE E THORN
